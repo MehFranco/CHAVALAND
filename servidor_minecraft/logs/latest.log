@@ -924,3 +924,48 @@ https://www.spigotmc.org/resources/58434/update?update=560677
 [19:18:00] [Server thread/INFO]: TonyTonyyy issued server command: /menu
 [19:18:08] [Server thread/INFO]: TonyTonyyy issued server command: /gandalf2
 [19:18:08] [Server thread/INFO]: TonyTonyyy issued mycmd (Gandalf2) command /gandalf2
+[19:18:09] [Server thread/INFO]: TonyTonyyy issued server command: /gandalf3
+[19:18:09] [Server thread/INFO]: TonyTonyyy issued mycmd (Gandalf3) command /gandalf3
+[19:18:13] [Server thread/INFO]: TonyTonyyy issued server command: /warps
+[19:18:15] [Server thread/INFO]: TonyTonyyy issued server command: /rtp
+[19:18:29] [luckperms-command-executor/INFO]: [LP] Set reward.ready.2 to true for TonyTonyyy in context global.
+[19:18:32] [Server thread/INFO]:  TonyTonyyy has been tp'd to x=1681 y=96 z=-337 in 1 attempts!
+[19:19:03] [Server thread/INFO]: MehFranco issued server command: /jb skcassian \\ forms open cassian
+[19:19:03] [Server thread/INFO]: MehFranco issued mycmd (Cassian) command /cassian
+[19:19:06] [Server thread/INFO]: MehFranco issued server command: /cassian2
+[19:19:06] [Server thread/INFO]: MehFranco issued mycmd (Cassian2) command /cassian2
+[19:19:10] [Server thread/INFO]: MehFranco issued server command: /rewards
+[19:19:12] [Server thread/INFO]: TonyTonyyy issued server command: /menu
+[19:19:26] [Server thread/INFO]: MehFranco issued server command: /home
+[19:19:46] [Server thread/INFO]: TonyTonyyy issued server command: /menu
+[19:20:29] [luckperms-command-executor/INFO]: [LP] Set reward.ready.3 to true for TonyTonyyy in context global.
+[19:21:07] [luckperms-command-executor/INFO]: [LP] Set reward.ready.16 to true for MehFranco in context global.
+[19:21:24] [Server thread/INFO]: TonyTonyyy issued server command: /menu
+[19:21:32] [Server thread/INFO]: TonyTonyyy issued server command: /menu
+[19:22:06] [Server thread/INFO]: MehFranco issued server command: /menu
+[19:22:10] [Server thread/INFO]: MehFranco issued server command: /menu
+[19:22:13] [Server thread/INFO]: MehFranco issued server command: /menu
+[19:22:21] [Server thread/INFO]: MehFranco issued server command: /menu
+[19:22:47] [Server thread/INFO]: TonyTonyyy issued server command: /jb skcassian \\ forms open cassian
+[19:22:47] [Server thread/INFO]: TonyTonyyy issued mycmd (Cassian) command /cassian
+[19:22:56] [Server thread/INFO]: TonyTonyyy issued server command: /jb skpetra \\ forms open petra_1
+[19:22:56] [Server thread/INFO]: TonyTonyyy issued mycmd (Petra) command /petra
+[19:23:21] [Server thread/INFO]: MehFranco issued server command: /lp user TonyTonyyy parent set vip
+[19:23:29] [luckperms-command-executor/INFO]: [LP] A user for username could not be found.
+[19:23:39] [Server thread/INFO]: Made MehFranco a server operator
+[19:23:58] [Server thread/INFO]: MehFranco issued server command: /lp user TonyTonyyy parent set vip
+[19:23:58] [luckperms-command-executor/INFO]: [LP] LOG > (MehFranco) [U] (TonyTonyyy)
+[19:23:58] [luckperms-command-executor/INFO]: [LP] LOG > parent set vip
+[19:24:07] [Server thread/INFO]: TonyTonyyy issued server command: /jb skmarcus \\ forms open marcus
+[19:24:07] [Server thread/INFO]: TonyTonyyy issued mycmd (Marcus) command /marcus
+[19:24:24] [Server thread/INFO]: MehFranco issued server command: /menu
+[19:24:41] [Server thread/INFO]: MehFranco issued server command: /spawn
+[19:24:45] [Server thread/INFO]: MehFranco issued server command: /home
+[19:25:06] [Server thread/INFO]: TonyTonyyy issued server command: /spawn
+[19:25:21] [Server thread/INFO]: TonyTonyyy issued server command: /jb sksylvia \\ forms open sylvia
+[19:25:21] [Server thread/INFO]: TonyTonyyy issued mycmd (Sylvia) command /sylvia
+[19:25:29] [luckperms-command-executor/INFO]: [LP] Set reward.ready.4 to true for TonyTonyyy in context global.
+[19:26:12] [Server thread/INFO]: TonyTonyyy issued server command: /misions
+[19:26:17] [Server thread/INFO]: TonyTonyyy issued server command: /m
+[19:26:30] [Server thread/INFO]: TonyTonyyy issued server command: /menu
+[19:26:37] [Server thread/INFO]: TonyTonyyy lost connection: Disconnected

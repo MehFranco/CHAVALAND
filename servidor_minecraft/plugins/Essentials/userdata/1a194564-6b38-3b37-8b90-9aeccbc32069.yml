@@ -11,22 +11,30 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1736536644605
+  lastteleport: 1736537110955
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1736537197865
   login: 1736536529469
   kits:
     adventurer: 1736536532419
-money: '2500'
+money: '2000.0'
 last-account-name: TonyTonyyy
 lastlocation:
   world: 65687d50-08cd-45f0-88e6-1c9a9b15d682
   world-name: world
-  x: -93.5
+  x: -117.97246449437723
   y: 64.0
-  z: -20.5
-  yaw: 57.60997772216797
-  pitch: 10.799903869628906
+  z: -31.07785105855459
+  yaw: 160.35089111328125
+  pitch: 21.899980545043945
+logoutlocation:
+  world: 65687d50-08cd-45f0-88e6-1c9a9b15d682
+  world-name: world
+  x: -8.076889208522003
+  y: 71.5
+  z: -88.10750730519455
+  yaw: 61.49993896484375
+  pitch: 20.399991989135742

@@ -1,7 +1,10 @@
 uuid: 1a194564-6b38-3b37-8b90-9aeccbc32069
 name: TonyTonyyy
-primary-group: default
+primary-group: vip
 permissions:
 - reward.ready.1
+- reward.ready.2
+- reward.ready.3
+- reward.ready.4
 parents:
-- default
+- vip

@@ -43,3 +43,5 @@
 2025-01-10 17:38:10 [INFO]: Queueing paused, max queue limit reached!
 2025-01-10 18:20:41 [INFO]: CONSOLE executed: /betterrtp player MehFranco playworld
 2025-01-10 18:20:43 [INFO]: -Removed a queue Location{world=CraftWorld{name=playworld},x=-473.5,y=63.0,z=-1086.5,pitch=19.499899,yaw=92.413246}
+2025-01-10 19:18:26 [INFO]: CONSOLE executed: /betterrtp player TonyTonyyy playworld
+2025-01-10 19:18:32 [INFO]: -Removed a queue Location{world=CraftWorld{name=playworld},x=1681.5,y=96.0,z=-336.5,pitch=-4.800095,yaw=75.155235}
