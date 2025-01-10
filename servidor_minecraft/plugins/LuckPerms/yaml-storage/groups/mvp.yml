@@ -1,0 +1,38 @@
+name: mvp
+permissions:
+- angelchest.protect.ignore
+- angelchest.tp
+- angelchest.use
+- auctionmaster.limit.auctions.18
+- auctionmaster.limit.duration.24
+- betterrtp.bypass.cooldown
+- chatmanager.bypass.mutechat
+- chatmanager.toggle.chat
+- chatmanager.toggle.mentions
+- displayname.&#0ca5bdᴍᴠᴘ
+- dreamcore.editablesigns.use
+- dreamcore.hat.use
+- dreammoving.crawling.use
+- essentials.back
+- essentials.enderchest
+- essentials.itemlore
+- essentials.jump
+- essentials.kits.mvp
+- essentials.near
+- pci.anvil
+- pci.brewing
+- pci.furnace
+- pci.smithingtable
+- ultimateclaims.ban
+- ultimateclaims.home
+- ultimateclaims.maxclaims.21
+- ultimateclaims.sethome
+- ultimateclaims.toggle.firespread
+- ultimateclaims.toggle.hostilemobspawning
+- ultimateclaims.unban
+- weight.750
+parents:
+- vip
+prefixes:
+- '&f#0ca5bd':
+    priority: 750

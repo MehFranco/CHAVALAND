@@ -1,0 +1,1068 @@
+Name: '&cDiversity Crate'
+Animation_Config: diversity
+Preview_Config: diversity
+Permission_Required: false
+Attached_Citizens: ''
+Opening:
+  Cooldown: 15
+Key:
+  Ids:
+  - diversity
+  # Sets whether or not keys are required to open this crate.
+  Required: true
+Block:
+  Pushback:
+    Enabled: false
+  Hologram:
+    Enabled: true
+    Template: diversity
+    Y_Offset: 0.0
+  Effect:
+    Model: SIMPLE
+    Particle:
+      Name: 'null'
+  Positions:
+  - -63,66,14,world
+Rewards:
+  List:
+    coal_block:
+      Name: Netherite Sword
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 180002g019hmurbgdtn6arjkec5005jdd5n6aoric5j78ej5dphmgobeehmmarjkec5001jcclr6ar3j0c016rb9dpim6sj1cpq3ksr8c5p70rj5edpg0000041g04rdd5n6aoric5j78ejbdpnm6qr2c5hmm000000g00000c00aorfeln78000000gg002d5i006bdd5n6aoric5j78ejeclq6gpbid5q6anrjetnn4p00
+      Commands: []
+      Items:
+      - 180002g019hmurbgdtn6arjkec5005jdd5n6aoric5j78ej5dphmgobeehmmarjkec5001jcclr6ar3j0c016rb9dpim6sj1cpq3ksr8c5p70rj5edpg0000041g04rdd5n6aoric5j78ejbdpnm6qr2c5hmm000000g00000c00aorfeln78000000gg002d5i006bdd5n6aoric5j78ejeclq6gpbid5q6anrjetnn4p00
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 8.0
+      Placeholder_Apply: false
+    obsidian:
+      Name: Netherite Pickaxe
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0005002j3dtmn0rrecln78soa00b6qqbeclhn4ob6egt6arj3d1gmst3dcln78soa0036opbmclm760o02hmmirj5cdp62pjk79qmsojiclgmmqbecs000001000000o00lhmutbeeg00000110004qb400dmqqbeclhn4ob6egt6spbkd1in4qbkclfn0qb3ddgngp80
+      Commands: []
+      Items:
+      - 2g0005002j3dtmn0rrecln78soa00b6qqbeclhn4ob6egt6arj3d1gmst3dcln78soa0036opbmclm760o02hmmirj5cdp62pjk79qmsojiclgmmqbecs000001000000o00lhmutbeeg00000110004qb400dmqqbeclhn4ob6egt6spbkd1in4qbkclfn0qb3ddgngp80
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 7.0
+      Placeholder_Apply: false
+    gold_block:
+      Name: Diamond Axe
+      Chance: 22.0
+      Rarity: common
+      Broadcast: false
+      Preview: k0001800korfdlo6urj5dpq762g02pmmirj5cdp62pjk79imsor8c5n78rb5dpq762g00pm6atj5dhpg600kdlkmspb3e9gmct1qeln64sj5c5lmirj7000000g300a6qqbeclhn4ob6egt6apj6d5hmipbecdsg00000c000003002m6rrldpq00000044000j9cg01arb9dpim6sj1cpq3kp39c5mmurj4btgngp80
+      Commands: []
+      Items:
+      - k0001800korfdlo6urj5dpq762g02pmmirj5cdp62pjk79imsor8c5n78rb5dpq762g00pm6atj5dhpg600kdlkmspb3e9gmct1qeln64sj5c5lmirj7000000g300a6qqbeclhn4ob6egt6apj6d5hmipbecdsg00000c000003002m6rrldpq00000044000j9cg01arb9dpim6sj1cpq3kp39c5mmurj4btgngp80
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 13.0
+      Placeholder_Apply: false
+    oxidized_copper:
+      Name: Netherite Shovel
+      Chance: 22.0
+      Rarity: common
+      Broadcast: false
+      Preview: k0001800korfdlo6urj5dpq762g02pmmirj5cdp62pjk79imsor8c5n78rb5dpq762g00pm6atj5dhpg600kdlkmspb3e9gmct1qeln64sj5c5lmirj70000008300a6qqbeclhn4ob6egt6apj6d5hmipbecdsg00000c000003002m6rrldpq00000044000j9cg01krb9dpim6sj1cpq3krj5ehk6asj9ehilusr8dtr6ar00
+      Commands: []
+      Items:
+      - k0001800korfdlo6urj5dpq762g02pmmirj5cdp62pjk79imsor8c5n78rb5dpq762g00pm6atj5dhpg600kdlkmspb3e9gmct1qeln64sj5c5lmirj70000008300a6qqbeclhn4ob6egt6apj6d5hmipbecdsg00000c000003002m6rrldpq00000044000j9cg01krb9dpim6sj1cpq3krj5ehk6asj9ehilusr8dtr6ar00
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 10.0
+      Placeholder_Apply: false
+    diamond_block:
+      Name: Bow
+      Chance: 18.0
+      Rarity: common
+      Broadcast: false
+      Preview: 50000a00566rrde1nmspbeehpgk00mdlkmspb3e9gmct1qcln66q31dpq6qpbeehpgk006dhincpbcec1g03rdd5n6aoric5j78ejgeln66q00000040o01tmmirj5cdp62pjk79o6utr5e80000050c00urb9dpim6sj1cpq3kpjcc5mma000000g600kdlkmspb3e9gmct1qeln64sj5c5lmirj7000000o000006005cdnnarjk000000880016ip001lmmirj5cdp62pjk79h6uto0
+      Commands: []
+      Items:
+      - 50000a00566rrde1nmspbeehpgk00mdlkmspb3e9gmct1qcln66q31dpq6qpbeehpgk006dhincpbcec1g03rdd5n6aoric5j78ejgeln66q00000040o01tmmirj5cdp62pjk79o6utr5e80000050c00urb9dpim6sj1cpq3kpjcc5mma000000g600kdlkmspb3e9gmct1qeln64sj5c5lmirj7000000o000006005cdnnarjk000000880016ip001lmmirj5cdp62pjk79h6uto0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 9.0
+      Placeholder_Apply: false
+    warped_hyphae:
+      Name: Diamond Helmet
+      Chance: 20.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000k00acdnmqs3fdpimst3j1801crb9dpim6sj1cpq3kpbecdk62rjkdlimst3j1800cr35epimoso300a6qqbeclhn4ob6egt7arj2e9im2qr9dpjg0000081g05rdd5n6aoric5j78ej1e5qm2nr1cpj6irj9ehsg0000041g053dd5n6aoric5j78ejge9nn8pb3ehkmurg000006000001g01b3dtqmst000000220009km800odlkmspb3e9gmct1qchkm2rbfdpi5uq35dhmmat00
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j1801crb9dpim6sj1cpq3kpbecdk62rjkdlimst3j1800cr35epimoso300a6qqbeclhn4ob6egt7arj2e9im2qr9dpjg0000081g05rdd5n6aoric5j78ej1e5qm2nr1cpj6irj9ehsg0000041g053dd5n6aoric5j78ejge9nn8pb3ehkmurg000006000001g01b3dtqmst000000220009km800odlkmspb3e9gmct1qchkm2rbfdpi5uq35dhmmat00
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 10.0
+      Placeholder_Apply: false
+    nether_bricks:
+      Name: Diamond Chestplate
+      Chance: 18.0
+      Rarity: common
+      Broadcast: false
+      Preview: 180002g019hmurbgdtn6arjkec5005jdd5n6aoric5j78ej5dphmgobeehmmarjkec5001jcclr6ar3j0c018rb9dpim6sj1cpq3ktbec9p6aobbd5n6e0000010600kdlkmspb3e9gmct1qe1p6ut35cdq6irre000000g000006005cdnnarjk000000880016ip003hmmirj5cdp62pjk79i6iobddtn68nr3d1in6t3gdhgn8p80
+      Commands: []
+      Items:
+      - 180002g019hmurbgdtn6arjkec5005jdd5n6aoric5j78ej5dphmgobeehmmarjkec5001jcclr6ar3j0c018rb9dpim6sj1cpq3ktbec9p6aobbd5n6e0000010600kdlkmspb3e9gmct1qe1p6ut35cdq6irre000000g000006005cdnnarjk000000880016ip003hmmirj5cdp62pjk79i6iobddtn68nr3d1in6t3gdhgn8p80
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 8.0
+      Placeholder_Apply: false
+    prismarine:
+      Name: Diamond Leggings
+      Chance: 16.0
+      Rarity: common
+      Broadcast: false
+      Preview: k0001800korfdlo6urj5dpq762g02pmmirj5cdp62pjk79imsor8c5n78rb5dpq762g00pm6atj5dhpg600kdlkmspb3e9gmct1qeln64sj5c5lmirj7000000g300a6qqbeclhn4ob6egt70sjfehim6t39dtn0000008000003002m6rrldpq00000044000j9cg01krb9dpim6sj1cpq3kp39c5mmurj4btm6apr7d5n6eso0
+      Commands: []
+      Items:
+      - k0001800korfdlo6urj5dpq762g02pmmirj5cdp62pjk79imsor8c5n78rb5dpq762g00pm6atj5dhpg600kdlkmspb3e9gmct1qeln64sj5c5lmirj7000000g300a6qqbeclhn4ob6egt70sjfehim6t39dtn0000008000003002m6rrldpq00000044000j9cg01krb9dpim6sj1cpq3kp39c5mmurj4btm6apr7d5n6eso0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 9.0
+      Placeholder_Apply: false
+    sponge:
+      Name: Netherite Boots
+      Chance: 15.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0005002j3dtmn0rrecln78soa00b6qqbeclhn4ob6egt6arj3d1gmst3dcln78soa0036opbmclm760o02hmmirj5cdp62pjk79qmsojiclgmmqbecs0000010c018rb9dpim6sj1cpq3ks3idtq6aorkd5nms000000g00000c00aorfeln78000000gg002d5i006bdd5n6aoric5j78ejeclq6gpbid5q6anr2dtnn8so0
+      Commands: []
+      Items:
+      - 2g0005002j3dtmn0rrecln78soa00b6qqbeclhn4ob6egt6arj3d1gmst3dcln78soa0036opbmclm760o02hmmirj5cdp62pjk79qmsojiclgmmqbecs0000010c018rb9dpim6sj1cpq3ks3idtq6aorkd5nms000000g00000c00aorfeln78000000gg002d5i006bdd5n6aoric5j78ejeclq6gpbid5q6anr2dtnn8so0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 6.0
+      Placeholder_Apply: false
+    anvil:
+      Name: Moss Block
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k0000c00aorfeln780000080g002d5i0053dd5n6aoric5j78ejddtpn6nr2dhnm6qo0
+      Commands: []
+      Items:
+      - k0000c00aorfeln780000080g002d5i0053dd5n6aoric5j78ejddtpn6nr2dhnm6qo0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 30.0
+      Placeholder_Apply: false
+    tnt:
+      Name: Tube Coral Block
+      Chance: 22.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000k00acdnmqs3fdpimst3j0c010rb9dpim6sj1cpq3kp31dlgmep8000000003002m6rrldpq00000204000j9cg01krb9dpim6sj1cpq3kt3lc9iluorfe9gmonr2dhnm6qo0
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j0c010rb9dpim6sj1cpq3kp31dlgmep8000000003002m6rrldpq00000204000j9cg01krb9dpim6sj1cpq3kt3lc9iluorfe9gmonr2dhnm6qo0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 28.0
+      Placeholder_Apply: false
+    sticky_piston:
+      Name: Honey Block
+      Chance: 22.0
+      Rarity: common
+      Broadcast: false
+      Preview: 500003002m6rrldpq000000k4000j9cg01arb9dpim6sj1cpq3kq3fdpininr2dhnm6qo0
+      Commands: []
+      Items:
+      - 500003002m6rrldpq000000k4000j9cg01arb9dpim6sj1cpq3kq3fdpininr2dhnm6qo0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    lime_shulker_box:
+      Name: Sculk Catalyst
+      Chance: 15.0
+      Rarity: common
+      Broadcast: false
+      Preview: 50000a00566rrde1nmspbeehpg600gdlkmspb3e9gmct1qchgmqob7ck000000001g01b3dtqmst000000o20009km800odlkmspb3e9gmct1qedhnar3bbthm2t31dhsn6t00
+      Commands: []
+      Items:
+      - 50000a00566rrde1nmspbeehpg600gdlkmspb3e9gmct1qchgmqob7ck000000001g01b3dtqmst000000o20009km800odlkmspb3e9gmct1qedhnar3bbthm2t31dhsn6t00
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 22.0
+      Placeholder_Apply: false
+    hay_block:
+      Name: Mangrove Wood
+      Chance: 18.0
+      Rarity: common
+      Broadcast: false
+      Preview: k0001800korfdlo6urj5dpq760o021mmirj5cdp62pjk79i62rb1ctig000000006005cdnnarjk000006080016ip002tmmirj5cdp62pjk79mm2rj7e9nncpavetnmup00
+      Commands: []
+      Items:
+      - k0001800korfdlo6urj5dpq760o021mmirj5cdp62pjk79i62rb1ctig000000006005cdnnarjk000006080016ip002tmmirj5cdp62pjk79mm2rj7e9nncpavetnmup00
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 20.0
+      Placeholder_Apply: false
+    mud_bricks:
+      Name: End Stone Bricks
+      Chance: 20.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000k00acdnmqs3fdpimst3j0c010rb9dpim6sj1cpq3kp31dlgmep8000000003002m6rrldpq00000304000j9cg01krb9dpim6sj1cpq3kpbechfn6t3fdpiluojid5hmmso0
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j0c010rb9dpim6sj1cpq3kp31dlgmep8000000003002m6rrldpq00000304000j9cg01krb9dpim6sj1cpq3kpbechfn6t3fdpiluojid5hmmso0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 20.0
+      Placeholder_Apply: false
+    mushroom_stem:
+      Name: Prismarine Bricks
+      Chance: 18.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0005002j3dtmn0rrecln78so30086qqbeclhn4ob6egt68obdc5jma000000000o00lhmutbeeg00000o10004qb400dmqqbeclhn4ob6egt70sj9edmm2sj9dpiluojid5hmmso0
+      Commands: []
+      Items:
+      - 2g0005002j3dtmn0rrecln78so30086qqbeclhn4ob6egt68obdc5jma000000000o00lhmutbeeg00000o10004qb400dmqqbeclhn4ob6egt70sj9edmm2sj9dpiluojid5hmmso0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 17.0
+      Placeholder_Apply: false
+    bubble_coral_block:
+      Name: Sea Lantern
+      Chance: 18.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000k00acdnmqs3fdpimst3j0c010rb9dpim6sj1cpq3kp31dlgmep8000000003002m6rrldpq000001g4000j9cg01arb9dpim6sj1cpq3ksr5c5fmoobeehin4rg0
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j0c010rb9dpim6sj1cpq3kp31dlgmep8000000003002m6rrldpq000001g4000j9cg01arb9dpim6sj1cpq3ksr5c5fmoobeehin4rg0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 15.0
+      Placeholder_Apply: false
+    ochre_froglight:
+      Name: Quartz Bricks
+      Chance: 15.0
+      Rarity: common
+      Broadcast: false
+      Preview: k0001800korfdlo6urj5dpq760o021mmirj5cdp62pjk79i62rb1ctig000000006005cdnnarjk000003080016ip002tmmirj5cdp62pjk79onaobieht5uojid5hmmso0
+      Commands: []
+      Items:
+      - k0001800korfdlo6urj5dpq760o021mmirj5cdp62pjk79i62rb1ctig000000006005cdnnarjk000003080016ip002tmmirj5cdp62pjk79onaobieht5uojid5hmmso0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 12.0
+      Placeholder_Apply: false
+    diamond_sword:
+      Name: Torchflower
+      Chance: 20.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000k00acdnmqs3fdpimst3j0c010rb9dpim6sj1cpq3kp31dlgmep8000000003002m6rrldpq000000o4000j9cg01arb9dpim6sj1cpq3kt3fe9hmgpjcdtrmasg0
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j0c010rb9dpim6sj1cpq3kp31dlgmep8000000003002m6rrldpq000000o4000j9cg01arb9dpim6sj1cpq3kt3fe9hmgpjcdtrmasg0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 35.0
+      Placeholder_Apply: false
+    diamond_helmet:
+      Name: Sweet Berries
+      Chance: 18.0
+      Rarity: common
+      Broadcast: false
+      Preview: k0001800korfdlo6urj5dpq760o021mmirj5cdp62pjk79i62rb1ctig000000006005cdnnarjk000004g80016ip002tmmirj5cdp62pjk79pnepb5ehfm4pbie9kmaso0
+      Commands: []
+      Items:
+      - k0001800korfdlo6urj5dpq760o021mmirj5cdp62pjk79i62rb1ctig000000006005cdnnarjk000004g80016ip002tmmirj5cdp62pjk79pnepb5ehfm4pbie9kmaso0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 32.0
+      Placeholder_Apply: false
+    iron_chestplate:
+      Name: Glow Berries
+      Chance: 20.0
+      Rarity: common
+      Broadcast: false
+      Preview: 180000o00lhmutbeeg00000o10004qb400b6qqbeclhn4ob6egt6er3fetfm4pbie9kmaso0
+      Commands: []
+      Items:
+      - 180000o00lhmutbeeg00000o10004qb400b6qqbeclhn4ob6egt6er3fetfm4pbie9kmaso0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 32.0
+      Placeholder_Apply: false
+    diamond_leggings:
+      Name: Lead
+      Chance: 18.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0001g01b3dtqmst000000620009km800edlkmspb3e9gmct1qdhim2p00
+      Commands: []
+      Items:
+      - 2g0001g01b3dtqmst000000620009km800edlkmspb3e9gmct1qdhim2p00
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 35.0
+      Placeholder_Apply: false
+    netherite_boots:
+      Name: Powder Snow Bucket
+      Chance: 15.0
+      Rarity: common
+      Broadcast: false
+      Preview: a00006005cdnnarjk000000880016ip003hmmirj5cdp62pjk79o6utr4clp5usredtrluojlcdlmat00
+      Commands: []
+      Items:
+      - a00006005cdnnarjk000000880016ip003hmmirj5cdp62pjk79o6utr4clp5usredtrluojlcdlmat00
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 30.0
+      Placeholder_Apply: false
+    golden_pickaxe:
+      Name: Ender Pearl
+      Chance: 20.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000k00acdnmqs3fdpimst3j0c010rb9dpim6sj1cpq3kp31dlgmep8000000003002m6rrldpq00000104000j9cg01arb9dpim6sj1cpq3kpbechin4nrgclgn4r00
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j0c010rb9dpim6sj1cpq3kp31dlgmep8000000003002m6rrldpq00000104000j9cg01arb9dpim6sj1cpq3kpbechin4nrgclgn4r00
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 30.0
+      Placeholder_Apply: false
+    diamond_axe:
+      Name: Name Tag
+      Chance: 18.0
+      Rarity: common
+      Broadcast: false
+      Preview: k0001800korfdlo6urj5dpq760o021mmirj5cdp62pjk79i62rb1ctig000000006005cdnnarjk000000880016ip0029mmirj5cdp62pjk79n62rb5btq62po0
+      Commands: []
+      Items:
+      - k0001800korfdlo6urj5dpq760o021mmirj5cdp62pjk79i62rb1ctig000000006005cdnnarjk000000880016ip0029mmirj5cdp62pjk79n62rb5btq62po0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 18.0
+      Placeholder_Apply: false
+    netherite_shovel:
+      Name: Hopper
+      Chance: 18.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000k00acdnmqs3fdpimst3j0c010rb9dpim6sj1cpq3kp31dlgmep8000000003002m6rrldpq000000g4000j9cg010rb9dpim6sj1cpq3kq3fe1o6asg0
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j0c010rb9dpim6sj1cpq3kp31dlgmep8000000003002m6rrldpq000000g4000j9cg010rb9dpim6sj1cpq3kq3fe1o6asg0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 18.0
+      Placeholder_Apply: false
+    recovery_compass:
+      Name: Goat Horn
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000k00acdnmqs3fdpimst3j10018rb9dpim6sj1cpq3kqbeedq74tbdcln7800pdlkmspb3e9gmct1qchp6aobdbtjmuobkbtk6usje001g01b3dtqmst000000220009km800jdlkmspb3e9gmct1qctnm2t2vd1nn4rg0
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j10018rb9dpim6sj1cpq3kqbeedq74tbdcln7800pdlkmspb3e9gmct1qchp6aobdbtjmuobkbtk6usje001g01b3dtqmst000000220009km800jdlkmspb3e9gmct1qctnm2t2vd1nn4rg0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 22.0
+      Placeholder_Apply: false
+    feather:
+      Name: Deepslate Tile Slab
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0001g01b3dtqmst000002820009km800tdlkmspb3e9gmct1qchimas3jdhgn8pavehkmopavedm62og0
+      Commands: []
+      Items:
+      - 2g0001g01b3dtqmst000002820009km800tdlkmspb3e9gmct1qchimas3jdhgn8pavehkmopavedm62og0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 32.0
+      Placeholder_Apply: false
+    saddle:
+      Name: Red Nether Brick Wall
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 500003002m6rrldpq00000404000j9cg01urb9dpim6sj1cpq3ksj5chfmspbkd1in4nr2e9km6qqvetgmor00
+      Commands: []
+      Items:
+      - 500003002m6rrldpq00000404000j9cg01urb9dpim6sj1cpq3ksj5chfmspbkd1in4nr2e9km6qqvetgmor00
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 30.0
+      Placeholder_Apply: false
+    backpack_tier_ii:
+      Name: Smooth Red Sandstone Stairs
+      Chance: 15.0
+      Rarity: common
+      Broadcast: false
+      Preview: 180000o00lhmutbeeg00000s10004qb400imqqbeclhn4ob6egt76rbfdtq6gnricli5usr1dpi76t3fdpilusrkc5kn4so0
+      Commands: []
+      Items:
+      - 180000o00lhmutbeeg00000s10004qb400imqqbeclhn4ob6egt76rbfdtq6gnricli5usr1dpi76t3fdpilusrkc5kn4so0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 30.0
+      Placeholder_Apply: false
+    ▪_tv:
+      Name: Exposed Copper
+      Chance: 18.0
+      Rarity: common
+      Broadcast: false
+      Preview: 50000a00566rrde1nmspbeehpg600gdlkmspb3e9gmct1qchgmqob7ck000000001g01b3dtqmst000000420009km800odlkmspb3e9gmct1qcls70rrjcli5uorfe1o6asg0
+      Commands: []
+      Items:
+      - 50000a00566rrde1nmspbeehpg600gdlkmspb3e9gmct1qchgmqob7ck000000001g01b3dtqmst000000420009km800odlkmspb3e9gmct1qcls70rrjcli5uorfe1o6asg0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 15.0
+      Placeholder_Apply: false
+    paper:
+      Name: Block of Netherite
+      Chance: 5.0
+      Rarity: common
+      Broadcast: false
+      Preview: 180002g019hmurbgdtn6arjkec1g043dd5n6aoric5j78ej4c5mm2pr5000000000c00aorfeln78000000gg002d5i006bdd5n6aoric5j78ejeclq6gpbid5q6anr2dhnm6qo0
+      Commands: []
+      Items:
+      - 180002g019hmurbgdtn6arjkec1g043dd5n6aoric5j78ej4c5mm2pr5000000000c00aorfeln78000000gg002d5i006bdd5n6aoric5j78ejeclq6gpbid5q6anr2dhnm6qo0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 3.0
+      Placeholder_Apply: false
+    ▪_washing_machine:
+      Name: Block of Diamond
+      Chance: 15.0
+      Rarity: common
+      Broadcast: false
+      Preview: k0001800korfdlo6urj5dpq760o021mmirj5cdp62pjk79i62rb1ctig000000006005cdnnarjk000000880016ip002tmmirj5cdp62pjk79i6iobddtn68nr2dhnm6qo0
+      Commands: []
+      Items:
+      - k0001800korfdlo6urj5dpq760o021mmirj5cdp62pjk79i62rb1ctig000000006005cdnnarjk000000880016ip002tmmirj5cdp62pjk79i6iobddtn68nr2dhnm6qo0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 6.0
+      Placeholder_Apply: false
+    backpack_tier_v:
+      Name: Shulker Box
+      Chance: 3.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000k00acdnmqs3fdpimst3j0c010rb9dpim6sj1cpq3kp31dlgmep8000000003002m6rrldpq00000044000j9cg01arb9dpim6sj1cpq3ksr8elm6mpbibth6uu00
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j0c010rb9dpim6sj1cpq3kp31dlgmep8000000003002m6rrldpq00000044000j9cg01arb9dpim6sj1cpq3ksr8elm6mpbibth6uu00
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 7.0
+      Placeholder_Apply: false
+    balanced_key:
+      Name: Panda Spawn Egg
+      Chance: 15.0
+      Rarity: common
+      Broadcast: false
+      Preview: k0000c00aorfeln78000000gg002d5i006bdd5n6aoric5j78ejgc5n68oavedo62trebtimepo0
+      Commands: []
+      Items:
+      - k0000c00aorfeln78000000gg002d5i006bdd5n6aoric5j78ejgc5n68oavedo62trebtimepo0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 7.0
+      Placeholder_Apply: false
+    epic_key:
+      Name: '&dꜱᴘᴀᴡɴᴇʀ'
+      Chance: 8.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000k00acdnmqs3fdpimst3j1400srb9dpim6sj1cpq3kr3fe9igg000000g143r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j3dtm6ush278h7ipbcdhnne8hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8iqdtmm4qb548m24tbechin4r39dpim88hqcpgmosr5fleio8jkcls788hq48h7q2002lmmirj5cdp62pjk79hnasrkdtmlurj1dlig18rr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j3dtm6ush278h6oqb7d1q5us3le9o6op925gh6it31dhkm68hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24t35f1q24eh2taeb3odkj3gr9071migsjd71mi3sl0125gh7arj4clp6oqbecli24ej6c5m76pbtbkm24t35f1q24eh249ug00o00lhmutbeeg00000110004qb4008mqqbeclhn4ob6egt76s31etn6asg0
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j1400srb9dpim6sj1cpq3kr3fe9igg000000g143r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j3dtm6ush278h7ipbcdhnne8hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8iqdtmm4qb548m24tbechin4r39dpim88hqcpgmosr5fleio8jkcls788hq48h7q2002lmmirj5cdp62pjk79hnasrkdtmlurj1dlig18rr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j3dtm6ush278h6oqb7d1q5us3le9o6op925gh6it31dhkm68hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24t35f1q24eh2taeb3odkj3gr9071migsjd71mi3sl0125gh7arj4clp6oqbecli24ej6c5m76pbtbkm24t35f1q24eh249ug00o00lhmutbeeg00000110004qb4008mqqbeclhn4ob6egt76s31etn6asg0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 2.0
+      Placeholder_Apply: false
+    turtle_spawn_egg:
+      Name: Turtle Spawn Egg
+      Chance: 8.0
+      Rarity: common
+      Broadcast: false
+      Preview: 500003002m6rrldpq00000044000j9cg01krb9dpim6sj1cpq3kt3le9q6opavedo62trebtimepo0
+      Commands: []
+      Items:
+      - 2g0005002j3dtmn0rrecln78soa00cmqqbeclhn4ob6egt70rrkd5nmsnr3dtn78pbeehpgg006e1nn8qbfdo014rb9dpim6sj1cpq3kqbecpin6t35cg0000o00lhmutbeeg00000i10004qb400b6qqbeclhn4ob6egt78qbge1im8nr1e9p6uto0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 9.0
+      Placeholder_Apply: false
+    wolf_spawn_egg:
+      Name: '#28E502ᴛɪᴋɪ ʜᴀᴛ '
+      Chance: 8.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000k00acdnmqs3fdpimst3j1400srb9dpim6sj1cpq3kr3fe9igg00000100hbr49hmur3fe8h3k8j7e9gni8hc49kn8obcd5hi4ej6c5m76p9c49q6au3k48t25idas6q8bodkgvgr906ajsgel75gs6q8vik043gr9069mgh7q02cfch66rrcdtp24eh2ctp62u925gh6it31dhkm68hqcpgmosr55gh78pboegh3k8n1mi7sl069lbgr91u9mjgr96v1mi0cl7p0s6q9hodkg3581odkjf58u812fk4005bdd5n6aoric5j78ej3elpn8rrdbtn62rb50107m8j3dtm6ush278h26chockqj0ch25gh6it31dhkm68hqcpgmosr55gh78pboegh3k8n1midsjan1mi5sjah0paee3d40s6q9m812fk1g06rdd5n6aoric5j78ej3elpn8rrdbtmmup35dhfm8obkc4000001001g01b3dtqmst000000220009km800tdlkmspb3e9gmct1qdhim2t38clp5uq3fe9pmanr1e9mmusg0
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j1400srb9dpim6sj1cpq3kr3fe9igg00000100hbr49hmur3fe8h3k8j7e9gni8hc49kn8obcd5hi4ej6c5m76p9c49q6au3k48t25idas6q8bodkgvgr906ajsgel75gs6q8vik043gr9069mgh7q02cfch66rrcdtp24eh2ctp62u925gh6it31dhkm68hqcpgmosr55gh78pboegh3k8n1mi7sl069lbgr91u9mjgr96v1mi0cl7p0s6q9hodkg3581odkjf58u812fk4005bdd5n6aoric5j78ej3elpn8rrdbtn62rb50107m8j3dtm6ush278h26chockqj0ch25gh6it31dhkm68hqcpgmosr55gh78pboegh3k8n1midsjan1mi5sjah0paee3d40s6q9m812fk1g06rdd5n6aoric5j78ej3elpn8rrdbtmmup35dhfm8obkc4000001001g01b3dtqmst000000220009km800tdlkmspb3e9gmct1qdhim2t38clp5uq3fe9pmanr1e9mmusg0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 8.0
+      Placeholder_Apply: false
+    paper1:
+      Name: '&f'
+      Chance: 5.0
+      Rarity: common
+      Broadcast: false
+      Preview: 180002g019hmurbgdtn6arjkec4g03jdd5n6aoric5j78ejcdtp6a2000000802vfch6au3ke9gi4eirfch66rrcdtp24eh2ctp62u925gh6it31dhkm68hqcpgmosr55gh78pboegh3k8n1mie77odkgsge3d4rpaecjajj43gr92v1mi3sl3p0s6q81odkjch7qn9c49q6au3k48t248jt01dnm8j5f1q74o9279dnm8j3dtm6ush278h6esj1f4h2o8j9ehgmoqb348t6cobcediio8jkcls788hq48nu3d51s6q81ik0s6q9g871mi2cl071mi0e3d4rs6q8esp2fleio8jkcls788hq48h7q00248h00njr49ingt3ic4h3kmrr49hmur3fe8h3k8j4c5p6mnr7e9gni8hc49kn8obcd5hi4ej6c5m76p9c49q6au3k48t25odkgvgr9669lbgr9110s6q89ik0s6q81odkjfgr91p2fleio8jkcls788hq48h7q2002lmmirj5cdp62pjk79hnasrkdtmlurj1dlig0grr49ingt3ic4h3kmrr49hmur3fe8h3k8jnd1kn8p925gh6it31dhkm68hqcpgmosr55gh78pboegh3k8nek63i4vat5gh78pboegh3k8h2fk1g06rdd5n6aoric5j78ej3elpn8rrdbtmmup35dhfm8obkc400004g1801arb9dpim6sj1cpq3korledq6uravchgn8o8a00950tb2dhkm6gjlddlmit2mc5m7apbj1001opbocdimor35dpq66sj1ehin6ej3e9gn8pavddinibj9cg008pbgd5hg00000c00aorfeln78000000gg002d5i003rdd5n6aoric5j78ejjehkm6qo0
+      Commands: []
+      Items:
+      - 180002g019hmurbgdtn6arjkec4g03jdd5n6aoric5j78ejcdtp6a2000000802vfch6au3ke9gi4eirfch66rrcdtp24eh2ctp62u925gh6it31dhkm68hqcpgmosr55gh78pboegh3k8n1mie77odkgsge3d4rpaecjajj43gr92v1mi3sl3p0s6q81odkjch7qn9c49q6au3k48t248jt01dnm8j5f1q74o9279dnm8j3dtm6ush278h6esj1f4h2o8j9ehgmoqb348t6cobcediio8jkcls788hq48nu3d51s6q81ik0s6q9g871mi2cl071mi0e3d4rs6q8esp2fleio8jkcls788hq48h7q00248h00njr49ingt3ic4h3kmrr49hmur3fe8h3k8j4c5p6mnr7e9gni8hc49kn8obcd5hi4ej6c5m76p9c49q6au3k48t25odkgvgr9669lbgr9110s6q89ik0s6q81odkjfgr91p2fleio8jkcls788hq48h7q2002lmmirj5cdp62pjk79hnasrkdtmlurj1dlig0grr49ingt3ic4h3kmrr49hmur3fe8h3k8jnd1kn8p925gh6it31dhkm68hqcpgmosr55gh78pboegh3k8nek63i4vat5gh78pboegh3k8h2fk1g06rdd5n6aoric5j78ej3elpn8rrdbtmmup35dhfm8obkc400004g1801arb9dpim6sj1cpq3korledq6uravchgn8o8a00950tb2dhkm6gjlddlmit2mc5m7apbj1001opbocdimor35dpq66sj1ehin6ej3e9gn8pavddinibj9cg008pbgd5hg00000c00aorfeln78000000gg002d5i003rdd5n6aoric5j78ejjehkm6qo0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 5.0
+      Placeholder_Apply: false
+    enderman_spawner:
+      Name: '&f'
+      Chance: 2.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000k00acdnmqs3fdpimst3j1400srb9dpim6sj1cpq3kr3fe9igg00000201fjr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j3dtm6ush278h6esj1f4h2o8j9ehgmoqb348t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12ehingt1278hcjan1midi1odkgjgr9069mggcl6f1mi3i1odkjjl9pcf1mi3u3d4543gr96v1mi7i1odkgv4r9odkjfgr91uag0h2o8jldpi6asjcd5n6ap1279j62r3jclulqb12ehingt1278h24v80nhti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49hmur3fe8h3k8j7e9gni8hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8n1midsl771mi3i1ikss6q81ik0s6q8a871mi2u3d4sp6qcj8n1mi3u3d4fp6q21odkg3581odkgv4r9odkg0h2o8jldpi6asjcd5n6ap1279j62r3jclulqb12ehingt1278h24v8008h2405tfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12cdnmorri48t24p31e9llupric5si4b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t25id2p6le3d50s6q8e871midsl769l9pi1odkhfgr91uahsge3d4rs6q8u871midsl76ahv581odkg0h2o8jldpi6asjcd5n6ap1279j62r3jclulqb12ehingt1278h24v8800amqqbeclhn4ob6egt66tbjehnmqnrec5mma04cfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8nek2ti4b12eln68pbidhkmspb448t6cobcedinqn9c49q6au3k48t248jt0c01mrb9dpim6sj1cpq3korledq6uravdlnm8pbcbti62t31000014o00c00aorfeln78000000gg002d5i003rdd5n6aoric5j78ejjehkm6qo0
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j1400srb9dpim6sj1cpq3kr3fe9igg00000201fjr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j3dtm6ush278h6esj1f4h2o8j9ehgmoqb348t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12ehingt1278hcjan1midi1odkgjgr9069mggcl6f1mi3i1odkjjl9pcf1mi3u3d4543gr96v1mi7i1odkgv4r9odkjfgr91uag0h2o8jldpi6asjcd5n6ap1279j62r3jclulqb12ehingt1278h24v80nhti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49hmur3fe8h3k8j7e9gni8hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8n1midsl771mi3i1ikss6q81ik0s6q8a871mi2u3d4sp6qcj8n1mi3u3d4fp6q21odkg3581odkgv4r9odkg0h2o8jldpi6asjcd5n6ap1279j62r3jclulqb12ehingt1278h24v8008h2405tfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12cdnmorri48t24p31e9llupric5si4b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t25id2p6le3d50s6q8e871midsl769l9pi1odkhfgr91uahsge3d4rs6q8u871midsl76ahv581odkg0h2o8jldpi6asjcd5n6ap1279j62r3jclulqb12ehingt1278h24v8800amqqbeclhn4ob6egt66tbjehnmqnrec5mma04cfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8nek2ti4b12eln68pbidhkmspb448t6cobcedinqn9c49q6au3k48t248jt0c01mrb9dpim6sj1cpq3korledq6uravdlnm8pbcbti62t31000014o00c00aorfeln78000000gg002d5i003rdd5n6aoric5j78ejjehkm6qo0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 5.0
+      Placeholder_Apply: false
+    paper2:
+      Name: Smithing Template
+      Chance: 5.0
+      Rarity: common
+      Broadcast: false
+      Preview: a00006005cdnnarjk000000880016ip005dmmirj5cdp62pjk79q6ip35btgn4rbfe9fn8sj9dlfn6rb9ehk6irj7btq6arbgdhgn8p80
+      Commands: []
+      Items:
+      - a00006005cdnnarjk000000880016ip005dmmirj5cdp62pjk79q6ip35btgn4rbfe9fn8sj9dlfn6rb9ehk6irj7btq6arbgdhgn8p80
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 5.0
+      Placeholder_Apply: false
+    skeleton_spawner:
+      Name: '&aʙᴀᴄᴋᴘᴀᴄᴋ ᴛɪᴇʀ ɪᴠ'
+      Chance: 1.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0005002j3dtmn0rrecln78so90076qqbeclhn4ob6egt6orrick4000000o09uup2cls78sj148t5mup2c9nmop1279j62r3jckm24orfdhnn48hq49i62sjbbtjn4obp48m24qbkc5m6iop279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jkcls788hq4bl9pceajvgr93v1midul75h78g36dh25gh7arj4clp6oqbecli24ej6c5m76pbtbkm24t35f1q24eh249ug00h24809cup2cls78sj148t5mup2c9nmop1279j62r3jckm24orfdhnn48hq49gn2tb148m24qbkc5m6iop279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jkcls788hq4b4qlodkjfgr91v1mi6ul75h48m24tbechin4r39dpim88hqcpgmosr5fleio8jkcls788hq48h7q00248h000h2480eaup2cls78sj148t5mup2c9nmop1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8j9ehgmoqb348t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12ehingt1278het35340h2o8jldpi6asjcd5n6ap1279j62r3jcluioup2cdnmorri48t24ub5dhm6utp25gh6it31dhkm68hqcpgmosr55gh78pboegh3k8mag34qlid2paee3d4r43gr916ajv4qlodkgjgr92p0s6q9nodkhsge3d4fs6q9hodkgv4r88jtbkm24t35f1q24eh249ugg00ldlkmspb3e9gmct1qcdqn6t3fdlfmsobdck0b2up2cls78sj148t5mup2c9nmop1279j62r3jckm24orfdhnn48hq49jn4pb5doh2o8j9ehgmoqb348t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12ehingt1278hcl6f1mi0e3d44s6q8nodkj3gr9071mi2e3d4b43gr96u9lbgr91uag0gcjan1mig24b12eln68pbidhkmspb448t6cobcedinqn9c49q6au3k48t248jt0c01mrb9dpim6sj1cpq3korledq6uravdlnm8pbcbti62t3100000q8a00amqqbeclhn4ob6egt66tbjehnmqnr4c5q622g02987aojcd5hk4tbbddkn8lj1dhqmaso800d68sj5c5mm4ob3ddo62orbect64ob3ddo62orbbtkm801469i3ic1lc8oj0bb6chhj0b9k6sq62bb268rjibb16tj3cpj5clgjeor5cc400734e9im2rb2c5hmms31cdln6ej2c5hmms31cdlluqbkclmg02a2c5hmms31cdlj8000001g01b3dtqmst000000220009km800tdlkmspb3e9gmct1qdhim2t38clp5uq3fe9pmanr1e9mmusg0
+      Commands: []
+      Items:
+      - 2g0005002j3dtmn0rrecln78so90076qqbeclhn4ob6egt6orrick4000000o09uup2cls78sj148t5mup2c9nmop1279j62r3jckm24orfdhnn48hq49i62sjbbtjn4obp48m24qbkc5m6iop279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jkcls788hq4bl9pceajvgr93v1midul75h78g36dh25gh7arj4clp6oqbecli24ej6c5m76pbtbkm24t35f1q24eh249ug00h24809cup2cls78sj148t5mup2c9nmop1279j62r3jckm24orfdhnn48hq49gn2tb148m24qbkc5m6iop279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jkcls788hq4b4qlodkjfgr91v1mi6ul75h48m24tbechin4r39dpim88hqcpgmosr5fleio8jkcls788hq48h7q00248h000h2480eaup2cls78sj148t5mup2c9nmop1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8j9ehgmoqb348t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12ehingt1278het35340h2o8jldpi6asjcd5n6ap1279j62r3jcluioup2cdnmorri48t24ub5dhm6utp25gh6it31dhkm68hqcpgmosr55gh78pboegh3k8mag34qlid2paee3d4r43gr916ajv4qlodkgjgr92p0s6q9nodkhsge3d4fs6q9hodkgv4r88jtbkm24t35f1q24eh249ugg00ldlkmspb3e9gmct1qcdqn6t3fdlfmsobdck0b2up2cls78sj148t5mup2c9nmop1279j62r3jckm24orfdhnn48hq49jn4pb5doh2o8j9ehgmoqb348t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12ehingt1278hcl6f1mi0e3d44s6q8nodkj3gr9071mi2e3d4b43gr96u9lbgr91uag0gcjan1mig24b12eln68pbidhkmspb448t6cobcedinqn9c49q6au3k48t248jt0c01mrb9dpim6sj1cpq3korledq6uravdlnm8pbcbti62t3100000q8a00amqqbeclhn4ob6egt66tbjehnmqnr4c5q622g02987aojcd5hk4tbbddkn8lj1dhqmaso800d68sj5c5mm4ob3ddo62orbect64ob3ddo62orbbtkm801469i3ic1lc8oj0bb6chhj0b9k6sq62bb268rjibb16tj3cpj5clgjeor5cc400734e9im2rb2c5hmms31cdln6ej2c5hmms31cdlluqbkclmg02a2c5hmms31cdlj8000001g01b3dtqmst000000220009km800tdlkmspb3e9gmct1qdhim2t38clp5uq3fe9pmanr1e9mmusg0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 5.0
+      Placeholder_Apply: false
+    paper3:
+      Name: '&aғɪʀᴇᴘʟᴀᴄᴇ'
+      Chance: 5.0
+      Rarity: common
+      Broadcast: false
+      Preview: k0001800korfdlo6urj5dpq762801pmmirj5cdp62pjk79m6usj51000000201nnm8j3dtm6ush278h6esj1f4h2o8j9ehgmoqb348t6cobcediio8jkcls788hq4bgr9010pafu3d4sf3gr976ag358u81jf0p21qksm34qlik0s6q8fodkj359vodkg3gr9171mi3io869lbgr91f1mi3u3d40pafi1qksm3gr93uag0h7q039fch66rrcdtp24eh2ctp62u925gh6it31dhkm68hqcpgmosr55gh78pboegh3k8n1mi021ikvp6le3d50p6lcjd69k8gcl071mi7u3d4fs6q8q871mi7ul75g43gr96uajjgr91p0taeb1odkjjgr96v1miecl071mi3is8jt1001arb9dpim6sj1cpq3korledq6uravdpgmqp8085ti4orfdhnn48hq49jn4pb5doh2o8j9ehgmoqb348t6cobcediio8jkcls788hq4b997idapa0e3d47s6q9hikvs6q81odkgjgr91p2fk5005bdd5n6aoric5j78ej3elpn8rrdbti62t3118014k3lc9m6ioq2ellmmqbkapgmotb5ec4004j6elp6sqbkelp6ar39c8t6qrr4clm002a6d5p6as3cc5hma000001g01b3dtqmst000000220009km800edlkmspb3e9gmct1qc9nmuqo0
+      Commands: []
+      Items:
+      - k0001800korfdlo6urj5dpq762801pmmirj5cdp62pjk79m6usj51000000201nnm8j3dtm6ush278h6esj1f4h2o8j9ehgmoqb348t6cobcediio8jkcls788hq4bgr9010pafu3d4sf3gr976ag358u81jf0p21qksm34qlik0s6q8fodkj359vodkg3gr9171mi3io869lbgr91f1mi3u3d40pafi1qksm3gr93uag0h7q039fch66rrcdtp24eh2ctp62u925gh6it31dhkm68hqcpgmosr55gh78pboegh3k8n1mi021ikvp6le3d50p6lcjd69k8gcl071mi7u3d4fs6q8q871mi7ul75g43gr96uajjgr91p0taeb1odkjjgr96v1miecl071mi3is8jt1001arb9dpim6sj1cpq3korledq6uravdpgmqp8085ti4orfdhnn48hq49jn4pb5doh2o8j9ehgmoqb348t6cobcediio8jkcls788hq4b997idapa0e3d47s6q9hikvs6q81odkgjgr91p2fk5005bdd5n6aoric5j78ej3elpn8rrdbti62t3118014k3lc9m6ioq2ellmmqbkapgmotb5ec4004j6elp6sqbkelp6ar39c8t6qrr4clm002a6d5p6as3cc5hma000001g01b3dtqmst000000220009km800edlkmspb3e9gmct1qc9nmuqo0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 6.0
+      Placeholder_Apply: false
+    _»_dungeons_key__-_easy:
+      Name: '&3ᴄᴏᴍᴍᴀɴᴅ /ꜰʟʏ 24ʜ'
+      Chance: 10.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0005002j3dtmn0rrecln78so800amqqbeclhn4ob6egt66tbjehnmqnrec5mma02gfch66rrcdtp24eh2chgn4qqvc5onao925gh6it31dhkm68hqcpgmosr55gh78pboegh3k8n1mi2e3d4fs6q8rodkhngr9069mjgr91905vl9pc6ajv58u81i6j59o8jt0c01mrb9dpim6sj1cpq3korledq6uravdlnm8pbcbti62t3100001io00c00aorfeln78000000gg002d5i003rdd5n6aoric5j78ejjehkm6qo0
+      Commands: []
+      Items:
+      - 2g0005002j3dtmn0rrecln78so800amqqbeclhn4ob6egt66tbjehnmqnrec5mma02gfch66rrcdtp24eh2chgn4qqvc5onao925gh6it31dhkm68hqcpgmosr55gh78pboegh3k8n1mi2e3d4fs6q8rodkhngr9069mjgr91905vl9pc6ajv58u81i6j59o8jt0c01mrb9dpim6sj1cpq3korledq6uravdlnm8pbcbti62t3100001io00c00aorfeln78000000gg002d5i003rdd5n6aoric5j78ejjehkm6qo0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 4.0
+      Placeholder_Apply: false
+    _»_dungeons_key__-_medium:
+      Name: Enchanted Book
+      Chance: 8.0
+      Rarity: common
+      Broadcast: false
+      Preview: k0001800korfdlo6urj5dpq762g03lmmirj5cdp62pjk79pn8rricli5upbecdk62rjkdlimst3j1800cr35epimoso3008mqqbeclhn4ob6egt6qpbechkmspo000002000001g01b3dtqmst000000220009km800odlkmspb3e9gmct1qcln66q31dpq6ap2vc9nmuqo0
+      Commands: []
+      Items:
+      - k0001800korfdlo6urj5dpq762g03lmmirj5cdp62pjk79pn8rricli5upbecdk62rjkdlimst3j1800cr35epimoso3008mqqbeclhn4ob6egt6qpbechkmspo000002000001g01b3dtqmst000000220009km800odlkmspb3e9gmct1qcln66q31dpq6ap2vc9nmuqo0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 1.0
+      Placeholder_Apply: false
+Milestones:
+  Repeatable: false
+Last_Opener: volina
+Last_Reward: Prismarine Bricks
+Item:
+  Material: RED_STAINED_GLASS_PANE

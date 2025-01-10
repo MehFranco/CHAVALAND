@@ -1,0 +1,14 @@
+uuid: e3eeea41-37de-3b7b-9e79-29f5ab622f41
+name: MehFranco
+primary-group: admin
+permissions:
+- reward.ready.1
+- reward.ready.2
+- reward.ready.3
+- reward.ready.4
+- reward.ready.5
+- reward.ready.6
+- reward.ready.7
+- reward.ready.8
+parents:
+- admin

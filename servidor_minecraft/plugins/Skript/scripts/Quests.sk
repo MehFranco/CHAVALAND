@@ -1,0 +1,1089 @@
+
+on join:
+	if {points::%player%} is not set:
+		set {points::%player%} to 10
+
+command /bpreset [<player>]:
+	permission: op
+	trigger:
+		set {points::%arg-1%} to 10
+		send "&f &fThe points of %arg-1% have been set to 10!"
+
+on break:
+	if player has permission "challenge.p.1":
+		if event-item is log:
+			add 1 to {chprogress::%player%}
+			if {chprogress::%player%} is 12:
+				delete {chprogress::%player%}
+				make console execute command "lp user %player% permission set challenge.d.1"
+				make console execute command "lp user %player% permission unset challenge.p.1"
+				add 4 to {points::%player%}
+				levelup(player)
+				make console execute command "eco give %player% 200"
+				send action bar "&8▪ &fMission completed successfully! &8▪" to player
+	if player has permission "challenge.p.2":
+		if event-item is iron ore or deepslate iron ore:
+			add 1 to {chprogress::%player%}
+			if {chprogress::%player%} is 10:
+				delete {chprogress::%player%}
+				make console execute command "lp user %player% permission set challenge.d.2"
+				make console execute command "lp user %player% permission unset challenge.p.2"
+				add 4 to {points::%player%}
+				levelup(player)
+				make console execute command "eco give %player% 200"
+				send action bar "&8▪ &fMission completed successfully! &8▪" to player
+	if player has permission "challenge.p.6":
+		if event-item is stone:
+			add 1 to {chprogress::%player%}
+			if {chprogress::%player%} is 128:
+				delete {chprogress::%player%}
+				make console execute command "lp user %player% permission set challenge.d.6"
+				make console execute command "lp user %player% permission unset challenge.p.6"
+				add 5 to {points::%player%}
+				levelup(player)
+				make console execute command "eco give %player% 250"
+				send action bar "&8▪ &fMission completed successfully! &8▪" to player
+	if player has permission "challenge.p.8":
+		if event-item is coal ore or deepslate coal ore:
+			add 1 to {chprogress::%player%}
+			if {chprogress::%player%} is 18:
+				delete {chprogress::%player%}
+				make console execute command "lp user %player% permission set challenge.d.8"
+				make console execute command "lp user %player% permission unset challenge.p.8"
+				add 4 to {points::%player%}
+				levelup(player)
+				make console execute command "eco give %player% 200"
+				send action bar "&8▪ &fMission completed successfully! &8▪" to player
+	if player has permission "challenge.p.20":
+		if event-item is dirt:
+			add 1 to {chprogress::%player%}
+			if {chprogress::%player%} is 24:
+				delete {chprogress::%player%}
+				make console execute command "lp user %player% permission set challenge.d.20"
+				make console execute command "lp user %player% permission unset challenge.p.20"
+				add 4 to {points::%player%}
+				levelup(player)
+				make console execute command "eco give %player% 200"
+				send action bar "&8▪ &fMission completed successfully! &8▪" to player
+	if player has permission "challenge.p.21":
+		if event-item is diamond ore or deepslate diamond ore:
+			add 1 to {chprogress::%player%}
+			if {chprogress::%player%} is 4:
+				delete {chprogress::%player%}
+				make console execute command "lp user %player% permission set challenge.d.21"
+				make console execute command "lp user %player% permission unset challenge.p.21"
+				add 6 to {points::%player%}
+				levelup(player)
+				make console execute command "eco give %player% 300"
+				send action bar "&8▪ &fMission completed successfully! &8▪" to player
+	if player has permission "challenge.p.23":
+		if event-item is obsidian:
+			add 1 to {chprogress::%player%}
+			if {chprogress::%player%} is 10:
+				delete {chprogress::%player%}
+				make console execute command "lp user %player% permission set challenge.d.23"
+				make console execute command "lp user %player% permission unset challenge.p.23"
+				add 6 to {points::%player%}
+				levelup(player)
+				make console execute command "eco give %player% 300"
+				send action bar "&8▪ &fMission completed successfully! &8▪" to player
+	if player has permission "challenge.p.27":
+		if event-item is nether wart:
+			add 1 to {chprogress::%player%}
+			if {chprogress::%player%} is 16:
+				delete {chprogress::%player%}
+				make console execute command "lp user %player% permission set challenge.d.27"
+				make console execute command "lp user %player% permission unset challenge.p.27"
+				add 6 to {points::%player%}
+				levelup(player)
+				make console execute command "eco give %player% 300"
+				send action bar "&8▪ &fMission completed successfully! &8▪" to player
+	if player has permission "challenge.p.33":
+		if event-item is dead bush:
+			add 1 to {chprogress::%player%}
+			if {chprogress::%player%} is 5:
+				delete {chprogress::%player%}
+				make console execute command "lp user %player% permission set challenge.d.33"
+				make console execute command "lp user %player% permission unset challenge.p.33"
+				add 6 to {points::%player%}
+				levelup(player)
+				make console execute command "eco give %player% 300"
+				send action bar "&8▪ &fMission completed successfully! &8▪" to player
+	if player has permission "challenge.p.30":
+		if event-item is nether quartz ore:
+			add 1 to {chprogress::%player%}
+			if {chprogress::%player%} is 32:
+				delete {chprogress::%player%}
+				make console execute command "lp user %player% permission set challenge.d.30"
+				make console execute command "lp user %player% permission unset challenge.p.30"
+				add 4 to {points::%player%}
+				levelup(player)
+				make console execute command "eco give %player% 200"
+				send action bar "&8▪ &fMission completed successfully! &8▪" to player
+	if player has permission "challenge.p.38":
+		if event-item is wet sponge:
+			add 1 to {chprogress::%player%}
+			if {chprogress::%player%} is 4:
+				delete {chprogress::%player%}
+				make console execute command "lp user %player% permission set challenge.d.38"
+				make console execute command "lp user %player% permission unset challenge.p.38"
+				add 8 to {points::%player%}
+				levelup(player)
+				make console execute command "eco give %player% 400"
+				send action bar "&8▪ &fMission completed successfully! &8▪" to player
+
+on break ripe wheat plant:
+	if player has permission "challenge.p.3":
+		add 1 to {chprogress::%player%}
+		if {chprogress::%player%} is 16:
+			delete {chprogress::%player%}
+			make console execute command "lp user %player% permission set challenge.d.3"
+			make console execute command "lp user %player% permission unset challenge.p.3"
+			add 4 to {points::%player%}
+			levelup(player)
+			make console execute command "eco give %player% 200"
+			send action bar "&8▪ &fMission completed successfully! &8▪" to player
+
+on place of glass:
+	if player has permission "challenge.p.19":
+		add 1 to {chprogress::%player%}
+		if {chprogress::%player%} is 16:
+			delete {chprogress::%player%}
+			make console execute command "lp user %player% permission set challenge.d.19"
+			make console execute command "lp user %player% permission unset challenge.p.19"
+			add 4 to {points::%player%}
+			levelup(player)
+			make console execute command "eco give %player% 200"
+			send action bar "&8▪ &fMission completed successfully! &8▪" to player
+
+
+on place white bed:
+	if player has permission "challenge.p.4":
+		delete {chprogress::%player%}
+		make console execute command "lp user %player% permission set challenge.d.4"
+		make console execute command "lp user %player% permission unset challenge.p.4"
+		add 4 to {points::%player%}
+		levelup(player)
+		make console execute command "eco give %player% 200"
+		send action bar "&8▪ &fMission completed successfully! &8▪" to player
+
+on place:
+	if tool of player is carrots:
+		if player has permission "challenge.p.13":
+			add 1 to {chprogress::%player%}
+			if {chprogress::%player%} is 14:
+				delete {chprogress::%player%}
+				make console execute command "lp user %player% permission set challenge.d.13"
+				make console execute command "lp user %player% permission unset challenge.p.13"
+				add 4 to {points::%player%}
+				levelup(player)
+				make console execute command "eco give %player% 200"
+				send action bar "&8▪ &fMission completed successfully! &8▪" to player
+
+
+on place planks:
+	if player has permission "challenge.p.14":
+		add 1 to {chprogress::%player%}
+		if {chprogress::%player%} is 32:
+			delete {chprogress::%player%}
+			make console execute command "lp user %player% permission set challenge.d.14"
+			make console execute command "lp user %player% permission unset challenge.p.14"
+			add 4 to {points::%player%}
+			levelup(player)
+			make console execute command "eco give %player% 200"
+			send action bar "&8▪ &fMission completed successfully! &8▪" to player
+
+
+on place sapling:
+	if player has permission "challenge.p.17":
+		add 1 to {chprogress::%player%}
+		if {chprogress::%player%} is 8:
+			delete {chprogress::%player%}
+			make console execute command "lp user %player% permission set challenge.d.17"
+			make console execute command "lp user %player% permission unset challenge.p.17"
+			add 5 to {points::%player%}
+			levelup(player)
+			make console execute command "eco give %player% 250"
+			send action bar "&8▪ &fMission completed successfully! &8▪" to player
+
+
+on place emerald ore:
+	if player has permission "challenge.p.45":
+		add 1 to {chprogress::%player%}
+		if {chprogress::%player%} is 2:
+			delete {chprogress::%player%}
+			make console execute command "lp user %player% permission set challenge.d.45"
+			make console execute command "lp user %player% permission unset challenge.p.45"
+			add 8 to {points::%player%}
+			levelup(player)
+			make console execute command "eco give %player% 400"
+			send action bar "&8▪ &fMission completed successfully! &8▪" to player
+
+
+on consume golden apple:
+	if player has permission "challenge.p.36":
+		add 1 to {chprogress::%player%}
+		if {chprogress::%player%} is 2:
+			delete {chprogress::%player%}
+			make console execute command "lp user %player% permission set challenge.d.36"
+			make console execute command "lp user %player% permission unset challenge.p.36"
+			add 3 to {points::%player%}
+			levelup(player)
+			make console execute command "eco give %player% 600"
+			send action bar "&8▪ &fMission completed successfully! &8▪" to player
+
+
+On tool break:
+	if player has permission "challenge.p.34":
+		delete {chprogress::%player%}
+		make console execute command "lp user %player% permission set challenge.d.34"
+		make console execute command "lp user %player% permission unset challenge.p.34"
+		add 4 to {points::%player%}
+		levelup(player)
+		make console execute command "eco give %player% 200"
+		send action bar "&8▪ &fMission completed successfully! &8▪" to player
+
+on right click:
+	if player has permission "challenge.p.5":
+		if event-item is shield:
+			delete {chprogress::%player%}
+			make console execute command "lp user %player% permission set challenge.d.5"
+			make console execute command "lp user %player% permission unset challenge.p.5"
+			add 4 to {points::%player%}
+			levelup(player)
+			make console execute command "eco give %player% 200"
+			send action bar "&8▪ &fMission completed successfully! &8▪" to player
+	if player has permission "challenge.p.10":
+		if event-item is iron helmet:
+			wait 1 second
+			if player's helmet is iron helmet:
+				delete {chprogress::%player%}
+				make console execute command "lp user %player% permission set challenge.d.10"
+				make console execute command "lp user %player% permission unset challenge.p.10"
+				add 4 to {points::%player%}
+				levelup(player)
+				make console execute command "eco give %player% 200"
+				send action bar "&8▪ &fMission completed successfully! &8▪" to player
+	if player has permission "challenge.p.31":
+		if event-item is flint and steel:
+			delete {chprogress::%player%}
+			make console execute command "lp user %player% permission set challenge.d.31"
+			make console execute command "lp user %player% permission unset challenge.p.31"
+			add 2 to {points::%player%}
+			levelup(player)
+			make console execute command "eco give %player% 200"
+			send action bar "&8▪ &fMission completed successfully! &8▪" to player
+	if player has permission "challenge.p.43":
+		if event-item is map:
+			delete {chprogress::%player%}
+			make console execute command "lp user %player% permission set challenge.d.43"
+			make console execute command "lp user %player% permission unset challenge.p.43"
+			add 5 to {points::%player%}
+			levelup(player)
+			make console execute command "eco give %player% 250"
+			send action bar "&8▪ &fMission completed successfully! &8▪" to player
+	if player has permission "challenge.p.42":
+		if event-item is minecart:
+			delete {chprogress::%player%}
+			make console execute command "lp user %player% permission set challenge.d.42"
+			make console execute command "lp user %player% permission unset challenge.p.42"
+			add 10 to {points::%player%}
+			levelup(player)
+			make console execute command "eco give %player% 500"
+			send action bar "&8▪ &fMission completed successfully! &8▪" to player
+			
+			
+
+on craft:
+	if player has permission "challenge.p.7":
+		add 1 to {chprogress::%player%}
+		if {chprogress::%player%} >= 16:
+			delete {chprogress::%player%}
+			make console execute command "lp user %player% permission set challenge.d.7"
+			make console execute command "lp user %player% permission unset challenge.p.7"
+			add 4 to {points::%player%}
+			levelup(player)
+			make console execute command "eco give %player% 200"
+			send action bar "&8▪ &fMission completed successfully! &8▪" to player
+	if player has permission "challenge.p.9":
+		if event-item is chest:
+			if {chprogress::%player%} < 4:
+				add 1 to {chprogress::%player%}
+		if event-item is furnace:
+			if {chprogress2::%player%} < 2:
+				add 1 to {chprogress2::%player%}
+		if {chprogress::%player%} >= 4: 
+			if {chprogress2::%player%} >= 2:
+				delete {chprogress::%player%}
+				delete {chprogress2::%player%}
+				make console execute command "lp user %player% permission set challenge.d.9"
+				make console execute command "lp user %player% permission unset challenge.p.9"
+				add 4 to {points::%player%}
+				levelup(player)
+				make console execute command "eco give %player% 200"
+				send action bar "&8▪ &fMission completed successfully! &8▪" to player
+				delete {chprogress2::%player%}
+	if player have permission "challenge.p.15":
+		if event-item is 4 torch:
+			add 4 to {chprogress::%player%}
+			if {chprogress::%player%} >= 24:
+				delete {chprogress::%player%}
+				make console execute command "lp user %player% permission set challenge.d.15"
+				make console execute command "lp user %player% permission unset challenge.p.15"
+				add 4 to {points::%player%}
+				levelup(player)
+				make console execute command "eco give %player% 200"
+				send action bar "&8▪ &fMission completed successfully! &8▪" to player
+	if player has permission "challenge.p.22":
+		if event-item is 4 oak wood stairs:
+			add 4 to {chprogress::%player%}
+			if {chprogress::%player%} >= 10:
+				delete {chprogress::%player%}
+				make console execute command "lp user %player% permission set challenge.d.22"
+				make console execute command "lp user %player% permission unset challenge.p.22"
+				add 4 to {points::%player%}
+				levelup(player)
+				make console execute command "eco give %player% 200"
+				send action bar "&8▪ &fMission completed successfully! &8▪" to player
+	if player has permission "challenge.p.28":
+		if event-item is spyglass:
+			delete {chprogress::%player%}
+			make console execute command "lp user %player% permission set challenge.d.28"
+			make console execute command "lp user %player% permission unset challenge.p.28"
+			add 4 to {points::%player%}
+			levelup(player)
+			make console execute command "eco give %player% 200"
+			send action bar "&8▪ &fMission completed successfully! &8▪" to player
+	if player has permission "challenge.p.32":
+		if event-item is netherite ingot:
+			add 1 to {chprogress::%player%}
+			if {chprogress::%player%} >= 2:
+				delete {chprogress::%player%}
+				make console execute command "lp user %player% permission set challenge.d.32"
+				make console execute command "lp user %player% permission unset challenge.p.32"
+				add 10 to {points::%player%}
+				levelup(player)
+				make console execute command "eco give %player% 500"
+				send action bar "&8▪ &fMission completed successfully! &8▪" to player
+	if player has permission "challenge.p.44":
+		if event-item is repeater:
+			add 1 to {chprogress::%player%}
+			if {chprogress::%player%} >= 8:
+				delete {chprogress::%player%}
+				make console execute command "lp user %player% permission set challenge.d.44"
+				make console execute command "lp user %player% permission unset challenge.p.44"
+				add 5 to {points::%player%}
+				levelup(player)
+				make console execute command "eco give %player% 250"
+				send action bar "&8▪ &fMission completed successfully! &8▪" to player
+
+
+on fish:
+	if player has permission "challenge.p.11":
+		delete {chprogress::%player%}
+		make console execute command "lp user %player% permission set challenge.d.11"
+		make console execute command "lp user %player% permission unset challenge.p.11"
+		add 4 to {points::%player%}
+		levelup(player)
+		make console execute command "eco give %player% 200"
+		send action bar "&8▪ &fMission completed successfully! &8▪" to player
+
+
+on enchant:
+	if player has permission "challenge.p.24":
+		if event-item is diamond sword:
+			delete {chprogress::%player%}
+			make console execute command "lp user %player% permission set challenge.d.24"
+			make console execute command "lp user %player% permission unset challenge.p.24"
+			add 6 to {points::%player%}
+			levelup(player)
+			make console execute command "eco give %player% 300"
+			send action bar "&8▪ &fMission completed successfully! &8▪" to player
+
+
+on shoot:
+	if shooter is a player:
+		if shooter has permission "challenge.p.25":
+			add 1 to {chprogress::%shooter%}
+			if {chprogress::%shooter%} is 8:
+				delete {chprogress::%shooter%}
+				make console execute command "lp user %shooter% permission set challenge.d.25"
+				make console execute command "lp user %shooter% permission unset challenge.p.25"
+				add 4 to {points::%shooter%}
+				levelup(shooter)
+				make console execute command "eco give %shooter% 200"
+				send action bar "&8▪ &fMission completed successfully! &8▪" to shooter
+
+
+on death of a zombie:
+	if attacker is a player:
+		if attacker has permission "challenge.p.12":
+			add 1 to {chprogress::%attacker%}
+			if {chprogress::%attacker%} is 6:
+				delete {chprogress::%attacker%}
+				make console execute command "lp user %attacker% permission set challenge.d.12"
+				make console execute command "lp user %attacker% permission unset challenge.p.12"
+				add 5 to {points::%attacker%}
+				levelup(attacker)
+				make console execute command "eco give %attacker% 250"
+				send action bar "&8▪ &fMission completed successfully! &8▪" to attacker
+
+				
+on death of a pig:
+	if attacker is a player:
+		if attacker has permission "challenge.p.16":
+			add 1 to {chprogress::%attacker%}
+			if {chprogress::%attacker%} is 4:
+				delete {chprogress::%attacker%}
+				make console execute command "lp user %attacker% permission set challenge.d.16"
+				make console execute command "lp user %attacker% permission unset challenge.p.16"
+				add 5 to {points::%attacker%}
+				levelup(attacker)
+				make console execute command "eco give %attacker% 250"
+				send action bar "&8▪ &fMission completed successfully! &8▪" to attacker
+
+
+on death of a player:
+	if attacker is a player:
+		if attacker has permission "challenge.p.18":
+			add 1 to {chprogress::%attacker%}
+			if {chprogress::%attacker%} is 3:
+				delete {chprogress::%attacker%}
+				make console execute command "lp user %attacker% permission set challenge.d.18"
+				make console execute command "lp user %attacker% permission unset challenge.p.18"
+				add 8 to {points::%attacker%}
+				levelup(attacker)
+				make console execute command "eco give %attacker% 400"
+				send action bar "&8▪ &fMission completed successfully! &8▪" to attacker
+				
+
+on teleport:
+	if player have permission "challenge.p.26":
+		if players's world is "playworld":
+			wait 1 second
+			if player's world is "playworld_nether":
+				delete {chprogress::%player%}
+				make console execute command "lp user %player% permission set challenge.d.26"
+				make console execute command "lp user %player% permission unset challenge.p.26"
+				add 4 to {points::%player%}
+				levelup(player)
+				make console execute command "eco give %player% 200"
+				send action bar "&8▪ &fMission completed successfully! &8▪" to player
+
+
+on death of a blaze:
+	if attacker is a player:
+		if attacker has permission "challenge.p.29":
+			add 1 to {chprogress::%attacker%}
+			if {chprogress::%attacker%} is 6:
+				delete {chprogress::%attacker%}
+				make console execute command "lp user %attacker% permission set challenge.d.29"
+				make console execute command "lp user %attacker% permission unset challenge.p.29"
+				add 8 to {points::%attacker%}
+				levelup(attacker)
+				make console execute command "eco give %attacker% 400"
+				send action bar "&8▪ &fMission completed successfully! &8▪" to attacker
+			
+			
+on damage of a wither:
+	if attacker is a player:
+		if attacker has permission "challenge.p.31":
+			make console execute command "lp user %attacker% permission set challenge.d.31"
+			make console execute command "lp user %attacker% permission unset challenge.p.31"
+			add 8 to {points::%attacker%}
+			levelup(attacker)
+			add 7 to {points::%attacker%}
+			levelup(attacker)
+			make console execute command "eco give %attacker% 1000"
+			send action bar "&8▪ &fMission completed successfully! &8▪" to attacker
+
+	
+on death of a ghast:
+	if attacker is a player:
+		if attacker has permission "challenge.p.37":
+			add 1 to {chprogress::%attacker%}
+			if {chprogress::%attacker%} is 2:
+				delete {chprogress::%attacker%}
+				make console execute command "lp user %attacker% permission set challenge.d.37"
+				make console execute command "lp user %attacker% permission unset challenge.p.37"
+				add 8 to {points::%attacker%}
+				levelup(attacker)
+				make console execute command "eco give %attacker% 400"
+				send action bar "&8▪ &fMission completed successfully! &8▪" to attacker
+
+
+on death of a creeper:
+	if attacker is a player:
+		if attacker has permission "challenge.p.35":
+			add 1 to {chprogress::%attacker%}
+			if {chprogress::%attacker%} is 2:
+				delete {chprogress::%attacker%}
+				make console execute command "lp user %attacker% permission set challenge.d.35"
+				make console execute command "lp user %attacker% permission unset challenge.p.35"
+				add 6 to {points::%attacker%}
+				levelup(attacker)
+				make console execute command "eco give %attacker% 300"
+				send action bar "&8▪ &fMission completed successfully! &8▪" to attacker
+
+on tame:
+	if event-entity is donkey:
+		if tamer has permission "challenge.p.39":
+			delete {chprogress::%tamer%}
+			make console execute command "lp user %tamer% permission set challenge.d.39"
+			make console execute command "lp user %tamer% permission unset challenge.p.39"
+			add 8 to {points::%tamer%}
+			levelup(tamer)
+			make console execute command "eco give %tamer% 400"
+			send action bar "&8▪ &fMission completed successfully! &8▪" to player
+
+
+on death of a drowned:
+	if attacker is a player:
+		if attacker has permission "challenge.p.40":
+			add 1 to {chprogress::%attacker%}
+			if {chprogress::%attacker%} is 5:
+				delete {chprogress::%attacker%}
+				make console execute command "lp user %attacker% permission set challenge.d.40"
+				make console execute command "lp user %attacker% permission unset challenge.p.40"
+				add 8 to {points::%attacker%}
+				levelup(attacker)
+				make console execute command "eco give %attacker% 400"
+				send action bar "&8▪ &fMission completed successfully! &8▪" to attacker
+
+
+on death of a shulker:
+	if attacker is a player:
+		if attacker has permission "challenge.p.41":
+			make console execute command "lp user %attacker% permission set challenge.d.41"
+			make console execute command "lp user %attacker% permission unset challenge.p.41"
+			add 10 to {points::%attacker%}
+			levelup(attacker)
+			make console execute command "eco give %attacker% 500"
+			send action bar "&8▪ &fMission completed successfully! &8▪" to attacker
+
+on tame:
+	if event-entity is cat:
+		if tamer has permission "challenge.p.46":
+			delete {chprogress::%tamer%}
+			make console execute command "lp user %tamer% permission set challenge.d.46"
+			make console execute command "lp user %tamer% permission unset challenge.p.46"
+			add 8 to {points::%tamer%}
+			levelup(tamer)
+			make console execute command "eco give %tamer% 400"
+			send action bar "&8▪ &fMission completed successfully! &8▪" to player
+
+
+on death of a ravager:
+	if attacker is a player:
+		if attacker has permission "challenge.p.47":
+			make console execute command "lp user %attacker% permission set challenge.d.47"
+			make console execute command "lp user %attacker% permission unset challenge.p.47"
+			add 16 to {points::%attacker%}
+			levelup(attacker)
+			make console execute command "eco give %attacker% 1000"
+			send action bar "&8▪ &fMission completed successfully! &8▪" to attacker
+
+
+command /ch1 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.1"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch2 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.2"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch3 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.3"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch4 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.4"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch5 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.5"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch6 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.6"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch7 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.7"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch8 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.8"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch9 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.9"
+		set {chprogress::%arg-1%} to 0
+		set {chprogress2::%arg-1%} to 0
+
+command /ch10 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.10"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch11 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.11"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch12 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.12"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch13 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.13"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch14 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.14"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch15 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.15"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch16 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.16"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch17 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.17"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch18 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.18"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch19 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.19"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch20 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.20"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch21 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.21"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch22 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.22"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch23 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.23"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch24 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.24"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch25 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.25"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch26 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.26"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch27 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.27"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch28 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.28"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch29 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.29"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch30 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.30"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch31 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.31"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch32 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.32"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch33 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.33"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch34 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.34"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch35 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.35"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch36 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.36"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch37 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.37"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch38 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.38"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch39 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.39"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch40 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.40"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch41 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.41"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch42 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.42"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch43 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.43"
+		set {chprogress::%arg-1%} to 0		
+
+command /ch44 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.44"
+		set {chprogress::%arg-1%} to 0
+
+command /ch45 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.45"
+		set {chprogress::%arg-1%} to 0
+
+command /ch46 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.46"
+		set {chprogress::%arg-1%} to 0
+
+command /ch47 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.47"
+		set {chprogress::%arg-1%} to 0
+
+command /ch48 [<player>]:
+	permission: op
+	trigger:
+		questswitch(arg-1)
+		make console execute command "lp user %arg-1% permission set challenge.p.48"
+		set {chprogress::%arg-1%} to 0
+
+
+function questswitch(p: player):
+	if {_p} have permission "challenge.p.1":
+		make console execute command "lp user %{_p}% permission unset challenge.p.1"
+	else if {_p} have permission "challenge.p.2":
+		make console execute command "lp user %{_p}% permission unset challenge.p.2"
+	else if {_p} have permission "challenge.p.3":
+		make console execute command "lp user %{_p}% permission unset challenge.p.3"
+	else if {_p} have permission "challenge.p.4":
+		make console execute command "lp user %{_p}% permission unset challenge.p.4"
+	else if {_p} have permission "challenge.p.5":
+		make console execute command "lp user %{_p}% permission unset challenge.p.5"
+	else if {_p} have permission "challenge.p.6":
+		make console execute command "lp user %{_p}% permission unset challenge.p.6"
+	else if {_p} have permission "challenge.p.7":
+		make console execute command "lp user %{_p}% permission unset challenge.p.7"
+	else if {_p} have permission "challenge.p.8":
+		make console execute command "lp user %{_p}% permission unset challenge.p.8"
+	else if {_p} have permission "challenge.p.9":
+		make console execute command "lp user %{_p}% permission unset challenge.p.9"
+	else if {_p} have permission "challenge.p.10":
+		make console execute command "lp user %{_p}% permission unset challenge.p.10"
+	else if {_p} have permission "challenge.p.11":
+		make console execute command "lp user %{_p}% permission unset challenge.p.11"
+	else if {_p} have permission "challenge.p.12":
+		make console execute command "lp user %{_p}% permission unset challenge.p.12"
+	else if {_p} have permission "challenge.p.13":
+		make console execute command "lp user %{_p}% permission unset challenge.p.13"
+	else if {_p} have permission "challenge.p.14":
+		make console execute command "lp user %{_p}% permission unset challenge.p.14"
+	else if {_p} have permission "challenge.p.15":
+		make console execute command "lp user %{_p}% permission unset challenge.p.15"
+	else if {_p} have permission "challenge.p.16":
+		make console execute command "lp user %{_p}% permission unset challenge.p.16"
+	else if {_p} have permission "challenge.p.17":
+		make console execute command "lp user %{_p}% permission unset challenge.p.17"
+	else if {_p} have permission "challenge.p.18":
+		make console execute command "lp user %{_p}% permission unset challenge.p.18"
+	else if {_p} have permission "challenge.p.19":
+		make console execute command "lp user %{_p}% permission unset challenge.p.19"
+	else if {_p} have permission "challenge.p.20":
+		make console execute command "lp user %{_p}% permission unset challenge.p.20"
+	else if {_p} have permission "challenge.p.21":
+		make console execute command "lp user %{_p}% permission unset challenge.p.21"
+	else if {_p} have permission "challenge.p.22":
+		make console execute command "lp user %{_p}% permission unset challenge.p.22"
+	else if {_p} have permission "challenge.p.23":
+		make console execute command "lp user %{_p}% permission unset challenge.p.23"
+	else if {_p} have permission "challenge.p.24":
+		make console execute command "lp user %{_p}% permission unset challenge.p.24"
+	else if {_p} have permission "challenge.p.25":
+		make console execute command "lp user %{_p}% permission unset challenge.p.25"
+	else if {_p} have permission "challenge.p.26":
+		make console execute command "lp user %{_p}% permission unset challenge.p.26"
+	else if {_p} have permission "challenge.p.27":
+		make console execute command "lp user %{_p}% permission unset challenge.p.27"
+	else if {_p} have permission "challenge.p.28":
+		make console execute command "lp user %{_p}% permission unset challenge.p.28"
+	else if {_p} have permission "challenge.p.29":
+		make console execute command "lp user %{_p}% permission unset challenge.p.29"
+	else if {_p} have permission "challenge.p.30":
+		make console execute command "lp user %{_p}% permission unset challenge.p.30"
+	else if {_p} have permission "challenge.p.31":
+		make console execute command "lp user %{_p}% permission unset challenge.p.31"
+	else if {_p} have permission "challenge.p.32":
+		make console execute command "lp user %{_p}% permission unset challenge.p.32"
+	else if {_p} have permission "challenge.p.33":
+		make console execute command "lp user %{_p}% permission unset challenge.p.33"
+	else if {_p} have permission "challenge.p.34":
+		make console execute command "lp user %{_p}% permission unset challenge.p.34"
+	else if {_p} have permission "challenge.p.35":
+		make console execute command "lp user %{_p}% permission unset challenge.p.35"
+	else if {_p} have permission "challenge.p.36":
+		make console execute command "lp user %{_p}% permission unset challenge.p.36"
+	else if {_p} have permission "challenge.p.37":
+		make console execute command "lp user %{_p}% permission unset challenge.p.37"
+	else if {_p} have permission "challenge.p.38":
+		make console execute command "lp user %{_p}% permission unset challenge.p.38"
+	else if {_p} have permission "challenge.p.39":
+		make console execute command "lp user %{_p}% permission unset challenge.p.39"
+	else if {_p} have permission "challenge.p.40":
+		make console execute command "lp user %{_p}% permission unset challenge.p.40"
+	else if {_p} have permission "challenge.p.41":
+		make console execute command "lp user %{_p}% permission unset challenge.p.41"
+	else if {_p} have permission "challenge.p.42":
+		make console execute command "lp user %{_p}% permission unset challenge.p.42"
+	else if {_p} have permission "challenge.p.43":
+		make console execute command "lp user %{_p}% permission unset challenge.p.43"
+	else if {_p} have permission "challenge.p.44":
+		make console execute command "lp user %{_p}% permission unset challenge.p.44"
+	else if {_p} have permission "challenge.p.45":
+		make console execute command "lp user %{_p}% permission unset challenge.p.45"
+	else if {_p} have permission "challenge.p.46":
+		make console execute command "lp user %{_p}% permission unset challenge.p.46"
+	else if {_p} have permission "challenge.p.47":
+		make console execute command "lp user %{_p}% permission unset challenge.p.47"
+	else if {_p} have permission "challenge.p.48":
+		make console execute command "lp user %{_p}% permission unset challenge.p.48"
+
+
+function levelup(p: player):
+	set {_aux} to {points::%{_p}%}/10
+	set {_aux} to floor({_aux})
+	set {_aux} to {_aux}-1
+	if {_aux} is 1:
+		make console execute command "lp user %{_p}% permission set rift.ready.2"
+	else if {_aux} is 2:
+		make console execute command "lp user %{_p}% permission set rift.ready.3"
+	else if {_aux} is 3:
+		make console execute command "lp user %{_p}% permission set rift.ready.4"
+	else if {_aux} is 4:
+		make console execute command "lp user %{_p}% permission set rift.ready.5"
+	else if {_aux} is 5:
+		make console execute command "lp user %{_p}% permission set rift.ready.6"
+	else if {_aux} is 6:
+		make console execute command "lp user %{_p}% permission set rift.ready.7"
+	else if {_aux} is 7:
+		make console execute command "lp user %{_p}% permission set rift.ready.8"
+	else if {_aux} is 8:
+		make console execute command "lp user %{_p}% permission set rift.ready.9"
+	else if {_aux} is 9:
+		make console execute command "lp user %{_p}% permission set rift.ready.10"
+	else if {_aux} is 10:
+		make console execute command "lp user %{_p}% permission set rift.ready.11"
+	else if {_aux} is 11:
+		make console execute command "lp user %{_p}% permission set rift.ready.12"
+	else if {_aux} is 12:
+		make console execute command "lp user %{_p}% permission set rift.ready.13"
+	else if {_aux} is 13:
+		make console execute command "lp user %{_p}% permission set rift.ready.14"
+	else if {_aux} is 14:
+		make console execute command "lp user %{_p}% permission set rift.ready.15"
+	else if {_aux} is 15:
+		make console execute command "lp user %{_p}% permission set rift.ready.16"
+	else if {_aux} is 16:
+		make console execute command "lp user %{_p}% permission set rift.ready.17"
+	else if {_aux} is 17:
+		make console execute command "lp user %{_p}% permission set rift.ready.18"
+	else if {_aux} is 18:
+		make console execute command "lp user %{_p}% permission set rift.ready.19"
+	else if {_aux} is 19:
+		make console execute command "lp user %{_p}% permission set rift.ready.20"
+	else if {_aux} is 20:
+		make console execute command "lp user %{_p}% permission set rift.ready.21"
+	else if {_aux} is 21:
+		make console execute command "lp user %{_p}% permission set rift.ready.22"
+	else if {_aux} is 22:
+		make console execute command "lp user %{_p}% permission set rift.ready.23"
+	else if {_aux} is 23:
+		make console execute command "lp user %{_p}% permission set rift.ready.24"
+	else if {_aux} is 24:
+		make console execute command "lp user %{_p}% permission set rift.ready.25"
+	else if {_aux} is 25:
+		make console execute command "lp user %{_p}% permission set rift.ready.26"
+	else if {_aux} is 26:
+		make console execute command "lp user %{_p}% permission set rift.ready.27"
+	else if {_aux} is 27:
+		make console execute command "lp user %{_p}% permission set rift.ready.28"
+	else if {_aux} is 28:
+		make console execute command "lp user %{_p}% permission set rift.ready.29"
+	else if {_aux} is 29:
+		make console execute command "lp user %{_p}% permission set rift.ready.30"
+	else if {_aux} is 30:
+		make console execute command "lp user %{_p}% permission set rift.ready.31"
+	else if {_aux} is 31:
+		make console execute command "lp user %{_p}% permission set rift.ready.32"

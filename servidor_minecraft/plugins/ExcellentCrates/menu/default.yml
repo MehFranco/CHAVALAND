@@ -1,0 +1,98 @@
+Crates:
+  virtual:
+    Display:
+      default:
+        Item:
+          Material: PLAYER_HEAD
+          Head_Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDI0ODZmMjg1OTE2OWM4YmZiNjZhNjg3YmNmNGM2OTkzNDE3ZjU4NGI1OGJiZmRiMzM2NDY0ZDUyMDcxY2NkNyJ9fX0=
+          Name: '%crate_name%'
+          Lore:
+          - '%crate_item_lore%'
+          - '&7'
+          - '&9▸ &7You have: &9%user_keys% keys'
+          - '&9▸ &7Money Cost: &9$%crate_opening_cost_money%'
+          - '&9▸ &7Exp Cost: &9%crate_opening_cost_exp%'
+          - '&7'
+          - '&fLeft Click &7to preview'
+          - '&fRight Click &7to open'
+    Slots: 13
+# ==================== GUI CONTENT ====================
+# You can freely edit items in this section as you wish (add, remove, modify items).
+# The following values are available as button Types:
+# CLOSE
+# ==================== ITEM OPTIONS ====================
+# > Item: Item to display. Please check: https://github.com/nulli0n/nightcore-spigot/wiki/ItemStack-Options
+# > Priority: Button priority. Better values will override other item(s) in the same slot(s).
+# > Slots: Button slots. From [0] to [Size - 1]. Split with commas.
+# > Click_Commands: Execute custom commands on click. PlaceholderAPI available here.
+#     Available click types: LEFT, RIGHT, SHIFT_LEFT, SHIFT_RIGHT, DROP_KEY, SWAP_KEY, NUMBER_1, NUMBER_2, NUMBER_3, NUMBER_4, NUMBER_5, NUMBER_6, NUMBER_7, NUMBER_8, NUMBER_9
+#     Use prefix 'player:' to run command by a player.
+#     Click_Commands:
+#       LEFT:
+#       - say Hello
+#       - give %player_name% diamond 1
+#       - player: menu open shops
+# ==================================================
+Content:
+  exit:
+    Display:
+      default:
+        Item:
+          Material: BARRIER
+          Name: '&c&lClose'
+    Slots: 31
+    Type: CLOSE
+  
+  info:
+    Display:
+      default:
+        Item:
+          Material: BOOK
+          Name: '&e&nWhat is it?'
+          Lore:
+          - '&6This is special crates menu,'
+          - '&6where you can open creates using'
+          - '&6virtual keys, which you can buy'
+          - '&6in our store.'
+    Slots: 28
+    Type: NONE
+  
+  store:
+    Display:
+      default:
+        Item:
+          Material: EMERALD
+          Name: '&a&nStore'
+          Lore:
+          - '&dBuy crate keys in our store'
+          - '&dand use them in this menu!'
+          - '&7'
+          - '&bOur Store: &awww.store.mycraft.com'
+    Slots: 34
+    Type: NONE
+Settings:
+  # GUI title.
+  Title: '&nCrates Menu'
+  # GUI size. Must be multiply of 9.
+  # Useful for 'CHEST' Inventory Type only.
+  Size: 36
+  # GUI type.
+  # https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/event/inventory/InventoryType.html
+  Inventory_Type: CHEST
+  # Sets GUI auto-refresh interval (in seconds). Set this to 0 to disable.
+  Auto_Refresh: 0
+  PlaceholderAPI:
+    # Sets whether PlaceholderAPI placeholders will be applied on all items from the 'Content' section of this GUI.
+    # [*] Disable if you don't use any PlaceholderAPI placeholders on your items to improve GUI performance.
+    Enabled: false
+Crate:
+  Name: '%crate_name%'
+  Lore:
+  - <lgray>You have <lyellow>%keys%</lyellow> keys.</lgray>
+  - ''
+  - <lgray><lyellow>[▶]</lyellow> Left-Click to <lyellow>preview</lyellow>.</lgray>
+  - <lgray><lyellow>[▶]</lyellow> Right-Click to <lyellow>open</lyellow>.</lgray>
+  # Put here crate IDs and slots where they will be displayed.
+  # Crate IDs are equals to their config file names.
+  Slots:
+    your_crate_id: 13

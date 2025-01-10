@@ -1,0 +1,837 @@
+ShopName: Redstone
+DisplayName: '&f'
+Command: redstone
+RemovePlayerInventory: true
+shop:
+#########################################################################################
+#    HEADER ITEMS
+#########################################################################################
+  Useful_Blocks_Category:
+    MenuItem:
+    - 'lore1:&7ʙʟᴏᴄᴋꜱ ᴛʜᴀᴛ ᴄᴀɴ ʙᴇ ᴜꜱᴇᴅ#&7ꜰᴏʀ ᴅᴇꜱɪɢɴ ᴏʀ ᴜᴛɪʟɪᴛʏ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: UsefulBlocks
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  Food_Category:
+    MenuItem:
+    - 'lore1:&7ꜰᴏᴏᴅ ᴛᴏ ꜰɪʟʟ ʏᴏᴜ ᴜᴘ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Food
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  Farms_Category:
+    MenuItem:
+    - 'lore1:&7ʜᴀʀᴠᴇsᴛᴀʙʟᴇ ɪᴛᴇᴍs'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Farms
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  MobDrops_Category:
+    MenuItem:
+    - 'lore1:&7ʀᴇᴡᴀʀᴅꜱ ꜰᴏʀ ꜱʟᴀʏɪɴɢ ᴍᴏʙꜱ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: MobDrops
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+  RedStone_Category:
+    MenuItem:
+    - 'lore1:&esᴇʟᴇᴄᴛᴇᴅ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Redstone
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+  Miscellaneous_Category:
+    MenuItem:
+    - 'lore1:&7ɪᴛᴇᴍꜱ ᴛʜᴀᴛ ᴅᴏɴ''ᴛ ꜰɪᴛ ɪɴ#&7ᴀɴʏ ᴏᴛʜᴇʀ ᴄᴀᴛᴇɢᴏʀʏ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Miscellaneous
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+  Weapons_Category:
+    MenuItem:
+    - 'lore1:&7ɪᴛᴇᴍꜱ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ꜰɪɢʜᴛ#&7ᴍᴏʙꜱ ᴀɴᴅ ᴇɴᴇᴍɪᴇꜱ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - hideflags:all
+    RewardType: SHOP
+    Reward: Weapons
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 8
+  Previous_Shops:
+    MenuItem:
+    - name:&8ɴᴇxᴛ sʜᴏᴘs
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: 1_Select
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  Next_Shops:
+    MenuItem:
+    - name:&8ɴᴇxᴛ sʜᴏᴘs
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: 3_Select
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 9
+  Inventory_Size:
+    MenuItem:
+    - name:&f
+    - type:stick
+    - custommodeldata:1
+    InventoryLocation: 54
+#########################################################################################
+#    ITEMS AVAILABLE FOR SALE
+#########################################################################################
+  repeater:
+    MenuItem:
+    - type:repeater
+    - amount:2
+    - 'lore2:&f ▪ ʙᴜʏ ᴘʀɪᴄᴇ #dad45e%price%'
+    - 'lore3:&f ▪ ꜱᴇʟʟ ᴘʀɪᴄᴇ #dad45e%reward_right%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - 'lore6:&f &cʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟʟ'
+    - 'lore8:&7ꜱʜɪꜰᴛ + &f&7 ᴛᴏ ꜱᴇʟʟ ᴀʟʟ'
+    - 'lore9:&7ꜰᴏʀ %reward_shift_right% &7ᴘᴇʀ ᴘɪᴇᴄᴇ'
+    RewardType: ITEM
+    Reward:
+    - - type:repeater
+      - amount:2
+    PriceType: MONEY
+    Price: 550
+    Message: '&f &fYou bought &e%reward%&f for &a%price%'
+    RewardType_right: MONEY
+    Reward_right: 150
+    PriceType_right: ITEM
+    Price_right:
+    - - type:repeater
+      - amount:2
+    Message_right: '&f &fYou just sold &e%price_right%&f for &a%reward_right%'
+    RewardType_shift_right: MONEY
+    Reward_shift_right: 75
+    PriceType_shift_right: ITEMALL
+    Price_shift_right:
+    - - type:repeater
+    Message_shift_right: '&f &fYou just sold &e%price_shift_right%&f for &a%reward_shift_right% each'
+    ExtraPermission: ''
+    InventoryLocation: 21
+  redstone:
+    MenuItem:
+    - type:redstone
+    - amount:16
+    - 'lore2:&f ▪ ʙᴜʏ ᴘʀɪᴄᴇ #dad45e%price%'
+    - 'lore3:&f ▪ ꜱᴇʟʟ ᴘʀɪᴄᴇ #dad45e%reward_right%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - 'lore6:&f &cʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟʟ'
+    - 'lore8:&7ꜱʜɪꜰᴛ + &f&7 ᴛᴏ ꜱᴇʟʟ ᴀʟʟ'
+    - 'lore9:&7ꜰᴏʀ %reward_shift_right% &7ᴘᴇʀ ᴘɪᴇᴄᴇ'
+    RewardType: ITEM
+    Reward:
+    - - type:redstone
+      - amount:16
+    PriceType: MONEY
+    Price: 1025
+    Message: '&f &fYou bought &e%reward%&f for &a%price%'
+    RewardType_right: MONEY
+    Reward_right: 290
+    PriceType_right: ITEM
+    Price_right:
+    - - type:redstone
+      - amount:16
+    Message_right: '&f &fYou just sold &e%price_right%&f for &a%reward_right%'
+    RewardType_shift_right: MONEY
+    Reward_shift_right: 18
+    PriceType_shift_right: ITEMALL
+    Price_shift_right:
+    - - type:redstone
+    Message_shift_right: '&f &fYou just sold &e%price_shift_right%&f for &a%reward_shift_right% each'
+    ExtraPermission: ''
+    InventoryLocation: 23
+  redstone_comparator:
+    MenuItem:
+    - type:redstone_comparator
+    - amount:2
+    - 'lore2:&f ▪ ʙᴜʏ ᴘʀɪᴄᴇ #dad45e%price%'
+    - 'lore3:&f ▪ ꜱᴇʟʟ ᴘʀɪᴄᴇ #dad45e%reward_right%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - 'lore6:&f &cʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟʟ'
+    - 'lore8:&7ꜱʜɪꜰᴛ + &f&7 ᴛᴏ ꜱᴇʟʟ ᴀʟʟ'
+    - 'lore9:&7ꜰᴏʀ %reward_shift_right% &7ᴘᴇʀ ᴘɪᴇᴄᴇ'
+    RewardType: ITEM
+    Reward:
+    - - type:redstone_comparator
+      - amount:2
+    PriceType: MONEY
+    Price: 640
+    Message: '&f &fYou bought &e%reward%&f for &a%price%'
+    RewardType_right: MONEY
+    Reward_right: 185
+    PriceType_right: ITEM
+    Price_right:
+    - - type:redstone_comparator
+      - amount:2
+    Message_right: '&f &fYou just sold &e%price_right%&f for &a%reward_right%'
+    RewardType_shift_right: MONEY
+    Reward_shift_right: 90
+    PriceType_shift_right: ITEMALL
+    Price_shift_right:
+    - - type:redstone_comparator
+    Message_shift_right: '&f &fYou just sold &e%price_shift_right%&f for &a%reward_shift_right% each'
+    ExtraPermission: ''
+    InventoryLocation: 25
+  Dispenser:
+    MenuItem:
+    - type:Dispenser
+    - amount:1
+    - 'lore2:&f ▪ ʙᴜʏ ᴘʀɪᴄᴇ #dad45e%price%'
+    - 'lore3:&f ▪ ꜱᴇʟʟ ᴘʀɪᴄᴇ #dad45e%reward_right%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - 'lore6:&f &cʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟʟ'
+    - 'lore8:&7ꜱʜɪꜰᴛ + &f&7 ᴛᴏ ꜱᴇʟʟ ᴀʟʟ'
+    - 'lore9:&7ꜰᴏʀ %reward_shift_right% &7ᴘᴇʀ ᴘɪᴇᴄᴇ'
+    RewardType: ITEM
+    Reward:
+    - - type:Dispenser
+      - amount:1
+    PriceType: MONEY
+    Price: 250
+    Message: '&f &fYou bought &e%reward%&f for &a%price%'
+    RewardType_right: MONEY
+    Reward_right: 60
+    PriceType_right: ITEM
+    Price_right:
+    - - type:Dispenser
+      - amount:1
+    Message_right: '&f &fYou just sold &e%price_right%&f for &a%reward_right%'
+    RewardType_shift_right: MONEY
+    Reward_shift_right: 60
+    PriceType_shift_right: ITEMALL
+    Price_shift_right:
+    - - type:Dispenser
+    Message_shift_right: '&f &fYou just sold &e%price_shift_right%&f for &a%reward_shift_right% each'
+    ExtraPermission: ''
+    InventoryLocation: 29
+  Dropper:
+    MenuItem:
+    - type:Dropper
+    - amount:1
+    - 'lore2:&f ▪ ʙᴜʏ ᴘʀɪᴄᴇ #dad45e%price%'
+    - 'lore3:&f ▪ ꜱᴇʟʟ ᴘʀɪᴄᴇ #dad45e%reward_right%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - 'lore6:&f &cʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟʟ'
+    - 'lore8:&7ꜱʜɪꜰᴛ + &f&7 ᴛᴏ ꜱᴇʟʟ ᴀʟʟ'
+    - 'lore9:&7ꜰᴏʀ %reward_shift_right% &7ᴘᴇʀ ᴘɪᴇᴄᴇ'
+    RewardType: ITEM
+    Reward:
+    - - type:Dropper
+      - amount:1
+    PriceType: MONEY
+    Price: 135
+    Message: '&f &fYou bought &e%reward%&f for &a%price%'
+    RewardType_right: MONEY
+    Reward_right: 35
+    PriceType_right: ITEM
+    Price_right:
+    - - type:Dropper
+      - amount:1
+    Message_right: '&f &fYou just sold &e%price_right%&f for &a%reward_right%'
+    RewardType_shift_right: MONEY
+    Reward_shift_right: 35
+    PriceType_shift_right: ITEMALL
+    Price_shift_right:
+    - - type:Dropper
+    Message_shift_right: '&f &fYou just sold &e%price_shift_right%&f for &a%reward_shift_right% each'
+    ExtraPermission: ''
+    InventoryLocation: 30
+  Observer:
+    MenuItem:
+    - type:Observer
+    - amount:1
+    - 'lore2:&f ▪ ʙᴜʏ ᴘʀɪᴄᴇ #dad45e%price%'
+    - 'lore3:&f ▪ ꜱᴇʟʟ ᴘʀɪᴄᴇ #dad45e%reward_right%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - 'lore6:&f &cʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟʟ'
+    - 'lore8:&7ꜱʜɪꜰᴛ + &f&7 ᴛᴏ ꜱᴇʟʟ ᴀʟʟ'
+    - 'lore9:&7ꜰᴏʀ %reward_shift_right% &7ᴘᴇʀ ᴘɪᴇᴄᴇ'
+    RewardType: ITEM
+    Reward:
+    - - type:Observer
+      - amount:1
+    PriceType: MONEY
+    Price: 275
+    Message: '&f &fYou bought &e%reward%&f for &a%price%'
+    RewardType_right: MONEY
+    Reward_right: 40
+    PriceType_right: ITEM
+    Price_right:
+    - - type:Observer
+      - amount:1
+    Message_right: '&f &fYou just sold &e%price_right%&f for &a%reward_right%'
+    RewardType_shift_right: MONEY
+    Reward_shift_right: 40
+    PriceType_shift_right: ITEMALL
+    Price_shift_right:
+    - - type:Observer
+    Message_shift_right: '&f &fYou just sold &e%price_shift_right%&f for &a%reward_shift_right% each'
+    ExtraPermission: ''
+    InventoryLocation: 31
+  Hopper:
+    MenuItem:
+    - type:Hopper
+    - amount:1
+    - 'lore2:&f ▪ ʙᴜʏ ᴘʀɪᴄᴇ #dad45e%price%'
+    - 'lore3:&f ▪ ꜱᴇʟʟ ᴘʀɪᴄᴇ #dad45e%reward_right%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - 'lore6:&f &cʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟʟ'
+    - 'lore8:&7ꜱʜɪꜰᴛ + &f&7 ᴛᴏ ꜱᴇʟʟ ᴀʟʟ'
+    - 'lore9:&7ꜰᴏʀ %reward_shift_right% &7ᴘᴇʀ ᴘɪᴇᴄᴇ'
+    RewardType: ITEM
+    Reward:
+    - - type:Hopper
+      - amount:1
+    PriceType: MONEY
+    Price: 650
+    Message: '&f &fYou bought &e%reward%&f for &a%price%'
+    RewardType_right: MONEY
+    Reward_right: 140
+    PriceType_right: ITEM
+    Price_right:
+    - - type:Hopper
+      - amount:1
+    Message_right: '&f &fYou just sold &e%price_right%&f for &a%reward_right%'
+    RewardType_shift_right: MONEY
+    Reward_shift_right: 140
+    PriceType_shift_right: ITEMALL
+    Price_shift_right:
+    - - type:Hopper
+    Message_shift_right: '&f &fYou just sold &e%price_shift_right%&f for &a%reward_shift_right% each'
+    ExtraPermission: ''
+    InventoryLocation: 32
+  tripwire_hook:
+    MenuItem:
+    - type:tripwire_hook
+    - amount:2
+    - 'lore2:&f ▪ ʙᴜʏ ᴘʀɪᴄᴇ #dad45e%price%'
+    - 'lore3:&f ▪ ꜱᴇʟʟ ᴘʀɪᴄᴇ #dad45e%reward_right%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - 'lore6:&f &cʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟʟ'
+    - 'lore8:&7ꜱʜɪꜰᴛ + &f&7 ᴛᴏ ꜱᴇʟʟ ᴀʟʟ'
+    - 'lore9:&7ꜰᴏʀ %reward_shift_right% &7ᴘᴇʀ ᴘɪᴇᴄᴇ'
+    RewardType: ITEM
+    Reward:
+    - - type:tripwire_hook
+      - amount:2
+    PriceType: MONEY
+    Price: 175
+    Message: '&f &fYou bought &e%reward%&f for &a%price%'
+    RewardType_right: MONEY
+    Reward_right: 30
+    PriceType_right: ITEM
+    Price_right:
+    - - type:tripwire_hook
+      - amount:2
+    Message_right: '&f &fYou just sold &e%price_right%&f for &a%reward_right%'
+    RewardType_shift_right: MONEY
+    Reward_shift_right: 15
+    PriceType_shift_right: ITEMALL
+    Price_shift_right:
+    - - type:tripwire_hook
+    Message_shift_right: '&f &fYou just sold &e%price_shift_right%&f for &a%reward_shift_right% each'
+    ExtraPermission: ''
+    InventoryLocation: 33
+  Piston:
+    MenuItem:
+    - type:Piston
+    - amount:1
+    - 'lore2:&f ▪ ʙᴜʏ ᴘʀɪᴄᴇ #dad45e%price%'
+    - 'lore3:&f ▪ ꜱᴇʟʟ ᴘʀɪᴄᴇ #dad45e%reward_right%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - 'lore6:&f &cʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟʟ'
+    - 'lore8:&7ꜱʜɪꜰᴛ + &f&7 ᴛᴏ ꜱᴇʟʟ ᴀʟʟ'
+    - 'lore9:&7ꜰᴏʀ %reward_shift_right% &7ᴘᴇʀ ᴘɪᴇᴄᴇ'
+    RewardType: ITEM
+    Reward:
+    - - type:Piston
+      - amount:1
+    PriceType: MONEY
+    Price: 275
+    Message: '&f &fYou bought &e%reward%&f for &a%price%'
+    RewardType_right: MONEY
+    Reward_right: 55
+    PriceType_right: ITEM
+    Price_right:
+    - - type:Piston
+      - amount:1
+    Message_right: '&f &fYou just sold &e%price_right%&f for &a%reward_right%'
+    RewardType_shift_right: MONEY
+    Reward_shift_right: 55
+    PriceType_shift_right: ITEMALL
+    Price_shift_right:
+    - - type:Piston
+    Message_shift_right: '&f &fYou just sold &e%price_shift_right%&f for &a%reward_shift_right% each'
+    ExtraPermission: ''
+    InventoryLocation: 34
+  Sticky_Piston:
+    MenuItem:
+    - type:Sticky_Piston
+    - amount:1
+    - 'lore2:&f ▪ ʙᴜʏ ᴘʀɪᴄᴇ #dad45e%price%'
+    - 'lore3:&f ▪ ꜱᴇʟʟ ᴘʀɪᴄᴇ #dad45e%reward_right%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - 'lore6:&f &cʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟʟ'
+    - 'lore8:&7ꜱʜɪꜰᴛ + &f&7 ᴛᴏ ꜱᴇʟʟ ᴀʟʟ'
+    - 'lore9:&7ꜰᴏʀ %reward_shift_right% &7ᴘᴇʀ ᴘɪᴇᴄᴇ'
+    RewardType: ITEM
+    Reward:
+    - - type:Sticky_Piston
+      - amount:1
+    PriceType: MONEY
+    Price: 340
+    Message: '&f &fYou bought &e%reward%&f for &a%price%'
+    RewardType_right: MONEY
+    Reward_right: 65
+    PriceType_right: ITEM
+    Price_right:
+    - - type:Sticky_Piston
+      - amount:1
+    Message_right: '&f &fYou just sold &e%price_right%&f for &a%reward_right%'
+    RewardType_shift_right: MONEY
+    Reward_shift_right: 65
+    PriceType_shift_right: ITEMALL
+    Price_shift_right:
+    - - type:Sticky_Piston
+    Message_shift_right: '&f &fYou just sold &e%price_shift_right%&f for &a%reward_shift_right% each'
+    ExtraPermission: ''
+    InventoryLocation: 35
+  Note_Block:
+    MenuItem:
+    - type:Note_Block
+    - amount:1
+    - 'lore2:&f ▪ ʙᴜʏ ᴘʀɪᴄᴇ #dad45e%price%'
+    - 'lore3:&f ▪ ꜱᴇʟʟ ᴘʀɪᴄᴇ #dad45e%reward_right%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - 'lore6:&f &cʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟʟ'
+    - 'lore8:&7ꜱʜɪꜰᴛ + &f&7 ᴛᴏ ꜱᴇʟʟ ᴀʟʟ'
+    - 'lore9:&7ꜰᴏʀ %reward_shift_right% &7ᴘᴇʀ ᴘɪᴇᴄᴇ'
+    RewardType: ITEM
+    Reward:
+    - - type:Note_Block
+      - amount:1
+    PriceType: MONEY
+    Price: 130
+    Message: '&f &fYou bought &e%reward%&f for &a%price%'
+    RewardType_right: MONEY
+    Reward_right: 30
+    PriceType_right: ITEM
+    Price_right:
+    - - type:Note_Block
+      - amount:1
+    Message_right: '&f &fYou just sold &e%price_right%&f for &a%reward_right%'
+    RewardType_shift_right: MONEY
+    Reward_shift_right: 30
+    PriceType_shift_right: ITEMALL
+    Price_shift_right:
+    - - type:Note_Block
+    Message_shift_right: '&f &fYou just sold &e%price_shift_right%&f for &a%reward_shift_right% each'
+    ExtraPermission: ''
+    InventoryLocation: 38
+  Jukebox:
+    MenuItem:
+    - type:Jukebox
+    - amount:1
+    - 'lore2:&f ▪ ʙᴜʏ ᴘʀɪᴄᴇ #dad45e%price%'
+    - 'lore3:&f ▪ ꜱᴇʟʟ ᴘʀɪᴄᴇ #dad45e%reward_right%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - 'lore6:&f &cʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟʟ'
+    - 'lore8:&7ꜱʜɪꜰᴛ + &f&7 ᴛᴏ ꜱᴇʟʟ ᴀʟʟ'
+    - 'lore9:&7ꜰᴏʀ %reward_shift_right% &7ᴘᴇʀ ᴘɪᴇᴄᴇ'
+    RewardType: ITEM
+    Reward:
+    - - type:Jukebox
+      - amount:1
+    PriceType: MONEY
+    Price: 450
+    Message: '&f &fYou bought &e%reward%&f for &a%price%'
+    RewardType_right: MONEY
+    Reward_right: 85
+    PriceType_right: ITEM
+    Price_right:
+    - - type:Jukebox
+      - amount:1
+    Message_right: '&f &fYou just sold &e%price_right%&f for &a%reward_right%'
+    RewardType_shift_right: MONEY
+    Reward_shift_right: 85
+    PriceType_shift_right: ITEMALL
+    Price_shift_right:
+    - - type:Jukebox
+    Message_shift_right: '&f &fYou just sold &e%price_shift_right%&f for &a%reward_shift_right% each'
+    ExtraPermission: ''
+    InventoryLocation: 39
+  lightning_rod:
+    MenuItem:
+    - type:lightning_rod
+    - amount:2
+    - 'lore2:&f ▪ ʙᴜʏ ᴘʀɪᴄᴇ #dad45e%price%'
+    - 'lore3:&f ▪ ꜱᴇʟʟ ᴘʀɪᴄᴇ #dad45e%reward_right%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - 'lore6:&f &cʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟʟ'
+    - 'lore8:&7ꜱʜɪꜰᴛ + &f&7 ᴛᴏ ꜱᴇʟʟ ᴀʟʟ'
+    - 'lore9:&7ꜰᴏʀ %reward_shift_right% &7ᴘᴇʀ ᴘɪᴇᴄᴇ'
+    RewardType: ITEM
+    Reward:
+    - - type:lightning_rod
+      - amount:2
+    PriceType: MONEY
+    Price: 450
+    Message: '&f &fYou bought &e%reward%&f for &a%price%'
+    RewardType_right: MONEY
+    Reward_right: 65
+    PriceType_right: ITEM
+    Price_right:
+    - - type:lightning_rod
+      - amount:2
+    Message_right: '&f &fYou just sold &e%price_right%&f for &a%reward_right%'
+    RewardType_shift_right: MONEY
+    Reward_shift_right: 65
+    PriceType_shift_right: ITEMALL
+    Price_shift_right:
+    - - type:lightning_rod
+    Message_shift_right: '&f &fYou just sold &e%price_shift_right%&f for &a%reward_shift_right% each'
+    ExtraPermission: ''
+    InventoryLocation: 40
+  sculk_sensor:
+    MenuItem:
+    - type:sculk_sensor
+    - amount:1
+    - 'lore2:&f ▪ ʙᴜʏ ᴘʀɪᴄᴇ #dad45e%price%'
+    - 'lore3:&f ▪ ꜱᴇʟʟ ᴘʀɪᴄᴇ #dad45e%reward_right%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - 'lore6:&f &cʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟʟ'
+    - 'lore8:&7ꜱʜɪꜰᴛ + &f&7 ᴛᴏ ꜱᴇʟʟ ᴀʟʟ'
+    - 'lore9:&7ꜰᴏʀ %reward_shift_right% &7ᴘᴇʀ ᴘɪᴇᴄᴇ'
+    RewardType: ITEM
+    Reward:
+    - - type:sculk_sensor
+      - amount:1
+    PriceType: MONEY
+    Price: 2500
+    Message: '&f &fYou bought &e%reward%&f for &a%price%'
+    RewardType_right: MONEY
+    Reward_right: 500
+    PriceType_right: ITEM
+    Price_right:
+    - - type:sculk_sensor
+      - amount:1
+    Message_right: '&f &fYou just sold &e%price_right%&f for &a%reward_right%'
+    RewardType_shift_right: MONEY
+    Reward_shift_right: 500
+    PriceType_shift_right: ITEMALL
+    Price_shift_right:
+    - - type:sculk_sensor
+    Message_shift_right: '&f &fYou just sold &e%price_shift_right%&f for &a%reward_shift_right% each'
+    ExtraPermission: ''
+    InventoryLocation: 41
+  target:
+    MenuItem:
+    - type:target
+    - amount:1
+    - 'lore2:&f ▪ ʙᴜʏ ᴘʀɪᴄᴇ #dad45e%price%'
+    - 'lore3:&f ▪ ꜱᴇʟʟ ᴘʀɪᴄᴇ #dad45e%reward_right%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - 'lore6:&f &cʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟʟ'
+    - 'lore8:&7ꜱʜɪꜰᴛ + &f&7 ᴛᴏ ꜱᴇʟʟ ᴀʟʟ'
+    - 'lore9:&7ꜰᴏʀ %reward_shift_right% &7ᴘᴇʀ ᴘɪᴇᴄᴇ'
+    RewardType: ITEM
+    Reward:
+    - - type:target
+      - amount:1
+    PriceType: MONEY
+    Price: 400
+    Message: '&f &fYou bought &e%reward%&f for &a%price%'
+    RewardType_right: MONEY
+    Reward_right: 115
+    PriceType_right: ITEM
+    Price_right:
+    - - type:target
+      - amount:1
+    Message_right: '&f &fYou just sold &e%price_right%&f for &a%reward_right%'
+    RewardType_shift_right: MONEY
+    Reward_shift_right: 115
+    PriceType_shift_right: ITEMALL
+    Price_shift_right:
+    - - type:target
+    Message_shift_right: '&f &fYou just sold &e%price_shift_right%&f for &a%reward_shift_right% each'
+    ExtraPermission: ''
+    InventoryLocation: 42
+  TNT:
+    MenuItem:
+    - type:TNT
+    - amount:2
+    - 'lore2:&f ▪ ʙᴜʏ ᴘʀɪᴄᴇ #dad45e%price%'
+    - 'lore3:&f ▪ ꜱᴇʟʟ ᴘʀɪᴄᴇ #dad45e%reward_right%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - 'lore6:&f &cʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟʟ'
+    - 'lore8:&7ꜱʜɪꜰᴛ + &f&7 ᴛᴏ ꜱᴇʟʟ ᴀʟʟ'
+    - 'lore9:&7ꜰᴏʀ %reward_shift_right% &7ᴘᴇʀ ᴘɪᴇᴄᴇ'
+    RewardType: ITEM
+    Reward:
+    - - type:TNT
+      - amount:2
+    PriceType: MONEY
+    Price: 700
+    Message: '&f &fYou bought &e%reward%&f for &a%price%'
+    RewardType_right: MONEY
+    Reward_right: 120
+    PriceType_right: ITEM
+    Price_right:
+    - - type:TNT
+      - amount:2
+    Message_right: '&f &fYou just sold &e%price_right%&f for &a%reward_right%'
+    RewardType_shift_right: MONEY
+    Reward_shift_right: 60
+    PriceType_shift_right: ITEMALL
+    Price_shift_right:
+    - - type:TNT
+    Message_shift_right: '&f &fYou just sold &e%price_shift_right%&f for &a%reward_shift_right% each'
+    ExtraPermission: ''
+    InventoryLocation: 43
+  Redstone_lamp:
+    MenuItem:
+    - type:Redstone_lamp
+    - amount:4
+    - 'lore2:&f ▪ ʙᴜʏ ᴘʀɪᴄᴇ #dad45e%price%'
+    - 'lore3:&f ▪ ꜱᴇʟʟ ᴘʀɪᴄᴇ #dad45e%reward_right%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - 'lore6:&f &cʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟʟ'
+    - 'lore8:&7ꜱʜɪꜰᴛ + &f&7 ᴛᴏ ꜱᴇʟʟ ᴀʟʟ'
+    - 'lore9:&7ꜰᴏʀ %reward_shift_right% &7ᴘᴇʀ ᴘɪᴇᴄᴇ'
+    RewardType: ITEM
+    Reward:
+    - - type:Redstone_lamp
+      - amount:4
+    PriceType: MONEY
+    Price: 570
+    Message: '&f &fYou bought &e%reward%&f for &a%price%'
+    RewardType_right: MONEY
+    Reward_right: 155
+    PriceType_right: ITEM
+    Price_right:
+    - - type:Redstone_lamp
+      - amount:4
+    Message_right: '&f &fYou just sold &e%price_right%&f for &a%reward_right%'
+    RewardType_shift_right: MONEY
+    Reward_shift_right: 75
+    PriceType_shift_right: ITEMALL
+    Price_shift_right:
+    - - type:Redstone_lamp
+    Message_shift_right: '&f &fYou just sold &e%price_shift_right%&f for &a%reward_shift_right% each'
+    ExtraPermission: ''
+    InventoryLocation: 44
+  rail:
+    MenuItem:
+    - type:rail
+    - amount:16
+    - 'lore2:&f ▪ ʙᴜʏ ᴘʀɪᴄᴇ #dad45e%price%'
+    - 'lore3:&f ▪ ꜱᴇʟʟ ᴘʀɪᴄᴇ #dad45e%reward_right%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - 'lore6:&f &cʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟʟ'
+    - 'lore8:&7ꜱʜɪꜰᴛ + &f&7 ᴛᴏ ꜱᴇʟʟ ᴀʟʟ'
+    - 'lore9:&7ꜰᴏʀ %reward_shift_right% &7ᴘᴇʀ ᴘɪᴇᴄᴇ'
+    RewardType: ITEM
+    Reward:
+    - - type:rail
+      - amount:16
+    PriceType: MONEY
+    Price: 650
+    Message: '&f &fYou bought &e%reward%&f for &a%price%'
+    RewardType_right: MONEY
+    Reward_right: 150
+    PriceType_right: ITEM
+    Price_right:
+    - - type:rail
+      - amount:16
+    Message_right: '&f &fYou just sold &e%price_right%&f for &a%reward_right%'
+    RewardType_shift_right: MONEY
+    Reward_shift_right: 9
+    PriceType_shift_right: ITEMALL
+    Price_shift_right:
+    - - type:rail
+    Message_shift_right: '&f &fYou just sold &e%price_shift_right%&f for &a%reward_shift_right% each'
+    ExtraPermission: ''
+    InventoryLocation: 47
+  powered_rail:
+    MenuItem:
+    - type:powered_rail
+    - amount:12
+    - 'lore2:&f ▪ ʙᴜʏ ᴘʀɪᴄᴇ #dad45e%price%'
+    - 'lore3:&f ▪ ꜱᴇʟʟ ᴘʀɪᴄᴇ #dad45e%reward_right%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - 'lore6:&f &cʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟʟ'
+    - 'lore8:&7ꜱʜɪꜰᴛ + &f&7 ᴛᴏ ꜱᴇʟʟ ᴀʟʟ'
+    - 'lore9:&7ꜰᴏʀ %reward_shift_right% &7ᴘᴇʀ ᴘɪᴇᴄᴇ'
+    RewardType: ITEM
+    Reward:
+    - - type:powered_rail
+      - amount:12
+    PriceType: MONEY
+    Price: 1000
+    Message: '&f &fYou bought &e%reward%&f for &a%price%'
+    RewardType_right: MONEY
+    Reward_right: 240
+    PriceType_right: ITEM
+    Price_right:
+    - - type:powered_rail
+      - amount:12
+    Message_right: '&f &fYou just sold &e%price_right%&f for &a%reward_right%'
+    RewardType_shift_right: MONEY
+    Reward_shift_right: 40
+    PriceType_shift_right: ITEMALL
+    Price_shift_right:
+    - - type:powered_rail
+    Message_shift_right: '&f &fYou just sold &e%price_shift_right%&f for &a%reward_shift_right% each'
+    ExtraPermission: ''
+    InventoryLocation: 48
+  minecart:
+    MenuItem:
+    - type:minecart
+    - amount:1
+    - 'lore2:&f ▪ ʙᴜʏ ᴘʀɪᴄᴇ #dad45e%price%'
+    - 'lore3:&f ▪ ꜱᴇʟʟ ᴘʀɪᴄᴇ #dad45e%reward_right%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - 'lore6:&f &cʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟʟ'
+    - 'lore8:&7ꜱʜɪꜰᴛ + &f&7 ᴛᴏ ꜱᴇʟʟ ᴀʟʟ'
+    - 'lore9:&7ꜰᴏʀ %reward_shift_right% &7ᴘᴇʀ ᴘɪᴇᴄᴇ'
+    RewardType: ITEM
+    Reward:
+    - - type:minecart
+      - amount:1
+    PriceType: MONEY
+    Price: 550
+    Message: '&f &fYou bought &e%reward%&f for &a%price%'
+    RewardType_right: MONEY
+    Reward_right: 125
+    PriceType_right: ITEM
+    Price_right:
+    - - type:minecart
+      - amount:1
+    Message_right: '&f &fYou just sold &e%price_right%&f for &a%reward_right%'
+    RewardType_shift_right: MONEY
+    Reward_shift_right: 125
+    PriceType_shift_right: ITEMALL
+    Price_shift_right:
+    - - type:minecart
+    Message_shift_right: '&f &fYou just sold &e%price_shift_right%&f for &a%reward_shift_right% each'
+    ExtraPermission: ''
+    InventoryLocation: 50
+  detector_rail:
+    MenuItem:
+    - type:detector_rail
+    - amount:12
+    - 'lore2:&f ▪ ʙᴜʏ ᴘʀɪᴄᴇ #dad45e%price%'
+    - 'lore3:&f ▪ ꜱᴇʟʟ ᴘʀɪᴄᴇ #dad45e%reward_right%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - 'lore6:&f &cʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟʟ'
+    - 'lore8:&7ꜱʜɪꜰᴛ + &f&7 ᴛᴏ ꜱᴇʟʟ ᴀʟʟ'
+    - 'lore9:&7ꜰᴏʀ %reward_shift_right% &7ᴘᴇʀ ᴘɪᴇᴄᴇ'
+    RewardType: ITEM
+    Reward:
+    - - type:detector_rail
+      - amount:12
+    PriceType: MONEY
+    Price: 720
+    Message: '&f &fYou bought &e%reward%&f for &a%price%'
+    RewardType_right: MONEY
+    Reward_right: 175
+    PriceType_right: ITEM
+    Price_right:
+    - - type:detector_rail
+      - amount:12
+    Message_right: '&f &fYou just sold &e%price_right%&f for &a%reward_right%'
+    RewardType_shift_right: MONEY
+    Reward_shift_right: 30
+    PriceType_shift_right: ITEMALL
+    Price_shift_right:
+    - - type:detector_rail
+    Message_shift_right: '&f &fYou just sold &e%price_shift_right%&f for &a%reward_shift_right% each'
+    ExtraPermission: ''
+    InventoryLocation: 52
+  activator_rail:
+    MenuItem:
+    - type:activator_rail
+    - amount:12
+    - 'lore2:&f ▪ ʙᴜʏ ᴘʀɪᴄᴇ #dad45e%price%'
+    - 'lore3:&f ▪ ꜱᴇʟʟ ᴘʀɪᴄᴇ #dad45e%reward_right%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - 'lore6:&f &cʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟʟ'
+    - 'lore8:&7ꜱʜɪꜰᴛ + &f&7 ᴛᴏ ꜱᴇʟʟ ᴀʟʟ'
+    - 'lore9:&7ꜰᴏʀ %reward_shift_right% &7ᴘᴇʀ ᴘɪᴇᴄᴇ'
+    RewardType: ITEM
+    Reward:
+    - - type:activator_rail
+      - amount:12
+    PriceType: MONEY
+    Price: 700
+    Message: '&f &fYou bought &e%reward%&f for &a%price%'
+    RewardType_right: MONEY
+    Reward_right: 170
+    PriceType_right: ITEM
+    Price_right:
+    - - type:activator_rail
+      - amount:12
+    Message_right: '&f &fYou just sold &e%price_right%&f for &a%reward_right%'
+    RewardType_shift_right: MONEY
+    Reward_shift_right: 28
+    PriceType_shift_right: ITEMALL
+    Price_shift_right:
+    - - type:activator_rail
+    Message_shift_right: '&f &fYou just sold &e%price_shift_right%&f for &a%reward_shift_right% each'
+    ExtraPermission: ''
+    InventoryLocation: 53

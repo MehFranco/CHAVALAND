@@ -1,0 +1,17 @@
+armor-menu-item: 'STICK#1'
+armor-menu-name: '&aᴀʀᴍᴏʀ'
+armor-menu-lore:
+  - '&8ᴄᴀᴛᴇɢᴏʀʏ'
+  - ''
+  - ' &f▪ ʜᴀᴛꜱ'
+  - ' &f▪ ᴄʜᴇꜱᴛᴘʟᴀᴛᴇꜱ'
+  - ' &f▪ ʟᴇɢɢɪɴɢꜱ'
+  - ' &f▪ ʙᴏᴏᴛs'
+
+#If you have custom items that you want to be in this
+#category, specify their name here
+custom-item-names:
+  - '&e&lExample &6&lItem'
+
+custom-item-ids:
+  - '2310'

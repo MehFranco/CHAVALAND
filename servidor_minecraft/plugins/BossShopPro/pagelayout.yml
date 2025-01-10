@@ -1,0 +1,329 @@
+# BossShopPro
+# by Felix Neubauer
+# Check out following page for more information: https://www.spigotmc.org/wiki/bossshoppro-configuration#
+#
+#
+#
+# ShowIfMultiplePagesOnly: 
+# If set to true the layout shopitems are only shown as soon as the inventory size is exceeded and multiple pages need to be created.
+# If you want to display the layout shopitems in any case set this to 'false'.
+ShowIfMultiplePagesOnly: true
+#
+#
+# MaxRows:
+# This is the amount of rows that a shop can have without needing a second page. '6' is the limit but you can optionally make shops smaller.
+MaxRows: 6
+#
+#
+# ReservedSlotsStart:
+# Here you enter the first slot that should be reserved in case of the layout being active (When multiple pages are needed or 'ShowIfMultiplePagesOnly' is set to 'false').
+# All higher slots of the same page including the given slot are reserved: Shopitems will automatically be put into the next page if they are equal or higher than the given slot.
+# You can use the reserverd slots to put in static layout shopitems. In this case the last (6.) row of every page is reserved in case of needing multiple pages.
+ReservedSlotsStart: 46
+#
+#
+# items:
+# Here you set up the shopitems that you want to be displayed in case of the layout being active. They are set up just like every other shopitem and can work with conditions.
+# Tip: Here you can use the additional conditions flag "page" that allows you to display components depending on the current page. 
+# Also you can use the variable %maxpage% inside page conditions. In this example there is a 'previous' button, that is shown when the player has a page higher than 1 opened
+# and there is a 'next' button, which is shown when their is an other page after the current one. Also there is a 'menu' button that is always visible as soon as the layout is active.
+items:
+  Previous:
+    RewardType: page
+    Reward: previous
+    PriceType: nothing
+    MenuItem:
+    - name:&cPrevious Page
+    - amount:1
+    - type:arrow
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 46
+    Condition:
+    - type:page
+    - over:1
+  Menu:
+    RewardType: shop
+    Reward: Jobs
+    PriceType: nothing
+    MenuItem:
+    - name:&eBack
+    - amount:1
+    - type:glowstone_dust
+    Message: ''
+    InventoryLocation: 50
+    ExtraPermission: ''
+  Next:
+    RewardType: page
+    Reward: next
+    PriceType: nothing
+    MenuItem:
+    - name:&aNext Page
+    - amount:1
+    - type:arrow
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 54
+    Condition:
+    - type:page
+    - under:%maxpage%
+  glassgray1:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  glassgray2:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  glassgray3:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  glassgray4:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  glassgray5:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+  glassgray6:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+  glassgray7:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+  glassgray8:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 8
+  glassgray9:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 9
+  glassgray10:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+  glassgray11:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 18
+  glassgray12:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 19
+  glassgray13:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 27
+  glassgray14:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 28
+  glassgray15:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 36
+  glassgray16:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 37
+  glassgray17:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 45
+  glassgray18:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 46
+  glassgray19:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 47
+  glassgray20:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 48
+  glassgray21:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 49
+  glassgray22:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 50
+  glassgray23:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 51
+  glassgray24:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 52
+  glassgray25:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 53
+  glassgray26:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 54

@@ -1,0 +1,454 @@
+#-------------------------------------------------------------------------------------------------------------------#
+#							  MyCommand Commands config file (last update v5.7.2)									#
+#																													#
+#  Plugin Documentation : https://dev.bukkit.org/projects/mycommand/pages/getstarted    							#
+#  Spigot https://www.spigotmc.org/resources/mycommand.22272/  Bukkit : https://dev.bukkit.org/projects/mycommand/	#
+#																													#
+#	How to make a command :	(See an example command below)															#
+#		First, decide your command name placing it in the first row (no duplicates!)  "mycommand:"					#
+#		Now set the "command:" field. This will trigger the command. Don't forget the '/' before your command.		#
+#		Now choose your command type from a predefined list and put it after the "type" field						#
+#	COMMAND TYPE LIST :																								#
+#		TEXT , BROADCAST_TEXT, RAW_TEXT , BROADCAST_RAW_TEXT, ALIAS , RUN_COMMAND , RUN_CONSOLE , RUN_COMMAND_TASK  #
+#       RUN_COMMAND_RANDOM , RUN_CONSOLE_RANDOM , RUN_AS_OPERATOR , ADD_PERMISSION , ADD_COST , WARMUP , COOLDOWN   #
+#       WARMUP_AND_COOLDOWN , BLOCK_PATTERN ,  BAR_API_TEXT , BAR_API_BROADCAST_TEXT , CALL_URL , EXP_BAR			#
+#       ICON_MENU , MERCHANT , SCOREBOARD , BUNGEE_TP , TITLE, BROADCAST_TITLE , ACTION_BAR , BROADCAST_ACTION_BAR	#
+#		HOLOGRAPHIC_TEXT , BROADCAST_HOLOGRAPHIC_TEXT , LIVE_CHAT , BOOK , RAW_BOOK, ANVIL_GUI , SIGN_MENU 			#
+#																													#
+#	If your command is "TEXT" type, you can put multiple line of text below this parameter							#
+#	You can do the same thing with the "RUN_COMMAND" type, but instead of text, puts commands in this list			#
+#	For delayed command(s) add $delay$ before the command in runcmd Example : - $delay$/list						#
+#	Set delay time with delaytimer: 5 (5 = seconds) | 																#
+#   If you are using the Vault plugin, you can put the "cost: 123.0" with this line. 								#
+#	You can customize your permission node by placing "permission-node:" field in a command							#
+#	Change the permission error message with "permission-error:" or create a command without permission required	#
+#   with "permission-required: false". Custom error-message for invalid args, use "error-message:"					#
+#   You can use itemcost : 'ID:AMOUNT' for set a cost with items. 													#
+#   Register REAL commands putting "register: true" below the command. Those are recognized from other plugins.    	#
+#   With register commands you can use the "tab_completer: - Hi - Hello!"											#
+#   For Scripts and more features, find more on the bukkitdev page													#
+##########################################################################################################################
+Links:
+  command: /links
+  type: RAW_TEXT
+  cooldown: 60
+  cooldown-message: "&f &cʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴀɢᴀɪɴ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪɴ 60s"
+  text:
+  - ''
+  - '&f'
+  - '&f            ⻔&f'
+  - '&f'
+  - '$OPEN_URL$&f            &csᴛᴏʀᴇ: &7sᴛᴏʀᴇ.sᴜʀᴠɪᴠᴀʟ.ɴᴇᴛ;&8ʟᴇꜰᴛ ᴄʟɪᴄᴋ;https://store.survival.net/'
+  - '$OPEN_URL$&f            &bᴡᴇʙsɪᴛᴇ: &7ᴡᴡᴡ.sᴜʀᴠɪᴠᴀʟ.ɴᴇᴛ;&8ʟᴇꜰᴛ ᴄʟɪᴄᴋ;https://www.survival.net/'
+  - '$OPEN_URL$&f            &dᴅɪsᴄᴏʀᴅ: &7ᴅɪsᴄᴏʀᴅ.ɢɢ/sᴜʀᴠɪᴠᴀʟ;&8ʟᴇꜰᴛ ᴄʟɪᴄᴋ;https://discord.gg/survival/'
+  - '&f'
+  - '&f             &6ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʟɪɴᴋs ᴛᴏ ᴏᴘᴇɴ ᴛʜᴇᴍ ɪɴ ʏᴏᴜʀ ʙʀᴏᴡꜱᴇʀ'
+  - ''
+##########################################################################################################################
+Sylvia:
+  command: /sylvia
+  type: RAW_TEXT
+  cooldown: 60
+  cooldown-message: "&f &cᴡᴀɪᴛ 60s ᴛᴏ ᴛᴀʟᴋ ᴡɪᴛʜ sʏʟᴠɪᴀ ᴀɢᴀɪɴ"
+  text:
+  - ''
+  - '&f⻔⻔⻔&d&l                ɴᴘᴄ &dsʏʟᴠɪᴀ'
+  - '&f⻔ &7ᴀʀᴇ ʏᴏᴜ ɴᴇᴡ ʜᴇʀᴇ? ɪ ᴄᴀɴ ɢɪᴠᴇ ʏᴏᴜ ᴛʜᴇ ᴡɪsᴇsᴛ'
+  - '&7                   ᴀᴅᴠɪᴄᴇ ᴛᴏ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴀᴅᴠᴇɴᴛᴜʀᴇ ᴍᴜᴄʜ ᴇᴀsɪᴇʀ.'
+  - '&7                   ᴅᴏ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴋɴᴏᴡ sᴏᴍᴇᴛʜɪɴɢ ꜰʀᴏᴍ ᴍᴇ?'
+  - ''
+  - '$RUN_COMMAND$&f                    ▪ sᴇʀᴠᴇʀ ɢᴜɪᴅᴇ;&8ʟᴇꜰᴛ ᴄʟɪᴄᴋ;/sylvia2'
+  - '$RUN_COMMAND$&f                    ▪ sᴇʀᴠᴇʀ ʟɪɴᴋs;&8ʟᴇꜰᴛ ᴄʟɪᴄᴋ;/sylvia3'
+  - ''
+  - '&f                    &cʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ʜᴏᴠᴇʀ ᴀɴᴅ ᴄʟɪᴄᴋ ᴛʜᴇ ᴏᴘᴛɪᴏɴs'
+  - ''
+Sylvia2:
+  command: /sylvia2
+  type: RUN_COMMAND
+  cooldown: 60
+  cooldown-message: "&f &cᴡᴀɪᴛ 60s ᴛᴏ ᴛᴀʟᴋ ᴡɪᴛʜ sʏʟᴠɪᴀ ᴀɢᴀɪɴ"
+  runcmd:
+  - '$text$&f'
+  - '$text$&d&lɴᴘᴄ &dsʏʟᴠɪᴀ・&fᴛᴀʟᴋɪɴɢ.. '
+  - '$text$&8&l| &7ᴏʜ, ꜱᴏ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ʜᴏᴡ ᴛᴏ ᴘʟᴀʏ, ɪ ᴡɪʟʟ'
+  - '$text$&8&l| &7ᴏᴘᴇɴ ᴀ ᴍᴇɴᴜ ꜰᴏʀ ʏᴏᴜ, ᴀɴᴅ ʜᴇʀᴇ ʏᴏᴜ ᴡɪʟʟ ʙᴇ ᴀʙʟᴇ ᴛᴏ ꜱᴇᴇ'
+  - '$text$&8&l| &7ᴅᴇᴛᴀɪʟꜱ ᴀʙᴏᴜᴛ ᴇᴀᴄʜ ꜰᴇᴀᴛᴜʀᴇ.'
+  - '$text$&f'
+  - '$text$&f &aɢᴜɪᴅᴇ ᴍᴇɴᴜ ᴡɪʟʟ ʙᴇ ᴏᴘᴇɴᴇᴅ ɪɴ ᴀ ꜰᴇᴡ sᴇᴄᴏɴᴅs'
+  - '$text$&f'
+  - '$delay$<120>'
+  - '/guide'
+Sylvia3:
+  command: /sylvia3
+  type: RUN_COMMAND
+  cooldown: 60
+  cooldown-message: "&f &cᴡᴀɪᴛ 60s ᴛᴏ ᴛᴀʟᴋ ᴡɪᴛʜ sʏʟᴠɪᴀ ᴀɢᴀɪɴ"
+  runcmd:
+  - '$text$&f'
+  - '$text$&d&lɴᴘᴄ &dsʏʟᴠɪᴀ・&fᴛᴀʟᴋɪɴɢ.. '
+  - '$text$&8&l| &7sᴏ.. ʏᴏᴜ ɴᴇᴇᴅ ᴛʜᴇ sᴇʀᴠᴇʀ ʟɪɴᴋs ʀɪɢʜᴛ? ɪ ᴡɪʟʟ ɪᴍᴍᴇᴅɪᴀᴛᴇʟʏ'
+  - '$text$&8&l| &7sᴇɴᴅ ʏᴏᴜ ᴛʜᴇ ɪᴍᴘᴏʀᴛᴀɴᴛ ʟɪɴᴋs ʏᴏᴜ ᴡɪʟʟ ɴᴇᴇᴅ ɪɴ ᴛʜᴇ ᴄʜᴀᴛ'
+  - '$text$&f'
+  - '$text$&f &aʟɪɴᴋs ᴡɪʟʟ ᴀᴘᴘᴇᴀʀ ɪᴍᴍᴇᴅɪᴀᴛᴇʟʏ ɪɴ ᴛʜᴇ ᴄʜᴀᴛ'
+  - '$text$&f'
+  - '$delay$<120>'
+  - '/links'
+##########################################################################################################################
+August:
+  command: /august
+  type: RAW_TEXT
+  cooldown: 60
+  cooldown-message: "&f &cᴡᴀɪᴛ 60s ᴛᴏ ᴛᴀʟᴋ ᴡɪᴛʜ ᴀᴜɢᴜsᴛ ᴀɢᴀɪɴ"
+  text:
+  - ''
+  - '&f⻔⻔⻔&d&l                ɴᴘᴄ &dᴀᴜɢᴜsᴛ'
+  - '&f⻔ &7ʜᴇʏ, ᴀᴅᴠᴇɴᴛᴜʀᴇʀ! ɪɴ ᴏʀᴅᴇʀ ᴛᴏ ꜱᴜʀᴠɪᴠᴇ ɪɴ ᴛʜɪꜱ'
+  - '&7                   ᴡᴏʀʟᴅ, ʏᴏᴜ ɴᴇᴇᴅ ᴍᴏɴᴇʏ. ɪ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ꜰɪɴᴅ'
+  - '&7                   ᴀ ᴊᴏʙ ꜱᴏ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴍᴏɴᴇʏ, ᴡʜᴀᴛ ᴅᴏ ʏᴏᴜ ꜱᴀʏ?'
+  - ''
+  - '$RUN_COMMAND$&f                    ▪ ʏᴇꜱ, ᴘʟᴇᴀꜱᴇ!;&8ʟᴇꜰᴛ ᴄʟɪᴄᴋ;/august2'
+  - '$RUN_COMMAND$&f                    ▪ ɪ ᴅᴏɴ''ᴛ ɴᴇᴇᴅ ᴍᴏɴᴇʏ!;&8ʟᴇꜰᴛ ᴄʟɪᴄᴋ;/august3'
+  - ''
+  - '&f                    &cʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ʜᴏᴠᴇʀ ᴀɴᴅ ᴄʟɪᴄᴋ ᴛʜᴇ ᴏᴘᴛɪᴏɴs'
+  - ''
+August2:
+  command: /august2
+  type: RUN_COMMAND
+  cooldown: 60
+  cooldown-message: "&f &cᴡᴀɪᴛ 60s ᴛᴏ ᴛᴀʟᴋ ᴡɪᴛʜ ᴀᴜɢᴜsᴛ ᴀɢᴀɪɴ"
+  runcmd:
+  - '$text$&f'
+  - '$text$&d&lɴᴘᴄ &dᴀᴜɢᴜsᴛ・&fᴛᴀʟᴋɪɴɢ.. '
+  - '$text$&8&l| &7ɪ''ᴍ ɢʟᴀᴅ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇᴛ ᴀ ᴊᴏʙ, ɪ''ʟʟ ꜱʜᴏᴡ ʏᴏᴜ ᴡʜᴀᴛ ᴊᴏʙꜱ'
+  - '$text$&8&l| &7ᴀʀᴇ ᴀᴠᴀɪʟᴀʙʟᴇ, ᴀɴᴅ ʏᴏᴜ ᴄᴀɴ ᴄʜᴏᴏꜱᴇ ᴛʜᴇ ᴏɴᴇꜱ ʏᴏᴜ ᴡᴀɴᴛ!'
+  - '$text$&f'
+  - '$text$&f &aᴊᴏʙs ᴍᴇɴᴜ ᴡɪʟʟ ʙᴇ ᴏᴘᴇɴᴇᴅ ɪɴ ᴀ ꜰᴇᴡ sᴇᴄᴏɴᴅs'
+  - '$text$&f'
+  - '$delay$<100>'
+  - '/jobs'
+August3:
+  command: /august3
+  type: RUN_COMMAND
+  cooldown: 60
+  cooldown-message: "&f &cᴡᴀɪᴛ 60s ᴛᴏ ᴛᴀʟᴋ ᴡɪᴛʜ ᴀᴜɢᴜsᴛ ᴀɢᴀɪɴ"
+  runcmd:
+  - '$text$&f'
+  - '$text$&d&lɴᴘᴄ &dᴀᴜɢᴜsᴛ・&fᴛᴀʟᴋɪɴɢ.. '
+  - '$text$&8&l| &7ɪᴛ''ꜱ ꜰɪɴᴇ ɪꜰ ʏᴏᴜ ᴅᴏɴ''ᴛ ɴᴇᴇᴅ ᴛʜᴇ ᴍᴏɴᴇʏ,'
+  - '$text$&8&l| &7ʙᴜᴛ ɪꜰ ʏᴏᴜ ᴇᴠᴇʀ ɴᴇᴇᴅ ɪᴛ, ɪ''ᴍ ꜱᴛɪʟʟ ʜᴇʀᴇ.'
+  - '$text$&f'
+##########################################################################################################################
+Gandalf:
+  command: /gandalf
+  type: RAW_TEXT
+  cooldown: 60
+  cooldown-message: "&f &cᴡᴀɪᴛ 60s ᴛᴏ ᴛᴀʟᴋ ᴡɪᴛʜ ɢᴀɴᴅᴀʟꜰ ᴀɢᴀɪɴ"
+  text:
+  - ''
+  - '&f⻔⻔⻔&d&l                ɴᴘᴄ &dɢᴀɴᴅᴀʟꜰ'
+  - '&f⻔ &7ɪ''ᴍ ɢᴀɴᴅᴀʟꜰ ᴛʜᴇ ᴡɪᴢᴀʀᴅ. ɪ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ'
+  - '&7                   ᴛᴇʟᴇᴘᴏʀᴛ ɪɴ ꜱᴏᴍᴇ ᴀʀᴇᴀꜱ ᴏꜰ ᴛʜɪꜱ ᴠɪʟʟᴀɢᴇ'
+  - '&7                   ᴏʀ ᴛᴏ ᴛᴇʟᴇᴘᴏʀᴛ ʀᴀɴᴅᴏᴍʟʏ ɪɴ ᴛʜɪꜱ ᴡᴏʀʟᴅ!'
+  - ''
+  - '$RUN_COMMAND$&f                    ▪ sᴇʀᴠᴇʀ ᴡᴀʀᴘs;&8ʟᴇꜰᴛ ᴄʟɪᴄᴋ;/gandalf2'
+  - '$RUN_COMMAND$&f                    ▪ ʀᴀɴᴅᴏᴍ ᴛᴇʟᴇᴘᴏʀᴛ;&8ʟᴇꜰᴛ ᴄʟɪᴄᴋ;/gandalf3'
+  - ''
+  - '&f                    &cʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ʜᴏᴠᴇʀ ᴀɴᴅ ᴄʟɪᴄᴋ ᴛʜᴇ ᴏᴘᴛɪᴏɴs'
+  - ''
+Gandalf2:
+  command: /gandalf2
+  type: RUN_COMMAND
+  cooldown: 60
+  cooldown-message: "&f &cᴡᴀɪᴛ 60s ᴛᴏ ᴛᴀʟᴋ ᴡɪᴛʜ ɢᴀɴᴅᴀʟꜰ ᴀɢᴀɪɴ"
+  runcmd:
+  - '$text$&f'
+  - '$text$&d&lɴᴘᴄ &dɢᴀɴᴅᴀʟꜰ・&fᴛᴀʟᴋɪɴɢ.. '
+  - '$text$&8&l| &7ꜱᴏ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴛᴇʟᴇᴘᴏʀᴛ ᴛᴏ ᴛʜᴇ ᴘʀᴇꜱᴇᴛ ᴀʀᴇᴀꜱ, ᴛᴇʟʟ'
+  - '$text$&8&l| &7ᴍᴇ ᴡʜᴇʀᴇ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴏ ᴀɴᴅ ɪ''ʟʟ ᴛᴀᴋᴇ ʏᴏᴜ!'
+  - '$text$&f'
+  - '$text$&f &aᴡᴀʀᴘs ᴍᴇɴᴜ ᴡɪʟʟ ʙᴇ ᴏᴘᴇɴᴇᴅ ɪɴ ᴀ ꜰᴇᴡ sᴇᴄᴏɴᴅs'
+  - '$text$&f'
+  - '$delay$<100>'
+  - '/warps'
+Gandalf3:
+  command: /gandalf3
+  type: RUN_COMMAND
+  cooldown: 60
+  cooldown-message: "&f &cᴡᴀɪᴛ 60s ᴛᴏ ᴛᴀʟᴋ ᴡɪᴛʜ ɢᴀɴᴅᴀʟꜰ ᴀɢᴀɪɴ"
+  runcmd:
+  - '$text$&f'
+  - '$text$&d&lɴᴘᴄ &dɢᴀɴᴅᴀʟꜰ・&fᴛᴀʟᴋɪɴɢ.. '
+  - '$text$&8&l| &7ʜᴍᴍ, ꜱᴏ ʏᴏᴜ ᴡᴀɴᴛ ᴍᴇ ᴛᴏ ʀᴀɴᴅᴏᴍʟʏ ᴛᴇʟᴇᴘᴏʀᴛ ʏᴏᴜ'
+  - '$text$&8&l| &7ᴛᴏ ᴛʜɪꜱ ᴡᴏʀʟᴅ? ᴀʟʟ ʀɪɢʜᴛ, ʙᴜᴛ ʙᴇ ᴄᴀʀᴇꜰᴜʟ!'
+  - '$text$&f'
+  - '$text$&f &cɪꜰ ʏᴏᴜ ᴍᴏᴠᴇ, ᴛʜᴇ ᴛᴇʟᴇᴘᴏʀᴛᴀᴛɪᴏɴ ᴡɪʟʟ ʙᴇ ᴄᴀɴᴄᴇʟᴇᴅ'
+  - '$text$&f &aʏᴏᴜ ᴡɪʟʟ ʙᴇ ʀᴀɴᴅᴏᴍʟʏ ᴛᴇʟᴇᴘᴏʀᴛᴇᴅ ɪɴ ᴀ ꜰᴇᴡ sᴇᴄᴏɴᴅs'
+  - '$text$&f'
+  - '$delay$<120>'
+  - '/rtp'
+##########################################################################################################################
+Mark:
+  command: /mark
+  type: RAW_TEXT
+  cooldown: 60
+  cooldown-message: "&f &cᴡᴀɪᴛ 60s ᴛᴏ ᴛᴀʟᴋ ᴡɪᴛʜ ᴍᴀʀᴋ ᴀɢᴀɪɴ"
+  text:
+  - ''
+  - '&f⻔⻔⻔&d&l                ɴᴘᴄ &dᴍᴀʀᴋ'
+  - '&f⻔ &7ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴍʏ ꜱᴛᴏʀᴇ, ɪ''ᴍ ᴍᴀʀᴋ! ᴅᴏ ʏᴏᴜ ʜᴀᴠᴇ'
+  - '&7                   ꜱᴏᴍᴇᴛʜɪɴɢ ᴏꜰ ᴠᴀʟᴜᴇ ᴛʜᴀᴛ ɪ ᴄᴀɴ ʙᴜʏ ᴏʀ ᴀʀᴇ'
+  - '&7                   ʏᴏᴜ ɪɴᴛᴇʀᴇꜱᴛᴇᴅ ɪɴ ꜱᴏᴍᴇᴛʜɪɴɢ ᴛʜᴀᴛ ɪ ꜱᴇʟʟ?'
+  - ''
+  - '$RUN_COMMAND$&f                    ▪ ɪᴛᴇᴍ sʜᴏᴘ;&8ʟᴇꜰᴛ ᴄʟɪᴄᴋ;/mark2'
+  - '$RUN_COMMAND$&f                    ▪ ɴᴏ, ᴛʜᴀɴᴋ ʏᴏᴜ!;&8ʟᴇꜰᴛ ᴄʟɪᴄᴋ;/mark3'
+  - ''
+  - '&f                    &cʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ʜᴏᴠᴇʀ ᴀɴᴅ ᴄʟɪᴄᴋ ᴛʜᴇ ᴏᴘᴛɪᴏɴs'
+  - ''
+Mark2:
+  command: /mark2
+  type: RUN_COMMAND
+  cooldown: 60
+  cooldown-message: "&f &cᴡᴀɪᴛ 60s ᴛᴏ ᴛᴀʟᴋ ᴡɪᴛʜ ᴍᴀʀᴋ ᴀɢᴀɪɴ"
+  runcmd:
+  - '$text$&f'
+  - '$text$&d&lɴᴘᴄ &dᴍᴀʀᴋ・&fᴛᴀʟᴋɪɴɢ.. '
+  - '$text$&8&l| &7ɪ''ᴍ ɢʟᴀᴅ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ꜱᴇᴇ ᴡʜᴀᴛ''ꜱ ɪɴ ᴍʏ ꜱᴛᴏʀᴇ! ɪ'
+  - '$text$&8&l| &7ᴡɪʟʟ ᴏᴘᴇɴ ᴀ ᴍᴇɴᴜ ꜰᴏʀ ʏᴏᴜ ᴀɴᴅ ᴛʜᴇʀᴇ ʏᴏᴜ ᴡɪʟʟ'
+  - '$text$&8&l| &7ꜱᴇᴇ ᴇᴠᴇʀʏ ɪᴛᴇᴍ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ ꜱᴇʟʟ ᴏʀ ʙᴜʏ ꜰʀᴏᴍ ᴍᴇ.'
+  - '$text$&f'
+  - '$text$&f &aɪᴛᴇᴍ sʜᴏᴘ ᴡɪʟʟ ʙᴇ ᴏᴘᴇɴᴇᴅ ɪɴ ᴀ ꜰᴇᴡ sᴇᴄᴏɴᴅs'
+  - '$text$&f'
+  - '$delay$<120>'
+  - '/shop'
+Mark3:
+  command: /mark3
+  type: RUN_COMMAND
+  cooldown: 60
+  cooldown-message: "&f &cᴡᴀɪᴛ 60s ᴛᴏ ᴛᴀʟᴋ ᴡɪᴛʜ ᴍᴀʀᴋ ᴀɢᴀɪɴ"
+  runcmd:
+  - '$text$&f'
+  - '$text$&d&lɴᴘᴄ &dᴍᴀʀᴋ・&fᴛᴀʟᴋɪɴɢ.. '
+  - '$text$&8&l| &7ᴏᴋᴀʏ... ᴍᴀʏʙᴇ ʏᴏᴜ ᴡɪʟʟ ᴄʜᴀɴɢᴇ ʏᴏᴜʀ ᴍɪɴᴅ'
+  - '$text$&8&l| &7ꜱᴏᴍᴇᴅᴀʏ, ɪ''ʟʟ ʙᴇ ᴡᴀɪᴛɪɴɢ ꜰᴏʀ ʏᴏᴜ ᴀɴʏᴛɪᴍᴇ!'
+  - '$text$&f'
+##########################################################################################################################
+Marcus:
+  command: /marcus
+  type: RAW_TEXT
+  cooldown: 60
+  cooldown-message: "&f &cᴡᴀɪᴛ 60s ᴛᴏ ᴛᴀʟᴋ ᴡɪᴛʜ ᴍᴀʀᴄᴜs ᴀɢᴀɪɴ"
+  text:
+  - ''
+  - '&f⻔⻔⻔&d&l                ɴᴘᴄ &dᴍᴀʀᴄᴜs'
+  - '&f⻔ &7ɪ''ᴍ ᴍᴀʀᴄᴜꜱ ᴛʜᴇ ꜰᴀʀᴍᴇʀ! ᴍʏ ꜰᴀʀᴍ ᴡᴀꜱ ʙᴇᴡɪᴛᴄʜᴇᴅ'
+  - '&7                   ʙʏ ɢᴀɴᴅᴀʟꜰ ᴀɴᴅ ɴᴏᴡ ᴛʜᴇ ꜱᴇᴇᴅʟɪɴɢꜱ ɢʀᴏᴡ'
+  - '&7                   ꜰᴀꜱᴛᴇʀ! ʜᴏᴡ ᴀʙᴏᴜᴛ ʏᴏᴜ ᴘɪᴄᴋ ꜱᴏᴍᴇ ᴜᴘ?'
+  - ''
+  - '$RUN_COMMAND$&f                    ▪ ʏᴇs, ᴘʟᴇᴀsᴇ!;&8ʟᴇꜰᴛ ᴄʟɪᴄᴋ;/marcus1'
+  - '$RUN_COMMAND$&f                    ▪ ɴᴏ, ᴛʜᴀɴᴋ ʏᴏᴜ!;&8ʟᴇꜰᴛ ᴄʟɪᴄᴋ;/marcus2'
+  - ''
+  - '&f                    &cʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ʜᴏᴠᴇʀ ᴀɴᴅ ᴄʟɪᴄᴋ ᴛʜᴇ ᴏᴘᴛɪᴏɴs'
+  - '&f &6ᴏɴʟʏ ᴘʟᴀʏᴇʀs ᴡɪᴛʜ ʟᴇss ᴛʜᴀɴ 5 ʜᴏᴜʀs ᴘʟᴀʏᴇᴅ ᴄᴀɴ ᴇɴᴛᴇʀ'
+  - ''
+Marcus1:
+  command: /marcus1
+  type: RUN_CONSOLE
+  cooldown: 60
+  cooldown-message: "&f &cᴡᴀɪᴛ 60s ᴛᴏ ᴛᴀʟᴋ ᴡɪᴛʜ ᴍᴀʀᴄᴜs ᴀɢᴀɪɴ"
+  runcmd:
+  - '/openfarm %player_name%'
+Marcus2:
+  command: /marcus2
+  type: RAW_TEXT
+  cooldown: 60
+  cooldown-message: "&f &cᴡᴀɪᴛ 60s ᴛᴏ ᴛᴀʟᴋ ᴡɪᴛʜ ᴍᴀʀᴄᴜs ᴀɢᴀɪɴ"
+  text:
+  - '&f'
+  - '&d&lɴᴘᴄ &dᴍᴀʀᴄᴜs・&fᴛᴀʟᴋɪɴɢ.. '
+  - '&8&l| &7ɪ ᴜɴᴅᴇʀsᴛᴀɴᴅ, sᴏ ʏᴏᴜ ᴅᴏɴ''ᴛ ɴᴇᴇᴅ ɪᴛ.. sᴇᴇ ʏᴏᴜ ᴛʜᴇɴ'
+  - '&f'
+Farmer:
+  command: /farmer
+  type: RUN_CONSOLE
+  cooldown: 60
+  cooldown-message: "&f &cᴡᴀɪᴛ 60s ᴛᴏ ᴛᴀʟᴋ ᴡɪᴛʜ ꜰᴀʀᴍᴇʀ ᴀɢᴀɪɴ"
+  runcmd:
+  - '/openfarm2 %player_name%'
+##########################################################################################################################
+Cassian:
+  command: /cassian
+  type: RAW_TEXT
+  cooldown: 60
+  cooldown-message: "&f &cᴡᴀɪᴛ 60s ᴛᴏ ᴛᴀʟᴋ ᴡɪᴛʜ ᴄᴀssɪᴀɴ ᴀɢᴀɪɴ"
+  text:
+  - ''
+  - '&f⻔⻔⻔&d&l                ɴᴘᴄ &dᴄᴀssɪᴀɴ'
+  - '&f⻔ &7ʜᴏᴡᴅʏ! ɪ ᴀᴍ ᴄᴀꜱꜱɪᴀɴ, ɪ ᴡɪʟʟ ʀᴇᴡᴀʀᴅ ʏᴏᴜ ꜰᴏʀ'
+  - '&7                   ᴛʜᴇ ʜᴏᴜʀꜱ ʏᴏᴜ ꜱᴘᴇɴᴅ ᴏɴ ᴛʜᴇ ꜱᴇʀᴠᴇʀ. ᴅᴏ'
+  - '&7                   ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ꜱᴇᴇ ᴡʜᴀᴛ ɪ ᴄᴀɴ ᴏꜰꜰᴇʀ ʏᴏᴜ?'
+  - ''
+  - '$RUN_COMMAND$&f                    ▪ sᴜʀᴇ!;&8ʟᴇꜰᴛ ᴄʟɪᴄᴋ;/cassian2'
+  - '$RUN_COMMAND$&f                    ▪ ᴍᴀʏʙᴇ ʟᴀᴛᴇʀ;&8ʟᴇꜰᴛ ᴄʟɪᴄᴋ;/cassian3'
+  - ''
+  - '&f                    &cʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ʜᴏᴠᴇʀ ᴀɴᴅ ᴄʟɪᴄᴋ ᴛʜᴇ ᴏᴘᴛɪᴏɴs'
+  - ''
+Cassian2:
+  command: /cassian2
+  type: RUN_COMMAND
+  cooldown: 60
+  cooldown-message: "&f &cᴡᴀɪᴛ 60s ᴛᴏ ᴛᴀʟᴋ ᴡɪᴛʜ ᴄᴀssɪᴀɴ ᴀɢᴀɪɴ"
+  text:
+  runcmd:
+  - '$text$&f'
+  - '$text$&d&lɴᴘᴄ &dᴄᴀssɪᴀɴ・&fᴛᴀʟᴋɪɴɢ.. '
+  - '$text$&8&l| &7ᴛʜᴀᴛ''ꜱ ɢʀᴇᴀᴛ! ɪ ᴡɪʟʟ ꜱʜᴏᴡ ʏᴏᴜ ᴡʜᴀᴛ ʀᴇᴡᴀʀᴅꜱ ʏᴏᴜ'
+  - '$text$&8&l| &7ᴡɪʟʟ ʀᴇᴄᴇɪᴠᴇ ꜰᴏʀ ʏᴏᴜʀ ᴛɪᴍᴇ ᴘʟᴀʏᴇᴅ ᴏɴ ᴛʜᴇ ꜱᴇʀᴠᴇʀ'
+  - '$text$&f'
+  - '$text$&f &aʀᴇᴡᴀʀᴅs ᴍᴇɴᴜ ᴡɪʟʟ ʙᴇ ᴏᴘᴇɴᴇᴅ ɪɴ ᴀ ꜰᴇᴡ sᴇᴄᴏɴᴅs'
+  - '$text$&f'
+  - '$delay$<80>'
+  - '/rewards'
+Cassian3:
+  command: /cassian3
+  type: RUN_COMMAND
+  cooldown: 60
+  cooldown-message: "&f &cᴡᴀɪᴛ 60s ᴛᴏ ᴛᴀʟᴋ ᴡɪᴛʜ ᴄᴀssɪᴀɴ ᴀɢᴀɪɴ"
+  text:
+  runcmd:
+  - '$text$&f'
+  - '$text$&d&lɴᴘᴄ &dᴄᴀssɪᴀɴ・&fᴛᴀʟᴋɪɴɢ.. '
+  - '$text$&8&l| &7ᴀʟʀɪɢʜᴛ, ɪ''ʟʟ ᴡᴀɪᴛ ʜᴇʀᴇ ᴜɴᴛɪʟ'
+  - '$text$&8&l| &7ʏᴏᴜ ᴄʜᴀɴɢᴇ ʏᴏᴜʀ ᴍɪɴᴅ!'
+  - '$text$&f'
+##########################################################################################################################
+Petra:
+  command: /petra
+  type: RAW_TEXT
+  cooldown: 60
+  cooldown-message: "&f &cᴡᴀɪᴛ 60s ᴛᴏ ᴛᴀʟᴋ ᴡɪᴛʜ ᴘᴇᴛʀᴀ ᴀɢᴀɪɴ"
+  text:
+  - ''
+  - '&f⻔⻔⻔&d&l                ɴᴘᴄ &dᴘᴇᴛʀᴀ'
+  - '&f⻔ &7ʜɪ, ɪ''ᴍ ᴘᴇᴛʀᴀ! ɪ ᴀᴍ ᴛʜᴇ ᴀᴜᴄᴛɪᴏɴᴇᴇʀ, ɪ'
+  - '&7                   ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴀᴜᴄᴛɪᴏɴ ʏᴏᴜʀ ɪᴛᴇᴍꜱ ᴏʀ'
+  - '&7                   ᴇᴠᴇɴ ʙɪᴅ ꜰᴏʀ ᴏᴛʜᴇʀꜱ'
+  - ''
+  - '$RUN_COMMAND$&f                    ▪ ᴀᴜᴄᴛɪᴏɴs;&8ʟᴇꜰᴛ ᴄʟɪᴄᴋ;/petra2'
+  - '$RUN_COMMAND$&f                    ▪ ᴍᴏʀᴇ ɪɴꜰᴏ;&8ʟᴇꜰᴛ ᴄʟɪᴄᴋ;/petra3'
+  - ''
+  - '&f                    &cʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ʜᴏᴠᴇʀ ᴀɴᴅ ᴄʟɪᴄᴋ ᴛʜᴇ ᴏᴘᴛɪᴏɴs'
+  - ''
+Petra2:
+  command: /petra2
+  type: RUN_COMMAND
+  cooldown: 60
+  cooldown-message: "&f &cᴡᴀɪᴛ 60s ᴛᴏ ᴛᴀʟᴋ ᴡɪᴛʜ ᴘᴇᴛʀᴀ ᴀɢᴀɪɴ"
+  text:
+  runcmd:
+  - '$text$&f'
+  - '$text$&d&lɴᴘᴄ &dᴘᴇᴛʀᴀ・&fᴛᴀʟᴋɪɴɢ.. '
+  - '$text$&8&l| &7ɪ ᴡɪʟʟ ᴏᴘᴇɴ ᴀ ᴍᴇɴᴜ ᴡʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ ᴅᴏ ᴀʟʟ ᴛʜᴇ ᴛʜɪɴɢꜱ'
+  - '$text$&8&l| &7ᴘᴜᴛ ɪᴛᴇᴍꜱ ᴜᴘ ꜰᴏʀ ᴀᴜᴄᴛɪᴏɴ, ʙɪᴅ ꜰᴏʀ ɪᴛᴇᴍꜱ ᴀɴᴅ ᴏᴛʜᴇʀꜱ.'
+  - '$text$&f'
+  - '$text$&f &aᴀᴜᴄᴛɪᴏɴs ᴍᴇɴᴜ ᴡɪʟʟ ʙᴇ ᴏᴘᴇɴᴇᴅ ɪɴ ᴀ ꜰᴇᴡ sᴇᴄᴏɴᴅs'
+  - '$text$&f'
+  - '$delay$<100>'
+  - '/ah'
+Petra3:
+  command: /petra3
+  type: RUN_COMMAND
+  cooldown: 60
+  cooldown-message: "&f &cᴡᴀɪᴛ 60s ᴛᴏ ᴛᴀʟᴋ ᴡɪᴛʜ ᴘᴇᴛʀᴀ ᴀɢᴀɪɴ"
+  text:
+  runcmd:
+  - '$text$&f'
+  - '$text$&d&lɴᴘᴄ &dᴘᴇᴛʀᴀ・&fᴛᴀʟᴋɪɴɢ.. '
+  - '$text$&8&l| &7ʏᴏᴜ ᴅᴏɴ''ᴛ ʀᴇᴀʟʟʏ ᴋɴᴏᴡ ʜᴏᴡ ᴀᴜᴄᴛɪᴏɴꜱ ᴡᴏʀᴋ? ʏᴏᴜ ᴄᴀɴ ꜰɪɴᴅ'
+  - '$text$&8&l| &7ᴏᴜᴛ ᴍᴏʀᴇ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ʜᴏᴡ ɪᴛ ᴡᴏʀᴋꜱ ɪɴ ɢᴜɪᴅᴇ'
+  - '$text$&f'
+  - '$text$&f &aɢᴜɪᴅᴇ ᴍᴇɴᴜ ᴡɪʟʟ ʙᴇ ᴏᴘᴇɴᴇᴅ ɪɴ ᴀ ꜰᴇᴡ sᴇᴄᴏɴᴅs'
+  - '$text$&f'
+  - '$delay$<100>'
+  - '/guide'
+##########################################################################################################################
+Thyra:
+  command: /thyra
+  type: RAW_TEXT
+  cooldown: 60
+  cooldown-message: "&f &cᴡᴀɪᴛ 60s ᴛᴏ ᴛᴀʟᴋ ᴡɪᴛʜ ᴛʜʏʀᴀ ᴀɢᴀɪɴ"
+  text:
+  - ''
+  - '&f⻔⻔⻔&d&l                ɴᴘᴄ &dᴛʜʏʀᴀ'
+  - '&f⻔ &7ꜱᴏ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴠᴇɴᴛᴜʀᴇ ɪɴᴛᴏ ᴛʜᴇ ᴅᴜɴɢᴇᴏɴ?'
+  - '&7                   ɪ ᴡɪʟʟ ɴᴇᴇᴅ ᴀ ᴋᴇʏ ᴛᴏ ʟᴇᴛ ʏᴏᴜ ɪɴ.'
+  - ''
+  - '$RUN_COMMAND$&f                    ▪ ɢɪᴠᴇ ᴇᴀsʏ ᴋᴇʏ;&8ʟᴇꜰᴛ ᴄʟɪᴄᴋ;/thyra2'
+  - '$RUN_COMMAND$&f                    ▪ ɢɪᴠᴇ ᴍᴇᴅɪᴜᴍ ᴋᴇʏ;&8ʟᴇꜰᴛ ᴄʟɪᴄᴋ;/thyra3'
+  - '$RUN_COMMAND$&f                    ▪ ɢɪᴠᴇ ʜᴀʀᴅ ᴋᴇʏ;&8ʟᴇꜰᴛ ᴄʟɪᴄᴋ;/thyra4'
+  - ''
+  - '&f                    &cʜᴏʟᴅ ᴋᴇʏ ɪɴ ʜᴀɴᴅ ᴀɴᴅ ᴄʟɪᴄᴋ ᴛʜᴇ ᴏᴘᴛɪᴏɴs'
+  - ''
+Thyra2:
+  command: /thyra2
+  type: RUN_CONSOLE
+  cooldown: 60
+  cooldown-message: "&f &cᴡᴀɪᴛ 60s ᴛᴏ ᴛᴀʟᴋ ᴡɪᴛʜ thyra ᴀɢᴀɪɴ"
+  runcmd:
+  - '/opendungeoneasy %player_name%'
+Thyra3:
+  command: /thyra3
+  type: RUN_CONSOLE
+  cooldown: 60
+  cooldown-message: "&f &cᴡᴀɪᴛ 60s ᴛᴏ ᴛᴀʟᴋ ᴡɪᴛʜ thyra ᴀɢᴀɪɴ"
+  runcmd:
+  - '/opendungeonmedium %player_name%'
+Thyra4:
+  command: /thyra4
+  type: RUN_CONSOLE
+  cooldown: 60
+  cooldown-message: "&f &cᴡᴀɪᴛ 60s ᴛᴏ ᴛᴀʟᴋ ᴡɪᴛʜ thyra ᴀɢᴀɪɴ"
+  runcmd:
+  - '/opendungeonhard %player_name%'
+##########################################################################################################################
+Noah:
+  command: /noah
+  type: RAW_TEXT
+  cooldown: 60
+  cooldown-message: "&f &cᴡᴀɪᴛ 60s ᴛᴏ ᴛᴀʟᴋ ᴡɪᴛʜ ɴᴏᴀʜ ᴀɢᴀɪɴ"
+  text:
+  - ''
+  - '&f⻔⻔⻔&d&l                ɴᴘᴄ &dɴᴏᴀʜ'
+  - '&f⻔ &7ɪ ᴀᴍ ɴᴏᴀʜ ᴛʜᴇ ᴍɪɴᴇʀ! ᴛʜɪꜱ ɪꜱ ᴍʏ ᴍɪɴᴇ, ɪᴛ''ꜱ ɴᴏᴛ'
+  - '&7                   ᴀ ʙɪɢ ᴏɴᴇ, ʙᴜᴛ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ꜱᴏᴍᴇ ʀᴇꜱᴏᴜʀᴄᴇꜱ!'
+  - '&7                   ᴡᴏᴜʟᴅ ʏᴏᴜ ʟɪᴋᴇ ᴛᴏ ᴄᴏᴍᴇ ɪɴꜱɪᴅᴇ?'
+  - ''
+  - '$RUN_COMMAND$&f                    ▪ ʏᴇs, ᴘʟᴇᴀsᴇ!;&8ʟᴇꜰᴛ ᴄʟɪᴄᴋ;/noah1'
+  - '$RUN_COMMAND$&f                    ▪ ɴᴏ, ᴛʜᴀɴᴋ ʏᴏᴜ!;&8ʟᴇꜰᴛ ᴄʟɪᴄᴋ;/noah2'
+  - ''
+  - '&f                    &cʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ʜᴏᴠᴇʀ ᴀɴᴅ ᴄʟɪᴄᴋ ᴛʜᴇ ᴏᴘᴛɪᴏɴs'
+  - '&f &6ᴏɴʟʏ ᴘʟᴀʏᴇʀs ᴡɪᴛʜ ʟᴇss ᴛʜᴀɴ 5 ʜᴏᴜʀs ᴘʟᴀʏᴇᴅ ᴄᴀɴ ᴇɴᴛᴇʀ'
+  - ''
+Noah1:
+  command: /noah1
+  type: RUN_CONSOLE
+  cooldown: 60
+  cooldown-message: "&f &cᴡᴀɪᴛ 60s ᴛᴏ ᴛᴀʟᴋ ᴡɪᴛʜ ɴᴏᴀʜ ᴀɢᴀɪɴ"
+  runcmd:
+  - '/openmine %player_name%'
+Noah2:
+  command: /noah2
+  type: RAW_TEXT
+  cooldown: 60
+  cooldown-message: "&f &cᴡᴀɪᴛ 60s ᴛᴏ ᴛᴀʟᴋ ᴡɪᴛʜ ɴᴏᴀʜ ᴀɢᴀɪɴ"
+  text:
+  - ''
+  - '&d&lɴᴘᴄ &dɴᴏᴀʜ・&fᴛᴀʟᴋɪɴɢ.. '
+  - '&8&l| &7ɪ ᴜɴᴅᴇʀsᴛᴀɴᴅ, sᴏ ʏᴏᴜ ᴅᴏɴ''ᴛ ɴᴇᴇᴅ ɪᴛ.. sᴇᴇ ʏᴏᴜ ᴛʜᴇɴ'
+  - '&f'
+Miner:
+  command: /miner
+  type: RUN_CONSOLE
+  cooldown: 60
+  cooldown-message: "&f &cᴡᴀɪᴛ 60s ᴛᴏ ᴛᴀʟᴋ ᴡɪᴛʜ ᴍɪɴᴇʀ ᴀɢᴀɪɴ"
+  runcmd:
+  - '/openmine2 %player_name%'

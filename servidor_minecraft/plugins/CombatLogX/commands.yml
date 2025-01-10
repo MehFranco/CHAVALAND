@@ -1,0 +1,14 @@
+# This is a list of commands that will be executed whenever a player is tagged.
+#
+# Set this to an empty list to disable all tag commands.
+# tag-command-list: []
+tag-command-list: []
+
+# This is a list of commands that will be executed whenever a player is untagged.
+# Valid Placeholders:
+# {combatlogx_player} - The name of the player that was untagged.
+# {combatlogx_enemy} - The name of the last known enemy that tagged the player. The enemy can be unknown.
+#
+# Set this to an empty list to disable all untag commands.
+# untag-command-list: []
+untag-command-list: []

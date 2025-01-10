@@ -1,0 +1,580 @@
+Weaponsmith:
+  fullname: Weaponsmith
+  shortname: W
+  description: '&fEarn money from crafting and repairing weapons.'
+  ChatColour: DARK_PURPLE
+  chat-display: full
+  max-level: 75
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  maxDailyQuests: 1
+  Quests:
+    '1':
+      Name: Blacksmith
+      Objectives:
+      - Craft;iron_pickaxe;1
+      - Craft;iron_axe;1
+      RewardCommands:
+      - eco give [playerName] 300
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fCraft iron tools and get money'
+      - '&8 ▪ &fGet 300$ for this!'
+    '2':
+      Name: Smelter
+      Objectives:
+      - SMELT;iron_ingot;16
+      RewardCommands:
+      - eco give [playerName] 250
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fSmelt ores and get money'
+      - '&8 ▪ &fGet 250$ for this!'
+    '3':
+      Name: Smelter II
+      Objectives:
+      - Smelt;iron_ingot;10
+      - Smelt;gold_ingot;6
+      RewardCommands:
+      - eco give [playerName] 280
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fSmelt ores and get money'
+      - '&8 ▪ &fGet 280$ for this!'
+    '4':
+      Name: Smelter III
+      Objectives:
+      - Craft;netherite_ingot;1
+      RewardCommands:
+      - eco give [playerName] 400
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fCraft a netherite ingot and get money'
+      - '&8 ▪ &fGet 400$ for this!'
+    '5':
+      Name: Blacksmith II
+      Objectives:
+      - Craft;diamond_sword;1
+      - Craft;diamond_shovel;1
+      RewardCommands:
+      - eco give [playerName] 400
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fCraft diamond tools and get money'
+      - '&8 ▪ &fGet 400$ for this!'
+    '6':
+      Name: Armorer
+      Objectives:
+      - Craft;iron_chestplate;1
+      RewardCommands:
+      - eco give [playerName] 350
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fCraft armor and get money'
+      - '&8 ▪ &fGet 350$ for this!'
+    '7':
+      Name: Blacksmith III
+      Objectives:
+      - Craft;diamond_axe;1
+      - Craft;diamond_helmet;1
+      RewardCommands:
+      - eco give [playerName] 450
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fCraft diamond tools and get money'
+      - '&8 ▪ &fGet 450$ for this!'
+    '8':
+      Name: Armorer II
+      Objectives:
+      - Craft;iron_helmet;1
+      RewardCommands:
+      - eco give [playerName] 250
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fCraft armor and get money'
+      - '&8 ▪ &fGet 250$ for this!'
+    '9':
+      Name: Blacksmith IV
+      Objectives:
+      - REPAIR;diamond_pickaxe;1
+      RewardCommands:
+      - eco give [playerName] 300
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fRepair your diamond pickaxe and get money'
+      - '&8 ▪ &fGet 300$ for this!'
+    '10':
+      Name: Armorer III
+      Objectives:
+      - REPAIR;iron_leggings;1
+      RewardCommands:
+      - eco give [playerName] 200
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fRepair your iron leggings and get money'
+      - '&8 ▪ &fGet 200$ for this!'
+    '11':
+      Name: Blacksmith V
+      Objectives:
+      - REPAIR;netherite_sword;1
+      RewardCommands:
+      - eco give [playerName] 425
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fRepair your netherite sword and get money'
+      - '&8 ▪ &fGet 425$ for this!'
+  Gui:
+    Id: 145
+    Data: 0
+  Craft:
+    wooden_sword:
+      income: 1.0
+      points: 1.0
+      experience: 2.0
+    wooden_pickaxe:
+      income: 1.5
+      points: 1.5
+      experience: 2.0
+    wooden_axe:
+      income: 1.5
+      points: 1.5
+      experience: 2.0
+    wooden_shovel:
+      income: 0.6
+      points: 0.6
+      experience: 2.0
+    wooden_hoe:
+      income: 1.1
+      points: 1.1
+      experience: 2.0
+    leather_boots:
+      income: 2.0
+      points: 2.0
+      experience: 2.0
+    leather_chestplate:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    leather_helmet:
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+    leather_leggings:
+      income: 3.5
+      points: 3.5
+      experience: 3.5
+    stone_sword:
+      income: 3.5
+      points: 3.5
+      experience: 3.5
+    stone_pickaxe:
+      income: 4
+      points: 4
+      experience: 4
+    stone_axe:
+      income: 4
+      points: 4
+      experience: 4
+    stone_shovel:
+      income: 3
+      points: 3
+      experience: 3
+    stone_hoe:
+      income: 3.5
+      points: 3.5
+      experience: 3.5
+    iron_sword:
+      income: 4.5
+      points: 4.5
+      experience: 4.5
+    iron_pickaxe:
+      income: 6
+      points: 6
+      experience: 6
+    iron_axe:
+      income: 6
+      points: 6
+      experience: 6
+    iron_shovel:
+      income: 3.5
+      points: 3.5
+      experience: 4
+    iron_hoe:
+      income: 4.5
+      points: 4.5
+      experience: 4
+    iron_boots:
+      income: 7.0
+      points: 7.0
+      experience: 7.0
+    iron_chestplate:
+      income: 13.0
+      points: 13.0
+      experience: 13.0
+    iron_helmet:
+      income: 8.5
+      points: 8.5
+      experience: 8.5
+    iron_leggings:
+      income: 11.5
+      points: 11.5
+      experience: 11.5
+    golden_sword:
+      income: 7.5
+      points: 7.5
+      experience: 7.5
+    golden_pickaxe:
+      income: 9.0
+      points: 9.0
+      experience: 9.0
+    golden_axe:
+      income: 9.0
+      points: 9.0
+      experience: 9.0
+    golden_shovel:
+      income: 6.0
+      points: 6.0
+      experience: 6.0
+    golden_hoe:
+      income: 7.5
+      points: 7.5
+      experience: 7.5
+    gold_boots:
+      income: 11.0
+      points: 11.0
+      experience: 11.0
+    golden_chestplate:
+      income: 24.0
+      points: 24.0
+      experience: 24.0
+    golden_helmet:
+      income: 14.5
+      points: 14.5
+      experience: 14.5
+    golden_leggings:
+      income: 21.0
+      points: 21.0
+      experience: 21.0
+    diamond_sword:
+      income: 12.0
+      points: 12.0
+      experience: 12.0
+    diamond_pickaxe:
+      income: 15.0
+      points: 15.0
+      experience: 15.0
+    diamond_axe:
+      income: 15.0
+      points: 15.0
+      experience: 15.0
+    diamond_shovel:
+      income: 10.0
+      points: 10.0
+      experience: 10.0
+    diamond_hoe:
+      income: 12.0
+      points: 12.0
+      experience: 12.0
+    diamond_helmet:
+      income: 19.0
+      points: 19.0
+      experience: 19.0
+    diamond_chestplate:
+      income: 33.0
+      points: 33.0
+      experience: 33.0
+    diamond_leggings:
+      income: 30.0
+      points: 30.0
+      experience: 30.0
+    diamond_boots:
+      income: 17.0
+      points: 17.0
+      experience: 32.0
+    netherite_ingot:
+      income: 10.0
+      points: 10.0
+      experience: 15.0
+    bow:
+      income: 3.5
+      points: 3.5
+      experience: 3.5
+    crossbow:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    fishing_rod:
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+    flint_and_steel:
+      income: 3.0
+      points: 3.0
+      experience: 3.0
+    shears:
+      income: 3.5
+      points: 3.5
+      experience: 3.5
+    bucket:
+      income: 4.5
+      points: 4.5
+      experience: 4.5
+    clock:
+      income: 4.5
+      points: 4.5
+      experience: 4.5
+    compass:
+      income: 4.5
+      points: 4.5
+      experience: 4.5
+    shulker_box:
+      income: 6
+      points: 6
+      experience: 6
+    map:
+      income: 2
+      points: 2
+      experience: 2
+    arrow:
+      income: 0.8
+      points: 0.8
+      experience: 0.8
+    spectral_arrow:
+      income: 1.2
+      points: 1.2
+      experience: 1.2
+    leather_horse_armor:
+      income: 5
+      points: 5
+      experience: 5
+    shield:
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+  Repair:
+    wooden_sword:
+      income: 1.0
+      points: 1.0
+      experience: 2.0
+    wooden_pickaxe:
+      income: 1.5
+      points: 1.5
+      experience: 2.0
+    wooden_axe:
+      income: 1.5
+      points: 1.5
+      experience: 2.0
+    wooden_shovel:
+      income: 0.6
+      points: 0.6
+      experience: 2.0
+    wooden_hoe:
+      income: 1.1
+      points: 1.1
+      experience: 2.0
+    leather_boots:
+      income: 1.5
+      points: 1.5
+      experience: 1.5
+    leather_chestplate:
+      income: 1.5
+      points: 1.5
+      experience: 1.5
+    leather_helmet:
+      income: 1.5
+      points: 1.5
+      experience: 1.5
+    leather_leggings:
+      income: 1.5
+      points: 1.5
+      experience: 1.5
+    stone_sword:
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+    stone_pickaxe:
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+    stone_axe:
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+    stone_shovel:
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+    stone_hoe:
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+    iron_sword:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    iron_pickaxe:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    iron_axe:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    iron_shovel:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    iron_hoe:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    iron_boots:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    iron_chestplate:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    iron_helmet:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    iron_leggings:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    golden_sword:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    golden_pickaxe:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    golden_axe:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    golden_shovel:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    golden_hoe:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    gold_boots:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    golden_chestplate:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    golden_helmet:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    golden_leggings:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    diamond_sword:
+      income: 7.0
+      points: 7.0
+      experience: 7.0
+    diamond_pickaxe:
+      income: 7.0
+      points: 7.0
+      experience: 7.0
+    diamond_axe:
+      income: 7.0
+      points: 7.0
+      experience: 7.0
+    diamond_shovel:
+      income: 7.0
+      points: 7.0
+      experience: 7.0
+    diamond_hoe:
+      income: 7.0
+      points: 7.0
+      experience: 7.0
+    diamond_helmet:
+      income: 7.0
+      points: 7.0
+      experience: 7.0
+    diamond_chestplate:
+      income: 7.0
+      points: 7.0
+      experience: 7.0
+    diamond_leggings:
+      income: 7.0
+      points: 7.0
+      experience: 7.0
+    diamond_boots:
+      income: 7.0
+      points: 7.0
+      experience: 7.0
+    netherite_sword:
+      income: 9.0
+      points: 9.0
+      experience: 9.0
+    netherite_pickaxe:
+      income: 9.0
+      points: 9.0
+      experience: 9.0
+    netherite_axe:
+      income: 9.0
+      points: 9.0
+      experience: 9.0
+    netherite_shovel:
+      income: 9.0
+      points: 9.0
+      experience: 9.0
+    netherite_hoe:
+      income: 9.0
+      points: 9.0
+      experience: 9.0
+    netherite_helmet:
+      income: 9.0
+      points: 9.0
+      experience: 9.0
+    netherite_chestplate:
+      income: 9.0
+      points: 9.0
+      experience: 9.0
+    netherite_leggings:
+      income: 9.0
+      points: 9.0
+      experience: 9.0
+    netherite_boots:
+      income: 9.0
+      points: 9.0
+      experience: 9.0
+    bow:
+      income: 1.5
+      points: 1.5
+      experience: 1.5
+    crossbow:
+      income: 2.0
+      points: 2.0
+      experience: 2.0
+  Smelt:
+    iron_ingot:
+      income: 2.8
+      points: 2.8
+      experience: 2.8
+    gold_ingot:
+      income: 2.8
+      points: 2.8
+      experience: 2.8
+    netherite_scrap:
+      income: 5.0
+      points: 5.0
+      experience: 5.0

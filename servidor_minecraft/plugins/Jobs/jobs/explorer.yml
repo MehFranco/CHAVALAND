@@ -1,0 +1,76 @@
+Explorer:
+  fullname: Explorer
+  shortname: Ex
+  description: '&fEarn money from exploring map.'
+  ChatColour: AQUA
+  chat-display: full
+  max-level: 50
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  maxDailyQuests: 1
+  Quests:
+    '1':
+      Name: Discovering the world
+      Objectives:
+      - Explore;1;30
+      RewardCommands:
+      - eco give [playerName] 300
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fTravel to new locations'
+      - '&8 ▪ &fGet 300$ for this!'
+    '2':
+      Name: Old memories
+      Objectives:
+      - Explore;2;30
+      RewardCommands:
+      - eco give [playerName] 250
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fRevisit a location for the second time'
+      - '&8 ▪ &fGet 250$ for this!'
+    '3':
+      Name: Old memories II
+      Objectives:
+      - Explore;3;30
+      RewardCommands:
+      - eco give [playerName] 200
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fRevisit a location for the third time'
+      - '&8 ▪ &fGet 200$ for this!'
+    '4':
+      Name: On a expedition
+      Objectives:
+      - Explore;1;60
+      RewardCommands:
+      - eco give [playerName] 400
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fGo on an expedition'
+      - '&8 ▪ &fGet 400$ for this!'
+  Gui:
+    Id: 305
+    Data: 0
+  Explore:
+    '1':
+      income: 2.25
+      points: 2.25
+      experience: 2.25
+    '2':
+      income: 1.5
+      points: 1.5
+      experience: 1.5
+    '3':
+      income: 1
+      points: 1
+      experience: 1
+    '4':
+      income: 0.5
+      points: 0.5
+      experience: 0.5

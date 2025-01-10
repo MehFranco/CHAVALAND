@@ -1,0 +1,5 @@
+# LuckPerms UUID lookup cache
+ff47729b-d0d2-4af0-98b1-1c0a7e1b0eef:matscan
+a690f470-5ddd-4af8-a24e-265f91a6c597:MihiBlu
+e3eeea41-37de-3b7b-9e79-29f5ab622f41:MehFranco
+18845f51-39ea-374f-b97e-964297bb913c:DIOSITO

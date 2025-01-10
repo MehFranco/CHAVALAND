@@ -1,0 +1,64 @@
+Plugin:
+  # Command names that will be registered as main plugin commands.
+  # Do not leave this empty. Split multiple names with a comma.
+  Command_Aliases: nexengine
+  # Sets the plugin language.
+  # It will use language config from the '/lang/' sub-folder for specified language code.
+  # By default uses your system's default locale.
+  Language: en
+  # Localized plugin name. It's used in messages and with internal placeholders.
+  Name: NexEngine
+  # Plugin prefix. Used in messages.
+  # You can use %plugin_name_localized% placeholder for a plugin name.
+  Prefix: '&e%plugin_name% &8» &7'
+
+Locale:
+  World_Names:
+    world: World
+    world_nether: Nether
+    world_the_end: The End
+Head_Texture_Cache:
+  ? eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjM3MWU0ZTFjZjZhMWEzNmZkYWUyNzEzN2ZkOWI4NzQ4ZTYxNjkyOTk5MjVmOWFmMmJlMzAxZTU0Mjk4YzczIn19fQ==
+  : f008df30-8b54-4105-b9f3-9c8f980deb34
+  ? eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhZjIxN2FlZGRmMGY0MDA2NDk2OWViYjIwNDJmN2FlYWZiYzdkMGYxNzVhMjc2MjQxMzNhM2JlZmQxMDI4MSJ9fX0=
+  : 9e9cec9d-580e-4f5d-a788-6262a7005fa8
+  ? eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWM1YThhYThhNGMwMzYwMGEyYjVhNGViNmJlYjUxZDU5MDI2MGIwOTVlZTFjZGFhOTc2YjA5YmRmZTU2NjFjNiJ9fX0=
+  : c589432a-dd64-4040-8a9e-9d7e85d19adb
+  ? eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+  : ce4117b8-78e5-414f-be90-4d4769532701
+  ? eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTM4NTJiZjYxNmYzMWVkNjdjMzdkZTRiMGJhYTJjNWY4ZDhmY2E4MmU3MmRiY2FmY2JhNjY5NTZhODFjNCJ9fX0=
+  : 10bb6bed-9444-4d40-b666-013e96f4c82f
+  ? eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjgyYWQxYjljYjRkZDIxMjU5YzBkNzVhYTMxNWZmMzg5YzNjZWY3NTJiZTM5NDkzMzgxNjRiYWM4NGE5NmUifX19
+  : 705f870d-9ca8-40a3-90b3-dab3f0b74c45
+  ? eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdhZWU5YTc1YmYwZGY3ODk3MTgzMDE1Y2NhMGIyYTdkNzU1YzYzMzg4ZmYwMTc1MmQ1ZjQ0MTlmYzY0NSJ9fX0=
+  : 9fd959c0-37c5-4723-8afa-6ba1535da5d0
+  ? eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZmMzE0MzFkNjQ1ODdmZjZlZjk4YzA2NzU4MTA2ODFmOGMxM2JmOTZmNTFkOWNiMDdlZDc4NTJiMmZmZDEifX19
+  : 8bdc3beb-2e9c-4284-b73a-323c70d7deeb
+UserData:
+  # Enables debug messages for user data management.
+  # [Default is false]
+  Debug: false
+  Cache:
+    # Sets how long (in seconds) user data will be cached for offline users
+    # until removed and needs to be loaded from the database again.
+    # [Default is 300 (5 minutes)]
+    LifeTime: 300
+    # Sets whether or not plugin will cache player names and UUIDs.
+    # This will improve database performance when checking if user exists, but will increase memory usage.
+    # [Default is true]
+    Names_And_UUIDs: true
+TabCompleter:
+  # Sets maximal length for input text to use a regex based search (aka smart tab-completer).
+  # When player entered text with length that exceeds this value, basic text search will be used instead.
+  # [Default is 32]
+  Regex_Max_Length: 32
+  # Amount of milliseconds for regex matcher timeout in tab completion.
+  # If tab-completion takes more than this amount to find matches from a list, it will be interrupted.
+  # [Default is 25ms]
+  Regex_Timeout: 25
+Engine:
+  # Sets whether or not 'Player#getDisplayName' can be used to find & get players in addition to regular 'Player#getName'.
+  # This is useful if you want to use custom player nicknames in commands.
+  # (Works only for NexEngine based plugins.)
+  # [Default is false]
+  Respect_Player_DisplayName: false

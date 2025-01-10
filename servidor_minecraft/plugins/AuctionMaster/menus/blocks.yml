@@ -1,0 +1,17 @@
+blocks-menu-item: 'STICK#1'
+blocks-menu-name: '&aʙʟᴏᴄᴋs'
+blocks-menu-lore:
+  - '&8ᴄᴀᴛᴇɢᴏʀʏ'
+  - ''
+
+  - ' &f▪ ᴅɪʀᴛ'
+  - ' &f▪ ꜱᴛᴏɴᴇ'
+  - ' &f▪ ᴀʟʟ ʙʟᴏᴄᴋꜱ'
+
+#If you have custom items that you want to be in this
+#category, specify their name here
+custom-item-names:
+  - '&e&lExample &6&lItem'
+
+custom-item-ids:
+  - '301'

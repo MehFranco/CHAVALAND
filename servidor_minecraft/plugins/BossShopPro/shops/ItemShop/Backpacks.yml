@@ -1,0 +1,246 @@
+ShopName: Backpacks
+DisplayName: '&f'
+Command: Backpacks
+RemovePlayerInventory: true
+shop:
+#########################################################################################
+#    HEADER ITEMS
+#########################################################################################
+  Tools_Category:
+    MenuItem:
+    - 'lore1:&7ɪᴛᴇᴍꜱ ᴛʜᴀᴛ ʜᴇʟᴘ #&7ᴇᴀꜱᴇ ʏᴏᴜʀ ᴡᴏʀᴋ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Tools
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  Commands_Category:
+    MenuItem:
+    - 'lore1:&7ᴜꜱᴇꜰᴜʟ ᴄᴏᴍᴍᴀɴᴅꜱ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Commands
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  Cosmetics_Category:
+    MenuItem:
+    - 'lore1:&7ʜᴀᴛs ᴛʜᴀᴛ ᴄᴀɴ ɪᴍᴘʀᴏᴠᴇ#&7ʏᴏᴜʀ ᴀᴘᴘᴇᴀʀᴀɴᴄᴇ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: hatsshop
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  Spawner_Category:
+    MenuItem:
+    - 'lore1:&7ʙʟᴏᴄᴋs ᴛʜᴀᴛ ꜱᴘᴀᴡɴ ᴍᴏʙꜱ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Spawners
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+  Furniture_Category:
+    MenuItem:
+    - 'lore1:&7ɪᴛᴇᴍꜱ ᴛᴏ ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ#&7ʜᴏᴜꜱᴇ ᴀɴᴅ ɢᴀʀᴅᴇɴ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Furniture
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+  Backpacks_Category: 
+    MenuItem:
+    - 'lore1:&esᴇʟᴇᴄᴛᴇᴅ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: backpacks
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+  Previous_Shops:
+    MenuItem:
+    - name:&8ɴᴇxᴛ sʜᴏᴘs
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: 2_Select
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  Inventory_Size:
+    MenuItem:
+    - name:&f
+    - type:stick
+    - custommodeldata:1
+    InventoryLocation: 54
+#########################################################################################
+#    ITEMS AVAILABLE FOR SALE
+#########################################################################################
+  Backpack1:
+    MenuItem:
+    - name:&aʙᴀᴄᴋᴘᴀᴄᴋ ᴛɪᴇʀ ɪ
+    - 'lore1:&7ᴀ ꜱᴍᴀʟʟ ᴀɴᴅ ᴄᴜᴛᴇ ʙᴀᴄᴋᴘᴀᴄᴋ, ᴡɪᴛʜ 9#&7ᴘʟᴀᴄᴇꜱ ᴀᴠᴀɪʟᴀʙʟᴇ ꜰᴏʀ ʏᴏᴜʀ ɪᴛᴇᴍꜱ.'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%#&f#&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - amount:1
+    - type:leather_horse_armor
+    - custommodeldata:100
+    RewardType: command
+    Reward:
+    - 'backpack give %player% Backpack1'
+    PriceType: MONEY
+    Price: 2400
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 22
+  Bundle:
+    MenuItem:
+    - name:&7ʙᴜɴᴅʟᴇ
+    - 'lore1:&7ᴛʜɪꜱ ʙᴀɢ ᴀʟʟᴏᴡꜱ ᴛʜᴇ ꜱᴛᴏʀᴀɢᴇ ᴏꜰ#&7ᴀ ᴛᴏᴛᴀʟ ᴏꜰ &b64 ɪᴛᴇᴍꜱ&7 ɪɴ ᴛᴏᴛᴀʟ'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%#&f#&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - amount:1
+    - type:Bundle
+    RewardType: command
+    Reward:
+    - 'give %player% bundle 1'
+    PriceType: MONEY
+    Price: 600
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+  Backpack2:
+    MenuItem:
+    - name:&aʙᴀᴄᴋᴘᴀᴄᴋ ᴛɪᴇʀ ɪɪ
+    - 'lore1:&7ᴀɴ ɪᴅᴇᴀʟ ʙᴀᴄᴋᴘᴀᴄᴋ ꜰᴏʀ ᴀɴ ᴀᴍᴀᴛᴇᴜʀ#&7ᴀᴅᴠᴇɴᴛᴜʀᴇʀ, ᴡɪᴛʜ 18 ᴘʟᴀᴄᴇꜱ#&7ᴀᴠᴀɪʟᴀʙʟᴇ ꜰᴏʀ ʏᴏᴜʀ ɪᴛᴇᴍꜱ.'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%#&f#&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - amount:1
+    - type:leather_horse_armor
+    - custommodeldata:101
+    RewardType: command
+    Reward:
+    - 'backpack give %player% Backpack2'
+    PriceType: MONEY
+    Price: 3500
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 24
+  Backpack3:
+    MenuItem:
+    - name:&aʙᴀᴄᴋᴘᴀᴄᴋ ᴛɪᴇʀ ɪɪɪ
+    - 'lore1:&7ᴀ ʙᴀᴄᴋᴘᴀᴄᴋ ꜱᴜɪᴛᴀʙʟᴇ ꜰᴏʀ ᴀɴʏ#&7ꜱɪᴛᴜᴀᴛɪᴏɴ, ᴡɪᴛʜ ᴀ ᴄᴏᴍᴘᴀᴄᴛ ᴅᴇꜱɪɢɴ ᴀɴᴅ#&727 ᴘʟᴀᴄᴇꜱ ᴀᴠᴀɪʟᴀʙʟᴇ ꜰᴏʀ ʏᴏᴜʀ ɪᴛᴇᴍꜱ'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%#&f#&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - amount:1
+    - type:leather_horse_armor
+    - custommodeldata:102
+    RewardType: command
+    Reward:
+    - 'backpack give %player% Backpack3'
+    PriceType: MONEY
+    Price: 5000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 30
+  Backpack4:
+    MenuItem:
+    - name:&aʙᴀᴄᴋᴘᴀᴄᴋ ᴛɪᴇʀ ɪᴠ
+    - 'lore1:&7ᴀ ʀᴀᴛʜᴇʀ ʟᴀʀɢᴇ ᴀɴᴅ ꜱqᴜᴀʀᴇ ʙᴀᴄᴋᴘᴀᴄᴋ,#&7ᴊᴜꜱᴛ ᴠᴇʀʏ ᴇꜰꜰɪᴄɪᴇɴᴛ ꜰᴏʀ ᴄᴀʀʀʏɪɴɢ#&7ᴛʜɪɴɢꜱ. ɪᴛ ʜᴏꜱᴛꜱ ᴜᴘ ᴛᴏ 36 ɪᴛᴇᴍꜱ.'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%#&f#&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - amount:1
+    - type:leather_horse_armor
+    - custommodeldata:105
+    RewardType: command
+    Reward:
+    - 'backpack give %player% Backpack4'
+    PriceType: MONEY
+    Price: 7500
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 31
+  Backpack5:
+    MenuItem:
+    - name:&aʙᴀᴄᴋᴘᴀᴄᴋ ᴛɪᴇʀ ᴠ
+    - 'lore1:&7ᴀ ᴍᴏᴅᴇʀɴ ʙᴀᴄᴋᴘᴀᴄᴋ, ᴇꜱᴘᴇᴄɪᴀʟʟʏ ᴛʜᴏᴜɢʜᴛ#&7ꜰᴏʀ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴇxᴘʟᴏʀᴇʀ, ᴡʜɪᴄʜ ᴀʟʟᴏᴡꜱ#&7ᴜᴘ ᴛᴏ 45 ɪᴛᴇᴍꜱ ᴛᴏ ʙᴇ ꜱᴛᴏʀᴇᴅ.'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%#&f#&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - amount:1
+    - type:leather_horse_armor
+    - custommodeldata:104
+    RewardType: command
+    Reward:
+    - 'backpack give %player% Backpack5'
+    PriceType: MONEY
+    Price: 10000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 33
+  Backpack6:
+    MenuItem:
+    - name:&aʙᴀᴄᴋᴘᴀᴄᴋ ᴛɪᴇʀ ᴠɪ
+    - 'lore1:&7ᴀ ᴠᴇʀʏ ᴅᴇᴛᴀɪʟᴇᴅ ᴀɴᴅ ʙᴇᴀᴜᴛɪꜰᴜʟ#&7ʙᴀᴄᴋᴘᴀᴄᴋ, ʙᴜᴛ ᴀʟꜱᴏ ꜱqᴜᴀʀᴇ,#&7ᴡɪᴛʜ ᴜᴘ ᴛᴏ 54 ᴘʟᴀᴄᴇꜱ ꜰᴏʀ ɪᴛᴇᴍꜱ.'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%#&f#&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - amount:1
+    - type:leather_horse_armor
+    - custommodeldata:103
+    RewardType: command
+    Reward:
+    - 'backpack give %player% Backpack6'
+    PriceType: MONEY
+    Price: 12500
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 34
+  Hat_Command_Purchased:
+    MenuItem:
+    - name:&aʜᴀᴛ ᴄᴏᴍᴍᴀɴᴅ
+    - amount:1
+    - type:book
+    - 'lore1:&7ᴛᴏ ᴡᴇᴀʀ ᴛʜᴇꜱᴇ ʜᴀᴛꜱ ʏᴏᴜ ɴᴇᴇᴅ #&f/ʜᴀᴛ &7ᴄᴏᴍᴍᴀɴᴅ.'
+    - 'lore3:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 50
+    Condition:
+    - type:permission
+    - match:dreamcore.hat.use
+  Purchaes_Hat_Permission:
+    MenuItem:
+    - name:&aʜᴀᴛ ᴄᴏᴍᴍᴀɴᴅ
+    - amount:1
+    - type:book
+    - 'lore1:&7ᴛᴏ ᴡᴇᴀʀ ᴛʜᴇꜱᴇ ʜᴀᴛꜱ ʏᴏᴜ ɴᴇᴇᴅ #&f/ʜᴀᴛ &7ᴄᴏᴍᴍᴀɴᴅ.'
+    - 'lore3:&f  ▪ ᴘʀɪᴄᴇ: #dad45e%price%#&f#&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set dreamcore.hat.use
+    PriceType: MONEY
+    Price: 3500
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 50

@@ -1,0 +1,610 @@
+ShopName: Settings2
+DisplayName: '&f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔'
+RemovePlayerInventory: true
+signs:
+  text: '[Settings]'
+  NeedPermissionToCreateSign: false
+shop:
+##############################################################################
+  ivitemstand_disable:
+    MenuItem:
+    - name:&8ᴄʟɪᴄᴋ ᴛᴏ ᴅɪꜱᴀʙʟᴇ
+    - amount:1
+    - type:stick
+    - custommodeldata:21
+    RewardType: PLAYERCOMMAND
+    Reward:
+    - iv toggle itemstand all false
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+    Condition:
+    - type:placeholdermatch
+    - '%interactionvisualizer_itemstand_all%:match:enabled'
+  ivitemstand_enable:
+    MenuItem:
+    - name:&8ᴄʟɪᴄᴋ ᴛᴏ ᴇɴᴀʙʟᴇ
+    - amount:1
+    - type:stick
+    - custommodeldata:20
+    RewardType: PLAYERCOMMAND
+    Reward:
+    - iv toggle itemstand all true
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+    Condition:
+    - type:placeholdermatch
+    - '%interactionvisualizer_itemstand_all%:match:disabled'
+  ivitemstand_desc:
+    MenuItem:
+    - name:&fɪᴠ ɪᴛᴇᴍ ꜱᴛᴀɴᴅ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ɪɴᴛᴇʀᴀᴄᴛɪᴏɴ ᴠɪꜱᴜᴀʟɪᴢᴇʀ ɪᴛᴇᴍ ꜱᴛᴀɴᴅ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  ivitemstand_desc2:
+    MenuItem:
+    - name:&fɪᴠ ɪᴛᴇᴍ ꜱᴛᴀɴᴅ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ɪɴᴛᴇʀᴀᴄᴛɪᴏɴ ᴠɪꜱᴜᴀʟɪᴢᴇʀ ɪᴛᴇᴍ ꜱᴛᴀɴᴅ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  ivitemstand_desc3:
+    MenuItem:
+    - name:&fɪᴠ ɪᴛᴇᴍ ꜱᴛᴀɴᴅ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ɪɴᴛᴇʀᴀᴄᴛɪᴏɴ ᴠɪꜱᴜᴀʟɪᴢᴇʀ ɪᴛᴇᴍ ꜱᴛᴀɴᴅ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  ivitemstand_desc4:
+    MenuItem:
+    - name:&fɪᴠ ɪᴛᴇᴍ ꜱᴛᴀɴᴅ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ɪɴᴛᴇʀᴀᴄᴛɪᴏɴ ᴠɪꜱᴜᴀʟɪᴢᴇʀ ɪᴛᴇᴍ ꜱᴛᴀɴᴅ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+  ivitemstand_desc5:
+    MenuItem:
+    - name:&fɪᴠ ɪᴛᴇᴍ ꜱᴛᴀɴᴅ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ɪɴᴛᴇʀᴀᴄᴛɪᴏɴ ᴠɪꜱᴜᴀʟɪᴢᴇʀ ɪᴛᴇᴍ ꜱᴛᴀɴᴅ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+  ivitemstand_desc6:
+    MenuItem:
+    - name:&fɪᴠ ɪᴛᴇᴍ ꜱᴛᴀɴᴅ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ɪɴᴛᴇʀᴀᴄᴛɪᴏɴ ᴠɪꜱᴜᴀʟɪᴢᴇʀ ɪᴛᴇᴍ ꜱᴛᴀɴᴅ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+  ivitemstand_desc7:
+    MenuItem:
+    - name:&fɪᴠ ɪᴛᴇᴍ ꜱᴛᴀɴᴅ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ɪɴᴛᴇʀᴀᴄᴛɪᴏɴ ᴠɪꜱᴜᴀʟɪᴢᴇʀ ɪᴛᴇᴍ ꜱᴛᴀɴᴅ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 8
+#############################################################################################################
+  itemdrop_enable:
+    MenuItem:
+    - name:&8ᴄʟɪᴄᴋ ᴛᴏ ᴅɪꜱᴀʙʟᴇ
+    - amount:1
+    - type:stick
+    - custommodeldata:21
+    RewardType: PLAYERCOMMAND
+    Reward:
+    - iv toggle itemdrop all false
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+    Condition:
+    - type:placeholdermatch
+    - '%interactionvisualizer_itemdrop_all%:match:enabled'
+  itemdrop_disable:
+    MenuItem:
+    - name:&8ᴄʟɪᴄᴋ ᴛᴏ ᴇɴᴀʙʟᴇ
+    - amount:1
+    - type:stick
+    - custommodeldata:20
+    RewardType: PLAYERCOMMAND
+    Reward:
+    - iv toggle itemdrop all true
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+    Condition:
+    - type:placeholdermatch
+    - '%interactionvisualizer_itemdrop_all%:match:disabled'
+  itemdrop_desc:
+    MenuItem:
+    - name:&fɪᴠ ɪᴛᴇᴍ ᴅʀᴏᴘ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ɪɴᴛᴇʀᴀᴄᴛɪᴏɴ ᴠɪꜱᴜᴀʟɪᴢᴇʀ ɪᴛᴇᴍ ᴅʀᴏᴘꜱ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 11
+  itemdrop_desc2:
+    MenuItem:
+    - name:&fɪᴠ ɪᴛᴇᴍ ᴅʀᴏᴘ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ɪɴᴛᴇʀᴀᴄᴛɪᴏɴ ᴠɪꜱᴜᴀʟɪᴢᴇʀ ɪᴛᴇᴍ ᴅʀᴏᴘꜱ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+  itemdrop_desc3:
+    MenuItem:
+    - name:&fɪᴠ ɪᴛᴇᴍ ᴅʀᴏᴘ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ɪɴᴛᴇʀᴀᴄᴛɪᴏɴ ᴠɪꜱᴜᴀʟɪᴢᴇʀ ɪᴛᴇᴍ ᴅʀᴏᴘꜱ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 13
+  itemdrop_desc4:
+    MenuItem:
+    - name:&fɪᴠ ɪᴛᴇᴍ ᴅʀᴏᴘ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ɪɴᴛᴇʀᴀᴄᴛɪᴏɴ ᴠɪꜱᴜᴀʟɪᴢᴇʀ ɪᴛᴇᴍ ᴅʀᴏᴘꜱ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+  itemdrop_desc5:
+    MenuItem:
+    - name:&fɪᴠ ɪᴛᴇᴍ ᴅʀᴏᴘ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ɪɴᴛᴇʀᴀᴄᴛɪᴏɴ ᴠɪꜱᴜᴀʟɪᴢᴇʀ ɪᴛᴇᴍ ᴅʀᴏᴘꜱ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15
+  itemdrop_desc6:
+    MenuItem:
+    - name:&fɪᴠ ɪᴛᴇᴍ ᴅʀᴏᴘ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ɪɴᴛᴇʀᴀᴄᴛɪᴏɴ ᴠɪꜱᴜᴀʟɪᴢᴇʀ ɪᴛᴇᴍ ᴅʀᴏᴘꜱ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+  itemdrop_desc7:
+    MenuItem:
+    - name:&fɪᴠ ɪᴛᴇᴍ ᴅʀᴏᴘ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ɪɴᴛᴇʀᴀᴄᴛɪᴏɴ ᴠɪꜱᴜᴀʟɪᴢᴇʀ ɪᴛᴇᴍ ᴅʀᴏᴘꜱ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 17
+############################################################################################################################################################
+  payments_disable:
+    MenuItem:
+    - name:&8ᴄʟɪᴄᴋ ᴛᴏ ᴅɪꜱᴀʙʟᴇ
+    - amount:1
+    - type:stick
+    - custommodeldata:21
+    RewardType: PLAYERCOMMAND
+    Reward:
+    - paytoggle
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 19
+    Condition:
+    - type:placeholdermatch
+    - '%essentials_is_pay_enabled%:match:yes'
+  payments_enable:
+    MenuItem:
+    - name:&8ᴄʟɪᴄᴋ ᴛᴏ ᴇɴᴀʙʟᴇ
+    - amount:1
+    - type:stick
+    - custommodeldata:20
+    RewardType: PLAYERCOMMAND
+    Reward:
+    - paytoggle
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 19
+    Condition:
+    - type:placeholdermatch
+    - '%essentials_is_pay_enabled%:match:no'
+  payments_desc:
+    MenuItem:
+    - name:&fᴘᴀʏᴍᴇɴᴛꜱ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʙʟᴏᴄᴋ ᴛʀᴀɴꜱᴀᴄᴛɪᴏɴꜱ ᴛᴏ ʏᴏᴜ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 20
+  payments_desc2:
+    MenuItem:
+    - name:&fᴘᴀʏᴍᴇɴᴛꜱ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʙʟᴏᴄᴋ ᴛʀᴀɴꜱᴀᴄᴛɪᴏɴꜱ ᴛᴏ ʏᴏᴜ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 21
+  payments_desc3:
+    MenuItem:
+    - name:&fᴘᴀʏᴍᴇɴᴛꜱ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʙʟᴏᴄᴋ ᴛʀᴀɴꜱᴀᴄᴛɪᴏɴꜱ ᴛᴏ ʏᴏᴜ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 22
+  payments_desc4:
+    MenuItem:
+    - name:&fᴘᴀʏᴍᴇɴᴛꜱ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʙʟᴏᴄᴋ ᴛʀᴀɴꜱᴀᴄᴛɪᴏɴꜱ ᴛᴏ ʏᴏᴜ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+  payments_desc5:
+    MenuItem:
+    - name:&fᴘᴀʏᴍᴇɴᴛꜱ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʙʟᴏᴄᴋ ᴛʀᴀɴꜱᴀᴄᴛɪᴏɴꜱ ᴛᴏ ʏᴏᴜ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 24
+  payments_desc6:
+    MenuItem:
+    - name:&fᴘᴀʏᴍᴇɴᴛꜱ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʙʟᴏᴄᴋ ᴛʀᴀɴꜱᴀᴄᴛɪᴏɴꜱ ᴛᴏ ʏᴏᴜ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 25
+  payments_desc7:
+    MenuItem:
+    - name:&fᴘᴀʏᴍᴇɴᴛꜱ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʙʟᴏᴄᴋ ᴛʀᴀɴꜱᴀᴄᴛɪᴏɴꜱ ᴛᴏ ʏᴏᴜ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 26
+############################################################################################################################################################
+  payconfirmation_disable:
+    MenuItem:
+    - name:&8ᴄʟɪᴄᴋ ᴛᴏ ᴅɪꜱᴀʙʟᴇ
+    - amount:1
+    - type:stick
+    - custommodeldata:21
+    RewardType: PLAYERCOMMAND
+    Reward:
+    - payconfirmtoggle
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 28
+    Condition:
+    - type:placeholdermatch
+    - '%essentials_is_pay_confirm%:match:yes'
+  payconfirmation_enable:
+    MenuItem:
+    - name:&8ᴄʟɪᴄᴋ ᴛᴏ ᴇɴᴀʙʟᴇ
+    - amount:1
+    - type:stick
+    - custommodeldata:20
+    RewardType: PLAYERCOMMAND
+    Reward:
+    - payconfirmtoggle
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 28
+    Condition:
+    - type:placeholdermatch
+    - '%essentials_is_pay_confirm%:match:no'
+  payconfirmation_desc:
+    MenuItem:
+    - name:&fᴘᴀʏ ᴄᴏɴꜰɪʀᴍᴀᴛɪᴏɴ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ᴄᴏɴꜰɪʀᴍ ᴏɴᴄᴇ ʏᴏᴜ ꜱᴇɴᴅ ᴀ ᴘᴀʏᴍᴇɴᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 29
+  payconfirmation_desc2:
+    MenuItem:
+    - name:&fᴘᴀʏ ᴄᴏɴꜰɪʀᴍᴀᴛɪᴏɴ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ᴄᴏɴꜰɪʀᴍ ᴏɴᴄᴇ ʏᴏᴜ ꜱᴇɴᴅ ᴀ ᴘᴀʏᴍᴇɴᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 30
+  payconfirmation_desc3:
+    MenuItem:
+    - name:&fᴘᴀʏ ᴄᴏɴꜰɪʀᴍᴀᴛɪᴏɴ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ᴄᴏɴꜰɪʀᴍ ᴏɴᴄᴇ ʏᴏᴜ ꜱᴇɴᴅ ᴀ ᴘᴀʏᴍᴇɴᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 31
+  payconfirmation_desc4:
+    MenuItem:
+    - name:&fᴘᴀʏ ᴄᴏɴꜰɪʀᴍᴀᴛɪᴏɴ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ᴄᴏɴꜰɪʀᴍ ᴏɴᴄᴇ ʏᴏᴜ ꜱᴇɴᴅ ᴀ ᴘᴀʏᴍᴇɴᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+  payconfirmation_desc5:
+    MenuItem:
+    - name:&fᴘᴀʏ ᴄᴏɴꜰɪʀᴍᴀᴛɪᴏɴ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ᴄᴏɴꜰɪʀᴍ ᴏɴᴄᴇ ʏᴏᴜ ꜱᴇɴᴅ ᴀ ᴘᴀʏᴍᴇɴᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 33
+  payconfirmation_desc6:
+    MenuItem:
+    - name:&fᴘᴀʏ ᴄᴏɴꜰɪʀᴍᴀᴛɪᴏɴ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ᴄᴏɴꜰɪʀᴍ ᴏɴᴄᴇ ʏᴏᴜ ꜱᴇɴᴅ ᴀ ᴘᴀʏᴍᴇɴᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 34
+  payconfirmation_desc7:
+    MenuItem:
+    - name:&fᴘᴀʏ ᴄᴏɴꜰɪʀᴍᴀᴛɪᴏɴ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ᴄᴏɴꜰɪʀᴍ ᴏɴᴄᴇ ʏᴏᴜ ꜱᴇɴᴅ ᴀ ᴘᴀʏᴍᴇɴᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 35
+############################################################################################################################################################
+  doubledoors_enable:
+    MenuItem:
+    - name:&8ᴄʟɪᴄᴋ ᴛᴏ ᴇɴᴀʙʟᴇ
+    - amount:1
+    - type:stick
+    - custommodeldata:20
+    RewardType: PLAYERCOMMAND
+    Reward:
+    - doubledoors
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 37
+    Condition:
+    - type:permission
+    - match:dreamcore.doubledoors.open
+    - type:placeholdermatch
+    - '%dreamcore_double_doors%:match:Disabled'
+  doubledoors_disable:
+    MenuItem:
+    - name:&8ᴄʟɪᴄᴋ ᴛᴏ ᴅɪꜱᴀʙʟᴇ
+    - amount:1
+    - type:stick
+    - custommodeldata:21
+    RewardType: PLAYERCOMMAND
+    Reward:
+    - doubledoors
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 37
+    Condition:
+    - type:permission
+    - match:dreamcore.doubledoors.open
+  doubledoors_block:
+    MenuItem:
+    - name:&fᴅᴏᴜʙʟᴇ ᴅᴏᴏʀꜱ
+    - amount:1
+    - type:stick
+    - custommodeldata:22
+    - 'lore1:&cʏᴏᴜ ᴅᴏɴ''ᴛ ʜᴀᴠᴇ#&cʀᴇqᴜɪʀᴇᴅ ᴘᴇʀᴍɪꜱꜱɪᴏɴ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 37
+  doubledoors_desc:
+    MenuItem:
+    - name:&fᴅᴏᴜʙʟᴇ ᴅᴏᴏʀꜱ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ᴛʜᴇ ᴅᴏᴜʙʟᴇ ᴅᴏᴏʀꜱ ᴏᴘᴇɴ ꜱɪᴍᴜʟᴛᴀɴᴇᴏᴜꜱʟʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 38
+  doubledoors_desc2:
+    MenuItem:
+    - name:&fᴅᴏᴜʙʟᴇ ᴅᴏᴏʀꜱ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ᴛʜᴇ ᴅᴏᴜʙʟᴇ ᴅᴏᴏʀꜱ ᴏᴘᴇɴ ꜱɪᴍᴜʟᴛᴀɴᴇᴏᴜꜱʟʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 39
+  doubledoors_desc3:
+    MenuItem:
+    - name:&fᴅᴏᴜʙʟᴇ ᴅᴏᴏʀꜱ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ᴛʜᴇ ᴅᴏᴜʙʟᴇ ᴅᴏᴏʀꜱ ᴏᴘᴇɴ ꜱɪᴍᴜʟᴛᴀɴᴇᴏᴜꜱʟʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 40
+  doubledoors_desc4:
+    MenuItem:
+    - name:&fᴅᴏᴜʙʟᴇ ᴅᴏᴏʀꜱ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ᴛʜᴇ ᴅᴏᴜʙʟᴇ ᴅᴏᴏʀꜱ ᴏᴘᴇɴ ꜱɪᴍᴜʟᴛᴀɴᴇᴏᴜꜱʟʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 41
+  doubledoors_desc5:
+    MenuItem:
+    - name:&fᴅᴏᴜʙʟᴇ ᴅᴏᴏʀꜱ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ᴛʜᴇ ᴅᴏᴜʙʟᴇ ᴅᴏᴏʀꜱ ᴏᴘᴇɴ ꜱɪᴍᴜʟᴛᴀɴᴇᴏᴜꜱʟʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 42
+  doubledoors_desc6:
+    MenuItem:
+    - name:&fᴅᴏᴜʙʟᴇ ᴅᴏᴏʀꜱ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ᴛʜᴇ ᴅᴏᴜʙʟᴇ ᴅᴏᴏʀꜱ ᴏᴘᴇɴ ꜱɪᴍᴜʟᴛᴀɴᴇᴏᴜꜱʟʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 43
+  doubledoors_desc7:
+    MenuItem:
+    - name:&fᴅᴏᴜʙʟᴇ ᴅᴏᴏʀꜱ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ᴛʜᴇ ᴅᴏᴜʙʟᴇ ᴅᴏᴏʀꜱ ᴏᴘᴇɴ ꜱɪᴍᴜʟᴛᴀɴᴇᴏᴜꜱʟʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 44
+############################################################################################################################################################
+  previous_page:
+    MenuItem:
+    - name:&8ꜱᴄʀᴏʟʟ ᴜᴘ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Settings
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 9
+
+  premium_menu:
+    MenuItem:
+    - name:&f
+    - 'lore1:&7ᴛʜᴇ ꜱᴇᴛᴛɪɴɢꜱ ᴍᴇɴᴜ#&7ᴅᴇᴅɪᴄᴀᴛᴇᴅ ᴛᴏ ᴅᴏɴᴏʀꜱ.' 
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Settings3
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 50
+  premium_menu2:
+    MenuItem:
+    - name:&f
+    - 'lore1:&7ᴛʜᴇ ꜱᴇᴛᴛɪɴɢꜱ ᴍᴇɴᴜ#&7ᴅᴇᴅɪᴄᴀᴛᴇᴅ ᴛᴏ ᴅᴏɴᴏʀꜱ.' 
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Settings3
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 51
+  premium_menu3:
+    MenuItem:
+    - name:&f
+    - 'lore1:&7ᴛʜᴇ ꜱᴇᴛᴛɪɴɢꜱ ᴍᴇɴᴜ#&7ᴅᴇᴅɪᴄᴀᴛᴇᴅ ᴛᴏ ᴅᴏɴᴏʀꜱ.' 
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Settings3
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 52
+  current_menu:
+    MenuItem:
+    - name:&f
+    - 'lore1:&7ɢᴇɴᴇʀᴀʟ ꜱᴇᴛᴛɪɴɢꜱ#&7ꜰᴏʀ ᴀɴʏ ᴘʟᴀʏᴇʀ.' 
+    - 'lore3:&f &eᴄᴜʀʀᴇɴᴛ ᴍᴇɴᴜ'
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    ExtraPermission: ''
+    InventoryLocation: 47
+  current_menu2:
+    MenuItem:
+    - name:&f
+    - 'lore1:&7ɢᴇɴᴇʀᴀʟ ꜱᴇᴛᴛɪɴɢꜱ#&7ꜰᴏʀ ᴀɴʏ ᴘʟᴀʏᴇʀ.' 
+    - 'lore3:&f &eᴄᴜʀʀᴇɴᴛ ᴍᴇɴᴜ'
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    ExtraPermission: ''
+    InventoryLocation: 48
+  current_menu3:
+    MenuItem:
+    - name:&f
+    - 'lore1:&7ɢᴇɴᴇʀᴀʟ ꜱᴇᴛᴛɪɴɢꜱ#&7ꜰᴏʀ ᴀɴʏ ᴘʟᴀʏᴇʀ.' 
+    - 'lore3:&f &eᴄᴜʀʀᴇɴᴛ ᴍᴇɴᴜ'
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    ExtraPermission: ''
+    InventoryLocation: 49

@@ -1,0 +1,412 @@
+ShopName: BattlePass5
+DisplayName: '&f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔'
+RemovePlayerInventory: true
+shop: 
+  FreePass_Redeemed_24:
+    MenuItem:
+    - name:#a28277&mꜰʀᴇᴇ ᴘᴀss ᴛɪᴇʀ xxɪᴠ
+    - 'lore1:&f ▪ Cave Spider Spawner &7x1'
+    - 'lore3:&f &eᴀʟʀᴇᴀᴅʏ ʀᴇᴅᴇᴇᴍᴇᴅ'
+    - amount:1
+    - type:stick
+    - custommodeldata:51
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 30
+    Condition:
+    - type:permission
+    - match:rift.take.24
+  FreePass_Reward_24:
+    MenuItem:
+    - name:#a28277ꜰʀᴇᴇ ᴘᴀss ᴛɪᴇʀ xxɪᴠ
+    - 'lore1:&f ▪ Cave Spider Spawner &7x1'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - amount:1
+    - type:spawner
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set rift.take.24
+    - silkspawners give %player% cave_spider
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 30
+    Condition:
+    - type:permission
+    - match:rift.ready.24
+  FreePass_Locked_24:
+    MenuItem:
+    - name:#a28277ꜰʀᴇᴇ ᴘᴀss ᴛɪᴇʀ xxɪᴠ
+    - 'lore1:&f ▪ Cave Spider Spawner &7x1'
+    - 'lore3:&f #f46161ɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:50
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 30
+#########################################################################################################################
+  FreePass_Redeemed_25:
+    MenuItem:
+    - name:#a28277&mꜰʀᴇᴇ ᴘᴀss ᴛɪᴇʀ xxᴠ
+    - 'lore1:&f ▪ Elytra &7x1'
+    - 'lore3:&f &eᴀʟʀᴇᴀᴅʏ ʀᴇᴅᴇᴇᴍᴇᴅ'
+    - amount:1
+    - type:stick
+    - custommodeldata:51
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+    Condition:
+    - type:permission
+    - match:rift.take.25
+  FreePass_Reward_25:
+    MenuItem:
+    - name:#a28277ꜰʀᴇᴇ ᴘᴀss ᴛɪᴇʀ xxᴠ
+    - 'lore1:&f ▪ Elytra &7x1'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - amount:1
+    - type:elytra
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set rift.take.25
+    - give %player% elytra 1
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+    Condition:
+    - type:permission
+    - match:rift.ready.25
+  FreePass_Locked_25:
+    MenuItem:
+    - name:#a28277ꜰʀᴇᴇ ᴘᴀss ᴛɪᴇʀ xxᴠ
+    - 'lore1:&f ▪ Elytra &7x1'
+    - 'lore3:&f #f46161ɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:50
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+#########################################################################################################################
+  FreePass_Redeemed_26:
+    MenuItem:
+    - name:#a28277&mꜰʀᴇᴇ ᴘᴀss ᴛɪᴇʀ xxᴠɪ
+    - 'lore1:&f ▪ Dragon Egg &7x1'
+    - 'lore3:&f &eᴀʟʀᴇᴀᴅʏ ʀᴇᴅᴇᴇᴍᴇᴅ'
+    - amount:1
+    - type:stick
+    - custommodeldata:51
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 34
+    Condition:
+    - type:permission
+    - match:rift.take.26
+  FreePass_Reward_26:
+    MenuItem:
+    - name:#a28277ꜰʀᴇᴇ ᴘᴀss ᴛɪᴇʀ xxᴠɪ
+    - 'lore1:&f ▪ Dragon Egg &7x1'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - amount:1
+    - type:dragon_egg
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set rift.take.26
+    - give %player% dragon_egg 1
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 34
+    Condition:
+    - type:permission
+    - match:rift.ready.26
+  FreePass_Locked_26:
+    MenuItem:
+    - name:#a28277ꜰʀᴇᴇ ᴘᴀss ᴛɪᴇʀ xxᴠɪ
+    - 'lore1:&f ▪ Dragon Egg &7x1'
+    - 'lore3:&f #f46161ɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:50
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 34
+#########################################################################################################################
+  PremiumPass_Redeemed_24:
+    MenuItem:
+    - name:#ffab4c&mᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ xxɪᴠ
+    - 'lore1:&f ▪  &7x1'
+    - 'lore3:&f &eᴀʟʀᴇᴀᴅʏ ʀᴇᴅᴇᴇᴍᴇᴅ'
+    - amount:1
+    - type:stick
+    - custommodeldata:53
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+    Condition:
+    - type:permission
+    - match:rift.take.p24
+  PremiumPass_Reward_24:
+    MenuItem:
+    - name:#ffab4cᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ xxɪᴠ
+    - 'lore1:&f ▪  &7x1'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - amount:1
+    - type:stick
+    - custommodeldata:147
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set rift.take.p24
+    - dkey %player% hard
+    - dkey %player% hard
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+    Condition:
+    - type:permission
+    - match:rift.ready.24
+    - type:permission
+    - match:battlepass.premium
+  PremiumPass_Locked_24:
+    MenuItem:
+    - name:#ffab4cᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ xxɪᴠ
+    - 'lore1:&f ▪  &7x1'
+    - 'lore3:&f #f46161ɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:52
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+    Condition:
+    - type:permission
+    - match:battlepass.premium
+  No_PremiumPass_24:
+    MenuItem:
+    - name:#ffab4cᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ xxɪᴠ
+    - 'lore1:&f ▪  &7x1'
+
+    - amount:1
+    - type:stick
+    - custommodeldata:52
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+#########################################################################################################################
+  PremiumPass_Redeemed_25:
+    MenuItem:
+    - name:#ffab4c&mᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ xxᴠ
+    - 'lore1:&f ▪ Skeleton Spawner &7x1'
+    - 'lore3:&f &eᴀʟʀᴇᴀᴅʏ ʀᴇᴅᴇᴇᴍᴇᴅ'
+    - amount:1
+    - type:stick
+    - custommodeldata:53
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    Condition:
+    - type:permission
+    - match:rift.take.p25
+  PremiumPass_Reward_25:
+    MenuItem:
+    - name:#ffab4cᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ xxᴠ
+    - 'lore1:&f ▪ Skeleton Spawner &7x1'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - amount:1
+    - type:spawner
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set rift.take.p25
+    - silkspawners give %player% skeleton
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    Condition:
+    - type:permission
+    - match:rift.ready.25
+    - type:permission
+    - match:battlepass.premium
+  PremiumPass_Locked_25:
+    MenuItem:
+    - name:#ffab4cᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ xxᴠ
+    - 'lore1:&f ▪ Skeleton Spawner &7x1'
+    - 'lore3:&f #f46161ɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:52
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    Condition:
+    - type:permission
+    - match:battlepass.premium
+  No_PremiumPass_25:
+    MenuItem:
+    - name:#ffab4cᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ xxᴠ
+    - 'lore1:&f ▪ Skeleton Spawner &7x1'
+    - amount:1
+    - type:stick
+    - custommodeldata:52
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+#########################################################################################################################
+  PremiumPass_Redeemed_26:
+    MenuItem:
+    - name:#ffab4c&mᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ xxᴠɪ
+    - 'lore1:&f ▪ End Portal Frame &7x1'
+    - 'lore3:&f &eᴀʟʀᴇᴀᴅʏ ʀᴇᴅᴇᴇᴍᴇᴅ'
+    - amount:1
+    - type:stick
+    - custommodeldata:53
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+    Condition:
+    - type:permission
+    - match:rift.take.p26
+  PremiumPass_Reward_26:
+    MenuItem:
+    - name:#ffab4cᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ xxᴠɪ
+    - 'lore1:&f ▪ End Portal Frame &7x1'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - amount:1
+    - type:end_portal_frame
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set rift.take.p26
+    - give %player% end_portal_frame 1
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+    Condition:
+    - type:permission
+    - match:rift.ready.26
+    - type:permission
+    - match:battlepass.premium
+  PremiumPass_Locked_26:
+    MenuItem:
+    - name:#ffab4cᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ xxᴠɪ
+    - 'lore1:&f ▪ End Portal Frame &7x1'
+    - 'lore3:&f #f46161ɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:52
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+    Condition:
+    - type:permission
+    - match:battlepass.premium
+  No_PremiumPass_26:
+    MenuItem:
+    - name:#ffab4cᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ xxᴠɪ
+    - 'lore1:&f ▪ End Portal Frame &7x1'
+
+    - amount:1
+    - type:stick
+    - custommodeldata:52
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+#############################################################################################################################################################################################################################################
+  FreePass:
+    MenuItem:
+    - name:&f    
+    - 'lore1:&7ᴇᴀᴄʜ 10 ᴘᴏɪɴᴛꜱ ᴜɴʟᴏᴄᴋꜱ'
+    - 'lore2:&7ᴀ ʟᴇᴠᴇʟ, ᴛᴏ ᴇᴀʀɴ ᴘᴏɪɴᴛꜱ'
+    - 'lore3:&7ᴄᴏᴍᴘʟᴇᴛᴇ ʀɪꜰᴛ ᴍɪꜱꜱɪᴏɴꜱ'
+    - 'lore5:&f ▪ ᴘᴏɪɴᴛꜱ: &b%dreamcore_points%'
+    - 'lore6:&f'
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 36
+  PremiumPass_Unlocked:
+    MenuItem:
+    - name:&f    
+    - 'lore1:&7ᴇᴀᴄʜ 10 ᴘᴏɪɴᴛꜱ ᴜɴʟᴏᴄᴋꜱ'
+    - 'lore2:&7ᴀ ʟᴇᴠᴇʟ, ᴛᴏ ᴇᴀʀɴ ᴘᴏɪɴᴛꜱ'
+    - 'lore3:&7ᴄᴏᴍᴘʟᴇᴛᴇ ʀɪꜰᴛ ᴍɪꜱꜱɪᴏɴꜱ'
+    - 'lore5:&f ▪ ᴘᴏɪɴᴛꜱ: &b%dreamcore_points%'
+    - 'lore6:&f'
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 18
+    Condition:
+    - type:permission
+    - match:battlepass.premium
+  PremiumPass_Locked:
+    MenuItem:
+    - name:&f    
+    - 'lore1:&7ᴛʜɪs ɪs ᴀ ʙᴜʏᴀʙʟᴇ, ᴄʜᴇᴄᴋ'
+    - 'lore2:#f46161/sᴛᴏʀᴇ&7 ꜰᴏʀ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ'
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 18
+  Back:
+    MenuItem:
+    - name:&8ᴘʀᴇᴠɪᴏᴜꜱ ᴘᴀɢᴇ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: BattlePass4
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 37
+  InvItem:
+    MenuItem:
+    - name:&f
+    - type:stick
+    - custommodeldata:1
+    InventoryLocation: 50

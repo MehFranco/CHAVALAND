@@ -1,0 +1,35 @@
+name: vip
+permissions:
+- auctionmaster.limit.auctions.14
+- auctionmaster.limit.duration.16
+- besttools.refill
+- besttools.use
+- betterrtp.config.vip
+- chatmanager.bypass.chatdelay
+- chatmanager.toggle.pm
+- displayname.&#f8a637ᴠɪᴘ
+- dreamcore.doubledoors.iron_doors
+- dreamcore.droptoinventory.use
+- essentials.depth
+- essentials.disposal
+- essentials.getpos
+- essentials.kits.vip
+- essentials.loom
+- essentials.me
+- essentials.workbench
+- pci.cartography
+- pci.craft
+- pci.grindstone
+- pci.loom
+- pci.stonecutter
+- ultimateclaims.maxclaims.18
+- ultimateclaims.name
+- ultimateclaims.show
+- ultimateclaims.toggle.leafdecay
+- ultimateclaims.toggle.mobgriefing
+- weight.700
+parents:
+- default
+prefixes:
+- '&f#f8a637':
+    priority: 700

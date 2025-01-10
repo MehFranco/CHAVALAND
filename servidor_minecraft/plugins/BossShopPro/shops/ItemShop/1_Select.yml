@@ -1,0 +1,121 @@
+ShopName: 1_Select
+DisplayName: '&f'
+Command: shop
+RemovePlayerInventory: true
+shop:
+  newitems:
+    MenuItem:
+    - 'lore1:&7ʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ ꜰɪɴᴅ#&7ᴀʟʟ ᴛʜᴇ 1.20+ ɪᴛᴇᴍꜱ'
+
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: NewItems
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  pblocks:
+    MenuItem:
+    - 'lore1:&7ᴛʜᴇ ʙᴀꜱɪᴄ ʙʟᴏᴄᴋꜱ ꜰᴏᴜɴᴅ ᴏɴ#&7ᴛᴇʀʀᴀɪɴ ᴀɴᴅ ᴜɴᴅᴇʀɢʀᴏᴜɴᴅ'
+
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: PrimaryBlocks
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  wood:
+    MenuItem:
+    - 'lore1:&7ᴀʟʟ ᴛʏᴘᴇꜱ ᴏꜰ ᴡᴏᴏᴅ'
+
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Wood
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  ores:
+    MenuItem:
+    - 'lore1:&7ᴏʀᴇꜱ ᴛʜᴀᴛ ᴄᴀɴ ʙᴇ#&7ꜰᴏᴜɴᴅ ᴜɴᴅᴇʀɢʀᴏᴜɴᴅ'
+
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Ores
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+  peblocks:
+    MenuItem:
+    - 'lore1:&7ᴛʜᴇ ʙʟᴏᴄᴋꜱ ꜰᴏᴜɴᴅ ᴏɴʟʏ#&7ɪɴ ᴏᴛʜᴇʀ ᴅɪᴍᴇɴꜱɪᴏɴꜱ'
+
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: PeculiarBlocks
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+  fblocks:
+    MenuItem:
+    - 'lore1:&7ʙʟᴏᴄᴋꜱ ᴜꜱᴇᴅ ᴛᴏ ʙᴜɪʟᴅ#&7ᴇxᴛʀᴀᴠᴀɢᴀɴᴛ ʜᴏᴜꜱᴇꜱ'
+
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: FancyBlocks
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+  garden:
+    MenuItem:
+    - 'lore1:&7ɪᴛᴇᴍꜱ ᴛʜᴀᴛ ᴄᴀɴ ʙᴇ ᴜꜱᴇᴅ#&7ᴛᴏ ᴅᴇᴄᴏʀᴀᴛᴇ ɢᴀʀᴅᴇɴꜱ'
+
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Garden
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 8
+  next_shops:
+    MenuItem:
+    - name:&8ɴᴇxᴛ sʜᴏᴘs
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: 2_Select
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 9
+  InvItem:
+    MenuItem:
+    - name:&f
+    - type:stick
+    - custommodeldata:1
+    InventoryLocation: 54

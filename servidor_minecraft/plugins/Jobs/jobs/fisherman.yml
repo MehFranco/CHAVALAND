@@ -1,0 +1,200 @@
+Fisherman:
+  fullname: Fisherman
+  shortname: Fi
+  description: '&fEarn money from fishing.'
+  ChatColour: AQUA
+  chat-display: full
+  max-level: 75
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  maxDailyQuests: 1
+  Quests:
+    '1':
+      Name: Fisherman
+      Objectives:
+      - Fish;cod;12
+      RewardCommands:
+      - eco give [playerName] 250
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fCatch fish and get money'
+      - '&8 ▪ &fGet 250$ for this!'
+    '2':
+      Name: Fisherman II
+      Objectives:
+      - Fish;salmon;8
+      RewardCommands:
+      - eco give [playerName] 250
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fCatch fish and get money'
+      - '&8 ▪ &fGet 250$ for this!'
+    '3':
+      Name: Fisherman III
+      Objectives:
+      - Fish;salmon;6
+      - Fish;tropical_fish;2
+      RewardCommands:
+      - eco give [playerName] 350
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fCatch fish and get money'
+      - '&8 ▪ &fGet 350$ for this!'
+    '4':
+      Name: Fisherman IV
+      Objectives:
+      - Fish;cod;10
+      - Fish;salmon;4
+      RewardCommands:
+      - eco give [playerName] 250
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fCatch fish and get money'
+      - '&8 ▪ &fGet 250$ for this!'
+    '5':
+      Name: Exotic Fisherman
+      Objectives:
+      - Fish;tropical_fish;2
+      RewardCommands:
+      - eco give [playerName] 280
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fCatch fish and get money'
+      - '&8 ▪ &fGet 280$ for this!'
+    '6':
+      Name: Exotic Fisherman II
+      Objectives:
+      - Fish;pufferfish;2
+      RewardCommands:
+      - eco give [playerName] 280
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fCatch fish and get money'
+      - '&8 ▪ &fGet 280$ for this!'
+    '7':
+      Name: Expert Fisherman
+      Objectives:
+      - Fish;cod;6
+      - Fish;salmon;4
+      - Fish;tropical_fish;1
+      RewardCommands:
+      - eco give [playerName] 300
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fCatch fish and get money'
+      - '&8 ▪ &fGet 300$ for this!'
+    '8':
+      Name: Expert Fisherman II
+      Objectives:
+      - Fish;cod;6
+      - Fish;salmon;4
+      - Fish;tropical_fish;1
+      - Fish;pufferfish;1
+      RewardCommands:
+      - eco give [playerName] 400
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fCatch fish and get money'
+      - '&8 ▪ &fGet 400$ for this!'
+    '9':
+      Name: Weird Catch
+      Objectives:
+      - Fish;name_tag;1
+      RewardCommands:
+      - eco give [playerName] 500
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fCatch a name tag and get money'
+      - '&8 ▪ &fGet 500$ for this!'
+  Gui:
+    Item: fishing_rod
+  Fish:
+    cod:
+      income: 3.0
+      points: 3.0
+      experience: 3.0
+    salmon:
+      income: 4.5
+      points: 4.5
+      experience: 4.5
+    tropical_fish:
+      income: 9.0
+      points: 9.0
+      experience: 9.0
+    pufferfish:
+      income: 6.5
+      points: 6.5
+      experience: 6.5
+    bow:
+      income: 14.0
+      points: 14.0
+      experience: 14.0
+    enchanted_book:
+      income: 14.0
+      points: 14.0
+      experience: 14.0
+    fishing_rod:
+      income: 14.0
+      points: 14.0
+      experience: 14.0
+    name_tag:
+      income: 14.0
+      points: 14.0
+      experience: 14.0
+    nautilus_shell:
+      income: 14.0
+      points: 14.0
+      experience: 14.0
+    saddle:
+      income: 14.0
+      points: 14.0
+      experience: 14.0
+    lily_pad:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    bowl:
+      income: 3.5
+      points: 3.5
+      experience: 3.5
+    leather:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    leather_boots:
+      income: 4.5
+      points: 4.5
+      experience: 4.5
+    rotten_flesh:
+      income: 4.25
+      points: 4.25
+      experience: 4.25
+    stick:
+      income: 5.5
+      points: 5.5
+      experience: 5.5
+    string:
+      income: 5.5
+      points: 5.5
+      experience: 5.5
+    potion:
+      income: 4.5
+      points: 4.5
+      experience: 4.5
+    bone:
+      income: 4.25
+      points: 4.25
+      experience: 4.25
+    ink_sac:
+      income: 8.0
+      points: 8.0
+      experience: 8.0
+    tripwire_hook:
+      income: 5.0
+      points: 5.0
+      experience: 5.0

@@ -1,0 +1,118 @@
+# --{ =-=-=-=-=-=-=-=-=-= ItemJoin's English Language file, by RockinChaos =-=-=-=-=-=-=-=-=-= }--
+# If you don't want a message to be sent, fully remove it from below or make it blank.
+
+# Modifying this will cause the file to break and regenerate.
+en-Version: 8
+
+# This is the prefix that will be sent at the beginning of every single message sent in the language file.
+Prefix: '&f'
+
+# These are simply general messages sent from the plugin item usages.
+general:
+  failedOverwrite: '%prefix% &fFailed to give you &e%fail_count% &fitems, you are not allowed to overwrite items!'
+  failedInventory: '%prefix% &fFailed to give you &e%fail_count% &fitems, your inventory is full!'
+  econSuccess: '%prefix% &fSuccessfully ran the command for &e$%cost%&f.'
+  econFailed: '%prefix% &fYou do not have enough to run this command! \n%prefix% &fYou have &e$%balance% &fof the required &e$%cost%&f.'
+  itemSuccess: '%prefix% &fSuccessfully ran the command for &e%cost% %item_type%(s)&f.'
+  itemFailed: '%prefix% &fYou do not have enough &e%item_type%&f to run this command! \n%prefix% &fYou have &e%balance% &fof the required &e%cost% %item_type%(s)&f.'
+  warmingUp: '%prefix% &fThe item [%item%&f] is warming up...'
+  warmingTime: '%prefix% &fCommencing [%item%&f] execution in &e%time_left%&f seconds.'
+  warmingHalted: '%prefix% &fCommence of &7[&e%item%&7] &fexecution cancelled!'
+
+# These messages are specific to the plugin commands.
+commands:
+  default:
+    unknownCommand: '%prefix% &fUnknown command, See &l/ItemJoin Help &ffor a list of commands.'
+    noPermission: '%prefix% &fYou do not have permission to use that command!'
+    configReload: '%prefix% &fConfiguration(s) Reloaded!'
+    noPlayer: '%prefix% &fYou must be a player to execute that command!'
+    noTarget: '%prefix% &fThe player &e%target_player% &fcould not be found!'
+  menu:
+    openMenu: '%prefix% &fMenu has been opened.'
+    itemSaved: '%prefix% &e%item% &fhas been successfully saved.'
+    itemRemoved: '%prefix% &e%item% &fhas been successfully removed.'
+    noInteger: '%prefix% &fThe input value &e%input% &fis not an integer value!'
+    noMaterial: '%prefix% &fThe input value &e%input% &fis not an proper material!'
+    inputType: '%prefix% &fType the &e%input% &fthat you want to have on your item.'
+    inputSet: '%prefix% &fThe items &e%input% &fhas been successfully set!'
+    inputExample: '%prefix% &fExample: %input_example%'
+  item:
+    noItemHeld: '%prefix% &fYou are not holding an item in your hand!'
+    noItem: '%prefix% &fThe item &e%item% &fdoes not exist!'
+  info:
+    material: '&fItem ID (Material Type): &e%item%'
+    data: '&fItem Value (Data Type): &e%item%'
+  list:
+    worldHeader: '&a&l%world%:'
+    itemRow: '&a&l   &a%item%'
+    noItems: '&c&l   &cNo items are defined for this world.'
+  world:
+    worldFound: '&fFound the world(s):'
+    worldHeader: '&fYou are in the world:'
+    worldRow: '&e- %world%'
+  updates:
+    checkRequest: '%prefix% &e%player%&f has requested to check for updates!'
+    updateRequest: '%prefix% &e%player%&f has requested to force update the plugin!'
+  get:
+    givenYou: '%prefix% &fYou were given &e%amount%x &7[&e%item%&7]&f.'
+    givenYou_All: '%prefix% &fYou were given &eall items&f.'
+    givenTarget: '%prefix% &fYou gave %target_player% &e%amount%x &7[&e%item%&7]&f.'
+    givenTarget_All: '%prefix% &fYou gave %target_player% &eall items&f.'
+    givenOnline: '%prefix% &fYou have given the item &e%amount%x &7[&e%item%&7]&f to the players &e%players%&f.'
+    targetTriedGive: '%prefix% &e%target_player% &ftried to give you &7[&e%item%&7]&f but it already exists in your inventory!'
+    targetTriedGive_All: '%prefix% &e%target_player% &ftried to give you &eall items &fbut they already exists in your inventory!'
+    failedInventory: '%prefix% &fYou already have the item &7[&e%item%&7]&f!'
+    failedInventory_All: '%prefix% &fYou already have &eall items&f!'
+    targetFailedInventory: '%prefix% &e%target_player% &falready has the item &7[&e%item%&7]&f!'
+    targetFailedInventory_All: '%prefix% &e%target_player% &falready has &eall the items&f!'
+    onlineFailedInventory: '%prefix% &fAll Online Players &ealready have the item &7[&e%item%&7]&f!'
+    targetNoPermission: '%prefix% &e%target_player% &fdoes not meet the permission requirement to receive the item &7[&e%item%&7]&f.'
+    targetNoPermission_All: '%prefix% &e%target_player% &fwas missing permissions for an item so &lnot &fall items &ewere given&f.'
+    noPermission: '%prefix% &fYou do not meet the permission requirement to receive the item &7[&e%item%&7]&f.'
+    noPermission_All: '%prefix% &fYou were missing permissions for an item so &lnot &fall items &ewere given&f.'
+    usageSyntax: '%prefix% &fYou should use /ItemJoin get <itemname> <player> as console.'
+    badSyntax: '%prefix% &fIncorrect usage! Syntax: /itemjoin get <itemname> &lOR &e/itemjoin get <itemname> <amount>&f!'
+    badOnlineSyntax: '%prefix% &fIncorrect usage! Syntax: /itemjoin getOnline <itemname> &lOR &e/itemjoin getOnline <itemname> <amount>&f!'
+  remove:
+    removedYou: '%prefix% &e%amount%x &7[&e%item%&7]&f was removed from your inventory.'
+    removedYou_All: '%prefix% &fAll items &ewere removed &ffrom your inventory.'
+    removedTarget: '%prefix% &fYou removed &e%amount%x &7[&e%item%&7]&f from &e%target_player%&f.'
+    removedTarget_All: '%prefix% &fYou removed &eall items &ffrom &e%target_player%&f.'
+    removedOnline: '%prefix% &fYou have removed the item &e%amount%x &7[&e%item%&7]&f from the players &e%players%&f.'
+    targetTriedRemoval: '%prefix% &e%target_player% &ftried to remove &7[&e%item%&7]&f but it does not exist in your inventory!'
+    targetTriedRemoval_All: '%prefix% &e%target_player% &ftried to remove &eall items &fbut you do not have any in your inventory!'
+    failedInventory: '%prefix% &fThe item &7[&e%item%&7] &fdoes not exist in your inventory!'
+    failedInventory_All: '%prefix% &fNo &edefined items &fexist in your inventory!'
+    targetFailedInventory: '%prefix% &fThe item &7[&e%item%&7] &fdoes not exist in &e%target_player% &finventory!'
+    targetFailedInventory_All: '%prefix% &fNo defined items exist in &e%target_player% &finventory!'
+    onlineFailedInventory: '%prefix% &fThe item &e%item% &fdoes not exist in any of the &eOnline Players &finventories.'
+    usageSyntax: '%prefix% &fYou should use /ItemJoin remove <itemname> <player> as console.'
+    badSyntax: '%prefix% &fIncorrect usage! Syntax: /itemjoin remove <itemname>!'
+    badOnlineSyntax: '%prefix% &fIncorrect usage! Syntax: /itemjoin removeOnline <itemname>!'
+  database:
+    purgeWarn: '%prefix% &fPurging the database will delete all &e%purge_data% &fdata for &e%target_player%&f.'
+    purgeSuccess: '%prefix% &fYou have purged the database file of the %purge_data% data for &e%target_player%&f!'
+    purgeConfirm: '%prefix% &fYou have 5 seconds to type &e%command% &fagain to confirm you wish to purge the database.'
+    purgeTimeOut: '%prefix% &fYou did not confirm the database purge within &e5 seconds&f, purge has been canceled!'
+  enabled:
+    forPlayer: '%prefix% &fYou have &eenabled &fall items &ffor &e%target_player%&f.'
+    forTarget: '%prefix% &e%player% &fhas &eenabled &fall items for you.'
+    forPlayerFailed: '%prefix% &fItems have already been &eenabled &ffor &e%player%&f.'
+    forPlayerWorld: '%prefix% &fYou have &eenabled &7[&e%world%&7] &fitems for &e%player%&f.'
+    forTargetWorld: '%prefix% &e%player% &fhas enabled &7[&e%world%&7] &fitems for you.'
+    forPlayerWorldFailed: '%prefix% &fYou have already &eenabled &7[&e%world%&7] &fitems &cfor &e%player%&f.'
+    globalPlayers: '%prefix% &fYou have &eenabled&f all items for &eall players&f.'
+    globalPlayersFailed: '%prefix% &fItems have already been &eenabled &ffor &eall players&f.'
+  disabled:
+    forPlayer: '%prefix% &fYou have &edisabled &fall items for &e%player%&f.'
+    forTarget: '%prefix% &e%player% &fhas &edisabled &fall items for you.'
+    forPlayerFailed: '%prefix% &fItems have already been &edisabled &ffor &e%player%&f.'
+    forPlayerWorld: '%prefix% &fYou have &edisabled &7[&e%world%&7] &fitems for &e%player%&f.'
+    forTargetWorld: '%prefix% &e%player% &fhas &eenabled &7[&e%world%&7] &fitems for you.'
+    forPlayerWorldFailed: '%prefix% &fYou have already &edisabled &7[&e%world%&7] &fitems for &e%player%&f.'
+    globalPlayers: '%prefix% &fYou have &edisabled &fall items for &eall players&f.'
+    globalPlayersFailed: '%prefix% &fItems have already been &edisabled &ffor &eall players&f.'
+
+# These placeholders are specific to the plugin messages.
+placeholders:
+  PLAYER_INTERACT: 'Unknown'

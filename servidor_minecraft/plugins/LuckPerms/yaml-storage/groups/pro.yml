@@ -1,0 +1,44 @@
+name: pro
+permissions:
+- dreamcore.emoji.*
+- angelchest.fetch
+- angelchest.protect
+- auctionmaster.limit.auctions.24
+- auctionmaster.limit.duration.36
+- betterrtp.bypass.delay
+- chatmanager.bypass.ignored
+- chatmanager.color.all
+- chatmanager.format.all
+- displayname.&#e150baᴘʀᴏ
+- dreamcore.anvilcolors.use
+- dreamcore.autototem.use
+- dreamcore.editablesigns.color
+- dreammoving.walljump.use
+- essentials.getpos.others
+- essentials.invsee
+- essentials.kits.pro
+- essentials.nick
+- essentials.sethome.multiple.pro
+- essentials.tptoggle
+- furniture.globallimit.50
+- furniture.limit.50
+- furniture.limit.legend
+- interactivechat.chatcolor.translate
+- interactivechat.customfont.translate
+- jobs.max.3
+- lumberjack.use
+- pci.blast-furnace
+- pci.enchant.use-max-level
+- pci.enchanttable
+- pci.smoker
+- ultimateclaims.lock
+- ultimateclaims.maxclaims.25
+- ultimateclaims.toggle.fly
+- ultimateclaims.toggle.pvp
+- ultimateclaims.toggle.tnt
+- weight.850
+parents:
+- mvp
+prefixes:
+- '&f#e150ba':
+    priority: 850

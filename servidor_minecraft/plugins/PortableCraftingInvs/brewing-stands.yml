@@ -1,0 +1,20 @@
+# Brewing stands file
+# Modify this file at your own risk; modification of this file will receive no support.
+brewing:
+  b42c933b-9f3b-45a4-816a-f68b11b8c74c:
+    
+    name: Brewing
+    uuid: b42c933b-9f3b-45a4-816a-f68b11b8c74c
+    properties:
+      
+      key: portablecraftinginvs:brewer_prop_brewing
+      brewMultiplier: 1.0
+      fuelTimeMultiplier: 1.0
+    brewTime: 0
+    fuelTime: 0
+    maxBrews: 0
+    fuel: null
+    ingredient: null
+    bottle-1: null
+    bottle-2: null
+    bottle-3: null

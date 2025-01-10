@@ -1,0 +1,88 @@
+# This is the ChunkLimitation file
+# You can limit the max amount of Furnitures each chunk
+# total.enable = (bool) | set default value for each project
+# total.global = (bool) | override the project limit and force use total.amount for each project
+# ----------------------------------------------
+# These Limitation type support permission Kits!
+# PermissionKit:
+# 	<kitName>:
+# 		chair: -1
+# 		total:
+# 			enable: false
+# 			amount: -1
+# ----------------------------------------------
+# the permission for these kit is furniture.limit.chunk.<kitName>
+
+ChunkLimit:
+  projects:
+    Streetlamp: -1
+    Well: -1
+    WeaponStand: -1
+    WaxCandle: -1
+    Washstand: -1
+    WashingMachine: -1
+    TV: -1
+    Trunk: -1
+    TrashCan: -1
+    TornTableA: -1
+    Toilet: -1
+    Tent2: -1
+    Tent1: -1
+    Table: -1
+    Sunshade: -1
+    Studio: -1
+    StreetLamp3: -1
+    StreetLamp2: -1
+    StreetLamp: -1
+    Sofa3: -1
+    Sofa2: -1
+    Sofa: -1
+    SnowGolem: -1
+    SleepingBag: -1
+    SimplePlate: -1
+    SimpleChoppingBoard: -1
+    Sidetable: -1
+    shelf2: -1
+    SchoolTable: -1
+    SchoolChair: -1
+    Scarecrow: -1
+    Rennwagen: -1
+    Refrigerator: -1
+    Piano: -1
+    MailBox: -1
+    LargeTable: -1
+    Lantern: -1
+    HumanSkeleton: -1
+    Hammock: -1
+    Guillotine: -1
+    GraveStone: -1
+    GasCooker: -1
+    GamingDesk: -1
+    FlowerPot: -1
+    Flag: -1
+    FireworkLauncher: -1
+    Fireplace: -1
+    Fence: -1
+    dog: -1
+    Crossbow: -1
+    Computer: -1
+    ChristmasTree: -1
+    Chair2: -1
+    Chair: -1
+    Catapult: -1
+    CandyCane: -1
+    Campfire: -1
+    CampChair: -1
+    Camera: -1
+    CactusPlant: -1
+    BlackBoard: -1
+    BeverageMachine: -1
+    Bench: -1
+    Bed: -1
+    BearTrap: -1
+    Barrels: -1
+    AdventCalender: -1
+  total:
+    enable: true
+    amount: 16
+    global: true

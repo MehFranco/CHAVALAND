@@ -1,0 +1,496 @@
+ShopName: Spawners2
+DisplayName: '&f'
+Command: spawners2
+RemovePlayerInventory: true
+shop:
+#########################################################################################
+#    HEADER ITEMS
+#########################################################################################
+  Tools_Category:
+    MenuItem:
+    - 'lore1:&7ɪᴛᴇᴍꜱ ᴛʜᴀᴛ ʜᴇʟᴘ #&7ᴇᴀꜱᴇ ʏᴏᴜʀ ᴡᴏʀᴋ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Tools
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  Commands_Category:
+    MenuItem:
+    - 'lore1:&7ᴜꜱᴇꜰᴜʟ ᴄᴏᴍᴍᴀɴᴅꜱ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Commands
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  Cosmetics_Category:
+    MenuItem:
+    - 'lore1:&7ʜᴀᴛs ᴛʜᴀᴛ ᴄᴀɴ ɪᴍᴘʀᴏᴠᴇ#&7ʏᴏᴜʀ ᴀᴘᴘᴇᴀʀᴀɴᴄᴇ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: hatsshop
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  Spawner_Category:
+    MenuItem:
+    - 'lore1:&esᴇʟᴇᴄᴛᴇᴅ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Spawners
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+  Furniture_Category:
+    MenuItem:
+    - 'lore1:&7ɪᴛᴇᴍꜱ ᴛᴏ ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ#&7ʜᴏᴜꜱᴇ ᴀɴᴅ ɢᴀʀᴅᴇɴ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Furniture
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+  Backpacks_Category: 
+    MenuItem:
+    - 'lore1:&7ᴜꜱᴇꜰᴜʟ ꜰᴏʀ ꜱᴛᴏʀɪɴɢ ɪᴛᴇᴍꜱ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: backpacks
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+  Previous_Shops:
+    MenuItem:
+    - name:&8ɴᴇxᴛ sʜᴏᴘs
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: 2_Select
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  Inventory_Size:
+    MenuItem:
+    - name:&f
+    - type:stick
+    - custommodeldata:1
+    InventoryLocation: 54
+#########################################################################################
+#    ITEMS AVAILABLE FOR SALE
+#########################################################################################
+  0:
+    MenuItem:
+    - 'name: &aᴄʜɪᴄᴋᴇɴ sᴘᴀᴡɴᴇʀ'
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZlNGNjOTYzZjI2MTcyYmFkNTM2NWFjYTIwOTExZGVkNzQ0YTJiNzQzNjc2YjExMmQ5YThjNDNlZjY1OSJ9fX0=
+    - amount:1
+    - 'lore2:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aꜱᴘᴀᴡɴᴇʀ'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - silkspawners give %player% chicken 1
+    PriceType: MONEY
+    Price: 35000
+    Message: '&f &fYou bought a &echicken spawner &ffor &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 12
+  1:
+    MenuItem:
+    - 'name: &aᴄᴏᴡ sᴘᴀᴡɴᴇʀ'
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2RmYTBhYzM3YmFiYTJhYTI5MGU0ZmFlZTQxOWE2MTNjZDYxMTdmYTU2OGU3MDlkOTAzNzQ3NTNjMDMyZGNiMCJ9fX0=
+    - amount:1
+    - 'lore2:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aꜱᴘᴀᴡɴᴇʀ'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - silkspawners give %player% cow 1
+    PriceType: MONEY
+    Price: 44000
+    Message: '&f &fYou bought a &ecow spawner &ffor &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 16
+  2:
+    MenuItem:
+    - 'name: &aᴘɪɢ sᴘᴀᴡɴᴇʀ'
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIxNjY4ZWY3Y2I3OWRkOWMyMmNlM2QxZjNmNGNiNmUyNTU5ODkzYjZkZjRhNDY5NTE0ZTY2N2MxNmFhNCJ9fX0=
+    - amount:1
+    - 'lore2:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aꜱᴘᴀᴡɴᴇʀ'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - silkspawners give %player% pig 1
+    PriceType: MONEY
+    Price: 38500
+    Message: '&f &fYou bought a &epig spawner &ffor &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 20
+  3:
+    MenuItem:
+    - 'name: &aʀᴀʙʙɪᴛ sᴘᴀᴡɴᴇʀ'
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2QxMTY5YjI2OTRhNmFiYTgyNjM2MDk5MjM2NWJjZGE1YTEwYzg5YTNhYTJiNDhjNDM4NTMxZGQ4Njg1YzNhNyJ9fX0=
+    - amount:1
+    - 'lore2:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aꜱᴘᴀᴡɴᴇʀ'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - silkspawners give %player% rabbit 1
+    PriceType: MONEY
+    Price: 28000
+    Message: '&f &fYou bought a &erabbit spawner &ffor &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 21
+  4:
+    MenuItem:
+    - 'name: &asʜᴇᴇᴘ sᴘᴀᴡɴᴇʀ'
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjMxZjljY2M2YjNlMzJlY2YxM2I4YTExYWMyOWNkMzNkMThjOTVmYzczZGI4YTY2YzVkNjU3Y2NiOGJlNzAifX19
+    - amount:1
+    - 'lore2:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aꜱᴘᴀᴡɴᴇʀ'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - silkspawners give %player% sheep 1
+    PriceType: MONEY
+    Price: 42000
+    Message: '&f &fYou bought a &esheep spawner &ffor &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 25
+  5:
+    MenuItem:
+    - 'name: &asǫᴜɪᴅ sᴘᴀᴡɴᴇʀ'
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMDE0MzNiZTI0MjM2NmFmMTI2ZGE0MzRiODczNWRmMWViNWIzY2IyY2VkZTM5MTQ1OTc0ZTljNDgzNjA3YmFjIn19fQ==
+    - amount:1
+    - 'lore2:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aꜱᴘᴀᴡɴᴇʀ'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - silkspawners give %player% squid 1
+    PriceType: MONEY
+    Price: 40000
+    Message: '&f &fYou bought a &esquid spawner &ffor &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 26
+  6:
+    MenuItem:
+    - 'name: &aɪʀᴏɴ ɢᴏʟᴇᴍ sᴘᴀᴡɴᴇʀ'
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY5ZDBkNDcxMTE1M2EwODljNTU2N2E3NDliMjc4NzljNzY5ZDNiZGNlYTZmZGE5ZDZmNjZlOTNkZDhjNDUxMiJ9fX0=
+    - amount:1
+    - 'lore2:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aꜱᴘᴀᴡɴᴇʀ'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - silkspawners give %player% iron_golem 1
+    PriceType: MONEY
+    Price: 250000
+    Message: '&f &fYou bought a &eiron golem spawner &ffor &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 23
+  7:
+    MenuItem:
+    - 'name: &aʙʟᴀᴢᴇ sᴘᴀᴡɴᴇʀ'
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ==
+    - amount:1
+    - 'lore2:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aꜱᴘᴀᴡɴᴇʀ'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - silkspawners give %player% blaze 1
+    PriceType: MONEY
+    Price: 22000
+    Message: '&f &fYou bought a &eblaze spawner &ffor &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 29
+  8:
+    MenuItem:
+    - 'name: &aᴄᴀᴠᴇ sᴘɪᴅᴇʀ sᴘᴀᴡɴᴇʀ'
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDE2NDVkZmQ3N2QwOTkyMzEwN2IzNDk2ZTk0ZWViNWMzMDMyOWY5N2VmYzk2ZWQ3NmUyMjZlOTgyMjQifX19
+    - amount:1
+    - 'lore2:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aꜱᴘᴀᴡɴᴇʀ'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - silkspawners give %player% cave_spider 1
+    PriceType: MONEY
+    Price: 28000
+    Message: '&f &fYou bought a &ecave spider spawner &ffor &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 30
+  9:
+    MenuItem:
+    - 'name: &aᴄʀᴇᴇᴘᴇʀ sᴘᴀᴡɴᴇʀ'
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjQyNTQ4MzhjMzNlYTIyN2ZmY2EyMjNkZGRhYWJmZTBiMDIxNWY3MGRhNjQ5ZTk0NDQ3N2Y0NDM3MGNhNjk1MiJ9fX0=
+    - amount:1
+    - 'lore2:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aꜱᴘᴀᴡɴᴇʀ'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - silkspawners give %player% creeper 1
+    PriceType: MONEY
+    Price: 23000
+    Message: '&f &fYou bought a &ecreeper spawner &ffor &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 32
+  10:
+    MenuItem:
+    - 'name: &aᴇɴᴅᴇʀᴍᴀɴ sᴘᴀᴡɴᴇʀ'
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTZjMGIzNmQ1M2ZmZjY5YTQ5YzdkNmYzOTMyZjJiMGZlOTQ4ZTAzMjIyNmQ1ZTgwNDVlYzU4NDA4YTM2ZTk1MSJ9fX0=
+    - amount:1
+    - 'lore2:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aꜱᴘᴀᴡɴᴇʀ'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - silkspawners give %player% enderman 1
+    PriceType: MONEY
+    Price: 24000
+    Message: '&f &fYou bought an &eenderman spawner &ffor &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 34
+  11:
+    MenuItem:
+    - 'name: &aɢʜᴀsᴛ sᴘᴀᴡɴᴇʀ'
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQwNjI5MWM0ODI0NWVjNTA3OGJhZTE1NzEwMGNjYWUzNmM5NTNjMTQwY2NiNDNlMWYzOTU2OTcyNjI4MWNmMCJ9fX0=
+    - amount:1
+    - 'lore2:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aꜱᴘᴀᴡɴᴇʀ'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - silkspawners give %player% ghast 1
+    PriceType: MONEY
+    Price: 80000
+    Message: '&f &fYou bought a &eghast spawner &ffor &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 35
+  12:
+    MenuItem:
+    - 'name: &aʜᴏɢʟɪɴ sᴘᴀᴡɴᴇʀ'
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWJiOWJjMGYwMWRiZDc2MmEwOGQ5ZTc3YzA4MDY5ZWQ3Yzk1MzY0YWEzMGNhMTA3MjIwODU2MWI3MzBlOGQ3NSJ9fX0=
+    - amount:1
+    - 'lore2:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aꜱᴘᴀᴡɴᴇʀ'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - silkspawners give %player% hoglin 1
+    PriceType: MONEY
+    Price: 60000
+    Message: '&f &fYou bought a &ehoglin spawner &ffor &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 38
+  13:
+    MenuItem:
+    - 'name: &aᴍᴀɢᴍᴀ ᴄᴜʙᴇ sᴘᴀᴡɴᴇʀ'
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzg5NTdkNTAyM2M5MzdjNGM0MWFhMjQxMmQ0MzQxMGJkYTIzY2Y3OWE5ZjZhYjM2Yjc2ZmVmMmQ3YzQyOSJ9fX0=
+    - amount:1
+    - 'lore2:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aꜱᴘᴀᴡɴᴇʀ'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - silkspawners give %player% magma_cube 1
+    PriceType: MONEY
+    Price: 30000
+    Message: '&f &fYou bought a &emagma cube spawner &ffor &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 39
+  14:
+    MenuItem:
+    - 'name: &aᴘɪɢʟɪɴ sᴘᴀᴡɴᴇʀ'
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjg4MmFmMTI5NGE3NDAyM2U2OTE5YTMxZDFhMDI3MzEwZjJlMTQyYWZiNDY2N2QyMzBkMTU1ZTdmMjFkYmI0MSJ9fX0=
+    - amount:1
+    - 'lore2:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aꜱᴘᴀᴡɴᴇʀ'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - silkspawners give %player% piglin 1
+    PriceType: MONEY
+    Price: 12000
+    Message: '&f &fYou bought a &epiglin spawner &ffor &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 43
+  15:
+    MenuItem:
+    - 'name: &asɪʟᴠᴇʀғɪsʜ sᴘᴀᴡɴᴇʀ'
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTJlYzJjM2NiOTVhYjc3ZjdhNjBmYjRkMTYwYmNlZDRiODc5MzI5YjYyNjYzZDdhOTg2MDY0MmU1ODhhYjIxMCJ9fX0=
+    - amount:1
+    - 'lore2:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aꜱᴘᴀᴡɴᴇʀ'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - silkspawners give %player% silverfish 1
+    PriceType: MONEY
+    Price: 10000
+    Message: '&f &fYou bought a &esilverfish spawner &ffor &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 44
+  16:
+    MenuItem:
+    - 'name: &asᴋᴇʟᴇᴛᴏɴ sᴘᴀᴡɴᴇʀ'
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmNhNDQ1NzQ5MjUxYmRkODk4ZmI4M2Y2Njc4NDRlMzhhMWRmZjc5YTE1MjlmNzlhNDI0NDdhMDU5OTMxMGVhNCJ9fX0=
+    - amount:1
+    - 'lore2:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aꜱᴘᴀᴡɴᴇʀ'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - silkspawners give %player% skeleton 1
+    PriceType: MONEY
+    Price: 50000
+    Message: '&f &fYou bought a &eskeleton spawner &ffor &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 47
+  17:
+    MenuItem:
+    - 'name: &asʟɪᴍᴇ sᴘᴀᴡɴᴇʀ'
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODk1YWVlYzZiODQyYWRhODY2OWY4NDZkNjViYzQ5NzYyNTk3ODI0YWI5NDRmMjJmNDViZjNiYmI5NDFhYmU2YyJ9fX0=
+    - amount:1
+    - 'lore2:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aꜱᴘᴀᴡɴᴇʀ'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - silkspawners give %player% slime 1
+    PriceType: MONEY
+    Price: 20000
+    Message: '&f &fYou bought a &eslime spawner &ffor &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 48
+  18:
+    MenuItem:
+    - 'name: &asᴘɪᴅᴇʀ sᴘᴀᴡɴᴇʀ'
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q1NDE1NDFkYWFmZjUwODk2Y2QyNThiZGJkZDRjZjgwYzNiYTgxNjczNTcyNjA3OGJmZTM5MzkyN2U1N2YxIn19fQ==
+    - amount:1
+    - 'lore2:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aꜱᴘᴀᴡɴᴇʀ'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - silkspawners give %player% spider 1
+    PriceType: MONEY
+    Price: 33000
+    Message: '&f &fYou bought a &espider spawner &ffor &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 49
+  19:
+    MenuItem:
+    - 'name: &aᴡɪᴛᴄʜ sᴘᴀᴡɴᴇʀ'
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjk1MDJhYjMzYmIyYzhkNmE5MGZmZjg1MDFiY2I5NTg1ZDFjMmVmZTQ0NWExMWUzODA3YjE4NjE4YjBjZGQyYiJ9fX0=
+    - amount:1
+    - 'lore2:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aꜱᴘᴀᴡɴᴇʀ'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - silkspawners give %player% witch 1
+    PriceType: MONEY
+    Price: 30000
+    Message: '&f &fYou bought a &ewitch spawner &ffor &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 51
+  20:
+    MenuItem:
+    - 'name: &aᴡɪᴛʜᴇʀ sᴋᴇʟᴇᴛᴏɴ sᴘᴀᴡɴᴇʀ'
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzk1M2I2YzY4NDQ4ZTdlNmI2YmY4ZmIyNzNkNzIwM2FjZDhlMWJlMTllODE0ODFlYWQ1MWY0NWRlNTlhOCJ9fX0=
+    - amount:1
+    - 'lore2:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aꜱᴘᴀᴡɴᴇʀ'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - silkspawners give %player% wither_skeleton 1
+    PriceType: MONEY
+    Price: 70000
+    Message: '&f &fYou bought a &ewither skeleton spawner &ffor &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 52
+  21:
+    MenuItem:
+    - 'name: &aᴢᴏᴍʙɪᴇ sᴘᴀᴡɴᴇʀ'
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZmYzg1NGJiODRjZjRiNzY5NzI5Nzk3M2UwMmI3OWJjMTA2OTg0NjBiNTFhNjM5YzYwZTVlNDE3NzM0ZTExIn19fQ==
+    - amount:1
+    - 'lore2:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aꜱᴘᴀᴡɴᴇʀ'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - silkspawners give %player% zombie 1
+    PriceType: MONEY
+    Price: 36000
+    Message: '&f &fYou bought a &ezombie spawner &ffor &a%price%'
+    ExtraPermission: ''
+    InventoryLocation: 53 
+#########################################################################################
+#    FOOTER ITEMS
+#########################################################################################
+  Previous_Page:
+    MenuItem:
+    - name:&8ᴘʀᴇᴠɪᴏᴜs ᴘᴀɢᴇ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: spawners
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 28   

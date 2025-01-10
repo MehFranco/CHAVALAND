@@ -1,0 +1,187 @@
+##################################
+##            Jackpot           ##
+##################################
+gameType: "jackpot"
+name: "Jackpot"
+
+######## Command Settings ########
+
+#command: "jackpot"
+
+######## Machine Settings ########
+
+machine:
+  item:
+    material: stick
+    custom_model_data: 513
+    name: "&6&lJackpot Machine"
+  structure:
+    '1':
+      type: block
+      material: barrier
+      location: 0 0 0
+    '2':
+      type: block
+      material: barrier
+      location: 0 1 0
+    '3':
+      type: block
+      material: barrier
+      location: 0 2 0
+    '4':
+      type: item
+      direction: NORTH
+      material: stick
+      custom_model_data: 513
+      location: 0 0 0
+
+
+######## Jackpot Settings ########
+
+player_head:
+  material: PLAYER_HEAD
+  name: '&b%name%'
+  lore:
+    - '&7ᴄʜᴀɴᴄᴇ ᴛᴏ ᴡɪɴ: &b%chance%&f '
+    - '&7ʙᴇᴛ ᴠᴀʟᴜᴇ: &e%bet%'
+
+betting_duration: 600
+time_between_games: 120
+time_added_on_bet: 5
+animation_duration: 120
+
+send_message_to_everyone: false
+
+########    Inventory    ########
+
+betting_gui:
+  size: 54
+  title: '&f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔'
+  head_slots: [ 1, 2, 3, 4, 5, 6, 7, 10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34 ]
+  buttons:
+    next_page:
+        slot: 53
+        material: STICK
+        custom_model_data: 8
+        name: "&8ɴᴇxᴛ ᴘᴀɢᴇ"
+    previous_page:
+        slot: 45
+        material: STICK
+        custom_model_data: 9
+        name: "&8ᴘʀᴇᴠɪᴏᴜꜱ ᴘᴀɢᴇ"
+    bet:
+        slot: [49, 50, 51]
+        material: STICK
+        custom_model_data: 1
+        name: '&f'
+        lore:
+          - '&7ᴊᴏɪɴ ᴛʜᴇ ɢᴀᴍᴇ ᴛʜᴀᴛ ɪꜱ'
+          - '&7ᴀʙᴏᴜᴛ ᴛᴏ ꜱᴛᴀʀᴛ ᴀɴᴅ ʙᴇᴛ'
+          - '&7ᴀɴ ᴀᴍᴏᴜɴᴛ ᴏꜰ ᴍᴏɴᴇʏ.'
+          - '&f'
+          - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴍᴀᴋᴇ ᴀ ʙᴇᴛ!'
+  items:
+
+###############################
+
+waiting_gui:
+  size: 54
+  title: '&f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔'
+  head_slots: [ 1, 2, 3, 4, 5, 6, 7, 10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34 ]
+  buttons:
+    next_page:
+        slot: 53
+        material: STICK
+        custom_model_data: 8
+        name: "&8ɴᴇxᴛ ᴘᴀɢᴇ"
+    previous_page:
+        slot: 45
+        material: STICK
+        custom_model_data: 9
+        name: "&8ᴘʀᴇᴠɪᴏᴜꜱ ᴘᴀɢᴇ"
+    remove_bet:
+        slot: [49, 50, 51]
+        material: STICK
+        custom_model_data: 1
+        name: '&f'
+        lore:
+          - '&7ʟᴇᴀᴠᴇ ᴛʜᴇ ɢᴀᴍᴇ ᴀɴᴅ'
+          - '&7ɢᴇᴛ ʏᴏᴜʀ ᴍᴏɴᴇʏ ʙᴀᴄᴋ.'
+          - '&f'
+          - '&f ▪ ʏᴏᴜʀ ʙᴇᴛ: &6%bet%'
+          - '&f'
+          - '&f &eᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴍᴏᴠᴇ ʏᴏᴜʀ ʙᴇᴛ!'
+  items:
+
+###############################
+
+gui:
+  size: 54
+  title: '&f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔'
+  head_slots: [ 3, 4, 5, 15, 24, 32, 31, 30, 20, 11]
+  winning_head_slot: 4
+  items:
+    '1':
+      slot: 4
+      material: STICK
+      custom_model_data: 1
+      name: '&6ᴡɪɴɴᴇʀ'
+
+
+########   Bet Settings  ########
+
+bet:
+  default_bet: 100
+  
+  gui:
+    size: 54
+    title: "&f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔"
+    values:
+      custom:
+        max: 100000
+        min: 100
+        slot: [38, 39, 40, 41, 42]
+        material: STICK
+        custom_model_data: 1
+        name: "&f"
+        lore:
+        - '&7ᴜꜱᴇ ᴛʜɪꜱ ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ'
+        - '&7ᴇɴᴛᴇʀ ᴀ ᴄᴜꜱᴛᴏᴍ ᴀᴍᴏᴜɴᴛ.'
+        - '&f'
+        - '&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ꜱᴇʟᴇᴄᴛ!'
+      '100':
+        slot: 9
+        material: STICK
+        custom_model_data: 3
+        name: '&6100&f'
+        lore:
+          - '&7ᴄʟɪᴄᴋ ᴛᴏ ꜱᴇʟᴇᴄᴛ!'
+      '250':
+        slot: 11
+        material: STICK
+        custom_model_data: 3
+        name: '&6250&f'
+        lore:
+          - '&7ᴄʟɪᴄᴋ ᴛᴏ ꜱᴇʟᴇᴄᴛ!'
+      '500':
+        slot: 13
+        material: STICK
+        custom_model_data: 3
+        name: '&6500&f'
+        lore:
+          - '&7ᴄʟɪᴄᴋ ᴛᴏ ꜱᴇʟᴇᴄᴛ!'
+      '1000':
+        slot: 15
+        material: STICK
+        custom_model_data: 3
+        name: '&61000&f'
+        lore:
+          - '&7ᴄʟɪᴄᴋ ᴛᴏ ꜱᴇʟᴇᴄᴛ!'
+      '2500':
+        slot: 17
+        material: STICK
+        custom_model_data: 3
+        name: '&62500&f'
+        lore:
+          - '&7ᴄʟɪᴄᴋ ᴛᴏ ꜱᴇʟᴇᴄᴛ!'
+    items:

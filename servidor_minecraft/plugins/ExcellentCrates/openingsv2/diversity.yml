@@ -1,0 +1,72 @@
+Settings:
+  # GUI title.
+  Title: <white>&f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔</white>
+  # GUI size. Must be multiply of 9.
+  # Useful for 'CHEST' Inventory Type only.
+  Size: 54
+  # GUI type.
+  # https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/event/inventory/InventoryType.html
+  Inventory_Type: CHEST
+  # Sets GUI auto-refresh interval (in seconds). Set this to 0 to disable.
+  Auto_Refresh: 0
+  Mode: SELECTION
+  WinSlots: 29,31,33
+  ScriptRunner:
+    OnOpen: []
+    OnStart:
+    - '[run_reward] id:"default" name:"r1" delay:"0" slots:"%selected_slot_0%" mode:"independent" chance:"100.0"'
+    - '[run_reward] id:"default" name:"r2" delay:"0" slots:"%selected_slot_1%" mode:"independent" chance:"100.0"'
+    - '[run_reward] id:"default" name:"r3" delay:"0" slots:"%selected_slot_2%" mode:"independent" chance:"100.0"'
+  Selection:
+    AutoRun: true
+    Amount: 3
+    SelectedIcon:
+      Material: PLAYER_HEAD
+      SkinURL: 47e0d63f3eccdb9b70ed1fd40db52c2afe570e00d691b14ee7882964e20835c6
+      Name: <red>ᴡᴀɪᴛɪɴɢ...</red>
+  # Sets max. amount of the opening ticks while players can skip the opening animation.
+  # Set to -1 to disable (no skip).
+  Max_Ticks_To_Skip: 40
+  PlaceholderAPI:
+    # Sets whether PlaceholderAPI placeholders will be applied on all items from the 'Content' section of this GUI.
+    # [*] Disable if you don't use any PlaceholderAPI placeholders on your items to improve GUI performance.
+    Enabled: false
+# ==================== GUI CONTENT ====================
+# You can freely edit items in this section as you wish (add, remove, modify items).
+# The following values are available as button Types:
+# CLOSE
+# SELECT
+# START
+# ==================== ITEM OPTIONS ====================
+# > Item: Item to display. Please check: https://github.com/nulli0n/nightcore-spigot/wiki/ItemStack-Options
+# > Priority: Button priority. Better values will override other item(s) in the same slot(s).
+# > Slots: Button slots. From [0] to [Size - 1]. Split with commas.
+# > Click_Commands: Execute custom commands on click. PlaceholderAPI available here.
+#     Available click types: LEFT, RIGHT, SHIFT_LEFT, SHIFT_RIGHT, DROP_KEY, SWAP_KEY, NUMBER_1, NUMBER_2, NUMBER_3, NUMBER_4, NUMBER_5, NUMBER_6, NUMBER_7, NUMBER_8, NUMBER_9
+#     Use prefix 'player:' to run command by a player.
+#     Click_Commands:
+#       LEFT:
+#       - say Hello
+#       - give %player_name% diamond 1
+#       - player: menu open shops
+# ==================================================
+Content:
+  select:
+    Slots: 29,31,33
+    Priority: 10
+    Item:
+      Material: PLAYER_HEAD
+      SkinURL: f98bc63f05f6378bf29ef10e3d82acb3ceb73a720bf80f30bc576d0ad8c40cfb
+      Name: <red>ᴄʟɪᴄᴋ ꜰᴏʀ ʀᴇᴡᴀʀᴅ</red>
+      Display_Name: <red>ᴄʟɪᴄᴋ ꜰᴏʀ ʀᴇᴡᴀʀᴅ</red>
+    Type: select
+
+Rewards:
+  default:
+    Rarities:
+    - '*'
+    Spin_Times: 60
+    Spin_Interval: 1
+    Spin_Slowdown:
+      Step: 15
+      Amount: 1

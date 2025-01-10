@@ -1,0 +1,352 @@
+[Mon Aug 12 12:23:58 UTC 2024] MihiBlu | Location: X: 12013565 Y: 102 Z: 19617387 | Line: 0 | 
+[Mon Aug 12 12:23:58 UTC 2024] MihiBlu | Location: X: 12013565 Y: 102 Z: 19617387 | Line: 1 | Problems
+[Mon Aug 12 12:23:58 UTC 2024] MihiBlu | Location: X: 12013565 Y: 102 Z: 19617387 | Line: 2 | 
+[Mon Aug 12 12:23:58 UTC 2024] MihiBlu | Location: X: 12013565 Y: 102 Z: 19617387 | Line: 3 | 
+[Mon Aug 12 12:24:01 UTC 2024] MihiBlu | Location: X: 12013568 Y: 102 Z: 19617387 | Line: 0 | 
+[Mon Aug 12 12:24:01 UTC 2024] MihiBlu | Location: X: 12013568 Y: 102 Z: 19617387 | Line: 1 | Good
+[Mon Aug 12 12:24:01 UTC 2024] MihiBlu | Location: X: 12013568 Y: 102 Z: 19617387 | Line: 2 | 
+[Mon Aug 12 12:24:01 UTC 2024] MihiBlu | Location: X: 12013568 Y: 102 Z: 19617387 | Line: 3 | 
+[Wed Sep 18 01:14:31 UTC 2024] MihiBlu | Location: X: -73 Y: 64 Z: -1 | Line: 0 | 
+[Wed Sep 18 01:14:31 UTC 2024] MihiBlu | Location: X: -73 Y: 64 Z: -1 | Line: 1 | Daily
+[Wed Sep 18 01:14:31 UTC 2024] MihiBlu | Location: X: -73 Y: 64 Z: -1 | Line: 2 | 
+[Wed Sep 18 01:14:31 UTC 2024] MihiBlu | Location: X: -73 Y: 64 Z: -1 | Line: 3 | 
+[Wed Sep 18 01:14:34 UTC 2024] MihiBlu | Location: X: -73 Y: 65 Z: -1 | Line: 0 | 
+[Wed Sep 18 01:14:34 UTC 2024] MihiBlu | Location: X: -73 Y: 65 Z: -1 | Line: 1 | Balanced
+[Wed Sep 18 01:14:34 UTC 2024] MihiBlu | Location: X: -73 Y: 65 Z: -1 | Line: 2 | 
+[Wed Sep 18 01:14:34 UTC 2024] MihiBlu | Location: X: -73 Y: 65 Z: -1 | Line: 3 | 
+[Wed Sep 18 01:14:39 UTC 2024] MihiBlu | Location: X: -75 Y: 65 Z: -1 | Line: 0 | 
+[Wed Sep 18 01:14:39 UTC 2024] MihiBlu | Location: X: -75 Y: 65 Z: -1 | Line: 1 | &cDiversity
+[Wed Sep 18 01:14:39 UTC 2024] MihiBlu | Location: X: -75 Y: 65 Z: -1 | Line: 2 | 
+[Wed Sep 18 01:14:39 UTC 2024] MihiBlu | Location: X: -75 Y: 65 Z: -1 | Line: 3 | 
+[Wed Sep 18 01:14:45 UTC 2024] MihiBlu | Location: X: -75 Y: 64 Z: -1 | Line: 0 | 
+[Wed Sep 18 01:14:45 UTC 2024] MihiBlu | Location: X: -75 Y: 64 Z: -1 | Line: 1 | &cEpic
+[Wed Sep 18 01:14:45 UTC 2024] MihiBlu | Location: X: -75 Y: 64 Z: -1 | Line: 2 | 
+[Wed Sep 18 01:14:45 UTC 2024] MihiBlu | Location: X: -75 Y: 64 Z: -1 | Line: 3 | 
+[Wed Sep 18 01:14:50 UTC 2024] MihiBlu | Location: X: -75 Y: 65 Z: -1 | Line: 0 | 
+[Wed Sep 18 01:14:50 UTC 2024] MihiBlu | Location: X: -75 Y: 65 Z: -1 | Line: 1 | &cDiversity
+[Wed Sep 18 01:14:50 UTC 2024] MihiBlu | Location: X: -75 Y: 65 Z: -1 | Line: 2 | 
+[Wed Sep 18 01:14:50 UTC 2024] MihiBlu | Location: X: -75 Y: 65 Z: -1 | Line: 3 | 
+[Wed Sep 18 01:14:55 UTC 2024] MihiBlu | Location: X: -75 Y: 64 Z: -1 | Line: 0 | 
+[Wed Sep 18 01:14:55 UTC 2024] MihiBlu | Location: X: -75 Y: 64 Z: -1 | Line: 1 | &dEpic
+[Wed Sep 18 01:14:55 UTC 2024] MihiBlu | Location: X: -75 Y: 64 Z: -1 | Line: 2 | 
+[Wed Sep 18 01:14:55 UTC 2024] MihiBlu | Location: X: -75 Y: 64 Z: -1 | Line: 3 | 
+[Wed Sep 18 01:15:01 UTC 2024] MihiBlu | Location: X: -73 Y: 64 Z: -1 | Line: 0 | 
+[Wed Sep 18 01:15:01 UTC 2024] MihiBlu | Location: X: -73 Y: 64 Z: -1 | Line: 1 | &eDaily
+[Wed Sep 18 01:15:01 UTC 2024] MihiBlu | Location: X: -73 Y: 64 Z: -1 | Line: 2 | 
+[Wed Sep 18 01:15:01 UTC 2024] MihiBlu | Location: X: -73 Y: 64 Z: -1 | Line: 3 | 
+[Wed Sep 18 01:15:05 UTC 2024] MihiBlu | Location: X: -73 Y: 65 Z: -1 | Line: 0 | 
+[Wed Sep 18 01:15:05 UTC 2024] MihiBlu | Location: X: -73 Y: 65 Z: -1 | Line: 1 | &bBalanced
+[Wed Sep 18 01:15:05 UTC 2024] MihiBlu | Location: X: -73 Y: 65 Z: -1 | Line: 2 | 
+[Wed Sep 18 01:15:05 UTC 2024] MihiBlu | Location: X: -73 Y: 65 Z: -1 | Line: 3 | 
+[Wed Sep 18 19:23:59 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 87 | Line: 0 | 
+[Wed Sep 18 19:23:59 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 87 | Line: 1 | 
+[Wed Sep 18 19:23:59 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 87 | Line: 2 | Advent Calendar
+[Wed Sep 18 19:23:59 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 87 | Line: 3 | 
+[Wed Sep 18 19:24:33 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 85 | Line: 0 | 
+[Wed Sep 18 19:24:33 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 85 | Line: 1 | 
+[Wed Sep 18 19:24:33 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 85 | Line: 2 | Barrels
+[Wed Sep 18 19:24:33 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 85 | Line: 3 | 
+[Wed Sep 18 19:24:59 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 83 | Line: 0 | 
+[Wed Sep 18 19:24:59 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 83 | Line: 1 | 
+[Wed Sep 18 19:24:59 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 83 | Line: 2 | Bear Trap
+[Wed Sep 18 19:24:59 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 83 | Line: 3 | 
+[Wed Sep 18 19:25:26 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 81 | Line: 0 | 
+[Wed Sep 18 19:25:26 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 81 | Line: 1 | 
+[Wed Sep 18 19:25:26 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 81 | Line: 2 | Bed
+[Wed Sep 18 19:25:26 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 81 | Line: 3 | 
+[Wed Sep 18 19:26:11 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 79 | Line: 0 | 
+[Wed Sep 18 19:26:11 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 79 | Line: 1 | 
+[Wed Sep 18 19:26:11 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 79 | Line: 2 | Bench
+[Wed Sep 18 19:26:11 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 79 | Line: 3 | 
+[Wed Sep 18 19:26:46 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 76 | Line: 0 | 
+[Wed Sep 18 19:26:46 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 76 | Line: 1 | 
+[Wed Sep 18 19:26:46 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 76 | Line: 2 | Beverage Machine
+[Wed Sep 18 19:26:46 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 76 | Line: 3 | 
+[Wed Sep 18 19:27:10 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 74 | Line: 0 | 
+[Wed Sep 18 19:27:10 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 74 | Line: 1 | 
+[Wed Sep 18 19:27:10 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 74 | Line: 2 | 
+[Wed Sep 18 19:27:10 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 74 | Line: 3 | 
+[Wed Sep 18 19:28:15 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 74 | Line: 0 | 
+[Wed Sep 18 19:28:15 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 74 | Line: 1 | 
+[Wed Sep 18 19:28:15 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 74 | Line: 2 | Blackboard
+[Wed Sep 18 19:28:15 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 74 | Line: 3 | 
+[Wed Sep 18 19:28:42 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 71 | Line: 0 | 
+[Wed Sep 18 19:28:42 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 71 | Line: 1 | 
+[Wed Sep 18 19:28:42 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 71 | Line: 2 | Cactus Plant
+[Wed Sep 18 19:28:42 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 71 | Line: 3 | 
+[Wed Sep 18 19:29:19 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 69 | Line: 0 | 
+[Wed Sep 18 19:29:19 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 69 | Line: 1 | 
+[Wed Sep 18 19:29:19 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 69 | Line: 2 | Camera
+[Wed Sep 18 19:29:19 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 69 | Line: 3 | 
+[Wed Sep 18 19:29:50 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 67 | Line: 0 | 
+[Wed Sep 18 19:29:50 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 67 | Line: 1 | 
+[Wed Sep 18 19:29:50 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 67 | Line: 2 | Camp Chair
+[Wed Sep 18 19:29:50 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 67 | Line: 3 | 
+[Wed Sep 18 19:30:22 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 65 | Line: 0 | 
+[Wed Sep 18 19:30:22 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 65 | Line: 1 | 
+[Wed Sep 18 19:30:22 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 65 | Line: 2 | Campfire
+[Wed Sep 18 19:30:22 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 65 | Line: 3 | 
+[Wed Sep 18 19:30:50 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 63 | Line: 0 | 
+[Wed Sep 18 19:30:50 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 63 | Line: 1 | 
+[Wed Sep 18 19:30:50 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 63 | Line: 2 | Candy Cane
+[Wed Sep 18 19:30:50 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 63 | Line: 3 | 
+[Wed Sep 18 19:31:19 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 61 | Line: 0 | 
+[Wed Sep 18 19:31:19 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 61 | Line: 1 | 
+[Wed Sep 18 19:31:19 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 61 | Line: 2 | Catapult
+[Wed Sep 18 19:31:19 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 61 | Line: 3 | 
+[Wed Sep 18 19:31:41 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 58 | Line: 0 | 
+[Wed Sep 18 19:31:41 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 58 | Line: 1 | 
+[Wed Sep 18 19:31:41 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 58 | Line: 2 | Chair
+[Wed Sep 18 19:31:41 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 58 | Line: 3 | 
+[Wed Sep 18 19:36:57 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 56 | Line: 0 | 
+[Wed Sep 18 19:36:57 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 56 | Line: 1 | 
+[Wed Sep 18 19:36:57 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 56 | Line: 2 | Chair 2
+[Wed Sep 18 19:36:57 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 56 | Line: 3 | 
+[Wed Sep 18 19:37:30 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 54 | Line: 0 | 
+[Wed Sep 18 19:37:30 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 54 | Line: 1 | 
+[Wed Sep 18 19:37:30 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 54 | Line: 2 | Christmas Tree
+[Wed Sep 18 19:37:30 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 54 | Line: 3 | 
+[Wed Sep 18 19:38:16 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 52 | Line: 0 | 
+[Wed Sep 18 19:38:16 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 52 | Line: 1 | 
+[Wed Sep 18 19:38:16 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 52 | Line: 2 | Computer
+[Wed Sep 18 19:38:16 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 52 | Line: 3 | 
+[Wed Sep 18 19:39:39 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 50 | Line: 0 | 
+[Wed Sep 18 19:39:39 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 50 | Line: 1 | 
+[Wed Sep 18 19:39:39 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 50 | Line: 2 | Crossbow
+[Wed Sep 18 19:39:39 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 50 | Line: 3 | 
+[Wed Sep 18 19:40:03 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 48 | Line: 0 | 
+[Wed Sep 18 19:40:03 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 48 | Line: 1 | 
+[Wed Sep 18 19:40:03 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 48 | Line: 2 | Dog
+[Wed Sep 18 19:40:03 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 48 | Line: 3 | 
+[Wed Sep 18 19:41:41 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 46 | Line: 0 | 
+[Wed Sep 18 19:41:41 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 46 | Line: 1 | 
+[Wed Sep 18 19:41:41 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 46 | Line: 2 | Fence
+[Wed Sep 18 19:41:41 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 46 | Line: 3 | (doesn't connect)
+[Wed Sep 18 19:43:46 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 44 | Line: 0 | 
+[Wed Sep 18 19:43:46 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 44 | Line: 1 | 
+[Wed Sep 18 19:43:46 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 44 | Line: 2 | Fireplace
+[Wed Sep 18 19:43:46 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 44 | Line: 3 | 
+[Wed Sep 18 19:45:11 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 42 | Line: 0 | 
+[Wed Sep 18 19:45:11 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 42 | Line: 1 | Firework
+[Wed Sep 18 19:45:11 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 42 | Line: 2 | Launcher
+[Wed Sep 18 19:45:11 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 42 | Line: 3 | 
+[Wed Sep 18 19:45:45 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 40 | Line: 0 | 
+[Wed Sep 18 19:45:45 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 40 | Line: 1 | 
+[Wed Sep 18 19:45:45 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 40 | Line: 2 | Flag
+[Wed Sep 18 19:45:45 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 40 | Line: 3 | 
+[Wed Sep 18 19:45:54 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 38 | Line: 0 | 
+[Wed Sep 18 19:45:54 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 38 | Line: 1 | 
+[Wed Sep 18 19:45:54 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 38 | Line: 2 | 
+[Wed Sep 18 19:45:54 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 38 | Line: 3 | 
+[Wed Sep 18 19:46:09 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 38 | Line: 0 | 
+[Wed Sep 18 19:46:09 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 38 | Line: 1 | 
+[Wed Sep 18 19:46:09 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 38 | Line: 2 | Flower Pot
+[Wed Sep 18 19:46:09 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 38 | Line: 3 | 
+[Wed Sep 18 19:47:01 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 34 | Line: 0 | 
+[Wed Sep 18 19:47:01 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 34 | Line: 1 | 
+[Wed Sep 18 19:47:01 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 34 | Line: 2 | Gaming Desk
+[Wed Sep 18 19:47:01 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 34 | Line: 3 | 
+[Wed Sep 18 19:47:33 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 32 | Line: 0 | 
+[Wed Sep 18 19:47:33 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 32 | Line: 1 | 
+[Wed Sep 18 19:47:33 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 32 | Line: 2 | Gas Cooker
+[Wed Sep 18 19:47:33 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 32 | Line: 3 | 
+[Wed Sep 18 19:47:58 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 30 | Line: 0 | 
+[Wed Sep 18 19:47:58 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 30 | Line: 1 | 
+[Wed Sep 18 19:47:58 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 30 | Line: 2 | Gravestone
+[Wed Sep 18 19:47:58 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 30 | Line: 3 | 
+[Wed Sep 18 19:48:19 UTC 2024] MykalsVapor | Location: X: -212 Y: 100 Z: 30 | Line: 0 | 
+[Wed Sep 18 19:48:19 UTC 2024] MykalsVapor | Location: X: -212 Y: 100 Z: 30 | Line: 1 | this can be 
+[Wed Sep 18 19:48:19 UTC 2024] MykalsVapor | Location: X: -212 Y: 100 Z: 30 | Line: 2 | written on
+[Wed Sep 18 19:48:19 UTC 2024] MykalsVapor | Location: X: -212 Y: 100 Z: 30 | Line: 3 | 
+[Wed Sep 18 19:48:22 UTC 2024] MykalsVapor | Location: X: -212 Y: 100 Z: 30 | Line: 0 | 
+[Wed Sep 18 19:48:22 UTC 2024] MykalsVapor | Location: X: -212 Y: 100 Z: 30 | Line: 1 | this can be 
+[Wed Sep 18 19:48:22 UTC 2024] MykalsVapor | Location: X: -212 Y: 100 Z: 30 | Line: 2 | written on
+[Wed Sep 18 19:48:22 UTC 2024] MykalsVapor | Location: X: -212 Y: 100 Z: 30 | Line: 3 | 
+[Wed Sep 18 19:48:25 UTC 2024] MykalsVapor | Location: X: -212 Y: 100 Z: 30 | Line: 0 | 
+[Wed Sep 18 19:48:25 UTC 2024] MykalsVapor | Location: X: -212 Y: 100 Z: 30 | Line: 1 | this can be 
+[Wed Sep 18 19:48:25 UTC 2024] MykalsVapor | Location: X: -212 Y: 100 Z: 30 | Line: 2 | written on
+[Wed Sep 18 19:48:25 UTC 2024] MykalsVapor | Location: X: -212 Y: 100 Z: 30 | Line: 3 | 
+[Wed Sep 18 19:48:27 UTC 2024] MykalsVapor | Location: X: -212 Y: 100 Z: 30 | Line: 0 | 
+[Wed Sep 18 19:48:27 UTC 2024] MykalsVapor | Location: X: -212 Y: 100 Z: 30 | Line: 1 | this can be 
+[Wed Sep 18 19:48:27 UTC 2024] MykalsVapor | Location: X: -212 Y: 100 Z: 30 | Line: 2 | written on
+[Wed Sep 18 19:48:27 UTC 2024] MykalsVapor | Location: X: -212 Y: 100 Z: 30 | Line: 3 | 
+[Wed Sep 18 19:48:52 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 28 | Line: 0 | 
+[Wed Sep 18 19:48:52 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 28 | Line: 1 | 
+[Wed Sep 18 19:48:52 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 28 | Line: 2 | Guillotine
+[Wed Sep 18 19:48:52 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 28 | Line: 3 | 
+[Wed Sep 18 19:49:30 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 26 | Line: 0 | 
+[Wed Sep 18 19:49:30 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 26 | Line: 1 | 
+[Wed Sep 18 19:49:30 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 26 | Line: 2 | Hammock
+[Wed Sep 18 19:49:30 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 26 | Line: 3 | 
+[Wed Sep 18 19:50:00 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 18 | Line: 0 | 
+[Wed Sep 18 19:50:00 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 18 | Line: 1 | 
+[Wed Sep 18 19:50:00 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 18 | Line: 2 | Human Skeleton
+[Wed Sep 18 19:50:00 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 18 | Line: 3 | 
+[Wed Sep 18 19:50:20 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 16 | Line: 0 | 
+[Wed Sep 18 19:50:20 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 16 | Line: 1 | 
+[Wed Sep 18 19:50:20 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 16 | Line: 2 | Lantern
+[Wed Sep 18 19:50:20 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 16 | Line: 3 | 
+[Wed Sep 18 19:50:41 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 14 | Line: 0 | 
+[Wed Sep 18 19:50:41 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 14 | Line: 1 | 
+[Wed Sep 18 19:50:41 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 14 | Line: 2 | Large Table
+[Wed Sep 18 19:50:41 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 14 | Line: 3 | 
+[Wed Sep 18 19:51:09 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 11 | Line: 0 | 
+[Wed Sep 18 19:51:09 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 11 | Line: 1 | 
+[Wed Sep 18 19:51:09 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 11 | Line: 2 | Mailbox
+[Wed Sep 18 19:51:09 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 11 | Line: 3 | 
+[Wed Sep 18 19:51:35 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 9 | Line: 0 | 
+[Wed Sep 18 19:51:35 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 9 | Line: 1 | 
+[Wed Sep 18 19:51:35 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 9 | Line: 2 | Piano
+[Wed Sep 18 19:51:35 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 9 | Line: 3 | 
+[Wed Sep 18 19:52:21 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 6 | Line: 0 | 
+[Wed Sep 18 19:52:21 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 6 | Line: 1 | 
+[Wed Sep 18 19:52:21 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 6 | Line: 2 | Refrigerator
+[Wed Sep 18 19:52:21 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 6 | Line: 3 | 
+[Wed Sep 18 19:53:19 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 4 | Line: 0 | 
+[Wed Sep 18 19:53:19 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 4 | Line: 1 | 
+[Wed Sep 18 19:53:19 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 4 | Line: 2 | Renwagon
+[Wed Sep 18 19:53:19 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 4 | Line: 3 | 
+[Wed Sep 18 19:53:47 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 4 | Line: 0 | 
+[Wed Sep 18 19:53:47 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 4 | Line: 1 | 
+[Wed Sep 18 19:53:47 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 4 | Line: 2 | Rennwagon
+[Wed Sep 18 19:53:47 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 4 | Line: 3 | 
+[Wed Sep 18 19:53:54 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 2 | Line: 0 | 
+[Wed Sep 18 19:53:54 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 2 | Line: 1 | 
+[Wed Sep 18 19:53:54 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 2 | Line: 2 | Scarecrow
+[Wed Sep 18 19:53:54 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 2 | Line: 3 | 
+[Wed Sep 18 19:54:18 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 0 | Line: 0 | 
+[Wed Sep 18 19:54:18 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 0 | Line: 1 | 
+[Wed Sep 18 19:54:18 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 0 | Line: 2 | School Chair
+[Wed Sep 18 19:54:18 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: 0 | Line: 3 | 
+[Wed Sep 18 19:54:44 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -2 | Line: 0 | 
+[Wed Sep 18 19:54:44 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -2 | Line: 1 | 
+[Wed Sep 18 19:54:44 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -2 | Line: 2 | School Table
+[Wed Sep 18 19:54:44 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -2 | Line: 3 | 
+[Wed Sep 18 19:55:21 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -4 | Line: 0 | 
+[Wed Sep 18 19:55:21 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -4 | Line: 1 | 
+[Wed Sep 18 19:55:21 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -4 | Line: 2 | Shelf 2
+[Wed Sep 18 19:55:21 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -4 | Line: 3 | 
+[Wed Sep 18 19:56:01 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -6 | Line: 0 | 
+[Wed Sep 18 19:56:01 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -6 | Line: 1 | 
+[Wed Sep 18 19:56:01 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -6 | Line: 2 | Sidetable
+[Wed Sep 18 19:56:01 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -6 | Line: 3 | 
+[Wed Sep 18 19:56:58 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -8 | Line: 0 | 
+[Wed Sep 18 19:56:58 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -8 | Line: 1 | Simple
+[Wed Sep 18 19:56:58 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -8 | Line: 2 | Chopping Board
+[Wed Sep 18 19:56:58 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -8 | Line: 3 | 
+[Wed Sep 18 19:57:23 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -10 | Line: 0 | 
+[Wed Sep 18 19:57:23 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -10 | Line: 1 | 
+[Wed Sep 18 19:57:23 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -10 | Line: 2 | Simple Plate
+[Wed Sep 18 19:57:23 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -10 | Line: 3 | 
+[Wed Sep 18 19:57:53 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -12 | Line: 0 | 
+[Wed Sep 18 19:57:53 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -12 | Line: 1 | 
+[Wed Sep 18 19:57:53 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -12 | Line: 2 | Sleeping Bag
+[Wed Sep 18 19:57:53 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -12 | Line: 3 | 
+[Wed Sep 18 19:58:43 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -14 | Line: 0 | 
+[Wed Sep 18 19:58:43 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -14 | Line: 1 | 
+[Wed Sep 18 19:58:43 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -14 | Line: 2 | Snowgolem
+[Wed Sep 18 19:58:43 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -14 | Line: 3 | (Rename Snowman)
+[Wed Sep 18 19:59:04 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -16 | Line: 0 | 
+[Wed Sep 18 19:59:04 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -16 | Line: 1 | 
+[Wed Sep 18 19:59:04 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -16 | Line: 2 | Sofa
+[Wed Sep 18 19:59:04 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -16 | Line: 3 | 
+[Wed Sep 18 20:02:12 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -20 | Line: 0 | 
+[Wed Sep 18 20:02:12 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -20 | Line: 1 | 
+[Wed Sep 18 20:02:12 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -20 | Line: 2 | Sofa 2
+[Wed Sep 18 20:02:12 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -20 | Line: 3 | 
+[Wed Sep 18 20:03:14 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -24 | Line: 0 | 
+[Wed Sep 18 20:03:14 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -24 | Line: 1 | 
+[Wed Sep 18 20:03:14 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -24 | Line: 2 | Sofa 3
+[Wed Sep 18 20:03:14 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -24 | Line: 3 | 
+[Wed Sep 18 20:03:53 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -27 | Line: 0 | 
+[Wed Sep 18 20:03:53 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -27 | Line: 1 | 
+[Wed Sep 18 20:03:53 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -27 | Line: 2 | Street Lamp
+[Wed Sep 18 20:03:53 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -27 | Line: 3 | 
+[Wed Sep 18 20:04:29 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -29 | Line: 0 | 
+[Wed Sep 18 20:04:29 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -29 | Line: 1 | 
+[Wed Sep 18 20:04:29 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -29 | Line: 2 | Streetlamp 2
+[Wed Sep 18 20:04:29 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -29 | Line: 3 | 
+[Wed Sep 18 20:04:50 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -31 | Line: 0 | 
+[Wed Sep 18 20:04:50 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -31 | Line: 1 | 
+[Wed Sep 18 20:04:50 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -31 | Line: 2 | Streetlamp 3
+[Wed Sep 18 20:04:50 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -31 | Line: 3 | 
+[Wed Sep 18 20:06:06 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -35 | Line: 0 | 
+[Wed Sep 18 20:06:06 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -35 | Line: 1 | 
+[Wed Sep 18 20:06:06 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -35 | Line: 2 | Studio
+[Wed Sep 18 20:06:06 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -35 | Line: 3 | 
+[Wed Sep 18 20:06:10 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -35 | Line: 0 | 
+[Wed Sep 18 20:06:10 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -35 | Line: 1 | 
+[Wed Sep 18 20:06:10 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -35 | Line: 2 | Studio
+[Wed Sep 18 20:06:10 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -35 | Line: 3 | 
+[Wed Sep 18 20:06:43 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -39 | Line: 0 | 
+[Wed Sep 18 20:06:43 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -39 | Line: 1 | 
+[Wed Sep 18 20:06:43 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -39 | Line: 2 | Sunshade
+[Wed Sep 18 20:06:43 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -39 | Line: 3 | 
+[Wed Sep 18 20:10:20 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -41 | Line: 0 | 
+[Wed Sep 18 20:10:20 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -41 | Line: 1 | 
+[Wed Sep 18 20:10:20 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -41 | Line: 2 | Table
+[Wed Sep 18 20:10:20 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -41 | Line: 3 | 
+[Wed Sep 18 20:10:42 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -43 | Line: 0 | 
+[Wed Sep 18 20:10:42 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -43 | Line: 1 | 
+[Wed Sep 18 20:10:42 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -43 | Line: 2 | Tent 1
+[Wed Sep 18 20:10:42 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -43 | Line: 3 | 
+[Wed Sep 18 20:11:40 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -48 | Line: 0 | 
+[Wed Sep 18 20:11:40 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -48 | Line: 1 | 
+[Wed Sep 18 20:11:40 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -48 | Line: 2 | Tent 2
+[Wed Sep 18 20:11:40 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -48 | Line: 3 | 
+[Wed Sep 18 20:12:08 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -54 | Line: 0 | 
+[Wed Sep 18 20:12:08 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -54 | Line: 1 | 
+[Wed Sep 18 20:12:08 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -54 | Line: 2 | Toilet
+[Wed Sep 18 20:12:08 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -54 | Line: 3 | 
+[Wed Sep 18 20:12:44 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -56 | Line: 0 | 
+[Wed Sep 18 20:12:44 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -56 | Line: 1 | 
+[Wed Sep 18 20:12:44 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -56 | Line: 2 | Torn Table A
+[Wed Sep 18 20:12:44 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -56 | Line: 3 | 
+[Wed Sep 18 20:13:25 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -58 | Line: 0 | 
+[Wed Sep 18 20:13:25 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -58 | Line: 1 | 
+[Wed Sep 18 20:13:25 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -58 | Line: 2 | Trashcan
+[Wed Sep 18 20:13:25 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -58 | Line: 3 | 
+[Wed Sep 18 20:14:23 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -60 | Line: 0 | 
+[Wed Sep 18 20:14:23 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -60 | Line: 1 | 
+[Wed Sep 18 20:14:23 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -60 | Line: 2 | Trunk
+[Wed Sep 18 20:14:23 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -60 | Line: 3 | 
+[Wed Sep 18 20:14:47 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -64 | Line: 0 | 
+[Wed Sep 18 20:14:47 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -64 | Line: 1 | 
+[Wed Sep 18 20:14:47 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -64 | Line: 2 | T.V.
+[Wed Sep 18 20:14:47 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -64 | Line: 3 | 
+[Wed Sep 18 20:15:15 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -66 | Line: 0 | 
+[Wed Sep 18 20:15:15 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -66 | Line: 1 | 
+[Wed Sep 18 20:15:15 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -66 | Line: 2 | Washing Machine
+[Wed Sep 18 20:15:15 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -66 | Line: 3 | 
+[Wed Sep 18 20:15:41 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -68 | Line: 0 | 
+[Wed Sep 18 20:15:41 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -68 | Line: 1 | 
+[Wed Sep 18 20:15:41 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -68 | Line: 2 | Wash Stand
+[Wed Sep 18 20:15:41 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -68 | Line: 3 | 
+[Wed Sep 18 20:16:00 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -70 | Line: 0 | 
+[Wed Sep 18 20:16:00 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -70 | Line: 1 | 
+[Wed Sep 18 20:16:00 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -70 | Line: 2 | Wax Candle
+[Wed Sep 18 20:16:00 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -70 | Line: 3 | 
+[Wed Sep 18 20:16:24 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -72 | Line: 0 | 
+[Wed Sep 18 20:16:24 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -72 | Line: 1 | 
+[Wed Sep 18 20:16:24 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -72 | Line: 2 | Weapon Stand
+[Wed Sep 18 20:16:24 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -72 | Line: 3 | 
+[Wed Sep 18 20:16:44 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -74 | Line: 0 | 
+[Wed Sep 18 20:16:44 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -74 | Line: 1 | 
+[Wed Sep 18 20:16:44 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -74 | Line: 2 | Well
+[Wed Sep 18 20:16:44 UTC 2024] MykalsVapor | Location: X: -212 Y: 99 Z: -74 | Line: 3 | 
+[Wed Sep 18 21:57:06 UTC 2024] MihiBlu | Location: X: -91 Y: 67 Z: -31 | Line: 0 | &0ᴀᴜᴄᴛɪᴏɴ #2
+[Wed Sep 18 21:57:06 UTC 2024] MihiBlu | Location: X: -91 Y: 67 Z: -31 | Line: 1 | 15K
+[Wed Sep 18 21:57:06 UTC 2024] MihiBlu | Location: X: -91 Y: 67 Z: -31 | Line: 2 | &b0 ʙɪᴅꜱ
+[Wed Sep 18 21:57:06 UTC 2024] MihiBlu | Location: X: -91 Y: 67 Z: -31 | Line: 3 |  ᴄʟɪᴄᴋ ɢʟᴀss
+[Wed Sep 18 23:17:31 UTC 2024] MihiBlu | Location: X: -73 Y: 65 Z: -1 | Line: 0 | 
+[Wed Sep 18 23:17:31 UTC 2024] MihiBlu | Location: X: -73 Y: 65 Z: -1 | Line: 1 | &bBalanced
+[Wed Sep 18 23:17:31 UTC 2024] MihiBlu | Location: X: -73 Y: 65 Z: -1 | Line: 2 | 
+[Wed Sep 18 23:17:31 UTC 2024] MihiBlu | Location: X: -73 Y: 65 Z: -1 | Line: 3 | 
+[Wed Sep 18 23:54:43 UTC 2024] MihiBlu | Location: X: -73 Y: 65 Z: -1 | Line: 0 | 
+[Wed Sep 18 23:54:43 UTC 2024] MihiBlu | Location: X: -73 Y: 65 Z: -1 | Line: 1 | &bBalanced
+[Wed Sep 18 23:54:43 UTC 2024] MihiBlu | Location: X: -73 Y: 65 Z: -1 | Line: 2 | 
+[Wed Sep 18 23:54:43 UTC 2024] MihiBlu | Location: X: -73 Y: 65 Z: -1 | Line: 3 | 
+[Thu Sep 19 00:33:44 UTC 2024] MihiBlu | Location: X: -73 Y: 64 Z: -1 | Line: 0 | 
+[Thu Sep 19 00:33:44 UTC 2024] MihiBlu | Location: X: -73 Y: 64 Z: -1 | Line: 1 | &eDaily
+[Thu Sep 19 00:33:44 UTC 2024] MihiBlu | Location: X: -73 Y: 64 Z: -1 | Line: 2 | 
+[Thu Sep 19 00:33:44 UTC 2024] MihiBlu | Location: X: -73 Y: 64 Z: -1 | Line: 3 | 

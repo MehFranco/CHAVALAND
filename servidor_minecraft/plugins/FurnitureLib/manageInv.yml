@@ -1,0 +1,60 @@
+inv:
+  manageInvName: '&f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔'
+  playerAddInvName: '&8Add Player'
+  playerRemoveInvName: '&8Remove Player'
+  playerSetInvName: '&8Set Furniture Owner'
+  admin:
+    setOwner:
+      String: '&asᴇᴛ ғᴜʀɴɪᴛᴜʀᴇ ᴏᴡɴᴇʀ'
+      Material: DIAMOND
+      Text:
+      - '&7ᴏᴡɴᴇʀ:&c #OWNER#'
+  mode:
+    Private:
+      String: '&aᴘʀɪᴠᴀᴛᴇ'
+      Material: BLACK_BANNER
+      Text:
+      - '&7ᴏɴʟʏ ʏᴏᴜ ʜᴀᴠᴇ ᴀᴄᴄᴇꜱꜱ'
+      - '&7ᴛᴏ ᴛʜᴇ ꜰᴜʀɴɪᴛᴜʀᴇ'
+    Member:
+      String: '&aᴍᴇᴍʙᴇʀꜱ'
+      Material: ORANGE_BANNER
+      Text:
+      - '&7ᴏɴʟʏ ʏᴏᴜʀ ꜰʀɪᴇɴᴅꜱ ʜᴀᴠᴇ'
+      - '&7ᴀᴄᴄᴇꜱꜱ ᴛᴏ ᴛʜᴇ ꜰᴜʀɴɪᴛᴜʀᴇ'
+    Public:
+      String: '&aᴘᴜʙʟɪᴄ'
+      Material: GREEN_BANNER
+      Text:
+      - '&7ᴀʟʟ ᴘʟᴀʏᴇʀꜱ ʜᴀᴠᴇ ᴀᴄᴄᴇꜱꜱ'
+      - '&7ᴛᴏ ᴛʜᴇ ꜰᴜʀɴɪᴛᴜʀᴇ'
+  event:
+    Break:
+      String: '&aʙʀᴇᴀᴋ'
+      Material: BLACK_BANNER
+    Interact:
+      String: '&aɪɴᴛᴇʀᴀᴄᴛ'
+      Material: ORANGE_BANNER
+    Break_interact:
+      String: '&aʙʀᴇᴀᴋ & ɪɴᴛᴇʀᴀᴄᴛ'
+      Material: GREEN_BANNER
+    None:
+      String: '&aɴᴏɴᴇ'
+      Material: RED_BANNER
+  player:
+    add:
+      String: '&aᴀᴅᴅ ᴘʟᴀʏᴇʀ'
+      Material: PLAYER_HEAD
+    remove:
+      String: '&aʀᴇᴍᴏᴠᴇ ᴘʟᴀʏᴇʀ'
+      Material: ZOMBIE_HEAD
+  controller:
+    NextPage:
+      String: '&aɴᴇxᴛ ᴘᴀɢᴇ'
+      Material: ARROW
+    PrevPage:
+      String: '&cᴘʀᴇᴠ ᴘᴀɢᴇ'
+      Material: ARROW
+    PageItem:
+      String: '&8ᴘᴀɢᴇ #CURPAGE#/#MAXPAGE#'
+      Material: PAPER

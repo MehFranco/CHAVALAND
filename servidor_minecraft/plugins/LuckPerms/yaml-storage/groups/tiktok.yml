@@ -1,0 +1,9 @@
+name: tiktok
+permissions:
+- displayname.&#229feeᴛɪᴋᴛᴏᴋ
+- weight.100
+parents:
+- default
+prefixes:
+- '&f#229fee':
+    priority: 100

@@ -1,0 +1,12 @@
+Economy:
+  Enabled: true
+  Price: 500
+Hunger:
+  Enabled: true
+  Honches: 4
+CustomWorlds:
+  Enabled: true
+  Prices:
+  - playworld: 500
+  - playworld_nether: 750
+  - playworld_the_end: 2500

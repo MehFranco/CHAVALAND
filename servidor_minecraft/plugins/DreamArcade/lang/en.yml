@@ -1,0 +1,77 @@
+generic:
+  no_permission: "&f &fYou do not have permission to do that."
+  money_display: "&6%money%&f"
+
+games:
+  machine_in_use: "&f &fThis machine is currently in use."
+  time_left: "&aᴛɪᴍᴇ ʟᴇꜰᴛ ᴜɴᴛɪʟ ᴛʜᴇ ᴍᴀᴛᴄʜ ꜱᴛᴀʀᴛꜱ: %time%"
+  not_enough_money: "&f &fYou do not have enough money to play this game."
+  custom_bet_input: "&f &fPlease enter an amount:"
+  invalid_bet: "&f &fThe custom bet has to be a positive whole number."
+  bet_out_of_range: "&f &fThe custom bet cannot be higher than %max% or lower than %min%."
+  money_paid: "&f &f%money% has been taken from your balance."
+  money_won: "&f &f%money% has been added to your balance."
+  ###
+  cooldown: "&f &fYou have to wait &e%time% &fbefore you can play again."
+  waiting: "&f &fThe game will start in &e%time%&f."
+  hours: "ʜᴏᴜʀs"
+  hour: "ʜᴏᴜʀ"
+  minutes: "ᴍɪɴᴜᴛᴇs"
+  minute: "ᴍɪɴᴜᴛᴇ"
+  seconds: "sᴇᴄᴏɴᴅs"
+  second: "sᴇᴄᴏɴᴅ"
+  ###
+  challenge_wait: "&f &fYou have started a game of &e%game% &ffor %bet%. Wait for someone to join."
+  challenge_start: "&f &fYou have joined a game of &e%game% &fagainst &e%opponent% &ffor %bet%."
+  challenge_sent: "&f &fYou have challenged &e%opponent% &fto a game of &e%game% &ffor %bet%. They have &e%time% &fto accept. %cancel%"
+  challenge_exists: "&f &fYou already have a pending challenge. Cancel it before sending a new one."
+  challenge_yourself: "&f &fYou cannot challenge yourself."
+  challenge_doesnt_exist: "&f &fYou do not have a pending challenge."
+  challenge_received: "&f &e%opponent% &fhas challenged you to a game of &e%game% &ffor %bet%. You have &e%time% &fto accept. %accept% %deny%"
+  challenge_canceled: "&f &fYou have cancelled the challenge."
+  challenge_denied: "&f &e%opponent% &fhas denied your challenge."
+  challenge_deny: "&f &fYou have denied the challenge from &e%opponent%&f."
+  opponent_not_enough_money: "&f &e%opponent% &fdoes not have enough money."
+  cancel: "&c&l[Cancel]"
+  cancel_hover: "&cᴄʟɪᴄᴋ ᴛᴏ ᴄᴀɴᴄᴇʟ ᴛʜᴇ ɢᴀᴍᴇ"
+  accept: "&a&l[Accept]"
+  accept_hover: "&aᴄʟɪᴄᴋ ᴛᴏ sᴛᴀʀᴛ ᴛʜᴇ ɢᴀᴍᴇ"
+  deny: "&c&l[Deny]"
+  deny_hover: "&cᴄʟɪᴄᴋ ᴛᴏ ᴅᴇɴʏ"
+  ###
+  time_ran_out: "&f &fYour time ran out."
+  game_draw: "&f &fThe game against &e%opponent% &fended in a draw."
+  game_won: "&f &fYou won the game against &e%opponent%&f."
+  game_lost: "&f &fYou lost the game against &e%opponent%&f."
+  ###
+  challenge_no_players: '&aʀᴇᴀᴅʏ ᴛᴏ ᴘʟᴀʏ'
+  challenge_choosing_bet: '&7ᴘʟᴀᴄɪɴɢ ʙᴇᴛ'
+  challenge_waiting_for_opponent: '&7ᴡᴀɪᴛɪɴɢ ꜰᴏʀ ᴏᴘᴘᴏɴᴇɴᴛ &8(&e%bet%&8)'
+  challenge_playing: '&7ᴍᴀᴛᴄʜ ɪɴ ᴘʀᴏɢʀᴇꜱꜱ &8(&e%bet%&8)'
+
+blackjack:
+  won: "&f &fYou won %money%. Your total was &e%value%&f, while your opponents score was &e%opponent_value%&f."
+  lost: "&f &fYou lost. Your total was &e%value%&f, while your opponents score was &e%opponent_value%&f."
+  draw: "&f &fThe game ended in a draw. Your total was &e%value%&f and your opponents score was &e%opponent_value%&f."
+  playing: "ᴘʟᴀʏɪɴɢ"
+  standing: "ꜱᴛᴀɴᴅɪɴɢ"
+
+crash:
+  stopped: "&f &fYou stopped at &e%value% &fand won &e%money% &ffrom your bet of &e%bet%&f."
+  crashed: "&f &fThe game crashed at &e%value%&f!"
+  cooldown: '&7ᴄʀᴀꜱʜ ᴏᴘᴇɴꜱ ɪɴ &b%time%'
+  betting: '&7ᴍᴀᴛᴄʜ ꜱᴛᴀʀᴛꜱ ɪɴ &b%time%'
+  crashing: '&7ɢᴀᴍᴇ ɪs ʀᴜɴɴɪɴɢ | ɪɴᴄʀᴇᴀꜱɪɴɢ: &b%value%x'
+
+jackpot:
+  cooldown: '&7ᴊᴀᴄᴋᴘᴏᴛ ᴏᴘᴇɴꜱ ɪɴ &e%time%'
+  active: '&7ᴊᴀᴄᴋᴘᴏᴛ: &6%amount% &8| &7ᴛɪᴍᴇ ʟᴇғᴛ: &e%time%'
+  finish: '&eᴄʜᴏᴏꜱɪɴɢ ᴡɪɴɴᴇʀ...'
+  end: '&f &f%player% has won the jackpot and received %money%!'
+  won: '&f &fYou won the jackpot!'
+
+admin:
+  machine_placed: "&f &fYou placed a machine. (id: %id%)"
+  machine_removed: "&f &fYou removed a machine. (id: %id%)"
+  cant_place_machine: "&f &fYou cannot place a machine here."
+  sneak_to_remove: "&f &fThe id of this machine is &e%id%&f. If you want to remove it, break it while sneaking."

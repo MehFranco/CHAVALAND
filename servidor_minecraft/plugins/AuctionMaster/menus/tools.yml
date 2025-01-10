@@ -1,0 +1,15 @@
+tools-menu-item: 'STICK#1'
+tools-menu-name: '&aᴛᴏᴏʟꜱ'
+tools-menu-lore:
+  - '&8ᴄᴀᴛᴇɢᴏʀʏ'
+  - ''
+
+  - ' &f▪ ᴛᴏᴏʟꜱ'
+
+#If you have custom items that you want to be in this
+#category, specify their name here
+custom-item-names:
+  - '&e&lExample &6&lItem'
+
+custom-item-ids:
+  - '304'

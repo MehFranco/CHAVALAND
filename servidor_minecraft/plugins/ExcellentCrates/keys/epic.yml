@@ -1,0 +1,15 @@
+Name: §f §dEpic Key
+Virtual: false
+Item:
+  Material: STICK
+  Custom_Model_Data: 144
+  Amount: 1
+  Durability: 0
+  Name: '&f'
+  Lore:
+  - '&7ᴜsᴇ ᴛʜɪs ᴋᴇʏ ᴀᴛ'
+  - '&7/ᴡᴀʀᴘ ᴄʀᴀᴛᴇs'
+  - ''
+  - '&8ᴇᴘɪᴄ ᴄʀᴀᴛᴇ'
+  Item_Flags: []
+  Unbreakable: false

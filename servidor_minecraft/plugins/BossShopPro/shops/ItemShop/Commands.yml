@@ -1,0 +1,233 @@
+ShopName: Commands
+DisplayName: '&f'
+Command: Commands
+RemovePlayerInventory: true
+shop:
+#########################################################################################
+#    HEADER ITEMS
+#########################################################################################
+  Tools_Category:
+    MenuItem:
+    - 'lore1:&7ɪᴛᴇᴍꜱ ᴛʜᴀᴛ ʜᴇʟᴘ #&7ᴇᴀꜱᴇ ʏᴏᴜʀ ᴡᴏʀᴋ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Tools
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  Commands_Category:
+    MenuItem:
+    - 'lore1:&esᴇʟᴇᴄᴛᴇᴅ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Commands
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  Cosmetics_Category:
+    MenuItem:
+    - 'lore1:&7ʜᴀᴛs ᴛʜᴀᴛ ᴄᴀɴ ɪᴍᴘʀᴏᴠᴇ#&7ʏᴏᴜʀ ᴀᴘᴘᴇᴀʀᴀɴᴄᴇ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: hatsshop
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  Spawner_Category:
+    MenuItem:
+    - 'lore1:&7ʙʟᴏᴄᴋs ᴛʜᴀᴛ ꜱᴘᴀᴡɴ ᴍᴏʙꜱ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Spawners
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+  Furniture_Category:
+    MenuItem:
+    - 'lore1:&7ɪᴛᴇᴍꜱ ᴛᴏ ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ#&7ʜᴏᴜꜱᴇ ᴀɴᴅ ɢᴀʀᴅᴇɴ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Furniture
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+  Backpacks_Category: 
+    MenuItem:
+    - 'lore1:&7ᴜꜱᴇꜰᴜʟ ꜰᴏʀ ꜱᴛᴏʀɪɴɢ ɪᴛᴇᴍꜱ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: backpacks
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+  Previous_Shops:
+    MenuItem:
+    - name:&8ɴᴇxᴛ sʜᴏᴘs
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: 2_Select
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  Inventory_Size:
+    MenuItem:
+    - name:&f
+    - type:stick
+    - custommodeldata:1
+    InventoryLocation: 54
+#########################################################################################
+#    ITEMS AVAILABLE FOR SALE
+#########################################################################################
+  command_back:
+    MenuItem:
+    - "lore1: &7ʀᴇᴛᴜʀɴ ᴛᴏ ᴛʜᴇ ᴘʀᴇᴠɪᴏᴜꜱ ʟᴏᴄᴀᴛɪᴏɴ"
+    - 'lore3:&f  ▪ ᴘʀɪᴄᴇ: #dad45e%price%#&f#&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - name:&aʙᴀᴄᴋ
+    - amount:1
+    - type:ENDER_PEARL
+    RewardType: COMMAND
+    Reward:
+    - back %player%
+    PriceType: MONEY
+    Price: 3200
+    Message: '&f &fTeleportation performed!'
+    ExtraPermission: ''
+    InventoryLocation: 21
+  command_fly:
+    MenuItem:
+    - 'lore1:&7ʏᴏᴜ ᴡɪʟʟ ʜᴀᴠᴇ ᴀᴄᴄᴇꜱꜱ ᴛᴏ#&7ꜰʟʏ ꜰᴏʀ 12 ʜᴏᴜʀꜱ'
+    - 'lore3:&f  ▪ ᴘʀɪᴄᴇ: #dad45e%price%#&f#&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - name:&aꜰʟʏ 12ʜ
+    - amount:1
+    - type:ELYTRA
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission settemp essentials.fly true 12h
+    PriceType: MONEY
+    Price: 2500
+    Message: '&f &fFly now!'
+    ExtraPermission: ''
+    InventoryLocation: 23
+  command_sun:
+    MenuItem:
+    - "lore1: &7ᴛʜᴇ ꜱᴜɴ ɪꜱ ᴄᴏᴍɪɴɢ ᴏᴜᴛ#&7ᴏꜰ ᴛʜᴇ ᴄʟᴏᴜᴅꜱ"
+    - 'lore3:&f  ▪ ᴘʀɪᴄᴇ: #dad45e%price%#&f#&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - name:&aꜱᴜɴ
+    - amount:1
+    - type:SUNFLOWER
+    RewardType: COMMAND
+    Reward:
+    - sun playworld sun
+    PriceType: MONEY
+    Price: 1500
+    Message: '&f &fSunny!'
+    ExtraPermission: ''
+    InventoryLocation: 25
+  command_top:
+    MenuItem:
+    - "lore1: &7ᴛᴇʟᴇᴘᴏʀᴛ ᴛᴏ ᴛʜᴇ ꜱᴜʀꜰᴀᴄᴇ"
+    - 'lore3:&f  ▪ ᴘʀɪᴄᴇ: #dad45e%price%#&f#&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - name:&aᴛᴏᴘ
+    - amount:1
+    - type:slime_block
+    RewardType: COMMAND
+    Reward:
+    - top %player%
+    PriceType: MONEY
+    Price: 1500
+    Message: '&f &fTeleportation performed!'
+    ExtraPermission: ''
+    InventoryLocation: 30
+  command_day:
+    MenuItem:
+    - 'lore1:&7ᴛʜɪꜱ ɪᴛᴇᴍ ɪꜱ ᴠɪꜱɪʙʟᴇ#&7ᴀᴛ ɴɪɢʜᴛ ᴏɴʟʏ'
+    - 'lore3:&f  ▪ ᴘʀɪᴄᴇ: #dad45e%price%#&f#&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - name:&aᴅᴀʏ
+    - amount:1
+    - type:jack_o_lantern
+    RewardType: COMMAND
+    Reward:
+    - day set day playworld
+    PriceType: MONEY
+    Price: 1350
+    Message: '&f &fTime was set to day.'
+    ExtraPermission: ''
+    InventoryLocation: 34
+    Condition:
+    - type:worldtime
+    - between:11615:24000
+    - type:World
+    - match:playworld 
+  command_night:
+    MenuItem:
+    - 'lore1:&7ᴛʜɪꜱ ɪᴛᴇᴍ ɪꜱ ᴠɪꜱɪʙʟᴇ#&7ᴀᴛ ᴅᴀʏ ᴏɴʟʏ'
+    - 'lore3:&f  ▪ ᴘʀɪᴄᴇ: #dad45e%price%#&f#&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    - name:&aɴɪɢʜᴛ
+    - amount:1
+    - type:carved_pumpkin
+    RewardType: COMMAND
+    Reward:
+    - night set night playworld
+    PriceType: MONEY
+    Price: 1800
+    Message: '&f &f &fTime was set to night.'
+    ExtraPermission: ''
+    InventoryLocation: 34
+    Condition:
+    - type:worldtime
+    - between:0:11615
+    - type:World
+    - match:playworld
+  command_day_blocked:
+    MenuItem:
+    - 'lore1:&7ᴛʜɪꜱ ɪᴛᴇᴍ ɪꜱ ᴠɪꜱɪʙʟᴇ#&7ᴀᴛ ɴɪɢʜᴛ ᴏɴʟʏ'
+    - 'lore3:&cᴜɴᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴛʜɪꜱ ᴡᴏʀʟᴅ'
+    - name:&aᴅᴀʏ
+    - amount:1
+    - type:jack_o_lantern
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 34
+    Condition:
+    - type:worldtime
+    - between:11615:24000
+  command_night_blocked:
+    MenuItem:
+    - 'lore1:&7ᴛʜɪꜱ ɪᴛᴇᴍ ɪꜱ ᴠɪꜱɪʙʟᴇ#&7ᴀᴛ ᴅᴀʏ ᴏɴʟʏ'
+    - 'lore3:&cᴜɴᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴛʜɪꜱ ᴡᴏʀʟᴅ'
+    - name:&aɴɪɢʜᴛ
+    - amount:1
+    - type:carved_pumpkin
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 34
+    Condition:
+    - type:worldtime
+    - between:0:11615

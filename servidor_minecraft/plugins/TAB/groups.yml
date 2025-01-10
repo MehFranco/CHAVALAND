@@ -1,0 +1,73 @@
+per-world: {}
+Default:
+  tabprefix: '#a6a4a4'
+  tagprefix: '#a6a4a4'
+  tabsuffix: ''
+  tagsuffix: ''
+  customtabname: '%essentials_nickname%'
+Youtube:
+  tabprefix: '&f#fe172d '
+  tagprefix: '&f#fe172d '
+  tabsuffix: ''
+  tagsuffix: ''
+  customtabname: '%essentials_nickname%'
+Tiktok:
+  tabprefix: '&f#229fee '
+  tagprefix: '&f#229fee '
+  tabsuffix: ''
+  tagsuffix: ''
+  customtabname: '%essentials_nickname%'
+Twitch:
+  tabprefix: '&f#9c5ff7 '
+  tagprefix: '&f#9c5ff7 '
+  tabsuffix: ''
+  tagsuffix: ''
+  customtabname: '%essentials_nickname%'
+Vip:
+  tabprefix: '&f#f8a637 '
+  tagprefix: '&f#f8a637 '
+  tabsuffix: ''
+  tagsuffix: ''
+  customtabname: '%essentials_nickname%'
+Mvp:
+  tabprefix: '&f#0ca5bd '
+  tagprefix: '&f#0ca5bd '
+  tabsuffix: ''
+  tagsuffix: ''
+  customtabname: '%essentials_nickname%'
+Pro:
+  tabprefix: '&f#e150ba '
+  tagprefix: '&f#e150ba '
+  tabsuffix: ''
+  tagsuffix: ''
+  customtabname: '%essentials_nickname%'
+Helper:
+  tabprefix: '&f#43cf29 '
+  tagprefix: '&f#43cf29 '
+  tabsuffix: ''
+  tagsuffix: ''
+  customtabname: '%essentials_nickname%'
+Mod:
+  tabprefix: '&f#8965d3 '
+  tagprefix: '&f#8965d3 '
+  tabsuffix: ''
+  tagsuffix: ''
+  customtabname: '%essentials_nickname%'
+Admin:
+  tabprefix: '&f#e12a3c '
+  tagprefix: '&f#e12a3c '
+  tabsuffix: ''
+  tagsuffix: ''
+  customtabname: '%essentials_nickname%'
+Developer:
+  tabprefix: '&f#6d92fc '
+  tagprefix: '&f#6d92fc '
+  tabsuffix: ''
+  tagsuffix: ''
+  customtabname: '%essentials_nickname%'
+Owner:
+  tabprefix: '&f#b5114d '
+  tagprefix: '&f#b5114d '
+  tabsuffix: ''
+  tagsuffix: ''
+  customtabname: '%essentials_nickname%'

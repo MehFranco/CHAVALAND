@@ -1,0 +1,51 @@
+Items:
+  LuckySword:
+    Price: 200.0
+    Icon:
+      Id: golden_sword
+      Name: "&eLucky sword"
+    RequiredJobLevels:
+    - Hunter-5
+    PerformCommands:
+    - "msg &6Survival &8| &fThanks&e [player] &ffor buying this sword!"
+    - "jobs give [player] luckysword"
+  LuckyPickaxe:
+    Price: 200.0
+    Icon:
+      Id: golden_pickaxe
+      Name: "&eLucky pickaxe"
+    RequiredJobLevels:
+    - Miner-5
+    PerformCommands:
+    - "msg &6Survival &8| &fThanks&e [player] &ffor buying this pickaxe!"
+    - "jobs give [player] luckypickaxe"
+  LuckyAxe:
+    Price: 200.0
+    Icon:
+      Id: golden_axe
+      Name: "&eLucky axe"
+    RequiredJobLevels:
+    - Woodcutter-5
+    PerformCommands:
+    - "msg &6Survival &8| &fThanks&e [player] &ffor buying this pickaxe!"
+    - "jobs give [player] luckyaxe"
+  LuckyShovel:
+    Price: 200.0
+    Icon:
+      Id: golden_shovel
+      Name: "&eLucky shovel"
+    RequiredJobLevels:
+    - Digger-5
+    PerformCommands:
+    - "msg &6Survival &8| &fThanks&e [player] &ffor buying this pickaxe!"
+    - "jobs give [player] luckyshovel"
+  LuckyHoe:
+    Price: 200.0
+    Icon:
+      Id: golden_hoe
+      Name: "&eLucky hoe"
+    RequiredJobLevels:
+    - Farmer-5
+    PerformCommands:
+    - "msg &6Survival &8| &fThanks&e [player] &ffor buying this pickaxe!"
+    - "jobs give [player] luckyhoe"

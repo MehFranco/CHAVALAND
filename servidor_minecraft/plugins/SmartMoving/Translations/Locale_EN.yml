@@ -1,0 +1,5 @@
+#if Empty, Plugin uses default prefix
+prefix: ""
+reloadMsg: "&f &fCompleted reloading config"
+commandWrongUsage: "&f &fWrong Usage, &fUse /smartmoving reload"
+noPermission: "&f &fYou don't have permission"

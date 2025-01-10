@@ -1,0 +1,47 @@
+Settings:
+  # GUI title.
+  Title: <white>&f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔</white>
+  # GUI size. Must be multiply of 9.
+  # Useful for 'CHEST' Inventory Type only.
+  Size: 54
+  # GUI type.
+  # https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/event/inventory/InventoryType.html
+  Inventory_Type: CHEST
+  # Sets GUI auto-refresh interval (in seconds). Set this to 0 to disable.
+  Auto_Refresh: 0
+  Mode: NORMAL
+  WinSlots: 31
+  ScriptRunner:
+    OnOpen:
+    - '[run_reward] id:"default" name:"default" delay:"0" slots:"28,29,30,31,32,33,34" mode:"sequental" chance:"100.0"'
+    OnStart: []
+  Selection:
+    Amount: 1
+    SelectedIcon:
+      Material: ENDER_CHEST
+    AutoRun: false
+  # Sets max. amount of the opening ticks while players can skip the opening animation.
+  # Set to -1 to disable (no skip).
+  Max_Ticks_To_Skip: 40
+  PlaceholderAPI:
+    # Sets whether PlaceholderAPI placeholders will be applied on all items from the 'Content' section of this GUI.
+    # [*] Disable if you don't use any PlaceholderAPI placeholders on your items to improve GUI performance.
+    Enabled: false
+
+Rewards:
+  default:
+    Rarities:
+    - '*'
+    Spin_Times: 51
+    Spin_Interval: 1
+    Spin_Slowdown:
+      Step: 5
+      Amount: 1
+    Spin_Sound:
+      # Sound name. You can use Spigot sound names, or ones from your resource pack.
+      # Spigot Sounds: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+      Name: BLOCK_NOTE_BLOCK_BELL
+      # Sound volume. From 0.0 to 1.0.
+      Volume: 0.9
+      # Sound speed. From 0.5 to 2.0
+      Pitch: 1.0

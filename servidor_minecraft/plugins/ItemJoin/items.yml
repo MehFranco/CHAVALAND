@@ -1,0 +1,28 @@
+# --{ =-=-=-=-=-=-=-=-=-= ItemJoin's Custom Item Configurations, by RockinChaos =-=-=-=-=-=-=-=-=-= }--
+# See the tutorial page for a more in-depth explanation; https://github.com/RockinChaos/ItemJoin/wiki
+# Join the discord for easy plugin support; https://discord.gg/D5FnJ7C
+# 
+# Modifying this will cause this file to break and regenerate.
+items-Version: 8
+items-Delay: 2
+items-Overwrite: false
+items-Spamming: false
+items-RestrictCount: false
+items:
+  menu1:
+    id: STICK
+    model-data: 10
+    slot: 8
+    name: '&f'
+    lore:
+    - '&7ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴛʜᴀᴛ ʜᴇʟᴘꜱ ʏᴏᴜ'
+    - '&7ɢᴇᴛ ᴛᴏ ᴍᴀɪɴ ᴍᴇɴᴜꜱ ꜰᴀꜱᴛᴇʀ'
+    - ''
+    - '&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+    interact:
+      - 'player: menu'
+    inventory:
+      - 'player: menu'
+    itemflags: death-drops, self-drops, inventory-modify, placement
+    triggers: join, respawn, world-switch
+    enabled-worlds: world, playworld, playworld_nether, playworld_the_end

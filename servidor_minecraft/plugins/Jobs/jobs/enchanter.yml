@@ -1,0 +1,781 @@
+Enchanter:
+  fullname: Enchanter
+  shortname: E
+  description: '&fEarn money enchanting weapons.'
+  ChatColour: DARK_BLUE
+  chat-display: full
+  max-level: 50
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  maxDailyQuests: 1
+  Quests:
+    '1':
+      Name: Sorcerer
+      Objectives:
+      - Enchant;iron_pickaxe;1
+      RewardCommands:
+      - eco give [playerName] 220
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fMagically get money'
+      - '&8 ▪ &fGet 220$ for this!'
+    '2':
+      Name: Sorcerer II
+      Objectives:
+      - Enchant;golden_sword;1
+      - Enchant;golden_axe;1
+      RewardCommands:
+      - eco give [playerName] 280
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fMagically get money'
+      - '&8 ▪ &fGet 280$ for this!'
+    '3':
+      Name: Sorcerer III
+      Objectives:
+      - Enchant;diamond_pickaxe;1
+      - Enchant;diamond_shovel;1
+      RewardCommands:
+      - eco give [playerName] 340
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fMagically get money'
+      - '&8 ▪ &fGet 340$ for this!'
+    '4':
+      Name: Sorcerer IV
+      Objectives:
+      - Enchant;netherite_axe;1
+      - Enchant;iron_boots;1
+      RewardCommands:
+      - eco give [playerName] 540
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fMagically get money'
+      - '&8 ▪ &fGet 540$ for this!'
+    '5':
+      Name: Sorcerer V
+      Objectives:
+      - Enchant;diamond_chestplate;1
+      - Enchant;arrow_damage;1
+      RewardCommands:
+      - eco give [playerName] 450
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fMagically get money'
+      - '&8 ▪ &fGet 450$ for this!'
+    '6':
+      Name: Sorcerer VI
+      Objectives:
+      - Enchant;golden_axe;1
+      - Enchant;golden_shovel;1
+      - Enchant;protection_environmental;1
+      RewardCommands:
+      - eco give [playerName] 440
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fMagically get money'
+      - '&8 ▪ &fGet 440$ for this!'
+    '7':
+      Name: Sorcerer VII
+      Objectives:
+      - Enchant;dig_speed;1
+      - Enchant;protection_explosions;1
+      RewardCommands:
+      - eco give [playerName] 500
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fMagically get money'
+      - '&8 ▪ &fGet 500$ for this!'
+    '8':
+      Name: Sorcerer VIII
+      Objectives:
+      - Enchant;durability;2
+      RewardCommands:
+      - eco give [playerName] 440
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fMagically get money'
+      - '&8 ▪ &fGet 440$ for this!'
+    '9':
+      Name: Sorcerer IX
+      Objectives:
+      - Enchant;wood_sword;1
+      - Enchant;diamond_sword;1
+      - Enchant;arrow_damage;1
+      RewardCommands:
+      - eco give [playerName] 500
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fMagically get money'
+      - '&8 ▪ &fGet 500$ for this!'
+    '10':
+      Name: Sorcerer X
+      Objectives:
+      - Enchant;netherite_chestplate;1
+      - Enchant;fire_aspect;1
+      RewardCommands:
+      - eco give [playerName] 620
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fMagically get money'
+      - '&8 ▪ &fGet 620$ for this!'
+    '11':
+      Name: Sorcerer XI
+      Objectives:
+      - Enchant;stone_axe;1
+      - Enchant;stone_shovel;1
+      - Enchant;damage_all;2
+      RewardCommands:
+      - eco give [playerName] 520
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fMagically get money'
+      - '&8 ▪ &fGet 520$ for this!'
+  Gui:
+    Id: 116
+    Data: 0
+  Enchant:
+    book:
+      income: 2.0
+      points: 2.0
+      experience: 2.5
+    wooden_sword:
+      income: 1.0
+      points: 1.0
+      experience: 2.0
+    wooden_pickaxe:
+      income: 1.5
+      points: 1.5
+      experience: 2.0
+    wooden_axe:
+      income: 1.5
+      points: 1.5
+      experience: 2.0
+    wooden_shovel:
+      income: 0.6
+      points: 0.6
+      experience: 2.0
+    wooden_hoe:
+      income: 1.1
+      points: 1.1
+      experience: 2.0
+    leather_boots:
+      income: 1.5
+      points: 1.5
+      experience: 1.5
+    leather_chestplate:
+      income: 1.5
+      points: 1.5
+      experience: 1.5
+    leather_helmet:
+      income: 1.5
+      points: 1.5
+      experience: 1.5
+    leather_leggings:
+      income: 1.5
+      points: 1.5
+      experience: 1.5
+    stone_sword:
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+    stone_pickaxe:
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+    stone_axe:
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+    stone_shovel:
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+    stone_hoe:
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+    iron_sword:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    iron_pickaxe:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    iron_axe:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    iron_shovel:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    iron_hoe:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    iron_boots:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    iron_chestplate:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    iron_helmet:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    iron_leggings:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    golden_sword:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    golden_pickaxe:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    golden_axe:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    golden_shovel:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    golden_hoe:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    gold_boots:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    golden_chestplate:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    golden_helmet:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    golden_leggings:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    diamond_sword:
+      income: 7.0
+      points: 7.0
+      experience: 7.0
+    diamond_pickaxe:
+      income: 7.0
+      points: 7.0
+      experience: 7.0
+    diamond_axe:
+      income: 7.0
+      points: 7.0
+      experience: 7.0
+    diamond_shovel:
+      income: 7.0
+      points: 7.0
+      experience: 7.0
+    diamond_hoe:
+      income: 7.0
+      points: 7.0
+      experience: 7.0
+    diamond_helmet:
+      income: 7.0
+      points: 7.0
+      experience: 7.0
+    diamond_chestplate:
+      income: 7.0
+      points: 7.0
+      experience: 7.0
+    diamond_leggings:
+      income: 7.0
+      points: 7.0
+      experience: 7.0
+    diamond_boots:
+      income: 7.0
+      points: 7.0
+      experience: 7.0
+    netherite_sword:
+      income: 9.0
+      points: 9.0
+      experience: 9.0
+    netherite_pickaxe:
+      income: 9.0
+      points: 9.0
+      experience: 9.0
+    netherite_axe:
+      income: 9.0
+      points: 9.0
+      experience: 9.0
+    netherite_shovel:
+      income: 9.0
+      points: 9.0
+      experience: 9.0
+    netherite_hoe:
+      income: 9.0
+      points: 9.0
+      experience: 9.0
+    netherite_helmet:
+      income: 9.0
+      points: 9.0
+      experience: 9.0
+    netherite_chestplate:
+      income: 9.0
+      points: 9.0
+      experience: 9.0
+    netherite_leggings:
+      income: 9.0
+      points: 9.0
+      experience: 9.0
+    netherite_boots:
+      income: 9.0
+      points: 9.0
+      experience: 9.0
+    bow:
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+    crossbow:
+      income: 3.0
+      points: 3.0
+      experience: 3.0
+    ARROW_DAMAGE-1:
+      income: 2.0
+      points: 2.0
+      experience: 2.0
+    ARROW_DAMAGE-2:
+      income: 3.25
+      points: 3.25
+      experience: 3.25
+    ARROW_DAMAGE-3:
+      income: 4.5
+      points: 4.5
+      experience: 4.5
+    ARROW_DAMAGE-4:
+      income: 5.75
+      points: 5.75
+      experience: 5.75
+    ARROW_DAMAGE-5:
+      income: 7.0
+      points: 7.0
+      experience: 7.0
+    ARROW_FIRE-1:
+      income: 3.0
+      points: 3.0
+      experience: 3.0
+    ARROW_INFINITE-1:
+      income: 4.5
+      points: 4.5
+      experience: 4.5
+    ARROW_KNOCKBACK-1:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    ARROW_KNOCKBACK-2:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    BINDING_CURSE-1:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    CHANNELING-1:
+      income: 4.25
+      points: 4.25
+      experience: 4.25
+    DAMAGE_ALL-1:
+      income: 3.25
+      points: 3.25
+      experience: 3.25
+    DAMAGE_ALL-2:
+      income: 4.5
+      points: 4.5
+      experience: 4.5
+    DAMAGE_ALL-3:
+      income: 5.75
+      points: 5.75
+      experience: 5.75
+    DAMAGE_ALL-4:
+      income: 7.0
+      points: 7.0
+      experience: 7.0
+    DAMAGE_ALL-5:
+      income: 8.25
+      points: 8.25
+      experience: 8.25
+    DAMAGE_ARTHROPODS-1:
+      income: 2.75
+      points: 2.75
+      experience: 0.75
+    DAMAGE_ARTHROPODS-2:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    DAMAGE_ARTHROPODS-3:
+      income: 5.25
+      points: 5.25
+      experience: 5.25
+    DAMAGE_ARTHROPODS-4:
+      income: 6.5
+      points: 6.5
+      experience: 6.5
+    DAMAGE_ARTHROPODS-5:
+      income: 7.5
+      points: 7.5
+      experience: 7.5
+    DAMAGE_UNDEAD-1:
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+    DAMAGE_UNDEAD-2:
+      income: 3.75
+      points: 3.75
+      experience: 3.75
+    DAMAGE_UNDEAD-3:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    DAMAGE_UNDEAD-4:
+      income: 6.0
+      points: 6.0
+      experience: 6.0
+    DAMAGE_UNDEAD-5:
+      income: 7.0
+      points: 7.0
+      experience: 7.0
+    DEPTH_STRIDER-1:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    DEPTH_STRIDER-2:
+      income: 5.5
+      points: 5.5
+      experience: 5.5
+    DEPTH_STRIDER-3:
+      income: 8.0
+      points: 8.0
+      experience: 8.0
+    DIG_SPEED-1:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    DIG_SPEED-2:
+      income: 5.25
+      points: 5.25
+      experience: 5.25
+    DIG_SPEED-3:
+      income: 6.5
+      points: 6.5
+      experience: 6.5
+    DIG_SPEED-4:
+      income: 7.75
+      points: 7.75
+      experience: 7.75
+    DIG_SPEED-5:
+      income: 9.0
+      points: 9.0
+      experience: 9.0
+    DURABILITY-1:
+      income: 3.0
+      points: 3.0
+      experience: 3.0
+    DURABILITY-2:
+      income: 4.5
+      points: 4.5
+      experience: 4.5
+    DURABILITY-3:
+      income: 6.0
+      points: 6.0
+      experience: 6.0
+    FIRE_ASPECT-1:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    FIRE_ASPECT-2:
+      income: 6.0
+      points: 6.0
+      experience: 6.0
+    FROST_WALKER-1:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    FROST_WALKER-2:
+      income: 6.5
+      points: 6.5
+      experience: 6.5
+    IMPALING-1:
+      income: 3.0
+      points: 3.0
+      experience: 3.0
+    IMPALING-2:
+      income: 4.25
+      points: 4.25
+      experience: 4.25
+    IMPALING-3:
+      income: 5.5
+      points: 5.5
+      experience: 5.5
+    IMPALING-4:
+      income: 6.75
+      points: 6.75
+      experience: 6.75
+    IMPALING-5:
+      income: 8.0
+      points: 8.0
+      experience: 8.0
+    KNOCKBACK-1:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    KNOCKBACK-2:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    LOOT_BONUS_BLOCKS-1:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    LOOT_BONUS_BLOCKS-2:
+      income: 6.0
+      points: 6.0
+      experience: 6.0
+    LOOT_BONUS_BLOCKS-3:
+      income: 8.0
+      points: 8.0
+      experience: 8.0
+    LOOT_BONUS_MOBS-1:
+      income: 4.5
+      points: 4.5
+      experience: 4.5
+    LOOT_BONUS_MOBS-2:
+      income: 6.5
+      points: 6.5
+      experience: 6.5
+    LOOT_BONUS_MOBS-3:
+      income: 8.5
+      points: 8.5
+      experience: 8.5
+    LOYALTY-1:
+      income: 3.5
+      points: 3.5
+      experience: 3.5
+    LOYALTY-2:
+      income: 4.75
+      points: 4.75
+      experience: 4.75
+    LOYALTY-3:
+      income: 6.0
+      points: 6.0
+      experience: 6.0
+    LUCK-1:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    LUCK-2:
+      income: 6.0
+      points: 6.0
+      experience: 6.0
+    LUCK-3:
+      income: 8.0
+      points: 8.0
+      experience: 8.0
+    LURE-1:
+      income: 3.5
+      points: 3.5
+      experience: 3.5
+    LURE-2:
+      income: 4.75
+      points: 4.75
+      experience: 4.75
+    LURE-3:
+      income: 6
+      points: 6
+      experience: 6
+    MENDING:
+      income: 10
+      points: 10
+      experience: 10
+    OXYGEN-1:
+      income: 4
+      points: 4
+      experience: 4
+    OXYGEN-2:
+      income: 5.5
+      points: 5.5
+      experience: 5.5
+    OXYGEN-3:
+      income: 7
+      points: 7
+      experience: 7
+    PIERCING-1:
+      income: 3.5
+      points: 3.5
+      experience: 3.5
+    PIERCING-2:
+      income: 4.75
+      points: 4.75
+      experience: 4.75
+    PIERCING-3:
+      income: 6
+      points: 6
+      experience: 6
+    PIERCING-4:
+      income: 7.25
+      points: 7.25
+      experience: 7.25
+    PROTECTION_ENVIRONMENTAL-1:
+      income: 4
+      points: 4
+      experience: 4
+    PROTECTION_ENVIRONMENTAL-2:
+      income: 5.5
+      points: 5.5
+      experience: 5.5
+    PROTECTION_ENVIRONMENTAL-3:
+      income: 7
+      points: 7
+      experience: 7
+    PROTECTION_ENVIRONMENTAL-4:
+      income: 8.5
+      points: 8.5
+    PROTECTION_EXPLOSIONS-1:
+      income: 3.25
+      points: 3.25
+      experience: 3.25
+    PROTECTION_EXPLOSIONS-2:
+      income: 4.75
+      points: 4.75
+      experience: 4.75
+    PROTECTION_EXPLOSIONS-3:
+      income: 6.5
+      points: 6.5
+      experience: 6.5
+    PROTECTION_EXPLOSIONS-4:
+      income: 8
+      points: 8
+      experience: 8
+    PROTECTION_FALL-1:
+      income: 4
+      points: 4
+      experience: 4
+    PROTECTION_FALL-2:
+      income: 5.5
+      points: 5.5
+      experience: 5.5
+    PROTECTION_FALL-3:
+      income: 7
+      points: 7
+      experience: 7
+    PROTECTION_FALL-4:
+      income: 8.5
+      points: 8.5
+      experience: 8.5
+    PROTECTION_FIRE-1:
+      income: 3.5
+      points: 3.5
+      experience: 3.5
+    PROTECTION_FIRE-2:
+      income: 4.75
+      points: 4.75
+      experience: 4.75
+    PROTECTION_FIRE-3:
+      income: 6
+      points: 6
+      experience: 6
+    PROTECTION_FIRE-4:
+      income: 7
+      points: 7
+      experience: 7
+    PROTECTION_PROJECTILE-1:
+      income: 3.5
+      points: 3.5
+      experience: 3.5
+    PROTECTION_PROJECTILE-2:
+      income: 4.75
+      points: 4.75
+      experience: 4.75
+    PROTECTION_PROJECTILE-3:
+      income: 6
+      points: 6
+      experience: 6
+    PROTECTION_PROJECTILE-4:
+      income: 7
+      points: 7
+      experience: 7
+    QUICK_CHARGE-1:
+      income: 4
+      points: 4
+      experience: 4
+    QUICK_CHARGE-2:
+      income: 5
+      points: 5
+      experience: 5
+    QUICK_CHARGE-3:
+      income: 6
+      points: 6
+      experience: 6
+    RIPTIDE-1:
+      income: 4
+      points: 4
+      experience: 4
+    RIPTIDE-2:
+      income: 5
+      points: 5
+      experience: 5
+    RIPTIDE-3:
+      income: 6
+      points: 6
+      experience: 6
+    SILK_TOUCH-1:
+      income: 6
+      points: 6
+      experience: 6
+    SWEEPING_EDGE-1:
+      income: 3.5
+      points: 3.5
+      experience: 3.5
+    SWEEPING_EDGE-2:
+      income: 4.75
+      points: 4.75
+      experience: 4.74
+    SWEEPING_EDGE-3:
+      income: 6
+      points: 6
+      experience: 6
+    SWEEPING_EDGE-4:
+      income: 7
+      points: 7
+      experience: 7
+    THORNS-1:
+      income: 5
+      points: 5
+      experience: 5
+    THORNS-2:
+      income: 7.5
+      points: 7.5
+      experience: 7.5
+    THORNS-3:
+      income: 10
+      points: 10
+      experience: 10
+    VANISHING_CURSE-1:
+      income: 5
+      points: 5
+      experience: 5
+    WATER_WORKER-1:
+      income: 6
+      points: 6
+      experience: 6

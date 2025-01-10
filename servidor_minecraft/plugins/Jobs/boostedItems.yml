@@ -1,0 +1,99 @@
+# Attention! If category name has _ in it, that means its legacy item which was converted from jobConfig.yml file
+# Keep this format until you will be sure that all legacy items have been converted throw usage, which is automatic process when player uses items with boost in them
+
+# Name which will be used to identify this particular item boost
+# This is EXAMPLE boost and will be ignored
+exampleBoost:
+  # Item information, on usage read more at https://www.zrips.net/cmi/commands/icwol/
+  # You can use ingame command /jobs edititemboost to give particular boost to any item you are holding
+  ItemStack: Golden_shovel;n{&2Custom_item_name};l{&2Some_random\n&5Lore_with_some\n{#pink}Colors};FIRE_ASPECT:1,DAMAGE_ALL:1
+  # [Required] Money boost: 1.1 is equals 10% more income when 0.9 is equals 10% less from base income
+  moneyBoost: 1.0
+  expBoost: 1.0
+  pointsBoost: 1.0
+  # [Required] Jobs which should receive this boost
+  # Can be specific jobs or use 'all' to give this boost for every job
+  jobs:
+  - Miner
+  - Woodcutter
+  - all
+  # (Optional) Defines level of job from which this boost should be applied
+  # Keep in mind that if boost have multiple jobs, then level will be checked by job which is requesting boost value
+  levelFrom: 0
+  # (Optional) Defines level of job until which this boost should be applied
+  levelUntil: 50
+luckysword:
+  jobs:
+  - Hunter
+  moneyBoost: 1.5
+  expBoost: 1.0
+  pointsBoost: 1.0
+  id: Golden_Sword
+  name: '&8 » &eLucky Sword'
+  lore:
+  - '&f'
+  - '&8 ▪ &fIf you use this sword, money'
+  - '&f received from the job Hunter'
+  - '&f will be multiplied  by 150%!'
+  enchants:
+  - DIG_SPEED=1
+luckypickaxe:
+  jobs:
+  - Miner
+  moneyBoost: 1.5
+  expBoost: 1.0
+  pointsBoost: 1.0
+  id: Golden_Pickaxe
+  name: '&8 » &eLucky Pickaxe'
+  lore:
+  - '&f'
+  - '&8 ▪ &fIf you use this pickaxe, money'
+  - '&f received from the job Miner'
+  - '&f will be multiplied  by 150%!'
+  enchants:
+  - DAMAGE_ALL=1
+luckyaxe:
+  jobs:
+  - Woodcutter
+  moneyBoost: 1.5
+  expBoost: 1.0
+  pointsBoost: 1.0
+  id: Golden_axe
+  name: '&8 » &eLucky Axe'
+  lore:
+  - '&f'
+  - '&8 ▪ &fIf you use this axe, money'
+  - '&f received from the job Woodcutter'
+  - '&f will be multiplied  by 150%!'
+  enchants:
+  - DAMAGE_ALL=1
+luckyshovel:
+  jobs:
+  - Digger
+  moneyBoost: 1.5
+  expBoost: 1.0
+  pointsBoost: 1.0
+  id: Golden_shovel
+  name: '&8 » &eLucky Shovel'
+  lore:
+  - '&f'
+  - '&8 ▪ &fIf you use this shovel, money'
+  - '&f received from the job Digger'
+  - '&f will be multiplied  by 150%!'
+  enchants:
+  - DAMAGE_ALL=1
+luckyhoe:
+  jobs:
+  - Farmer
+  moneyBoost: 1.5
+  expBoost: 1.0
+  pointsBoost: 1.0
+  id: Golden_hoe
+  name: '&8 » &eLucky Hoe'
+  lore:
+  - '&f'
+  - '&8 ▪ &fIf you use this hoe, money'
+  - '&f received from the job Farmer'
+  - '&f will be multiplied  by 150%!'
+  enchants:
+  - DAMAGE_ALL=1

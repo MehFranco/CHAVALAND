@@ -1,0 +1,25 @@
+# ------------------------------------  #
+#                                       #
+#       never touch the system-ID !     #
+#                                       #
+# ------------------------------------  #
+
+SimplePlate:
+  displayName: '&asɪᴍᴘʟᴇᴘʟᴀᴛᴇ'
+  system-ID: SimplePlate
+  spawnMaterial: BOOK
+  itemGlowEffect: false
+  itemLore: 
+  - '&7ᴀ ꜰᴜɴᴄᴛɪᴏɴᴀʟ ᴘʟᴀᴛᴇ,'
+  - '&7ɪᴅᴇᴀʟ ꜰᴏʀ ᴅᴇᴄᴏʀᴀᴛɪᴏɴꜱ.'
+  crafting:
+    disable: true
+    recipe: xxx,xxx,xxx
+    index:
+      x: BEDROCK
+  projectData:
+    entities:
+      '0': H4sIAAAAAAAAAI2Su1LCQBSGTyTAEl7A2sbKF7DBIElgBghDGCU0mRUW2DEXZrPA5BEsrXwctHEsLCzsfQBrezc3QBln3Orff3e/c1sFoADVLvbIFQ3pjUsAYqdoedh1Uy2rzAtTWepgdkuY0FIByoYbrKk/i48QyDEjFormc8qjQbQgUFX7HbPvWAO12yhApY5D0nMxJylA1inL4lVa/mobX1IEZOkSpvozlyiA2po+cNqaUQJpuLn/ME7eLxyhbciW0KPcBwXkpqY24rt75z/u5hpytkgzYT9fH3/e9VYH7MyP2XWzYf+TXem3jOYO/vbUe3hB9d8Pajt49iCrtPZHpbmfhBB9Iz4PWISgeNnUrIEYhNnVsiYgOKITOPWoT8YMT/n5nOBV5KwJnc05mTgLRsJwyYiziKciCUSw9Lkkplg2db0pppbiEKCO2uruG7LI0tpudE3LIic9DcaY08AvARqemdNpSPiuADQ6tOzM2ny9xuuxCAUbryH9G2WD4ZX4Ucn2G72VM36wAgAA
+      '1': H4sIAAAAAAAAAI2SvU7DMBDHr0qauukLMNOZiQcoKXU+pCapmgiaLpVBbhXhJsgJrfoIjGzwNN2Q2FmYGBl4CZwPR0UIqTf972/75/OddQAFeh5Z06s4i28YBSicdrAmjFVaNfg6q6TmEn5HudAtBToWS7dxsiqWEKgFA7S+E2K3j0DHSR7nu3B3T6FnTF1/ughCwxsp0B2SjE4YyWmFUc2Y17d2nWTTVNHSBeSBUW4kK0Z1QGNshosxtjRozfZPn9bp+8VC6AjqEHoufdBBtbExKvYerP/aKzVItiizZL9en3w/TjZ/2LVfsIf+KDqS3Z06lt3Ajz9Qv3Twz0ulX54QfaNJnvIdgvaljYNQjMP3MKqaIJOOb5q2mIHMkWs43qGhijuDJjExrjllh9JbksdpogGanfnLZUbzwceLiGdRDprX1v6tsSJpfZ0XAW1QIrKFatIdi5ON+B9l+gMu3h5MhAIAAA==
+      '2': H4sIAAAAAAAAAI2SvU7DMBDHr0qauukLMNOZZygpdT6kJqmaCJoulUFuFeEmyAmturEyssHTdENiZ2HiAVh5AJwPR0UIqTf97+/zz2efdQAFeh5Z08s4i68ZBSicdrAmjFVaNfg6q6TmEn5LudAtBToWS7dxsiqWEKgFA7S+E2K3j0DHSR7nu3B3R6FnTF1/ughCwxsp0B2SjE4YyWmFUc2Y16d2nWTTdNHSBeSeUW4kK0Z1QGNshosxtjRozfZPn9bp+/lC6AjqEHoufdBBtbExKmoP1n/VSg2SLdos2a9XJ1+Pk80fdu0X7KE/io5kd6eOZTfw4zfUNx38c1PplzvEu9EkT/kOQfvCxkEoxuF7GFWPIJOOb5q2mIHMkWs43qGhijODJjExrjnlC6U3JI/TRAM0O/OXy4zmg48XEc+iHTSvrf1bY0Wy6ntZxEMblIhsoZp0x+JkI/5Hmf4AjPHbioQCAAA=
+  placeAbleSide: TOP

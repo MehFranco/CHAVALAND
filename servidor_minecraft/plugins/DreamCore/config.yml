@@ -1,0 +1,247 @@
+enabled_placeholder: Enabled
+disabled_placeholder: Disabled
+
+# Allows the use of colors in anvils
+# Permissions: dreamcore.anvilcolors.use
+anvil_colors:
+  enabled: true
+
+# Adds autocomplete for specific custom commands
+auto_complete:
+  enabled: true
+  commands:
+    settings:
+      description: 'Open the settings menu'
+      usage: '/settings'
+      # permission: 'dreamcore.battlepass.use'
+      # aliases:
+      #   - bp
+    store:
+      description: 'Open the store menu'
+      usage: '/store'
+    guide:
+      description: 'Open the guide menu'
+      usage: '/guide'
+    wikipedia:
+      description: 'Open the wikipedia menu'
+      usage: '/wikipedia'
+    furnitures:
+      description: 'Open the furnitures shop'
+      usage: '/furnitures'
+    spawners:
+      description: 'Open the spawners shop'
+      usage: '/spawners'
+    cosmetics:
+      description: 'Open the cosmetics shop'
+      usage: '/cosmetics'
+    commands:
+      description: 'Open the commands shop'
+      usage: '/commands'
+    therift:
+      description: 'Open the rift quests system'
+      usage: '/therift'
+    profile:
+      description: 'Open the profile menu'
+      usage: '/profile'
+    upgrades:
+      description: 'Open the upgrades menu'
+      usage: '/upgrades'
+    menu:
+      description: 'Open the server menu'
+      usage: '/menu'
+    links:
+      description: 'See the server links'
+      usage: '/links'
+      
+# Allows the use of totems without requiring them to be in the off hand
+# Permissions: dreamcore.autototem.use
+auto_totem:
+  enabled: true
+  default: true
+  first_time_message: '&f &fYou can toggle auto totem using &e/autototem&f.'
+  enabled_message: '&f &fYou have &eenabled&f auto totem.'
+  disabled_message: '&f &fYou have &edisabled&f auto totem.'
+  no_permission: '&f &fYou do not have permission to use this command.'
+
+# Allows opening two connected doors at the same time, including iron doors
+# Permissions: dreamcore.doubledoors.open, dreamcore.doubledoors.iron_doors
+double_doors:
+  enabled: true
+  default: true
+  open_iron_doors: true
+  first_time_message: '&f &fYou can toggle opening double and iron doors using &e/doubledoors&f.'
+  enabled_message: '&f &fYou have &eenabled&f opening double and iron doors.'
+  disabled_message: '&f &fYou have &edisabled&f opening double and iron doors.'
+  no_permission: '&f &fYou do not have permission to use this command.'
+  region_iron_doors_message: '&f &fYou cannot open iron doors here!'
+  region_double_doors_message: ''
+
+# Automatically picks up items for players
+# Permissions: dreamcore.droptoinventory.use
+drop_to_inventory:
+  enabled: true
+  default: true
+  full_inventory: '&f &fYour inventory is full!'
+  play_sound: true
+  # Whether to get the items of a killed player. Setting to false might cause some problems with grave plugins.
+  bypass_players: true
+  first_time_message: '&f &fYou can toggle automatic item pick-up using &e/apickup.'
+  enabled_message: '&f &fYou have &eenabled&f automatic item pick-up.'
+  disabled_message: '&f &fYou have &edisabled&f automatic item pick-up.'
+  no_permission: '&f &fYou do not have permission to use this command.'
+
+# Edit signs by right clicking them
+# Permissions: dreamcore.editablesigns.use, dreamcore.editablesigns.color
+editable_signs:
+  enabled: true
+  default: true
+  replace_color_codes: true
+  region_message: ''
+  first_time_message: '&f &fYou can toggle sign editing using &e/signedit.'
+  enabled_message: '&f &fYou have &eenabled&f sign editing.'
+  disabled_message: '&f &fYou have &edisabled&f sign editing.'
+  no_permission: '&f &fYou do not have permission to use this command.'
+
+# Replaced emojis in chat
+# Permissions: dreamcore.emoji.*, dreamcore.emoji.<emoji_name>
+emojis:
+  enabled: true
+  list:
+    clown:
+      trigger: ':clown:'
+      value: '&f⼔&7'
+    dead:
+      trigger: ':dead:'
+      value: '&f⼕&7'
+    eyes:
+      trigger: ':eyes:'
+      value: '&f⼖&7'
+    flushed:
+      trigger: ':flushed:'
+      value: '&f⼗&7'
+    forme:
+      trigger: ':forme:'
+      value: '&f⼘&7'
+    hearteyes:
+      trigger: ':hearteyes:'
+      value: '&f⼙&7'
+    laugh:
+      trigger: ':laugh:'
+      value: '&f⼚&7'
+    look:
+      trigger: ':look:'
+      value: '&f⼛&7'
+    money:
+      trigger: ':money:'
+      value: '&f⼜&7'
+    ohyeah:
+      trigger: ':ohyeah:'
+      value: '&f⼝&7'
+    party:
+      trigger: ':party:'
+      value: '&f⼞&7'
+    shock:
+      trigger: ':shock:'
+      value: '&f⼠&7'
+    sick:
+      trigger: ':sick:'
+      value: '&f⼡&7'
+    thumbsup:
+      trigger: ':thumbsup:'
+      value: '&f⼢&7'
+    thumbsdown:
+      trigger: ':thumbsdown:'
+      value: '&f⼣&7'
+    unamused:
+      trigger: ':unamused:'
+      value: '&f⼤&7'
+    sunglasses:
+      trigger: ':sunglasses:'
+      value: '&f⼥&7'
+  region_message: '&cYou cannot use emojis here!'
+
+# Place the item in your hand on your head
+# Permissions: dreamcore.hat.use
+hat:
+  enabled: true
+  allowed_materials:
+    - leather_horse_armor
+  allowed_custom_model_data: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+  success: '&f &fEnjoy your new hat!'
+  bad_material: '&f &fYou can not put that on your head!'
+  no_item: '&f &fYou don''t have an item in your hand!'
+  not_enough_space: '&f &fYou don''t have enough space in your inventory!'
+  no_permission: '&f &fYou do not have permission to use this command.'
+  region_message: '&f &fYou cannot use hats here!'
+
+# Displays an improved plugin list
+# Permissions: dreamcore.pluginlist.use
+plugin_list:
+  enabled: true
+  no_permission: '&f &fYou do not have permission to use this command.'
+  message: '&f &9Plugins (%count%): %plugins%'
+  separator: '&f, '
+  plugin_name: '%name% &7(%version%)'
+  enabled_prefix: '&a'
+  disabled_prefix: '&c'
+  plugin_hover:
+    - '&fVersion: &b%version%'
+    - '&fAuthor: &b%authors%'
+
+# Better give command.
+# This command is used in a lot of configs
+# Permissions: dreamcore.give
+give_command:
+  enabled: true
+  no_permission: '&f &fYou do not have permission to use this command.'
+  # Whether the item should still be given to the player even if there are errors
+  send_with_errors: false
+  item_received: "&f &fYou received &b%amount% %item%&f."
+  item_given: "&f &fYou gave &b%amount% %item%&f to &b%player%&f."
+  item_dropped: "&f &fYour inventory is full. The item was dropped on the ground."
+
+# Resource pack loader
+resource_pack_loader:
+  enabled: true
+  # Leave empty to use resource pack from server.properties
+  url: 'https://download.mc-packs.net/pack/4b592848c3fca8b05c7e77fc924c48304f2243b6.zip'
+  # Leave empty to use prompt from server.properties
+  prompt: '&cɢᴇᴛ ᴏᴜʀ ʀᴇꜱᴏᴜʀᴄᴇ ᴘᴀᴄᴋ ᴛᴏ ꜱᴇᴇ ᴀʟʟ ᴛʜᴇ ᴄᴜꜱᴛᴏᴍ ᴄᴏɴᴛᴇɴᴛ!'
+  hash: ''
+  force: true
+  delay: 60
+  only_on_first_join: false
+
+# Adds new flags to WorldGuard
+# These flags include: fly, godmode, break-custom-1, break-custom-2 and random-tp
+worldguard_flags:
+  enabled: true
+  rtp_world: "playworld"
+  block_break_message: '&f &fYou cannot break this block here!'
+  custom_blocks:
+    '1':
+      - carrots[age=7]
+      - potatoes[age=7]
+      - wheat[age=7]
+      - beetroots[age=3]
+    '2': 
+      - coal_ore
+      - iron_ore
+      - copper_ore
+      - gold_ore
+      - redstone_ore
+      - lapis_ore
+      - diamond_ore
+      - emerald_ore
+      
+# Set a custom title for custom ender chests and bookshelves
+# in order to use the custom guis from the texture pack
+custom_inventory_fix:
+  enabled: true
+  enderchest: "&f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔"
+  bookshelf: "&f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔"
+  shulker: "§f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔"
+
+# Run a command based on the platform of the sender
+java_bedrock_command:
+  enabled: true

@@ -1,0 +1,16 @@
+consumables-menu-item: 'STICK#1'
+consumables-menu-name: '&aᴄᴏɴꜱᴜᴍᴀʙʟᴇꜱ'
+consumables-menu-lore:
+  - '&8ᴄᴀᴛᴇɢᴏʀʏ'
+  - ''
+
+  - ' &f▪ ᴘᴏᴛɪᴏɴꜱ'
+  - ' &f▪ ꜰᴏᴏᴅ'
+
+#If you have custom items that you want to be in this
+#category, specify their name here
+custom-item-names:
+  - '&e&lExample &6&lItem'
+
+custom-item-ids:
+  - '302'

@@ -1,0 +1,596 @@
+ShopName: BattlePass1
+DisplayName: '&f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔'
+RemovePlayerInventory: true
+shop:
+  FreePass_Redeemed_4:
+    MenuItem:
+    - name:#a28277&mꜰʀᴇᴇ ᴘᴀss ᴛɪᴇʀ ɪᴠ
+    - 'lore1:&f ▪ Steak &7x32'
+    - 'lore3:&f &eᴀʟʀᴇᴀᴅʏ ʀᴇᴅᴇᴇᴍᴇᴅ'
+    - amount:1
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - type:stick
+    - custommodeldata:51
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 28
+    Condition:
+    - type:permission
+    - match:rift.take.4
+  FreePass_Reward_4:
+    MenuItem:
+    - name:#a28277ꜰʀᴇᴇ ᴘᴀss ᴛɪᴇʀ ɪᴠ
+    - 'lore1:&f ▪ Steak &7x32'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - amount:1
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - type:cooked_beef
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set rift.take.4
+    - give %player% cooked_beef 32
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 28
+    Condition:
+    - type:permission
+    - match:rift.ready.4
+  FreePass_Redeemed_5:
+    MenuItem:
+    - name:#a28277&mꜰʀᴇᴇ ᴘᴀss ᴛɪᴇʀ ᴠ
+    - 'lore1:&f ▪ Fishing Rod &7x1 #&f #a2f1ff Luck of the Sea I'
+    - 'lore3:&f &eᴀʟʀᴇᴀᴅʏ ʀᴇᴅᴇᴇᴍᴇᴅ'
+    - amount:1
+    - type:stick
+    - custommodeldata:51
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 30
+    Condition:
+    - type:permission
+    - match:rift.take.5
+  FreePass_Reward_5:
+    MenuItem:
+    - name:#a28277ꜰʀᴇᴇ ᴘᴀss ᴛɪᴇʀ ᴠ
+    - 'lore1:&f ▪ Fishing Rod &7x1 #&f #a2f1ff Luck of the Sea I'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - amount:1
+    - type:fishing_rod
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set rift.take.5
+    - dgive %player% fishing_rod 1 -enchant luck_of_the_sea
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 30
+    Condition:
+    - type:permission
+    - match:rift.ready.5
+  FreePass_Redeemed_6:
+    MenuItem:
+    - name:#a28277&mꜰʀᴇᴇ ᴘᴀss ᴛɪᴇʀ ᴠɪ
+    - 'lore1:&f ▪ Brewing Stand &7x1'
+    - 'lore3:&f &eᴀʟʀᴇᴀᴅʏ ʀᴇᴅᴇᴇᴍᴇᴅ'
+    - amount:1
+    - type:stick
+    - custommodeldata:51
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+    Condition:
+    - type:permission
+    - match:rift.take.6
+  FreePass_Reward_6:
+    MenuItem:
+    - name:#a28277ꜰʀᴇᴇ ᴘᴀss ᴛɪᴇʀ ᴠɪ
+    - 'lore1:&f ▪ Brewing Stand &7x1'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - amount:1
+    - type:brewing_stand
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set rift.take.6
+    - give %player% brewing_stand 1
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+    Condition:
+    - type:permission
+    - match:rift.ready.6
+  FreePass_Redeemed_7:
+    MenuItem:
+    - name:#a28277&mꜰʀᴇᴇ ᴘᴀss ᴛɪᴇʀ ᴠɪɪ
+    - 'lore1:&f ▪ Diamond Sword &7x1#&f #a2f1ff Sharpness II'
+    - 'lore3:&f &eᴀʟʀᴇᴀᴅʏ ʀᴇᴅᴇᴇᴍᴇᴅ'
+    - amount:1
+    - type:stick
+    - custommodeldata:51
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 34
+    Condition:
+    - type:permission
+    - match:rift.take.7
+  FreePass_Reward_7:
+    MenuItem:
+    - name:#a28277ꜰʀᴇᴇ ᴘᴀss ᴛɪᴇʀ ᴠɪɪ
+    - 'lore1:&f ▪ Diamond Sword &7x1#&f #a2f1ff Sharpness II'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - amount:1
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - type:diamond_sword
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set rift.take.7
+    - give %player% diamond_sword 1 sharpness:2
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 34
+    Condition:
+    - type:permission
+    - match:rift.ready.7
+  FreePass_Redeemed_8:
+    MenuItem:
+    - name:#a28277&mꜰʀᴇᴇ ᴘᴀss ᴛɪᴇʀ ᴠɪɪɪ
+    - 'lore1:&f ▪ Bundle &7x1'
+    - 'lore3:&f &eᴀʟʀᴇᴀᴅʏ ʀᴇᴅᴇᴇᴍᴇᴅ'
+    - amount:1
+    - type:stick
+    - custommodeldata:51
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 36
+    Condition:
+    - type:permission
+    - match:rift.take.8
+  FreePass_Reward_8:
+    MenuItem:
+    - name:#a28277ꜰʀᴇᴇ ᴘᴀss ᴛɪᴇʀ ᴠɪɪɪ
+    - 'lore1:&f ▪ Bundle &7x1'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - amount:1
+    - type:bundle
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set rift.take.8
+    - give %player% bundle 1
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 36
+    Condition:
+    - type:permission
+    - match:rift.ready.8
+###########################
+  FreePass_Locked_4:
+    MenuItem:
+    - name:#a28277ꜰʀᴇᴇ ᴘᴀss ᴛɪᴇʀ ɪᴠ
+    - 'lore1:&f ▪ Steak &7x32'
+    - 'lore3:&f #f46161ɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:50
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 28
+  FreePass_Locked_5:
+    MenuItem:
+    - name:#a28277ꜰʀᴇᴇ ᴘᴀss ᴛɪᴇʀ ᴠ
+    - 'lore1:&f ▪ Fishing Rod &7x1 #&f #a2f1ff Luck of the Sea I'
+    - 'lore3:&f #f46161ɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:50
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 30
+  FreePass_Locked_6:
+    MenuItem:
+    - name:#a28277ꜰʀᴇᴇ ᴘᴀss ᴛɪᴇʀ ᴠɪ
+    - 'lore1:&f ▪ Brewing Stand &7x1'
+    - 'lore3:&f #f46161ɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:50
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+  FreePass_Locked_7:
+    MenuItem:
+    - name:#a28277ꜰʀᴇᴇ ᴘᴀss ᴛɪᴇʀ ᴠɪɪ
+    - 'lore1:&f ▪ Diamond Sword &7x1#&f #a2f1ff Sharpness II'
+    - 'lore3:&f #f46161ɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:50
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 34
+  FreePass_Locked_8:
+    MenuItem:
+    - name:#a28277ꜰʀᴇᴇ ᴘᴀss ᴛɪᴇʀ ᴠɪɪɪ
+    - 'lore1:&f ▪ Bundle &7x1'
+    - 'lore3:&f #f46161ɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:50
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 36
+#########################################################################################################################
+  PremiumPass_Redeemed_4:
+    MenuItem:
+    - name:#ffab4c&mᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ ɪᴠ
+    - 'lore1:&f ▪ Iron Chestplate &7x1 #&f #a2f1ff Protection II'
+    - 'lore3:&f &eᴀʟʀᴇᴀᴅʏ ʀᴇᴅᴇᴇᴍᴇᴅ'
+    - amount:1
+    - type:stick
+    - custommodeldata:53
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+    Condition:
+    - type:permission
+    - match:rift.take.p4
+  PremiumPass_Reward_4:
+    MenuItem:
+    - name:#ffab4cᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ ɪᴠ
+    - 'lore1:&f ▪ Iron Chestplate &7x1 #&f #a2f1ff Protection II'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - amount:1
+    - type:iron_chestplate
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set rift.take.p4
+    - give %player% iron_chestplate 1 protection:2
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+    Condition:
+    - type:permission
+    - match:rift.ready.4
+    - type:permission
+    - match:battlepass.premium
+  PremiumPass_Redeemed_5:
+    MenuItem:
+    - name:#ffab4c&mᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ ᴠɪ
+    - 'lore1:&f ▪ Tuff Bricks &7x40'
+    - 'lore3:&f &eᴀʟʀᴇᴀᴅʏ ʀᴇᴅᴇᴇᴍᴇᴅ'
+    - amount:1
+    - type:stick
+    - custommodeldata:53
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    Condition:
+    - type:permission
+    - match:rift.take.p6
+  PremiumPass_Reward_5:
+    MenuItem:
+    - name:#ffab4cᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ ᴠɪ
+    - 'lore1:&f ▪ Tuff Bricks &7x40'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - amount:1
+    - type:tuff_bricks
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set rift.take.p6
+    - dgive %player% tuff_bricks 40
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    Condition:
+    - type:permission
+    - match:rift.ready.6
+    - type:permission
+    - match:battlepass.premium
+  PremiumPass_Redeemed_6:
+    MenuItem:
+    - name:#ffab4c&mᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ ᴠ
+    - 'lore1:&f ▪ Enchanting Table &7x1'
+    - 'lore3:&f &eᴀʟʀᴇᴀᴅʏ ʀᴇᴅᴇᴇᴍᴇᴅ'
+    - amount:1
+    - type:stick
+    - custommodeldata:53
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+    Condition:
+    - type:permission
+    - match:rift.take.p5
+  PremiumPass_Reward_6:
+    MenuItem:
+    - name:#ffab4cᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ ᴠ
+    - 'lore1:&f ▪ Enchanting Table &7x1'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - amount:1
+    - type:enchanting_table
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set rift.take.p5
+    - give %player% enchanting_table 1
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+    Condition:
+    - type:permission
+    - match:rift.ready.5
+    - type:permission
+    - match:battlepass.premium
+  PremiumPass_Redeemed_7:
+    MenuItem:
+    - name:#ffab4c&mᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ ᴠɪɪ
+    - 'lore1:&f ▪ Powered Rail &7x24'
+    - 'lore3:&f &eᴀʟʀᴇᴀᴅʏ ʀᴇᴅᴇᴇᴍᴇᴅ'
+    - amount:1
+    - type:stick
+    - custommodeldata:53
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+    Condition:
+    - type:permission
+    - match:rift.take.p7
+  PremiumPass_Reward_7:
+    MenuItem:
+    - name:#ffab4cᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ ᴠɪɪ
+    - 'lore1:&f ▪ Powered Rail &7x24'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - amount:1
+    - hideflags:HIDE_ATTRIBUTES#HIDE_ENCHANTS
+    - type:powered_rail
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set rift.take.p7
+    - give %player% powered_rail 24
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+    Condition:
+    - type:permission
+    - match:rift.ready.7
+    - type:permission
+    - match:battlepass.premium
+  PremiumPass_Redeemed_8:
+    MenuItem:
+    - name:#ffab4c&mᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ ᴠɪɪɪ
+    - 'lore1:&f ▪ sᴛʀᴀᴡ ʜᴀᴛ &7x1'
+    - 'lore3:&f &eᴀʟʀᴇᴀᴅʏ ʀᴇᴅᴇᴇᴍᴇᴅ'
+    - amount:1
+    - type:stick
+    - custommodeldata:53
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 18
+    Condition:
+    - type:permission
+    - match:rift.take.p8
+  PremiumPass_Reward_8:
+    MenuItem:
+    - name:#ffab4cᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ ᴠɪɪɪ
+    - 'lore1:&f ▪ sᴛʀᴀᴡ ʜᴀᴛ &7x1'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - amount:1
+    - type:leather_horse_armor
+    - custommodeldata:15
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set rift.take.p8
+    - dgive %player% leather_horse_armor 1 -name <#FFEC15>sᴛʀᴀᴡ ʜᴀᴛ -lore &7ɪᴅᴇᴀʟ ꜰᴏʀ ᴀɴ\n&7ᴇsᴛᴀʙʟɪsʜᴇᴅ ꜰᴀʀᴍᴇʀ -custommodeldata 15
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 18
+    Condition:
+    - type:permission
+    - match:rift.ready.8
+    - type:permission
+    - match:battlepass.premium
+###########################
+  PremiumPass_Locked_4:
+    MenuItem:
+    - name:#ffab4cᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ ɪᴠ
+    - 'lore1:&f ▪ Iron Chestplate &7x1 #&f #a2f1ff Protection II'
+    - 'lore3:&f #f46161ɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:52
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+    Condition:
+    - type:permission
+    - match:battlepass.premium
+  PremiumPass_Locked_5:
+    MenuItem:
+    - name:#ffab4cᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ ᴠɪ
+    - 'lore1:&f ▪ Tuff Bricks &7x40'
+    - 'lore3:&f #f46161ɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:52
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    Condition:
+    - type:permission
+    - match:battlepass.premium
+  PremiumPass_Locked_6:
+    MenuItem:
+    - name:#ffab4cᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ ᴠ
+    - 'lore1:&f ▪ Enchanting Table &7x1'
+    - 'lore3:&f #f46161ɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:52
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+    Condition:
+    - type:permission
+    - match:battlepass.premium
+  PremiumPass_Locked_7:
+    MenuItem:
+    - name:#ffab4cᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ ᴠɪɪ
+    - 'lore1:&f ▪ Powered Rail &7x24'
+    - 'lore3:&f #f46161ɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:52
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+    Condition:
+    - type:permission
+    - match:battlepass.premium
+  PremiumPass_Locked_8:
+    MenuItem:
+    - name:#ffab4cᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ ᴠɪɪɪ
+    - 'lore1:&f ▪ sᴛʀᴀᴡ ʜᴀᴛ &7x1'
+    - 'lore3:&f #f46161ɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:52
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 18
+    Condition:
+    - type:permission
+    - match:battlepass.premium  
+###########################
+  No_PremiumPass_4:
+    MenuItem:
+    - 'name:#ffab4cᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ ɪᴠ'
+    - 'lore1:&f ▪ Iron Chestplate &7x1 #&f #a2f1ff Protection II'
+    - amount:1
+    - type:stick
+    - custommodeldata:52
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+  No_PremiumPass_5:
+    MenuItem:
+    - 'name:#ffab4cᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ ᴠɪ'
+    - 'lore1:&f ▪ Tuff Bricks &7x40'
+    - amount:1
+    - type:stick
+    - custommodeldata:52
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+  No_PremiumPass_6:
+    MenuItem:
+    - 'name:#ffab4cᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ ᴠ'
+    - 'lore1:&f ▪ Enchanting Table &7x1'
+    - amount:1
+    - type:stick
+    - custommodeldata:52
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+  No_PremiumPass_7:
+    MenuItem:
+    - 'name:#ffab4cᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ ᴠɪɪ'
+    - 'lore1:&f ▪ Powered Rail &7x24'
+    - amount:1
+    - type:stick
+    - custommodeldata:52
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+  No_PremiumPass_8:
+    MenuItem:
+    - name:#ffab4cᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ ᴠɪɪɪ
+    - 'lore1:&f ▪ sᴛʀᴀᴡ ʜᴀᴛ &7x1'
+    - amount:1
+    - type:stick
+    - custommodeldata:52
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 18
+####################################################################################################################
+  Previous:
+    MenuItem:
+    - name:&8ᴘʀᴇᴠɪᴏᴜs ᴘᴀɢᴇ
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Battlepass
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 37
+  Next:
+    MenuItem:
+    - name:&8ɴᴇxᴛ ᴘᴀɢᴇ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: BattlePass2
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 45
+  InvItem:
+    MenuItem:
+    - name:&f
+    - type:stick
+    - custommodeldata:1
+    InventoryLocation: 50

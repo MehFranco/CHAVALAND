@@ -1,0 +1,440 @@
+Hunter:
+  fullname: Hunter
+  shortname: H
+  description: '&fEarn money killing animals and monsters.'
+  ChatColour: RED
+  chat-display: full
+  max-level: 100
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  maxDailyQuests: 1
+  Quests:
+    '1':
+      Name: Huntsman
+      Objectives:
+      - Kill;Zombie;8
+      RewardCommands:
+      - eco give [playerName] 200
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fKill zombies and get money'
+      - '&8 ▪ &fGet 200$ for this!'
+    '2':
+      Name: Huntsman II
+      Objectives:
+      - Kill;Skeleton;8
+      RewardCommands:
+      - eco give [playerName] 220
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fKill skeletons and get money'
+      - '&8 ▪ &fGet 220$ for this!'
+    '3':
+      Name: Huntsman III
+      Objectives:
+      - Kill;Spider;8
+      RewardCommands:
+      - eco give [playerName] 220
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fKill spiders and get money'
+      - '&8 ▪ &fGet 220$ for this!'
+    '4':
+      Name: Huntsman IV
+      Objectives:
+      - Kill;Zombie;8
+      - Kill;Spider;6
+      RewardCommands:
+      - eco give [playerName] 240
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fKill anything that moves and get money'
+      - '&8 ▪ &fGet 240$ for this!'
+    '5':
+      Name: Huntsman V
+      Objectives:
+      - Kill;Zombie;8
+      - Kill;Skeleton;6
+      RewardCommands:
+      - eco give [playerName] 240
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fKill anything that moves and get money'
+      - '&8 ▪ &fGet 240$ for this!'
+    '6':
+      Name: Huntsman VI
+      Objectives:
+      - Kill;Skeleton;6
+      - Kill;Spider;6
+      RewardCommands:
+      - eco give [playerName] 260
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fKill anything that moves and get money'
+      - '&8 ▪ &fGet 260$ for this!'
+    '7':
+      Name: Huntsman VII
+      Objectives:
+      - Kill;Creeper;4
+      RewardCommands:
+      - eco give [playerName] 300
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fKill creepers and get money'
+      - '&8 ▪ &fGet 300$ for this!'
+    '8':
+      Name: Huntsman VIII
+      Objectives:
+      - Kill;Creeper;4
+      - Kill;Witch;3
+      RewardCommands:
+      - eco give [playerName] 320
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fKill anything that moves and get money'
+      - '&8 ▪ &fGet 320$ for this!'
+    '9':
+      Name: Butcher
+      Objectives:
+      - Kill;Cow;8
+      - Kill;Pig;5
+      RewardCommands:
+      - eco give [playerName] 240
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fKill anything that moves and get money'
+      - '&8 ▪ &fGet 240$ for this!'
+    '10':
+      Name: Butcher II
+      Objectives:
+      - Kill;Sheep;8
+      - Kill;Cow;5
+      RewardCommands:
+      - eco give [playerName] 250
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fKill anything that moves and get money'
+      - '&8 ▪ &fGet 250$ for this!'
+    '11':
+      Name: Butcher III
+      Objectives:
+      - Kill;Chicken;8
+      - Kill;Rabbit;5
+      RewardCommands:
+      - eco give [playerName] 260
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fKill anything that moves and get money'
+      - '&8 ▪ &fGet 260$ for this!'
+    '12':
+      Name: Huntsman IX
+      Objectives:
+      - Kill;Slime;5
+      RewardCommands:
+      - eco give [playerName] 300
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fKill slimes and get money'
+      - '&8 ▪ &fGet 300$ for this!'
+    '13':
+      Name: Huntsman X
+      Objectives:
+      - Kill;CAVE_SPIDER;4
+      - Kill;Spider;4
+      RewardCommands:
+      - eco give [playerName] 300
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fKill anything that moves and get money'
+      - '&8 ▪ &fGet 300$ for this!'
+    '14':
+      Name: Ghostbuster
+      Objectives:
+      - Kill;Ghast;1
+      RewardCommands:
+      - eco give [playerName] 350
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fKill the flying cloud and get money'
+      - '&8 ▪ &fGet 350$ for this!'
+  Gui:
+    Id: 261
+    Data: 0
+  Kill:
+    Bat:
+      income: 2.0
+      points: 2.0
+      experience: 2.0
+    Bee:
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+    Cat:
+      income: -6.0
+      points: -6.0
+      experience: -6.0
+    Cod:
+      income: 3.0
+      points: 3.0
+      experience: 3.0
+    Dolphin:
+      income: -8.0
+      points: -8.0
+      experience: -8.0
+    Donkey:
+      income: 1.5
+      points: 1.5
+      experience: 1.0
+    Fox:
+      income: -6.5
+      points: -6.5
+      experience: -6.5
+    Horse:
+      income: 2.0
+      points: 2.0
+      experience: 3.0
+    Llama:
+      income: 4.0
+      points: 4.0
+      experience: 5.0
+    Mule:
+      income: 2.0
+      points: 2.0
+      experience: 2.0
+    mushroom_cow:
+      income: -10.0
+      points: -10.0
+      experience: -10.0
+    Ocelot:
+      income: -6.0
+      points: -6.0
+      experience: -6.0
+    Panda:
+      income: -9.5
+      points: -9.5
+      experience: -9.5
+    Parrot:
+      income: -7.0
+      points: -7.0
+      experience: -7.0
+    pufferfish:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    polar_bear:
+      income: -8.0
+      points: -8.0
+      experience: -8.0
+    salmon:
+      income: 3.0
+      points: 3.0
+      experience: 3.0
+    trader_llama:
+      income: 4.0
+      points: 4.0
+      experience: 5.0
+    tropical_fish:
+      income: 4.0
+      points: 4.0
+      experience: 5.0
+    turtle:
+      income: 3.25
+      points: 3.25
+      experience: 3.25
+    villager:
+      income: -4.5
+      points: -4.5
+      experience: -5.0
+    Wolf:
+      income: 4.0
+      points: 4.0
+      experience: 5.0
+    Chicken:
+      income: 3.0
+      points: 3.0
+      experience: 5.0
+    Cow:
+      income: 3.0
+      points: 3.0
+      experience: 5.0
+    Pig:
+      income: 3.0
+      points: 3.0
+      experience: 5.0
+    Rabbit:
+      income: 4.0
+      points: 4.0
+      experience: 5.0
+    Sheep:
+      income: 3.0
+      points: 3.0
+      experience: 5.0
+    SQUID:
+      income: 3.5
+      points: 3.5
+      experience: 3.5
+    Zombie:
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+    Skeleton:
+      income: 3
+      points: 3
+      experience: 3
+    Spider:
+      income: 2.8
+      points: 2.8
+      experience: 2.8
+    CAVE_SPIDER:
+      income: 3
+      points: 3
+      experience: 3
+    Creeper:
+      income: 3.5
+      points: 3.5
+      experience: 3.5
+    Slime:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    Silverfish:
+      income: 2.8
+      points: 2.8
+      experience: 2.8
+    Guardian:
+      income: 7.5
+      points: 7.5
+      experience: 7.5
+    Elder_guardian:
+      income: 100.0
+      points: 100.0
+      experience: 100.0
+    Witch:
+      income: 4.5
+      points: 4.5
+      experience: 4.5
+    Drowned:
+      income: 4.5
+      points: 4.5
+      experience: 4.5
+    Husk:
+      income: 4.25
+      points: 4.25
+      experience: 4.25
+    Vindicator:
+      income: 4.25
+      points: 4.25
+      experience: 4.25
+    Evoker:
+      income: 4.5
+      points: 4.5
+      experience: 4.5
+    Pillager:
+      income: 5.25
+      points: 5.25
+      experience: 5.25
+    Stray:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    Zombie_Villager:
+      income: 4.25
+      points: 4.25
+      experience: 4.25
+    Zombie_Horse:
+      income: 5.25
+      points: 5.25
+      experience: 5.25
+    Skeleton_Horse:
+      income: 5.5
+      points: 5.5
+      experience: 5.5
+    Phantom:
+      income: 5.5
+      points: 5.5
+      experience: 5.5
+    Ravager:
+      income: 30.5
+      points: 30.5
+      experience: 30.5
+    Blaze:
+      income: 4.5
+      points: 4.5
+      experience: 4.5
+    Ghast:
+      income: 8.0
+      points: 8.0
+      experience: 8.0
+    Hoglin:
+      income: 5.5
+      points: 5.5
+      experience: 5.5
+    Magma_cube:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    Piglin:
+      income: 4.5
+      points: 4.5
+      experience: 4.5
+    Piglin_brute:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    Zombified_piglin:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    Zoglin:
+      income: 6.0
+      points: 6.0
+      experience: 6.0
+    Wither_Skeleton:
+      income: 10.0
+      points: 10.0
+      experience: 10.0
+    Strider:
+      income: 7.0
+      points: 7.0
+      experience: 7.0
+    ENDERMAN:
+      income: 5.5
+      points: 5.5
+      experience: 5.5
+    Endermite:
+      income: 7
+      points: 7
+      experience: 7
+    Shulker:
+      income: 8
+      points: 8
+      experience: 8
+    Vex:
+      income: 5
+      points: 5
+      experience: 5
+    GIANT:
+      income: 200.0
+      points: 200
+      experience: 200.0
+    WITHER:
+      income: 80.0
+      points: 80.0
+      experience: 125.0
+    IRON_GOLEM:
+      income: 25.0
+      points: 25.0
+      experience: 25.0
+    ENDER_DRAGON:
+      income: 2000.0
+      points: 2000
+      experience: 2000.0
+    Player:
+      income: 7.5
+      points: 7.5
+      experience: 7.5

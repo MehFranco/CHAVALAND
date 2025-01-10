@@ -1,0 +1,4377 @@
+ShopName: Upgrades
+DisplayName: '&f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔'
+Command: Upgrade:Upgrades
+RemovePlayerInventory: true
+shop:
+  lv1_block:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 18'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 14'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 16h'
+    - 'lore6:&f ▪ /ᴅᴇᴘᴛʜ'
+    - 'lore7:&f ▪ /ᴅɪꜱᴘᴏꜱᴀʟ'
+    - 'lore8:&f ▪ /ᴡᴏʀᴋʙᴇɴᴄʜ'
+    - 'lore10:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 28
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.14
+    - type:permission
+    - match:auctionmaster.limit.duration.16
+    - type:permission
+    - match:ultimateclaims.maxclaims.18
+    - type:permission
+    - match:essentials.depth
+    - type:permission
+    - match:essentials.disposal
+    - type:permission
+    - match:essentials.workbench
+  lv1_buy:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 18'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 14'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 16h'
+    - 'lore6:&f ▪ /ᴅᴇᴘᴛʜ'
+    - 'lore7:&f ▪ /ᴅɪꜱᴘᴏꜱᴀʟ'
+    - 'lore8:&f ▪ /ᴡᴏʀᴋʙᴇɴᴄʜ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &63500&f#&f'
+    - 'lore11:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.14
+    - lp user %player% permission set auctionmaster.limit.duration.16
+    - lp user %player% permission set ultimateclaims.maxclaims.18
+    - lp user %player% permission set essentials.depth
+    - lp user %player% permission set essentials.disposal
+    - lp user %player% permission set essentials.workbench
+    PriceType: MONEY
+    Price: 3500
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 28
+    Condition:
+    - type:money
+    - over:3500
+  lv1:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 18'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 14'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 16h'
+    - 'lore6:&f ▪ /ᴅᴇᴘᴛʜ'
+    - 'lore7:&f ▪ /ᴅɪꜱᴘᴏꜱᴀʟ'
+    - 'lore8:&f ▪ /ᴡᴏʀᴋʙᴇɴᴄʜ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &63500&f#&f'
+    - 'lore11:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 28
+##########
+  lv1_block_2:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 18'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 14'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 16h'
+    - 'lore6:&f ▪ /ᴅᴇᴘᴛʜ'
+    - 'lore7:&f ▪ /ᴅɪꜱᴘᴏꜱᴀʟ'
+    - 'lore8:&f ▪ /ᴡᴏʀᴋʙᴇɴᴄʜ'
+    - 'lore10:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 29
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.14
+    - type:permission
+    - match:auctionmaster.limit.duration.16
+    - type:permission
+    - match:ultimateclaims.maxclaims.18
+    - type:permission
+    - match:essentials.depth
+    - type:permission
+    - match:essentials.disposal
+    - type:permission
+    - match:essentials.workbench
+  lv1_buy_2:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 18'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 14'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 16h'
+    - 'lore6:&f ▪ /ᴅᴇᴘᴛʜ'
+    - 'lore7:&f ▪ /ᴅɪꜱᴘᴏꜱᴀʟ'
+    - 'lore8:&f ▪ /ᴡᴏʀᴋʙᴇɴᴄʜ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &63500&f#&f'
+    - 'lore11:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.14
+    - lp user %player% permission set auctionmaster.limit.duration.16
+    - lp user %player% permission set ultimateclaims.maxclaims.18
+    - lp user %player% permission set essentials.depth
+    - lp user %player% permission set essentials.disposal
+    - lp user %player% permission set essentials.workbench
+    PriceType: MONEY
+    Price: 3500
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 29
+    Condition:
+    - type:money
+    - over:3500
+  lv1_2:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 18'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 14'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 16h'
+    - 'lore6:&f ▪ /ᴅᴇᴘᴛʜ'
+    - 'lore7:&f ▪ /ᴅɪꜱᴘᴏꜱᴀʟ'
+    - 'lore8:&f ▪ /ᴡᴏʀᴋʙᴇɴᴄʜ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &63500&f#&f'
+    - 'lore11:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 29
+##########################
+  lv1_block_3:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 18'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 14'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 16h'
+    - 'lore6:&f ▪ /ᴅᴇᴘᴛʜ'
+    - 'lore7:&f ▪ /ᴅɪꜱᴘᴏꜱᴀʟ'
+    - 'lore8:&f ▪ /ᴡᴏʀᴋʙᴇɴᴄʜ'
+    - 'lore10:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 30
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.14
+    - type:permission
+    - match:auctionmaster.limit.duration.16
+    - type:permission
+    - match:ultimateclaims.maxclaims.18
+    - type:permission
+    - match:essentials.depth
+    - type:permission
+    - match:essentials.disposal
+    - type:permission
+    - match:essentials.workbench
+  lv1_buy_3:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 18'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 14'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 16h'
+    - 'lore6:&f ▪ /ᴅᴇᴘᴛʜ'
+    - 'lore7:&f ▪ /ᴅɪꜱᴘᴏꜱᴀʟ'
+    - 'lore8:&f ▪ /ᴡᴏʀᴋʙᴇɴᴄʜ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &63500&f#&f'
+    - 'lore11:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.14
+    - lp user %player% permission set auctionmaster.limit.duration.16
+    - lp user %player% permission set ultimateclaims.maxclaims.18
+    - lp user %player% permission set essentials.depth
+    - lp user %player% permission set essentials.disposal
+    - lp user %player% permission set essentials.workbench
+    PriceType: MONEY
+    Price: 3500
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 30
+    Condition:
+    - type:money
+    - over:3500
+  lv1_3:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 18'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 14'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 16h'
+    - 'lore6:&f ▪ /ᴅᴇᴘᴛʜ'
+    - 'lore7:&f ▪ /ᴅɪꜱᴘᴏꜱᴀʟ'
+    - 'lore8:&f ▪ /ᴡᴏʀᴋʙᴇɴᴄʜ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &63500&f#&f'
+    - 'lore11:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 30
+##########################
+  lv1_block_4:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 18'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 14'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 16h'
+    - 'lore6:&f ▪ /ᴅᴇᴘᴛʜ'
+    - 'lore7:&f ▪ /ᴅɪꜱᴘᴏꜱᴀʟ'
+    - 'lore8:&f ▪ /ᴡᴏʀᴋʙᴇɴᴄʜ'
+    - 'lore10:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 31
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.14
+    - type:permission
+    - match:auctionmaster.limit.duration.16
+    - type:permission
+    - match:ultimateclaims.maxclaims.18
+    - type:permission
+    - match:essentials.depth
+    - type:permission
+    - match:essentials.disposal
+    - type:permission
+    - match:essentials.workbench
+  lv1_buy_4:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 18'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 14'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 16h'
+    - 'lore6:&f ▪ /ᴅᴇᴘᴛʜ'
+    - 'lore7:&f ▪ /ᴅɪꜱᴘᴏꜱᴀʟ'
+    - 'lore8:&f ▪ /ᴡᴏʀᴋʙᴇɴᴄʜ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &63500&f#&f'
+    - 'lore11:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.14
+    - lp user %player% permission set auctionmaster.limit.duration.16
+    - lp user %player% permission set ultimateclaims.maxclaims.18
+    - lp user %player% permission set essentials.depth
+    - lp user %player% permission set essentials.disposal
+    - lp user %player% permission set essentials.workbench
+    PriceType: MONEY
+    Price: 3500
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 31
+    Condition:
+    - type:money
+    - over:3500
+  lv1_4:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 18'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 14'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 16h'
+    - 'lore6:&f ▪ /ᴅᴇᴘᴛʜ'
+    - 'lore7:&f ▪ /ᴅɪꜱᴘᴏꜱᴀʟ'
+    - 'lore8:&f ▪ /ᴡᴏʀᴋʙᴇɴᴄʜ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &63500&f#&f'
+    - 'lore11:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 31
+##################################################
+  lv2:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.18
+    - type:permission
+    - match:auctionmaster.limit.duration.24
+    - type:permission
+    - match:ultimateclaims.maxclaims.21
+    - type:permission
+    - match:essentials.enderchest
+    - type:permission
+    - match:essentials.jump
+    - type:permission
+    - match:dreamcore.hat.use
+  lv2_buy:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &66000&f#&f'
+    - 'lore11:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.18
+    - lp user %player% permission set auctionmaster.limit.duration.24
+    - lp user %player% permission set ultimateclaims.maxclaims.21
+    - lp user %player% permission set essentials.enderchest
+    - lp user %player% permission set essentials.jump
+    - lp user %player% permission set dreamcore.hat.use
+    PriceType: MONEY
+    Price: 6000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+    Condition:
+    - type:money
+    - over:6000
+    - type:permission
+    - match:auctionmaster.limit.auctions.14
+    - type:permission
+    - match:auctionmaster.limit.duration.16
+    - type:permission
+    - match:ultimateclaims.maxclaims.18
+    - type:permission
+    - match:essentials.depth
+    - type:permission
+    - match:essentials.disposal
+    - type:permission
+    - match:essentials.workbench
+  lv2_nomoney:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &66000&f#&f'
+    - 'lore11:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.14
+    - type:permission
+    - match:auctionmaster.limit.duration.16
+    - type:permission
+    - match:ultimateclaims.maxclaims.18
+    - type:permission
+    - match:essentials.depth
+    - type:permission
+    - match:essentials.disposal
+    - type:permission
+    - match:essentials.workbench
+  lv2_block:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+##########################
+  lv2_2:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.18
+    - type:permission
+    - match:auctionmaster.limit.duration.24
+    - type:permission
+    - match:ultimateclaims.maxclaims.21
+    - type:permission
+    - match:essentials.enderchest
+    - type:permission
+    - match:essentials.jump
+    - type:permission
+    - match:dreamcore.hat.use
+  lv2_buy_2:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &66000&f#&f'
+    - 'lore11:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.18
+    - lp user %player% permission set auctionmaster.limit.duration.24
+    - lp user %player% permission set ultimateclaims.maxclaims.21
+    - lp user %player% permission set essentials.enderchest
+    - lp user %player% permission set essentials.jump
+    - lp user %player% permission set dreamcore.hat.use
+    PriceType: MONEY
+    Price: 6000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+    Condition:
+    - type:money
+    - over:6000
+    - type:permission
+    - match:auctionmaster.limit.auctions.14
+    - type:permission
+    - match:auctionmaster.limit.duration.16
+    - type:permission
+    - match:ultimateclaims.maxclaims.18
+    - type:permission
+    - match:essentials.depth
+    - type:permission
+    - match:essentials.disposal
+    - type:permission
+    - match:essentials.workbench
+  lv2_nomoney_2:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &66000&f#&f'
+    - 'lore11:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.14
+    - type:permission
+    - match:auctionmaster.limit.duration.16
+    - type:permission
+    - match:ultimateclaims.maxclaims.18
+    - type:permission
+    - match:essentials.depth
+    - type:permission
+    - match:essentials.disposal
+    - type:permission
+    - match:essentials.workbench
+  lv2_block_2:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+##########################
+  lv2_3:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.18
+    - type:permission
+    - match:auctionmaster.limit.duration.24
+    - type:permission
+    - match:ultimateclaims.maxclaims.21
+    - type:permission
+    - match:essentials.enderchest
+    - type:permission
+    - match:essentials.jump
+    - type:permission
+    - match:dreamcore.hat.use
+  lv2_buy_3:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &66000&f#&f'
+    - 'lore11:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.18
+    - lp user %player% permission set auctionmaster.limit.duration.24
+    - lp user %player% permission set ultimateclaims.maxclaims.21
+    - lp user %player% permission set essentials.enderchest
+    - lp user %player% permission set essentials.jump
+    - lp user %player% permission set dreamcore.hat.use
+    PriceType: MONEY
+    Price: 6000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+    Condition:
+    - type:money
+    - over:6000
+    - type:permission
+    - match:auctionmaster.limit.auctions.14
+    - type:permission
+    - match:auctionmaster.limit.duration.16
+    - type:permission
+    - match:ultimateclaims.maxclaims.18
+    - type:permission
+    - match:essentials.depth
+    - type:permission
+    - match:essentials.disposal
+    - type:permission
+    - match:essentials.workbench
+  lv2_nomoney_3:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &66000&f#&f'
+    - 'lore11:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.14
+    - type:permission
+    - match:auctionmaster.limit.duration.16
+    - type:permission
+    - match:ultimateclaims.maxclaims.18
+    - type:permission
+    - match:essentials.depth
+    - type:permission
+    - match:essentials.disposal
+    - type:permission
+    - match:essentials.workbench
+  lv2_block_3:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+##########################
+  lv2_4:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.18
+    - type:permission
+    - match:auctionmaster.limit.duration.24
+    - type:permission
+    - match:ultimateclaims.maxclaims.21
+    - type:permission
+    - match:essentials.enderchest
+    - type:permission
+    - match:essentials.jump
+    - type:permission
+    - match:dreamcore.hat.use
+  lv2_buy_4:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &66000&f#&f'
+    - 'lore11:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.18
+    - lp user %player% permission set auctionmaster.limit.duration.24
+    - lp user %player% permission set ultimateclaims.maxclaims.21
+    - lp user %player% permission set essentials.enderchest
+    - lp user %player% permission set essentials.jump
+    - lp user %player% permission set dreamcore.hat.use
+    PriceType: MONEY
+    Price: 6000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+    Condition:
+    - type:money
+    - over:6000
+    - type:permission
+    - match:auctionmaster.limit.auctions.14
+    - type:permission
+    - match:auctionmaster.limit.duration.16
+    - type:permission
+    - match:ultimateclaims.maxclaims.18
+    - type:permission
+    - match:essentials.depth
+    - type:permission
+    - match:essentials.disposal
+    - type:permission
+    - match:essentials.workbench
+  lv2_nomoney_4:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &66000&f#&f'
+    - 'lore11:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.14
+    - type:permission
+    - match:auctionmaster.limit.duration.16
+    - type:permission
+    - match:ultimateclaims.maxclaims.18
+    - type:permission
+    - match:essentials.depth
+    - type:permission
+    - match:essentials.disposal
+    - type:permission
+    - match:essentials.workbench
+  lv2_block_4:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+##########################
+  lv2_5:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.18
+    - type:permission
+    - match:auctionmaster.limit.duration.24
+    - type:permission
+    - match:ultimateclaims.maxclaims.21
+    - type:permission
+    - match:essentials.enderchest
+    - type:permission
+    - match:essentials.jump
+    - type:permission
+    - match:dreamcore.hat.use
+  lv2_buy_5:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &66000&f#&f'
+    - 'lore11:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.18
+    - lp user %player% permission set auctionmaster.limit.duration.24
+    - lp user %player% permission set ultimateclaims.maxclaims.21
+    - lp user %player% permission set essentials.enderchest
+    - lp user %player% permission set essentials.jump
+    - lp user %player% permission set dreamcore.hat.use
+    PriceType: MONEY
+    Price: 6000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+    Condition:
+    - type:money
+    - over:6000
+    - type:permission
+    - match:auctionmaster.limit.auctions.14
+    - type:permission
+    - match:auctionmaster.limit.duration.16
+    - type:permission
+    - match:ultimateclaims.maxclaims.18
+    - type:permission
+    - match:essentials.depth
+    - type:permission
+    - match:essentials.disposal
+    - type:permission
+    - match:essentials.workbench
+  lv2_nomoney_5:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &66000&f#&f'
+    - 'lore11:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.14
+    - type:permission
+    - match:auctionmaster.limit.duration.16
+    - type:permission
+    - match:ultimateclaims.maxclaims.18
+    - type:permission
+    - match:essentials.depth
+    - type:permission
+    - match:essentials.disposal
+    - type:permission
+    - match:essentials.workbench
+  lv2_block_5:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+##########################
+  lv2_6:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 11
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.18
+    - type:permission
+    - match:auctionmaster.limit.duration.24
+    - type:permission
+    - match:ultimateclaims.maxclaims.21
+    - type:permission
+    - match:essentials.enderchest
+    - type:permission
+    - match:essentials.jump
+    - type:permission
+    - match:dreamcore.hat.use
+  lv2_buy_6:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &66000&f#&f'
+    - 'lore11:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.18
+    - lp user %player% permission set auctionmaster.limit.duration.24
+    - lp user %player% permission set ultimateclaims.maxclaims.21
+    - lp user %player% permission set essentials.enderchest
+    - lp user %player% permission set essentials.jump
+    - lp user %player% permission set dreamcore.hat.use
+    PriceType: MONEY
+    Price: 6000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 11
+    Condition:
+    - type:money
+    - over:6000
+    - type:permission
+    - match:auctionmaster.limit.auctions.14
+    - type:permission
+    - match:auctionmaster.limit.duration.16
+    - type:permission
+    - match:ultimateclaims.maxclaims.18
+    - type:permission
+    - match:essentials.depth
+    - type:permission
+    - match:essentials.disposal
+    - type:permission
+    - match:essentials.workbench
+  lv2_nomoney_6:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &66000&f#&f'
+    - 'lore11:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 11
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.14
+    - type:permission
+    - match:auctionmaster.limit.duration.16
+    - type:permission
+    - match:ultimateclaims.maxclaims.18
+    - type:permission
+    - match:essentials.depth
+    - type:permission
+    - match:essentials.disposal
+    - type:permission
+    - match:essentials.workbench
+  lv2_block_6:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 11
+##########################
+  lv2_7:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.18
+    - type:permission
+    - match:auctionmaster.limit.duration.24
+    - type:permission
+    - match:ultimateclaims.maxclaims.21
+    - type:permission
+    - match:essentials.enderchest
+    - type:permission
+    - match:essentials.jump
+    - type:permission
+    - match:dreamcore.hat.use
+  lv2_buy_7:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &66000&f#&f'
+    - 'lore11:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.18
+    - lp user %player% permission set auctionmaster.limit.duration.24
+    - lp user %player% permission set ultimateclaims.maxclaims.21
+    - lp user %player% permission set essentials.enderchest
+    - lp user %player% permission set essentials.jump
+    - lp user %player% permission set dreamcore.hat.use
+    PriceType: MONEY
+    Price: 6000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+    Condition:
+    - type:money
+    - over:6000
+    - type:permission
+    - match:auctionmaster.limit.auctions.14
+    - type:permission
+    - match:auctionmaster.limit.duration.16
+    - type:permission
+    - match:ultimateclaims.maxclaims.18
+    - type:permission
+    - match:essentials.depth
+    - type:permission
+    - match:essentials.disposal
+    - type:permission
+    - match:essentials.workbench
+  lv2_nomoney_7:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &66000&f#&f'
+    - 'lore11:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.14
+    - type:permission
+    - match:auctionmaster.limit.duration.16
+    - type:permission
+    - match:ultimateclaims.maxclaims.18
+    - type:permission
+    - match:essentials.depth
+    - type:permission
+    - match:essentials.disposal
+    - type:permission
+    - match:essentials.workbench
+  lv2_block_7:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+##########################
+  lv2_8:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 13
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.18
+    - type:permission
+    - match:auctionmaster.limit.duration.24
+    - type:permission
+    - match:ultimateclaims.maxclaims.21
+    - type:permission
+    - match:essentials.enderchest
+    - type:permission
+    - match:essentials.jump
+    - type:permission
+    - match:dreamcore.hat.use
+  lv2_buy_8:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &66000&f#&f'
+    - 'lore11:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.18
+    - lp user %player% permission set auctionmaster.limit.duration.24
+    - lp user %player% permission set ultimateclaims.maxclaims.21
+    - lp user %player% permission set essentials.enderchest
+    - lp user %player% permission set essentials.jump
+    - lp user %player% permission set dreamcore.hat.use
+    PriceType: MONEY
+    Price: 6000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 13
+    Condition:
+    - type:money
+    - over:6000
+    - type:permission
+    - match:auctionmaster.limit.auctions.14
+    - type:permission
+    - match:auctionmaster.limit.duration.16
+    - type:permission
+    - match:ultimateclaims.maxclaims.18
+    - type:permission
+    - match:essentials.depth
+    - type:permission
+    - match:essentials.disposal
+    - type:permission
+    - match:essentials.workbench
+  lv2_nomoney_8:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &66000&f#&f'
+    - 'lore11:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 13
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.14
+    - type:permission
+    - match:auctionmaster.limit.duration.16
+    - type:permission
+    - match:ultimateclaims.maxclaims.18
+    - type:permission
+    - match:essentials.depth
+    - type:permission
+    - match:essentials.disposal
+    - type:permission
+    - match:essentials.workbench
+  lv2_block_8:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 13
+##########################
+  lv2_9:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 19
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.18
+    - type:permission
+    - match:auctionmaster.limit.duration.24
+    - type:permission
+    - match:ultimateclaims.maxclaims.21
+    - type:permission
+    - match:essentials.enderchest
+    - type:permission
+    - match:essentials.jump
+    - type:permission
+    - match:dreamcore.hat.use
+  lv2_buy_9:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &66000&f#&f'
+    - 'lore11:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.18
+    - lp user %player% permission set auctionmaster.limit.duration.24
+    - lp user %player% permission set ultimateclaims.maxclaims.21
+    - lp user %player% permission set essentials.enderchest
+    - lp user %player% permission set essentials.jump
+    - lp user %player% permission set dreamcore.hat.use
+    PriceType: MONEY
+    Price: 6000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 19
+    Condition:
+    - type:money
+    - over:6000
+    - type:permission
+    - match:auctionmaster.limit.auctions.14
+    - type:permission
+    - match:auctionmaster.limit.duration.16
+    - type:permission
+    - match:ultimateclaims.maxclaims.18
+    - type:permission
+    - match:essentials.depth
+    - type:permission
+    - match:essentials.disposal
+    - type:permission
+    - match:essentials.workbench
+  lv2_nomoney_9:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &66000&f#&f'
+    - 'lore11:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 19
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.14
+    - type:permission
+    - match:auctionmaster.limit.duration.16
+    - type:permission
+    - match:ultimateclaims.maxclaims.18
+    - type:permission
+    - match:essentials.depth
+    - type:permission
+    - match:essentials.disposal
+    - type:permission
+    - match:essentials.workbench
+  lv2_block_9:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 19
+##########################
+  lv2_10:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 20
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.18
+    - type:permission
+    - match:auctionmaster.limit.duration.24
+    - type:permission
+    - match:ultimateclaims.maxclaims.21
+    - type:permission
+    - match:essentials.enderchest
+    - type:permission
+    - match:essentials.jump
+    - type:permission
+    - match:dreamcore.hat.use
+  lv2_buy_10:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &66000&f#&f'
+    - 'lore11:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.18
+    - lp user %player% permission set auctionmaster.limit.duration.24
+    - lp user %player% permission set ultimateclaims.maxclaims.21
+    - lp user %player% permission set essentials.enderchest
+    - lp user %player% permission set essentials.jump
+    - lp user %player% permission set dreamcore.hat.use
+    PriceType: MONEY
+    Price: 6000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 20
+    Condition:
+    - type:money
+    - over:6000
+    - type:permission
+    - match:auctionmaster.limit.auctions.14
+    - type:permission
+    - match:auctionmaster.limit.duration.16
+    - type:permission
+    - match:ultimateclaims.maxclaims.18
+    - type:permission
+    - match:essentials.depth
+    - type:permission
+    - match:essentials.disposal
+    - type:permission
+    - match:essentials.workbench
+  lv2_nomoney_10:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &66000&f#&f'
+    - 'lore11:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 20
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.14
+    - type:permission
+    - match:auctionmaster.limit.duration.16
+    - type:permission
+    - match:ultimateclaims.maxclaims.18
+    - type:permission
+    - match:essentials.depth
+    - type:permission
+    - match:essentials.disposal
+    - type:permission
+    - match:essentials.workbench
+  lv2_block_10:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 20
+##########################
+  lv2_11:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 21
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.18
+    - type:permission
+    - match:auctionmaster.limit.duration.24
+    - type:permission
+    - match:ultimateclaims.maxclaims.21
+    - type:permission
+    - match:essentials.enderchest
+    - type:permission
+    - match:essentials.jump
+    - type:permission
+    - match:dreamcore.hat.use
+  lv2_buy_11:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &66000&f#&f'
+    - 'lore11:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.18
+    - lp user %player% permission set auctionmaster.limit.duration.24
+    - lp user %player% permission set ultimateclaims.maxclaims.21
+    - lp user %player% permission set essentials.enderchest
+    - lp user %player% permission set essentials.jump
+    - lp user %player% permission set dreamcore.hat.use
+    PriceType: MONEY
+    Price: 6000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 21
+    Condition:
+    - type:money
+    - over:6000
+    - type:permission
+    - match:auctionmaster.limit.auctions.14
+    - type:permission
+    - match:auctionmaster.limit.duration.16
+    - type:permission
+    - match:ultimateclaims.maxclaims.18
+    - type:permission
+    - match:essentials.depth
+    - type:permission
+    - match:essentials.disposal
+    - type:permission
+    - match:essentials.workbench
+  lv2_nomoney_11:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &66000&f#&f'
+    - 'lore11:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 21
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.14
+    - type:permission
+    - match:auctionmaster.limit.duration.16
+    - type:permission
+    - match:ultimateclaims.maxclaims.18
+    - type:permission
+    - match:essentials.depth
+    - type:permission
+    - match:essentials.disposal
+    - type:permission
+    - match:essentials.workbench
+  lv2_block_11:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 21
+##########################
+  lv2_12:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 22
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.18
+    - type:permission
+    - match:auctionmaster.limit.duration.24
+    - type:permission
+    - match:ultimateclaims.maxclaims.21
+    - type:permission
+    - match:essentials.enderchest
+    - type:permission
+    - match:essentials.jump
+    - type:permission
+    - match:dreamcore.hat.use
+  lv2_buy_12:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &66000&f#&f'
+    - 'lore11:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.18
+    - lp user %player% permission set auctionmaster.limit.duration.24
+    - lp user %player% permission set ultimateclaims.maxclaims.21
+    - lp user %player% permission set essentials.enderchest
+    - lp user %player% permission set essentials.jump
+    - lp user %player% permission set dreamcore.hat.use
+    PriceType: MONEY
+    Price: 6000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 22
+    Condition:
+    - type:money
+    - over:6000
+    - type:permission
+    - match:auctionmaster.limit.auctions.14
+    - type:permission
+    - match:auctionmaster.limit.duration.16
+    - type:permission
+    - match:ultimateclaims.maxclaims.18
+    - type:permission
+    - match:essentials.depth
+    - type:permission
+    - match:essentials.disposal
+    - type:permission
+    - match:essentials.workbench
+  lv2_nomoney_12:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &66000&f#&f'
+    - 'lore11:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 22
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.14
+    - type:permission
+    - match:auctionmaster.limit.duration.16
+    - type:permission
+    - match:ultimateclaims.maxclaims.18
+    - type:permission
+    - match:essentials.depth
+    - type:permission
+    - match:essentials.disposal
+    - type:permission
+    - match:essentials.workbench
+  lv2_block_12:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 21'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 18'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 24h'
+    - 'lore6:&f ▪ /ᴇɴᴅᴇʀᴄʜᴇꜱᴛ'
+    - 'lore7:&f ▪ /ᴊᴜᴍᴘ'
+    - 'lore8:&f ▪ /ʜᴀᴛ'
+    - 'lore10:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 22
+##################################################
+  lv3_1:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.24
+    - type:permission
+    - match:auctionmaster.limit.duration.36
+    - type:permission
+    - match:ultimateclaims.maxclaims.25
+    - type:permission
+    - match:essentials.sethome.multiple.legend
+    - type:permission
+    - match:essentials.back
+    - type:permission
+    - match:essentials.top
+    - type:permission
+    - match:upgrade.level4
+  lv3_buy_1:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &610000&f#&f'
+    - 'lore11:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.24
+    - lp user %player% permission set auctionmaster.limit.duration.36
+    - lp user %player% permission set ultimateclaims.maxclaims.25
+    - lp user %player% permission set essentials.sethome.multiple.legend
+    - lp user %player% permission set essentials.back
+    - lp user %player% permission set essentials.top
+    - lp user %player% permission set upgrade.level4
+    Message: ''
+    PriceType: MONEY
+    Price: 10000
+    ExtraPermission: ''
+    InventoryLocation: 5
+    Condition:
+    - type:money
+    - over:10000
+    - type:permission
+    - match:auctionmaster.limit.auctions.18
+    - type:permission
+    - match:auctionmaster.limit.duration.24
+    - type:permission
+    - match:ultimateclaims.maxclaims.21
+    - type:permission
+    - match:essentials.enderchest
+    - type:permission
+    - match:essentials.jump
+    - type:permission
+    - match:dreamcore.hat.use
+  lv3_nomoney_1:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &610000&f#&f'
+    - 'lore11:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.18
+    - type:permission
+    - match:auctionmaster.limit.duration.24
+    - type:permission
+    - match:ultimateclaims.maxclaims.21
+    - type:permission
+    - match:essentials.enderchest
+    - type:permission
+    - match:essentials.jump
+    - type:permission
+    - match:dreamcore.hat.use
+  lv3_block_1:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+###############################
+  lv3_2:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.24
+    - type:permission
+    - match:auctionmaster.limit.duration.36
+    - type:permission
+    - match:ultimateclaims.maxclaims.25
+    - type:permission
+    - match:essentials.sethome.multiple.legend
+    - type:permission
+    - match:essentials.back
+    - type:permission
+    - match:essentials.top
+    - type:permission
+    - match:upgrade.level4
+  lv3_buy_2:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &610000&f#&f'
+    - 'lore11:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.24
+    - lp user %player% permission set auctionmaster.limit.duration.36
+    - lp user %player% permission set ultimateclaims.maxclaims.25
+    - lp user %player% permission set essentials.sethome.multiple.legend
+    - lp user %player% permission set essentials.back
+    - lp user %player% permission set essentials.top
+    - lp user %player% permission set upgrade.level4
+    Message: ''
+    PriceType: MONEY
+    Price: 10000
+    ExtraPermission: ''
+    InventoryLocation: 6
+    Condition:
+    - type:money
+    - over:10000
+    - type:permission
+    - match:auctionmaster.limit.auctions.18
+    - type:permission
+    - match:auctionmaster.limit.duration.24
+    - type:permission
+    - match:ultimateclaims.maxclaims.21
+    - type:permission
+    - match:essentials.enderchest
+    - type:permission
+    - match:essentials.jump
+    - type:permission
+    - match:dreamcore.hat.use
+  lv3_nomoney_2:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &610000&f#&f'
+    - 'lore11:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.18
+    - type:permission
+    - match:auctionmaster.limit.duration.24
+    - type:permission
+    - match:ultimateclaims.maxclaims.21
+    - type:permission
+    - match:essentials.enderchest
+    - type:permission
+    - match:essentials.jump
+    - type:permission
+    - match:dreamcore.hat.use
+  lv3_block_2:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+###############################
+  lv3_3:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.24
+    - type:permission
+    - match:auctionmaster.limit.duration.36
+    - type:permission
+    - match:ultimateclaims.maxclaims.25
+    - type:permission
+    - match:essentials.sethome.multiple.legend
+    - type:permission
+    - match:essentials.back
+    - type:permission
+    - match:essentials.top
+    - type:permission
+    - match:upgrade.level4
+  lv3_buy_3:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &610000&f#&f'
+    - 'lore11:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.24
+    - lp user %player% permission set auctionmaster.limit.duration.36
+    - lp user %player% permission set ultimateclaims.maxclaims.25
+    - lp user %player% permission set essentials.sethome.multiple.legend
+    - lp user %player% permission set essentials.back
+    - lp user %player% permission set essentials.top
+    - lp user %player% permission set upgrade.level4
+    Message: ''
+    PriceType: MONEY
+    Price: 10000
+    ExtraPermission: ''
+    InventoryLocation: 7
+    Condition:
+    - type:money
+    - over:10000
+    - type:permission
+    - match:auctionmaster.limit.auctions.18
+    - type:permission
+    - match:auctionmaster.limit.duration.24
+    - type:permission
+    - match:ultimateclaims.maxclaims.21
+    - type:permission
+    - match:essentials.enderchest
+    - type:permission
+    - match:essentials.jump
+    - type:permission
+    - match:dreamcore.hat.use
+  lv3_nomoney_3:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &610000&f#&f'
+    - 'lore11:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.18
+    - type:permission
+    - match:auctionmaster.limit.duration.24
+    - type:permission
+    - match:ultimateclaims.maxclaims.21
+    - type:permission
+    - match:essentials.enderchest
+    - type:permission
+    - match:essentials.jump
+    - type:permission
+    - match:dreamcore.hat.use
+  lv3_block_3:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+###############################
+  lv3_4:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 8
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.24
+    - type:permission
+    - match:auctionmaster.limit.duration.36
+    - type:permission
+    - match:ultimateclaims.maxclaims.25
+    - type:permission
+    - match:essentials.sethome.multiple.legend
+    - type:permission
+    - match:essentials.back
+    - type:permission
+    - match:essentials.top
+    - type:permission
+    - match:upgrade.level4
+  lv3_buy_4:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &610000&f#&f'
+    - 'lore11:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.24
+    - lp user %player% permission set auctionmaster.limit.duration.36
+    - lp user %player% permission set ultimateclaims.maxclaims.25
+    - lp user %player% permission set essentials.sethome.multiple.legend
+    - lp user %player% permission set essentials.back
+    - lp user %player% permission set essentials.top
+    - lp user %player% permission set upgrade.level4
+    Message: ''
+    PriceType: MONEY
+    Price: 10000
+    ExtraPermission: ''
+    InventoryLocation: 8
+    Condition:
+    - type:money
+    - over:10000
+    - type:permission
+    - match:auctionmaster.limit.auctions.18
+    - type:permission
+    - match:auctionmaster.limit.duration.24
+    - type:permission
+    - match:ultimateclaims.maxclaims.21
+    - type:permission
+    - match:essentials.enderchest
+    - type:permission
+    - match:essentials.jump
+    - type:permission
+    - match:dreamcore.hat.use
+  lv3_nomoney_4:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &610000&f#&f'
+    - 'lore11:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 8
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.18
+    - type:permission
+    - match:auctionmaster.limit.duration.24
+    - type:permission
+    - match:ultimateclaims.maxclaims.21
+    - type:permission
+    - match:essentials.enderchest
+    - type:permission
+    - match:essentials.jump
+    - type:permission
+    - match:dreamcore.hat.use
+  lv3_block_4:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 8
+###############################
+  lv3_5:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 9
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.24
+    - type:permission
+    - match:auctionmaster.limit.duration.36
+    - type:permission
+    - match:ultimateclaims.maxclaims.25
+    - type:permission
+    - match:essentials.sethome.multiple.legend
+    - type:permission
+    - match:essentials.back
+    - type:permission
+    - match:essentials.top
+    - type:permission
+    - match:upgrade.level4
+  lv3_buy_5:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &610000&f#&f'
+    - 'lore11:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.24
+    - lp user %player% permission set auctionmaster.limit.duration.36
+    - lp user %player% permission set ultimateclaims.maxclaims.25
+    - lp user %player% permission set essentials.sethome.multiple.legend
+    - lp user %player% permission set essentials.back
+    - lp user %player% permission set essentials.top
+    - lp user %player% permission set upgrade.level4
+    Message: ''
+    PriceType: MONEY
+    Price: 10000
+    ExtraPermission: ''
+    InventoryLocation: 9
+    Condition:
+    - type:money
+    - over:10000
+    - type:permission
+    - match:auctionmaster.limit.auctions.18
+    - type:permission
+    - match:auctionmaster.limit.duration.24
+    - type:permission
+    - match:ultimateclaims.maxclaims.21
+    - type:permission
+    - match:essentials.enderchest
+    - type:permission
+    - match:essentials.jump
+    - type:permission
+    - match:dreamcore.hat.use
+  lv3_nomoney_5:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &610000&f#&f'
+    - 'lore11:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 9
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.18
+    - type:permission
+    - match:auctionmaster.limit.duration.24
+    - type:permission
+    - match:ultimateclaims.maxclaims.21
+    - type:permission
+    - match:essentials.enderchest
+    - type:permission
+    - match:essentials.jump
+    - type:permission
+    - match:dreamcore.hat.use
+  lv3_block_5:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 9
+###############################
+  lv3_6:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.24
+    - type:permission
+    - match:auctionmaster.limit.duration.36
+    - type:permission
+    - match:ultimateclaims.maxclaims.25
+    - type:permission
+    - match:essentials.sethome.multiple.legend
+    - type:permission
+    - match:essentials.back
+    - type:permission
+    - match:essentials.top
+    - type:permission
+    - match:upgrade.level4
+  lv3_buy_6:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &610000&f#&f'
+    - 'lore11:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.24
+    - lp user %player% permission set auctionmaster.limit.duration.36
+    - lp user %player% permission set ultimateclaims.maxclaims.25
+    - lp user %player% permission set essentials.sethome.multiple.legend
+    - lp user %player% permission set essentials.back
+    - lp user %player% permission set essentials.top
+    - lp user %player% permission set upgrade.level4
+    Message: ''
+    PriceType: MONEY
+    Price: 10000
+    ExtraPermission: ''
+    InventoryLocation: 14
+    Condition:
+    - type:money
+    - over:10000
+    - type:permission
+    - match:auctionmaster.limit.auctions.18
+    - type:permission
+    - match:auctionmaster.limit.duration.24
+    - type:permission
+    - match:ultimateclaims.maxclaims.21
+    - type:permission
+    - match:essentials.enderchest
+    - type:permission
+    - match:essentials.jump
+    - type:permission
+    - match:dreamcore.hat.use
+  lv3_nomoney_6:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &610000&f#&f'
+    - 'lore11:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.18
+    - type:permission
+    - match:auctionmaster.limit.duration.24
+    - type:permission
+    - match:ultimateclaims.maxclaims.21
+    - type:permission
+    - match:essentials.enderchest
+    - type:permission
+    - match:essentials.jump
+    - type:permission
+    - match:dreamcore.hat.use
+  lv3_block_6:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+###############################
+  lv3_7:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.24
+    - type:permission
+    - match:auctionmaster.limit.duration.36
+    - type:permission
+    - match:ultimateclaims.maxclaims.25
+    - type:permission
+    - match:essentials.sethome.multiple.legend
+    - type:permission
+    - match:essentials.back
+    - type:permission
+    - match:essentials.top
+    - type:permission
+    - match:upgrade.level4
+  lv3_buy_7:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &610000&f#&f'
+    - 'lore11:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.24
+    - lp user %player% permission set auctionmaster.limit.duration.36
+    - lp user %player% permission set ultimateclaims.maxclaims.25
+    - lp user %player% permission set essentials.sethome.multiple.legend
+    - lp user %player% permission set essentials.back
+    - lp user %player% permission set essentials.top
+    - lp user %player% permission set upgrade.level4
+    Message: ''
+    PriceType: MONEY
+    Price: 10000
+    ExtraPermission: ''
+    InventoryLocation: 15
+    Condition:
+    - type:money
+    - over:10000
+    - type:permission
+    - match:auctionmaster.limit.auctions.18
+    - type:permission
+    - match:auctionmaster.limit.duration.24
+    - type:permission
+    - match:ultimateclaims.maxclaims.21
+    - type:permission
+    - match:essentials.enderchest
+    - type:permission
+    - match:essentials.jump
+    - type:permission
+    - match:dreamcore.hat.use
+  lv3_nomoney_7:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &610000&f#&f'
+    - 'lore11:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.18
+    - type:permission
+    - match:auctionmaster.limit.duration.24
+    - type:permission
+    - match:ultimateclaims.maxclaims.21
+    - type:permission
+    - match:essentials.enderchest
+    - type:permission
+    - match:essentials.jump
+    - type:permission
+    - match:dreamcore.hat.use
+  lv3_block_7:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15
+###############################
+  lv3_8:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.24
+    - type:permission
+    - match:auctionmaster.limit.duration.36
+    - type:permission
+    - match:ultimateclaims.maxclaims.25
+    - type:permission
+    - match:essentials.sethome.multiple.legend
+    - type:permission
+    - match:essentials.back
+    - type:permission
+    - match:essentials.top
+    - type:permission
+    - match:upgrade.level4
+  lv3_buy_8:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &610000&f#&f'
+    - 'lore11:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.24
+    - lp user %player% permission set auctionmaster.limit.duration.36
+    - lp user %player% permission set ultimateclaims.maxclaims.25
+    - lp user %player% permission set essentials.sethome.multiple.legend
+    - lp user %player% permission set essentials.back
+    - lp user %player% permission set essentials.top
+    - lp user %player% permission set upgrade.level4
+    Message: ''
+    PriceType: MONEY
+    Price: 10000
+    ExtraPermission: ''
+    InventoryLocation: 16
+    Condition:
+    - type:money
+    - over:10000
+    - type:permission
+    - match:auctionmaster.limit.auctions.18
+    - type:permission
+    - match:auctionmaster.limit.duration.24
+    - type:permission
+    - match:ultimateclaims.maxclaims.21
+    - type:permission
+    - match:essentials.enderchest
+    - type:permission
+    - match:essentials.jump
+    - type:permission
+    - match:dreamcore.hat.use
+  lv3_nomoney_8:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &610000&f#&f'
+    - 'lore11:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.18
+    - type:permission
+    - match:auctionmaster.limit.duration.24
+    - type:permission
+    - match:ultimateclaims.maxclaims.21
+    - type:permission
+    - match:essentials.enderchest
+    - type:permission
+    - match:essentials.jump
+    - type:permission
+    - match:dreamcore.hat.use
+  lv3_block_8:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+###############################
+  lv3_9:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 17
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.24
+    - type:permission
+    - match:auctionmaster.limit.duration.36
+    - type:permission
+    - match:ultimateclaims.maxclaims.25
+    - type:permission
+    - match:essentials.sethome.multiple.legend
+    - type:permission
+    - match:essentials.back
+    - type:permission
+    - match:essentials.top
+    - type:permission
+    - match:upgrade.level4
+  lv3_buy_9:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &610000&f#&f'
+    - 'lore11:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.24
+    - lp user %player% permission set auctionmaster.limit.duration.36
+    - lp user %player% permission set ultimateclaims.maxclaims.25
+    - lp user %player% permission set essentials.sethome.multiple.legend
+    - lp user %player% permission set essentials.back
+    - lp user %player% permission set essentials.top
+    - lp user %player% permission set upgrade.level4
+    Message: ''
+    PriceType: MONEY
+    Price: 10000
+    ExtraPermission: ''
+    InventoryLocation: 17
+    Condition:
+    - type:money
+    - over:10000
+    - type:permission
+    - match:auctionmaster.limit.auctions.18
+    - type:permission
+    - match:auctionmaster.limit.duration.24
+    - type:permission
+    - match:ultimateclaims.maxclaims.21
+    - type:permission
+    - match:essentials.enderchest
+    - type:permission
+    - match:essentials.jump
+    - type:permission
+    - match:dreamcore.hat.use
+  lv3_nomoney_9:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &610000&f#&f'
+    - 'lore11:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 17
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.18
+    - type:permission
+    - match:auctionmaster.limit.duration.24
+    - type:permission
+    - match:ultimateclaims.maxclaims.21
+    - type:permission
+    - match:essentials.enderchest
+    - type:permission
+    - match:essentials.jump
+    - type:permission
+    - match:dreamcore.hat.use
+  lv3_block_9:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 17
+###############################
+  lv3_10:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 18
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.24
+    - type:permission
+    - match:auctionmaster.limit.duration.36
+    - type:permission
+    - match:ultimateclaims.maxclaims.25
+    - type:permission
+    - match:essentials.sethome.multiple.legend
+    - type:permission
+    - match:essentials.back
+    - type:permission
+    - match:essentials.top
+    - type:permission
+    - match:upgrade.level4
+  lv3_buy_10:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &610000&f#&f'
+    - 'lore11:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.24
+    - lp user %player% permission set auctionmaster.limit.duration.36
+    - lp user %player% permission set ultimateclaims.maxclaims.25
+    - lp user %player% permission set essentials.sethome.multiple.legend
+    - lp user %player% permission set essentials.back
+    - lp user %player% permission set essentials.top
+    - lp user %player% permission set upgrade.level4
+    Message: ''
+    PriceType: MONEY
+    Price: 10000
+    ExtraPermission: ''
+    InventoryLocation: 18
+    Condition:
+    - type:money
+    - over:10000
+    - type:permission
+    - match:auctionmaster.limit.auctions.18
+    - type:permission
+    - match:auctionmaster.limit.duration.24
+    - type:permission
+    - match:ultimateclaims.maxclaims.21
+    - type:permission
+    - match:essentials.enderchest
+    - type:permission
+    - match:essentials.jump
+    - type:permission
+    - match:dreamcore.hat.use
+  lv3_nomoney_10:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&7ᴘʀɪᴄᴇ: &610000&f#&f'
+    - 'lore11:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 18
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.18
+    - type:permission
+    - match:auctionmaster.limit.duration.24
+    - type:permission
+    - match:ultimateclaims.maxclaims.21
+    - type:permission
+    - match:essentials.enderchest
+    - type:permission
+    - match:essentials.jump
+    - type:permission
+    - match:dreamcore.hat.use
+  lv3_block_10:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 25'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 24'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 36h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 2'
+    - 'lore7:&f ▪ /ʙᴀᴄᴋ'
+    - 'lore8:&f ▪ /ᴛᴏᴘ'
+    - 'lore10:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 18
+##################################################
+  lv4:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.28
+    - type:permission
+    - match:auctionmaster.limit.duration.48
+    - type:permission
+    - match:ultimateclaims.maxclaims.32
+    - type:permission
+    - match:essentials.sethome.multiple.upgrade
+    - type:permission
+    - match:jobs.max.3
+  lv4_buy:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&7ᴘʀɪᴄᴇ: &618000&f#&f'
+    - 'lore10:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.28
+    - lp user %player% permission set auctionmaster.limit.duration.48
+    - lp user %player% permission set ultimateclaims.maxclaims.32
+    - lp user %player% permission set essentials.sethome.multiple.upgrade
+    - lp user %player% permission set jobs.max.3
+    PriceType: MONEY
+    Price: 18000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    Condition:
+    - type:money
+    - over:18000
+    - type:permission
+    - match:auctionmaster.limit.auctions.24
+    - type:permission
+    - match:auctionmaster.limit.duration.36
+    - type:permission
+    - match:ultimateclaims.maxclaims.25
+    - type:permission
+    - match:essentials.sethome.multiple.legend
+    - type:permission
+    - match:essentials.back
+    - type:permission
+    - match:essentials.top
+    - type:permission
+    - match:upgrade.level4
+  lv4_nomoney:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&7ᴘʀɪᴄᴇ: &618000&f#&f'
+    - 'lore10:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.24
+    - type:permission
+    - match:auctionmaster.limit.duration.36
+    - type:permission
+    - match:ultimateclaims.maxclaims.25
+    - type:permission
+    - match:essentials.sethome.multiple.legend
+    - type:permission
+    - match:essentials.back
+    - type:permission
+    - match:essentials.top
+    - type:permission
+    - match:upgrade.level4
+  lv4_block:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+#######################################
+  lv4_2:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 24
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.28
+    - type:permission
+    - match:auctionmaster.limit.duration.48
+    - type:permission
+    - match:ultimateclaims.maxclaims.32
+    - type:permission
+    - match:essentials.sethome.multiple.upgrade
+    - type:permission
+    - match:jobs.max.3
+  lv4_buy_2:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&7ᴘʀɪᴄᴇ: &618000&f#&f'
+    - 'lore10:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.28
+    - lp user %player% permission set auctionmaster.limit.duration.48
+    - lp user %player% permission set ultimateclaims.maxclaims.32
+    - lp user %player% permission set essentials.sethome.multiple.upgrade
+    - lp user %player% permission set jobs.max.3
+    PriceType: MONEY
+    Price: 18000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 24
+    Condition:
+    - type:money
+    - over:18000
+    - type:permission
+    - match:auctionmaster.limit.auctions.24
+    - type:permission
+    - match:auctionmaster.limit.duration.36
+    - type:permission
+    - match:ultimateclaims.maxclaims.25
+    - type:permission
+    - match:essentials.sethome.multiple.legend
+    - type:permission
+    - match:essentials.back
+    - type:permission
+    - match:essentials.top
+    - type:permission
+    - match:upgrade.level4
+  lv4_nomoney_2:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&7ᴘʀɪᴄᴇ: &618000&f#&f'
+    - 'lore10:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 24
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.24
+    - type:permission
+    - match:auctionmaster.limit.duration.36
+    - type:permission
+    - match:ultimateclaims.maxclaims.25
+    - type:permission
+    - match:essentials.sethome.multiple.legend
+    - type:permission
+    - match:essentials.back
+    - type:permission
+    - match:essentials.top
+    - type:permission
+    - match:upgrade.level4
+  lv4_block_2:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 24
+#######################################
+  lv4_3:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 25
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.28
+    - type:permission
+    - match:auctionmaster.limit.duration.48
+    - type:permission
+    - match:ultimateclaims.maxclaims.32
+    - type:permission
+    - match:essentials.sethome.multiple.upgrade
+    - type:permission
+    - match:jobs.max.3
+  lv4_buy_3:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&7ᴘʀɪᴄᴇ: &618000&f#&f'
+    - 'lore10:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.28
+    - lp user %player% permission set auctionmaster.limit.duration.48
+    - lp user %player% permission set ultimateclaims.maxclaims.32
+    - lp user %player% permission set essentials.sethome.multiple.upgrade
+    - lp user %player% permission set jobs.max.3
+    PriceType: MONEY
+    Price: 18000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 25
+    Condition:
+    - type:money
+    - over:18000
+    - type:permission
+    - match:auctionmaster.limit.auctions.24
+    - type:permission
+    - match:auctionmaster.limit.duration.36
+    - type:permission
+    - match:ultimateclaims.maxclaims.25
+    - type:permission
+    - match:essentials.sethome.multiple.legend
+    - type:permission
+    - match:essentials.back
+    - type:permission
+    - match:essentials.top
+    - type:permission
+    - match:upgrade.level4
+  lv4_nomoney_3:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&7ᴘʀɪᴄᴇ: &618000&f#&f'
+    - 'lore10:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 25
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.24
+    - type:permission
+    - match:auctionmaster.limit.duration.36
+    - type:permission
+    - match:ultimateclaims.maxclaims.25
+    - type:permission
+    - match:essentials.sethome.multiple.legend
+    - type:permission
+    - match:essentials.back
+    - type:permission
+    - match:essentials.top
+    - type:permission
+    - match:upgrade.level4
+  lv4_block_3:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 25
+#######################################
+  lv4_4:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 26
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.28
+    - type:permission
+    - match:auctionmaster.limit.duration.48
+    - type:permission
+    - match:ultimateclaims.maxclaims.32
+    - type:permission
+    - match:essentials.sethome.multiple.upgrade
+    - type:permission
+    - match:jobs.max.3
+  lv4_buy_4:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&7ᴘʀɪᴄᴇ: &618000&f#&f'
+    - 'lore10:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.28
+    - lp user %player% permission set auctionmaster.limit.duration.48
+    - lp user %player% permission set ultimateclaims.maxclaims.32
+    - lp user %player% permission set essentials.sethome.multiple.upgrade
+    - lp user %player% permission set jobs.max.3
+    PriceType: MONEY
+    Price: 18000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 26
+    Condition:
+    - type:money
+    - over:18000
+    - type:permission
+    - match:auctionmaster.limit.auctions.24
+    - type:permission
+    - match:auctionmaster.limit.duration.36
+    - type:permission
+    - match:ultimateclaims.maxclaims.25
+    - type:permission
+    - match:essentials.sethome.multiple.legend
+    - type:permission
+    - match:essentials.back
+    - type:permission
+    - match:essentials.top
+    - type:permission
+    - match:upgrade.level4
+  lv4_nomoney_4:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&7ᴘʀɪᴄᴇ: &618000&f#&f'
+    - 'lore10:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 26
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.24
+    - type:permission
+    - match:auctionmaster.limit.duration.36
+    - type:permission
+    - match:ultimateclaims.maxclaims.25
+    - type:permission
+    - match:essentials.sethome.multiple.legend
+    - type:permission
+    - match:essentials.back
+    - type:permission
+    - match:essentials.top
+    - type:permission
+    - match:upgrade.level4
+  lv4_block_4:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 26
+#######################################
+  lv4_5:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 27
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.28
+    - type:permission
+    - match:auctionmaster.limit.duration.48
+    - type:permission
+    - match:ultimateclaims.maxclaims.32
+    - type:permission
+    - match:essentials.sethome.multiple.upgrade
+    - type:permission
+    - match:jobs.max.3
+  lv4_buy_5:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&7ᴘʀɪᴄᴇ: &618000&f#&f'
+    - 'lore10:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.28
+    - lp user %player% permission set auctionmaster.limit.duration.48
+    - lp user %player% permission set ultimateclaims.maxclaims.32
+    - lp user %player% permission set essentials.sethome.multiple.upgrade
+    - lp user %player% permission set jobs.max.3
+    PriceType: MONEY
+    Price: 18000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 27
+    Condition:
+    - type:money
+    - over:18000
+    - type:permission
+    - match:auctionmaster.limit.auctions.24
+    - type:permission
+    - match:auctionmaster.limit.duration.36
+    - type:permission
+    - match:ultimateclaims.maxclaims.25
+    - type:permission
+    - match:essentials.sethome.multiple.legend
+    - type:permission
+    - match:essentials.back
+    - type:permission
+    - match:essentials.top
+    - type:permission
+    - match:upgrade.level4
+  lv4_nomoney_5:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&7ᴘʀɪᴄᴇ: &618000&f#&f'
+    - 'lore10:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 27
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.24
+    - type:permission
+    - match:auctionmaster.limit.duration.36
+    - type:permission
+    - match:ultimateclaims.maxclaims.25
+    - type:permission
+    - match:essentials.sethome.multiple.legend
+    - type:permission
+    - match:essentials.back
+    - type:permission
+    - match:essentials.top
+    - type:permission
+    - match:upgrade.level4
+  lv4_block_5:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 27
+#######################################
+  lv4_6:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.28
+    - type:permission
+    - match:auctionmaster.limit.duration.48
+    - type:permission
+    - match:ultimateclaims.maxclaims.32
+    - type:permission
+    - match:essentials.sethome.multiple.upgrade
+    - type:permission
+    - match:jobs.max.3
+  lv4_buy_6:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&7ᴘʀɪᴄᴇ: &618000&f#&f'
+    - 'lore10:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.28
+    - lp user %player% permission set auctionmaster.limit.duration.48
+    - lp user %player% permission set ultimateclaims.maxclaims.32
+    - lp user %player% permission set essentials.sethome.multiple.upgrade
+    - lp user %player% permission set jobs.max.3
+    PriceType: MONEY
+    Price: 18000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+    Condition:
+    - type:money
+    - over:18000
+    - type:permission
+    - match:auctionmaster.limit.auctions.24
+    - type:permission
+    - match:auctionmaster.limit.duration.36
+    - type:permission
+    - match:ultimateclaims.maxclaims.25
+    - type:permission
+    - match:essentials.sethome.multiple.legend
+    - type:permission
+    - match:essentials.back
+    - type:permission
+    - match:essentials.top
+    - type:permission
+    - match:upgrade.level4
+  lv4_nomoney_6:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&7ᴘʀɪᴄᴇ: &618000&f#&f'
+    - 'lore10:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.24
+    - type:permission
+    - match:auctionmaster.limit.duration.36
+    - type:permission
+    - match:ultimateclaims.maxclaims.25
+    - type:permission
+    - match:essentials.sethome.multiple.legend
+    - type:permission
+    - match:essentials.back
+    - type:permission
+    - match:essentials.top
+    - type:permission
+    - match:upgrade.level4
+  lv4_block_6:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+#######################################
+  lv4_7:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 33
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.28
+    - type:permission
+    - match:auctionmaster.limit.duration.48
+    - type:permission
+    - match:ultimateclaims.maxclaims.32
+    - type:permission
+    - match:essentials.sethome.multiple.upgrade
+    - type:permission
+    - match:jobs.max.3
+  lv4_buy_7:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&7ᴘʀɪᴄᴇ: &618000&f#&f'
+    - 'lore10:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.28
+    - lp user %player% permission set auctionmaster.limit.duration.48
+    - lp user %player% permission set ultimateclaims.maxclaims.32
+    - lp user %player% permission set essentials.sethome.multiple.upgrade
+    - lp user %player% permission set jobs.max.3
+    PriceType: MONEY
+    Price: 18000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 33
+    Condition:
+    - type:money
+    - over:18000
+    - type:permission
+    - match:auctionmaster.limit.auctions.24
+    - type:permission
+    - match:auctionmaster.limit.duration.36
+    - type:permission
+    - match:ultimateclaims.maxclaims.25
+    - type:permission
+    - match:essentials.sethome.multiple.legend
+    - type:permission
+    - match:essentials.back
+    - type:permission
+    - match:essentials.top
+    - type:permission
+    - match:upgrade.level4
+  lv4_nomoney_7:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&7ᴘʀɪᴄᴇ: &618000&f#&f'
+    - 'lore10:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 33
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.24
+    - type:permission
+    - match:auctionmaster.limit.duration.36
+    - type:permission
+    - match:ultimateclaims.maxclaims.25
+    - type:permission
+    - match:essentials.sethome.multiple.legend
+    - type:permission
+    - match:essentials.back
+    - type:permission
+    - match:essentials.top
+    - type:permission
+    - match:upgrade.level4
+  lv4_block_7:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 33
+#######################################
+  lv4_8:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 34
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.28
+    - type:permission
+    - match:auctionmaster.limit.duration.48
+    - type:permission
+    - match:ultimateclaims.maxclaims.32
+    - type:permission
+    - match:essentials.sethome.multiple.upgrade
+    - type:permission
+    - match:jobs.max.3
+  lv4_buy_8:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&7ᴘʀɪᴄᴇ: &618000&f#&f'
+    - 'lore10:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.28
+    - lp user %player% permission set auctionmaster.limit.duration.48
+    - lp user %player% permission set ultimateclaims.maxclaims.32
+    - lp user %player% permission set essentials.sethome.multiple.upgrade
+    - lp user %player% permission set jobs.max.3
+    PriceType: MONEY
+    Price: 18000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 34
+    Condition:
+    - type:money
+    - over:18000
+    - type:permission
+    - match:auctionmaster.limit.auctions.24
+    - type:permission
+    - match:auctionmaster.limit.duration.36
+    - type:permission
+    - match:ultimateclaims.maxclaims.25
+    - type:permission
+    - match:essentials.sethome.multiple.legend
+    - type:permission
+    - match:essentials.back
+    - type:permission
+    - match:essentials.top
+    - type:permission
+    - match:upgrade.level4
+  lv4_nomoney_8:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&7ᴘʀɪᴄᴇ: &618000&f#&f'
+    - 'lore10:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 34
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.24
+    - type:permission
+    - match:auctionmaster.limit.duration.36
+    - type:permission
+    - match:ultimateclaims.maxclaims.25
+    - type:permission
+    - match:essentials.sethome.multiple.legend
+    - type:permission
+    - match:essentials.back
+    - type:permission
+    - match:essentials.top
+    - type:permission
+    - match:upgrade.level4
+  lv4_block_8:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 34
+#######################################
+  lv4_9:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 35
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.28
+    - type:permission
+    - match:auctionmaster.limit.duration.48
+    - type:permission
+    - match:ultimateclaims.maxclaims.32
+    - type:permission
+    - match:essentials.sethome.multiple.upgrade
+    - type:permission
+    - match:jobs.max.3
+  lv4_buy_9:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&7ᴘʀɪᴄᴇ: &618000&f#&f'
+    - 'lore10:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.28
+    - lp user %player% permission set auctionmaster.limit.duration.48
+    - lp user %player% permission set ultimateclaims.maxclaims.32
+    - lp user %player% permission set essentials.sethome.multiple.upgrade
+    - lp user %player% permission set jobs.max.3
+    PriceType: MONEY
+    Price: 18000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 35
+    Condition:
+    - type:money
+    - over:18000
+    - type:permission
+    - match:auctionmaster.limit.auctions.24
+    - type:permission
+    - match:auctionmaster.limit.duration.36
+    - type:permission
+    - match:ultimateclaims.maxclaims.25
+    - type:permission
+    - match:essentials.sethome.multiple.legend
+    - type:permission
+    - match:essentials.back
+    - type:permission
+    - match:essentials.top
+    - type:permission
+    - match:upgrade.level4
+  lv4_nomoney_9:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&7ᴘʀɪᴄᴇ: &618000&f#&f'
+    - 'lore10:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 35
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.24
+    - type:permission
+    - match:auctionmaster.limit.duration.36
+    - type:permission
+    - match:ultimateclaims.maxclaims.25
+    - type:permission
+    - match:essentials.sethome.multiple.legend
+    - type:permission
+    - match:essentials.back
+    - type:permission
+    - match:essentials.top
+    - type:permission
+    - match:upgrade.level4
+  lv4_block_9:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 35
+#######################################
+  lv4_10:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&f &aᴀʟʀᴇᴀᴅʏ ʙᴏᴜɢʜᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 36
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.28
+    - type:permission
+    - match:auctionmaster.limit.duration.48
+    - type:permission
+    - match:ultimateclaims.maxclaims.32
+    - type:permission
+    - match:essentials.sethome.multiple.upgrade
+    - type:permission
+    - match:jobs.max.3
+  lv4_buy_10:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&7ᴘʀɪᴄᴇ: &618000&f#&f'
+    - 'lore10:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set auctionmaster.limit.auctions.28
+    - lp user %player% permission set auctionmaster.limit.duration.48
+    - lp user %player% permission set ultimateclaims.maxclaims.32
+    - lp user %player% permission set essentials.sethome.multiple.upgrade
+    - lp user %player% permission set jobs.max.3
+    PriceType: MONEY
+    Price: 18000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 36
+    Condition:
+    - type:money
+    - over:18000
+    - type:permission
+    - match:auctionmaster.limit.auctions.24
+    - type:permission
+    - match:auctionmaster.limit.duration.36
+    - type:permission
+    - match:ultimateclaims.maxclaims.25
+    - type:permission
+    - match:essentials.sethome.multiple.legend
+    - type:permission
+    - match:essentials.back
+    - type:permission
+    - match:essentials.top
+    - type:permission
+    - match:upgrade.level4
+  lv4_nomoney_10:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&7ᴘʀɪᴄᴇ: &618000&f#&f'
+    - 'lore10:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 36
+    Condition:
+    - type:permission
+    - match:auctionmaster.limit.auctions.24
+    - type:permission
+    - match:auctionmaster.limit.duration.36
+    - type:permission
+    - match:ultimateclaims.maxclaims.25
+    - type:permission
+    - match:essentials.sethome.multiple.legend
+    - type:permission
+    - match:essentials.back
+    - type:permission
+    - match:essentials.top
+    - type:permission
+    - match:upgrade.level4
+  lv4_block_10:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&8ᴜᴘɢʀᴀᴅᴇ'
+
+    - 'lore3:&f ▪ ᴍᴀx ᴄʟᴀɪᴍꜱ: 32'
+    - 'lore4:&f ▪ ᴍᴀx ᴀᴜᴄᴛɪᴏɴꜱ 28'
+    - 'lore5:&f ▪ ᴛɪᴍᴇ ʟɪᴍɪᴛ: 48h'
+    - 'lore6:&f ▪ ʜᴏᴜꜱᴇꜱ: 3'
+    - 'lore7:&f ▪ ᴊᴏʙꜱ: 3'
+    - 'lore9:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 36
+####################################################################################################################
+  invitem:
+    MenuItem:
+    - type:stick
+    - custommodeldata:1
+    - name:&f
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 45

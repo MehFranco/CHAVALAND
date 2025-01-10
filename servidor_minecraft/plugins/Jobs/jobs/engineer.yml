@@ -1,0 +1,511 @@
+Engineer:
+  fullname: Engineer
+  shortname: En
+  description: '&fEarn money by crafting and placing down various automatisations.'
+  ChatColour: RED
+  chat-display: full
+  max-level: 75
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  maxDailyQuests: 1
+  Quests:
+    '1':
+      Name: Technician
+      Objectives:
+      - Craft;repeater;3
+      - Craft;lever;1
+      RewardCommands:
+      - eco give [playerName] 250
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fCraft redstone components and get money'
+      - '&8 ▪ &fGet 250$ for this!'
+    '2':
+      Name: Technician II
+      Objectives:
+      - Craft;piston;2
+      - Place;piston;2
+      RewardCommands:
+      - eco give [playerName] 300
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fCraft redstone components and get money'
+      - '&8 ▪ &fGet 300$ for this!'
+    '3':
+      Name: Technician III
+      Objectives:
+      - Craft;TNT;3
+      - Place;redstone_wire;32
+      RewardCommands:
+      - eco give [playerName] 350
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fCraft redstone components and get money'
+      - '&8 ▪ &fGet 350$ for this!'
+    '4':
+      Name: Technician IV
+      Objectives:
+      - Place;crimson_button;1
+      - Place;dispenser;1
+      RewardCommands:
+      - eco give [playerName] 250
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fCraft redstone components and get money'
+      - '&8 ▪ &fGet 250$ for this!'
+    '5':
+      Name: Technician V
+      Objectives:
+      - Place;warped_pressure_plate;1
+      - Place;sticky_piston;1
+      RewardCommands:
+      - eco give [playerName] 340
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fCraft redstone components and get money'
+      - '&8 ▪ &fGet 340$ for this!'
+    '6':
+      Name: Technician VI
+      Objectives:
+      - Place;repeater;2
+      - Place;redstone_wire;40
+      - Place;stone_button;1
+      RewardCommands:
+      - eco give [playerName] 380
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fCraft redstone components and get money'
+      - '&8 ▪ &fGet 380$ for this!'
+    '7':
+      Name: Technician VII
+      Objectives:
+      - Craft;iron_trapdoor;1
+      - Place;redstone_torch;4
+      - Place;comparator;2
+      RewardCommands:
+      - eco give [playerName] 350
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fCraft redstone components and get money'
+      - '&8 ▪ &fGet 350$ for this!'
+    '8':
+      Name: Technician VIII
+      Objectives:
+      - Craft;redstone_lamp;4
+      - Craft;daylight_detector;4
+      - Craft;oak_trapdoor;4
+      RewardCommands:
+      - eco give [playerName] 500
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fCraft redstone components and get money'
+      - '&8 ▪ &fGet 500$ for this!'
+    '9':
+      Name: Technician IX
+      Objectives:
+      - Craft;tripwire_hook;2
+      - Craft;target;1
+      - Place;dropper;1
+      RewardCommands:
+      - eco give [playerName] 400
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fCraft redstone components and get money'
+      - '&8 ▪ &fGet 400$ for this!'
+  Gui:
+    Item: repeater
+  Place:
+    redstone_wire:
+      income: 0.2
+      points: 0.2
+      experience: 0.2
+    repeater:
+      income: 1
+      points: 1
+      experience: 1
+    comparator:
+      income: 1.2
+      points: 1.2
+      experience: 1.2
+    dispenser:
+      income: 0.6
+      points: 0.6
+      experience: 0.6
+    note_block:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    sticky_piston:
+      income: 3.5
+      points: 3.5
+      experience: 3.5
+    piston:
+      income: 3
+      points: 3
+      experience: 3
+    tnt:
+      income: 3
+      points: 3
+      experience: 3
+    lever:
+      income: 0.2
+      points: 0.2
+      experience: 0.2
+    redstone_torch:
+      income: 0.2
+      points: 0.2
+      experience: 0.2
+    redstone_lamp:
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+    tripwire_hook:
+      income: 0.3
+      points: 0.3
+      experience: 0.3
+    trapped_chest:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    daylight_detector:
+      income: 1.25
+      points: 1.25
+      experience: 1.25
+    hopper:
+      income: 3
+      points: 3
+      experience: 3
+    dropper:
+      income: 0.6
+      points: 0.6
+      experience: 0.6
+    observer:
+      income: 1
+      points: 1
+      experience: 1
+    lectern:
+      income: 1
+      points: 1
+      experience: 1
+    target:
+      income: 1
+      points: 1
+      experience: 1
+    stone_pressure_plate:
+      income: 0.4
+      points: 0.4
+      experience: 0.4
+    oak_pressure_plate:
+      income: 0.4
+      points: 0.4
+      experience: 0.4
+    spruce_pressure_plate:
+      income: 0.4
+      points: 0.4
+      experience: 0.4
+    birch_pressure_plate:
+      income: 0.4
+      points: 0.4
+      experience: 0.4
+    jungle_pressure_plate:
+      income: 0.4
+      points: 0.4
+      experience: 0.4
+    acacia_pressure_plate:
+      income: 0.4
+      points: 0.4
+      experience: 0.4
+    dark_oak_pressure_plate:
+      income: 0.4
+      points: 0.4
+      experience: 0.4
+    crimson_pressure_plate:
+      income: 0.4
+      points: 0.4
+      experience: 0.4
+    warped_pressure_plate:
+      income: 0.4
+      points: 0.4
+      experience: 0.4
+    polished_blackstone_pressure_plate:
+      income: 0.4
+      points: 0.4
+      experience: 0.4
+    light_weighted_pressure_plate:
+      income: 0.4
+      points: 0.4
+      experience: 0.4
+    heavy_weighted_pressure_plate:
+      income: 0.4
+      points: 0.4
+      experience: 0.4
+    stone_button:
+      income: 0.25
+      points: 0.25
+      experience: 0.25
+    oak_button:
+      income: 0.25
+      points: 0.25
+      experience: 0.25
+    spruce_button:
+      income: 0.25
+      points: 0.25
+      experience: 0.25
+    birch_button:
+      income: 0.25
+      points: 0.25
+      experience: 0.25
+    jungle_button:
+      income: 0.25
+      points: 0.25
+      experience: 0.25
+    acacia_button:
+      income: 0.25
+      points: 0.25
+      experience: 0.25
+    dark_oak_button:
+      income: 0.25
+      points: 0.25
+      experience: 0.25
+    crimson_button:
+      income: 0.25
+      points: 0.25
+      experience: 0.25
+    warped_button:
+      income: 0.25
+      points: 0.25
+      experience: 0.25
+    polished_blackstone_button:
+      income: 0.25
+      points: 0.25
+      experience: 0.25
+    oak_trapdoor:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    spruce_trapdoor:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    birch_trapdoor:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    jungle_trapdoor:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    acacia_trapdoor:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    dark_oak_trapdoor:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    crimson_trapdoor:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    warped_trapdoor:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+  Craft:
+    repeater:
+      income: 1
+      points: 1
+      experience: 1
+    comparator:
+      income: 1.2
+      points: 1.2
+      experience: 1.2
+    dispenser:
+      income: 0.6
+      points: 0.6
+      experience: 0.6
+    note_block:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    sticky_piston:
+      income: 3.5
+      points: 3.5
+      experience: 3.5
+    piston:
+      income: 3
+      points: 3
+      experience: 3
+    tnt:
+      income: 3
+      points: 3
+      experience: 3
+    lever:
+      income: 0.2
+      points: 0.2
+      experience: 0.2
+    redstone_torch:
+      income: 0.2
+      points: 0.2
+      experience: 0.2
+    redstone_lamp:
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+    tripwire_hook:
+      income: 0.3
+      points: 0.3
+      experience: 0.3
+    trapped_chest:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    daylight_detector:
+      income: 1.25
+      points: 1.25
+      experience: 1.25
+    hopper:
+      income: 3
+      points: 3
+      experience: 3
+    dropper:
+      income: 0.6
+      points: 0.6
+      experience: 0.6
+    observer:
+      income: 1
+      points: 1
+      experience: 1
+    lectern:
+      income: 1
+      points: 1
+      experience: 1
+    target:
+      income: 1
+      points: 1
+      experience: 1
+    stone_pressure_plate:
+      income: 0.4
+      points: 0.4
+      experience: 0.4
+    oak_pressure_plate:
+      income: 0.4
+      points: 0.4
+      experience: 0.4
+    spruce_pressure_plate:
+      income: 0.4
+      points: 0.4
+      experience: 0.4
+    birch_pressure_plate:
+      income: 0.4
+      points: 0.4
+      experience: 0.4
+    jungle_pressure_plate:
+      income: 0.4
+      points: 0.4
+      experience: 0.4
+    acacia_pressure_plate:
+      income: 0.4
+      points: 0.4
+      experience: 0.4
+    dark_oak_pressure_plate:
+      income: 0.4
+      points: 0.4
+      experience: 0.4
+    crimson_pressure_plate:
+      income: 0.4
+      points: 0.4
+      experience: 0.4
+    warped_pressure_plate:
+      income: 0.4
+      points: 0.4
+      experience: 0.4
+    polished_blackstone_pressure_plate:
+      income: 0.4
+      points: 0.4
+      experience: 0.4
+    light_weighted_pressure_plate:
+      income: 0.4
+      points: 0.4
+      experience: 0.4
+    heavy_weighted_pressure_plate:
+      income: 0.4
+      points: 0.4
+      experience: 0.4
+    stone_button:
+      income: 0.25
+      points: 0.25
+      experience: 0.25
+    oak_button:
+      income: 0.25
+      points: 0.25
+      experience: 0.25
+    spruce_button:
+      income: 0.25
+      points: 0.25
+      experience: 0.25
+    birch_button:
+      income: 0.25
+      points: 0.25
+      experience: 0.25
+    jungle_button:
+      income: 0.25
+      points: 0.25
+      experience: 0.25
+    acacia_button:
+      income: 0.25
+      points: 0.25
+      experience: 0.25
+    dark_oak_button:
+      income: 0.25
+      points: 0.25
+      experience: 0.25
+    crimson_button:
+      income: 0.25
+      points: 0.25
+      experience: 0.25
+    warped_button:
+      income: 0.25
+      points: 0.25
+      experience: 0.25
+    polished_blackstone_button:
+      income: 0.25
+      points: 0.25
+      experience: 0.25
+    oak_trapdoor:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    spruce_trapdoor:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    birch_trapdoor:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    jungle_trapdoor:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    acacia_trapdoor:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    dark_oak_trapdoor:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    crimson_trapdoor:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    warped_trapdoor:
+      income: 0.5
+      points: 0.5
+      experience: 0.5

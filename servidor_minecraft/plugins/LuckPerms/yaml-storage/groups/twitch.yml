@@ -1,0 +1,9 @@
+name: twitch
+permissions:
+- displayname.&#9c5ff7ᴛᴡɪᴛᴄʜ
+- weight.150
+parents:
+- default
+prefixes:
+- '&f#9c5ff7':
+    priority: 150

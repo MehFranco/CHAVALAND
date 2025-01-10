@@ -1,0 +1,91 @@
+announce-command-usage: |-
+  Usage: /tab announce <type> <name> <length>
+  Currently supported types: &lbar, scoreboard
+bossbar-feature-not-enabled: '&f &fThis command requires the bossbar feature to be
+  enabled.'
+bossbar-announce-command-usage: 'Usage: /tab announce bar <bar name> <length>'
+bossbar-not-found: '&f &fNo bossbar found with the name "%name%"'
+bossbar-already-announced: '&f &fThis bossbar is already being announced'
+group-data-removed: '&f &fAll data has been successfully removed from group &e%group%'
+group-value-assigned: '&f &f%property% ''&r%value%&r&3'' has been successfully assigned
+  to group &e%group%'
+group-value-removed: '&f &f%property% has been successfully removed from group &e%group%'
+user-data-removed: '&f &fAll data has been successfully removed from player &e%player%'
+user-value-assigned: '&f &f%property% ''&r%value%&r&3'' has been successfully assigned
+  to player &e%player%'
+user-value-removed: '&f &f%property% has been successfully removed from player &e%player%'
+parse-command-usage: 'Usage: /tab parse <player> <placeholder>'
+send-command-usage: |-
+  Usage: /tab send <type> <player> <bar name> <length>
+  Currently supported types: &lbar
+send-bar-command-usage: 'Usage: /tab send bar <player> <bar name> <length>'
+team-feature-required: This command requires scoreboard teams feature enabled
+collision-command-ussage: 'Usage: /tab setcollision <player> <true/false>'
+no-permission: '&f &fI''m sorry, but you do not have permission to perform this command.
+  Please contact the server administrators if you believe that this is in error.'
+command-only-from-game: '&f &fThis command must be ran from the game'
+player-not-online: '&f &fNo online player found with the name "%player%"'
+unlimited-nametag-mode-not-enabled: '&f &fWarning! To make this feature work, you
+  need to enable unlimited-nametag-mode in the config!'
+invalid-number: '"%input%" is not a number!'
+scoreboard-feature-not-enabled: '&f &fThis command requires the scoreboard feature
+  to be enabled.'
+scoreboard-announce-command-usage: '&f &fUsage: /tab announce scoreboard <scoreboard
+  name> <length>'
+scoreboard-not-found: '&f &fNo scoreboard found with the name "%name%"'
+nametag-preview-on: '&f &fPreview mode &eactivated&f.'
+nametag-preview-of: '&f &fPreview mode &edeactivated&f.'
+reload-success: '&f &fSuccessfully reloaded'
+reload-fail-file: '&f &fFailed to reload, file %file% has broken syntax. Check console
+  for more info.'
+scoreboard-toggle-on: '&f &fScoreboard enabled'
+scoreboard-toggle-off: '&f &fScoreboard disabled'
+bossbar-toggle-on: '&f &fBossbar is now visible.'
+bossbar-toggle-off: '&f &fBossbar is no longer visible. Magic!'
+help-menu:
+- '&m                                                                                '
+- ' &8>> &3&l/tab reload'
+- '    &7Reloads plugin and config'
+- ' &8>> &3&l/tab &9group&3/&9player &3<name> &9<property> &3<value...>'
+- '    &7Do &8/tab group/player &7to show properties'
+- ' &8>> &3&l/tab nametag preview'
+- '    &7Shows your nametag for yourself, for testing purposes'
+- ' &8>> &3&l/tab announce bar &3<name> &9<seconds>'
+- '    &7Temporarily displays bossbar to all players'
+- ' &8>> &3&l/tab parse <player> <placeholder> '
+- '    &7Test if a placeholder works'
+- ' &8>> &3&l/tab debug [player]'
+- '    &7displays debug information about player'
+- ' &8>> &3&l/tab cpu'
+- '    &7shows CPU usage of the plugin'
+- ' &8>> &3&l/tab group/player <name> remove'
+- '    &7Clears all data about player/group'
+- '&m                                                                                '
+collision-command-usage: 'Usage: /tab setcollision <player> <true/false>'
+scoreboard-show-usage: 'Usage: /tab scoreboard show <scoreboard> [player]'
+bossbar-not-marked-as-announcement: '&cThis bossbar is not marked as an announcement
+  bar and is therefore already displayed permanently (if display condition is met)'
+mysql-help-menu:
+- /tab mysql upload - uploads data from files to mysql
+- /tab mysql download - downloads data from mysql to files
+mysql-fail-not-enabled: '&cCannot download/upload data from/to MySQL, because it''s
+  disabled.'
+mysql-fail-error: MySQL download failed due to an error. Check console for more info.
+mysql-download-success: '&aMySQL data downloaded successfully.'
+mysql-upload-success: '&aMySQL data uploaded successfully.'
+nametag-help-menu:
+- /tab nametag preview [player] - toggles armor stand preview mode
+- /tab nametag toggle [player] - toggles nametags on all players for command sender
+nametag-feature-not-enabled: '&cThis command requires nametag feature to be enabled.'
+nametags-hidden: '&aNametags of all players were hidden to you'
+nametags-shown: '&aNametags of all players were shown to you'
+armorstands-disabled-cannot-use-preview: '&cYour armor stands are disabled, therefore
+  you cannot use preview feature'
+scoreboard-help-menu:
+- /tab scoreboard [on/off/toggle] [player] [options]
+- /tab scoreboard show <name> [player]
+- /tab scoreboard announce <name> <length>
+bossbar-help-menu:
+- /tab bossbar [on/off/toggle] [player] [options]
+- /tab bossbar send <name> [player]
+- /tab bossbar announce <name> <length>

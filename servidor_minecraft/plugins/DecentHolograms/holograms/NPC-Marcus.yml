@@ -1,0 +1,16 @@
+location: world:-111.638:67.000:3.586
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&d&lɴᴘᴄ&d・ᴍᴀʀᴄᴜs'
+    height: 0.2
+  - content: '&7ꜰᴀʀᴍᴇʀ'
+    height: 0.5
+  - content: '&f ⻔&#e9d282ᴛᴏ ᴛᴀʟᴋ'
+    height: 0.1
+  actions: {}

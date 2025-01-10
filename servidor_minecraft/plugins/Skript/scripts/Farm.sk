@@ -1,0 +1,101 @@
+
+on unload:
+	if {farmopen} is set:
+		set block at location at -118, 68, 11 in world "world" to iron_bars
+		set block at location at -114, 68, 11 in world "world" to iron_bars
+		set block at location at -115, 68, 11 in world "world" to iron_bars
+		set block at location at -116, 68, 11 in world "world" to iron_bars
+		set block at location at -117, 68, 11 in world "world" to iron_bars
+		set block at location at -118, 67, 11 in world "world" to iron_bars
+		set block at location at -114, 67, 11 in world "world" to iron_bars
+		set block at location at -115, 67, 11 in world "world" to iron_bars
+		set block at location at -116, 67, 11 in world "world" to iron_bars
+		set block at location at -117, 67, 11 in world "world" to iron_bars
+		delete {farmopen}
+	delete {farm::*}
+    
+command /farm [<player>]:
+	permission: op
+	trigger:
+		if arg-1 have permission "unlock.farm":
+			if {farmopen} is not set:
+				wait 2 tick
+				set {farmopen} to 1
+				wait 2 seconds
+				set block at location at -114, 68, 11 in world "world" to air
+				set block at location at -115, 68, 11 in world "world" to air
+				set block at location at -116, 68, 11 in world "world" to air
+				set block at location at -117, 68, 11 in world "world" to air
+				set block at location at -118, 68, 11 in world "world" to air
+				set block at location at -114, 67, 11 in world "world" to air
+				set block at location at -115, 67, 11 in world "world" to air
+				set block at location at -116, 67, 11 in world "world" to air
+				set block at location at -117, 67, 11 in world "world" to air
+				set block at location at -118, 67, 11 in world "world" to air
+				wait 6 seconds
+				set block at location at -114, 68, 11 in world "world" to iron_bars
+				set block at location at -115, 68, 11 in world "world" to iron_bars
+				set block at location at -116, 68, 11 in world "world" to iron_bars
+				set block at location at -117, 68, 11 in world "world" to iron_bars
+				set block at location at -118, 68, 11 in world "world" to iron_bars
+				set block at location at -114, 67, 11 in world "world" to iron_bars
+				set block at location at -115, 67, 11 in world "world" to iron_bars
+				set block at location at -116, 67, 11 in world "world" to iron_bars
+				set block at location at -117, 67, 11 in world "world" to iron_bars
+				set block at location at -118, 67, 11 in world "world" to iron_bars
+				wait 2 seconds
+				delete {farmopen}
+			
+command /openfarm [<player>]:
+	permission: op
+	trigger:
+		if {farm::%arg-1%} is not set:
+			set {farm::%arg-1%} to 1
+			if arg-1 have permission "unlock.farm":
+				if {farmopen} is not set:
+					wait 5 ticks
+					send "&d&lɴᴘᴄ &dᴍᴀʀᴄᴜs・&fᴛᴀʟᴋɪɴɢ.." to arg-1
+					send "&8&l| &7ɪ ᴡɪʟʟ ᴏᴘᴇɴ ᴛʜᴇ ꜰᴀʀᴍ ɢᴀᴛᴇꜱ ꜰᴏʀ ʏᴏᴜ ɪᴍᴍᴇᴅɪᴀᴛᴇʟʏ," to arg-1
+					send "&8&l| &7ᴅᴏɴ'ᴛ ᴡᴀꜱᴛᴇ ᴛɪᴍᴇ ᴀɴᴅ ʜᴀʀᴠᴇꜱᴛ ᴀꜱ ᴍᴜᴄʜ ᴀꜱ ᴘᴏꜱꜱɪʙʟᴇ." to arg-1
+					send "&f" to arg-1
+					send "&f &aᴛʜᴇ ꜰᴀʀᴍ ɢᴀᴛᴇꜱ ᴡɪʟʟ ᴏᴘᴇɴ ɪɴ ᴀ ꜰᴇᴡ ꜱᴇᴄᴏɴᴅꜱ" to arg-1
+					send "&f" to arg-1
+					make console execute command "farm %arg-1%"
+				else:
+					send "&d&lɴᴘᴄ&d・ᴍᴀʀᴄᴜs: &7ᴛʜᴇ ꜰᴀʀᴍ ɢᴀᴛᴇ ɪs ᴀʟʀᴇᴀᴅʏ ᴏᴘᴇɴ ᴏʀ ʜᴀs ʀᴇᴄᴇɴᴛʟʏ ʙᴇᴇɴ ᴏᴘᴇɴᴇᴅ" to arg-1
+			else:
+				send "&d&lɴᴘᴄ&d・ᴍᴀʀᴄᴜs: &7ʏᴏᴜ ᴅᴏ ɴᴏᴛ ʜᴀᴠᴇ ᴛʜᴇ ɴᴇᴄᴇssᴀʀʏ ᴘᴇʀᴍɪssɪᴏɴs ᴛᴏ ᴏᴘᴇɴ ᴛʜᴇ ɢᴀᴛᴇ!" to arg-1
+			wait 2 seconds
+			delete {farm::%arg-1%}
+			
+command /openfarm2 [<player>]:
+	permission: op
+	trigger:
+		if {farm::%arg-1%} is not set:
+			set {farm::%arg-1%} to 1
+			if arg-1 have permission "unlock.farm":
+				if {farmopen} is not set:
+					wait 5 ticks
+					send "&d&lɴᴘᴄ&d・ꜰᴀʀᴍᴇʀ: &7ᴅᴏɴᴇ ᴀʟʀᴇᴀᴅʏ? ᴛʜᴇ ɢᴀᴛᴇs ᴏᴘᴇɴ ɴᴏᴡ!" to arg-1
+					make console execute command "farm %arg-1%"
+				else:
+					send "&d&lɴᴘᴄ&d・ꜰᴀʀᴍᴇʀ: &7ᴛʜᴇ ꜰᴀʀᴍ ɢᴀᴛᴇ ɪs ᴀʟʀᴇᴀᴅʏ ᴏᴘᴇɴ ᴏʀ ʜᴀs ʀᴇᴄᴇɴᴛʟʏ ʙᴇᴇɴ ᴏᴘᴇɴᴇᴅ" to arg-1
+			else:
+				send "&d&lɴᴘᴄ&d・ꜰᴀʀᴍᴇʀ: &7ʏᴏᴜ ᴅᴏ ɴᴏᴛ ʜᴀᴠᴇ ᴛʜᴇ ɴᴇᴄᴇssᴀʀʏ ᴘᴇʀᴍɪssɪᴏɴs ᴛᴏ ᴏᴘᴇɴ ᴛʜᴇ ɢᴀᴛᴇ!" to arg-1
+			wait 2 seconds
+			delete {farm::%arg-1%}
+            
+on block break:
+	if "%region at player%" contains "farm in world world":
+		if event-block is carrots[age=7]:
+			wait 1 tick
+			set event-block to carrot plant
+		else if event-block is potatoes[age=7]:
+			wait 1 tick
+			set event-block to potato plant
+		else if event-block is wheat[age=7]:
+			wait 1 tick
+			set event-block to wheat plant
+		else if event-block is beetroots[age=3]:
+			wait 1 tick
+			set event-block to beetroot plant

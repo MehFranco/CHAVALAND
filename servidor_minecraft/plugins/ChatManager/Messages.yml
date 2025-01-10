@@ -1,0 +1,221 @@
+#=================================================================================================#
+#                                 Main Messages File of Chat Manager
+#=================================================================================================#
+#
+#    If you need any plugin support, feel free to join our discord server
+#    or private message me H1DD3NxN1NJA on Spigot.
+#
+#    Discord Link: https://discord.gg/n9A9xtA
+#
+#=================================================================================================#
+#
+# Information:
+#
+#   Color Codes are supported with the "&" character.
+#    - To view a list of COLOR CODES you can do /Colors in-game.
+#    - To view a list of FORMAT CODES you can do /Formats in-game.
+#
+#=================================================================================================#
+
+Message:
+  Prefix: "&f&r"
+  No_Permission: "{Prefix} &fYou don't have the permissions to do this."
+  Player_Not_Found: "{Prefix} &fThe player &e{target} &fcannot be found."
+  Reload: "{Prefix} &fConfig has been reloaded."
+
+#=================================================================================================#
+# Anti-Advertising Messages
+#=================================================================================================#
+Anti_Advertising:
+  Chat:
+    Message: "{Prefix} &fAdvertising is not allowed in chat. Staff has been notified."
+    Notify_Staff_Format: "&7[Anti-Advertise Chat] &f{player}&c» &7{message}"
+  Commands:
+    Message: "{Prefix} &fAdvertising is not allowed in commands. Staff has been notified."
+    Notify_Staff_Format: "&7[Anti-Advertise Commands] &f{player}&c» &7{message}"
+  Signs:
+    Message: "{Prefix} &fAdvertising is not allowed on signs. Staff has been notified."
+    Notify_Staff_Format: "&7[Anti-Advertise Signs] &f{player}&c» &7{message}"
+  
+#=================================================================================================#
+# Anti-Bot Messages
+#=================================================================================================#
+Anti_Bot:
+  Deny_Chat_Message: "{Prefix} &fYou must move one block before talking in chat."
+  Deny_Command_Message: "{Prefix} &fYou must move one block before executing commands."
+  
+#=================================================================================================#
+# Anti-Caps Message
+#=================================================================================================#
+Anti_Caps:
+  Message_Chat: "{Prefix} &fPlease do not use caps in chat."
+  Message_Commands: "{Prefix} &fPlease do not use caps in commands."
+  
+#=================================================================================================#
+# Anti-Spam Messages
+#=================================================================================================#
+Anti_Spam:
+  Chat:
+    Repetitive_Message: "{Prefix} &fPlease do not repeat the same message."
+    Delay_Message: "{Prefix} &fPlease wait &e{Time} seconds &fbefore sending another message."
+  Command:
+    Repetitive_Message: "{Prefix} &fPlease do not repeat the same command."
+    Delay_Message: "{Prefix} &fPlease wait &e{Time} seconds &fbefore sending another command."
+
+#=================================================================================================#
+# Anti-Swear Messages
+#=================================================================================================#
+Anti_Swear:
+  Chat:
+    Message: "{Prefix} &fPlease do not curse in chat."
+    Notify_Staff_Format: "&7[Anti-Swear Chat] &f{player}&c» &7{message}"
+  Commands:
+    Message: "{Prefix} &fPlease do not curse in commands."
+    Notify_Staff_Format: "&7[Anti-Swear Commands] &f{player}&c» &7{message}"
+  Signs:
+    Message: "{Prefix} &fPlease do not curse on signs."
+    Notify_Staff_Format: "&7[Anti-Swear Signs] &f{player}&c» &7{message}"
+  Blacklisted_Word:
+    Added: "{Prefix} &fYou added the word &e{word} &fto the anti swears blacklist."
+    Exists: "{Prefix} &fThe word &e{word} &fis already added to the anti swears blacklist."
+    Removed: "{Prefix} &fYou removed the word &e{word} &ffrom the anti swears blacklist."
+    Not_Found: "{Prefix} &fThe word &e{word} &fis not in the anti swears blacklist."
+  Whitelisted_Word:
+    Added: "{Prefix} &fYou added the word &e{word} &fto the anti swears whitelist."
+    Exists: "{Prefix} &fThe word &e{word} &fis already added to the anti swears whitelist."
+    Removed: "{Prefix} &fYou removed the word &e{word} &ffrom the anti swears whitelist."
+    Not_Found: "{Prefix} &fThe word &e{word} &fis not in the anti swears whitelist."
+    
+#=================================================================================================#
+# Anti-Unicode Messages
+#=================================================================================================#
+Anti_Unicode:
+  Message: "{Prefix} &fPlease do not use special characters in chat."
+  Notify_Staff_Format: "&7[Anti-Unicode] &f{player}&c» &7{message}"
+    
+#=================================================================================================#
+# Auto-Broadcast Messages
+#=================================================================================================#
+Auto_Broadcast:
+  List: "&c{section}'s &fauto-broadcast messages:"
+  Added: "{Prefix} &r{message} &fhas been added to the &e{section} &fmessages!"
+  Created: "{Prefix} &fCreated the world &e'{world}' &fwith the message &r{message}&f."
+  
+#=================================================================================================#
+# Banned Commands Messages
+#=================================================================================================#
+Banned_Commands:
+  Message: "{Prefix} &fYou do not have permission to use the command &e/{command}&f."
+  Command_Added: "{Prefix} &fYou added the command &e{command} &fto the list of banned commands."
+  Command_Exists: "{Prefix} &fThe command &e{command} &fis already added to the list of banned commands."
+  Command_Removed: "{Prefix} &fYou removed the command &e{command} &ffrom the list of banned commands."
+  Command_Not_Found: "{Prefix} &fThe command &e{command} &fis not in the list of banned commands."
+  Notify_Staff_Format: "&7[Blocked-Cmd] &f{player}&c» &7{command}"
+  
+#=================================================================================================#
+# Chat Radius Messages
+#=================================================================================================#
+Chat_Radius:
+  Local_Chat:
+    Enabled: "{Prefix} &fYou've entered &eLocal Chat&f! Do &e/ChatRadius global &for &e/ChatRadius world &fto leave Local Chat!"
+    Already_Enabled: "{Prefix} &fYou are already in local chat."
+  Global_Chat:
+    Enabled: "{Prefix} &fYou've entered &eGlobal Chat&f! Do &e/ChatRadius local &for &e/ChatRadius world &fto leave global Chat!"
+    Already_Enabled: "{Prefix} &fYou are already in global chat."
+  World_Chat:
+    Enabled: "{Prefix} &fYou've entered &eWorld Chat&f! Do &e/ChatRadius local &for &e/ChatRadius global &fto leave world Chat!"
+    Already_Enabled: "{Prefix} &fYou are already in world chat."
+  Spy:
+    Enabled: "{Prefix} &fChat Radius spy has been &aEnabled&f."
+    Disabled: "{Prefix} &fChat Radius spy has been &cDisabled&f."
+  
+#=================================================================================================#
+# Clear Chat Messages
+#=================================================================================================#
+Clear_Chat:
+  Staff_Message: "{Prefix} &fChat has been cleared by {player}."
+  Broadcast_Message:
+  - "&6&m--------------------------------------------&f"
+  - " "
+  - "      &fThe chat has been cleared by {player}!    "
+  - " "
+  - "&6&m--------------------------------------------&f"
+  
+#=================================================================================================#
+# Command Spy Messages
+#=================================================================================================#
+Command_Spy:
+  Format: "&7[Command-Spy] {player}&c» &b{command}"
+  Enabled: "{Prefix} &fCommand Spy has been enabled."
+  Disabled: "{Prefix} &fCommand Spy has been disabled."
+  
+#=================================================================================================#
+# Mute Chat Messages
+#=================================================================================================#
+Mute_Chat:
+  Denied_Message: "{Prefix} &fYou are not able to talk in chat right now."
+  Broadcast_Messages:
+    Enabled: "{Prefix} &fChat has been Enabled by {player}."
+    Disabled: "{Prefix} &fChat has been Disabled by {player}."
+  Blocked_Commands:
+    Message: "{Prefix} &fYou are not allowed to use that command while the chat is muted."
+    
+#=================================================================================================#
+# Per-World Chat Messages
+#=================================================================================================#
+Per_World_Chat:
+  Bypass_Enabled: "{Prefix} &fPer-world chat bypass has been enabled."
+  Bypass_Disabled: "{Prefix} &fPer-world chat bypass has been disabled."
+  
+#=================================================================================================#
+# Ping Messages
+#=================================================================================================#
+Ping:
+  Players_Ping: "{Prefix} &fYour current ping is &e{ping} ms&f."
+  Targets_Ping: "{Prefix} &e{target}'s &fcurrent ping is &e{ping} ms."
+  
+#=================================================================================================#
+# Private Message Messages
+#=================================================================================================#
+Private_Message:
+  Recipient_Not_Found: "{Prefix} &fYou have nobody to reply to."
+  Toggled: "{Prefix} &fThat player cannot receive messages right now."
+  Ignored: "{Prefix} &e{target} &fis currently ignoring you and cant receive any private messages."
+  Self: "{Prefix} &fYou cannot message yourself."
+  AFK: "{Prefix} &e{target} &fis currently afk."
+  
+#=================================================================================================#
+# Social Spy Messages
+#=================================================================================================#
+Social_Spy:
+  Format: "&b&l(*)&bSpy &f&l[&e{player} &d-> &e{receiver}&f&l] &b{message}"
+  Enabled: "{Prefix} &fSocial Spy has been enabled."
+  Disabled: "{Prefix} &fSocial Spy has been disabled."
+  
+#=================================================================================================#
+# Staff Chat Messages
+#=================================================================================================#
+Staff_Chat:
+  Enabled: "{Prefix} &fStaff chat has been enabled."
+  Disabled: "{Prefix} &fStaff chat has been disabled."
+  
+#=================================================================================================#
+# Toggle Chat Messages
+#=================================================================================================#
+Toggle_Chat:
+  Enabled: "{Prefix} &fToggle chat has been &aenabled&f, you will no longer receive chat messages."
+  Disabled: "{Prefix} &fToggle chat has been &cdisabled&f, you will start receiving chat messages."
+  
+#=================================================================================================#
+# Toggle Mentions Messages
+#=================================================================================================#
+Toggle_Mentions:
+  Enabled: "{Prefix} &fToggle mentions has been &aenabled&f, you will no longer receive mention messages."
+  Disabled: "{Prefix} &fToggle mentions has been &cdisabled&f, you will start receiving mention messages."
+  
+#=================================================================================================#
+# TogglePM Messages
+#=================================================================================================#
+TogglePM:
+  Enabled: "{Prefix} &fTogglePM has been &aenabled&f."
+  Disabled: "{Prefix} &fTogglePM has been &cdisabled&f."

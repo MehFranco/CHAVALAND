@@ -1,0 +1,198 @@
+# All messages are customizable, you can use HEX colors using &#RRGGBB.
+
+# Don't touch this!
+config-version: 1
+
+# NPC related messages.
+npc:
+  # %croupier% - the croupier name.
+  croupier-prefix: '&b%croupier%: '
+  bets:
+  - '&7Place your bets, ladies and gentlemen, please!'
+  - '&7Place your bets, my friends.'
+  - '&7Ladies and gentlemen, place your bets.'
+  - '&7Place your bets and take your seats.'
+  no-bets:
+  - '&7And the wheel goes round and round, no more bets, no more bets.'
+  - '&7No more bets, no more bets!'
+  - '&7All right, that''s it.'
+  winner:
+  - '&7We have a winner.'
+  - '&7Listen, we got a winner here.'
+  - '&7We''ve got a winner, ladies and gentlemen!'
+  invite:
+  - '&799% of gamblers quit before they hit it big. Are you in the 1%?'
+  - '&7Don’t just stand there-come play! Your next spin could be the one!'
+  - '&7The only bet you lose is the one you don’t place! Take your shot!'
+  - '&7The wheel is spinning, the stakes are high! Are you brave enough to try?'
+  - '&7Bet big, win bigger! Step up and let the croupier show you the way to riches!'
+
+session:
+  result-removed: '&6The result has been deleted!'
+  # %money% - original bet money returned.
+  lost-recovered: '&6You have recovered &a%money% &6from a lost bet!'
+  bet-in-prison: '&6This bet won in prison so there is nothing to do.'
+  # %win-money% - previously won money that has been taken from the player.
+  # %money% - original bet money returned.
+  bet-reverted: '&cA bet you had was cancelled. We have taken your winnings (&a%win-money%&c)
+    and refunded your original money (&a%money%&c).'
+  transaction-completed: '&6Transaction completed successfully!'
+  transaction-failed:
+  - '&cThis player spent part of the money won and the full amount cannot be removed!'
+  - '&cYou''ll have to handle it manually. Once you''re done, right click to delete
+    this result!'
+  empty: '&cThere are no roulette sessions yet.'
+
+# Command related messages.
+# %name% - the name of the game.
+command:
+  create: '&f The game &e%name% &fhas been created!'
+  delete: '&f The game &e%name% &fhas been deleted!'
+  exist: '&f The game &e%name% &falready exists!'
+  invalid-name: '&cThe given name is not valid!'
+  invalid-type: '&cThe given roulette type is not valid!'
+  unknown: '&f The &e%name% &fgame doesn''t exist!'
+  sintax: '&f Invalid command! check the correct syntax with /roulette.'
+  from-console: '&f This command can''t be executed from the console!'
+  not-permission: '&f You don''t have permission to execute this command!'
+  reloading: '&6The plugin is being reloaded in another thread, wait a few seconds...'
+  reload: '&f The configuration files have been reloaded!'
+  force:
+    not-playing: '&cYou must be sitting in a game to use this command!'
+    not-spinning: '&cThis command can only be used when the wheel is spinning!'
+    unknown-slot: '&cThe specified slot could not be found.'
+    slot-changed: '&6The winning slot has been set to &e%slot%&6!'
+
+# Game related messages.
+game:
+  no-economy-provider: '&cNo economy provider found! Contact an administrator.'
+  # %seconds% - the countdown time involved.
+  starting: '&f Starting the game in &e%seconds% &fseconds...'
+  select-bet: '&f Please, select your bet.'
+  bet-in-prison: '&f This bet is in prison, you can''t interact with it!'
+  # %bet% - the number of the bet.
+  bet-selected: '&f Bet &e#%bet% &fselected!'
+  bet-already-selected: '&f This bet is already selected!'
+  at-least-one-bet-required: '&f You need at least one bet to be able to play!'
+  # %bet% - the number of the bet.
+  bet-removed: '&f Bet &e#%bet% &fhas been removed!'
+  you-are-done: '&f You''re done, just wait for the other players.'
+  # %player-name% - the name of the player.
+  player-done: '&f The player &e%player-name% &fis done!'
+  all-players-done: '&f All players have placed their bets! Accelerating the countdown...'
+  # %extra% - the extra seconds added.
+  # %player-name% - the name of the player.
+  extra-time-added: '&f Extra &e%extra%s &fwere added so &e%player-name% &fcan make
+    a new bet!'
+  # %seconds% - the countdown time involved.
+  spinning: '&f Spinning the roulette in &e%seconds% &fseconds...'
+  out-of-time: '&f You haven''t made your bet, you''re out of the game.'
+  your-bets:
+  - '&7'
+  - '&7 ▪ &fYour bet(s):'
+  - '&7 &f➡ %bet% &8[hover for more]'
+  - '&7'
+  # The information about a bet that will be seen when you hover over the mouse.
+  # %bet% - the selected bet of the player.
+  # %numbers% - the numbers that belong to the slot.
+  # %money% - the price of the bet.
+  # %win-money% - the money that the player can win.
+  # %chance% - chance of winning.
+  # %multiplier% - the prize multiplier, depending on the slot.
+  bet-hover:
+  - '&f➡ &e%bet%'
+  - '&fɴᴜᴍʙᴇʀꜱ: &7%numbers%'
+  - '&fᴘʀɪᴄᴇ: &e%money% &7➡ &e%win-money%'
+  - '&fᴄʜᴀɴᴄᴇ: &b%chance%'
+  - '&fᴍᴜʟᴛɪᴘʟɪᴇʀ: &d&lx%multiplier%'
+  # %player-name% - the name of the player.
+  # %playing% - number of players in the game.
+  # %max% - the maximum number of players allowed.
+  join: '&f &e%player-name% &fhas joined the game. &8(%playing%&8/%max%)'
+  # %player-name% - the name of the player.
+  # %playing% - number of players in the game.
+  # %max% - the maximum number of players allowed.
+  leave: '&f &e%player-name% &fhas left the game. &8(%playing%&8/%max%)'
+  # %winner-slot% - the winning slot.
+  no-winner: '&f The winner is... the casino! %winner-slot%'
+  # %amount% - the number of winners in the game.
+  # %winner% - the name of a winner (all winners will be listed one below the other).
+  # %winner-slot% - the winning slot.
+  all-winners:
+  - '&7'
+  - '&7 ▪ &fWinner slot: &e%winner-slot%'
+  - '&7 ▪ &fWinners (%amount%):'
+  - '&f ➡ %winner% &8[hover to see more information]'
+  - '&7'
+  # %money% - the total amount of money the player won.
+  # %bets% - the number of winning bets.
+  winner-hover:
+  - '&eThis player won a total of &a%money% &ein &7%bets% &ebets!'
+  # %bet% - one of the winning bets (all winning bets will be listed one below the other).
+  # %total-money% - the total of all the money earned.
+  # %lost-money% - the total of all the money lost.
+  your-winning-bets:
+  - '&7'
+  - '&7 ▪ &fYour winning bet(s):'
+  - '&f ➡ %bet% &8[hover to see more information]'
+  - '&7 ▪ &fGains: &a%total-money%'
+  - '&7 ▪ &fLosses: &c%lost-money%'
+  - '&7'
+  # The information about a bet that will be seen when you hover over the mouse.
+  # %bet% - the selected bet of the player.
+  # %numbers% - the numbers that belong to the slot.
+  # %money% - the price of the bet.
+  # %win-money% - the money that the player can win.
+  # %chance% - chance of winning.
+  # %multiplier% - the prize multiplier, depending on the slot.
+  # %rule% - the rule by which the player won (if there was one).
+  winning-bet-hover:
+  - '&f➡ &e%bet%'
+  - '&fᴍᴏɴᴇʏ: &e%money% &7➡ &e%win-money%'
+  - '&fᴍᴜʟᴛɪᴘʟɪᴇʀ: &d&lx%multiplier%'
+  - '&fʀᴜʟᴇ: &6%rule%'
+  no-winning-bets: '&cNothing :('
+  restart: '&6Restarting game, please wait...'
+  prison-reminder:
+  - '&aYour bet is in prison as the number 0 is the winner.'
+  - '&aStay at the table and win the next game to get your money back.'
+  - '&a(If you leave the game you won''t get your money back)'
+  leave-player: '&f You''ve left the game!'
+
+# Other messages.
+other:
+  already-ingame: '&f You''re already in game!'
+  already-started: '&f The game is already started.'
+  seat-taken: '&f This seat is already taken!'
+  game-stopped: '&f The game you were playing was stopped or deleted!'
+  # %money% - the money involved.
+  min-required: '&f Sorry, but you need at least &e%money% &fto play.'
+  # %money% - the money involved.
+  # %money-left% - they money left in your account.
+  selected-amount: '&f &e%money% &fwill be taken from your account.'
+  control: '&f Use the &eWASD &fkeys to move your bet. &eSpace &fto manage all your
+    bets.'
+  account: '&f The account has been changed!'
+  no-account: '&f The game account has been deleted!'
+  account-already-deleted: '&f The account is already deleted!'
+  unknown-account: '&f The player couldn''t be found!'
+  # %name% - the name of the game.
+  # %money% - the money involved.
+  received: '&f You''ve received &e%money% &ffrom the game &e%name%&7.'
+  vanish: '&f You can''t join the game in vanish mode.'
+  full: '&f This game is full!'
+  restarting: '&f The game is being restarted!'
+  only-american: '&f This rule can only be applied in american roulette!'
+  prison-error: '&f To apply this rule, the minimum amount of players must be 1.'
+  can-not-hit: '&f You can''t hit players on a game!'
+  account-name: '&f Type the name of the account, or ''cancel'' to exit.'
+  npc-name: '&f Type the new name of the NPC, or ''cancel'' to exit.'
+  npc-texture: '&f Type the URL from minesk.in, or ''cancel'' to exit.'
+  request-cancelled: '&f The request has been cancelled!'
+  request-invalid: '&f The given input is invalid!'
+  npc-renamed: '&f The name of the NPC has been changed!'
+  npc-already-renamed: '&f The name of the NPC has already been changed!'
+  npc-texturized: '&f The texture of the NPC has been changed!'
+  npc-already-texturized: '&f The texture of the NPC has already been changed!'
+  at-least-one-chip-required: '&f You need at least one chip to be able to play, you
+    can''t disable them all!'

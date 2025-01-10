@@ -1,0 +1,9 @@
+name: youtube
+permissions:
+- displayname.&#fe172dʏᴛ
+- weight.200
+parents:
+- default
+prefixes:
+- '&f#fe172d':
+    priority: 200

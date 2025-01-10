@@ -1,0 +1,16 @@
+weapons-menu-item: 'STICK#1'
+weapons-menu-name: '&aᴡᴇᴀᴘᴏɴs'
+weapons-menu-lore:
+  - '&8ᴄᴀᴛᴇɢᴏʀʏ'
+  - ''
+
+  - ' &f▪ ꜱᴡᴏʀᴅꜱ'
+  - ' &f▪ ʙᴏᴡꜱ'
+
+#If you have custom items that you want to be in this
+#category, specify their name here
+custom-item-names:
+  - '&e&lExample &6&lItem'
+
+custom-item-ids:
+  - '2266'

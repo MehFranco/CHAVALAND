@@ -1,0 +1,283 @@
+##################################
+##           Blackjack          ##
+##################################
+gameType: "blackjack"
+name: "Blackjack"
+
+######## Command Settings ########
+
+#command: "blackjack"
+
+######## Machine Settings ########
+
+machine:
+  item:
+    material: stick
+    custom_model_data: 509
+    name: "&6&lBlackjack Table"
+  structure:
+    '1':
+      type: block
+      material: barrier
+      location: 0 0 0
+    '2':
+      type: block
+      material: barrier
+      location: 0 0 1
+    '3':
+      type: block
+      material: barrier
+      location: 0 0 -1
+    '4':
+      type: item
+      direction: NORTH
+      material: stick
+      custom_model_data: 509
+      location: 0 0 0
+    '5':
+      type: seat
+      direction: SOUTH
+      location: 0 -1.5 1.5
+      material: AIR
+    '6':
+      type: seat
+      direction: NORTH
+      location: 0 -1.5 -1.5
+      material: AIR
+
+###### Blackjack Settings #######
+
+cards:
+  K:
+    chance: 10
+    value: 10
+    material: STICK
+    name: '&cᴋɪɴɢ'
+    custom_model_data_list: [526, 539]
+  Q:
+    chance: 10
+    value: 10
+    material: STICK
+    name: '&cqᴜᴇᴇɴ'
+    custom_model_data_list: [527, 540]
+  J:
+    chance: 10
+    value: 10
+    material: STICK
+    name: '&cᴊᴀᴄᴋ'
+    custom_model_data_list: [525, 538]
+  A:
+    chance: 12
+    value: 11
+    material: STICK
+    name: '&cᴀᴄᴇ'
+    custom_model_data_list: [515, 528]
+  '2':
+    chance: 12
+    value: 2
+    material: STICK
+    name: '&cᴛᴡᴏ'
+    custom_model_data_list: [516, 529]
+  '3':
+    chance: 12
+    value: 3
+    material: STICK
+    name: '&cᴛʜʀᴇᴇ'
+    custom_model_data_list: [517, 530]
+  '4':
+    chance: 12
+    value: 4
+    material: STICK
+    name: '&cꜰᴏᴜʀ'
+    custom_model_data_list: [518, 531]
+  '5':
+    chance: 12
+    value: 5
+    material: STICK
+    name: '&cꜰɪᴠᴇ'
+    custom_model_data_list: [519, 532]
+  '6':
+    chance: 12
+    value: 6
+    material: STICK
+    name: '&cꜱɪx'
+    custom_model_data_list: [520, 533]
+  '7':
+    chance: 12
+    value: 7
+    material: STICK
+    name: '&cꜱᴇᴠᴇɴ'
+    custom_model_data_list: [521, 534]
+  '8':
+    chance: 12
+    value: 8
+    material: STICK
+    name: '&cᴇɪɢʜᴛ'
+    custom_model_data_list: [522,535]
+  '9':
+    chance: 12
+    value: 9
+    material: STICK
+    name: '&cɴɪɴᴇ'
+    custom_model_data_list: [523, 536]
+  '10':
+    chance: 12
+    value: 10
+    material: STICK
+    name: '&cᴛᴇɴ'
+    custom_model_data_list: [524, 537]
+
+card_back:
+  material: STICK
+  custom_model_data: 541
+  name: '&fᴄᴀʀᴅ'
+
+# The value is considered in seconds
+challenge_time: 120
+game_time: 60
+
+######################################
+
+gui:
+  size: 45
+  title: '&f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔'
+  card_slots: [2, 3, 4, 5, 6, 7, 8]
+  opponent_card_slots: [20, 21, 22, 23, 24, 25, 26]
+  buttons:
+    hit:
+      slot: [38, 39]
+      material: STICK
+      custom_model_data: 1
+      name: '&f'
+      lore:
+        - '&7ᴅʀᴀᴡ ᴀ ɴᴇᴡ ᴄᴀʀᴅ. ᴛʀʏ ᴛᴏ'
+        - '&7ɢᴇᴛ ᴀꜱ ᴄʟᴏꜱᴇ ᴛᴏ 21 '
+        - '&7ᴡɪᴛʜᴏᴜᴛ ɢᴏɪɴɢ ᴏᴠᴇʀ.'
+        - '&f'
+        - '&f ▪ ʏᴏᴜʀ ʜᴀɴᴅ: &a%value%'
+        - '&f ▪ ᴏᴘᴘᴏɴᴇɴᴛ ꜱᴛᴀᴛᴜꜱ: &e%opponent_status%'
+        - '&f'
+        - '&f &eᴄʟɪᴄᴋ ᴛᴏ ʜɪᴛ!'
+    stand:
+      slot: [41, 42, 43]
+      material: STICK
+      custom_model_data: 1
+      name: '&f'
+      lore:
+        - '&7ᴋᴇᴇᴘꜱ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ'
+        - '&7ᴠᴀʟᴜᴇ ᴏꜰ ᴛʜᴇ ᴄᴀʀᴅꜱ.'
+        - '&f'
+        - '&f ▪ ʏᴏᴜʀ ʜᴀɴᴅ: &a%value%'
+        - '&f ▪ ᴏᴘᴘᴏɴᴇɴᴛ ꜱᴛᴀᴛᴜꜱ: &e%opponent_status%'
+        - '&f'
+        - '&f &eᴄʟɪᴄᴋ ᴛᴏ ꜱᴛᴀɴᴅ!'
+  items:
+
+stand_gui:
+  size: 45
+  title: '&f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔'
+  card_slots: [2, 3, 4, 5, 6, 7, 8]
+  opponent_card_slots: [20, 21, 22, 23, 24, 25, 26]
+  items:
+    '1':
+      slot: [38, 39]
+      material: STICK
+      custom_model_data: 1
+      name: '&aᴡᴀɪᴛɪɴɢ ꜰᴏʀ ᴏᴘᴘᴏɴᴇɴᴛ'
+      lore:
+        - '&f'
+        - '&f ▪ ʏᴏᴜʀ ʜᴀɴᴅ: &a%value%'
+        - '&f ▪ ᴏᴘᴘᴏɴᴇɴᴛ ꜱᴛᴀᴛᴜꜱ: &e%opponent_status%'
+        - '&f'
+        - '&8ʏᴏᴜ ꜱᴛᴀɴᴅ'
+    '2':
+      slot: [41, 42, 43]
+      material: STICK
+      custom_model_data: 1
+      name: '&aᴡᴀɪᴛɪɴɢ ꜰᴏʀ ᴏᴘᴘᴏɴᴇɴᴛ'
+      lore:
+        - '&f'
+        - '&f ▪ ʏᴏᴜʀ ʜᴀɴᴅ: &a%value%'
+        - '&f ▪ ᴏᴘᴘᴏɴᴇɴᴛ ꜱᴛᴀᴛᴜꜱ: &e%opponent_status%'
+        - '&f'
+        - '&8ʏᴏᴜ ꜱᴛᴀɴᴅ'
+
+confirm_gui:
+  size: 27
+  title: '&f⻔⻔⻔⻔⻔⻔⻔⻔⻔'
+  buttons:
+    confirm:
+      slot: 11
+      material: STICK
+      custom_model_data: 1
+      name: '&aᴄᴏɴꜰɪʀᴍ ʙᴇᴛ: &6%bet%'
+      lore:
+        - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴄᴏɴꜰɪʀᴍ!'
+    decline:
+      slot: 15
+      material: STICK
+      custom_model_data: 1
+      name: '&cᴅᴇᴄʟɪɴᴇ ʙᴇᴛ: &6%bet%'
+      lore:
+          - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴅᴇᴄʟɪɴᴇ!'
+  items:
+
+
+
+########   Bet Settings  ########
+
+bet:
+  default_bet: 100
+  
+  gui:
+    size: 54
+    title: "&f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔"
+    values:
+      custom:
+        max: 100000
+        min: 100
+        slot: [38, 39, 40, 41, 42]
+        material: STICK
+        custom_model_data: 1
+        name: "&f"
+        lore:
+        - '&7ᴜꜱᴇ ᴛʜɪꜱ ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ'
+        - '&7ᴇɴᴛᴇʀ ᴀ ᴄᴜꜱᴛᴏᴍ ᴀᴍᴏᴜɴᴛ.'
+        - '&f'
+        - '&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ꜱᴇʟᴇᴄᴛ!'
+      '100':
+        slot: 9
+        material: STICK
+        custom_model_data: 3
+        name: '&6100&f'
+        lore:
+          - '&7ᴄʟɪᴄᴋ ᴛᴏ ꜱᴇʟᴇᴄᴛ!'
+      '250':
+        slot: 11
+        material: STICK
+        custom_model_data: 3
+        name: '&6250&f'
+        lore:
+          - '&7ᴄʟɪᴄᴋ ᴛᴏ ꜱᴇʟᴇᴄᴛ!'
+      '500':
+        slot: 13
+        material: STICK
+        custom_model_data: 3
+        name: '&6500&f'
+        lore:
+          - '&7ᴄʟɪᴄᴋ ᴛᴏ ꜱᴇʟᴇᴄᴛ!'
+      '1000':
+        slot: 15
+        material: STICK
+        custom_model_data: 3
+        name: '&61000&f'
+        lore:
+          - '&7ᴄʟɪᴄᴋ ᴛᴏ ꜱᴇʟᴇᴄᴛ!'
+      '2500':
+        slot: 17
+        material: STICK
+        custom_model_data: 3
+        name: '&62500&f'
+        lore:
+          - '&7ᴄʟɪᴄᴋ ᴛᴏ ꜱᴇʟᴇᴄᴛ!'
+    items:

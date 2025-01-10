@@ -1,0 +1,208 @@
+Digger:
+  fullname: Digger
+  shortname: D
+  description: '&fEarn money for terraforming the world.'
+  ChatColour: GOLD
+  chat-display: full
+  max-level: 75
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  maxDailyQuests: 1
+  Quests:
+    '1':
+      Name: Mole
+      Objectives:
+      - Break;dirt;40
+      - Break;grass_block;24
+      RewardCommands:
+      - eco give [playerName] 230
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fDig blocks and get money'
+      - '&8 ▪ &fGet 230$ for this!'
+    '2':
+      Name: Mole II
+      Objectives:
+      - Break;grass_block;24
+      - Break;sand;16
+      RewardCommands:
+      - eco give [playerName] 210
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fDig blocks and get money'
+      - '&8 ▪ &fGet 210$ for this!'
+    '3':
+      Name: Mole III
+      Objectives:
+      - Break;sand;32
+      RewardCommands:
+      - eco give [playerName] 200
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fDig blocks and get money'
+      - '&8 ▪ &fGet 200$ for this!'
+    '4':
+      Name: Desert Mole
+      Objectives:
+      - Break;sand;24
+      - Break;gravel;16
+      RewardCommands:
+      - eco give [playerName] 220
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fDig blocks and get money'
+      - '&8 ▪ &fGet 220$ for this!'
+    '5':
+      Name: Desert Mole II
+      Objectives:
+      - Break;sand;32
+      - Break;red_sand;24
+      RewardCommands:
+      - eco give [playerName] 200
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fDig blocks and get money'
+      - '&8 ▪ &fGet 200$ for this!'
+    '6':
+      Name: Pottery
+      Objectives:
+      - Break;clay;24
+      RewardCommands:
+      - eco give [playerName] 210
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fDig blocks and get money'
+      - '&8 ▪ &fGet 210$ for this!'
+    '7':
+      Name: Mole IV
+      Objectives:
+      - Break;podzol;12
+      RewardCommands:
+      - eco give [playerName] 250
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fDig blocks and get money'
+      - '&8 ▪ &fGet 250$ for this!'
+    '8':
+      Name: Mole V
+      Objectives:
+      - Break;mycelium;10
+      RewardCommands:
+      - eco give [playerName] 250
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fDig blocks and get money'
+      - '&8 ▪ &fGet 250$ for this!'
+    '9':
+      Name: Nether Mole
+      Objectives:
+      - Break;soul_soil;32
+      - Break;soul_sand;24
+      RewardCommands:
+      - eco give [playerName] 240
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fDig blocks and get money'
+      - '&8 ▪ &fGet 240$ for this!'
+    '10':
+      Name: Nether Mole II
+      Objectives:
+      - Break;crimson_nylium;16
+      - Break;warped_nylium;8
+      RewardCommands:
+      - eco give [playerName] 300
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fDig blocks and get money'
+      - '&8 ▪ &fGet 300$ for this!'
+    '11':
+      Name: Mole VI
+      Objectives:
+      - Break;dirt;32
+      - Break;gravel;16
+      RewardCommands:
+      - eco give [playerName] 180
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fDig blocks and get money'
+      - '&8 ▪ &fGet 200$ for this!'
+    '12':
+      Name: Mole VII
+      Objectives:
+      - Break;dirt;24
+      - Break;grass_block;16
+      - Break;gravel;16
+      RewardCommands:
+      - eco give [playerName] 350
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fDig blocks and get money'
+      - '&8 ▪ &fGet 350$ for this!'
+  Gui:
+    Item: golden_shovel
+  Break:
+    grass_block:
+      income: 0.35
+      points: 0.35
+      experience: 0.35
+    grass_path:
+      income: 0.3
+      points: 0.3
+      experience: 0.3
+    dirt:
+      income: 0.25
+      points: 0.25
+      experience: 0.25
+    farmland:
+      income: -0.5
+      points: -0.5
+      experience: -0.5
+    gravel:
+      income: 0.7
+      points: 0.7
+      experience: 0.7
+    sand:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    red_sand:
+      income: 1
+      points: 1
+      experience: 1
+    clay:
+      income: 1.2
+      points: 1.2
+      experience: 1.2
+    coarse_dirt:
+      income: 1
+      points: 1
+      experience: 1
+    podzol:
+      income: 3.5
+      points: 3.5
+      experience: 3.5
+    mycelium:
+      income: 3
+      points: 3
+      experience: 3
+    crimson_nylium:
+      income: 1.2
+      points: 1.2
+      experience: 1.2
+    warped_nylium:
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+    soul_sand:
+      income: 0.7
+      points: 0.7
+      experience: 0.7
+    soul_soil:
+      income: 0.55
+      points: 0.55
+      experience: 0.55

@@ -1,0 +1,171 @@
+
+		
+command /daily:
+	trigger:
+		if {reward::%player%} is not set:
+			make console execute command "crate key give %player% Daily 1"
+			send "&f &fYour reward for this day has been delivered!"
+			set {reward::%player%} to now
+		else if difference between now and {reward::%player%} is more than 24 hours:
+			make console execute command "crate key give %player% Daily 1"
+			send "&f &fYour reward for this day has been delivered!"
+			set {reward::%player%} to now
+		else:
+			send "&f &fYou have to wait 24 hours from the previous reward." to player
+
+on first join:
+	wait 3 second
+	make player execute command "kit adventurer"
+
+
+on right click with stick:
+	if name of tool of player contain "5,000":
+		if custom model data of tool of player is 205:
+			make console execute command "/eco give %player% 5000"
+			remove 1 of tool of player from player's inventory
+	else if name of tool of player contain "ᴄᴏᴍᴍᴀɴᴅ /ʜᴀᴛ":
+		if custom model data of tool of player is 200:
+			make console execute command "/lp user %player% permission set essentials.hat"
+			remove 1 of tool of player from player's inventory
+	else if name of tool of player contain "ᴄᴏᴍᴍᴀɴᴅ /ᴀɴɢᴇʟᴄʜᴇsᴛ":
+		if custom model data of tool of player is 201:
+			make console execute command "/lp user %player% permission set angelchest.use"
+			remove 1 of tool of player from player's inventory
+	else if name of tool of player contain "ᴄᴏᴍᴍᴀɴᴅ /ᴇɴᴅᴇʀᴄʜᴇsᴛ":
+		if custom model data of tool of player is 202:
+			make console execute command "/lp user %player% permission set essentials.enderchest"
+			remove 1 of tool of player from player's inventory
+	else if name of tool of player contain "ᴄᴏᴍᴍᴀɴᴅ /ꜰʟʏ 24ʜ":
+		if custom model data of tool of player is 203:
+			make console execute command "/lp user %player% permission settemp essentials.fly true 24h"
+			remove 1 of tool of player from player's inventory
+	else if name of tool of player contain "ᴄᴏᴍᴍᴀɴᴅ /ɴɪᴄᴋ":
+		if custom model data of tool of player is 204:
+			make console execute command "/lp user %player% permission set essentials.nick"
+			remove 1 of tool of player from player's inventory
+		
+ 				
+command /emojis [<integer>]:
+	trigger:
+		if arg-1 is 2:
+			send "&f" to player
+			send "&aEmojis 2" to player
+			send " &7▪ &f⼜ &8- &f:money:" to player
+			send " &7▪ &f⼝ &8- &f:ohyeah:" to player
+			send " &7▪ &f⼞ &8- &f:party:" to player
+			send " &7▪ &f⼠ &8- &f:shock:" to player
+			send " &7▪ &f⼡ &8- &f:sick:" to player
+			send " &7▪ &f⼢ &8- &f:thumbsup:" to player
+			send " &7▪ &f⼣ &8- &f:thumbsdown:" to player
+			send " &7▪ &f⼤ &8- &f:unamused:" to player
+			send " &7▪ &f⼥ &8- &f:sunglasses:" to player
+		else:
+			send "&f" to player
+			send "&aEmojis " to player
+			send " &7▪ &f⼔ &8- &f:clown:" to player
+			send " &7▪ &f⼕ &8- &f:dead:" to player
+			send " &7▪ &f⼖ &8- &f:eyes:" to player
+			send " &7▪ &f⼗ &8- &f:flushed:" to player
+			send " &7▪ &f⼘ &8- &f:forme:" to player
+			send " &7▪ &f⼙ &8- &f:hearteyes:" to player
+			send " &7▪ &f⼚ &8- &f:laugh:" to player
+			send " &7▪ &f⼛ &8- &f:look:" to player
+			send "&8 ▪ &fType &d/emojis 2 &fto view the next page" to player
+			
+command /sksylvia:
+	trigger:
+		make player execute command "sylvia"
+			
+command /sksylvia2:
+	trigger:
+		wait 120 ticks
+		make player execute command "guide"
+			
+command /sksylvia3:
+	trigger:
+		wait 120 ticks
+		make player execute command "crossplatforms:forms open link"
+			
+command /skaugust:
+	trigger:
+		make player execute command "august"
+			
+command /skaugust2:
+	trigger:
+		wait 100 ticks
+		make player execute command "jobs"
+			
+command /skmarcus:
+	trigger:
+		make player execute command "marcus"
+			
+command /skpetra:
+	trigger:
+		make player execute command "petra"
+			
+command /skpetra2:
+	trigger:
+		wait 100 ticks
+		make player execute command "ah"
+			
+command /skpetra3:
+	trigger:
+		wait 100 ticks
+		make player execute command "guide"
+			
+command /skgandalf:
+	trigger:
+		make player execute command "gandalf"
+			
+command /skgandalf2:
+	trigger:
+		wait 100 ticks
+		make player execute command "warps"
+			
+command /skgandalf3:
+	trigger:
+		wait 120 ticks
+		make player execute command "rtp"
+			
+command /skmark:
+	trigger:
+		make player execute command "mark"
+			
+command /skmark2:
+	trigger:
+		wait 120 ticks
+		make player execute command "shop"
+			
+command /sknoah:
+	trigger:
+		make player execute command "noah"
+			
+command /skthyra:
+	trigger:
+		make player execute command "thyra"
+			
+command /skcassian:
+	trigger:
+		make player execute command "cassian"
+			
+command /skcassian2:
+	trigger:
+		wait 80 ticks
+		make player execute command "rewards"
+		
+on join:
+	wait 2 seconds
+	make player execute command "jb welcome \\ forms open welcome"
+	
+command /welcome:
+	trigger:
+		send message "&f" to player
+		send message "&f" to player
+		send message "&f" to player
+		send message "&f" to player
+		send message "&f" to player
+		send message "&f                    &f           섑⻔섒" to player
+		send message "&f" to player
+		send message "&f                    &f &fʏᴏᴜ ʜᴀᴠᴇ ʟᴏɢɢᴇᴅ ɪɴ ᴏɴ &dsᴜʀᴠɪᴠᴀʟ" to player
+		send message "&f                    &7ᴛʜᴀɴᴋ ʏᴏᴜ ꜰᴏʀ ᴄʜᴏᴏsɪɴɢ ᴛᴏ ᴘʟᴀʏ ᴏɴ" to player
+		send message "&f                    &7ᴏᴜʀ sᴇʀᴠᴇʀ, ʜᴀᴠᴇ ᴀ ɴɪᴄᴇ ᴀᴅᴠᴇɴᴛᴜʀᴇ!" to player

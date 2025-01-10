@@ -1,0 +1,28 @@
+location: world:-56,500:67,700:43,500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: ''
+    height: 0.2
+  - content: '&c&lᴘᴠᴘ ᴀʀᴇɴᴀ'
+    height: 0.2
+  - content: ''
+    height: 0.2
+  - content: '&fᴄᴏɴꜰʀᴏɴᴛ ꜰᴏᴇꜱ ᴀɴᴅ ᴘʀᴏᴠᴇ ᴛᴏ ᴛʜᴇᴍ'
+    height: 0.3
+  - content: '&fᴛʜᴀᴛ ʏᴏᴜ ᴀʀᴇ ᴛʜᴇ ʙᴇꜱᴛ. ᴏɴᴄᴇ ɪɴꜱɪᴅᴇ ᴛʜᴇ ᴀʀᴇɴᴀ, ʏᴏᴜ'
+    height: 0.3
+  - content: '&fᴄᴀɴ ᴏɴʟʏ ɢᴏ ᴏᴜᴛ ᴀʟɪᴠᴇ ᴡɪᴛʜ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ &b/ꜱᴘᴀᴡɴ'
+    height: 0.3
+  - content: '&fᴡʜᴇɴ ᴛʜᴇ ᴄᴏɴꜰʟɪᴄᴛ ᴡɪᴛʜ ᴛʜᴇ ᴏᴛʜᴇʀ ᴘʟᴀʏᴇʀꜱ ɪꜱ ᴏᴠᴇʀ.'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '#ICON: netherite_sword'
+    height: 0.3
+  actions: {}

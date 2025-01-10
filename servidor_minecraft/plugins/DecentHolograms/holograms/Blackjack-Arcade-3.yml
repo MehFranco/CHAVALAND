@@ -1,0 +1,14 @@
+location: world:6.500:75.300:-82.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&f'
+    height: 0.25
+  - content: '&c%dreamarcade_n11cdfO0%'
+    height: 0.3
+  actions: {}

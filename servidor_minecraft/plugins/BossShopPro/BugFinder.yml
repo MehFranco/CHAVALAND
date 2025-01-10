@@ -1,0 +1,1976 @@
+2021 05-02 at 02:28:51 PM (V): 'Mistake in Config: ''glided_blackstone'' is not a
+  valid ''type''. Unable to find a fitting material.'
+2021 05-02 at 02:29:37 PM (V): 'Mistake in Config: ''glided_blackstone'' is not a
+  valid ''type''. Unable to find a fitting material.'
+2021 07-02 at 10:38:50 PM (D): 'Mistake in Config: ''redstone_repeater'' is not a
+  valid ''type''. Unable to find a fitting material.'
+2021 09-02 at 09:15:14 AM (Ma): Two Shops with the same Name (primaryblocks) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2021 09-02 at 09:27:31 AM (Ma): 'Mistake in Config: ''rabbit_food'' is not a valid
+  ''type''. Unable to find a fitting material.'
+2021 09-02 at 09:47:27 AM (Ma): 'Mistake in Config: ''sweet_barries'' is not a valid
+  ''type''. Unable to find a fitting material.'
+2021 09-02 at 01:33:32 PM (Ma): 'Mistake in Config: ''sweet_barries'' is not a valid
+  ''type''. Unable to find a fitting material.'
+2021 09-02 at 03:18:12 PM (Ma): 'Mistake in Config: ''leather_pants'' is not a valid
+  ''type''. Unable to find a fitting material.'
+2021 10-02 at 10:56:56 PM (Mi): |
+  Invalid Configuration! File: /shops/null Cause: mapping values are not allowed here
+   in 'string', line 519, column 16:
+           RewardType: SHOP
+                     ^
+2021 10-02 at 10:57:17 PM (Mi): |
+  Invalid Configuration! File: /shops/null Cause: mapping values are not allowed here
+   in 'string', line 519, column 16:
+           RewardType: SHOP
+                     ^
+2021 10-02 at 10:57:35 PM (Mi): |
+  Invalid Configuration! File: /shops/null Cause: mapping values are not allowed here
+   in 'string', line 664, column 16:
+           RewardType: SHOP
+                     ^
+2021 10-02 at 10:57:48 PM (Mi): |
+  Invalid Configuration! File: /shops/null Cause: mapping values are not allowed here
+   in 'string', line 548, column 16:
+           RewardType: SHOP
+                     ^
+2021 10-02 at 10:58:05 PM (Mi): |
+  Invalid Configuration! File: /shops/null Cause: mapping values are not allowed here
+   in 'string', line 548, column 16:
+           RewardType: SHOP
+                     ^
+2021 16-02 at 01:36:50 PM (Ma): 'Was not able to create ShopItem Dirt! The reward
+  object needs to be a valid number. Example: ''4.0'' or ''10''.'
+2021 17-03 at 08:38:57 PM (Mi): 'Mistake in Config: ''BOOL'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2021 17-03 at 08:39:20 PM (Mi): 'Mistake in Config: ''BOOL'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2021 26-03 at 10:03:19 PM (V): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 20, column 5:
+          MenuItem:
+          ^
+  expected <block end>, but found '<scalar>'
+   in 'string', line 35, column 8:
+          - 'lore1:&8 ▪ &f
+             ^
+2021 02-04 at 10:08:08 PM (V): 'Was not able to create ShopItem 28! The price object
+  needs to be a valid number. Example: ''4.0'' or ''10''.'
+2021 03-04 at 12:02:50 AM (S): 'Was not able to create ShopItem 5! The price object
+  needs to be a valid number. Example: ''4.0'' or ''10''.'
+2021 03-04 at 07:00:03 PM (S): Two Shops with the same Name (example1payouts) are
+  loaded. When opening a Shop via Name, only one of this Shops will be opened!
+2021 03-04 at 07:00:15 PM (S): Two Shops with the same Name (example1payouts) are
+  loaded. When opening a Shop via Name, only one of this Shops will be opened!
+2021 03-04 at 07:00:24 PM (S): Two Shops with the same Name (example1payouts) are
+  loaded. When opening a Shop via Name, only one of this Shops will be opened!
+2021 03-04 at 07:00:58 PM (S): Two Shops with the same Name (example1payouts) are
+  loaded. When opening a Shop via Name, only one of this Shops will be opened!
+2021 03-04 at 07:02:14 PM (S): Two Shops with the same Name (example1payouts) are
+  loaded. When opening a Shop via Name, only one of this Shops will be opened!
+2021 03-04 at 07:02:16 PM (S): Two Shops with the same Name (example1payouts) are
+  loaded. When opening a Shop via Name, only one of this Shops will be opened!
+2021 03-04 at 07:03:01 PM (S): Two Shops with the same Name (example1payouts) are
+  loaded. When opening a Shop via Name, only one of this Shops will be opened!
+2021 03-04 at 07:04:51 PM (S): Two Shops with the same Name (example1payouts) are
+  loaded. When opening a Shop via Name, only one of this Shops will be opened!
+2021 03-04 at 07:05:13 PM (S): Two Shops with the same Name (example1payouts) are
+  loaded. When opening a Shop via Name, only one of this Shops will be opened!
+2021 03-04 at 07:05:24 PM (S): Two Shops with the same Name (example1payouts) are
+  loaded. When opening a Shop via Name, only one of this Shops will be opened!
+2021 03-04 at 07:05:47 PM (S): Two Shops with the same Name (example1payouts) are
+  loaded. When opening a Shop via Name, only one of this Shops will be opened!
+2021 03-04 at 10:14:29 PM (S): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 8, column 3:
+        1sus:
+        ^
+  expected <block end>, but found '<block mapping start>'
+   in 'string', line 134, column 4:
+         5:
+         ^
+2021 03-04 at 10:17:35 PM (S): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 8, column 3:
+        1sus:
+        ^
+  expected <block end>, but found '<block mapping start>'
+   in 'string', line 134, column 4:
+         5:
+         ^
+2021 03-04 at 10:18:11 PM (S): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 8, column 3:
+        1sus:
+        ^
+  expected <block end>, but found '<block mapping start>'
+   in 'string', line 134, column 4:
+         7:
+         ^
+2021 03-04 at 10:21:16 PM (S): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 8, column 3:
+        1:
+        ^
+  expected <block end>, but found '<block mapping start>'
+   in 'string', line 134, column 4:
+         10:
+         ^
+2021 03-04 at 10:21:34 PM (S): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 8, column 3:
+        1:
+        ^
+  expected <block end>, but found '<block mapping start>'
+   in 'string', line 134, column 4:
+         10:
+         ^
+2021 03-04 at 10:24:35 PM (S): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 8, column 3:
+        1:
+        ^
+  expected <block end>, but found '<block mapping start>'
+   in 'string', line 134, column 4:
+         10:
+         ^
+2021 04-04 at 01:04:45 PM (D): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 8, column 3:
+        1sus:
+        ^
+  expected <block end>, but found '<block mapping start>'
+   in 'string', line 134, column 4:
+         7:
+         ^
+2021 04-04 at 01:05:06 PM (D): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 8, column 3:
+        1sus:
+        ^
+  expected <block end>, but found '<block mapping start>'
+   in 'string', line 134, column 4:
+         7:
+         ^
+2021 04-04 at 01:06:52 PM (D): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 8, column 3:
+        1sus:
+        ^
+  expected <block end>, but found '<block mapping start>'
+   in 'string', line 134, column 4:
+         7:
+         ^
+2021 04-04 at 01:12:24 PM (D): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 8, column 3:
+        1sus:
+        ^
+  expected <block end>, but found '<block mapping start>'
+   in 'string', line 148, column 4:
+         8:
+         ^
+2021 05-04 at 11:50:47 AM (L): 'Mistake in Config: ''bow1'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2021 05-04 at 11:52:47 AM (L): 'Mistake in Config: ''bow1'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2021 05-04 at 11:55:03 AM (L): 'Mistake in Config: ''bow1'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2021 05-04 at 11:55:59 AM (L): 'Mistake in Config: ''bow1'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2021 05-04 at 11:56:23 AM (L): 'Mistake in Config: ''bow1'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2021 11-04 at 06:17:01 PM (D): 'Mistake in Config: ''steak'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2021 16-04 at 05:41:20 PM (V): |
+  Invalid Configuration! File: /shops/null Cause: mapping values are not allowed here
+   in 'string', line 209, column 18:
+            RewardType1: PlayerCommand
+                       ^
+2021 16-04 at 05:42:45 PM (V): |
+  Invalid Configuration! File: /shops/null Cause: mapping values are not allowed here
+   in 'string', line 209, column 18:
+            RewardType1: Playercommand
+                       ^
+2021 19-04 at 07:34:07 PM (L): 'Mistake in Config: ''stone_cutter'' is not a valid
+  ''type''. Unable to find a fitting material.'
+2021 19-04 at 07:40:27 PM (L): 'Mistake in Config: ''stone_cutter'' is not a valid
+  ''type''. Unable to find a fitting material.'
+2021 19-04 at 07:41:07 PM (L): 'Mistake in Config: ''stone_cutter'' is not a valid
+  ''type''. Unable to find a fitting material.'
+2021 19-04 at 07:42:13 PM (L): 'Mistake in Config: ''stone_cutter'' is not a valid
+  ''type''. Unable to find a fitting material.'
+2021 19-04 at 10:14:23 PM (L): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 225, column 5:
+          MenuItem:
+          ^
+  expected <block end>, but found '<scalar>'
+   in 'string', line 232, column 25:
+          - 'lore4:&e You don't have permission!'
+                              ^
+2021 19-04 at 10:18:59 PM (L): "Invalid Configuration! File: /shops/null Cause: while\
+  \ scanning for the next token\nfound character '%' that cannot start any token.\
+  \ (Do not use % for indentation)\n in 'string', line 172, column 8:\n        - '%essentials_kit_is_available_Fig\
+  \ ... \n           ^\n"
+2021 19-04 at 10:20:23 PM (L): "Invalid Configuration! File: /shops/null Cause: while\
+  \ scanning for the next token\nfound character '%' that cannot start any token.\
+  \ (Do not use % for indentation)\n in 'string', line 172, column 8:\n        - '%essentials_kit_is_available_Fig\
+  \ ... \n           ^\n"
+2021 20-04 at 03:34:49 PM (Ma): Two Shops with the same Name (workerpreview) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2021 20-04 at 04:28:50 PM (Ma): 'Mistake in Config: ''arrows'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2021 20-04 at 05:06:59 PM (Ma): 'Mistake in Config: ''sharpness#1unbreaking#1'' is
+  not a valid ''enchantment''. It has to look like this: ''<enchantment name/id>#<level>''.
+  For example ''DAMAGE_ALL#5''.'
+2021 20-04 at 05:07:18 PM (Ma): 'Mistake in Config: Unable to read itemdata ''enchantment2:unbreaking#1'
+2021 20-04 at 05:07:57 PM (Ma): 'Mistake in Config: ''sharpness#1:unbreaking#1'' is
+  not a valid ''enchantment''. It has to look like this: ''<enchantment name/id>#<level>''.
+  For example ''DAMAGE_ALL#5''.'
+2021 15-08 at 04:17:10 p:
+  m:
+    ' (dum':
+      ): 'Mistake in Config: ''brich_button'' is not a valid ''type''. Unable to find
+        a fitting material.'
+2021 16-08 at 01:07:31 p:
+  m:
+    ' (lun':
+      ): 'Mistake in Config: ''paiting'' is not a valid ''type''. Unable to find a
+        fitting material.'
+2021 16-08 at 01:21:06 p:
+  m:
+    ' (lun':
+      ): 'Mistake in Config: ''paiting'' is not a valid ''type''. Unable to find a
+        fitting material.'
+2021 16-08 at 01:26:40 p:
+  m:
+    ' (lun':
+      ): 'Mistake in Config: ''paiting'' is not a valid ''type''. Unable to find a
+        fitting material.'
+2021 30-08 at 08:07:54 p:
+  m:
+    ' (lun':
+      ): 'Mistake in Config: ''paiting'' is not a valid ''type''. Unable to find a
+        fitting material.'
+2021 30-09 at 06:00:59 p:
+  m:
+    ' (joi)': |
+      Invalid Configuration! File: /shops/null Cause: mapping values are not allowed here
+       in 'string', line 6, column 20:
+          shop:  skull_custom:
+                             ^
+2021 28-10 at 08:36:22 p:
+  m:
+    ' (joi)': |
+      Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+       in 'string', line 1073, column 5:
+              MenuItem:
+              ^
+      expected <block end>, but found '<scalar>'
+       in 'string', line 1080, column 8:
+              - 'lore5: &f・ &fExp: &b'
+                 ^
+2021 28-10 at 08:38:21 p:
+  m:
+    ' (joi)': |
+      Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+       in 'string', line 1073, column 5:
+              MenuItem:
+              ^
+      expected <block end>, but found '<scalar>'
+       in 'string', line 1080, column 8:
+              - 'lore5: &f・ &fExp: &b'
+                 ^
+2021 28-10 at 08:38:26 p:
+  m:
+    ' (joi)': |
+      Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+       in 'string', line 1073, column 5:
+              MenuItem:
+              ^
+      expected <block end>, but found '<scalar>'
+       in 'string', line 1080, column 8:
+              - 'lore5: &f・ &fExp: &b'
+                 ^
+2021 28-10 at 08:39:15 p:
+  m:
+    ' (joi)': |
+      Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+       in 'string', line 1073, column 5:
+              MenuItem:
+              ^
+      expected <block end>, but found '<scalar>'
+       in 'string', line 1080, column 8:
+              - 'lore5: &f・ &fExp: &b'
+                 ^
+2021 28-10 at 08:40:50 p:
+  m:
+    ' (joi)': |
+      Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+       in 'string', line 1073, column 5:
+              MenuItem:
+              ^
+      expected <block end>, but found '<scalar>'
+       in 'string', line 1080, column 8:
+              - 'lore5: &f・ &fExp: &b'
+                 ^
+2021 30-10 at 11:32:11 a:
+  m:
+    ' (sâm':
+      ): |
+        Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+         in 'string', line 9, column 5:
+                MenuItem:
+                ^
+        expected <block end>, but found '<scalar>'
+         in 'string', line 16, column 8:
+                - 'lore5: &f・ &fExp: &b'
+                   ^
+2021 30-10 at 12:10:55 p:
+  m:
+    ' (sâm':
+      ): "Invalid Configuration! File: /shops/null Cause: mapping values are not allowed\
+        \ here\n in 'string', line 5262, column 24:\n        - type:  experience:\
+        \ 0. \n                           ^\n"
+2021 30-10 at 12:39:03 p:
+  m:
+    ' (sâm':
+      ): |
+        Invalid Configuration! File: /shops/null Cause: while scanning a simple key
+         in 'string', line 3, column 1:
+            Command:WeaponsmithPO
+            ^
+        could not find expected ':'
+         in 'string', line 4, column 1:
+            signs:
+            ^
+2021 30-10 at 12:39:23 p:
+  m:
+    ' (sâm':
+      ): |
+        Invalid Configuration! File: /shops/null Cause: while scanning a simple key
+         in 'string', line 3, column 1:
+            Command:WeaponsmithPO
+            ^
+        could not find expected ':'
+         in 'string', line 4, column 1:
+            signs:
+            ^
+2021 30-10 at 12:39:32 p:
+  m:
+    ' (sâm':
+      ): Two Shops with the same Name (numejobpayouts) are loaded. When opening a
+        Shop via Name, only one of this Shops will be opened!
+2021 30-10 at 12:40:08 p:
+  m:
+    ' (sâm':
+      ): Two Shops with the same Name (numejobpayouts) are loaded. When opening a
+        Shop via Name, only one of this Shops will be opened!
+2021 01-11 at 10:48:23 p:
+  m:
+    ' (lun':
+      ): |
+        Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+         in 'string', line 9, column 5:
+                MenuItem:
+                ^
+        expected <block end>, but found '<scalar>'
+         in 'string', line 13, column 85:
+             ... l be put in a chest so they don't despawn.'
+                                                 ^
+2021 01-11 at 10:48:36 p:
+  m:
+    ' (lun':
+      ): |
+        Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+         in 'string', line 9, column 5:
+                MenuItem:
+                ^
+        expected <block end>, but found '<scalar>'
+         in 'string', line 13, column 85:
+             ... l be put in a chest so they don't despawn.'
+                                                 ^
+2021 01-11 at 10:48:49 p:
+  m:
+    ' (lun':
+      ): |
+        Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+         in 'string', line 9, column 5:
+                MenuItem:
+                ^
+        expected <block end>, but found '<scalar>'
+         in 'string', line 14, column 197:
+             ... ayer deservers the other player's loot!'
+                                                 ^
+2021 02-11 at 07:01:47 p:
+  m:
+    ' (mar':
+      ): |
+        Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+         in 'string', line 38, column 5:
+                MenuItem:
+                ^
+        expected <block end>, but found '-'
+         in 'string', line 55, column 5:
+                - - type:amethyst_block
+                ^
+2021 02-11 at 07:04:02 p:
+  m:
+    ' (mar':
+      ): |
+        Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+         in 'string', line 38, column 5:
+                MenuItem:
+                ^
+        expected <block end>, but found '-'
+         in 'string', line 55, column 5:
+                - - type:amethyst_block
+                ^
+2021 05-11 at 11:00:12 a:
+  m:
+    ' (vin':
+      ): 'Mistake in Config: ''24c'' is not a valid ''amount''. It needs to be a number
+        like ''1'', ''12'' or ''64''.'
+2021 05-11 at 05:04:56 p:
+  m:
+    ' (vin':
+      ): "Invalid Configuration! File: /shops/null Cause: while scanning a quoted\
+        \ scalar\n in 'string', line 23, column 7:\n        - 'lore3:&8 ▪ &fAutotool\
+        \ Toggle\n          ^\nfound unexpected end of stream\n in 'string', line\
+        \ 258, column 1:\n    \n    ^\n"
+2021 25-11 at 06:58:18 p:
+  m:
+    ' (joi)': |
+      Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+       in 'string', line 39, column 5:
+              MenuItem:
+              ^
+      expected <block end>, but found '-'
+       in 'string', line 66, column 5:
+              - type:money
+              ^
+2021 25-11 at 07:00:19 p:
+  m:
+    ' (joi)': |
+      Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+       in 'string', line 39, column 5:
+              MenuItem:
+              ^
+      expected <block end>, but found '-'
+       in 'string', line 66, column 5:
+              - type:money
+              ^
+2021 03-12 at 04:55:32 p:
+  m:
+    ' (vin':
+      ): 'Mistake in Config: ''cooper_block'' is not a valid ''type''. Unable to find
+        a fitting material.'
+2021 03-12 at 05:25:23 p:
+  m:
+    ' (vin':
+      ): 'Mistake in Config: ''cooper_block'' is not a valid ''type''. Unable to find
+        a fitting material.'
+2021 03-12 at 05:36:31 p:
+  m:
+    ' (vin':
+      ): 'Mistake in Config: ''cooper_block'' is not a valid ''type''. Unable to find
+        a fitting material.'
+2021 03-12 at 05:36:41 p:
+  m:
+    ' (vin':
+      ): 'Mistake in Config: ''cooper_block'' is not a valid ''type''. Unable to find
+        a fitting material.'
+2021 03-12 at 05:36:52 p:
+  m:
+    ' (vin':
+      ): 'Mistake in Config: ''cooper_block'' is not a valid ''type''. Unable to find
+        a fitting material.'
+2021 03-12 at 07:13:25 p:
+  m:
+    ' (vin':
+      ): |
+        Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+         in 'string', line 23, column 5:
+                MenuItem:
+                ^
+        expected <block end>, but found '<scalar>'
+         in 'string', line 29, column 8:
+                - 'lore3:&e Click to teleport!'
+                   ^
+2022 20-01 at 04:47:05 p:
+  m:
+    ' (joi)': |
+      Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+       in 'reader', line 303, column 5:
+              MenuItem:
+              ^
+      expected <block end>, but found '-'
+       in 'reader', line 314, column 5:
+              - enchantment:EFFICIENCY#3
+              ^
+2022 20-01 at 04:47:27 p:
+  m:
+    ' (joi)': |
+      Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+       in 'reader', line 303, column 5:
+              MenuItem:
+              ^
+      expected <block end>, but found '-'
+       in 'reader', line 314, column 5:
+              - enchantment:EFFICIENCY#3
+              ^
+2022 15-03 at 08:01:36 p:
+  m:
+    ' (mar':
+      ): 'Unable to add condition ''%jobsr_user_joinedjobcount%:over:2'' to shopitem
+        ''13a1''! You need to define a conditiontype before you start listing conditions!
+        [Shop: Jobs]'
+2022 15-03 at 08:02:47 p:
+  m:
+    ' (mar':
+      ): 'Unable to add condition ''%jobsr_user_joinedjobcount%:over:2'' to shopitem
+        ''13a1''! You need to define a conditiontype before you start listing conditions!
+        [Shop: Jobs]'
+2022 15-03 at 08:03:04 p:
+  m:
+    ' (mar':
+      ): 'Unable to add condition ''%jobsr_user_joinedjobcount%:over:2'' to shopitem
+        ''13a1''! You need to define a conditiontype before you start listing conditions!
+        [Shop: Jobs]'
+2022 04-04 at 07:48:18 p:
+  m:
+    ' (lun':
+      ): 'Mistake in Config: ''damage_all'' is not a valid ''enchantment''. The name/id
+        of the enchantment is not known.'
+2022 04-04 at 07:49:40 p:
+  m:
+    ' (lun':
+      ): 'Mistake in Config: ''LUCK'' is not a valid ''enchantment''. The name/id
+        of the enchantment is not known.'
+2022 25-09 at 08:30:28 p:
+  m:
+    ' (dum':
+      ): |
+        Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+         in 'reader', line 8, column 3:
+              smooth_quartz_block:
+              ^
+        expected <block end>, but found ':'
+         in 'reader', line 124, column 3:
+              :
+              ^
+2022 25-09 at 08:30:59 p:
+  m:
+    ' (dum':
+      ): |
+        Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+         in 'reader', line 8, column 3:
+              smooth_quartz_block:
+              ^
+        expected <block end>, but found ':'
+         in 'reader', line 124, column 3:
+              :
+              ^
+2022 25-09 at 08:31:41 p:
+  m:
+    ' (dum':
+      ): |
+        Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+         in 'reader', line 8, column 3:
+              smooth_quartz:
+              ^
+        expected <block end>, but found '<block mapping start>'
+         in 'reader', line 38, column 5:
+                MenuItem:
+                ^
+2022 25-09 at 08:32:15 p:
+  m:
+    ' (dum':
+      ): |
+        Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+         in 'reader', line 8, column 3:
+              smooth_quartz:
+              ^
+        expected <block end>, but found ':'
+         in 'reader', line 124, column 3:
+              :
+              ^
+2022 17-10 at 09:14:46 PM (Mon): 'Mistake in Config: ''wodeen_hoe'' is not a valid
+  ''type''. Unable to find a fitting material.'
+2022 19-10 at 08:43:32 PM (Wed): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDliMmJlZTM5YjZlZjQ3ZTE4MmQ2ZjFkY2E5ZGVhODQyZmNkNjhiZGE5YmFjYzZhNmQ2NmE4ZGNkZjNlYyJ9fX0=''
+  can not be added to an item with material ''ARROW''. Don''t worry I''ll automatically
+  transform the material into ''PLAYER_HEAD.'
+2022 19-10 at 10:21:26 PM (Wed): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'reader', line 1, column 1:
+      ShopName: TheRift3
+      ^
+  expected <block end>, but found '-'
+   in 'reader', line 1077, column 1:
+      - type:arrow
+      ^
+2022 27-10 at 07:58:08 PM (Thu): "Invalid Configuration! File: /shops/null Cause:\
+  \ while scanning for the next token\nfound character '\\t(TAB)' that cannot start\
+  \ any token. (Do not use \\t(TAB) for indentation)\n in 'reader', line 12, column\
+  \ 1:\n    \t- type:red_wool\n    ^\n"
+2022 27-10 at 07:58:24 PM (Thu): "Invalid Configuration! File: /shops/null Cause:\
+  \ while scanning for the next token\nfound character '\\t(TAB)' that cannot start\
+  \ any token. (Do not use \\t(TAB) for indentation)\n in 'reader', line 12, column\
+  \ 1:\n    \t- type:red_wool\n    ^\n"
+2022 27-10 at 09:33:58 PM (Thu): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 27-10 at 09:34:44 PM (Thu): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 27-10 at 09:34:46 PM (Thu): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 27-10 at 09:35:19 PM (Thu): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 27-10 at 09:41:27 PM (Thu): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 27-10 at 09:41:48 PM (Thu): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 27-10 at 09:42:20 PM (Thu): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 27-10 at 09:44:33 PM (Thu): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 28-10 at 12:05:56 AM (Fri): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 28-10 at 12:08:36 AM (Fri): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 28-10 at 12:12:26 AM (Fri): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 28-10 at 12:13:12 AM (Fri): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 28-10 at 12:15:15 AM (Fri): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 28-10 at 12:16:18 AM (Fri): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 28-10 at 12:17:22 AM (Fri): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 28-10 at 12:17:57 AM (Fri): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 28-10 at 12:18:21 AM (Fri): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 28-10 at 12:18:52 AM (Fri): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 28-10 at 12:19:56 AM (Fri): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 28-10 at 12:20:23 AM (Fri): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 28-10 at 12:24:01 AM (Fri): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 28-10 at 12:25:24 AM (Fri): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 28-10 at 12:26:52 AM (Fri): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 28-10 at 12:30:18 AM (Fri): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 28-10 at 02:11:08 AM (Fri): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 28-10 at 02:23:06 AM (Fri): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 28-10 at 02:28:04 AM (Fri): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 28-10 at 02:31:20 AM (Fri): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 28-10 at 07:08:17 AM (Fri): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 28-10 at 08:02:43 PM (Fri): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 28-10 at 08:04:08 PM (Fri): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 28-10 at 08:04:45 PM (Fri): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 28-10 at 08:05:18 PM (Fri): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 28-10 at 08:05:59 PM (Fri): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 28-10 at 08:13:50 PM (Fri): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 28-10 at 08:15:17 PM (Fri): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 28-10 at 08:28:57 PM (Fri): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 28-10 at 08:29:23 PM (Fri): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 28-10 at 08:29:50 PM (Fri): 'Mistake in Config: Unable to read itemdata ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE4YmEzN2RkNjA2NGJkNWU3MDA0ZDUyYzNkYWQxNmMzZTY2OGM5M2E0OTZjMDc3MzUxZjIxMThiZTFlNmE3MSJ9fX0=:null'
+2022 29-10 at 09:01:24 AM (Sat): 'Mistake in Config: ''HIDE_ENCHANTMENTS'' is not
+  a valid ''hideflags''.'
+2022 29-10 at 09:01:42 AM (Sat): 'Mistake in Config: ''HIDE_ENCHANTMENTS'' is not
+  a valid ''hideflags''.'
+2022 03-11 at 05:09:53 PM (Thu): Was not able to create ShopItem 7! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 05:11:18 PM (Thu): Was not able to create ShopItem 7! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 05:12:41 PM (Thu): Was not able to create ShopItem 7! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 05:25:48 PM (Thu): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'reader', line 180, column 5:
+          MenuItem:
+          ^
+  expected <block end>, but found '<scalar>'
+   in 'reader', line 185, column 8:
+          - 'lore3:&eClick to toggle off!'
+             ^
+2022 03-11 at 05:26:12 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 05:27:20 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 06:11:28 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 07:23:47 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 07:31:15 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 07:45:43 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 07:46:45 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 07:47:09 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 07:47:35 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 07:48:38 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 07:49:03 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 07:57:07 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 07:58:05 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 08:20:39 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 08:23:13 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 08:52:04 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 08:54:08 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 08:54:30 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 08:58:02 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 08:58:35 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 08:58:48 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 09:03:19 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 09:03:43 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 09:31:32 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 09:31:49 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 09:35:03 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 09:36:23 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 09:37:52 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 09:38:24 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 09:39:58 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 09:40:47 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 09:41:39 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 09:41:56 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 09:42:24 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 09:42:46 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 09:43:10 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 09:48:18 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 09:48:39 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 09:48:55 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 09:49:30 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 10:44:53 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 10:45:33 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 10:46:42 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 03-11 at 10:48:25 PM (Thu): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 04-11 at 10:04:19 AM (Fri): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 04-11 at 10:04:40 AM (Fri): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 04-11 at 10:05:17 AM (Fri): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 04-11 at 10:06:15 AM (Fri): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 04-11 at 10:06:43 AM (Fri): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 04-11 at 10:07:25 AM (Fri): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 04-11 at 10:10:46 AM (Fri): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 04-11 at 10:11:18 AM (Fri): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 04-11 at 10:11:49 AM (Fri): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 04-11 at 10:12:15 AM (Fri): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 04-11 at 10:31:13 AM (Fri): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 04-11 at 10:43:17 AM (Fri): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 04-11 at 10:48:29 AM (Fri): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 04-11 at 11:08:17 AM (Fri): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 04-11 at 02:42:02 PM (Fri): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 04-11 at 03:51:26 PM (Fri): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 04-11 at 04:00:38 PM (Fri): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 04-11 at 04:07:30 PM (Fri): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 04-11 at 04:08:46 PM (Fri): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 04-11 at 04:10:12 PM (Fri): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 04-11 at 04:57:31 PM (Fri): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 04-11 at 04:58:32 PM (Fri): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 04-11 at 05:05:56 PM (Fri): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 04-11 at 05:09:18 PM (Fri): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 04-11 at 05:12:01 PM (Fri): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 04-11 at 06:52:37 PM (Fri): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 04-11 at 06:53:38 PM (Fri): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 04-11 at 07:59:18 PM (Fri): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 04-11 at 08:34:23 PM (Fri): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 04-11 at 08:35:21 PM (Fri): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 06-11 at 12:12:48 PM (Sun): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 06-11 at 12:29:19 PM (Sun): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 06-11 at 04:42:16 PM (Sun): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 06-11 at 04:49:53 PM (Sun): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 06-11 at 09:26:09 PM (Sun): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 06-11 at 10:23:57 PM (Sun): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 06-11 at 10:24:04 PM (Sun): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 06-11 at 10:24:19 PM (Sun): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 06-11 at 10:24:32 PM (Sun): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 06-11 at 10:28:28 PM (Sun): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 07-11 at 08:54:17 AM (Mon): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 07-11 at 08:59:52 AM (Mon): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 07-11 at 09:00:18 AM (Mon): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 07-11 at 09:02:00 AM (Mon): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 07-11 at 09:02:15 AM (Mon): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 07-11 at 09:04:33 AM (Mon): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 07-11 at 09:27:11 AM (Mon): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 07-11 at 09:27:27 AM (Mon): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 07-11 at 09:28:30 AM (Mon): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 07-11 at 09:29:24 AM (Mon): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 07-11 at 09:31:01 AM (Mon): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 07-11 at 07:55:23 PM (Mon): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 07-11 at 08:04:26 PM (Mon): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 07-11 at 08:14:20 PM (Mon): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 07-11 at 08:20:16 PM (Mon): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 07-11 at 08:32:35 PM (Mon): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 07-11 at 08:57:38 PM (Mon): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 07-11 at 08:59:03 PM (Mon): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 07-11 at 09:09:23 PM (Mon): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 07-11 at 09:10:51 PM (Mon): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 08-11 at 03:51:22 PM (Tue): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 08-11 at 03:52:43 PM (Tue): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 08-11 at 03:53:16 PM (Tue): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 08-11 at 03:55:20 PM (Tue): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 08-11 at 03:57:58 PM (Tue): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 08-11 at 04:00:10 PM (Tue): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 08-11 at 04:40:04 PM (Tue): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 08-11 at 04:53:37 PM (Tue): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 08-11 at 05:00:05 PM (Tue): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 08-11 at 05:05:27 PM (Tue): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 08-11 at 05:07:54 PM (Tue): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 08-11 at 05:28:20 PM (Tue): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 08-11 at 06:00:52 PM (Tue): Was not able to create ShopItem 71! The reward object
+  needs to be a list of commands (text lines).
+2022 17-11 at 09:23:34 p:
+  m:
+    ' (joi)': Was not able to create ShopItem 71! The reward object needs to be a
+      list of commands (text lines).
+2022 17-11 at 09:25:48 p:
+  m:
+    ' (joi)': Was not able to create ShopItem 71! The reward object needs to be a
+      list of commands (text lines).
+2022 17-11 at 09:34:04 p:
+  m:
+    ' (joi)': Was not able to create ShopItem 71! The reward object needs to be a
+      list of commands (text lines).
+2022 17-11 at 09:44:17 p:
+  m:
+    ' (joi)': Was not able to create ShopItem 71! The reward object needs to be a
+      list of commands (text lines).
+2022 17-11 at 09:50:22 p:
+  m:
+    ' (joi)': Was not able to create ShopItem 71! The reward object needs to be a
+      list of commands (text lines).
+2022 17-11 at 09:56:17 p:
+  m:
+    ' (joi)': Was not able to create ShopItem 71! The reward object needs to be a
+      list of commands (text lines).
+2022 18-11 at 05:44:35 p:
+  m:
+    ' (vin':
+      ): Was not able to create ShopItem 71! The reward object needs to be a list
+        of commands (text lines).
+2022 18-11 at 05:48:33 p:
+  m:
+    ' (vin':
+      ): Was not able to create ShopItem 71! The reward object needs to be a list
+        of commands (text lines).
+2022 18-11 at 05:51:42 p:
+  m:
+    ' (vin':
+      ): Was not able to create ShopItem 71! The reward object needs to be a list
+        of commands (text lines).
+2022 18-11 at 07:39:46 p:
+  m:
+    ' (vin':
+      ): Was not able to create ShopItem 71! The reward object needs to be a list
+        of commands (text lines).
+2022 18-11 at 07:40:33 p:
+  m:
+    ' (vin':
+      ): Was not able to create ShopItem 71! The reward object needs to be a list
+        of commands (text lines).
+2022 18-11 at 07:46:58 p:
+  m:
+    ' (vin':
+      ): Was not able to create ShopItem 71! The reward object needs to be a list
+        of commands (text lines).
+2022 18-11 at 07:58:00 p:
+  m:
+    ' (vin':
+      ): Was not able to create ShopItem 71! The reward object needs to be a list
+        of commands (text lines).
+2022 18-11 at 07:58:14 p:
+  m:
+    ' (vin':
+      ): Was not able to create ShopItem 71! The reward object needs to be a list
+        of commands (text lines).
+2022 18-11 at 08:02:29 p:
+  m:
+    ' (vin':
+      ): Was not able to create ShopItem 71! The reward object needs to be a list
+        of commands (text lines).
+2022 18-11 at 08:04:57 p:
+  m:
+    ' (vin':
+      ): Was not able to create ShopItem 71! The reward object needs to be a list
+        of commands (text lines).
+2022 18-11 at 08:56:05 p:
+  m:
+    ' (vin':
+      ): Was not able to create ShopItem 71! The reward object needs to be a list
+        of commands (text lines).
+2022 18-11 at 09:00:51 p:
+  m:
+    ' (vin':
+      ): "Invalid Configuration! File: /shops/null Cause: while parsing a block mapping\n\
+        \ in 'reader', line 9, column 5:\n        MenuItem:\n        ^\nexpected <block\
+        \ end>, but found '<scalar>'\n in 'reader', line 28, column 8:\n        -\
+        \ 'lore1:&7All player interactions  ... \n           ^\n"
+2022 18-11 at 09:01:02 p:
+  m:
+    ' (vin':
+      ): Was not able to create ShopItem 71! The reward object needs to be a list
+        of commands (text lines).
+2022 18-11 at 09:09:18 p:
+  m:
+    ' (vin':
+      ): Was not able to create ShopItem 71! The reward object needs to be a list
+        of commands (text lines).
+2022 18-11 at 09:44:04 p:
+  m:
+    ' (vin':
+      ): Was not able to create ShopItem 71! The reward object needs to be a list
+        of commands (text lines).
+2022 18-11 at 09:51:04 p:
+  m:
+    ' (vin':
+      ): Was not able to create ShopItem 71! The reward object needs to be a list
+        of commands (text lines).
+2022 18-11 at 10:22:43 p:
+  m:
+    ' (vin':
+      ): Was not able to create ShopItem 71! The reward object needs to be a list
+        of commands (text lines).
+2022 18-11 at 10:28:03 p:
+  m:
+    ' (vin':
+      ): Was not able to create ShopItem 71! The reward object needs to be a list
+        of commands (text lines).
+2022 18-11 at 10:55:54 p:
+  m:
+    ' (vin':
+      ): Was not able to create ShopItem 71! The reward object needs to be a list
+        of commands (text lines).
+2022 18-11 at 11:09:56 p:
+  m:
+    ' (vin':
+      ): Was not able to create ShopItem 71! The reward object needs to be a list
+        of commands (text lines).
+2023 15-03 at 08:59:46 pm (Wed): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 15-03 at 09:10:23 pm (Wed): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 15-03 at 09:13:13 pm (Wed): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 15-03 at 09:22:40 pm (Wed): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 15-03 at 09:28:06 pm (Wed): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 15-03 at 10:53:05 pm (Wed): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 15-03 at 11:00:43 pm (Wed): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 15-03 at 11:03:11 pm (Wed): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 15-03 at 11:20:13 pm (Wed): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 18-03 at 10:03:26 pm (Sat): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 18-03 at 10:08:36 pm (Sat): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 18-03 at 10:17:03 pm (Sat): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 18-03 at 10:41:58 pm (Sat): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 18-03 at 10:42:09 pm (Sat): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 18-03 at 10:45:28 pm (Sat): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 18-03 at 10:45:57 pm (Sat): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 18-03 at 10:46:07 pm (Sat): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 18-03 at 10:55:34 pm (Sat): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 18-03 at 11:14:46 pm (Sat): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 18-03 at 11:15:56 pm (Sat): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 18-03 at 11:18:48 pm (Sat): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 18-03 at 11:27:32 pm (Sat): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 18-03 at 11:30:18 pm (Sat): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 18-03 at 11:45:07 pm (Sat): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 19-03 at 06:33:40 pm (Sun): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 19-03 at 08:57:11 pm (Sun): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 19-03 at 09:02:32 pm (Sun): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 19-03 at 09:06:50 pm (Sun): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 19-03 at 09:19:07 pm (Sun): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 20-03 at 05:50:30 pm (Mon): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 20-03 at 10:40:10 pm (Mon): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 20-03 at 10:50:40 pm (Mon): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 20-03 at 10:51:28 pm (Mon): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 20-03 at 10:52:14 pm (Mon): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 20-03 at 10:53:18 pm (Mon): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 20-03 at 10:54:32 pm (Mon): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 20-03 at 10:55:15 pm (Mon): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 20-03 at 10:58:18 pm (Mon): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 20-03 at 11:00:19 pm (Mon): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 20-03 at 11:01:30 pm (Mon): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 20-03 at 11:07:42 pm (Mon): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 20-03 at 11:10:55 pm (Mon): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 20-03 at 11:11:41 pm (Mon): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 20-03 at 11:12:42 pm (Mon): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 20-03 at 11:21:34 pm (Mon): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 20-03 at 11:23:11 pm (Mon): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 20-03 at 11:23:29 pm (Mon): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 20-03 at 11:23:32 pm (Mon): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 21-03 at 12:07:25 am (Tue): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 21-03 at 01:03:37 am (Tue): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 21-03 at 01:21:31 am (Tue): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 21-03 at 01:23:55 am (Tue): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''AIR''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 10-10 at 10:08:18 PM (Tue): 'Mistake in Config: ''playerhead'' is not a valid
+  ''type''. Unable to find a fitting material.'
+2023 10-10 at 10:08:29 PM (Tue): 'Mistake in Config: ''playerhead'' is not a valid
+  ''type''. Unable to find a fitting material.'
+2023 10-10 at 10:08:39 PM (Tue): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''STONE''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 10-10 at 10:12:40 PM (Tue): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''STONE''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 10-10 at 10:13:55 PM (Tue): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''STONE''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 10-10 at 10:15:42 PM (Tue): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''STONE''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 10-10 at 10:16:03 PM (Tue): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''STONE''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 10-10 at 10:16:31 PM (Tue): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''STONE''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 10-10 at 10:17:19 PM (Tue): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''STONE''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 10-10 at 10:17:42 PM (Tue): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''STONE''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 10-10 at 10:18:03 PM (Tue): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''STONE''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 10-10 at 10:18:20 PM (Tue): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''STONE''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 10-10 at 10:18:50 PM (Tue): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''STONE''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 10-10 at 10:37:28 PM (Tue): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''STONE''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 10-10 at 10:40:45 PM (Tue): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''STONE''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 10-10 at 10:40:46 PM (Tue): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''STONE''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 10-10 at 10:40:47 PM (Tue): 'Mistake in Config: Itemdata of type ''playerhead''
+  with value ''%player_name%'' can not be added to an item with material ''STONE''.
+  Don''t worry I''ll automatically transform the material into ''PLAYER_HEAD.'
+2023 25-10 at 11:35:49 PM (Wed): Was not able to create ShopItem Crates! The reward
+  object needs to be the name of a shop (a single text line).
+2023 25-10 at 11:36:44 PM (Wed): Was not able to create ShopItem Crates! The reward
+  object needs to be the name of a shop (a single text line).
+2023 25-10 at 11:36:50 PM (Wed): Was not able to create ShopItem Crates! The reward
+  object needs to be the name of a shop (a single text line).
+2023 25-10 at 11:37:00 PM (Wed): Was not able to create ShopItem Crates! The reward
+  object needs to be the name of a shop (a single text line).
+2023 25-10 at 11:37:16 PM (Wed): Was not able to create ShopItem Crates! The reward
+  object needs to be the name of a shop (a single text line).
+2023 25-10 at 11:37:31 PM (Wed): Was not able to create ShopItem Crates! The reward
+  object needs to be the name of a shop (a single text line).
+2023 25-10 at 11:37:51 PM (Wed): Was not able to create ShopItem Crates! The reward
+  object needs to be the name of a shop (a single text line).
+2023 25-10 at 11:38:11 PM (Wed): Was not able to create ShopItem Crates! The reward
+  object needs to be the name of a shop (a single text line).
+2023 25-10 at 11:42:44 PM (Wed): Two Shops with the same Name (warps) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 26-10 at 12:22:05 AM (Thu): 'Mistake in Config: ''1 - ''lore1:&8ᴛᴇʟᴇᴘᴏʀᴛ''''
+  is not a valid ''custommodeldata''. It needs to be a number like ''1'', ''12'' or
+  ''64''.'
+2023 27-10 at 10:56:30 PM (Fri): For more help please send me a PM at Spigot.
+2023 27-10 at 10:57:00 PM (Fri): For more help please send me a PM at Spigot.
+2023 28-10 at 02:50:18 AM (Sat): Two Shops with the same Name (extrashop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 28-10 at 02:50:43 AM (Sat): Two Shops with the same Name (extrashop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 28-10 at 02:50:44 AM (Sat): Two Shops with the same Name (extrashop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 28-10 at 02:51:05 AM (Sat): Two Shops with the same Name (extrashop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 28-10 at 02:52:16 AM (Sat): Two Shops with the same Name (extrashop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 28-10 at 02:52:35 AM (Sat): Two Shops with the same Name (extrashop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 28-10 at 02:57:25 AM (Sat): Two Shops with the same Name (extrashop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 28-10 at 02:58:04 AM (Sat): Two Shops with the same Name (extrashop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 14-11 at 09:22:14 PM (Tue): Two Shops with the same Name (usefulblocks) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 14-11 at 10:49:18 PM (Tue): For more help please send me a PM at Spigot.
+2023 14-11 at 10:50:07 PM (Tue): For more help please send me a PM at Spigot.
+2023 14-11 at 10:52:30 PM (Tue): For more help please send me a PM at Spigot.
+2023 14-11 at 10:53:06 PM (Tue): For more help please send me a PM at Spigot.
+2023 22-11 at 09:51:18 PM (Wed): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 22-11 at 09:51:36 PM (Wed): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 22-11 at 09:51:52 PM (Wed): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 22-11 at 09:52:10 PM (Wed): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 22-11 at 09:52:21 PM (Wed): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 22-11 at 09:52:37 PM (Wed): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 22-11 at 09:52:51 PM (Wed): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 22-11 at 09:52:57 PM (Wed): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 22-11 at 11:26:20 PM (Wed): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 22-11 at 11:27:31 PM (Wed): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 22-11 at 11:29:19 PM (Wed): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 29-11 at 05:19:01 PM (Wed): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 29-11 at 05:38:00 PM (Wed): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 29-11 at 05:59:15 PM (Wed): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 29-11 at 06:00:16 PM (Wed): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 02-12 at 05:30:31 PM (Sat): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 02-12 at 08:12:42 PM (Sat): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 02-12 at 08:13:09 PM (Sat): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 03-12 at 01:44:11 AM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 03-12 at 07:43:38 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 03-12 at 09:37:54 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 03-12 at 09:38:10 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 03-12 at 09:39:15 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 05-12 at 09:48:37 PM (Tue): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 05-12 at 11:43:45 PM (Tue): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 05-12 at 11:43:46 PM (Tue): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'reader', line 127, column 5:
+          MenuItem:
+          ^
+  expected <block end>, but found '<scalar>'
+   in 'reader', line 133, column 8:
+          - 'lore7:&f &cʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʟᴇᴀᴠᴇ ᴊᴏʙ'
+             ^
+2023 05-12 at 11:43:49 PM (Tue): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 05-12 at 11:43:50 PM (Tue): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'reader', line 127, column 5:
+          MenuItem:
+          ^
+  expected <block end>, but found '<scalar>'
+   in 'reader', line 133, column 8:
+          - 'lore7:&f &cʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʟᴇᴀᴠᴇ ᴊᴏʙ'
+             ^
+2023 05-12 at 11:44:11 PM (Tue): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 05-12 at 11:44:13 PM (Tue): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'reader', line 127, column 5:
+          MenuItem:
+          ^
+  expected <block end>, but found '<scalar>'
+   in 'reader', line 133, column 8:
+          - 'lore7:&f &cʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʟᴇᴀᴠᴇ ᴊᴏʙ'
+             ^
+2023 05-12 at 11:45:43 PM (Tue): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 05-12 at 11:46:07 PM (Tue): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 05-12 at 11:53:21 PM (Tue): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 05-12 at 11:54:00 PM (Tue): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 05-12 at 11:55:19 PM (Tue): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 05-12 at 11:56:03 PM (Tue): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 05-12 at 11:57:47 PM (Tue): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 05-12 at 11:58:17 PM (Tue): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 05-12 at 11:58:36 PM (Tue): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 05-12 at 11:58:58 PM (Tue): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 06-12 at 12:01:13 AM (Wed): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 06-12 at 12:02:02 AM (Wed): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 06-12 at 12:09:08 AM (Wed): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 06-12 at 12:09:35 AM (Wed): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 06-12 at 12:10:09 AM (Wed): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 06-12 at 12:11:06 AM (Wed): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 06-12 at 12:12:42 AM (Wed): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 06-12 at 12:26:22 AM (Wed): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 06-12 at 12:31:48 AM (Wed): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 06-12 at 12:32:16 AM (Wed): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 06-12 at 12:33:22 AM (Wed): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 06-12 at 12:34:04 AM (Wed): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 06-12 at 12:34:11 AM (Wed): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 06-12 at 12:35:04 AM (Wed): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 06-12 at 12:35:51 AM (Wed): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 07-12 at 05:02:48 PM (Thu): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 09:38:38 AM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 06:32:34 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 07:53:38 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 07:55:41 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 07:56:12 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 07:57:12 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 07:58:19 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 07:58:51 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 08:00:00 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 08:00:14 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 08:08:16 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 08:09:48 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 08:11:08 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 08:20:57 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 09:13:51 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 09:19:34 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 09:20:56 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 09:21:20 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 09:22:05 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 09:28:56 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 09:29:12 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 09:30:00 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 09:49:21 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 09:49:59 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 09:50:25 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 09:51:28 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 09:52:43 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 09:54:58 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 09:55:43 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 09:56:26 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 09:57:53 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 09:58:06 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 09:58:17 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 09:58:30 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 09:58:40 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 09:59:04 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 09:59:14 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 10:01:46 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 10:02:30 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 10:09:55 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 10:15:00 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 10:15:29 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 10:21:20 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 17-12 at 10:24:06 PM (Sun): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 18-12 at 12:19:37 PM (Mon): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 18-12 at 09:40:03 PM (Mon): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 18-12 at 10:27:34 PM (Mon): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 18-12 at 11:00:01 PM (Mon): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 18-12 at 11:00:12 PM (Mon): Two Shops with the same Name (battlepass) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 18-12 at 11:28:23 PM (Mon): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'reader', line 565, column 5:
+          MenuItem:
+          ^
+  expected <block end>, but found '<scalar>'
+   in 'reader', line 567, column 8:
+          - 'lore1:&f ▪ Saddle &7x1'
+             ^
+2023 19-12 at 01:07:14 AM (Tue): Two Shops with the same Name (battlepass3) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 19-12 at 01:10:28 AM (Tue): Two Shops with the same Name (battlepass3) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 22-12 at 11:56:46 AM (Fri): For more help please send me a PM at Spigot.
+2023 22-12 at 01:30:48 PM (Fri): 'Mistake in Config: ''HIDE_ADDITIONAL'' is not a
+  valid ''hideflags''.'
+2023 22-12 at 01:32:02 PM (Fri): 'Mistake in Config: ''HIDE_ADDITIONAL'' is not a
+  valid ''hideflags''.'
+2023 22-12 at 01:33:31 PM (Fri): 'Mistake in Config: ''HIDE_ADDITIONAL'' is not a
+  valid ''hideflags''.'
+2023 22-12 at 01:35:38 PM (Fri): |
+  Invalid Configuration! File: /shops/null Cause: while scanning a simple key
+   in 'reader', line 364, column 5:
+          hideflags:all
+          ^
+  could not find expected ':'
+   in 'reader', line 365, column 5:
+          - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+          ^
+2023 28-12 at 11:47:15 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2023 29-12 at 12:00:07 AM (Fri): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 01-01 at 09:11:49 PM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 01-01 at 09:24:27 PM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 01-01 at 09:30:30 PM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 01-01 at 09:37:23 PM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 14-01 at 07:43:47 PM (Sun): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 14-01 at 08:50:07 PM (Sun): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 14-01 at 09:11:46 PM (Sun): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 14-01 at 09:17:43 PM (Sun): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 14-01 at 09:24:44 PM (Sun): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 14-01 at 09:32:51 PM (Sun): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 14-01 at 09:51:47 PM (Sun): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 14-01 at 10:17:29 PM (Sun): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 15-01 at 05:46:37 PM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 15-01 at 06:48:11 PM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 15-01 at 07:24:31 PM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 15-01 at 07:44:44 PM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 15-01 at 07:47:36 PM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 15-01 at 07:49:28 PM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 17-01 at 08:27:09 PM (Wed): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 17-01 at 08:41:38 PM (Wed): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 17-01 at 08:42:25 PM (Wed): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 17-01 at 08:43:39 PM (Wed): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 21-01 at 09:41:49 PM (Sun): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 21-01 at 09:46:58 PM (Sun): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 21-01 at 10:04:42 PM (Sun): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 21-01 at 10:22:01 PM (Sun): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 21-01 at 10:27:27 PM (Sun): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 21-01 at 10:30:18 PM (Sun): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 21-01 at 10:37:16 PM (Sun): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 21-01 at 11:12:11 PM (Sun): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 21-01 at 11:17:27 PM (Sun): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 21-01 at 11:18:07 PM (Sun): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 21-01 at 11:44:11 PM (Sun): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 22-01 at 12:14:39 AM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 22-01 at 12:15:54 AM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 22-01 at 12:29:43 AM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 22-01 at 06:37:20 PM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 22-01 at 07:47:06 PM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 22-01 at 09:17:24 PM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 25-01 at 08:24:22 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 25-01 at 09:27:52 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 25-01 at 09:49:19 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 25-01 at 09:55:14 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 26-01 at 08:58:57 PM (Fri): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 26-01 at 09:01:24 PM (Fri): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 26-01 at 09:10:06 PM (Fri): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 26-01 at 09:12:41 PM (Fri): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 26-01 at 09:17:38 PM (Fri): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 26-01 at 09:27:33 PM (Fri): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 26-01 at 09:35:49 PM (Fri): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 27-01 at 03:25:15 AM (Sat): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 27-01 at 03:40:47 AM (Sat): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 27-01 at 04:28:18 AM (Sat): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 27-01 at 04:28:23 AM (Sat): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 27-01 at 04:36:19 AM (Sat): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 27-01 at 05:05:32 AM (Sat): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 27-01 at 05:20:37 AM (Sat): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 27-01 at 05:52:37 AM (Sat): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 29-01 at 01:00:15 PM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 29-01 at 05:07:03 PM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 29-01 at 05:18:52 PM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 29-01 at 05:54:50 PM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 29-01 at 06:28:15 PM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 29-01 at 06:32:10 PM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 29-01 at 06:35:01 PM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 29-01 at 06:40:14 PM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 29-01 at 06:44:38 PM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 30-01 at 04:36:39 AM (Tue): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 30-01 at 11:03:09 PM (Tue): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 30-01 at 11:07:02 PM (Tue): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 07-02 at 08:26:08 PM (Wed): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 07-02 at 11:11:28 PM (Wed): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 07-02 at 11:17:38 PM (Wed): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 01:50:20 AM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 01:54:16 AM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 01:57:20 AM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 03:36:57 AM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 03:36:58 AM (Thu): For more help please send me a PM at Spigot.
+2024 08-02 at 03:41:29 AM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 03:41:30 AM (Thu): For more help please send me a PM at Spigot.
+2024 08-02 at 03:42:01 AM (Thu): For more help please send me a PM at Spigot.
+2024 08-02 at 03:42:16 AM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 03:42:17 AM (Thu): For more help please send me a PM at Spigot.
+2024 08-02 at 03:44:31 AM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 03:44:32 AM (Thu): For more help please send me a PM at Spigot.
+2024 08-02 at 03:44:37 AM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 03:44:38 AM (Thu): For more help please send me a PM at Spigot.
+2024 08-02 at 03:45:45 AM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 03:45:47 AM (Thu): For more help please send me a PM at Spigot.
+2024 08-02 at 03:47:49 AM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 03:48:29 AM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 03:48:47 AM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 05:21:35 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 05:23:47 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 05:25:51 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 05:27:30 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 05:37:11 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 05:39:30 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 05:40:30 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 05:42:08 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 05:42:24 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 05:44:52 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 05:47:01 PM (Thu): For more help please send me a PM at Spigot.
+2024 08-02 at 05:47:10 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 05:47:11 PM (Thu): For more help please send me a PM at Spigot.
+2024 08-02 at 05:47:48 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 05:47:49 PM (Thu): For more help please send me a PM at Spigot.
+2024 08-02 at 05:48:01 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 05:48:24 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 05:48:39 PM (Thu): For more help please send me a PM at Spigot.
+2024 08-02 at 05:48:56 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 05:48:57 PM (Thu): For more help please send me a PM at Spigot.
+2024 08-02 at 05:49:02 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 05:49:03 PM (Thu): For more help please send me a PM at Spigot.
+2024 08-02 at 05:49:09 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 05:49:37 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 05:49:53 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 05:50:41 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 05:51:52 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 05:52:25 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 05:52:44 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 05:55:19 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 05:56:37 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 06:10:10 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 06:22:14 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 06:23:18 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 06:35:10 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 08-02 at 06:36:04 PM (Thu): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 09-02 at 10:48:35 PM (Fri): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 10-02 at 06:24:11 PM (Sat): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 10-02 at 08:18:14 PM (Sat): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 10-02 at 08:25:35 PM (Sat): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 10-02 at 08:30:57 PM (Sat): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 10-02 at 09:19:44 PM (Sat): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 10-02 at 10:31:46 PM (Sat): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 12-02 at 09:02:45 AM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 12-02 at 09:12:06 AM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 12-02 at 09:14:32 AM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 12-02 at 03:50:46 PM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 12-02 at 04:09:54 PM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 12-02 at 04:56:40 PM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 12-02 at 06:05:37 PM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 12-02 at 06:18:24 PM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 12-02 at 06:29:05 PM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 12-02 at 06:36:51 PM (Mon): Two Shops with the same Name (hatsshop) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2024 13-02 at 10:53:13 AM (Tue): 'No Economy Plugin was found... You need one if you
+  want to work with Money! Get it there: http://plugins.bukkit.org/.'
+2024 09-08 at 12:47:19 PM (Fri): 'Mistake in Config: ''scute'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2024 09-08 at 12:53:20 PM (Fri): 'Mistake in Config: ''scute'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2024 09-08 at 06:40:15 PM (Fri): 'Mistake in Config: ''scute'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2024 09-08 at 06:40:16 PM (Fri): 'Mistake in Config: ''scute'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2024 10-08 at 11:02:38 AM (Sat): 'Mistake in Config: ''scute'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2024 10-08 at 06:37:32 PM (Sat): 'Mistake in Config: ''scute'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2024 10-08 at 07:23:51 PM (Sat): 'Mistake in Config: ''scute'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2024 10-08 at 07:37:38 PM (Sat): 'Mistake in Config: ''scute'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2024 10-08 at 07:43:08 PM (Sat): 'Mistake in Config: ''scute'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2024 10-08 at 07:43:09 PM (Sat): 'Mistake in Config: ''scute'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2024 10-08 at 07:49:12 PM (Sat): 'Mistake in Config: ''scute'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2024 10-08 at 07:57:31 PM (Sat): 'Mistake in Config: ''scute'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2024 11-08 at 10:39:50 AM (Sun): 'Mistake in Config: ''scute'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2024 11-08 at 10:47:55 AM (Sun): 'Mistake in Config: ''scute'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2024 11-08 at 10:59:02 AM (Sun): 'Mistake in Config: ''scute'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2024 11-08 at 11:19:44 AM (Sun): 'Mistake in Config: ''scute'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2024 11-08 at 11:31:48 AM (Sun): 'Mistake in Config: ''scute'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2024 11-08 at 11:38:14 AM (Sun): 'Mistake in Config: ''scute'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2024 11-08 at 11:50:30 AM (Sun): 'Mistake in Config: ''scute'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2024 11-08 at 11:54:43 AM (Sun): 'Mistake in Config: ''scute'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2024 11-08 at 02:35:21 PM (Sun): 'Mistake in Config: ''scute'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2024 11-08 at 02:41:10 PM (Sun): 'Mistake in Config: ''scute'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2024 11-08 at 02:58:05 PM (Sun): 'Mistake in Config: ''scute'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2024 12-09 at 09:34:47 PM (Thu): "Invalid Configuration! File: /shops/null Cause:\
+  \ sequence entries are not allowed here\n in 'reader', line 101, column 18:\n  \
+  \      MenuItem:    - 'lore1:&7ᴅᴏ ɴᴏᴛ ʜᴇꜱɪᴛᴀᴛᴇ ᴛᴏ#&7 ... \n                    \
+  \ ^\n"
+2024 15-09 at 08:54:25 PM (Sun): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'reader', line 9, column 3:
+        New_Items_Category:
+        ^
+  expected <block end>, but found ':'
+   in 'reader', line 505, column 3:
+        :
+        ^
+2024 15-09 at 08:55:09 PM (Sun): For more help please send me a PM at Spigot.
+2024 15-09 at 09:19:55 PM (Sun): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA0ZDkxNjRlOGY3NmRjZGRlNWY4ZDEwZmY2N2RlYjJkNjU4YTYwMDhkMjNjNDRmYjJmODQ0ZTA4NTkxYzAxZCJ9fX0=''
+  can not be added to an item with material ''ARMADILLO_SPAWN_EGG''. Don''t worry
+  I''ll automatically transform the material into ''PLAYER_HEAD.'
+2024 15-09 at 09:20:17 PM (Sun): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA0ZDkxNjRlOGY3NmRjZGRlNWY4ZDEwZmY2N2RlYjJkNjU4YTYwMDhkMjNjNDRmYjJmODQ0ZTA4NTkxYzAxZCJ9fX0=''
+  can not be added to an item with material ''ARMADILLO_SPAWN_EGG''. Don''t worry
+  I''ll automatically transform the material into ''PLAYER_HEAD.'
+2024 15-09 at 09:20:42 PM (Sun): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA0ZDkxNjRlOGY3NmRjZGRlNWY4ZDEwZmY2N2RlYjJkNjU4YTYwMDhkMjNjNDRmYjJmODQ0ZTA4NTkxYzAxZCJ9fX0=''
+  can not be added to an item with material ''ARMADILLO_SPAWN_EGG''. Don''t worry
+  I''ll automatically transform the material into ''PLAYER_HEAD.'
+2024 15-09 at 09:21:03 PM (Sun): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA0ZDkxNjRlOGY3NmRjZGRlNWY4ZDEwZmY2N2RlYjJkNjU4YTYwMDhkMjNjNDRmYjJmODQ0ZTA4NTkxYzAxZCJ9fX0=''
+  can not be added to an item with material ''ARMADILLO_SPAWN_EGG''. Don''t worry
+  I''ll automatically transform the material into ''PLAYER_HEAD.'
+2024 15-09 at 09:29:56 PM (Sun): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA0ZDkxNjRlOGY3NmRjZGRlNWY4ZDEwZmY2N2RlYjJkNjU4YTYwMDhkMjNjNDRmYjJmODQ0ZTA4NTkxYzAxZCJ9fX0=''
+  can not be added to an item with material ''ARMADILLO_SPAWN_EGG''. Don''t worry
+  I''ll automatically transform the material into ''PLAYER_HEAD.'
+2024 15-09 at 10:48:07 PM (Sun): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA0ZDkxNjRlOGY3NmRjZGRlNWY4ZDEwZmY2N2RlYjJkNjU4YTYwMDhkMjNjNDRmYjJmODQ0ZTA4NTkxYzAxZCJ9fX0=''
+  can not be added to an item with material ''ARMADILLO_SPAWN_EGG''. Don''t worry
+  I''ll automatically transform the material into ''PLAYER_HEAD.'
+2024 15-09 at 11:12:55 PM (Sun): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA0ZDkxNjRlOGY3NmRjZGRlNWY4ZDEwZmY2N2RlYjJkNjU4YTYwMDhkMjNjNDRmYjJmODQ0ZTA4NTkxYzAxZCJ9fX0=''
+  can not be added to an item with material ''ARMADILLO_SPAWN_EGG''. Don''t worry
+  I''ll automatically transform the material into ''PLAYER_HEAD.'
+2024 15-09 at 11:51:33 PM (Sun): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA0ZDkxNjRlOGY3NmRjZGRlNWY4ZDEwZmY2N2RlYjJkNjU4YTYwMDhkMjNjNDRmYjJmODQ0ZTA4NTkxYzAxZCJ9fX0=''
+  can not be added to an item with material ''ARMADILLO_SPAWN_EGG''. Don''t worry
+  I''ll automatically transform the material into ''PLAYER_HEAD.'
+2024 16-09 at 12:36:15 AM (Mon): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'reader', line 35, column 5:
+          MenuItem:
+          ^
+  expected <block end>, but found '<scalar>'
+   in 'reader', line 40, column 193:
+       ... ᴜᴛ#&7ɪɴ ᴀ ᴄʜꜱᴛ ᴏʀ ᴇᴠᴇɴ ᴡʜᴀᴛ ʏᴏᴜ'ʀᴇ ꜱᴍᴇʟᴛɪɴɢ ɪɴ ꜰᴜʀɴᴀᴄᴇ.'
+                                           ^
+2024 16-09 at 12:37:19 AM (Mon): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA0ZDkxNjRlOGY3NmRjZGRlNWY4ZDEwZmY2N2RlYjJkNjU4YTYwMDhkMjNjNDRmYjJmODQ0ZTA4NTkxYzAxZCJ9fX0=''
+  can not be added to an item with material ''ARMADILLO_SPAWN_EGG''. Don''t worry
+  I''ll automatically transform the material into ''PLAYER_HEAD.'
+2024 16-09 at 09:59:30 PM (Mon): 'Mistake in Config: ''powered_rail24'' is not a valid
+  ''type''. Unable to find a fitting material.'
+2024 16-09 at 10:23:21 PM (Mon): 'Mistake in Config: ''powered_rail24'' is not a valid
+  ''type''. Unable to find a fitting material.'
+2024 16-09 at 10:34:31 PM (Mon): 'Mistake in Config: ''diamond_sword1'' is not a valid
+  ''type''. Unable to find a fitting material.'
+2024 16-09 at 11:46:02 PM (Mon): 'Mistake in Config: ''diamond_sword1'' is not a valid
+  ''type''. Unable to find a fitting material.'
+2024 16-09 at 11:54:46 PM (Mon): For more help please send me a PM at Spigot.
+2024 16-09 at 11:56:32 PM (Mon): 'Mistake in Config: ''diamond_sword1'' is not a valid
+  ''type''. Unable to find a fitting material.'
+2024 16-09 at 11:56:59 PM (Mon): 'Mistake in Config: ''diamond_sword1'' is not a valid
+  ''type''. Unable to find a fitting material.'
+2024 16-09 at 11:57:18 PM (Mon): 'Mistake in Config: ''diamond_sword1'' is not a valid
+  ''type''. Unable to find a fitting material.'
+2024 16-09 at 11:57:56 PM (Mon): 'Mistake in Config: ''diamond_sword1'' is not a valid
+  ''type''. Unable to find a fitting material.'
+2024 17-09 at 12:10:07 AM (Tue): 'Mistake in Config: ''diamond_sword1'' is not a valid
+  ''type''. Unable to find a fitting material.'
+2024 17-09 at 12:11:03 AM (Tue): 'Mistake in Config: ''diamond_sword1'' is not a valid
+  ''type''. Unable to find a fitting material.'
+2024 17-09 at 09:13:38 PM (Tue): 'Mistake in Config: ''Steak'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2024 17-09 at 09:13:39 PM (Tue): 'Mistake in Config: ''diamond_sword1'' is not a valid
+  ''type''. Unable to find a fitting material.'
+2024 17-09 at 10:07:22 PM (Tue): 'Mistake in Config: ''diamond_sword1'' is not a valid
+  ''type''. Unable to find a fitting material.'
+2024 17-09 at 10:34:21 PM (Tue): 'Mistake in Config: ''diamond_sword1'' is not a valid
+  ''type''. Unable to find a fitting material.'
+2024 17-09 at 10:36:05 PM (Tue): 'Mistake in Config: ''diamond_sword1'' is not a valid
+  ''type''. Unable to find a fitting material.'
+2024 17-09 at 11:02:33 PM (Tue): 'Mistake in Config: ''diamond_sword1'' is not a valid
+  ''type''. Unable to find a fitting material.'
+2024 17-09 at 11:03:36 PM (Tue): 'Mistake in Config: ''diamond_sword1'' is not a valid
+  ''type''. Unable to find a fitting material.'
+2024 17-09 at 11:15:01 PM (Tue): 'Mistake in Config: ''diamond_sword1'' is not a valid
+  ''type''. Unable to find a fitting material.'
+2024 19-09 at 10:09:58 AM (Thu): Two Shops with the same Name (randomteleport) are
+  loaded. When opening a Shop via Name, only one of this Shops will be opened!

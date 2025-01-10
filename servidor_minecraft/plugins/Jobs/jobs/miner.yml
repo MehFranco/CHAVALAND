@@ -1,0 +1,438 @@
+Miner:
+  fullname: Miner
+  shortname: M
+  description: '&fEarn money mining minerals and ores.'
+  ChatColour: BLUE
+  chat-display: full
+  max-level: 125
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  maxDailyQuests: 1
+  Quests:
+    '1':
+      Name: Excavator
+      Objectives:
+      - Break;stone;96
+      RewardCommands:
+      - eco give [playerName] 180
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBreak blocks to get money'
+      - '&8 ▪ &fGet 180$ for this!'
+    '2':
+      Name: Excavator II
+      Objectives:
+      - Break;granite;32
+      - Break;andesite;32
+      RewardCommands:
+      - eco give [playerName] 230
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBreak blocks to get money'
+      - '&8 ▪ &fGet 230$ for this!'
+    '3':
+      Name: Excavator III
+      Objectives:
+      - Break;andesite;32
+      - Break;diorite;32
+      RewardCommands:
+      - eco give [playerName] 230
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBreak blocks to get money 3'
+      - '&8 ▪ &fGet 230$ for this!'
+    '4':
+      Name: Excavator IV
+      Objectives:
+      - Break;andesite;32
+      - Break;diorite;32
+      RewardCommands:
+      - eco give [playerName] 230
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBreak blocks to get money'
+      - '&8 ▪ &fGet 230$ for this!'
+    '5':
+      Name: Archaeologist
+      Objectives:
+      - Break;coal_ore;32
+      RewardCommands:
+      - eco give [playerName] 200
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBreak ores to get money'
+      - '&8 ▪ &fGet 200$ for this!'
+    '6':
+      Name: Archaeologist II
+      Objectives:
+      - Break;iron_ore;24
+      - Break;gold_ore;6
+      RewardCommands:
+      - eco give [playerName] 300
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBreak ores to get money'
+      - '&8 ▪ &fGet 300$ for this!'
+    '7':
+      Name: Archaeologist III
+      Objectives:
+      - Break;iron_ore;24
+      - Break;coal_ore;32
+      RewardCommands:
+      - eco give [playerName] 300
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBreak ores to get money'
+      - '&8 ▪ &fGet 300$ for this!'
+    '8':
+      Name: Archaeologist IV
+      Objectives:
+      - Break;coal_ore;24
+      - Break;iron_ore;16
+      - Break;gold_ore;6
+      RewardCommands:
+      - eco give [playerName] 325
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBreak ores to get money'
+      - '&8 ▪ &fGet 325$ for this!'
+    '9':
+      Name: Archaeologist V
+      Objectives:
+      - Break;redstone_ore;40
+      RewardCommands:
+      - eco give [playerName] 250
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBreak ores to get money'
+      - '&8 ▪ &fGet 250$ for this!'
+    '10':
+      Name: Archaeologist VI
+      Objectives:
+      - Break;lapis_ore;12
+      RewardCommands:
+      - eco give [playerName] 230
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBreak ores to get money'
+      - '&8 ▪ &fGet 230$ for this!'
+    '11':
+      Name: Archaeologist VII
+      Objectives:
+      - Break;diamond_ore;6
+      RewardCommands:
+      - eco give [playerName] 320
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBreak ores to get money'
+      - '&8 ▪ &fGet 320$ for this!'
+    '12':
+      Name: Archaeologist VIII
+      Objectives:
+      - Break;diamond_ore;4
+      - Break;gold_ore;12
+      RewardCommands:
+      - eco give [playerName] 350
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBreak ores to get money'
+      - '&8 ▪ &fGet 350$ for this!'
+    '13':
+      Name: Archaeologist IX
+      Objectives:
+      - Break;diamond_ore;6
+      - Break;emerald_ore;1
+      RewardCommands:
+      - eco give [playerName] 400
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBreak ores to get money'
+      - '&8 ▪ &fGet 400$ for this!'
+    '14':
+      Name: Excavator V
+      Objectives:
+      - Break;sandstone;24
+      RewardCommands:
+      - eco give [playerName] 220
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBreak blocks to get money'
+      - '&8 ▪ &fGet 220$ for this!'
+    '15':
+      Name: Excavator VI
+      Objectives:
+      - Break;red_sandstone;16
+      RewardCommands:
+      - eco give [playerName] 250
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBreak blocks to get money'
+      - '&8 ▪ &fGet 250$ for this!'
+    '16':
+      Name: Ocean Harvester
+      Objectives:
+      - Break;tube_coral_block;6
+      - Break;fire_coral_block;6
+      RewardCommands:
+      - eco give [playerName] 240
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBreak coral blocks to get money'
+      - '&8 ▪ &fGet 240$ for this!'
+    '17':
+      Name: Archaeologist X
+      Objectives:
+      - Break;coal_ore;40
+      - Break;iron_ore;24
+      - Break;gold_ore;12
+      - Break;redstone_ore;24
+      - Break;lapis_ore;12
+      - Break;diamond_ore;6
+      - Break;emerald_ore;1
+      - Break;ancient_debris;2
+      RewardCommands:
+      - eco give [playerName] 1200
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBreak ores to get money'
+      - '&8 ▪ &fGet 1200$ for this!'
+    '18':
+      Name: Archaeologist XI
+      Objectives:
+      - Break;ancient_debris;2
+      RewardCommands:
+      - eco give [playerName] 400
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBreak ancient debris to get money'
+      - '&8 ▪ &fGet 400$ for this!'
+  Gui:
+    Id: 257
+    Data: 0
+  TNTBreak:
+    stone:
+      income: 0.2
+      points: 0.2
+      experience: 0.4
+    granite:
+      income: 0.25
+      points: 0.25
+      experience: 0.5
+    diorite:
+      income: 0.25
+      points: 0.25
+      experience: 0.5
+    andesite:
+      income: 0.25
+      points: 0.25
+      experience: 0.5
+    netherrack:
+      income: 0.1
+      points: 0.1
+      experience: 0.1
+  Break:
+    tube_coral_block:
+      income: 2
+      points: 2
+      experience: 3
+    brain_coral_block:
+      income: 2
+      points: 2
+      experience: 3
+    bubble_coral_block:
+      income: 2
+      points: 2
+      experience: 3
+    fire_coral_block:
+      income: 2
+      points: 2
+      experience: 3
+    horn_coral_block:
+      income: 2
+      points: 2
+      experience: 3
+    stone:
+      income: 0.65
+      points: 0.65
+      experience: 0.65
+    infested_stone:
+      income: 0.8
+      points: 0.8
+      experience: 0.8
+    cobblestone:
+      income: 0.3
+      points: 0.3
+      experience: 0.3
+    infested_cobblestone:
+      income: 0.45
+      points: 0.45
+      experience: 0.45
+    andesite:
+      income: 0.75
+      points: 0.75
+      experience: 0.75
+    granite:
+      income: 0.75
+      points: 0.75
+      experience: 0.75
+    diorite:
+      income: 0.75
+      points: 0.75
+      experience: 0.75
+    stone_bricks:
+      income: 0.85
+      points: 0.85
+      experience: 0.85
+    infested_stone_bricks:
+      income: 0.9
+      points: 0.9
+      experience: 0.9
+    sandstone:
+      income: 1.1
+      points: 1.1
+      experience: 1.1
+    red_sandstone:
+      income: 1.3
+      points: 1.3
+      experience: 1.3
+    coal_ore:
+      income: 2.5
+      points: 2
+      experience: 2
+    redstone_ore:
+      income: 3
+      points: 2.5
+      experience: 2.5
+    iron_ore:
+      income: 3.5
+      points: 3
+      experience: 3
+    gold_ore:
+      income: 5
+      points: 4
+      experience: 3
+    nether_gold_ore:
+      income: 1
+      points: 1
+      experience: 1
+    lapis_ore:
+      income: 5
+      points: 4
+      experience: 3
+    diamond_ore:
+      income: 8
+      points: 6
+      experience: 5
+    emerald_ore:
+      income: 12
+      points: 10
+      experience: 15
+    nether_quartz_ore:
+      income: 3
+      points: 3
+      experience: 3
+    obsidian:
+      income: 8
+      points: 6
+      experience: 5
+    nether_bricks:
+      income: 1.3
+      points: 1.3
+      experience: 1.2
+    netherrack:
+      income: 0.2
+      points: 0.2
+      experience: 0.2
+    basalt:
+      income: 0.85
+      points: 0.85
+      experience: 0.85
+    quartz_block:
+      income: 1.5
+      points: 1.5
+      experience: 1.5
+    blackstone:
+      income: 1.5
+      points: 1.5
+      experience: 1.5
+    polished_blackstone:
+      income: 1.75
+      points: 1.75
+      experience: 1.75
+    gilded_blackstone:
+      income: 1.25
+      points: 1.25
+      experience: 1.25
+    ancient_debris:
+      income: 8
+      points: 8
+      experience: 8
+    prismarine:
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+    prismarine_bricks:
+      income: 2.75
+      points: 2.75
+      experience: 2.75
+    dark_prismarine:
+      income: 3
+      points: 3
+      experience: 3
+    terracotta:
+      income: 1.25
+      points: 1.25
+      experience: 1.25
+    end_stone:
+      income: 3
+      points: 3
+      experience: 3
+    deepslate_coal_ore:
+      income: 2.5
+      points: 2
+      experience: 2
+    deepslate_redstone_ore:
+      income: 3
+      points: 2.5
+      experience: 2.5
+    deepslate_iron_ore:
+      income: 3.5
+      points: 3
+      experience: 3
+    deepslate_gold_ore:
+      income: 5
+      points: 4
+      experience: 3
+    deepslate_lapis_ore:
+      income: 5
+      points: 4
+      experience: 3
+    deepslate_diamond_ore:
+      income: 8
+      points: 6
+      experience: 5
+    deepslate_emerald_ore:
+      income: 12
+      points: 10
+      experience: 15
+    deepslate:
+      income: 0.65
+      points: 0.65
+      experience: 0.65
+    cobbled_deepslate:
+      income: 0.3
+      points: 0.3
+      experience: 0.3
+    copper_ore:
+      income: 4
+      points: 3
+      experience: 3
+    deepslate_copper_ore:
+      income: 4
+      points: 3
+      experience: 3

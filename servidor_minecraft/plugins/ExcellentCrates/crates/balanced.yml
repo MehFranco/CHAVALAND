@@ -1,0 +1,1068 @@
+Name: '&bBalanced Crate'
+Animation_Config: balanced
+Preview_Config: balanced
+Permission_Required: false
+Attached_Citizens: ''
+Opening:
+  Cooldown: 15
+Key:
+  Ids:
+  - balanced
+  # Sets whether or not keys are required to open this crate.
+  Required: true
+Block:
+  Pushback:
+    Enabled: false
+  Hologram:
+    Enabled: true
+    Template: balanced
+    Y_Offset: 0.0
+  Effect:
+    Model: SIMPLE
+    Particle:
+      Name: 'null'
+  Positions:
+  - -61,66,10,world
+Rewards:
+  List:
+    161247e6-a1a7-4222-8f5a-e9a7046350be:
+      Name: Diamond Sword
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0005002j3dtmn0rrecln78soa00b6qqbeclhn4ob6egt6arj3d1gmst3dcln78soa0036opbmclm760o02dmmirj5cdp62pjk79pmgobie1n6asrj0000008000006005cdnnarjk000000880016ip002tmmirj5cdp62pjk79i6iobddtn68nrjetnn4p00
+      Commands: []
+      Items:
+      - 2g0005002j3dtmn0rrecln78soa00b6qqbeclhn4ob6egt6arj3d1gmst3dcln78soa0036opbmclm760o02dmmirj5cdp62pjk79pmgobie1n6asrj0000008000006005cdnnarjk000000880016ip002tmmirj5cdp62pjk79i6iobddtn68nrjetnn4p00
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    e95c1568-bf00-4213-92a1-76bf5f1f2fee:
+      Name: Diamond Pickaxe
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0005002j3dtmn0rrecln78soa00b6qqbeclhn4ob6egt6arj3d1gmst3dcln78soa0036opbmclm760o02hmmirj5cdp62pjk79qmsojiclgmmqbecs0000020c018rb9dpim6sj1cpq3kpb6cpkm6qb5dphni000001g00000c00aorfeln78000000gg002d5i006bdd5n6aoric5j78ej4d5gmqrrechfn0qb3ddgngp80
+      Commands: []
+      Items:
+      - 2g0005002j3dtmn0rrecln78soa00b6qqbeclhn4ob6egt6arj3d1gmst3dcln78soa0036opbmclm760o02hmmirj5cdp62pjk79qmsojiclgmmqbecs0000020c018rb9dpim6sj1cpq3kpb6cpkm6qb5dphni000001g00000c00aorfeln78000000gg002d5i006bdd5n6aoric5j78ej4d5gmqrrechfn0qb3ddgngp80
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    3bd6d84f-edc7-442c-8fae-846a61a9c25b:
+      Name: Diamond Axe
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000k00acdnmqs3fdpimst3j1801crb9dpim6sj1cpq3kpbecdk62rjkdlimst3j1800cr35epimoso300a6qqbeclhn4ob6egt6apj6d5hmipbecdsg000004000003002m6rrldpq00000044000j9cg01arb9dpim6sj1cpq3kp39c5mmurj4btgngp80
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j1801crb9dpim6sj1cpq3kpbecdk62rjkdlimst3j1800cr35epimoso300a6qqbeclhn4ob6egt6apj6d5hmipbecdsg000004000003002m6rrldpq00000044000j9cg01arb9dpim6sj1cpq3kp39c5mmurj4btgngp80
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    2155710b-557c-4f1c-ac4b-eee49bb176f0:
+      Name: Netherite Shovel
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 180002g019hmurbgdtn6arjkec5005jdd5n6aoric5j78ej5dphmgobeehmmarjkec5001jcclr6ar3j0c016rb9dpim6sj1cpq3ksr8c5p70rj5edpg000004000003002m6rrldpq00000044000j9cg01krb9dpim6sj1cpq3krj5ehk6asj9ehilusr8dtr6ar00
+      Commands: []
+      Items:
+      - 180002g019hmurbgdtn6arjkec5005jdd5n6aoric5j78ej5dphmgobeehmmarjkec5001jcclr6ar3j0c016rb9dpim6sj1cpq3ksr8c5p70rj5edpg000004000003002m6rrldpq00000044000j9cg01krb9dpim6sj1cpq3krj5ehk6asj9ehilusr8dtr6ar00
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    ba3835a2-73d6-4dea-a80a-c2e5813d38fc:
+      Name: Bow
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0005002j3dtmn0rrecln78soa00b6qqbeclhn4ob6egt6arj3d1gmst3dcln78soa0036opbmclm760o01tmmirj5cdp62pjk79o6utr5e80000040c00urb9dpim6sj1cpq3kpjcc5mma000000g600kdlkmspb3e9gmct1qeln64sj5c5lmirj7000000g000006005cdnnarjk000000880016ip001lmmirj5cdp62pjk79h6uto0
+      Commands: []
+      Items:
+      - 2g0005002j3dtmn0rrecln78soa00b6qqbeclhn4ob6egt6arj3d1gmst3dcln78soa0036opbmclm760o01tmmirj5cdp62pjk79o6utr5e80000040c00urb9dpim6sj1cpq3kpjcc5mma000000g600kdlkmspb3e9gmct1qeln64sj5c5lmirj7000000g000006005cdnnarjk000000880016ip001lmmirj5cdp62pjk79h6uto0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    52746985-c8e9-4eef-86b2-0b81296e5851:
+      Name: Diamond Helmet
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 50000a00566rrde1nmspbeehpgk00mdlkmspb3e9gmct1qcln66q31dpq6qpbeehpgk006dhincpbcec1g053dd5n6aoric5j78ejldph74pb1ddkmspo0000040o02lmmirj5cdp62pjk79p6asrgd5p62t39dtn00000041g053dd5n6aoric5j78ejge9nn8pb3ehkmurg000002000001g01b3dtqmst000000220009km800odlkmspb3e9gmct1qchkm2rbfdpi5uq35dhmmat00
+      Commands: []
+      Items:
+      - 50000a00566rrde1nmspbeehpgk00mdlkmspb3e9gmct1qcln66q31dpq6qpbeehpgk006dhincpbcec1g053dd5n6aoric5j78ejldph74pb1ddkmspo0000040o02lmmirj5cdp62pjk79p6asrgd5p62t39dtn00000041g053dd5n6aoric5j78ejge9nn8pb3ehkmurg000002000001g01b3dtqmst000000220009km800odlkmspb3e9gmct1qchkm2rbfdpi5uq35dhmmat00
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    5ee38fea-774a-406b-bf46-80807766a7cc:
+      Name: Diamond Chestplate
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k0001800korfdlo6urj5dpq762g02pmmirj5cdp62pjk79imsor8c5n78rb5dpq762g00pm6atj5dhpg600kdlkmspb3e9gmct1qeln64sj5c5lmirj70000008000006005cdnnarjk000000880016ip003hmmirj5cdp62pjk79i6iobddtn68nr3d1in6t3gdhgn8p80
+      Commands: []
+      Items:
+      - k0001800korfdlo6urj5dpq762g02pmmirj5cdp62pjk79imsor8c5n78rb5dpq762g00pm6atj5dhpg600kdlkmspb3e9gmct1qeln64sj5c5lmirj70000008000006005cdnnarjk000000880016ip003hmmirj5cdp62pjk79i6iobddtn68nr3d1in6t3gdhgn8p80
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    4387b18f-0fb5-4811-b528-954f7fe4701e:
+      Name: Diamond Leggings
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000k00acdnmqs3fdpimst3j1801crb9dpim6sj1cpq3kpbecdk62rjkdlimst3j1800cr35epimoso300a6qqbeclhn4ob6egt7arj2e9im2qr9dpjg000004000003002m6rrldpq00000044000j9cg01krb9dpim6sj1cpq3kp39c5mmurj4btm6apr7d5n6eso0
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j1801crb9dpim6sj1cpq3kpbecdk62rjkdlimst3j1800cr35epimoso300a6qqbeclhn4ob6egt7arj2e9im2qr9dpjg000004000003002m6rrldpq00000044000j9cg01krb9dpim6sj1cpq3kp39c5mmurj4btm6apr7d5n6eso0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    0f3ec841-c799-4f7d-982e-e807dd1d8dae:
+      Name: Diamond Boots
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0005002j3dtmn0rrecln78soa00b6qqbeclhn4ob6egt6arj3d1gmst3dcln78soa0036opbmclm760o035mmirj5cdp62pjk79j6aobkd1in4nr6c5m6oqbecs0000010c018rb9dpim6sj1cpq3ktbec9p6aobbd5n6e0000010600kdlkmspb3e9gmct1qe1p6ut35cdq6irre0000008000006005cdnnarjk000000880016ip002tmmirj5cdp62pjk79i6iobddtn68nr2dtnn8so0
+      Commands: []
+      Items:
+      - 2g0005002j3dtmn0rrecln78soa00b6qqbeclhn4ob6egt6arj3d1gmst3dcln78soa0036opbmclm760o035mmirj5cdp62pjk79j6aobkd1in4nr6c5m6oqbecs0000010c018rb9dpim6sj1cpq3ktbec9p6aobbd5n6e0000010600kdlkmspb3e9gmct1qe1p6ut35cdq6irre0000008000006005cdnnarjk000000880016ip002tmmirj5cdp62pjk79i6iobddtn68nr2dtnn8so0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    6362c946-f0db-447b-83e5-cb022960835d:
+      Name: Compressed Ice
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 180002g019hmurbgdtn6arjkec1g043dd5n6aoric5j78ej4c5mm2pr5000000000c00aorfeln7800000a0g002d5i0053dd5n6aoric5j78ejgc5hmmpb4btkm6p80
+      Commands: []
+      Items:
+      - 180002g019hmurbgdtn6arjkec1g043dd5n6aoric5j78ej4c5mm2pr5000000000c00aorfeln7800000a0g002d5i0053dd5n6aoric5j78ejgc5hmmpb4btkm6p80
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    14411232-df1b-4a90-8e69-dea277d182a9:
+      Name: Block of Stripped Bamboo
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000k00acdnmqs3fdpimst3j0c010rb9dpim6sj1cpq3kp31dlgmep8000000003002m6rrldpq000001g4000j9cg01urb9dpim6sj1cpq3ksrke9kn0s35chfm4obdc9nmunr2dhnm6qo0
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j0c010rb9dpim6sj1cpq3kp31dlgmep8000000003002m6rrldpq000001g4000j9cg01urb9dpim6sj1cpq3ksrke9kn0s35chfm4obdc9nmunr2dhnm6qo0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    2f9047d1-0e55-421d-a246-81cbf52a78b0:
+      Name: Suspicious Sand
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 180002g019hmurbgdtn6arjkec1g043dd5n6aoric5j78ej4c5mm2pr5000000000c00aorfeln7800000g0g002d5i006bdd5n6aoric5j78ejjelpn0qb3d5nnasqvedgmsp00
+      Commands: []
+      Items:
+      - 180002g019hmurbgdtn6arjkec1g043dd5n6aoric5j78ej4c5mm2pr5000000000c00aorfeln7800000g0g002d5i006bdd5n6aoric5j78ejjelpn0qb3d5nnasqvedgmsp00
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    f5ad99cb-04a5-4939-b2c3-37fc0b9f23a3:
+      Name: Warped Stem
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000k00acdnmqs3fdpimst3j0c010rb9dpim6sj1cpq3kp31dlgmep8000000003002m6rrldpq00000304000j9cg01arb9dpim6sj1cpq3ktr1e9o6ap2vedq6ar80
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j0c010rb9dpim6sj1cpq3kp31dlgmep8000000003002m6rrldpq00000304000j9cg01arb9dpim6sj1cpq3ktr1e9o6ap2vedq6ar80
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    75537850-3206-4c05-bec7-27c5cf983527:
+      Name: Sponge
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000k00acdnmqs3fdpimst3j0c010rb9dpim6sj1cpq3kp31dlgmep8000000003002m6rrldpq00000084000j9cg010rb9dpim6sj1cpq3ksrgdtn6ep80
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j0c010rb9dpim6sj1cpq3kp31dlgmep8000000003002m6rrldpq00000084000j9cg010rb9dpim6sj1cpq3ksrgdtn6ep80
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    97a7ddba-695e-4b25-a723-c385bad2cb0e:
+      Name: Fire Coral Block
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000k00acdnmqs3fdpimst3j0c010rb9dpim6sj1cpq3kp31dlgmep8000000003002m6rrldpq00000204000j9cg01krb9dpim6sj1cpq3kpj9e9iluorfe9gmonr2dhnm6qo0
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j0c010rb9dpim6sj1cpq3kp31dlgmep8000000003002m6rrldpq00000204000j9cg01krb9dpim6sj1cpq3kpj9e9iluorfe9gmonr2dhnm6qo0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    cb95a540-d08f-4539-9127-2c95792113ad:
+      Name: Mushroom Stem
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k0001800korfdlo6urj5dpq760o021mmirj5cdp62pjk79i62rb1ctig000000006005cdnnarjk000008080016ip002tmmirj5cdp62pjk79mnasr8e9nmuravedq6ar80
+      Commands: []
+      Items:
+      - k0001800korfdlo6urj5dpq760o021mmirj5cdp62pjk79i62rb1ctig000000006005cdnnarjk000008080016ip002tmmirj5cdp62pjk79mnasr8e9nmuravedq6ar80
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    9559b754-ccda-477e-b9ab-f0dfac4bca18:
+      Name: Lime Wool
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0001g01b3dtqmst000002g20009km800jdlkmspb3e9gmct1qdhkmqpavetnmur00
+      Commands: []
+      Items:
+      - 2g0001g01b3dtqmst000002g20009km800jdlkmspb3e9gmct1qdhkmqpavetnmur00
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    9efb1aa5-a4ae-4306-aa9e-92b768703a86:
+      Name: Magenta Stained Glass
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 500003002m6rrldpq00000704000j9cg01urb9dpim6sj1cpq3krb1ctimst31btpn8ob9dpim8nr7dhgn6so0
+      Commands: []
+      Items:
+      - 500003002m6rrldpq00000704000j9cg01urb9dpim6sj1cpq3krb1ctimst31btpn8ob9dpim8nr7dhgn6so0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    af5130dd-aa62-4ed5-af5b-04fbdc4dea8d:
+      Name: Cherry Sapling
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 50000a00566rrde1nmspbeehpg600gdlkmspb3e9gmct1qchgmqob7ck000000001g01b3dtqmst000000o20009km800odlkmspb3e9gmct1qcdk6asjif5fn6obgdhkmspo0
+      Commands: []
+      Items:
+      - 50000a00566rrde1nmspbeehpg600gdlkmspb3e9gmct1qchgmqob7ck000000001g01b3dtqmst000000o20009km800odlkmspb3e9gmct1qcdk6asjif5fn6obgdhkmspo0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    880cdc84-49cd-4ef2-855e-af1bd660aea1:
+      Name: Sugar Cane
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 180002g019hmurbgdtn6arjkec1g043dd5n6aoric5j78ej4c5mm2pr5000000000c00aorfeln7800000i0g002d5i0053dd5n6aoric5j78ejjeljm2sivcdgmsp80
+      Commands: []
+      Items:
+      - 180002g019hmurbgdtn6arjkec1g043dd5n6aoric5j78ej4c5mm2pr5000000000c00aorfeln7800000i0g002d5i0053dd5n6aoric5j78ejjeljm2sivcdgmsp80
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    f64d814c-891f-4804-b495-5d5f2efe3397:
+      Name: Vines
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 50000a00566rrde1nmspbeehpg600gdlkmspb3e9gmct1qchgmqob7ck000000001g01b3dtqmst000001s20009km800edlkmspb3e9gmct1qepkmsp80
+      Commands: []
+      Items:
+      - 50000a00566rrde1nmspbeehpg600gdlkmspb3e9gmct1qchgmqob7ck000000001g01b3dtqmst000001s20009km800edlkmspb3e9gmct1qepkmsp80
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    25c76add-ede1-434b-9437-a6e112e896b2:
+      Name: Lapis Lazuli
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0005002j3dtmn0rrecln78so30086qqbeclhn4ob6egt68obdc5jma000000000o00lhmutbeeg00000g10004qb400b6qqbeclhn4ob6egt6oobgd5plur31f9qmoq80
+      Commands: []
+      Items:
+      - 2g0005002j3dtmn0rrecln78so30086qqbeclhn4ob6egt68obdc5jma000000000o00lhmutbeeg00000g10004qb400b6qqbeclhn4ob6egt6oobgd5plur31f9qmoq80
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    2d441e73-30a9-49ef-af37-36c05eedd48a:
+      Name: Redstone Dust
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k0001800korfdlo6urj5dpq760o021mmirj5cdp62pjk79i62rb1ctig000000006005cdnnarjk000004080016ip0029mmirj5cdp62pjk79p6ap3jehnmsp80
+      Commands: []
+      Items:
+      - k0001800korfdlo6urj5dpq760o021mmirj5cdp62pjk79i62rb1ctig000000006005cdnnarjk000004080016ip0029mmirj5cdp62pjk79p6ap3jehnmsp80
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    8f240722-8dd1-4ad2-9317-0c531f1bc729:
+      Name: Angler Pottery Sherd
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k0000c00aorfeln78000000gg002d5i007jdd5n6aoric5j78ej1dpjmopbibto6ut3kclp7inrjd1in4p00
+      Commands: []
+      Items:
+      - k0000c00aorfeln78000000gg002d5i007jdd5n6aoric5j78ej1dpjmopbibto6ut3kclp7inrjd1in4p00
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    a0c23958-6624-4c14-af12-bda06aa56a6d:
+      Name: Smithing Template
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k0000c00aorfeln78000000gg002d5i00bbdd5n6aoric5j78ejjcln78sjpbtgn4rbfe9fn8sj9dlfn6rb9ehk6irj7btq6arbgdhgn8p80
+      Commands: []
+      Items:
+      - k0000c00aorfeln78000000gg002d5i00bbdd5n6aoric5j78ejjcln78sjpbtgn4rbfe9fn8sj9dlfn6rb9ehk6irj7btq6arbgdhgn8p80
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    5530abca-46c4-4401-8f7d-38d9563e0770:
+      Name: Saddle
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000k00acdnmqs3fdpimst3j0c010rb9dpim6sj1cpq3kp31dlgmep8000000003002m6rrldpq00000044000j9cg010rb9dpim6sj1cpq3ksr1chi6op80
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j0c010rb9dpim6sj1cpq3kp31dlgmep8000000003002m6rrldpq00000044000j9cg010rb9dpim6sj1cpq3ksr1chi6op80
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    1d06da48-7030-4c81-937e-f91e17017976:
+      Name: Powered Rail
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0005002j3dtmn0rrecln78so30086qqbeclhn4ob6egt68obdc5jma000000000o00lhmutbeeg00000i10004qb400b6qqbeclhn4ob6egt70rrnclp6ap2ve9gmir00
+      Commands: []
+      Items:
+      - 2g0005002j3dtmn0rrecln78so30086qqbeclhn4ob6egt68obdc5jma000000000o00lhmutbeeg00000i10004qb400b6qqbeclhn4ob6egt70rrnclp6ap2ve9gmir00
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    3b52ef80-81fc-49c1-95c1-2d49aa8e0e73:
+      Name: '&aᴡᴀx ᴄᴀɴᴅʟᴇ'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000k00acdnmqs3fdpimst3j1400srb9dpim6sj1cpq3kr3fe9igg00000100kjr49hmur3fe8h3k8j7e9gni8hc49kn8obcd5hi4ej6c5m76p9c49q6au3k48t25odkg0ge3d4ds6q9podkgj59o871mi6u3d4fpa0e3d4743l9pc71mi0cjd71mi2cl3p2fk04eup2cdnmorri48t24pric5si4b12d5q62r39cch3kpj1dhpmab12ehingt1278hcl7u9lb4q5ikss6q9m87ajiou3d4fs6q9pik0s6q89odkgsn24v8800amqqbeclhn4ob6egt66tbjehnmqnrec5mma022fch66rrcdtp24eh2ctp6apbe48m24qbkc5m6iop279j62r3jckm24t35f1q24eh2s6qa3odkg1s21odkgjgr9069mjgr91eajvgr91p2fk5005bdd5n6aoric5j78ej3elpn8rrdbti62t3118014k3lc9m6ioq2ellmmqbkapgmotb5ec4004j6elp6sqbkelp6ar39c8t6qrr4clm002anc5s46obechm6a000001g01b3dtqmst000000620009km800edlkmspb3e9gmct1qc9nmuqo0
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j1400srb9dpim6sj1cpq3kr3fe9igg00000100kjr49hmur3fe8h3k8j7e9gni8hc49kn8obcd5hi4ej6c5m76p9c49q6au3k48t25odkg0ge3d4ds6q9podkgj59o871mi6u3d4fpa0e3d4743l9pc71mi0cjd71mi2cl3p2fk04eup2cdnmorri48t24pric5si4b12d5q62r39cch3kpj1dhpmab12ehingt1278hcl7u9lb4q5ikss6q9m87ajiou3d4fs6q9pik0s6q89odkgsn24v8800amqqbeclhn4ob6egt66tbjehnmqnrec5mma022fch66rrcdtp24eh2ctp6apbe48m24qbkc5m6iop279j62r3jckm24t35f1q24eh2s6qa3odkg1s21odkgjgr9069mjgr91eajvgr91p2fk5005bdd5n6aoric5j78ej3elpn8rrdbti62t3118014k3lc9m6ioq2ellmmqbkapgmotb5ec4004j6elp6sqbkelp6ar39c8t6qrr4clm002anc5s46obechm6a000001g01b3dtqmst000000620009km800edlkmspb3e9gmct1qc9nmuqo0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    338b1a89-dc5f-456d-850c-3c814a457ab6:
+      Name: '&aʟᴀʀɢᴇ ᴛᴀʙʟᴇ'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000k00acdnmqs3fdpimst3j1400srb9dpim6sj1cpq3kr3fe9igg00000100pbr49hmur3fe8h3k8j7e9gni8hc49kn8obcd5hi4ej6c5m76p9c49q6au3k48t25odkg0gel75hs6q9hodkg3gr9169lbgr93v1mieel75h40pngcp0p6hcl7v1mi0el75htaeb2871midu3d40pacsl7v1mi3io8jt01a7m8j3dtm6ush278h6esj1f4h2o8j9ehgmoqb348t6cobcediio8jkcls788hq4b4qlodkgngr91v1mi0cl7p0taeb1odkhv58081k43gr9671mi3u3d4fs6q9hikvs6q8ebh2fk4005bdd5n6aoric5j78ej3elpn8rrdbtn62rb50127m8j3dtm6ush278h6esj5cln24b12d5q62r39cch3kpj1dhpmab12ehingt1278hcl7v1mi0cl069kbgr91p0s6q9nodkg359jikvs6q8e8jt1801arb9dpim6sj1cpq3korledq6uravchgn8o8a00950tb2dhkm6gjlddlmit2mc5m7apbj10014pjle9n6it3le9imoqb279mmup35dg00kj31e9jmal31c9m6a000001g01b3dtqmst000000220009km800edlkmspb3e9gmct1qc9nmuqo0
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j1400srb9dpim6sj1cpq3kr3fe9igg00000100pbr49hmur3fe8h3k8j7e9gni8hc49kn8obcd5hi4ej6c5m76p9c49q6au3k48t25odkg0gel75hs6q9hodkg3gr9169lbgr93v1mieel75h40pngcp0p6hcl7v1mi0el75htaeb2871midu3d40pacsl7v1mi3io8jt01a7m8j3dtm6ush278h6esj1f4h2o8j9ehgmoqb348t6cobcediio8jkcls788hq4b4qlodkgngr91v1mi0cl7p0taeb1odkhv58081k43gr9671mi3u3d4fs6q9hikvs6q8ebh2fk4005bdd5n6aoric5j78ej3elpn8rrdbtn62rb50127m8j3dtm6ush278h6esj5cln24b12d5q62r39cch3kpj1dhpmab12ehingt1278hcl7v1mi0cl069kbgr91p0s6q9nodkg359jikvs6q8e8jt1801arb9dpim6sj1cpq3korledq6uravchgn8o8a00950tb2dhkm6gjlddlmit2mc5m7apbj10014pjle9n6it3le9imoqb279mmup35dg00kj31e9jmal31c9m6a000001g01b3dtqmst000000220009km800edlkmspb3e9gmct1qc9nmuqo0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    5dddf036-c871-4701-9ce3-b989e5b1bf12:
+      Name: '&aᴛᴠ'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000k00acdnmqs3fdpimst3j1400srb9dpim6sj1cpq3kr3fe9igg00000100krr49hmur3fe8h3k8j7e9gni8hc49kn8obcd5hi4ej6c5m76p9c49q6au3k48t25odkg0gel75hp6le3d4ds6q9hikvs6q8e871midu3d505ggcjan1mi2u3d47s6q81ikv49ug0p3r49hmur3fe8h3k8j7e9gni8hc49kn8obcd5hi4ej6c5m76p9c49q6au3k48t25qksm3gr93uag0ge3d4043gr93e9lb4r9idas6q8rodkg359vidataeb3odkjcgcl6f1mi3u3d45pa0e3d4fs6q8vodkhkn24v8800amqqbeclhn4ob6egt66tbjehnmqnrec5mma01gfch66rrcdtp24eh2ctp6apbe48m24qbkc5m6iop279j62r3jckm24t35f1q24eh2s6q9nodkk0h7q2g02lmmirj5cdp62pjk79hnasrkdtmlup31ehggk00ia1qm4r39cd17aqrbd5q5cobcelin620029j7asjed5q7asj5dhkm4ejddti6ar0009a5c000001g01b3dtqmst000000220009km800edlkmspb3e9gmct1qc9nmuqo0
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j1400srb9dpim6sj1cpq3kr3fe9igg00000100krr49hmur3fe8h3k8j7e9gni8hc49kn8obcd5hi4ej6c5m76p9c49q6au3k48t25odkg0gel75hp6le3d4ds6q9hikvs6q8e871midu3d505ggcjan1mi2u3d47s6q81ikv49ug0p3r49hmur3fe8h3k8j7e9gni8hc49kn8obcd5hi4ej6c5m76p9c49q6au3k48t25qksm3gr93uag0ge3d4043gr93e9lb4r9idas6q8rodkg359vidataeb3odkjcgcl6f1mi3u3d45pa0e3d4fs6q8vodkhkn24v8800amqqbeclhn4ob6egt66tbjehnmqnrec5mma01gfch66rrcdtp24eh2ctp6apbe48m24qbkc5m6iop279j62r3jckm24t35f1q24eh2s6q9nodkk0h7q2g02lmmirj5cdp62pjk79hnasrkdtmlup31ehggk00ia1qm4r39cd17aqrbd5q5cobcelin620029j7asjed5q7asj5dhkm4ejddti6ar0009a5c000001g01b3dtqmst000000220009km800edlkmspb3e9gmct1qc9nmuqo0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    5aa82303-1e31-43b0-8f9a-d8efc260d229:
+      Name: '#202E3Esᴜɴɢʟᴀsᴇss '
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k0001800korfdlo6urj5dpq762801pmmirj5cdp62pjk79m6usj51000000201enm8j3dtm6ush278h6esj1f4h2o8j9ehgmoqb348t6cobcediio8jkcls788hq4bgr966ag3gr93v1midu3d47s6q89odkjcgcl3v1mi7u3d4spa077odkgv59vqksm0gel75gpa0e3d4fs6q8q8jt012nm8j3dtm6ush278h6esj1f4h2o8j9ehgmoqb348t6cobcediio8jkcls788hq4bgr96uajjgr91p0efgr9769mgjiesp0pa0e3d40pa7n6812fk4005bdd5n6aoric5j78ej3elpn8rrdbtn62rb50107m8j3dtm6ush278h26chg69ij6p925gh6it31dhkm68hqcpgmosr55gh78pboegh3k8jjs6q9pidkp6hcl7v1mi077odkgtpn6812fk1g06rdd5n6aoric5j78ej3elpn8rrdbtmmup35dhfm8obkc4000009001g01b3dtqmst000000220009km800tdlkmspb3e9gmct1qdhim2t38clp5uq3fe9pmanr1e9mmusg0
+      Commands: []
+      Items:
+      - k0001800korfdlo6urj5dpq762801pmmirj5cdp62pjk79m6usj51000000201enm8j3dtm6ush278h6esj1f4h2o8j9ehgmoqb348t6cobcediio8jkcls788hq4bgr966ag3gr93v1midu3d47s6q89odkjcgcl3v1mi7u3d4spa077odkgv59vqksm0gel75gpa0e3d4fs6q8q8jt012nm8j3dtm6ush278h6esj1f4h2o8j9ehgmoqb348t6cobcediio8jkcls788hq4bgr96uajjgr91p0efgr9769mgjiesp0pa0e3d40pa7n6812fk4005bdd5n6aoric5j78ej3elpn8rrdbtn62rb50107m8j3dtm6ush278h26chg69ij6p925gh6it31dhkm68hqcpgmosr55gh78pboegh3k8jjs6q9pidkp6hcl7v1mi077odkgtpn6812fk1g06rdd5n6aoric5j78ej3elpn8rrdbtmmup35dhfm8obkc4000009001g01b3dtqmst000000220009km800tdlkmspb3e9gmct1qdhim2t38clp5uq3fe9pmanr1e9mmusg0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    08dd08f4-ceee-46d7-9f17-a31266dcb26c:
+      Name: '#251626ᴛᴏᴘ ʙᴏᴀʀᴅ '
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0005002j3dtmn0rrecln78so90076qqbeclhn4ob6egt6orrick4000000405iup2cdnmorri48t24pric5si4b12d5q62r39cch3kpj1dhpmab12ehingt1278he3d4sefgr91p0p6le3d4r43gr96v1mi7i1iksp6le3d45s6q8e86ag3gr906aj759jidas6q9msp049ugg00ldlkmspb3e9gmct1qcdqn6t3fdlfmsobdck048up2cdnmorri48t248pi6kojcchm48m24qbkc5m6iop279j62r3jckm24t35f1q24eh2s6q9nodkhvgr9610pacu3d4fs6q81ik0s6q8a812fk1g06rdd5n6aoric5j78ej3elpn8rrdbtmmup35dhfm8obkc400000d001g01b3dtqmst000000220009km800tdlkmspb3e9gmct1qdhim2t38clp5uq3fe9pmanr1e9mmusg0
+      Commands: []
+      Items:
+      - 2g0005002j3dtmn0rrecln78so90076qqbeclhn4ob6egt6orrick4000000405iup2cdnmorri48t24pric5si4b12d5q62r39cch3kpj1dhpmab12ehingt1278he3d4sefgr91p0p6le3d4r43gr96v1mi7i1iksp6le3d45s6q8e86ag3gr906aj759jidas6q9msp049ugg00ldlkmspb3e9gmct1qcdqn6t3fdlfmsobdck048up2cdnmorri48t248pi6kojcchm48m24qbkc5m6iop279j62r3jckm24t35f1q24eh2s6q9nodkhvgr9610pacu3d4fs6q81ik0s6q8a812fk1g06rdd5n6aoric5j78ej3elpn8rrdbtmmup35dhfm8obkc400000d001g01b3dtqmst000000220009km800tdlkmspb3e9gmct1qdhim2t38clp5uq3fe9pmanr1e9mmusg0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    0f776642-58a2-4331-8112-11c51e68c789:
+      Name: Enchanting Table
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000k00acdnmqs3fdpimst3j0c010rb9dpim6sj1cpq3kp31dlgmep8000000003002m6rrldpq00000044000j9cg01krb9dpim6sj1cpq3kpbecdk62rjkd5n6enrkc5h6op80
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j0c010rb9dpim6sj1cpq3kp31dlgmep8000000003002m6rrldpq00000044000j9cg01krb9dpim6sj1cpq3kpbecdk62rjkd5n6enrkc5h6op80
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    7f487f49-07e4-444b-90c2-15b4ead1e50f:
+      Name: Anvil
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 180002g019hmurbgdtn6arjkec1g043dd5n6aoric5j78ej4c5mm2pr5000000000c00aorfeln78000000gg002d5i003rdd5n6aoric5j78ej1dpr6ir00
+      Commands: []
+      Items:
+      - 180002g019hmurbgdtn6arjkec1g043dd5n6aoric5j78ej4c5mm2pr5000000000c00aorfeln78000000gg002d5i003rdd5n6aoric5j78ej1dpr6ir00
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    5fd844be-ac76-4a0d-93cd-139099d96b65:
+      Name: Redstone Lamp
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k0001800korfdlo6urj5dpq760o021mmirj5cdp62pjk79i62rb1ctig000000006005cdnnarjk000003080016ip002tmmirj5cdp62pjk79p6ap3jehnmspavdhgmqs00
+      Commands: []
+      Items:
+      - k0001800korfdlo6urj5dpq760o021mmirj5cdp62pjk79i62rb1ctig000000006005cdnnarjk000003080016ip002tmmirj5cdp62pjk79p6ap3jehnmspavdhgmqs00
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    c0b09296-79fe-4f5e-93af-4d6e846d6578:
+      Name: TNT
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k0001800korfdlo6urj5dpq760o021mmirj5cdp62pjk79i62rb1ctig000000006005cdnnarjk000001080016ip001lmmirj5cdp62pjk79q6st00
+      Commands: []
+      Items:
+      - k0001800korfdlo6urj5dpq760o021mmirj5cdp62pjk79i62rb1ctig000000006005cdnnarjk000001080016ip001lmmirj5cdp62pjk79q6st00
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    a0965b13-fad5-4df2-9c56-5373da82d2a0:
+      Name: '&f'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0005002j3dtmn0rrecln78so90076qqbeclhn4ob6egt6orrick4000000g0bsup2cls78sj148t5mup2c9nmop1279j62r3jckm24orfdhnn48hq49jn4obp48m24qbkc5m6iop279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jkcls788hq4b4qlodkjcge3d44s6q81idk4359jodkgsge3d4staeb3odkgvgr9190s6q9nodkhsge3d47p6qe3d4rs6q8fik048m24tbechin4r39dpim88hqcpgmosr5fleio8jkcls788hq48h7q05tfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12cdnmorri48t24pric5si4b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t25odkjf59podkgsge3d47s6q81qksm758u871mi2u3d4sp6qcj8n1mi3u3d4fp6q21odkg3581odkgv4r9odkg0h2o8jldpi6asjcd5n6ap1279j62r3jclulqb12ehingt1278h24v8008h2405tfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12cdnmorri48t24p31e9llupric5si4b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t25id2p6le3d50s6q8e871midsl769l9pi1odkhfgr91uahsge3d4rs6q8u871midsl76ahv581odkg0h2o8jldpi6asjcd5n6ap1279j62r3jclulqb12ehingt1278h24v8800amqqbeclhn4ob6egt66tbjehnmqnrec5mma04cfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8nek2si4b12eln68pbidhkmspb448t6cobcedinqn9c49q6au3k48t248jt0c01mrb9dpim6sj1cpq3korledq6uravdlnm8pbcbti62t31000014800c00aorfeln78000000gg002d5i003rdd5n6aoric5j78ejjehkm6qo0
+      Commands: []
+      Items:
+      - 2g0005002j3dtmn0rrecln78so90076qqbeclhn4ob6egt6orrick4000000g0bsup2cls78sj148t5mup2c9nmop1279j62r3jckm24orfdhnn48hq49jn4obp48m24qbkc5m6iop279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jkcls788hq4b4qlodkjcge3d44s6q81idk4359jodkgsge3d4staeb3odkgvgr9190s6q9nodkhsge3d47p6qe3d4rs6q8fik048m24tbechin4r39dpim88hqcpgmosr5fleio8jkcls788hq48h7q05tfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12cdnmorri48t24pric5si4b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t25odkjf59podkgsge3d47s6q81qksm758u871mi2u3d4sp6qcj8n1mi3u3d4fp6q21odkg3581odkgv4r9odkg0h2o8jldpi6asjcd5n6ap1279j62r3jclulqb12ehingt1278h24v8008h2405tfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12cdnmorri48t24p31e9llupric5si4b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t25id2p6le3d50s6q8e871midsl769l9pi1odkhfgr91uahsge3d4rs6q8u871midsl76ahv581odkg0h2o8jldpi6asjcd5n6ap1279j62r3jclulqb12ehingt1278h24v8800amqqbeclhn4ob6egt66tbjehnmqnrec5mma04cfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8nek2si4b12eln68pbidhkmspb448t6cobcedinqn9c49q6au3k48t248jt0c01mrb9dpim6sj1cpq3korledq6uravdlnm8pbcbti62t31000014800c00aorfeln78000000gg002d5i003rdd5n6aoric5j78ejjehkm6qo0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    30a17a6a-b318-47bc-967b-f61a8d257f84:
+      Name: '&f'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k0001800korfdlo6urj5dpq762801pmmirj5cdp62pjk79m6usj51000000402v7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh66rrcdtp24eh2ctp62u925gh6it31dhkm68hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24t35f1q24eh2p6le3d4r43gr9171mi0cjd10pacu3d4743gr977ajiou3d47s6q8a871midu3d4f43gr91u9mjgr96v1mi3sl0125gh7arj4clp6oqbecli24ej6c5m76pbtbkm24t35f1q24eh249ug1grr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j3dtm6ush278h6esj1f4h2o8j9ehgmoqb348t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12ehingt1278he3d4rpaee3d4743gr93f1mi3u3d45p6le3d4ss6q8q871mi2u3d4sp6qcj8n1mi3u3d4fp6q21odkg3581odkgv4r9odkg0h2o8jldpi6asjcd5n6ap1279j62r3jclulqb12ehingt1278h24v8008h2405tfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12cdnmorri48t24p31e9llupric5si4b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t25id2p6le3d50s6q8e871midsl769l9pi1odkhfgr91uahsge3d4rs6q8u871midsl76ahv581odkg0h2o8jldpi6asjcd5n6ap1279j62r3jclulqb12ehingt1278h24v8800amqqbeclhn4ob6egt66tbjehnmqnrec5mma04cfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8nek2t24b12eln68pbidhkmspb448t6cobcedinqn9c49q6au3k48t248jt0c01mrb9dpim6sj1cpq3korledq6uravdlnm8pbcbti62t31000014g00c00aorfeln78000000gg002d5i003rdd5n6aoric5j78ejjehkm6qo0
+      Commands: []
+      Items:
+      - k0001800korfdlo6urj5dpq762801pmmirj5cdp62pjk79m6usj51000000402v7m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh66rrcdtp24eh2ctp62u925gh6it31dhkm68hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24t35f1q24eh2p6le3d4r43gr9171mi0cjd10pacu3d4743gr977ajiou3d47s6q8a871midu3d4f43gr91u9mjgr96v1mi3sl0125gh7arj4clp6oqbecli24ej6c5m76pbtbkm24t35f1q24eh249ug1grr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j3dtm6ush278h6esj1f4h2o8j9ehgmoqb348t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12ehingt1278he3d4rpaee3d4743gr93f1mi3u3d45p6le3d4ss6q8q871mi2u3d4sp6qcj8n1mi3u3d4fp6q21odkg3581odkgv4r9odkg0h2o8jldpi6asjcd5n6ap1279j62r3jclulqb12ehingt1278h24v8008h2405tfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12cdnmorri48t24p31e9llupric5si4b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t25id2p6le3d50s6q8e871midsl769l9pi1odkhfgr91uahsge3d4rs6q8u871midsl76ahv581odkg0h2o8jldpi6asjcd5n6ap1279j62r3jclulqb12ehingt1278h24v8800amqqbeclhn4ob6egt66tbjehnmqnrec5mma04cfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8nek2t24b12eln68pbidhkmspb448t6cobcedinqn9c49q6au3k48t248jt0c01mrb9dpim6sj1cpq3korledq6uravdlnm8pbcbti62t31000014g00c00aorfeln78000000gg002d5i003rdd5n6aoric5j78ejjehkm6qo0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    998568dc-cb88-4cfb-9911-f479e2e4937a:
+      Name: '&f'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: a0000k00acdnmqs3fdpimst3j1400srb9dpim6sj1cpq3kr3fe9igg00000201fjr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j3dtm6ush278h6esj1f4h2o8j9ehgmoqb348t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12ehingt1278hcjan1midi1odkgjgr9069mggcl6f1mi3i1odkjjl9pcf1mi3u3d4543gr96v1mi7i1odkgv4r9odkjfgr91uag0h2o8jldpi6asjcd5n6ap1279j62r3jclulqb12ehingt1278h24v80nhti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49hmur3fe8h3k8j7e9gni8hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8n1midsl771mi3i1ikss6q81ik0s6q8a871mi2u3d4sp6qcj8n1mi3u3d4fp6q21odkg3581odkgv4r9odkg0h2o8jldpi6asjcd5n6ap1279j62r3jclulqb12ehingt1278h24v8008h2405tfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12cdnmorri48t24p31e9llupric5si4b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t25id2p6le3d50s6q8e871midsl769l9pi1odkhfgr91uahsge3d4rs6q8u871midsl76ahv581odkg0h2o8jldpi6asjcd5n6ap1279j62r3jclulqb12ehingt1278h24v8800amqqbeclhn4ob6egt66tbjehnmqnrec5mma04cfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8nek2ti4b12eln68pbidhkmspb448t6cobcedinqn9c49q6au3k48t248jt0c01mrb9dpim6sj1cpq3korledq6uravdlnm8pbcbti62t31000014o00c00aorfeln78000000gg002d5i003rdd5n6aoric5j78ejjehkm6qo0
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j1400srb9dpim6sj1cpq3kr3fe9igg00000201fjr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j3dtm6ush278h6esj1f4h2o8j9ehgmoqb348t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12ehingt1278hcjan1midi1odkgjgr9069mggcl6f1mi3i1odkjjl9pcf1mi3u3d4543gr96v1mi7i1odkgv4r9odkjfgr91uag0h2o8jldpi6asjcd5n6ap1279j62r3jclulqb12ehingt1278h24v80nhti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49hmur3fe8h3k8j7e9gni8hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8n1midsl771mi3i1ikss6q81ik0s6q8a871mi2u3d4sp6qcj8n1mi3u3d4fp6q21odkg3581odkgv4r9odkg0h2o8jldpi6asjcd5n6ap1279j62r3jclulqb12ehingt1278h24v8008h2405tfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12cdnmorri48t24p31e9llupric5si4b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t25id2p6le3d50s6q8e871midsl769l9pi1odkhfgr91uahsge3d4rs6q8u871midsl76ahv581odkg0h2o8jldpi6asjcd5n6ap1279j62r3jclulqb12ehingt1278h24v8800amqqbeclhn4ob6egt66tbjehnmqnrec5mma04cfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12cdnmorri48t24tr8d5q6a8hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8nek2ti4b12eln68pbidhkmspb448t6cobcedinqn9c49q6au3k48t248jt0c01mrb9dpim6sj1cpq3korledq6uravdlnm8pbcbti62t31000014o00c00aorfeln78000000gg002d5i003rdd5n6aoric5j78ejjehkm6qo0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    6c303a27-6736-4ad9-8370-cdbb6873355c:
+      Name: '&f'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 2g0005002j3dtmn0rrecln78so90076qqbeclhn4ob6egt6orrick4000000g05uup2cls78sj148t5mup2cdnmorri48t24pric5si4b12d5q62r39cch3kpj1dhpmab12ehingt1278he3d4sefgr91p0s6q9niksp6l76871mi5u3d47pa7i1odkg3gr96p2fleio8jkcls788hq48h7q02rfch6au3ke9gi4eirfch66rrcdtp24eh2ctp62u925gh6it31dhkm68hqcpgmosr55gh78pboegh3k8hfs6qa3odkg3581odkj0ge3d44pa0e3d40s6q9nodkgtpi4vat5gh78pboegh3k8h2fk0048h201fnm8j5f1q74o9279dnm8j3dtm6ush278h68obiddfmesj1f4h2o8j9ehgmoqb348t6cobcediio8jkcls788hq4bgr91f1mi0cjamajv58u871mi2cl071mi0e3d4rs6q8e8jtbkm24t35f1q24eh249ugg00ldlkmspb3e9gmct1qcdqn6t3fdlfmsobdck046up2cls78sj148t5mup2cdnmorri48t24tr8d5q6a8hc49kn8obcd5hi4ej6c5m76p9c49q6au3k48t25rl1ggh7qn9c49q6au3k48t248jt0c01mrb9dpim6sj1cpq3korledq6uravdlnm8pbcbti62t310000138a00amqqbeclhn4ob6egt66tbjehnmqnr4c5q622g02987aojcd5hk4tbbddkn8lj1dhqmaso800e6au33clm6opbeehhn4obkclpjkoric5q6anrbclsisqb4002m8ob9dhsg00000c00aorfeln780000010g002d5i003rdd5n6aoric5j78ejjehkm6qo0
+      Commands: []
+      Items:
+      - 2g0005002j3dtmn0rrecln78so90076qqbeclhn4ob6egt6orrick4000000g05uup2cls78sj148t5mup2cdnmorri48t24pric5si4b12d5q62r39cch3kpj1dhpmab12ehingt1278he3d4sefgr91p0s6q9niksp6l76871mi5u3d47pa7i1odkg3gr96p2fleio8jkcls788hq48h7q02rfch6au3ke9gi4eirfch66rrcdtp24eh2ctp62u925gh6it31dhkm68hqcpgmosr55gh78pboegh3k8hfs6qa3odkg3581odkj0ge3d44pa0e3d40s6q9nodkgtpi4vat5gh78pboegh3k8h2fk0048h201fnm8j5f1q74o9279dnm8j3dtm6ush278h68obiddfmesj1f4h2o8j9ehgmoqb348t6cobcediio8jkcls788hq4bgr91f1mi0cjamajv58u871mi2cl071mi0e3d4rs6q8e8jtbkm24t35f1q24eh249ugg00ldlkmspb3e9gmct1qcdqn6t3fdlfmsobdck046up2cls78sj148t5mup2cdnmorri48t24tr8d5q6a8hc49kn8obcd5hi4ej6c5m76p9c49q6au3k48t25rl1ggh7qn9c49q6au3k48t248jt0c01mrb9dpim6sj1cpq3korledq6uravdlnm8pbcbti62t310000138a00amqqbeclhn4ob6egt66tbjehnmqnr4c5q622g02987aojcd5hk4tbbddkn8lj1dhqmaso800e6au33clm6opbeehhn4obkclpjkoric5q6anrbclsisqb4002m8ob9dhsg00000c00aorfeln780000010g002d5i003rdd5n6aoric5j78ejjehkm6qo0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    808973e2-5c0e-449a-80e4-2a908b4a61a5:
+      Name: '&f'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 180002g019hmurbgdtn6arjkec4g03jdd5n6aoric5j78ejcdtp6a2000000802vfch6au3ke9gi4eirfch66rrcdtp24eh2ctp62u925gh6it31dhkm68hqcpgmosr55gh78pboegh3k8n1mie77odkgsge3d4rpaecjajj43gr92v1mi3sl3p0s6q81odkjch7qn9c49q6au3k48t248jt01dnm8j5f1q74o9279dnm8j3dtm6ush278h6esj1f4h2o8j9ehgmoqb348t6cobcediio8jkcls788hq48nu3d51s6q81ik0s6q9g871mi2cl071mi0e3d4rs6q8esp2fleio8jkcls788hq48h7q00248h00q3r49ingt3ic4h3kmrr49hmur3fe8h3k8j4c5p6mnr7e9gni8hc49kn8obcd5hi4ej6c5m76p9c49q6au3k48t25odkgn4qlodkk3gr91uag1psjan1midsl3p0s6q89ik0s6q81odkjfgr91p2fleio8jkcls788hq48h7q2002lmmirj5cdp62pjk79hnasrkdtmlurj1dlig0grr49ingt3ic4h3kmrr49hmur3fe8h3k8jnd1kn8p925gh6it31dhkm68hqcpgmosr55gh78pboegh3k8nek6324vat5gh78pboegh3k8h2fk1g06rdd5n6aoric5j78ej3elpn8rrdbtmmup35dhfm8obkc400004f1801arb9dpim6sj1cpq3korledq6uravchgn8o8a00950tb2dhkm6gjlddlmit2mc5m7apbj1001opbocdimor35dpq66sj1ehin6ej3e9gn8pavddinibj9cg00ip39epin4sr9ehsg00000c00aorfeln78000000gg002d5i003rdd5n6aoric5j78ejjehkm6qo0
+      Commands: []
+      Items:
+      - 180002g019hmurbgdtn6arjkec4g03jdd5n6aoric5j78ejcdtp6a2000000802vfch6au3ke9gi4eirfch66rrcdtp24eh2ctp62u925gh6it31dhkm68hqcpgmosr55gh78pboegh3k8n1mie77odkgsge3d4rpaecjajj43gr92v1mi3sl3p0s6q81odkjch7qn9c49q6au3k48t248jt01dnm8j5f1q74o9279dnm8j3dtm6ush278h6esj1f4h2o8j9ehgmoqb348t6cobcediio8jkcls788hq48nu3d51s6q81ik0s6q9g871mi2cl071mi0e3d4rs6q8esp2fleio8jkcls788hq48h7q00248h00q3r49ingt3ic4h3kmrr49hmur3fe8h3k8j4c5p6mnr7e9gni8hc49kn8obcd5hi4ej6c5m76p9c49q6au3k48t25odkgn4qlodkk3gr91uag1psjan1midsl3p0s6q89ik0s6q81odkjfgr91p2fleio8jkcls788hq48h7q2002lmmirj5cdp62pjk79hnasrkdtmlurj1dlig0grr49ingt3ic4h3kmrr49hmur3fe8h3k8jnd1kn8p925gh6it31dhkm68hqcpgmosr55gh78pboegh3k8nek6324vat5gh78pboegh3k8h2fk1g06rdd5n6aoric5j78ej3elpn8rrdbtmmup35dhfm8obkc400004f1801arb9dpim6sj1cpq3korledq6uravchgn8o8a00950tb2dhkm6gjlddlmit2mc5m7apbj1001opbocdimor35dpq66sj1ehin6ej3e9gn8pavddinibj9cg00ip39epin4sr9ehsg00000c00aorfeln78000000gg002d5i003rdd5n6aoric5j78ejjehkm6qo0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    50e4b89d-53aa-457d-ab12-6b025214dea9:
+      Name: '&aʙᴀᴄᴋᴘᴀᴄᴋ ᴛɪᴇʀ ɪɪ'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 180002g019hmurbgdtn6arjkec4g03jdd5n6aoric5j78ejcdtp6a2000000e04vfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12cdnmorri48t24p31e9llupric5si4b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t25qksm759vodkhvgr96vajiojk81h70h2o8jldpi6asjcd5n6ap1279j62r3jclulqb12ehingt1278h24v8008h2404mfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12cdnmorri48t24obhelgi4b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t25idas6q9nodkgvgr93fajioi4b12eln68pbidhkmspb448t6cobcedinqn9c49q6au3k48t248jt04fnm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh66rrcdtp24eh2ctp6apbe48m24qbkc5m6iop279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jkcls788hq48g20cbo40h2o8jldpi6asjcd5n6ap1279j62r3jcluioup2c9nmop1279q74tb55gh66rrcdtp24eh24d2k2h1p6coi4b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t24k6ag3gr91v1migcjan1mi3u3d51414u3d4rs6q8fodkhkh2o8jldpi6asjcd5n6ap1279j62r3jclulqb12ehingt1278h24v8008h2400248h01pbr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j3dtm6ush278h7eq39ehii4b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t25rkckcg24b12eln68pbidhkmspb448t6cobcedinqb3r49hmur3fe8h3k8jpclm6orrn48m24qbkc5m6iop279j62r3jckm24t35f1q24eh2pa0cjam9kb59podkjcge3d44pafsjan1mi2e3d4b43gr96v1mi7i1odkhvgr9671mi3sjd12fleio8jkcls788hq48h7q2002lmmirj5cdp62pjk79hnasrkdtmlurj1dlig1c3r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j3dtm6ush278h6esj5cln24b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t25ikps6q81odkgjgr92v1mice3d40s6q89odkhcge3d4rp6le3d47pa021idap6l24b12eln68pbidhkmspb448t6cobcedinqn9c49q6au3k48t248jt0c01mrb9dpim6sj1cpq3korledq6uravdlnm8pbcbti62t3100000p8a00amqqbeclhn4ob6egt66tbjehnmqnr4c5q622g02987aojcd5hk4tbbddkn8lj1dhqmaso700g68sj5c5mm4ob3ddo62orbect64ob3ddo62orbbthmurjkcln78so0004ti9pg4st0k8107kujk83fe9jisojlddlmit1ed5n7cpbeehnn4u9e95q6arajehgm6qoa40g7ceh06csjacoa40g78ubgckt20hifb1fl6k21at75uha78s52083dclq62ega40g2081t7kt20ibkclmkqpbkc452081041mmat315lq7is3578g56k21at75uha78s52081041i6isrgdhgnibbec5mmaeh04tti4t35f1q24eh248m24pboehp628hqbdti4t35f1q24eh2a1p6atj9clri0ibkclmi4b12dth6ctbjcdgn8pb448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12cdnmorri48t248q58523icph48m24ojfdhi24ejke9qmavatfkjgk81040g6orrickt0k81040g2q817fch78pboegh3k8h25gh6au3ke9gi4eirfch78pboegh3k8imd5pnaobc41p6atr1e9i208hc49nm4pjledhm2t35cgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49hmur3fe8h3k8h3850k2e2170h2o8j2dtm688hqcpgmosr5fkm7m8jkcls788hq49p6as3iclpmarjkc5q6irre48m24rr2cpqn6or1ehim88hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24orfdhnn48hq48hkae26693348hc49h6ur3448t6cobcedinqb3r49q6au3k48t242h040g20810cpnn48hc49nm4pjledhm2t35cgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49hmur3fe8h3k8h3850k2e2170h2o8j2dtm688hqcpgmosr5flenq9oa40g2081d40jnm8jkcls788hq48h2o8j5f1q74o9279dnm8jkcls788hq49o74pbmd5ine831dpi20rrgcln6irj7413laibj5oh2o8jfc9j7asr3c5q6ap1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8j3dtm6ush278h26ga184s42e125gh64rrccgh3kpj1dhpmavatfkjgk81040g2q81748h2e2h040g20b904tti4t35f1q24eh248m24pboehp628hqbdti4t35f1q24eh2bcglq8hc49nm4pjledhm2t35cgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49hmur3fe8h3k8h38l0j6c9j64h2o8j2dtm688hqcpgmosr5fkm7m8jkcls788hq4852081040g20ibk41k62sp048m24rr2cpqn6or1ehim88hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24orfdhnn48hq48hk2ga1710jg8hc49h6ur3448t6cobcedinqb3r49q6au3k48t24rjfehk6irj748m24rr2cpqn6or1ehim88hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24orfdhnn48hq48hkag9j64pj28hc49h6ur3448t6cobcedinqb3r49q6au3k48t242h040g20810ehni0tr8c5q24b12dth6ctbjcdgn8pb448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12cdnmorri48t248q1850jgg9o48m24ojfdhi24ej6c5m76pbtbluie2h040g20b904tti4t35f1q24eh248m24pboehp628hqbdti4t35f1q24eh2e1m62ub5e9pi0pr5egg6csjfdkg78q39ecg74pbnc5p68bh25gh6uoj6elpm6obkcli24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh66rrcdtp24eh24d0k2g9o84s24b12c9nmop1279j62r3jclulqv9718g208105kg2e8h24s52081040mi09rr49q6au3k48t248hc49ingt3ic4h3kmrr49q6au3k48t24a125gh6uoj6elpm6obkcli24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh66rrcdtp24eh24d0k2g9o84s24b12c9nmop1279j62r3jcluioup2ehingt1278h48sj1cs52081040g209h08hp6us125gh6uoj6elpm6obkcli24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh66rrcdtp24eh24d2jghhi8op24b12c9nmop1279j62r3jcluioup2ehingt1278h0k81040g2083kdsg74pbgdhgm6p9948m24rr2cpqn6or1ehim88hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24orfdhnn48hq48hk2ga1710jg8hc49h6ur3448t6cobcedinqnbt4s52081040mi09rr49q6au3k48t248hc49ingt3ic4h3kmrr49q6au3k48t24a125gh6uoj6elpm6obkcli24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh66rrcdtp24eh24d0k2g9o84s24b12c9nmop1279j62r3jcluioup2ehingt1278h54qb7d1q2qgrcd5hmm8hc49nm4pjledhm2t35cgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49hmur3fe8h3k8h38ks4cci668h2o8j2dtm688hqcpgmosr5fkm7m8jkcls788hq4852081040g20t3f41jmat10c4g66rrgf4ki4b12dth6ctbjcdgn8pb448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12cdnmorri48t248q1850jgg9o48m24ojfdhi24ej6c5m76pbtbluie2h040g20ibkclmkcr31ctpjk2h040g20b90914k8hav85248iak957ksgacbta4ujqcah4l02g800d68sj5c5mm4ob3ddo62orbect64ob3ddo62orbbtkm80146dh62cb5ccp3ib9kcks6ab9k6sr68bb26op3cb9h6dh62dpg74p68cj66k400734e9im2rb2c5hmms31cdln6ej2c5hmms31cdlluqbkclmg02a2c5hmms31cdlj4000001g01b3dtqmst000000220009km800tdlkmspb3e9gmct1qdhim2t38clp5uq3fe9pmanr1e9mmusg0
+      Commands: []
+      Items:
+      - 180002g019hmurbgdtn6arjkec4g03jdd5n6aoric5j78ejcdtp6a2000000e04vfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12cdnmorri48t24p31e9llupric5si4b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t25qksm759vodkhvgr96vajiojk81h70h2o8jldpi6asjcd5n6ap1279j62r3jclulqb12ehingt1278h24v8008h2404mfch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12cdnmorri48t24obhelgi4b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t25idas6q9nodkgvgr93fajioi4b12eln68pbidhkmspb448t6cobcedinqn9c49q6au3k48t248jt04fnm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh66rrcdtp24eh2ctp6apbe48m24qbkc5m6iop279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jkcls788hq48g20cbo40h2o8jldpi6asjcd5n6ap1279j62r3jcluioup2c9nmop1279q74tb55gh66rrcdtp24eh24d2k2h1p6coi4b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t24k6ag3gr91v1migcjan1mi3u3d51414u3d4rs6q8fodkhkh2o8jldpi6asjcd5n6ap1279j62r3jclulqb12ehingt1278h24v8008h2400248h01pbr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j3dtm6ush278h7eq39ehii4b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t25rkckcg24b12eln68pbidhkmspb448t6cobcedinqb3r49hmur3fe8h3k8jpclm6orrn48m24qbkc5m6iop279j62r3jckm24t35f1q24eh2pa0cjam9kb59podkjcge3d44pafsjan1mi2e3d4b43gr96v1mi7i1odkhvgr9671mi3sjd12fleio8jkcls788hq48h7q2002lmmirj5cdp62pjk79hnasrkdtmlurj1dlig1c3r49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j3dtm6ush278h6esj5cln24b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t25ikps6q81odkgjgr92v1mice3d40s6q89odkhcge3d4rp6le3d47pa021idap6l24b12eln68pbidhkmspb448t6cobcedinqn9c49q6au3k48t248jt0c01mrb9dpim6sj1cpq3korledq6uravdlnm8pbcbti62t3100000p8a00amqqbeclhn4ob6egt66tbjehnmqnr4c5q622g02987aojcd5hk4tbbddkn8lj1dhqmaso700g68sj5c5mm4ob3ddo62orbect64ob3ddo62orbbthmurjkcln78so0004ti9pg4st0k8107kujk83fe9jisojlddlmit1ed5n7cpbeehnn4u9e95q6arajehgm6qoa40g7ceh06csjacoa40g78ubgckt20hifb1fl6k21at75uha78s52083dclq62ega40g2081t7kt20ibkclmkqpbkc452081041mmat315lq7is3578g56k21at75uha78s52081041i6isrgdhgnibbec5mmaeh04tti4t35f1q24eh248m24pboehp628hqbdti4t35f1q24eh2a1p6atj9clri0ibkclmi4b12dth6ctbjcdgn8pb448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12cdnmorri48t248q58523icph48m24ojfdhi24ejke9qmavatfkjgk81040g6orrickt0k81040g2q817fch78pboegh3k8h25gh6au3ke9gi4eirfch78pboegh3k8imd5pnaobc41p6atr1e9i208hc49nm4pjledhm2t35cgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49hmur3fe8h3k8h3850k2e2170h2o8j2dtm688hqcpgmosr5fkm7m8jkcls788hq49p6as3iclpmarjkc5q6irre48m24rr2cpqn6or1ehim88hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24orfdhnn48hq48hkae26693348hc49h6ur3448t6cobcedinqb3r49q6au3k48t242h040g20810cpnn48hc49nm4pjledhm2t35cgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49hmur3fe8h3k8h3850k2e2170h2o8j2dtm688hqcpgmosr5flenq9oa40g2081d40jnm8jkcls788hq48h2o8j5f1q74o9279dnm8jkcls788hq49o74pbmd5ine831dpi20rrgcln6irj7413laibj5oh2o8jfc9j7asr3c5q6ap1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8j3dtm6ush278h26ga184s42e125gh64rrccgh3kpj1dhpmavatfkjgk81040g2q81748h2e2h040g20b904tti4t35f1q24eh248m24pboehp628hqbdti4t35f1q24eh2bcglq8hc49nm4pjledhm2t35cgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49hmur3fe8h3k8h38l0j6c9j64h2o8j2dtm688hqcpgmosr5fkm7m8jkcls788hq4852081040g20ibk41k62sp048m24rr2cpqn6or1ehim88hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24orfdhnn48hq48hk2ga1710jg8hc49h6ur3448t6cobcedinqb3r49q6au3k48t24rjfehk6irj748m24rr2cpqn6or1ehim88hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24orfdhnn48hq48hkag9j64pj28hc49h6ur3448t6cobcedinqb3r49q6au3k48t242h040g20810ehni0tr8c5q24b12dth6ctbjcdgn8pb448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12cdnmorri48t248q1850jgg9o48m24ojfdhi24ej6c5m76pbtbluie2h040g20b904tti4t35f1q24eh248m24pboehp628hqbdti4t35f1q24eh2e1m62ub5e9pi0pr5egg6csjfdkg78q39ecg74pbnc5p68bh25gh6uoj6elpm6obkcli24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh66rrcdtp24eh24d0k2g9o84s24b12c9nmop1279j62r3jclulqv9718g208105kg2e8h24s52081040mi09rr49q6au3k48t248hc49ingt3ic4h3kmrr49q6au3k48t24a125gh6uoj6elpm6obkcli24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh66rrcdtp24eh24d0k2g9o84s24b12c9nmop1279j62r3jcluioup2ehingt1278h48sj1cs52081040g209h08hp6us125gh6uoj6elpm6obkcli24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh66rrcdtp24eh24d2jghhi8op24b12c9nmop1279j62r3jcluioup2ehingt1278h0k81040g2083kdsg74pbgdhgm6p9948m24rr2cpqn6or1ehim88hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24orfdhnn48hq48hk2ga1710jg8hc49h6ur3448t6cobcedinqnbt4s52081040mi09rr49q6au3k48t248hc49ingt3ic4h3kmrr49q6au3k48t24a125gh6uoj6elpm6obkcli24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh66rrcdtp24eh24d0k2g9o84s24b12c9nmop1279j62r3jcluioup2ehingt1278h54qb7d1q2qgrcd5hmm8hc49nm4pjledhm2t35cgh3kpj1dhpmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49hmur3fe8h3k8h38ks4cci668h2o8j2dtm688hqcpgmosr5fkm7m8jkcls788hq4852081040g20t3f41jmat10c4g66rrgf4ki4b12dth6ctbjcdgn8pb448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12cdnmorri48t248q1850jgg9o48m24ojfdhi24ej6c5m76pbtbluie2h040g20ibkclmkcr31ctpjk2h040g20b90914k8hav85248iak957ksgacbta4ujqcah4l02g800d68sj5c5mm4ob3ddo62orbect64ob3ddo62orbbtkm80146dh62cb5ccp3ib9kcks6ab9k6sr68bb26op3cb9h6dh62dpg74p68cj66k400734e9im2rb2c5hmms31cdln6ej2c5hmms31cdlluqbkclmg02a2c5hmms31cdlj4000001g01b3dtqmst000000220009km800tdlkmspb3e9gmct1qdhim2t38clp5uq3fe9pmanr1e9mmusg0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    b24c68e4-3c7b-4ea0-8d8c-670a7f80603c:
+      Name: Bucket of Salmon
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: k0001800korfdlo6urj5dpq760o021mmirj5cdp62pjk79i62rb1ctig000000006005cdnnarjk000000880016ip002tmmirj5cdp62pjk79pm2r3ddtn5uojlcdlmat00
+      Commands: []
+      Items:
+      - k0001800korfdlo6urj5dpq760o021mmirj5cdp62pjk79i62rb1ctig000000006005cdnnarjk000000880016ip002tmmirj5cdp62pjk79pm2r3ddtn5uojlcdlmat00
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    fcfa51f1-8efc-4326-85ae-c1c2466c0f0f:
+      Name: Turtle Spawn Egg
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 500003002m6rrldpq00000044000j9cg01krb9dpim6sj1cpq3kt3le9q6opavedo62trebtimepo0
+      Commands: []
+      Items:
+      - 500003002m6rrldpq00000044000j9cg01krb9dpim6sj1cpq3kt3le9q6opavedo62trebtimepo0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+    2c7920b2-3b4c-40fa-bab6-163cb76da810:
+      Name: '&dꜱᴘᴀᴡɴᴇʀ'
+      Chance: 25.0
+      Rarity: common
+      Broadcast: false
+      Preview: 180002g019hmurbgdtn6arjkec4g03jdd5n6aoric5j78ejcdtp6a2000000204ffch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12cdnmorri48t24ub5dhm6utp25gh6it31dhkm68hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24t35f1q24eh2adm6irb548m24tbechin4r39dpim88hqcpgmosr5fleio8jkcls788hq48h7q2002lmmirj5cdp62pjk79hnasrkdtmlurj1dlig18rr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j3dtm6ush278h6oqb7d1q5us3le9o6op925gh6it31dhkm68hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24t35f1q24eh2taeb3odkj3gr9071migsjd71mi3sl0125gh7arj4clp6oqbecli24ej6c5m76pbtbkm24t35f1q24eh249ug00o00lhmutbeeg00000110004qb4008mqqbeclhn4ob6egt76s31etn6asg0
+      Commands: []
+      Items:
+      - 180002g019hmurbgdtn6arjkec4g03jdd5n6aoric5j78ejcdtp6a2000000204ffch6au3ke9gi4eirfch64rrccgh3kpj1dhpmab12cdnmorri48t24ub5dhm6utp25gh6it31dhkm68hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24t35f1q24eh2adm6irb548m24tbechin4r39dpim88hqcpgmosr5fleio8jkcls788hq48h7q2002lmmirj5cdp62pjk79hnasrkdtmlurj1dlig18rr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j3dtm6ush278h6oqb7d1q5us3le9o6op925gh6it31dhkm68hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24t35f1q24eh2taeb3odkj3gr9071migsjd71mi3sl0125gh7arj4clp6oqbecli24ej6c5m76pbtbkm24t35f1q24eh249ug00o00lhmutbeeg00000110004qb4008mqqbeclhn4ob6egt76s31etn6asg0
+      Ignored_For_Permissions: []
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Weight: 25.0
+      Placeholder_Apply: false
+Milestones:
+  Repeatable: false
+Last_Opener: MihiBlu
+Last_Reward: Diamond Helmet
+Item:
+  Material: LIGHT_BLUE_STAINED_GLASS_PANE

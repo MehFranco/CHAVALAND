@@ -1,0 +1,7 @@
+name: developer
+permissions:
+- displayname.&#6d92fcᴅᴇᴠ
+- weight.900
+prefixes:
+- '&f#6d92fc':
+    priority: 900

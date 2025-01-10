@@ -1,0 +1,36 @@
+Reward:
+  # Sets whether or not to hide rewards that player can not win anymore.
+  Hide_Drained_Rewards: false
+  Name: '#EE92C9%reward_preview_name%'
+  Lore:
+    Default:
+    - '%reward_preview_lore%'
+    - '&f'
+    - '#EE92C9&l| &7ᴡɪɴ ᴡᴇɪɢʜᴛ: &f%reward_chance%'
+    - '#EE92C9&l| &7ᴡɪɴ ᴄʜᴀɴᴄᴇ: &f%reward_real_chance%%'
+    Win_Limit:
+      Amount:
+      - '&fYou can win this reward &e%user_reward_win_limit_amount_left% more times (of total &e%reward_win_limit_amount%&f)'
+      Cooldown:
+      - '&fYou can win this reward again in &e%user_reward_win_limit_expire_in%'
+      Drained:
+      - '&fYou already won this reward, you can not win more.'
+      No_Permission:
+      - <lgray><lred>✘</lred> Sorry, you can not win this.</lgray>
+  # Sets slots to display crate rewards.
+  Slots: 2, 3, 5, 6, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 47, 48, 50, 51
+Settings:
+  # GUI title.
+  Title: '&f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔'
+  # GUI size. Must be multiply of 9.
+  # Useful for 'CHEST' Inventory Type only.
+  Size: 54
+  # GUI type.
+  # https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/event/inventory/InventoryType.html
+  Inventory_Type: CHEST
+  # Sets GUI auto-refresh interval (in seconds). Set this to 0 to disable.
+  Auto_Refresh: 0
+  PlaceholderAPI:
+    # Sets whether PlaceholderAPI placeholders will be applied on all items from the 'Content' section of this GUI.
+    # [*] Disable if you don't use any PlaceholderAPI placeholders on your items to improve GUI performance.
+    Enabled: false

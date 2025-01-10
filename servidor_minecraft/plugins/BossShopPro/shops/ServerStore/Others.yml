@@ -1,0 +1,199 @@
+ShopName: Others
+DisplayName: '&f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔'
+RemovePlayerInventory: true
+shop:
+  Dungeon_Easy:
+    MenuItem:
+    - amount:1
+    - type:stick
+    - custommodeldata:35
+    - name:&f
+    - 'lore1:&8ʙᴜʏᴀʙʟᴇ ɪᴛᴇᴍ'
+    - 'lore3:#ff8cf3&l| ᴡʜᴀᴛ ɪᴛ ᴅᴏᴇs?'
+    - 'lore4:#ff8cf3&l| &7ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴘ ᴏꜰ ᴛʜɪs ɪᴛᴇᴍ'
+    - 'lore5:#ff8cf3&l| &7ʏᴏᴜ ᴄᴀɴ ᴇɴᴛᴇʀ ᴛʜᴇ ᴅᴜɴɢᴇᴏɴ'
+    - 'lore7:#f46161ᴛᴏ ʙᴜʏ ᴛʜɪs ᴋᴇʏ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ'
+    - 'lore8:#f46161ᴀᴄᴄᴇss @ sᴛᴏʀᴇ.sᴜʀᴠɪᴠᴀʟ.ɴᴇᴛ'
+    - 'lore10:#351335ɪꜰ ʏᴏᴜ ᴅᴏɴ''ᴛ ᴡᴀɴᴛ ᴛᴏ ꜱᴇʟʟ'
+    - 'lore11:#351335ᴛʜɪꜱ ɪᴛᴇᴍ ʏᴏᴜ ᴄᴀɴ ᴅᴇʟᴇᴛᴇ ɪᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 11
+  Dungeon_Medium:
+    MenuItem:
+    - amount:1
+    - type:stick
+    - custommodeldata:36
+    - name:&f
+    - 'lore1:&8ʙᴜʏᴀʙʟᴇ ɪᴛᴇᴍ'
+    - 'lore3:#ff8cf3&l| ᴡʜᴀᴛ ɪᴛ ᴅᴏᴇs?'
+    - 'lore4:#ff8cf3&l| &7ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴘ ᴏꜰ ᴛʜɪs ɪᴛᴇᴍ'
+    - 'lore5:#ff8cf3&l| &7ʏᴏᴜ ᴄᴀɴ ᴇɴᴛᴇʀ ᴛʜᴇ ᴅᴜɴɢᴇᴏɴ'
+    - 'lore7:#f46161ᴛᴏ ʙᴜʏ ᴛʜɪs ᴋᴇʏ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ'
+    - 'lore8:#f46161ᴀᴄᴄᴇss @ sᴛᴏʀᴇ.sᴜʀᴠɪᴠᴀʟ.ɴᴇᴛ'
+    - 'lore10:#351335ɪꜰ ʏᴏᴜ ᴅᴏɴ''ᴛ ᴡᴀɴᴛ ᴛᴏ ꜱᴇʟʟ'
+    - 'lore11:#351335ᴛʜɪꜱ ɪᴛᴇᴍ ʏᴏᴜ ᴄᴀɴ ᴅᴇʟᴇᴛᴇ ɪᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+  Dungeon_Hard:
+    MenuItem:
+    - amount:1
+    - type:stick
+    - custommodeldata:37
+    - name:&f
+    - 'lore1:&8ʙᴜʏᴀʙʟᴇ ɪᴛᴇᴍ'
+    - 'lore3:#ff8cf3&l| ᴡʜᴀᴛ ɪᴛ ᴅᴏᴇs?'
+    - 'lore4:#ff8cf3&l| &7ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴘ ᴏꜰ ᴛʜɪs ɪᴛᴇᴍ'
+    - 'lore5:#ff8cf3&l| &7ʏᴏᴜ ᴄᴀɴ ᴇɴᴛᴇʀ ᴛʜᴇ ᴅᴜɴɢᴇᴏɴ'
+    - 'lore7:#f46161ᴛᴏ ʙᴜʏ ᴛʜɪs ᴋᴇʏ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ'
+    - 'lore8:#f46161ᴀᴄᴄᴇss @ sᴛᴏʀᴇ.sᴜʀᴠɪᴠᴀʟ.ɴᴇᴛ'
+    - 'lore10:#351335ɪꜰ ʏᴏᴜ ᴅᴏɴ''ᴛ ᴡᴀɴᴛ ᴛᴏ ꜱᴇʟʟ'
+    - 'lore11:#351335ᴛʜɪꜱ ɪᴛᴇᴍ ʏᴏᴜ ᴄᴀɴ ᴅᴇʟᴇᴛᴇ ɪᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 13
+  Daily_Key:
+    MenuItem:
+    - amount:1
+    - type:stick
+    - custommodeldata:38
+    - name:&f
+    - 'lore1:&8ʙᴜʏᴀʙʟᴇ ɪᴛᴇᴍ'
+    - 'lore3:#ff8cf3&l| ᴡʜᴀᴛ ɪᴛ ᴅᴏᴇs?'
+    - 'lore4:#ff8cf3&l| &7ᴡɪᴛʜ ᴛʜɪs ᴋᴇʏ ʏᴏᴜ ᴄᴀɴ'
+    - 'lore5:#ff8cf3&l| &7ᴏᴘᴇɴ ᴛʜᴇ ᴅᴀɪʟʏ ᴄʀᴀᴛᴇ'
+    - 'lore7:#f46161ᴛᴏ ʙᴜʏ ᴛʜɪs ᴋᴇʏ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ'
+    - 'lore8:#f46161ᴀᴄᴄᴇss @ sᴛᴏʀᴇ.sᴜʀᴠɪᴠᴀʟ.ɴᴇᴛ'
+    - 'lore10:#351335ɪꜰ ʏᴏᴜ ᴅᴏɴ''ᴛ ᴡᴀɴᴛ ᴛᴏ ꜱᴇʟʟ'
+    - 'lore11:#351335ᴛʜɪꜱ ɪᴛᴇᴍ ʏᴏᴜ ᴄᴀɴ ᴅᴇʟᴇᴛᴇ ɪᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+  Balanced_Key:
+    MenuItem:
+    - amount:1
+    - type:stick
+    - custommodeldata:39
+    - name:&f
+    - 'lore1:&8ʙᴜʏᴀʙʟᴇ ɪᴛᴇᴍ'
+    - 'lore3:#ff8cf3&l| ᴡʜᴀᴛ ɪᴛ ᴅᴏᴇs?'
+    - 'lore4:#ff8cf3&l| &7ᴡɪᴛʜ ᴛʜɪs ᴋᴇʏ ʏᴏᴜ ᴄᴀɴ'
+    - 'lore5:#ff8cf3&l| &7ᴏᴘᴇɴ ᴛʜᴇ ʙᴀʟᴀɴᴄᴇᴅ ᴄʀᴀᴛᴇ'
+    - 'lore7:#f46161ᴛᴏ ʙᴜʏ ᴛʜɪs ᴋᴇʏ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ'
+    - 'lore8:#f46161ᴀᴄᴄᴇss @ sᴛᴏʀᴇ.sᴜʀᴠɪᴠᴀʟ.ɴᴇᴛ'
+    - 'lore10:#351335ɪꜰ ʏᴏᴜ ᴅᴏɴ''ᴛ ᴡᴀɴᴛ ᴛᴏ ꜱᴇʟʟ'
+    - 'lore11:#351335ᴛʜɪꜱ ɪᴛᴇᴍ ʏᴏᴜ ᴄᴀɴ ᴅᴇʟᴇᴛᴇ ɪᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15
+  Diversity_Key:
+    MenuItem:
+    - amount:1
+    - type:stick
+    - custommodeldata:40
+    - name:&f
+    - 'lore1:&8ʙᴜʏᴀʙʟᴇ ɪᴛᴇᴍ'
+    - 'lore3:#ff8cf3&l| ᴡʜᴀᴛ ɪᴛ ᴅᴏᴇs?'
+    - 'lore4:#ff8cf3&l| &7ᴡɪᴛʜ ᴛʜɪs ᴋᴇʏ ʏᴏᴜ ᴄᴀɴ'
+    - 'lore5:#ff8cf3&l| &7ᴏᴘᴇɴ ᴛʜᴇ ᴅɪᴠᴇʀsɪᴛʏ ᴄʀᴀᴛᴇ'
+    - 'lore7:#f46161ᴛᴏ ʙᴜʏ ᴛʜɪs ᴋᴇʏ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ'
+    - 'lore8:#f46161ᴀᴄᴄᴇss @ sᴛᴏʀᴇ.sᴜʀᴠɪᴠᴀʟ.ɴᴇᴛ'
+    - 'lore10:#351335ɪꜰ ʏᴏᴜ ᴅᴏɴ''ᴛ ᴡᴀɴᴛ ᴛᴏ ꜱᴇʟʟ'
+    - 'lore11:#351335ᴛʜɪꜱ ɪᴛᴇᴍ ʏᴏᴜ ᴄᴀɴ ᴅᴇʟᴇᴛᴇ ɪᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+  Epic_Key:
+    MenuItem:
+    - amount:1
+    - type:stick
+    - custommodeldata:41
+    - name:&f
+    - 'lore1:&8ʙᴜʏᴀʙʟᴇ ɪᴛᴇᴍ'
+    - 'lore3:#ff8cf3&l| ᴡʜᴀᴛ ɪᴛ ᴅᴏᴇs?'
+    - 'lore4:#ff8cf3&l| &7ᴡɪᴛʜ ᴛʜɪs ᴋᴇʏ ʏᴏᴜ ᴄᴀɴ'
+    - 'lore5:#ff8cf3&l| &7ᴏᴘᴇɴ ᴛʜᴇ ᴇᴘɪᴄ ᴄʀᴀᴛᴇ'
+    - 'lore7:#f46161ᴛᴏ ʙᴜʏ ᴛʜɪs ᴋᴇʏ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ'
+    - 'lore8:#f46161ᴀᴄᴄᴇss @ sᴛᴏʀᴇ.sᴜʀᴠɪᴠᴀʟ.ɴᴇᴛ'
+    - 'lore10:#351335ɪꜰ ʏᴏᴜ ᴅᴏɴ''ᴛ ᴡᴀɴᴛ ᴛᴏ ꜱᴇʟʟ'
+    - 'lore11:#351335ᴛʜɪꜱ ɪᴛᴇᴍ ʏᴏᴜ ᴄᴀɴ ᴅᴇʟᴇᴛᴇ ɪᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 17
+  Coins:
+    MenuItem:
+    - amount:1
+    - type:stick
+    - custommodeldata:42
+    - name:&6100 ᴄᴏɪɴs
+    - 'lore1:&7ᴀꜰᴛᴇʀ ᴘᴜʀᴄʜᴀsᴇ, &6100&f&7 ᴡɪʟʟ'
+    - 'lore2:&7ʙᴇ ᴀᴅᴅᴇᴅ ᴛᴏ ʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ'
+    - 'lore4:#f46161ᴛᴏ ʙᴜʏ ᴛʜᴇ ᴄᴏɪɴs ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ'
+    - 'lore5:#f46161ᴀᴄᴄᴇss @ sᴛᴏʀᴇ.sᴜʀᴠɪᴠᴀʟ.ɴᴇᴛ'
+    - 'lore7:#351335ɪꜰ ʏᴏᴜ ᴅᴏɴ''ᴛ ᴡᴀɴᴛ ᴛᴏ ꜱᴇʟʟ'
+    - 'lore8:#351335ᴛʜɪꜱ ɪᴛᴇᴍ ʏᴏᴜ ᴄᴀɴ ᴅᴇʟᴇᴛᴇ ɪᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 20
+  Battlepass:
+    MenuItem:
+    - amount:1
+    - type:stick
+    - custommodeldata:43
+    - name:&f
+    - 'lore1:&8ʙᴜʏᴀʙʟᴇ ꜰᴇᴀᴛᴜʀᴇ'
+    - 'lore3:#ff8cf3&l| ᴡʜᴀᴛ ɪᴛ ᴅᴏᴇs?'
+    - 'lore4:#ff8cf3&l| &7ᴜɴʟᴏᴄᴋ ᴍᴏʀᴇ ʀᴇᴡᴀʀᴅs'
+    - 'lore5:#ff8cf3&l| &7ɪɴ ᴛʜᴇ ʙᴀᴛᴛʟᴇᴘᴀss'
+    - 'lore7:#f46161ᴛᴏ ʙᴜʏ ᴛʜɪs ꜰᴇᴀᴛᴜʀᴇ ʏᴏᴜ ɴᴇᴇᴅ'
+    - 'lore8:#f46161ᴛᴏ ᴀᴄᴄᴇss @ sᴛᴏʀᴇ.sᴜʀᴠɪᴠᴀʟ.ɴᴇᴛ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 21
+##################################################################################################################################
+  ranks:
+    MenuItem:
+    - 'lore1:&7ᴡᴀɴᴛ ꜱᴏᴍᴇ ᴇxᴛʀᴀ ʙᴇɴᴇꜰɪᴛs?#&7ʏᴏᴜ ᴄᴀɴ ʙᴜʏ ᴀ ʀᴀɴᴋ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Ranks
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  kits:
+    MenuItem:
+    - 'lore1:&7ᴠᴀʀɪᴏᴜs ᴘᴀᴄᴋᴀɢᴇs#&7ᴄᴏɴᴛᴀɪɴɪɴɢ ɪᴛᴇᴍs'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Kits
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  others:
+    MenuItem:
+    - 'lore1:&esᴇʟᴇᴄᴛᴇᴅ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Others
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  InvItem:
+    MenuItem:
+    - name:&f
+    - type:stick
+    - custommodeldata:1
+    InventoryLocation: 54

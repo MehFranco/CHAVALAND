@@ -1,0 +1,147 @@
+ShopName: Kits
+DisplayName: '&f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔'
+RemovePlayerInventory: true
+shop:
+############################################################################################################################################
+# Customize your kits to your liking, here you have the list of all unicodes for tools, weapons and armor, use them!
+# 
+# Chainmail Helmet - 
+# Chainmail Chestplate - 
+# Chainmail Leggings - 
+# Chainmail Boots - 
+# Golden Helmet - 
+# Golden Chestplate - 
+# Golden Leggings - 
+# Golden Boots - 
+# Iron Helmet - 
+# Iron Chestplate - 
+# Iron Leggings - 
+# Iron Boots - 
+# Diamond Helmet - 
+# Diamond Chestplate - 
+# Diamond Leggings - 
+# Diamond Boots - 
+# Netherite Helmet - 
+# Netherite Chestplate - 
+# Netherite Leggings - 
+# Netherite Boots - 
+#
+# Bow - 
+# Crossbow - 
+# Trident - 
+# Wooden Sword - 
+# Stone Sword - 
+# Golden Sword - 
+# Iron Sword - 
+# Diamond Sword - 
+# Netherite Sword - 
+#
+# Wooden Pickaxe - 
+# Wooden Shovel - 
+# Wooden Axe - 
+# Golden Pickaxe - 
+# Golden Shovel - 
+# Golden Axe - 
+# Stone Pickaxe - 
+# Stone Shovel - 
+# Stone Axe - 
+# Iron Pickaxe - 
+# Iron Shovel - 
+# Iron Axe - 
+# Diamond Pickaxe - 
+# Diamond Shovel - 
+# Diamond Axe - 
+# Netherite Pickaxe - 
+# Netherite Shovel - 
+# Netherite Axe - 
+##################################################################################################################################
+  Knight:
+    MenuItem:
+    - amount:1
+    - type:stick
+    - custommodeldata:30
+    - name:&f
+    - 'lore1:&8ʙᴜʏᴀʙʟᴇ ᴋɪᴛ'
+    - 'lore3:#ff8cf3&lᴘᴀᴄᴋᴀɢᴇ ᴄᴏɴᴛᴀɪɴs'
+    - 'lore4:&f ▪ x1  &7ᴇɴᴄʜᴀɴᴛ'
+    - 'lore5:&f ▪ x1  &7ᴇɴᴄʜᴀɴᴛ'
+    - 'lore6:&f ▪ x1  &7ᴇɴᴄʜᴀɴᴛ'
+    - 'lore7:&f ▪ x1  &7ᴇɴᴄʜᴀɴᴛ' 
+    - 'lore8:&f ▪ x1  &7ᴇɴᴄʜᴀɴᴛ' 
+    - 'lore9:&f ▪ x8 ᴛᴇsᴛ ɪᴛᴇᴍs' 
+    - 'lore10:&f ▪ x8 ᴛᴇsᴛ ᴋᴇʏs' 
+    - 'lore12:#f46161ᴛᴏ ʙᴜʏ ᴛʜɪs ᴋɪᴛ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ'
+    - 'lore13:#f46161ᴀᴄᴄᴇss @ sᴛᴏʀᴇ.sᴜʀᴠɪᴠᴀʟ.ɴᴇᴛ'
+    - 'lore15:#351335ᴛʜɪs ɪs ɴᴏᴛ ᴀ ᴡᴏʀᴋɪɴɢ ᴋɪᴛ, ʜᴇʀᴇ'
+    - 'lore16:#351335ʏᴏᴜ ᴅɪsᴘʟᴀʏ ᴛʜᴇ ᴋɪᴛs ʏᴏᴜ sᴇʟʟ!'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 11
+  DragonSlayer:
+    MenuItem:
+    - amount:1
+    - type:stick
+    - custommodeldata:31
+    - name:&f
+    - 'lore1:&8ʙᴜʏᴀʙʟᴇ ᴋɪᴛ'
+    - 'lore3:#ff8cf3&lᴘᴀᴄᴋᴀɢᴇ ᴄᴏɴᴛᴀɪɴs'
+    - 'lore4:&f ▪ x1  &7ᴇɴᴄʜᴀɴᴛ'
+    - 'lore5:&f ▪ x1  &7ᴇɴᴄʜᴀɴᴛ'
+    - 'lore6:&f ▪ x1  &7ᴇɴᴄʜᴀɴᴛ' 
+    - 'lore7:&f ▪ x1  &7ᴇɴᴄʜᴀɴᴛ'
+    - 'lore8:&f ▪ x1  &7ᴇɴᴄʜᴀɴᴛ'
+    - 'lore9:&f ▪ x8 ᴛᴇsᴛ ɪᴛᴇᴍs' 
+    - 'lore10:&f ▪ x8 ᴛᴇsᴛ ᴋᴇʏs' 
+    - 'lore12:#f46161ᴛᴏ ʙᴜʏ ᴛʜɪs ᴋɪᴛ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ'
+    - 'lore13:#f46161ᴀᴄᴄᴇss @ sᴛᴏʀᴇ.sᴜʀᴠɪᴠᴀʟ.ɴᴇᴛ'
+    - 'lore15:#351335ᴛʜɪs ɪs ɴᴏᴛ ᴀ ᴡᴏʀᴋɪɴɢ ᴋɪᴛ, ʜᴇʀᴇ'
+    - 'lore16:#351335ʏᴏᴜ ᴅɪsᴘʟᴀʏ ᴛʜᴇ ᴋɪᴛs ʏᴏᴜ sᴇʟʟ!'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+##################################################################################################################################
+  ranks:
+    MenuItem:
+    - 'lore1:&7ᴡᴀɴᴛ ꜱᴏᴍᴇ ᴇxᴛʀᴀ ʙᴇɴᴇꜰɪᴛs?#&7ʏᴏᴜ ᴄᴀɴ ʙᴜʏ ᴀ ʀᴀɴᴋ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Ranks
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  kits:
+    MenuItem:
+    - 'lore1:&esᴇʟᴇᴄᴛᴇᴅ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Kits
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  others:
+    MenuItem:
+    - 'lore1:&7ʙᴜʏᴀʙʟᴇꜱ ᴛʜᴀᴛ ᴅᴏ ɴᴏᴛ ꜰɪᴛ#&7ɪɴᴛᴏ ᴛʜᴇ ᴏᴛʜᴇʀ ᴄᴀᴛᴇɢᴏʀɪᴇꜱ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Others
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  InvItem:
+    MenuItem:
+    - name:&f
+    - type:stick
+    - custommodeldata:1
+    InventoryLocation: 54

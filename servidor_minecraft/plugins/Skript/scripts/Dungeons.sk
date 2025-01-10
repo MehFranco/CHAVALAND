@@ -1,0 +1,1095 @@
+# COMMANDS
+# COMMANDS
+# COMMANDS
+
+command /dhelp:
+	permission: op
+	trigger:
+		send "&8 »   &e▪&f▪&6▪ &fDungeons - Admin &6▪&f▪&e▪ &8   « " to player
+		send "&e/dleave &8- &fUse this to get out of an arena" to player
+		send "&e/dkey <player> <arena> &8- &fGive a entry key to a player" to player
+		send "&e/ddebug <arena> &8- &fUse it when the monsters aren't spawned in an arena" to player
+		send "&e/dmobs <arena> &8- &fShow the theoretical number of monsters in the arena" to player
+		send "&e/dloc <add/remove> <arena> <number> &8- &fUpdate monster's spawn location" to player
+		send "&8Available arenas for /dkey: &7easy, medium, hard"
+		send "&8Available arenas for the others: &7arena1, arena2, arena2g, arena3, arena3g"
+		send "&8 »   &e▪&f▪&6▪ &fDungeons - Admin &6▪&f▪&e▪ &8   « " to player
+
+command /dkey [<player>] [<text>]:
+	permission: op
+	trigger:
+		if arg-1 is not set:
+			send "&f &fYou did not specify a player." to player
+		else:
+			if arg-2 is "easy":
+				send "&f &fYou have given player &e%arg-1%&f an easy key!" to player
+				set {_item} to stick
+				set name of {_item} to "&f"
+				set the 1nd line of the lore of {_item} to "&7ɪᴛ ᴄᴀɴ ʙᴇ ᴜꜱᴇᴅ ᴛᴏ ᴇɴᴛᴇʀ"
+				set the 2nd line of the lore of {_item} to "&7ᴛʜᴇ ᴇᴀꜱʏ ᴅᴜɴɢᴇᴏɴ ᴀʀᴇɴᴀ"
+				set the 4nd line of the lore of {_item} to "&8ɢɪᴠᴇ ᴛʜɪs ᴋᴇʏ ᴛᴏ ᴛʜʏʀᴀ"
+				set custom model data of {_item} to 145
+				give 1 of {_item} to arg-1
+			else if arg-2 is "medium":
+				send "&f &fYou have given player &e%arg-1%&f a medium key!" to player
+				set {_item} to stick
+				set name of {_item} to "&f"
+				set the 1nd line of the lore of {_item} to "&7ɪᴛ ᴄᴀɴ ʙᴇ ᴜꜱᴇᴅ ᴛᴏ ᴇɴᴛᴇʀ"
+				set the 2nd line of the lore of {_item} to "&7ᴛʜᴇ ᴍᴇᴅɪᴜᴍ ᴅᴜɴɢᴇᴏɴ ᴀʀᴇɴᴀ"
+				set the 4nd line of the lore of {_item} to "&8ɢɪᴠᴇ ᴛʜɪs ᴋᴇʏ ᴛᴏ ᴛʜʏʀᴀ"	
+				set custom model data of {_item} to 146
+				give 1 of {_item} to arg-1
+			else if arg-2 is "hard":
+				send "&f &fYou have given player &e%arg-1%&f a hard key!" to player
+				set {_item} to stick
+				set name of {_item} to "&f"
+				set the 1nd line of the lore of {_item} to "&7ɪᴛ ᴄᴀɴ ʙᴇ ᴜꜱᴇᴅ ᴛᴏ ᴇɴᴛᴇʀ"
+				set the 2nd line of the lore of {_item} to "&7ᴛʜᴇ ʜᴀʀᴅ ᴅᴜɴɢᴇᴏɴ ᴀʀᴇɴᴀ"
+				set the 4nd line of the lore of {_item} to "&8ɢɪᴠᴇ ᴛʜɪs ᴋᴇʏ ᴛᴏ ᴛʜʏʀᴀ"	
+				set custom model data of {_item} to 147
+				give 1 of {_item} to arg-1
+			else:
+				send "&f &fThe mentioned key is invalid!" to player	
+
+
+command /opendungeoneasy [<player>]:
+	permission: op
+	trigger:
+		if name of tool of arg-1 is "&f":
+			remove 1 of tool of arg-1 from arg-1's inventory
+			send "&f &fYou will arrive in the arena immediately! Remember that you can only exit with a teleportation command, such as &e/dleave&f." to arg-1
+			wait 2 ticks
+			make console execute command "effect give %arg-1% minecraft:nausea 8 5"
+			wait 5 seconds
+			make console execute command "gms %arg-1%"
+			set arg-1's flight mode to false
+			make console execute command "god %arg-1% disable"
+			teleport arg-1 to {spawnlocarena1}
+		else:
+			send "&f &fI can't accept the item you're holding to take you to the &eeasy arena&f!" to arg-1
+			
+
+command /opendungeoneasymenu [<player>]:
+	permission: op
+	trigger:
+		set {_player} to arg-1 or player
+		set {_found} to false
+		loop all items in {_player}'s inventory:
+			if name of loop-item is "&f":
+				remove 1 of loop-item from {_player}'s inventory
+				set {_found} to true
+				stop loop
+		if {_found} is true:
+			send "&f &fThe key was checked and the teleportation started! Remember that you can only exit with a teleportation command, such as &e/dleave&f." to arg-1
+			wait 2 ticks
+			make console execute command "effect give %arg-1% minecraft:nausea 8 5"
+			wait 5 seconds
+			make console execute command "gms %arg-1%"
+			set arg-1's flight mode to false
+			make console execute command "god %arg-1% disable"
+			teleport arg-1 to {spawnlocarena1}
+		else:
+			send "&f &fNo key was found in your inventory for &eeasy arena&f!" to arg-1
+
+
+command /opendungeonmedium [<player>]:
+	permission: op
+	trigger:
+		if name of tool of arg-1 is "&f":
+			remove 1 of tool of arg-1 from arg-1's inventory
+			send "&f &fYou will arrive in the arena immediately! Remember that you can only exit with a teleportation command, such as &e/dleave&f." to arg-1
+			wait 2 ticks
+			make console execute command "effect give %arg-1% minecraft:nausea 8 5"
+			wait 5 seconds
+			make console execute command "gms %arg-1%"
+			set arg-1's flight mode to false
+			make console execute command "god %arg-1% disable"
+			teleport arg-1 to {spawnlocarena2}
+		else:
+			send "&f &fI can't accept the item you're holding to take you to the &emedium arena&f!" to arg-1
+					
+
+command /opendungeonmediummenu [<player>]:
+	permission: op
+	trigger:
+		set {_player} to arg-1 or player
+		set {_found} to false
+		loop all items in {_player}'s inventory:
+			if name of loop-item is "&f":
+				remove 1 of loop-item from {_player}'s inventory
+				set {_found} to true
+				stop loop
+		if {_found} is true:
+			send "&f &fThe key was checked and the teleportation started! Remember that you can only exit with a teleportation command, such as &e/dleave&f." to arg-1
+			wait 2 ticks
+			make console execute command "effect give %arg-1% minecraft:nausea 8 5"
+			wait 5 seconds
+			make console execute command "gms %arg-1%"
+			set arg-1's flight mode to false
+			make console execute command "god %arg-1% disable"
+			teleport arg-1 to {spawnlocarena2}
+		else:
+			send "&f &fNo key was found in your inventory for &emedium arena&f!" to arg-1
+
+
+command /opendungeonhard [<player>]:
+	permission: op
+	trigger:
+		if name of tool of arg-1 is "&f":
+			remove 1 of tool of arg-1 from arg-1's inventory
+			send "&f &fYou will arrive in the arena immediately! Remember that you can only exit with a teleportation command, such as &e/dleave&f." to arg-1
+			wait 2 ticks
+			make console execute command "effect give %arg-1% minecraft:nausea 8 5"
+			wait 5 seconds
+			make console execute command "gms %arg-1%"
+			set arg-1's flight mode to false
+			make console execute command "god %arg-1% disable"
+			teleport arg-1 to {spawnlocarena3}
+		else:
+			send "&f &fI can't accept the item you're holding to take you to the &ehard arena&f!" to arg-1
+					
+
+command /opendungeonhardmenu [<player>]:
+	permission: op
+	trigger:
+		set {_player} to arg-1 or player
+		set {_found} to false
+		loop all items in {_player}'s inventory:
+			if name of loop-item is "&f":
+				remove 1 of loop-item from {_player}'s inventory
+				set {_found} to true
+				stop loop
+		if {_found} is true:
+			send "&f &fThe key was checked and the teleportation started! Remember that you can only exit with a teleportation command, such as &e/dleave&f." to arg-1
+			wait 2 ticks
+			make console execute command "effect give %arg-1% minecraft:nausea 8 5"
+			wait 5 seconds
+			make console execute command "gms %arg-1%"
+			set arg-1's flight mode to false
+			make console execute command "god %arg-1% disable"
+			teleport arg-1 to {spawnlocarena3}
+		else:
+			send "&f &fNo key was found in your inventory for &ehard arena&f!" to arg-1
+			
+
+command /dleave:
+	aliases: /dungeonleave
+	trigger:
+		if player's world is "world":
+			make player execute "warp dungeons"
+		else:
+			send "&f &fYou can't do that here!" to player
+
+command /ddebug [<text>]:
+	permission: op
+	trigger:
+		if arg-1 is "arena1":
+			send "&f &fMonsters from the &e%arg-1%&f have been set to 0." to player
+			set {arena1mobs} to 0
+		else if arg-1 is "arena2":
+			send "&f &fMonsters from the &e%arg-1%&f have been set to 0." to player
+			set {arena2mobs} to 0
+		else if arg-1 is "arena2g":
+			send "&f &fMonsters from the &e%arg-1%&f have been set to 0." to player
+			set {arena2mobsg} to 0
+		else if arg-1 is "arena3":
+			send "&f &fMonsters from the &e%arg-1%&f have been set to 0." to player
+			set {arena3mobs} to 0
+		else if arg-1 is "arena3g":
+			send "&f &fMonsters from the &e%arg-1%&f have been set to 0." to player
+			set {arena3mobsg} to 0
+		else:
+			send "&f &fThe specified arena does not exist!" to player
+
+command /dmobs [<text>]:
+	permission: op
+	trigger:
+		if arg-1 is "arena2g":
+			send "&f &fThere are &e%{arena2mobsg}% &fin the  &e%arg-1%&f." to player
+		else if arg-1 is "arena3g":
+			send "&f &fThere are &e%{arena3mobsg}% &fin the  &e%arg-1%&f." to player
+		else if arg-1 is "arena1":
+			send "&f &fThere are &e%{arena1mobs}% &fin the  &e%arg-1%&f." to player
+		else if arg-1 is "arena2":
+			send "&f &fThere are &e%{arena2mobs}% &fin the  &e%arg-1%&f." to player
+		else if arg-1 is "arena3":
+			send "&f &fThere are &e%{arena3mobs}% &fin the  &e%arg-1%&f." to player
+		else:
+			send "&f &fUnknown arena." to player
+
+command /dloc [<text>] [<text>] [<integer>]:
+	permission: op
+	trigger:
+		if arg-1 is "add":
+			if arg-2 is "arena1":
+				if arg-3 is not set:
+					send "&f &fArgument 3 is invalid. Use &e/dloc (add/remove) (arena1/arena2/arena2g/arena3/arena3g) (number)&f!" to player
+				else:
+					set {locationarena1::%arg-3%} to player's location
+					send "&f &fLocation added successfully!" to player
+			else if arg-2 is "arena2":
+				if arg-3 is not set:
+					send "&f &fArgument 3 is invalid. Use &e/dloc (add/remove) (arena1/arena2/arena2g/arena3/arena3g) (number)&f!" to player
+				else:
+					set {locationarena2::%arg-3%} to player's location
+					send "&f &fLocation added successfully!" to player
+			else if arg-2 is "arena2g":
+				if arg-3 is not set:
+					send "&f &fArgument 3 is invalid. Use &e/dloc (add/remove) (arena1/arena2/arena2g/arena3/arena3g) (number)&f!" to player
+				else:
+					set {locationarena2g::%arg-3%} to player's location
+					send "&f &fLocation added successfully!" to player
+			else if arg-2 is "arena3":
+				if arg-3 is not set:
+					send "&f &fArgument 3 is invalid. Use &e/dloc (add/remove) (arena1/arena2/arena2g/arena3/arena3g) (number)&f!" to player
+				else:
+					set {locationarena3::%arg-3%} to player's location
+					send "&f &fLocation added successfully!" to player
+			else if arg-2 is "arena3g":
+				if arg-3 is not set:
+					send "&f &fArgument 3 is invalid. Use &e/dloc (add/remove) (arena1/arena2/arena2g/arena3/arena3g) (number)&f!" to player
+				else:
+					set {locationarena3g::%arg-3%} to player's location
+					send "&f &fLocation added successfully!" to player
+			else:
+				send "&f &fArgument 2 is invalid. Use &e/dloc (add/remove) (arena1/arena2/arena2g/arena3/arena3g) (number)&f!" to player
+		else if arg-1 is "remove":
+			if arg-2 is "arena1":
+				if arg-3 is not set:
+					send "&f &fArgument 3 is invalid. Use &e/dloc (add/remove) (arena1/arena2/arena2g/arena3/arena3g) (number)&f!" to player
+				else:
+					delete {locationarena1::%arg-3%} 
+					send "&f &fLocation removed successfully!" to player
+			else if arg-2 is "arena2":
+				if arg-3 is not set:
+					send "&f &fArgument 3 is invalid. Use &e/dloc (add/remove) (arena1/arena2/arena2g/arena3/arena3g) (number)&f!" to player
+				else:
+					delete {locationarena2::%arg-3%} 
+					send "&f &fLocation removed successfully!" to player
+			else if arg-2 is "arena2g":
+				if arg-3 is not set:
+					send "&f &fArgument 3 is invalid. Use &e/dloc (add/remove) (arena1/arena2/arena2g/arena3/arena3g) (number)&f!" to player
+				else:
+					delete {locationarena2g::%arg-3%} 
+					send "&f &fLocation removed successfully!" to player
+			else if arg-2 is "arena3":
+				if arg-3 is not set:
+					send "&f &fArgument 3 is invalid. Use &e/dloc (add/remove) (arena1/arena2/arena2g/arena3/arena3g) (number)&f!" to player
+				else:
+					delete {locationarena3::%arg-3%} 
+					send "&f &fLocation removed successfully!" to player
+			else if arg-2 is "arena3g":
+				if arg-3 is not set:
+					send "&f &fArgument 3 is invalid. Use &e/dloc (add/remove) (arena1/arena2/arena2g/arena3/arena3g) (number)&f!" to player
+				else:
+					delete {locationarena3g::%arg-3%} 
+					send "&f &fLocation removed successfully!" to player
+			else:
+				send "&f &fArgument 2 is invalid. Use &e/dloc (add/remove) (arena1/arena2/arena2g/arena3/arena3g) (number)&f!" to player
+		else:
+			send "&f &fArgument 1 is invalid. Use &e/dloc (add/remove) (arena1/arena2/arena2g/arena3/arena3g) (number)&f!" to player
+
+command /dspawn [<text>]:
+	permission: op
+	trigger:
+		if arg-1 is "arena1":
+			set {spawnlocarena1} to player's location
+			send "&f &fLocation set successfully!" to player
+		else if arg-1 is "arena2":
+			set {spawnlocarena2} to player's location
+			send "&f &fLocation set successfully!" to player
+		else if arg-1 is "arena3":
+			set {spawnlocarena3} to player's location
+			send "&f &fLocation set successfully!" to player
+		else:
+			send "&f &fThe specified arena is invalid." to player
+
+
+# SYSTEM - spawn custom mobs
+# SYSTEM - spawn custom mobs
+# SYSTEM - spawn custom mobs
+
+
+every 15 seconds:
+	if {arena1mobs} < 20:
+		add 1 to {arena1mobs}
+		set {_locatie} to random element out of {locationarena1::*}
+		set {_random} to a random integer between 1 and 16
+		if {_random} is 1 or 2 or 3 or 4 or 5:
+			spawn a zombie at {_locatie}
+			set {_zombie} to last spawned zombie
+			set tool of {_zombie} to golden axe of sharpness 1
+			set {_aux} to leather helmet
+			dye {_aux} (74, 255, 183)
+			set helmet of {_zombie} to {_aux}
+			set {_aux} to leather chestplate
+			dye {_aux} (242, 255, 148)
+			set chestplate of {_zombie} to {_aux}
+			set {_aux} to leather boots
+			dye {_aux} (95, 0, 0)
+			set boots of {_zombie} to {_aux}
+			set name of last spawned zombie to "&d&lʟᴇᴠᴇʟ 1 &fZombie"
+			set last spawned zombie's max health to 10
+			set last spawned zombie's health to 10
+			apply swiftness 2 to {_mob} for 3 minutes
+		else if {_random} is 6 or 7 or 8 or 9 or 10:
+			spawn a zombie at {_locatie}
+			set {_zombie} to last spawned zombie
+			set tool of {_zombie} to iron sword of sharpness 1
+			set {_aux} to leather helmet
+			dye {_aux} (0, 255, 255)
+			set helmet of {_zombie} to {_aux}
+			set {_aux} to leather chestplate of protection 2
+			dye {_aux} (66, 138, 245)
+			set chestplate of {_zombie} to {_aux}
+			set leggings of {_zombie} to leather pants of protection 1
+			set {_aux} to leather boots
+			dye {_aux} (255, 255, 0)
+			set boots of {_zombie} to {_aux}
+			set name of last spawned zombie to "&d&lʟᴇᴠᴇʟ 2 &fZombie"
+			set last spawned zombie's max health to 12
+			set last spawned zombie's health to 12
+			apply swiftness 1 to {_mob} for 3 minutes
+		else if {_random} is 11 or 12 or 13:
+			spawn a zombie at {_locatie}
+			set {_zombie} to last spawned zombie
+			set tool of {_zombie} to iron shovel of sharpness 3
+			set helmet of {_zombie} to chainmail helmet of protection 1
+			set chestplate of {_zombie} to golden chestplate of protection 3
+			set leggings of {_zombie} to chainmail leggings of protection 4
+			set boots of {_zombie} to iron boots
+			set name of last spawned zombie to "&d&lʟᴇᴠᴇʟ 3 &fZombie"
+			set last spawned zombie's max health to 14
+			set last spawned zombie's health to 14
+			apply swiftness 1 to {_mob} for 2 minutes
+		else if {_random} is 14 or 15:
+			spawn a zombie at {_locatie}
+			set {_zombie} to last spawned zombie
+			set tool of {_zombie} to diamond pickaxe of sharpness 3
+			set helmet of {_zombie} to iron helmet
+			set chestplate of {_zombie} to iron chestplate of protection 2
+			set leggings of {_zombie} to iron leggings of protection 3
+			set boots of {_zombie} to diamond boots
+			set name of last spawned zombie to "&d&lʟᴇᴠᴇʟ 4 &fZombie"
+			set last spawned zombie's max health to 15
+			set last spawned zombie's health to 15
+		else if {_random} is 16:
+			spawn a zombie at {_locatie}
+			set {_zombie} to last spawned zombie
+			set tool of {_zombie} to netherite hoe of sharpness 8
+			set helmet of {_zombie} to netherite helmet
+			set chestplate of {_zombie} to diamond chestplate of protection 2
+			set leggings of {_zombie} to diamond leggings of protection 3
+			set boots of {_zombie} to diamond boots of protection 2
+			set name of last spawned zombie to "&d&lʟᴇᴠᴇʟ 5 &fZombie"
+			set last spawned zombie's max health to 10
+			set last spawned zombie's health to 10
+	if {arena2mobs} < 18:
+		add 1 to {arena2mobs}
+		set {_locatie} to random element out of {locationarena2::*}
+		set {_random} to a random integer between 1 and 6
+		if {_random} is 1:
+			spawn a witch at {_locatie}
+			set {_mob} to last spawned witch
+			set name of last spawned witch to "&e&lᴄᴜsᴛᴏᴍ &fWitch"
+			set last spawned witch's max health to 16
+			set last spawned witch's health to 16
+			apply regeneration 2 to {_mob} for 2 minutes
+			set chestplate of {_mob} to diamond chestplate of protection 2
+		else if {_random} is 2:	
+			spawn a cave spider at {_locatie}
+			remove 1 from {arena2mobs}
+			set {_mob} to last spawned cave spider
+			set name of last spawned cave spider to "&e&lᴄᴜsᴛᴏᴍ &fCave Spider"
+			set last spawned cave spider's max health to 15
+			set last spawned cave spider's health to 15
+			set chestplate of {_mob} to iron chestplate of protection 3
+			set leggings of {_mob} to iron leggings of protection 3
+			apply swiftness 2 to {_mob} for 3 minutes
+		else if {_random} is 3 or 4:	
+			spawn a pillager at {_locatie}
+			set {_mob} to last spawned pillager
+			set name of last spawned pillager to "&e&lᴄᴜsᴛᴏᴍ &fPillager"
+			set last spawned pillager's max health to 13
+			set last spawned pillager's health to 13
+			set tool of {_mob} to crossbow of quick charge 1 and multishot and piercing 4
+			set chestplate of {_mob} to iron chestplate
+		else if {_random} is 5 or 6:	
+			spawn a vindicator at {_locatie}
+			set {_mob} to last spawned vindicator
+			set name of last spawned vindicator to "&e&lᴄᴜsᴛᴏᴍ &fVindicator"
+			set last spawned vindicator's max health to 10
+			set last spawned vindicator's health to 10
+		set {_random} to a random integer between 1 and 3
+		if {_random} is 1:
+			set {_locatie} to random element out of {locationarena2::*}
+			spawn a silverfish at {_locatie}
+			set {_mob} to last spawned silverfish
+			set name of last spawned silverfish to "&e&lᴄᴜsᴛᴏᴍ &fSilverfish"
+			set last spawned silverfish's max health to 8
+			set last spawned silverfish's health to 8
+			apply swiftness 2 to {_mob} for 2 minutes
+			set boots of {_mob} to chainmail boots of depth strider 3
+	if {arena2mobsg} < 5:
+		set {_locatie} to random element out of {locationarena2g::*}
+		set {_random} to a random integer between 1 and 11
+		if {_random} is 4 or 9:
+			spawn a drowned at {_locatie}
+			add 1 to {arena2mobsg}
+			set {_mob} to last spawned drowned
+			set name of last spawned drowned to "&e&lᴄᴜsᴛᴏᴍ &fDrowned"
+			set last spawned drowned's max health to 15
+			set last spawned drowned's health to 15
+			set tool of {_mob} to trident of sharpness 3
+		else if {_random} is 2 or 3 or 5 or 7 or 8 or 11:	
+			spawn a guardian at {_locatie}
+			add 1 to {arena2mobsg}
+			set name of last spawned guardian to "&e&lᴄᴜsᴛᴏᴍ &fGuardian"
+			set last spawned guardian's max health to 15
+			set last spawned guardian's health to 15
+
+every 30 seconds:
+	if {arena3mobsg} < 1:
+		set {_locatie} to random element out of {locationarena3g::*}
+		add 1 to {arena3mobsg}
+		spawn a ghast at {_locatie}
+		set name of last spawned ghast to "&e&lᴄᴜsᴛᴏᴍ &fGhast"
+		set last spawned ghast's max health to 15
+		set last spawned ghast's health to 15
+
+every 10 seconds:
+	if {arena3mobs} < 50:
+		set {_locatie} to random element out of {locationarena3::*}
+		set {_random} to a random integer between 1 and 13
+		add 1 to {arena3mobs}
+		if {_random} is 1 or 2:
+			spawn a bogged at {_locatie}
+			set {_mob} to last spawned bogged
+			set name of last spawned bogged to "&e&lᴄᴜsᴛᴏᴍ &fBogged"
+			set last spawned bogged's max health to 20
+			set last spawned bogged's health to 20
+			set {_random2} to a random integer between 1 and 3
+			if {_random2} is 1:
+				set tool of {_mob} to bow of power 5 and flame 1
+			else:
+				set tool of {_mob} to bow of power 5
+			set chestplate of {_mob} to netherite chestplate
+			apply strength 2 to {_mob} for 3 minutes
+		else if {_random} is 3 or 4:
+			spawn a stray at {_locatie}
+			set {_mob} to last spawned stray
+			set name of last spawned stray to "&e&lᴄᴜsᴛᴏᴍ &fStray"
+			set last spawned stray's max health to 20
+			set last spawned stray's health to 20
+			set {_random2} to a random integer between 1 and 3
+			if {_random2} is 1:
+				set tool of {_mob} to bow of power 5 and flame 1
+			else:
+				set tool of {_mob} to bow of power 5
+			set chestplate of {_mob} to netherite chestplate
+			apply strength 2 to {_mob} for 3 minutes
+		else if {_random} is 5 or 6 or 7:
+			spawn a wither skeleton at {_locatie}
+			set {_mob} to last spawned wither skeleton
+			set name of last spawned wither skeleton to "&e&lᴄᴜsᴛᴏᴍ &fWither Skeleton"
+			set last spawned wither skeleton's max health to 15
+			set last spawned wither skeleton's health to 15
+			set tool of {_mob} to golden sword
+			apply strength 2 to {_mob} for 3 minutes
+			apply regeneration 2 to {_mob} for 1 minutes
+			apply swiftness to {_mob} for 3 minutes
+		else if {_random} is 8 or 9 or 10:
+			spawn a zombie at {_locatie}
+			set {_mob} to last spawned zombie
+			set name of last spawned zombie to "&6&lʙᴏss &fZombie"
+			set tool of {_mob} to netherite sword of sharpness 2
+			set helmet of {_mob} to netherite helmet
+			set chestplate of {_mob} to netherite chestplate
+			set leggings of {_mob} to netherite leggings
+			set boots of {_mob} to netherite boots
+			set last spawned zombie's max health to 15 
+			set last spawned zombie's health to 15
+			apply swiftness 1 to {_mob} for 3 minutes
+		else if {_random} is 10 or 11:
+			spawn a breeze at {_locatie}
+			set {_mob} to last spawned breeze
+			set name of last spawned breeze to "&e&lᴄᴜsᴛᴏᴍ &fBreeze"
+			set last spawned breeze's max health to 15
+			set last spawned breeze's health to 15
+			set tool of {_mob} to iron sword
+		else if {_random} is 12 or 13:
+			spawn a evoker at {_locatie}
+			set name of last spawned evoker to "&e&lᴄᴜsᴛᴏᴍ &fEvoker"
+			set helmet of {_mob} to netherite helmet
+			set last spawned evoker's max health to 17.5
+			set last spawned evoker's health to 17.5
+			set tool of {_mob} to netherite axe
+		set {_random} to a random integer between 1 and 3
+		if {_random} is 1:
+			set {_locatie} to random element out of {locationarena3::*}
+			spawn a endermite at {_locatie}
+			set {_mob} to last spawned endermite
+			set name of last spawned endermite to "&e&lᴄᴜsᴛᴏᴍ &fEndermite"
+			set last spawned endermite's max health to 8
+			set last spawned endermite's health to 8
+			set tool of {_mob} to iron sword
+			apply regeneration 2 to {_mob} for 2 minutes
+		
+# SYSTEM - drop custom items
+# SYSTEM - drop custom items
+# SYSTEM - drop custom items
+
+on death of Zombie:
+	if victim's name is "&d&lʟᴇᴠᴇʟ 1 &fZombie":
+		remove 1 from {arena1mobs}
+		clear drops
+		chance of 30%:
+			drop a stick with custom model data 205 named "&f &f20" at victim
+		chance of 15%:
+			drop a stick with custom model data 205 named "&f &f30" at victim
+		chance of 10%:
+			drop a stick with custom model data 205 named "&f &f40" at victim
+		chance of 5%:
+			drop a stick with custom model data 205 named "&f &f50" at victim
+		chance of 3%:
+			set {_item} to stick
+			set name of {_item} to "&f"
+			set the 1nd line of the lore of {_item} to "&7ɪᴛ ᴄᴀɴ ʙᴇ ᴜꜱᴇᴅ ᴛᴏ ᴇɴᴛᴇʀ"
+			set the 2nd line of the lore of {_item} to "&7ᴛʜᴇ ᴇᴀꜱʏ ᴅᴜɴɢᴇᴏɴ ᴀʀᴇɴᴀ"
+			set the 4nd line of the lore of {_item} to "&8ɢɪᴠᴇ ᴛʜɪs ᴋᴇʏ ᴛᴏ ᴛʜʏʀᴀ"
+			set custom model data of {_item} to 145
+			drop 1 of {_item}  at victim
+	else if victim's name is "&d&lʟᴇᴠᴇʟ 2 &fZombie":
+		remove 1 from {arena1mobs}
+		clear drops
+		chance of 30%:
+			drop a stick with custom model data 205 named "&f &f50" at victim
+		chance of 15%:
+			drop a stick with custom model data 205 named "&f &f60" at victim
+		chance of 10%:
+			drop a stick with custom model data 205 named "&f &f80" at victim
+		chance of 5%:
+			drop a stick with custom model data 205 named "&f &f100" at victim
+		chance of 4%:
+			set {_item} to stick
+			set name of {_item} to "&f"
+			set the 1nd line of the lore of {_item} to "&7ɪᴛ ᴄᴀɴ ʙᴇ ᴜꜱᴇᴅ ᴛᴏ ᴇɴᴛᴇʀ"
+			set the 2nd line of the lore of {_item} to "&7ᴛʜᴇ ᴇᴀꜱʏ ᴅᴜɴɢᴇᴏɴ ᴀʀᴇɴᴀ"
+			set the 4nd line of the lore of {_item} to "&8ɢɪᴠᴇ ᴛʜɪs ᴋᴇʏ ᴛᴏ ᴛʜʏʀᴀ"
+			set custom model data of {_item} to 145
+			drop 1 of {_item}  at victim
+	else if victim's name is "&d&lʟᴇᴠᴇʟ 3 &fZombie":
+		remove 1 from {arena1mobs}
+		clear drops
+		chance of 30%:
+			drop a stick with custom model data 205 named "&f &f80" at victim
+		chance of 15%:
+			drop a stick with custom model data 205 named "&f &f100" at victim
+		chance of 10%:
+			drop a stick with custom model data 205 named "&f &f120" at victim
+		chance of 5%:
+			drop a stick with custom model data 205 named "&f &f150" at victim
+		chance of 5%:
+			drop 2 golden apple at victim
+		chance of 3%:
+			drop a iron shovel of sharpness 3 at victim
+		chance of 3%:
+			drop a chainmail leggings of protection 4 at victim
+		chance of 2%:
+			drop 5 diamonds at victim
+		chance of 2%:
+			drop 1 netherite ingot at victim
+		chance of 3%:
+			set {_item} to stick
+			set name of {_item} to "&f"
+			set the 1nd line of the lore of {_item} to "&7ɪᴛ ᴄᴀɴ ʙᴇ ᴜꜱᴇᴅ ᴛᴏ ᴇɴᴛᴇʀ"
+			set the 2nd line of the lore of {_item} to "&7ᴛʜᴇ ᴍᴇᴅɪᴜᴍ ᴅᴜɴɢᴇᴏɴ ᴀʀᴇɴᴀ"
+			set the 4nd line of the lore of {_item} to "&8ɢɪᴠᴇ ᴛʜɪs ᴋᴇʏ ᴛᴏ ᴛʜʏʀᴀ"	
+			set custom model data of {_item} to 146
+			drop 1 of {_item}  at victim
+	else if victim's name is "&d&lʟᴇᴠᴇʟ 4 &fZombie":
+		remove 1 from {arena1mobs}
+		clear drops
+		chance of 30%:
+			drop a stick with custom model data 205 named "&f &f150" at victim
+		chance of 15%:
+			drop a stick with custom model data 205 named "&f &f170" at victim
+		chance of 10%:
+			drop a stick with custom model data 205 named "&f &f200" at victim
+		chance of 5%:
+			drop a stick with custom model data 205 named "&f &f250" at victim
+		chance of 3%:
+			drop a diamond pickaxe of sharpness 3 at victim
+		chance of 3%:
+			drop a iron leggings of protection 3 at victim
+		chance of 5%:
+			drop a iron helmet at victim
+		chance of 2%:
+			drop 2 iron blocks at victim
+		chance of 2%:
+			drop 1 netherite ingot at victim
+		chance of 5%:
+			set {_item} to stick
+			set name of {_item} to "&f"
+			set the 1nd line of the lore of {_item} to "&7ɪᴛ ᴄᴀɴ ʙᴇ ᴜꜱᴇᴅ ᴛᴏ ᴇɴᴛᴇʀ"
+			set the 2nd line of the lore of {_item} to "&7ᴛʜᴇ ᴍᴇᴅɪᴜᴍ ᴅᴜɴɢᴇᴏɴ ᴀʀᴇɴᴀ"
+			set the 4nd line of the lore of {_item} to "&8ɢɪᴠᴇ ᴛʜɪs ᴋᴇʏ ᴛᴏ ᴛʜʏʀᴀ"	
+			set custom model data of {_item} to 146
+			drop 1 of {_item}  at victim
+	else if victim's name is "&d&lʟᴇᴠᴇʟ 5 &fZombie":
+		remove 1 from {arena1mobs}
+		clear drops
+		chance of 30%:
+			drop a stick with custom model data 205 named "&f &f200" at victim
+		chance of 15%:
+			drop a stick with custom model data 205 named "&f &f250" at victim
+		chance of 10%:
+			drop a stick with custom model data 205 named "&f &f300" at victim
+		chance of 4%:
+			drop a netherite hoe of sharpness 8 at victim
+		chance of 6%:
+			drop a diamond chestplate of protection 2 at victim
+		chance of 6%:
+			drop a diamond boots of protection 2 at victim
+		chance of 4%:
+			drop 8 diamonds at victim
+		chance of 4%:
+			drop 1 netherite ingot at victim
+		chance of 4%:
+			set {_random2} to a random integer between 1 and 2
+			if {_random2} is 2:
+				set {_item} to stick
+				set name of {_item} to "&f"
+				set the 1nd line of the lore of {_item} to "&7ɪᴛ ᴄᴀɴ ʙᴇ ᴜꜱᴇᴅ ᴛᴏ ᴇɴᴛᴇʀ"
+				set the 2nd line of the lore of {_item} to "&7ᴛʜᴇ ʜᴀʀᴅ ᴅᴜɴɢᴇᴏɴ ᴀʀᴇɴᴀ"
+				set the 4nd line of the lore of {_item} to "&8ɢɪᴠᴇ ᴛʜɪs ᴋᴇʏ ᴛᴏ ᴛʜʏʀᴀ"	
+				set custom model data of {_item} to 147	
+				drop 1 of {_item}  at victim
+		
+on death of witch:
+	if victim's name is "&e&lᴄᴜsᴛᴏᴍ &fWitch":	
+		remove 1 from {arena2mobs}
+		clear drops
+		set {_random} to a random integer between 1 and 20
+		if {_random} is 1 or 2 or 3 or 4 or 5:
+			drop a stick with custom model data 205 named "&f &f200" at victim
+		if {_random} is 5 or 6 or 7 or 8:
+			drop 2 splash potions of health at victim
+		if {_random} is 4 or 10 or 11 or 12 :
+			drop 1 potions of speed at victim
+		else if {_random} is 13 or 14 or 15 or 16:
+			drop 2 potions of strong regeneration at victim
+		else if {_random} is 17 or 18:
+			drop a stick with custom model data 205 named "&f &f150" at victim
+		else if {_random} is 19:
+			set {_random2} to a random integer between 1 and 10
+			if {_random2} is 4:
+				make console execute command "silkspawners give %attacker% rabbit"
+			else:
+				drop a potions of strong strength at victim
+		
+on death of cave spider:
+	if victim's name is "&e&lᴄᴜsᴛᴏᴍ &fCave Spider":	
+		clear drops
+		set {_random} to a random integer between 1 and 17
+		if {_random} is 1 or 2 or 3 or 4 or 5:
+			drop a stick with custom model data 205 named "&f &f120" at victim
+		else if {_random} is 6 or 7 or 8 or 9:
+			drop a stick with custom model data 205 named "&f &f150" at victim
+		else if {_random} is 10 or 11 or 12:
+			drop a stick with custom model data 205 named "&f &f170" at victim
+		if {_random} is 1 or 13 or 14:
+			drop a stick with custom model data 205 named "&f &f200" at victim
+		if {_random} is 14 or 15 or 16:
+			drop 2 golden apple at victim
+		else if {_random} is 17:
+			set {_random2} to a random integer between 1 and 2
+			if {_random2} is 2:
+				set {_item} to stick
+				set name of {_item} to "&f"
+				set the 1nd line of the lore of {_item} to "&7ɪᴛ ᴄᴀɴ ʙᴇ ᴜꜱᴇᴅ ᴛᴏ ᴇɴᴛᴇʀ"
+				set the 2nd line of the lore of {_item} to "&7ᴛʜᴇ ʜᴀʀᴅ ᴅᴜɴɢᴇᴏɴ ᴀʀᴇɴᴀ"
+				set the 4nd line of the lore of {_item} to "&8ɢɪᴠᴇ ᴛʜɪs ᴋᴇʏ ᴛᴏ ᴛʜʏʀᴀ"	
+				set custom model data of {_item} to 147	
+				drop 1 of {_item}  at victim
+		
+on death of vindicator:
+	if victim's name is "&e&lᴄᴜsᴛᴏᴍ &fVindicator":	
+		remove 1 from {arena2mobs}
+		clear drops
+		set {_random} to a random integer between 1 and 20
+		if {_random} is 1 or 2 or 3 or 4 or 5 or 6 or 8:
+			drop a stick with custom model data 205 named "&f &f170" at victim
+		if {_random} is 6 or 7:
+			drop a iron axe of sharpness 3 at victim
+		if {_random} is 9 or 10 or 11 or 12 or 13:
+			drop a stick with custom model data 205 named "&f &f200" at victim
+		else if {_random} is 14 or 15 or 16:
+			drop a stick with custom model data 205 named "&f &f300" at victim
+		else if {_random} is 17 or 18:
+			drop a iron axe of sharpness 4 at victim
+		else if {_random} is 19 or 20:
+			set {_random2} to a random integer between 1 and 8
+			if {_random2} is 7:
+				make console execute command "silkspawners give %attacker% zombie"
+			else:
+				drop 3 golden apple at victim
+		else if {_random} is 20:
+			set {_item} to stick
+			set name of {_item} to "&f"
+			set the 1nd line of the lore of {_item} to "&7ɪᴛ ᴄᴀɴ ʙᴇ ᴜꜱᴇᴅ ᴛᴏ ᴇɴᴛᴇʀ"
+			set the 2nd line of the lore of {_item} to "&7ᴛʜᴇ ʜᴀʀᴅ ᴅᴜɴɢᴇᴏɴ ᴀʀᴇɴᴀ"
+			set the 4nd line of the lore of {_item} to "&8ɢɪᴠᴇ ᴛʜɪs ᴋᴇʏ ᴛᴏ ᴛʜʏʀᴀ"	
+			set custom model data of {_item} to 147	
+			drop 1 of {_item}  at victim
+
+on death of pillager:
+	if victim's name is "&e&lᴄᴜsᴛᴏᴍ &fPillager":
+		clear drops
+		remove 1 from {arena2mobs}
+		set {_random} to a random integer between 1 and 10
+		if {_random} is 1 or 2 or 3 or 4:
+			drop a stick with custom model data 205 named "&f &f250" at victim
+		else if {_random} is 5 or 6 or 7:
+			drop 2 stick with custom model data 205 named "&f &f170" at victim
+		else if {_random} is 8 or 9:
+			drop 3 golden apple at victim	
+		else if {_random} is 10:
+			set {_random2} to a random integer between 1 and 5
+			if {_random2} is 4:
+				make console execute command "backpack give %attacker% Backpack5"
+			else:
+				drop a crossbow of quick charge 1 and multishot and piercing 3
+		
+on death of silverfish:
+	if victim's name is "&e&lᴄᴜsᴛᴏᴍ &fSilverfish":	
+		clear drops
+		set {_random} to a random integer between 1 and 20
+		if {_random} is 1:
+			drop 3 golden apple at victim	
+		else if {_random} is 2 or 3 or 4 or 5 or 6:
+			drop a stick with custom model data 205 named "&f &f100" at victim
+		if {_random} is 6 or 7 or 8 or 9 or 10:
+			drop 3 iron ingot at victim
+		if {_random} is 10 or 11 or 12 or 13:
+			drop 15 cooked pork at victim
+		if {_random} is 1 or 14 or 15 or 16:
+			drop 16 quartz  at victim
+		else if {_random} is 17 or 18:
+			drop a stick with custom model data 205 named "&f &f150" at victim
+		else if {_random} is 19:
+			drop a iron block  at victim
+		else if {_random} is 20:
+			set {_item} to stick
+			set name of {_item} to "&f"
+			set the 1nd line of the lore of {_item} to "&7ɪᴛ ᴄᴀɴ ʙᴇ ᴜꜱᴇᴅ ᴛᴏ ᴇɴᴛᴇʀ"
+			set the 2nd line of the lore of {_item} to "&7ᴛʜᴇ ᴍᴇᴅɪᴜᴍ ᴅᴜɴɢᴇᴏɴ ᴀʀᴇɴᴀ"
+			set the 4nd line of the lore of {_item} to "&8ɢɪᴠᴇ ᴛʜɪs ᴋᴇʏ ᴛᴏ ᴛʜʏʀᴀ"	
+			set custom model data of {_item} to 146
+			drop 1 of {_item}  at victim
+		
+on death of drowned:
+	if victim's name is "&e&lᴄᴜsᴛᴏᴍ &fDrowned":	
+		remove 1 from {arena2mobsg}
+		clear drops
+		set {_random} to a random integer between 1 and 19
+		if {_random} is 1 or 2 or 3 or 4:
+			drop a stick with custom model data 205 named "&f &f150" at victim
+		else if {_random} is 5 or 6 or 7 or 8:
+			drop a stick with custom model data 205 named "&f &f170" at victim
+		else if {_random} is 9 or 10 or 11 or 12:
+			drop a stick with custom model data 205 named "&f &f200" at victim
+		if {_random} is 1 or 13 or 14 or 15 or 16:
+			drop 4 diamond at victim
+		else if {_random} is 17 or 18:
+			drop a diamond chestplate at victim
+		else if {_random} is 19:
+			set {_random2} to a random integer between 1 and 2
+			if {_random2} is 2:
+				drop a trident at victim
+			else:
+				drop 2 netherite ingot at victim
+		
+on death of guardian:
+	if victim's name is "&e&lᴄᴜsᴛᴏᴍ &fGuardian":	
+		remove 1 from {arena2mobsg}
+		clear drops
+		set {_random} to a random integer between 1 and 19
+		if {_random} is 1 or 2 or 3 or 4:
+			drop a stick with custom model data 205 named "&f &f100" at victim
+		if {_random} is 4 or 5 or 6 or 7 or 8:
+			drop a stick with custom model data 205 named "&f &f120" at victim
+		else if {_random} is 9 or 10 or 11 or 12:
+			drop a stick with custom model data 205 named "&f &f150" at victim
+		else if {_random} is 13 or 14 or 15 or 16:
+			drop a stick with custom model data 205 named "&f &f170" at victim
+		else if {_random} is 17 or 18:
+			set {_random2} to a random integer between 1 and 2
+			if {_random2} is 2:
+				set {_item} to stick
+				set name of {_item} to "&f"
+				set the 1nd line of the lore of {_item} to "&7ɪᴛ ᴄᴀɴ ʙᴇ ᴜꜱᴇᴅ ᴛᴏ ᴇɴᴛᴇʀ"
+				set the 2nd line of the lore of {_item} to "&7ᴛʜᴇ ʜᴀʀᴅ ᴅᴜɴɢᴇᴏɴ ᴀʀᴇɴᴀ"
+				set the 4nd line of the lore of {_item} to "&8ɢɪᴠᴇ ᴛʜɪs ᴋᴇʏ ᴛᴏ ᴛʜʏʀᴀ"		
+				set custom model data of {_item} to 147
+				drop 1 of {_item}  at victim
+		else if {_random} is 19:
+			drop a diamond leggings at victim
+
+on death of zombie:
+	if victim's name is "&6&lʙᴏss &fZombie":
+		clear drops
+		remove 1 from {arena3mobs}
+		set {_random} to a random integer between 1 and 12
+		if {_random} is 1 or 2 or 3 or 4 or 5:
+			drop 2 stick with custom model data 205 named "&f &f100" at victim
+			drop 2 stick with custom model data 205 named "&f &f80" at victim
+		if {_random} is 5 or 6 or 7 or 8 or 9:
+			drop 3 potions of strong health at victim
+		if {_random} is 9:
+			drop a netherite boots at victim
+		else if {_random} is 10:
+			set {_item} to stick
+			set name of {_item} to "&f"
+			set the 1nd line of the lore of {_item} to "&7ɪᴛ ᴄᴀɴ ʙᴇ ᴜꜱᴇᴅ ᴛᴏ ᴇɴᴛᴇʀ"
+			set the 2nd line of the lore of {_item} to "&7ᴛʜᴇ ʜᴀʀᴅ ᴅᴜɴɢᴇᴏɴ ᴀʀᴇɴᴀ"
+			set the 4nd line of the lore of {_item} to "&8ɢɪᴠᴇ ᴛʜɪs ᴋᴇʏ ᴛᴏ ᴛʜʏʀᴀ"	
+			set custom model data of {_item} to 147	
+			drop 1 of {_item}  at victim
+		else if {_random} is 11 or 12:
+			set {_random2} to a random integer between 1 and 10
+			if {_random2} is 5:
+				make console execute command "silkspawners give %attacker% skeleton"
+			else if {_random2} is 1 or 2 or 3 or 4:
+				drop a netherite chestplate of protection 3 at victim
+			else:
+				drop a netherite ingot at victim
+
+on death of stray:
+	if victim's name is "&e&lᴄᴜsᴛᴏᴍ &fStray":
+		clear drops
+		remove 1 from {arena3mobs}
+		set {_random} to a random integer between 1 and 10
+		if {_random} is 1 or 2 or 3 or 4:
+			drop 1 stick with custom model data 205 named "&f &f300" at victim
+		else if {_random} is 5:
+			drop a bow of power 5 at victim
+		else if {_random} is 6 or 7 or 8:
+			drop 12 long weakness tipped arrow at victim
+		if {_random} is 8 or 9:
+			drop 2 potions of strong strength at victim
+		if {_random} is 1 or 5 or 10:
+			drop 3 golden apple at victim
+
+on death of bogged:
+	if victim's name is "&e&lᴄᴜsᴛᴏᴍ &fBogged":
+		clear drops
+		remove 1 from {arena3mobs}
+		set {_random} to a random integer between 1 and 11
+		if {_random} is 1 or 2 or 3 or 4:
+			drop 1 stick with custom model data 205 named "&f &f300" at victim
+		else if {_random} is 5:
+			drop a bow of power 5 at victim
+		else if {_random} is 6 or 7 or 8:
+			drop 12 long poison tipped arrow at victim
+		else if {_random} is 9:
+			set {_item} to stick
+			set name of {_item} to "&f"
+			set the 1nd line of the lore of {_item} to "&7ɪᴛ ᴄᴀɴ ʙᴇ ᴜꜱᴇᴅ ᴛᴏ ᴇɴᴛᴇʀ"
+			set the 2nd line of the lore of {_item} to "&7ᴛʜᴇ ʜᴀʀᴅ ᴅᴜɴɢᴇᴏɴ ᴀʀᴇɴᴀ"
+			set the 4nd line of the lore of {_item} to "&8ɢɪᴠᴇ ᴛʜɪs ᴋᴇʏ ᴛᴏ ᴛʜʏʀᴀ"	
+			set custom model data of {_item} to 147	
+			drop 1 of {_item}  at victim
+		else if {_random} is 10:
+			drop a name tag at victim
+		else if {_random} is 11:
+			drop a netherite helmet at victim
+
+on death of breeze:
+	if victim's name is "&e&lᴄᴜsᴛᴏᴍ &fBreeze":
+		clear drops
+		remove 1 from {arena3mobs}
+		set {_random} to a random integer between 1 and 16
+		if {_random} is 1 or 2 or 3 or 4:
+			drop a stick with custom model data 205 named "&f &f300" at victim
+			drop a stick with custom model data 205 named "&f &f100" at victim
+		if {_random} is 13 or 14 or 15 or 16:
+			drop a stick with custom model data 205 named "&f &f500" at victim
+			drop 2 stick with custom model data 205 named "&f &f200" at victim
+		else if {_random} is 5:
+			drop a netherite helmet at victim
+		else if {_random} is 6 or 7:
+			drop 3 golden apple at victim
+		else if {_random} is 8:
+			chance of 20%:
+				drop a netherite chestplate of fire protection 3 at victim
+		else if {_random} is 9 or 10:
+			drop 5 breeze rod at victim
+		else if {_random} is 11:
+			drop 3 stick with custom model data 205 named "&f &f500" at victim
+		else if {_random} is 12:
+			set {_random2} to a random integer between 1 and 5
+			if {_random2} is 2:
+				drop a mace at victim
+			else if {_random2} is 3:
+				drop a enchanted book of mending at victim
+			else:
+				drop a ominous trial key at victim
+
+on death of wither skeleton:
+	if victim's name is "&e&lᴄᴜsᴛᴏᴍ &fWither Skeleton":
+		clear drops
+		remove 1 from {arena3mobs}
+		set {_random} to a random integer between 1 and 11
+		if {_random} is 1 or 2 or 10 or 11:
+			drop a stick with custom model data 205 named "&f &f350" at victim
+		else if {_random} is 3 or 4 or 8:
+			drop a stick with custom model data 205 named "&f &f500" at victim
+		if {_random} is 4 or 5 or 6 or 8:
+			drop 2 splash potions of strong regeneration at victim
+			drop a splash potions of fire resistance at victim
+			drop a splash potions of speed at victim
+		else if {_random} is 7:
+			drop 10 diamonds at victim
+		else if {_random} is 9:
+			set {_random2} to a random integer between 1 and 5
+			if {_random2} is 2:
+				make console execute command "silkspawners give %attacker% blaze"
+			else:
+				drop a wither skeleton skull at victim
+		
+
+on death of evoker:
+	if victim's name is "&e&lᴄᴜsᴛᴏᴍ &fEvoker":
+		clear drops
+		remove 1 from {arena3mobs}
+		set {_random} to a random integer between 1 and 12
+		if {_random} is 1 or 2 or 3 or 4 or 7:
+			drop 2 stick with custom model data 205 named "&f &f350" at victim
+		else if {_random} is 5 or 6:
+			drop a saddle at victim
+		else if {_random} is 8 or 9:
+			drop a diamond horse armor at victim
+		else if {_random} is 10:
+			drop a netherite axe of sharpness 3 at victim
+		else if {_random} is 11:
+			set {_item} to stick
+			set name of {_item} to "&f"
+			set the 1nd line of the lore of {_item} to "&7ɪᴛ ᴄᴀɴ ʙᴇ ᴜꜱᴇᴅ ᴛᴏ ᴇɴᴛᴇʀ"
+			set the 2nd line of the lore of {_item} to "&7ᴛʜᴇ ʜᴀʀᴅ ᴅᴜɴɢᴇᴏɴ ᴀʀᴇɴᴀ"
+			set the 4nd line of the lore of {_item} to "&8ɢɪᴠᴇ ᴛʜɪs ᴋᴇʏ ᴛᴏ ᴛʜʏʀᴀ"	
+			set custom model data of {_item} to 147	
+			drop 1 of {_item}  at victim
+		else if {_random} is 12:
+			set {_random2} to a random integer between 1 and 5
+			if {_random2} is 1 or 3:
+				drop a beacon at victim
+			else if {_random2} is 2:
+				drop a elytra at victim
+			else:
+				drop a totem of undying at victim
+
+on death of endermite:
+	if victim's name is "&e&lᴄᴜsᴛᴏᴍ &fEndermite":
+		clear drops
+		set {_random} to a random integer between 1 and 20
+		if {_random} is 1 or 2 or 3 or 4:
+			drop 3 ender pearl at victim
+		else if {_random} is 5 or 6 or 7 or 8 or 9 or 10:
+			drop 3 stick with custom model data 205 named "&f &f80" at victim
+		else if {_random} is 11 or 12 or 13 or 14 or 15 or 16 or 17:
+			drop a stick with custom model data 205 named "&f &f250" at victim
+		else if {_random} is 18 or 19:
+			add 3 to attacker's health
+		else if {_random} is 20:
+			drop a netherite ingot at victim
+		
+on death of ghast:
+	if victim's name is "&e&lᴄᴜsᴛᴏᴍ &fGhast":
+		clear drops
+		remove 1 from {arena3mobsg}
+		set {_random} to a random integer between 1 and 9
+		if {_random} is 1 or 2 or 3:
+			drop 8 golden ingot at victim
+		else if {_random} is 4 or 5:
+			drop 5 diamonds at victim
+		else if {_random} is 6 or 7:
+			drop 15 iron ingot at victim
+		else if {_random} is 8:
+			set {_random2} to a random integer between 1 and 5
+			if {_random2} is 5:
+				make console execute command "silkspawners give %attacker% hoglin"
+			else:
+				drop a netherite ingot at victim
+		else if {_random} is 9:
+			chance of 30%:
+				drop a netherite leggings at victim
+		
+		
+# SYSTEM - OTHERS
+# SYSTEM - OTHERS
+# SYSTEM - OTHERS
+
+on death of player:
+	if "%region at victim%" contains "arena":
+		clear drops
+
+on right click with stick:
+	if name of tool of player is "&f &f20":
+		make console execute command "/eco give %player% 20"
+		remove 1 of tool of player from player's inventory
+	else if name of tool of player is "&f &f30":
+		make console execute command "/eco give %player% 30"
+		remove 1 of tool of player from player's inventory
+	else if name of tool of player is "&f &f40":
+		make console execute command "/eco give %player% 40"
+		remove 1 of tool of player from player's inventory
+	else if name of tool of player is "&f &f50":
+		make console execute command "/eco give %player% 50"
+		remove 1 of tool of player from player's inventory
+	else if name of tool of player is "&f &f60":
+		make console execute command "/eco give %player% 60"
+		remove 1 of tool of player from player's inventory
+	else if name of tool of player is "&f &f80":
+		make console execute command "/eco give %player% 80"
+		remove 1 of tool of player from player's inventory
+	else if name of tool of player is "&f &f100":
+		make console execute command "/eco give %player% 100"
+		remove 1 of tool of player from player's inventory
+	else if name of tool of player is "&f &f120":
+		make console execute command "/eco give %player% 120"
+		remove 1 of tool of player from player's inventory
+	else if name of tool of player is "&f &f150":
+		make console execute command "/eco give %player% 150"
+		remove 1 of tool of player from player's inventory
+	else if name of tool of player is "&f &f170":
+		make console execute command "/eco give %player% 170"
+		remove 1 of tool of player from player's inventory
+	else if name of tool of player is "&f &f200":
+		make console execute command "/eco give %player% 200"
+		remove 1 of tool of player from player's inventory
+	else if name of tool of player is "&f &f250":
+		make console execute command "/eco give %player% 250"
+		remove 1 of tool of player from player's inventory
+	else if name of tool of player is "&f &f300":
+		make console execute command "/eco give %player% 300"
+		remove 1 of tool of player from player's inventory
+	else if name of tool of player is "&f &f350":
+		make console execute command "/eco give %player% 350"
+		remove 1 of tool of player from player's inventory
+	else if name of tool of player is "&f &f500":
+		make console execute command "/eco give %player% 500"
+		remove 1 of tool of player from player's inventory
+		
+		
+on load:
+	if {arena1mobs} is not set:
+		set {arena1mobs} to 0
+	if {arena2mobs} is not set:
+		set {arena2mobs} to 0
+	if {arena2mobsg} is not set:
+		set {arena2mobsg} to 0
+	if {arena3mobs} is not set:
+		set {arena3mobs} to 0	
+	if {arena3mobsg} is not set:
+		set {arena3mobsg} to 0	

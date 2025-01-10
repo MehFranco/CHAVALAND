@@ -1,0 +1,177 @@
+Cook:
+  fullname: Cook
+  shortname: Co
+  description: '&fEarn money by cooking food.'
+  ChatColour: WHITE
+  chat-display: full
+  max-level: 65
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  maxDailyQuests: 1
+  Quests:
+    '1':
+      Name: Baker
+      Objectives:
+      - Craft;Cake;1
+      - Smelt;cooked_porkchop;8
+      RewardCommands:
+      - eco give [playerName] 250
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fCook food and get money'
+      - '&8 ▪ &fGet 250$ for this!'
+    '2':
+      Name: Baker II
+      Objectives:
+      - Craft;Bread;8
+      - Smelt;dried_kelp;2
+      RewardCommands:
+      - eco give [playerName] 300
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fCook food and get money'
+      - '&8 ▪ &fGet 300$ for this!'
+    '3':
+      Name: Chef
+      Objectives:
+      - Craft;Cookie;5
+      - Smelt;cooked_cod;5
+      RewardCommands:
+      - eco give [playerName] 320
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fCook food and get money'
+      - '&8 ▪ &fGet 320$ for this!'
+    '4':
+      Name: Chef II
+      Objectives:
+      - Craft;mushroom_stew;3
+      - Smelt;cooked_chicken;5
+      RewardCommands:
+      - eco give [playerName] 320
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fCook food and get money'
+      - '&8 ▪ &fGet 320$ for this!'
+    '5':
+      Name: Chef III
+      Objectives:
+      - Craft;rabbit_stew;2
+      - Smelt;baked_potato;8
+      RewardCommands:
+      - eco give [playerName] 300
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fCook food and get money'
+      - '&8 ▪ &fGet 300$ for this!'
+    '6':
+      Name: Chef III
+      Objectives:
+      - Craft;honey_bottle;1
+      - Smelt;cooked_mutton;10
+      RewardCommands:
+      - eco give [playerName] 350
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fCook food and get money'
+      - '&8 ▪ &fGet 350$ for this!'
+    '7':
+      Name: Baker III
+      Objectives:
+      - Craft;pumpkin_pie;3
+      - Smelt;cooked_beef;16
+      RewardCommands:
+      - eco give [playerName] 420
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fCook food and get money'
+      - '&8 ▪ &fGet 420$ for this!'
+  Gui:
+    Item: steak
+  Craft:
+    cake:
+      income: 1
+      points: 1
+      experience: 1
+    bread:
+      income: 0.7
+      points: 0.7
+      experience: 0.7
+    cookie:
+      income: 0.9
+      points: 0.9
+      experience: 0.9
+    mushroom_stew:
+      income: 1
+      points: 1
+      experience: 1
+    golden_apple:
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+    sugar:
+      income: 0.6
+      points: 0.6
+      experience: 0.6
+    pumpkin_pie:
+      income: 0.75
+      points: 0.75
+      experience: 0.75
+    golden_carrot:
+      income: 1
+      points: 1
+      experience: 1
+    rabbit_stew:
+      income: 0.9
+      points: 0.9
+      experience: 0.9
+    suspicious_stew:
+      income: 0.9
+      points: 0.9
+      experience: 0.9
+    honey_bottle:
+      income: 0.85
+      points: 0.85
+      experience: 0.85
+  Smelt:
+    cooked_porkchop:
+      income: 0.4
+      points: 0.4
+      experience: 0.4
+    cooked_beef:
+      income: 0.4
+      points: 0.4
+      experience: 0.4
+    cooked_chicken:
+      income: 0.45
+      points: 0.45
+      experience: 0.45
+    cooked_cod:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    cooked_salmon:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    baked_potato:
+      income: 0.45
+      points: 0.45
+      experience: 0.45
+    cooked_mutton:
+      income: 0.45
+      points: 0.45
+      experience: 0.45
+    cooked_rabbit:
+      income: 0.45
+      points: 0.45
+      experience: 0.45
+    dried_kelp:
+      income: 0.45
+      points: 0.45
+      experience: 0.45

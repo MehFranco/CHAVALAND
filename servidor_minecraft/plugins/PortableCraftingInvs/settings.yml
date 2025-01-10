@@ -1,0 +1,296 @@
+# #######################################################################################
+#                                                                                      #
+#                        _____      _   _   _                                          #
+#                       / ____|    | | | | (_)                                         #
+#                      | (___   ___| |_| |_ _ _ __   __ _ ___                          #
+#                       \___ \ / _ \ __| __| | '_ \ / _` / __|                         #
+#                       ____) |  __/ |_| |_| | | | | (_| \__ \                         #
+#                      |_____/ \___|\__|\__|_|_| |_|\__, |___/                         #
+#                                                    __/ |                             #
+#                                                   |___/                              #
+#                                                                                      #
+# #######################################################################################
+#
+# This file can be used to enable or disable all parts of the plugin.
+#
+# If you have questions you can post an issue on GitHub
+# (https://github.com/itsschatten/portablecraftinginvs/issues) Also helpful if you want to
+# see the code for the plugin.
+# You may also join my Discord support server. (https://discord.gg/BmWrNam7Sp)
+
+# This attempts to migrate some information to a newer format so your players don't lose any items.
+attempt-migration-at-start: true
+
+# I do not recommend you enable this unless you want to have your console be filled with messages.
+debug: false
+
+# Don't like all of that flooding in your console when the plugin boots? This is the setting for you!
+# Note: In an effort to be transparent we still log that we are collecting metrics if that setting is enabled.
+# We also will log when a new update is available, so you can always use the latest version.
+silent-start: false
+
+# If this is set to true, and you add more than the required amount of arguments,
+# the plugin will send you a message saying so.
+use-too-many-args: true
+
+# If this is set to true, when there is an update to the plugin admins with the correct
+# permissions (pci.update) and console will be notified. You can set a custom message
+# in the message.yml if you want.
+use-updater: true
+
+# Set the interval that we should check for updates, IN MINUTES. By default, this is 30.
+update-check-interval: 30
+
+# If this option is set to true the plugin will not register specific commands if the feature is disabled to allow
+# Essentials to handle those commands, if false we will register the commands to allow the sending of the feature
+# disabled message.
+allow-essentials: false
+
+# If this is set to false we will not send any messages when commands are run.
+use-messages: true
+
+# If a user was to use the command /pci and not provide any arguments to the command,
+# we send the help message along with the wrong arguments message.
+use-help-if-no-args: true
+
+# Have you ever not wanted to fiddle with those nasty complicated looking permissions?
+# Well now you don't have to! Simple set this to "false" and all permissions (besides pci.update and pci.reload)
+# will be given to all users by default.
+use-permissions: true
+
+# Should we store furnace data inside a mysql database?
+use-sql: false
+
+# This would would be an IP address or a URL. (default: localhost)
+# If you are unsure what this would be leave it as localhost.
+sql-host: localhost
+
+# The port that your sql server is listening on.
+sql-port: 3306
+
+# The credentials to log into your sql instance.
+sql-user: root
+sql-pass: admin
+
+# The name of the database that we should save our table to.
+sql-database: portablecraftinginvs
+
+# If enabled the plugin will send statistics to BStats. Which you can see here: https://bstats.org/plugin/bukkit/PortableCraftingInvs
+metrics: true
+
+# ------------------------------------------------------------------------------------- #
+#                                                                                       #
+#                                   Crafting Features                                   #
+#                                                                                       #
+# ------------------------------------------------------------------------------------- #
+
+# Enable or disable the use of the /anvil command.
+use-anvil: true
+
+# Enable or disable the use of the /craft command.
+use-crafting: true
+
+# Enable or disable the use of the /brewing command.
+use-brewing: true
+
+# Enable or disable the use of the /furnace command.
+use-furnace: true
+
+# Enable or disable the use of the /blastfurnace command.
+use-blast-furnace: true
+
+# Enable or disable the use of the /smoker command.
+use-smoker: true
+
+# Enable or disable the use of the /enchanttable command.
+use-enchanttable: true
+
+# Enable or disable the ability to define a max level for enchanting.
+allow-max-level-argument: true
+
+# Set the maximum allowed level when it's defined.
+maximum-enchant-level: 30
+
+# Enable or disable the use of the /enderchest command.
+use-enderchest: false
+
+# Should we only allow players to deposit items into their enderchest when using the command?
+ender-chest-restrictions: false
+
+# Enable or disable the old function of the /enderchest command, when true the executor of the command will open the
+# target's enderchest, when false the enderchest will open for the target of the command.
+old-enderchest: false
+
+# Enable or disable the use of the /grindstone command.
+use-grindstone: true
+
+# Enable or disable the use of the /cartography command.
+use-cartography: true
+
+# Enable or disable the use of /loom command.
+use-loom: true
+
+# Enable or disable the use of /stonecutter command.
+use-stonecutter: true
+
+# Enable or disable the use of /smithing command.
+use-smithing-table: true
+
+# ------------------------------------------------------------------------------------- #
+#                                                                                       #
+#                                     Sign Features                                     #
+#                                                                                       #
+# ------------------------------------------------------------------------------------- #
+
+# Enable or disable the use of signs.
+use-signs: false
+
+# Should we only allow players to break signs if they are shift clicking?
+require-shift-click-to-break-signs: true
+
+# Enable or disable the anvil sign.
+use-anvil-sign: true
+
+# Enable or disable the blast furnace sign.
+use-blast-furnace-sign: true
+
+# Enable or disable the brewing stand sign.
+use-brewing-sign: true
+
+# Enable or disable the anvil sign.
+use-cartography-sign: true
+
+# Enable or disable the anvil sign.
+use-crafting-sign: true
+
+# Enable or disable the anvil sign.
+use-enchanttable-sign: true
+
+# Enable or disable the anvil sign.
+use-enderchest-sign: true
+
+# Enable or disable the furnace sign.
+use-furnace-sign: true
+
+# Enable or disable the grindstone sign.
+use-grindstone-sign: true
+
+# Enable or disable the loom sign.
+use-loom-sign: true
+
+# Enable or disable the stonecutter sign.
+use-stonecutter-sign: true
+
+# Enable or disable the smithing table sign.
+use-smithingtable-sign: true
+
+# Enable or disable the smoker sign.
+use-smoker-sign: true
+
+# ------------------------------------------------------------------------------------- #
+#                                                                                       #
+#                                     Enable sounds                                     #
+#                                                                                       #
+# ------------------------------------------------------------------------------------- #
+
+# When true, instead of the default sound playing, we randomize the sound pitch to make it higher or lower.
+use-random-sound-pitch: true
+
+# Enable or disable the sound when opening the anvil with /anvil.
+use-anvil-sounds: false
+
+# Enable or disable the sound when opening the crafting table with /craft.
+use-crafting-sounds: false
+
+# Enable or disable the sound when opening the enchantment table with /enchanttable.
+use-enchanttable-sounds: false
+
+# Enable or disable the sound when opening the enderchest with /enderchest.
+use-enderchest-sounds: true
+
+# Enable or disable the sound when opening the grindstone.
+use-grindstone-sounds: false
+
+# Enable or disable the sound when opening the cartography table.
+use-cartography-sounds: false
+
+# Enable or disable the sound when opening the loom.
+use-loom-sounds: false
+
+# Enable or disable the sound when opening the stone cutter.
+use-stonecutter-sounds: false
+
+# Enable or disable the sound when opening the smithing table.
+use-smithing-table-sounds: false
+
+# ------------------------------------------------------------------------------------- #
+#                                                                                       #
+#                                         Sounds                                        #
+#                                                                                       #
+# Want to use different sounds?                                                         #
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html                        #
+# ------------------------------------------------------------------------------------- #
+
+# This sound is played when opening the anvil using /anvil.
+anvil-open-sound: BLOCK_ANVIL_HIT
+
+# This sound is played when opening the crafting table using /craft.
+crafting-open-sound: BLOCK_WOOD_PLACE
+
+# This sound is played when opening the enchantmenttable using /enchantable.
+enchanttable-open-sound: BLOCK_ENCHANTMENT_TABLE_USE
+
+# This sound is played when opening the enderchest using /enderchest
+enderchest-open-sound: BLOCK_ENDER_CHEST_OPEN
+
+# This sound is played when opening the grindstone.
+grindstone-open-sound: BLOCK_CHEST_OPEN
+
+# This sound is played when opening the loom.
+loom-open-sound: BLOCK_CHEST_OPEN
+
+# This sound is played when opening the cartography table.
+cartography-open-sound: BLOCK_CHEST_OPEN
+
+# This sound is played when opening the stone cutter.
+stonecutter-open-sound: BLOCK_CHEST_OPEN
+
+# This sound is played when opening the smithing table.
+smithing-open-sound: BLOCK_SMITHING_TABLE_USE
+method: YAML
+database:
+  # The address to connect to your SQL database.
+  # You should add the port if it differs from 3306.
+  address: localhost
+  # The username to connect to your database with.
+  username: steve
+  # Your user password.
+  password: ''
+  # The database to connect to where all the tables will be placed.
+  database: minecraft
+  
+  # The prefix to apply to all tables.
+  table-prefix: pci_
+  
+  # Additional configuration for a MySQL (/MariaDB) connection pool.
+  # If you've used LuckPerms, this is basically a carbon copy configuration style.
+  pool-config:
+    # The maximum size of the connection pool (how many connections can be active to the backend database).
+    maximum-pool-size: 10
+    #
+    minimum-idle-connections: 10
+    # Controls how long the lifetime of a connection in the pool is, in milliseconds.
+    maximum-lifetime: 1800000
+    # How frequently the pool will attempt to ping a connection to prevent
+    # it from being timed out by the database or network, in milliseconds.
+    keep-alive-timeout: 0
+    # How long we should wait for a connection before it times out, measured in milliseconds.
+    connection-timeout: 5000
+    
+    # Allows you to define additional properties for the connection pool.
+    properties:
+      useUnicode: true
+      characterEncoding: utf8
+use-virtual-tiles: true
+maximum-brewing-stands: 3
+maximum-furnaces: 3

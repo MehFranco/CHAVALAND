@@ -1,0 +1,281 @@
+ShopName: SurvivalMenu
+DisplayName: '&f⻔⻔⻔⻔⻔⻔⻔⻔'
+Command: Menu
+RemovePlayerInventory: true
+shop:
+  warps:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:STICK
+    - custommodeldata:12
+    - 'lore1:&7ᴛɪʀᴇᴅ ᴏꜰ ᴡᴀʟᴋɪɴɢ? ʏᴏᴜ ᴄᴀɴ#&7ᴜꜱᴇ ᴛʜɪꜱ ᴍᴇɴᴜ ᴛᴏ ɢᴇᴛ ᴛᴏ#&7ᴅɪꜰꜰᴇʀᴇɴᴛ ᴀʀᴇᴀꜱ ꜰᴀꜱᴛᴇʀ'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+    RewardType: SHOP
+    Reward: Warps
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 11
+  kits:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:STICK
+    - custommodeldata:13
+    - 'lore1:&7ᴀ ꜰʀᴇᴇ ᴇǫᴜɪᴘᴍᴇɴᴛ ᴛʜᴀᴛ#&7ʏᴏᴜ ɢᴇᴛ ᴛᴏ ᴍᴀᴋᴇ ʏᴏᴜʀ#&7ᴀᴅᴠᴇɴᴛᴜʀᴇ ᴇᴀsɪᴇʀ' 
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+    RewardType: SHOP
+    Reward: Adventurer
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 17
+  itemshop:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:STICK
+    - custommodeldata:14
+    - 'lore1:&7ʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ ʙᴜʏ ᴏʀ#&7ꜱᴇʟʟ ᴠᴀʀɪᴏᴜꜱ ɪᴛᴇᴍꜱ ᴀᴛ#&7ᴀ ᴘʀᴇᴅᴇᴛᴇʀᴍɪɴᴇᴅ ᴘʀɪᴄᴇ' 
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+    RewardType: SHOP
+    Reward: 1_Select
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 20
+  serverstore:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:17
+    - 'lore1:&7ʙᴜʏ ᴠᴀʀɪᴏᴜꜱ ɪᴛᴇᴍꜱ ᴏʀ#&7ᴇᴠᴇɴ ʀᴀɴᴋꜱ ᴛᴏ ᴀᴅᴠᴀɴᴄᴇ#&7ꜰᴀꜱᴛᴇʀ ᴏɴ ᴛʜᴇ ꜱᴇʀᴠᴇʀ'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+    RewardType: SHOP
+    Reward: StoreSelect
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 26
+  battlepass:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:15
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴅᴏ ᴍɪꜱꜱɪᴏɴꜱ#&7ᴏꜰ ᴠᴀʀɪᴏᴜꜱ ᴅɪꜰꜰɪᴄᴜʟᴛɪᴇꜱ#&7ᴛᴏ ᴜɴʟᴏᴄᴋ ʀᴇᴡᴀʀᴅꜱ'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+    RewardType: SHOP
+    Reward: Battlepass
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 29
+  upgrades:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:16
+    - 'lore1:&7ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ɢᴀᴍᴇ#&7ᴄᴜʀʀᴇɴᴄʏ &8[&f ⻔&8]&7 ᴛᴏ#&7ᴜɴʟᴏᴄᴋ ꜰᴀᴄɪʟɪᴛɪᴇꜱ'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+    RewardType: SHOP
+    Reward: Upgrades
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 35
+#####################################################
+  profile:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:STICK
+    - custommodeldata:1
+    - 'lore1:&7ʏᴏᴜʀ ᴏᴠᴇʀᴀʟʟ ꜱᴛᴀᴛꜱ'  
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+    RewardType: SHOP
+    Reward: Profile
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+  profile_2:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:STICK
+    - custommodeldata:1
+    - 'lore1:&7ʏᴏᴜʀ ᴏᴠᴇʀᴀʟʟ ꜱᴛᴀᴛꜱ'  
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+    RewardType: SHOP
+    Reward: Profile
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 13
+  profile_3:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:STICK
+    - custommodeldata:1
+    - 'lore1:&7ʏᴏᴜʀ ᴏᴠᴇʀᴀʟʟ ꜱᴛᴀᴛꜱ'  
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+    RewardType: SHOP
+    Reward: Profile
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+  profile_4:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:STICK
+    - custommodeldata:1
+    - 'lore1:&7ʏᴏᴜʀ ᴏᴠᴇʀᴀʟʟ ꜱᴛᴀᴛꜱ'  
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+    RewardType: SHOP
+    Reward: Profile
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15
+  profile_5:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:STICK
+    - custommodeldata:1
+    - 'lore1:&7ʏᴏᴜʀ ᴏᴠᴇʀᴀʟʟ ꜱᴛᴀᴛꜱ'  
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+    RewardType: SHOP
+    Reward: Profile
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+##############################
+  guide:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:STICK
+    - custommodeldata:1
+    - 'lore1:&7ɪɴꜰᴏꜱ ᴀʙᴏᴜᴛ ɢᴀᴍᴇᴘʟᴀʏ'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+    RewardType: SHOP
+    Reward: Guide
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 21
+  guide_2:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:STICK
+    - custommodeldata:1
+    - 'lore1:&7ɪɴꜰᴏꜱ ᴀʙᴏᴜᴛ ɢᴀᴍᴇᴘʟᴀʏ'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ' 
+    RewardType: SHOP
+    Reward: Guide
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 22
+  guide_3:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:STICK
+    - custommodeldata:1
+    - 'lore1:&7ɪɴꜰᴏꜱ ᴀʙᴏᴜᴛ ɢᴀᴍᴇᴘʟᴀʏ'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ' 
+    RewardType: SHOP
+    Reward: Guide
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+  guide_4:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:STICK
+    - custommodeldata:1
+    - 'lore1:&7ɪɴꜰᴏꜱ ᴀʙᴏᴜᴛ ɢᴀᴍᴇᴘʟᴀʏ'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ' 
+    RewardType: SHOP
+    Reward: Guide
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 24
+  guide_5:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:STICK
+    - custommodeldata:1
+    - 'lore1:&7ɪɴꜰᴏꜱ ᴀʙᴏᴜᴛ ɢᴀᴍᴇᴘʟᴀʏ'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ' 
+    RewardType: SHOP
+    Reward: Guide
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 25
+##############################
+  settings:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:STICK
+    - custommodeldata:1
+    - 'lore1:&7ᴄʜᴀɴɢᴇ ʏᴏᴜʀ ꜱᴇᴛᴛɪɴɢꜱ'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ' 
+    RewardType: SHOP
+    Reward: Settings
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 30
+  settings_2:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:STICK
+    - custommodeldata:1
+    - 'lore1:&7ᴄʜᴀɴɢᴇ ʏᴏᴜʀ ꜱᴇᴛᴛɪɴɢꜱ'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ' 
+    RewardType: SHOP
+    Reward: Settings
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 31
+  settings_3:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:STICK
+    - custommodeldata:1
+    - 'lore1:&7ᴄʜᴀɴɢᴇ ʏᴏᴜʀ ꜱᴇᴛᴛɪɴɢꜱ'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ' 
+    RewardType: SHOP
+    Reward: Settings
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+  settings_4:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:STICK
+    - custommodeldata:1
+    - 'lore1:&7ᴄʜᴀɴɢᴇ ʏᴏᴜʀ ꜱᴇᴛᴛɪɴɢꜱ'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ' 
+    RewardType: SHOP
+    Reward: Settings
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 33
+  settings_5:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:STICK
+    - custommodeldata:1
+    - 'lore1:&7ᴄʜᴀɴɢᴇ ʏᴏᴜʀ ꜱᴇᴛᴛɪɴɢꜱ'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ' 
+    RewardType: SHOP
+    Reward: Settings
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 34

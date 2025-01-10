@@ -1,0 +1,38 @@
+name: noperm
+permissions:
+- challenge.d.*:
+    value: false
+- challenge.p.*:
+    value: false
+- dreamcore.emoji.*:
+    value: false
+- reward.ready.*:
+    value: false
+- reward.t.*:
+    value: false
+- reward.take.*:
+    value: false
+- rift.ready.*:
+    value: false
+- rift.take.*:
+    value: false
+- battlepass:
+    value: false
+- bukkit.command.paper:
+    value: false
+- bukkit.command.plugins:
+    value: false
+- bukkit.command.reload:
+    value: false
+- bukkit.command.restart:
+    value: false
+- bukkit.command.spigot:
+    value: false
+- bukkit.command.version:
+    value: false
+- interactivechat.chatcolor.translate:
+    value: false
+- interactivechat.customfont.translate:
+    value: false
+- jobs.max.3:
+    value: false

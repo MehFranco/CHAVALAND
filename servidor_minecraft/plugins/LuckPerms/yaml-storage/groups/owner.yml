@@ -1,0 +1,10 @@
+name: owner
+permissions:
+- essentials.*
+- displayname.&#b5114dᴏᴡɴᴇʀ
+- weight.999
+parents:
+- default
+prefixes:
+- '&f#b5114d':
+    priority: 999

@@ -1,0 +1,1081 @@
+ShopName: TheRift2
+DisplayName: '&f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔'
+RemovePlayerInventory: true
+shop:
+  Challenge1Completed:
+    MenuItem:
+    - name:&aʟᴇᴛ'ꜱ ꜱᴛᴀʀᴛ ᴛʜᴇ ʜᴏᴜꜱᴇ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴘʟᴀᴄᴇ'
+    - 'lore2:&732x ᴘʟᴀɴᴋꜱ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 200'
+    - 'lore6:&f ▪ 4 ᴘᴛꜱ'
+    - 'lore8:&f &aᴄᴏᴍᴘʟᴇᴛᴇᴅ'
+    - amount:1
+    - type:stick
+    - custommodeldata:5
+    - enchantment:mending#1
+    - hideflags:HIDE_ENCHANTS
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 19
+    Condition:
+    - type:permission
+    - match:challenge.d.14
+  Challenge1Progression:
+    MenuItem:
+    - name:#ffd75dʟᴇᴛ'ꜱ ꜱᴛᴀʀᴛ ᴛʜᴇ ʜᴏᴜꜱᴇ
+    - 'lore1:&7ʏᴏᴜʀ ᴘʀᴏɢʀᴇꜱꜱ'
+    - 'lore2:#&f- &8%skript_chprogress::{uuid}%/32 ᴘʟᴀɴᴋꜱ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 200'
+    - 'lore6:&f ▪ 4 ᴘᴛꜱ'
+    - 'lore8:&f &6ɪɴ ᴘʀᴏɢʀᴇssɪᴏɴ'
+    - amount:1
+    - type:stick
+    - custommodeldata:7
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 19
+    Condition:
+    - type:permission
+    - match:challenge.p.14
+  Challenge1Start:
+    MenuItem:
+    - name:&aʟᴇᴛ'ꜱ ꜱᴛᴀʀᴛ ᴛʜᴇ ʜᴏᴜꜱᴇ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴘʟᴀᴄᴇ'
+    - 'lore2:&732x ᴘʟᴀɴᴋꜱ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 200'
+    - 'lore6:&f ▪ 4 ᴘᴛꜱ'
+    - 'lore8:&f &eᴄʟɪᴄᴋ ᴛᴏ sᴛᴀʀᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:6
+    RewardType: COMMAND
+    Reward:
+    - ch14 %player%
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 19
+    Condition:
+    - type:permission
+    - match:challenge.d.13
+  Challenge1:
+    MenuItem:
+    - name:#d16046ʟᴇᴛ'ꜱ ꜱᴛᴀʀᴛ ᴛʜᴇ ʜᴏᴜꜱᴇ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴘʟᴀᴄᴇ'
+    - 'lore2:&732x ᴘʟᴀɴᴋꜱ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 200'
+    - 'lore6:&f ▪ 4 ᴘᴛꜱ'
+    - 'lore8:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:4
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 19
+ ##############################################
+  Challenge2Completed:
+    MenuItem:
+    - name:&aɴᴏ ᴅᴀʀᴋɴᴇꜱꜱ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴄʀᴀꜰᴛ'
+    - 'lore2:&724x ᴛᴏʀᴄʜ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 200'
+    - 'lore6:&f ▪ 4 ᴘᴛꜱ'
+    - 'lore8:&f &aᴄᴏᴍᴘʟᴇᴛᴇᴅ'
+    - amount:1
+    - type:stick
+    - custommodeldata:5
+    - enchantment:mending#1
+    - hideflags:HIDE_ENCHANTS
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 11
+    Condition:
+    - type:permission
+    - match:challenge.d.15
+  Challenge2Progression:
+    MenuItem:
+    - name:#ffd75dɴᴏ ᴅᴀʀᴋɴᴇꜱꜱ
+    - 'lore1:&7ʏᴏᴜʀ ᴘʀᴏɢʀᴇꜱꜱ'
+    - 'lore2:#&f- &8%skript_chprogress::{uuid}%/24 ᴛᴏʀᴄʜ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 200'
+    - 'lore6:&f ▪ 4 ᴘᴛꜱ'
+    - 'lore8:&f &6ɪɴ ᴘʀᴏɢʀᴇssɪᴏɴ'
+    - amount:1
+    - type:stick
+    - custommodeldata:7
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 11
+    Condition:
+    - type:permission
+    - match:challenge.p.15
+  Challenge2Start:
+    MenuItem:
+    - name:&aɴᴏ ᴅᴀʀᴋɴᴇꜱꜱ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴄʀᴀꜰᴛ'
+    - 'lore2:&724x ᴛᴏʀᴄʜ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 200'
+    - 'lore6:&f ▪ 4 ᴘᴛꜱ'
+    - 'lore8:&f &eᴄʟɪᴄᴋ ᴛᴏ sᴛᴀʀᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:6
+    RewardType: COMMAND
+    Reward:
+    - ch15 %player%
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 11
+    Condition:
+    - type:permission
+    - match:challenge.d.14
+  Challenge2:
+    MenuItem:
+    - name:#d16046ɴᴏ ᴅᴀʀᴋɴᴇꜱꜱ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴄʀᴀꜰᴛ'
+    - 'lore2:&724x ᴛᴏʀᴄʜ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 200'
+    - 'lore6:&f ▪ 4 ᴘᴛꜱ'
+    - 'lore8:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:4
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 11
+ ##############################################
+  Challenge3Completed:
+    MenuItem:
+    - name:&aᴘʀᴏᴛᴇɪɴ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴋɪʟʟ'
+    - 'lore2:&74x ᴘɪɢꜱ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 250'
+    - 'lore6:&f ▪ 5 ᴘᴛꜱ'
+    - 'lore8:&f &aᴄᴏᴍᴘʟᴇᴛᴇᴅ'
+    - amount:1
+    - type:stick
+    - custommodeldata:5
+    - enchantment:mending#1
+    - hideflags:HIDE_ENCHANTS
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+    Condition:
+    - type:permission
+    - match:challenge.d.16
+  Challenge3Progression:
+    MenuItem:
+    - name:#ffd75dᴘʀᴏᴛᴇɪɴ
+    - 'lore1:&7ʏᴏᴜʀ ᴘʀᴏɢʀᴇꜱꜱ'
+    - 'lore2:#&f- &8%skript_chprogress::{uuid}%/4 ᴘɪɢꜱ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 250'
+    - 'lore6:&f ▪ 5 ᴘᴛꜱ'
+    - 'lore8:&f &6ɪɴ ᴘʀᴏɢʀᴇssɪᴏɴ'
+    - amount:1
+    - type:stick
+    - custommodeldata:7
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+    Condition:
+    - type:permission
+    - match:challenge.p.16
+  Challenge3Start:
+    MenuItem:
+    - name:&aᴘʀᴏᴛᴇɪɴ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴋɪʟʟ'
+    - 'lore2:&74x ᴘɪɢꜱ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 250'
+    - 'lore6:&f ▪ 5 ᴘᴛꜱ'
+    - 'lore8:&f &eᴄʟɪᴄᴋ ᴛᴏ sᴛᴀʀᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:6
+    RewardType: COMMAND
+    Reward:
+    - ch16 %player%
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+    Condition:
+    - type:permission
+    - match:challenge.d.15
+  Challenge3:
+    MenuItem:
+    - name:#d16046ᴘʀᴏᴛᴇɪɴ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴋɪʟʟ'
+    - 'lore2:&74x ᴘɪɢꜱ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 250'
+    - 'lore6:&f ▪ 5 ᴘᴛꜱ'
+    - 'lore8:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:4
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+ ##############################################
+  Challenge4Completed:
+    MenuItem:
+    - name:&aᴡᴇ ɢɪᴠᴇ ʟɪꜰᴇ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴘʟᴀɴᴛ'
+    - 'lore2:&78x ꜱᴀᴘʟɪɴɢ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 250'
+    - 'lore6:&f ▪ 5 ᴘᴛꜱ'
+    - 'lore8:&f &aᴄᴏᴍᴘʟᴇᴛᴇᴅ'
+    - amount:1
+    - type:stick
+    - custommodeldata:5
+    - enchantment:mending#1
+    - hideflags:HIDE_ENCHANTS
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+    Condition:
+    - type:permission
+    - match:challenge.d.17
+  Challenge4Progression:
+    MenuItem:
+    - name:#ffd75dᴡᴇ ɢɪᴠᴇ ʟɪꜰᴇ
+    - 'lore1:&7ʏᴏᴜʀ ᴘʀᴏɢʀᴇꜱꜱ'
+    - 'lore2:#&f- &8%skript_chprogress::{uuid}%/8 ꜱᴀᴘʟɪɴɢ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 250'
+    - 'lore6:&f ▪ 5 ᴘᴛꜱ'
+    - 'lore8:&f &6ɪɴ ᴘʀᴏɢʀᴇssɪᴏɴ'
+    - amount:1
+    - type:stick
+    - custommodeldata:7
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+    Condition:
+    - type:permission
+    - match:challenge.p.17
+  Challenge4Start:
+    MenuItem:
+    - name:&aᴡᴇ ɢɪᴠᴇ ʟɪꜰᴇ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴘʟᴀɴᴛ'
+    - 'lore2:&78x ꜱᴀᴘʟɪɴɢ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 250'
+    - 'lore6:&f ▪ 5 ᴘᴛꜱ'
+    - 'lore8:&f &eᴄʟɪᴄᴋ ᴛᴏ sᴛᴀʀᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:6
+    RewardType: COMMAND
+    Reward:
+    - ch17 %player%
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+    Condition:
+    - type:permission
+    - match:challenge.d.16
+  Challenge4:
+    MenuItem:
+    - name:#d16046ᴡᴇ ɢɪᴠᴇ ʟɪꜰᴇ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴘʟᴀɴᴛ'
+    - 'lore2:&78x ꜱᴀᴘʟɪɴɢ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 250'
+    - 'lore6:&f ▪ 5 ᴘᴛꜱ'
+    - 'lore8:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:4
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+ ##############################################
+  Challenge5Completed:
+    MenuItem:
+    - name:&aʙᴇ ᴄᴀʀᴇꜰᴜʟ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴋɪʟʟ'
+    - 'lore2:&73x ᴘʟᴀʏᴇʀꜱ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 400'
+    - 'lore6:&f ▪ 8 ᴘᴛꜱ'
+    - 'lore8:&f &aᴄᴏᴍᴘʟᴇᴛᴇᴅ'
+    - amount:1
+    - type:stick
+    - custommodeldata:5
+    - enchantment:mending#1
+    - hideflags:HIDE_ENCHANTS
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15
+    Condition:
+    - type:permission
+    - match:challenge.d.18
+  Challenge5Progression:
+    MenuItem:
+    - name:#ffd75dʙᴇ ᴄᴀʀᴇꜰᴜʟ
+    - 'lore1:&7ʏᴏᴜʀ ᴘʀᴏɢʀᴇꜱꜱ'
+    - 'lore2:#&f- &8%skript_chprogress::{uuid}%/3 ᴘʟᴀʏᴇʀꜱ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 400'
+    - 'lore6:&f ▪ 8 ᴘᴛꜱ'
+    - 'lore8:&f &6ɪɴ ᴘʀᴏɢʀᴇssɪᴏɴ'
+    - amount:1
+    - type:stick
+    - custommodeldata:7
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15
+    Condition:
+    - type:permission
+    - match:challenge.p.18
+  Challenge5Start:
+    MenuItem:
+    - name:&aʙᴇ ᴄᴀʀᴇꜰᴜʟ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴋɪʟʟ'
+    - 'lore2:&73x ᴘʟᴀʏᴇʀꜱ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 400'
+    - 'lore6:&f ▪ 8 ᴘᴛꜱ'
+    - 'lore8:&f &eᴄʟɪᴄᴋ ᴛᴏ sᴛᴀʀᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:6
+    RewardType: COMMAND
+    Reward:
+    - ch18 %player%
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15
+    Condition:
+    - type:permission
+    - match:challenge.d.17
+  Challenge5:
+    MenuItem:
+    - name:#d16046ʙᴇ ᴄᴀʀᴇꜰᴜʟ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴋɪʟʟ'
+    - 'lore2:&73x ᴘʟᴀʏᴇʀꜱ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 400'
+    - 'lore6:&f ▪ 8 ᴘᴛꜱ'
+    - 'lore8:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:4
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15
+ ##############################################
+  Challenge6Completed:
+    MenuItem:
+    - name:&aꜱʜɪɴʏ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴘʟᴀᴄᴇ'
+    - 'lore2:&716x ɢʟᴀꜱꜱ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 200'
+    - 'lore6:&f ▪ 4 ᴘᴛꜱ'
+    - 'lore8:&f &aᴄᴏᴍᴘʟᴇᴛᴇᴅ'
+    - amount:1
+    - type:stick
+    - custommodeldata:5
+    - enchantment:mending#1
+    - hideflags:HIDE_ENCHANTS
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 8
+    Condition:
+    - type:permission
+    - match:challenge.d.19
+  Challenge6Progression:
+    MenuItem:
+    - name:#ffd75dꜱʜɪɴʏ
+    - 'lore1:&7ʏᴏᴜʀ ᴘʀᴏɢʀᴇꜱꜱ'
+    - 'lore2:#&f- &8%skript_chprogress::{uuid}%/16 ɢʟᴀꜱꜱ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 200'
+    - 'lore6:&f ▪ 4 ᴘᴛꜱ'
+    - 'lore8:&f &6ɪɴ ᴘʀᴏɢʀᴇssɪᴏɴ'
+    - amount:1
+    - type:stick
+    - custommodeldata:7
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 8
+    Condition:
+    - type:permission
+    - match:challenge.p.19
+  Challenge6Start:
+    MenuItem:
+    - name:&aꜱʜɪɴʏ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴘʟᴀᴄᴇ'
+    - 'lore2:&716x ɢʟᴀꜱꜱ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 200'
+    - 'lore6:&f ▪ 4 ᴘᴛꜱ'
+    - 'lore8:&f &eᴄʟɪᴄᴋ ᴛᴏ sᴛᴀʀᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:6
+    RewardType: COMMAND
+    Reward:
+    - ch19 %player%
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 8
+    Condition:
+    - type:permission
+    - match:challenge.d.18
+  Challenge6:
+    MenuItem:
+    - name:#d16046ꜱʜɪɴʏ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴘʟᴀᴄᴇ'
+    - 'lore2:&716x ɢʟᴀꜱꜱ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 200'
+    - 'lore6:&f ▪ 4 ᴘᴛꜱ'
+    - 'lore8:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:4
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 8
+ ##############################################
+  Challenge7Completed:
+    MenuItem:
+    - name:&aꜰʟᴀᴛᴛɪɴɢ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ʙʀᴇᴀᴋ'
+    - 'lore2:&724x ᴅɪʀᴛ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 200'
+    - 'lore6:&f ▪ 4 ᴘᴛꜱ'
+    - 'lore8:&f &aᴄᴏᴍᴘʟᴇᴛᴇᴅ'
+    - amount:1
+    - type:stick
+    - custommodeldata:5
+    - enchantment:mending#1
+    - hideflags:HIDE_ENCHANTS
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 28
+    Condition:
+    - type:permission
+    - match:challenge.d.20
+  Challenge7Progression:
+    MenuItem:
+    - name:#ffd75dꜰʟᴀᴛᴛɪɴɢ
+    - 'lore1:&7ʏᴏᴜʀ ᴘʀᴏɢʀᴇꜱꜱ'
+    - 'lore2:#&f- &8%skript_chprogress::{uuid}%/24 ᴅɪʀᴛ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 200'
+    - 'lore6:&f ▪ 4 ᴘᴛꜱ'
+    - 'lore8:&f &6ɪɴ ᴘʀᴏɢʀᴇssɪᴏɴ'
+    - amount:1
+    - type:stick
+    - custommodeldata:7
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 28
+    Condition:
+    - type:permission
+    - match:challenge.p.20
+  Challenge7R1:
+    MenuItem:
+    - name:&aꜰʟᴀᴛᴛɪɴɢ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ʙʀᴇᴀᴋ'
+    - 'lore2:&724x ᴅɪʀᴛ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 200'
+    - 'lore6:&f ▪ 4 ᴘᴛꜱ'
+    - 'lore8:&f &eᴄʟɪᴄᴋ ᴛᴏ sᴛᴀʀᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:6
+    RewardType: COMMAND
+    Reward:
+    - ch20 %player%
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 28
+    Condition:
+    - type:permission
+    - match:challenge.d.13
+  Challenge7:
+    MenuItem:
+    - name:#d16046ꜰʟᴀᴛᴛɪɴɢ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ʙʀᴇᴀᴋ'
+    - 'lore2:&724x ᴅɪʀᴛ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 200'
+    - 'lore6:&f ▪ 4 ᴘᴛꜱ'
+    - 'lore8:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:4
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 28
+ ##############################################
+  Challenge8Completed:
+    MenuItem:
+    - name:&aꜱᴏᴍᴇᴛʜɪɴɢ ᴇʟꜱᴇ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ʙʀᴇᴀᴋ'
+    - 'lore2:&74x ᴅɪᴀᴍᴏɴᴅ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 300'
+    - 'lore6:&f ▪ 6 ᴘᴛꜱ'
+    - 'lore8:&f &aᴄᴏᴍᴘʟᴇᴛᴇᴅ'
+    - amount:1
+    - type:stick
+    - custommodeldata:5
+    - enchantment:mending#1
+    - hideflags:HIDE_ENCHANTS
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 30
+    Condition:
+    - type:permission
+    - match:challenge.d.21
+  Challenge8Progression:
+    MenuItem:
+    - name:#ffd75dꜱᴏᴍᴇᴛʜɪɴɢ ᴇʟꜱᴇ
+    - 'lore1:&7ʏᴏᴜʀ ᴘʀᴏɢʀᴇꜱꜱ'
+    - 'lore2:#&f- &8%skript_chprogress::{uuid}%/4 ᴅɪᴀᴍᴏɴᴅ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 300'
+    - 'lore6:&f ▪ 6 ᴘᴛꜱ'
+    - 'lore8:&f &6ɪɴ ᴘʀᴏɢʀᴇssɪᴏɴ'
+    - amount:1
+    - type:stick
+    - custommodeldata:7
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 30
+    Condition:
+    - type:permission
+    - match:challenge.p.21
+  Challenge8Start:
+    MenuItem:
+    - name:&aꜱᴏᴍᴇᴛʜɪɴɢ ᴇʟꜱᴇ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ʙʀᴇᴀᴋ'
+    - 'lore2:&74x ᴅɪᴀᴍᴏɴᴅ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 300'
+    - 'lore6:&f ▪ 6 ᴘᴛꜱ'
+    - 'lore8:&f &eᴄʟɪᴄᴋ ᴛᴏ sᴛᴀʀᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:6
+    RewardType: COMMAND
+    Reward:
+    - ch21 %player%
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 30
+    Condition:
+    - type:permission
+    - match:challenge.d.20
+  Challenge8:
+    MenuItem:
+    - name:#d16046ꜱᴏᴍᴇᴛʜɪɴɢ ᴇʟꜱᴇ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ʙʀᴇᴀᴋ'
+    - 'lore2:&74x ᴅɪᴀᴍᴏɴᴅ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 300'
+    - 'lore6:&f ▪ 6 ᴘᴛꜱ'
+    - 'lore8:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:4
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 30
+ ##############################################
+  Challenge9Completed:
+    MenuItem:
+    - name:&aᴛʜᴇ ɴᴇxᴛ ʟᴇᴠᴇʟ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴄʀᴀꜰᴛ'
+    - 'lore2:&710x ᴏᴀᴋ ꜱᴛᴀɪʀꜱ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 200'
+    - 'lore6:&f ▪ 4 ᴘᴛꜱ'
+    - 'lore8:&f &aᴄᴏᴍᴘʟᴇᴛᴇᴅ'
+    - amount:1
+    - type:stick
+    - custommodeldata:5
+    - enchantment:mending#1
+    - hideflags:HIDE_ENCHANTS
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 22
+    Condition:
+    - type:permission
+    - match:challenge.d.22
+  Challenge9Progression:
+    MenuItem:
+    - name:#ffd75dᴛʜᴇ ɴᴇxᴛ ʟᴇᴠᴇʟ
+    - 'lore1:&7ʏᴏᴜʀ ᴘʀᴏɢʀᴇꜱꜱ'
+    - 'lore2:#&f- &8%skript_chprogress::{uuid}%/10 ᴏᴀᴋ ꜱᴛᴀɪʀꜱ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 200'
+    - 'lore6:&f ▪ 4 ᴘᴛꜱ'
+    - 'lore8:&f &6ɪɴ ᴘʀᴏɢʀᴇssɪᴏɴ'
+    - amount:1
+    - type:stick
+    - custommodeldata:7
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 22
+    Condition:
+    - type:permission
+    - match:challenge.p.22
+  Challenge9Start:
+    MenuItem:
+    - name:&aᴛʜᴇ ɴᴇxᴛ ʟᴇᴠᴇʟ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴄʀᴀꜰᴛ'
+    - 'lore2:&710x ᴏᴀᴋ ꜱᴛᴀɪʀꜱ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 200'
+    - 'lore6:&f ▪ 4 ᴘᴛꜱ'
+    - 'lore8:&f &eᴄʟɪᴄᴋ ᴛᴏ sᴛᴀʀᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:6
+    RewardType: COMMAND
+    Reward:
+    - ch22 %player%
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 22
+    Condition:
+    - type:permission
+    - match:challenge.d.21
+  Challenge9:
+    MenuItem:
+    - name:#d16046ᴛʜᴇ ɴᴇxᴛ ʟᴇᴠᴇʟ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴄʀᴀꜰᴛ'
+    - 'lore2:&710x ᴏᴀᴋ ꜱᴛᴀɪʀꜱ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 200'
+    - 'lore6:&f ▪ 4 ᴘᴛꜱ'
+    - 'lore8:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:4
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 22
+ ##############################################
+  Challenge10Completed:
+    MenuItem:
+    - name:&aꜰɪɴᴀʟʟʏ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ʙʀᴇᴀᴋ'
+    - 'lore2:&710x ᴏʙꜱɪᴅɪᴀɴ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 300'
+    - 'lore6:&f ▪ 6 ᴘᴛꜱ'
+    - 'lore8:&f &aᴄᴏᴍᴘʟᴇᴛᴇᴅ'
+    - amount:1
+    - type:stick
+    - custommodeldata:5
+    - enchantment:mending#1
+    - hideflags:HIDE_ENCHANTS
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    Condition:
+    - type:permission
+    - match:challenge.d.23
+  Challenge10Progression:
+    MenuItem:
+    - name:#ffd75dꜰɪɴᴀʟʟʏ
+    - 'lore1:&7ʏᴏᴜʀ ᴘʀᴏɢʀᴇꜱꜱ'
+    - 'lore2:#&f- &8%skript_chprogress::{uuid}%/10 ᴏʙꜱɪᴅɪᴀɴ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 300'
+    - 'lore6:&f ▪ 6 ᴘᴛꜱ'
+    - 'lore8:&f &6ɪɴ ᴘʀᴏɢʀᴇssɪᴏɴ'
+    - amount:1
+    - type:stick
+    - custommodeldata:7
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    Condition:
+    - type:permission
+    - match:challenge.p.23
+  Challenge10Start:
+    MenuItem:
+    - name:&aꜰɪɴᴀʟʟʏ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ʙʀᴇᴀᴋ'
+    - 'lore2:&710x ᴏʙꜱɪᴅɪᴀɴ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 300'
+    - 'lore6:&f ▪ 6 ᴘᴛꜱ'
+    - 'lore8:&f &eᴄʟɪᴄᴋ ᴛᴏ sᴛᴀʀᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:6
+    RewardType: COMMAND
+    Reward:
+    - ch23 %player%
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    Condition:
+    - type:permission
+    - match:challenge.d.22
+  Challenge10:
+    MenuItem:
+    - name:#d16046ꜰɪɴᴀʟʟʏ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ʙʀᴇᴀᴋ'
+    - 'lore2:&710x ᴏʙꜱɪᴅɪᴀɴ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 300'
+    - 'lore6:&f ▪ 6 ᴘᴛꜱ'
+    - 'lore8:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:4
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+ ##############################################
+  Challenge11Completed:
+    MenuItem:
+    - name:&aʀᴇᴀᴅʏ ᴛᴏ ꜰɪɢʜᴛ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴇɴᴄʜᴀɴᴛ'
+    - 'lore2:&71x ᴅɪᴀᴍᴏɴᴅ ꜱᴡᴏʀᴅ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 300'
+    - 'lore6:&f ▪ 6 ᴘᴛꜱ'
+    - 'lore8:&f &aᴄᴏᴍᴘʟᴇᴛᴇᴅ'
+    - amount:1
+    - type:stick
+    - custommodeldata:5
+    - enchantment:mending#1
+    - hideflags:HIDE_ENCHANTS
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 33
+    Condition:
+    - type:permission
+    - match:challenge.d.24
+  Challenge11Progression:
+    MenuItem:
+    - name:#ffd75dʀᴇᴀᴅʏ ᴛᴏ ꜰɪɢʜᴛ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴇɴᴄʜᴀɴᴛ'
+    - 'lore2:&71x ᴅɪᴀᴍᴏɴᴅ ꜱᴡᴏʀᴅ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 300'
+    - 'lore6:&f ▪ 6 ᴘᴛꜱ'
+    - 'lore8:&f &6ɪɴ ᴘʀᴏɢʀᴇssɪᴏɴ'
+    - amount:1
+    - type:stick
+    - custommodeldata:7
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 33
+    Condition:
+    - type:permission
+    - match:challenge.p.24
+  Challenge11Start:
+    MenuItem:
+    - name:&aʀᴇᴀᴅʏ ᴛᴏ ꜰɪɢʜᴛ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴇɴᴄʜᴀɴᴛ'
+    - 'lore2:&71x ᴅɪᴀᴍᴏɴᴅ ꜱᴡᴏʀᴅ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 300'
+    - 'lore6:&f ▪ 6 ᴘᴛꜱ'
+    - 'lore8:&f &eᴄʟɪᴄᴋ ᴛᴏ sᴛᴀʀᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:6
+    RewardType: COMMAND
+    Reward:
+    - ch24 %player%
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 33
+    Condition:
+    - type:permission
+    - match:challenge.d.23
+  Challenge11:
+    MenuItem:
+    - name:#d16046ʀᴇᴀᴅʏ ᴛᴏ ꜰɪɢʜᴛ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴇɴᴄʜᴀɴᴛ'
+    - 'lore2:&71x ᴅɪᴀᴍᴏɴᴅ ꜱᴡᴏʀᴅ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 300'
+    - 'lore6:&f ▪ 6 ᴘᴛꜱ'
+    - 'lore8:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:4
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 33
+ ##############################################
+  Challenge12Completed:
+    MenuItem:
+    - name:&aᴀʀᴄʜᴇʀ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ꜱʜᴏᴛ'
+    - 'lore2:&78x ᴍᴏʙꜱ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 200'
+    - 'lore6:&f ▪ 4 ᴘᴛꜱ'
+    - 'lore8:&f &aᴄᴏᴍᴘʟᴇᴛᴇᴅ'
+    - amount:1
+    - type:stick
+    - custommodeldata:5
+    - enchantment:mending#1
+    - hideflags:HIDE_ENCHANTS
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 25
+    Condition:
+    - type:permission
+    - match:challenge.d.25
+  Challenge12Progression:
+    MenuItem:
+    - name:#ffd75dᴀʀᴄʜᴇʀ
+    - 'lore1:&7ʏᴏᴜʀ ᴘʀᴏɢʀᴇꜱꜱ'
+    - 'lore2:#&f- &8%skript_chprogress::{uuid}%/8 ᴍᴏʙꜱ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 200'
+    - 'lore6:&f ▪ 4 ᴘᴛꜱ'
+    - 'lore8:&f &6ɪɴ ᴘʀᴏɢʀᴇssɪᴏɴ'
+    - amount:1
+    - type:stick
+    - custommodeldata:7
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 25
+    Condition:
+    - type:permission
+    - match:challenge.p.25
+  Challenge12Start:
+    MenuItem:
+    - name:&aᴀʀᴄʜᴇʀ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ꜱʜᴏᴛ'
+    - 'lore2:&78x ᴍᴏʙꜱ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 200'
+    - 'lore6:&f ▪ 4 ᴘᴛꜱ'
+    - 'lore8:&f &eᴄʟɪᴄᴋ ᴛᴏ sᴛᴀʀᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:6
+    RewardType: COMMAND
+    Reward:
+    - ch25 %player%
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 25
+    Condition:
+    - type:permission
+    - match:challenge.d.24
+  Challenge12:
+    MenuItem:
+    - name:#d16046ᴀʀᴄʜᴇʀ
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ꜱʜᴏᴛ'
+    - 'lore2:&78x ᴍᴏʙꜱ'
+    - 'lore4:&bʀᴇᴡᴀʀᴅꜱ'
+    - 'lore5:&f ▪ 200'
+    - 'lore6:&f ▪ 4 ᴘᴛꜱ'
+    - 'lore8:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:4
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 25
+ ##############################################
+  RewardT:
+    MenuItem:
+    - name:&f
+    - 'lore1:&7▪ &7ᴘʀᴏᴛᴇᴄᴛɪᴏɴ ᴠɪ'
+    - 'lore2:&7▪ &7ᴍᴇɴᴅɪɴɢ ɪ'
+    - 'lore4:&f &aᴄᴏᴍᴘʟᴇᴛᴇᴅ'
+    - hideflags:all
+    - amount:1
+    - type:diamond_chestplate
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 27
+    Condition:
+    - type:permission
+    - match:reward.t.2
+  RewardR2:
+    MenuItem:
+    - name:&f
+    - 'lore1:&7▪ &7ᴘʀᴏᴛᴇᴄᴛɪᴏɴ ᴠɪ'
+    - 'lore2:&7▪ &7ᴍᴇɴᴅɪɴɢ ɪ'
+    - 'lore4:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴄᴏʟʟᴇᴄᴛ'
+    - hideflags:all
+    - amount:1
+    - type:diamond_chestplate
+    RewardType: COMMAND
+    Reward:
+    - dgive %player% diamond_chestplate 1 -name &fqyx⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔ -enchant mending:1 -enchant protection:6
+    - lp user %player% permission set reward.t.2
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 27
+    Condition:
+    - type:permission
+    - match:challenge.d.25
+  RewardR1:
+    MenuItem:
+    - name:&f
+    - 'lore1:&7▪ &7ᴘʀᴏᴛᴇᴄᴛɪᴏɴ ᴠɪ'
+    - 'lore2:&7▪ &7ᴍᴇɴᴅɪɴɢ ɪ'
+    - 'lore4:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴄᴏʟʟᴇᴄᴛ'
+    - hideflags:all
+    - amount:1
+    - type:diamond_chestplate
+    RewardType: COMMAND
+    Reward:
+    - dgive %player% diamond_chestplate 1 -name &fqyx⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔ -enchant mending:1 -enchant protection:6
+    - lp user %player% permission set reward.t.2
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 27
+    Condition:
+    - type:permission
+    - match:challenge.d.19
+  Reward:
+    MenuItem:
+    - name:&f
+    - 'lore1:&7▪ &7ᴘʀᴏᴛᴇᴄᴛɪᴏɴ ᴠɪ'
+    - 'lore2:&7▪ &7ᴍᴇɴᴅɪɴɢ ɪ'
+    - 'lore4:&f &cɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ʏᴇᴛ'
+    - hideflags:all
+    - amount:1
+    - type:diamond_chestplate
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 27
+  Next:
+    MenuItem:
+    - name:&8ɴᴇxᴛ ᴘᴀɢᴇ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: TheRift3
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 54
+  Back:
+    MenuItem:
+    - name:&8ᴘʀᴇᴠɪᴏᴜꜱ ᴘᴀɢᴇ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: TheRift
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 46

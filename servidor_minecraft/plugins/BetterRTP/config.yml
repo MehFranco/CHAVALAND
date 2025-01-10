@@ -1,0 +1,109 @@
+# BetterRTP plugin by SuperRonanCraft! (Join my Public Server mc.RonanCraft.net) #
+# Need help? go to https://ronancraft.net/discord! #
+
+Language-File: en.yml
+Settings:
+  Logger:
+    Enabled: true # Log all things rtp related to the log.log file
+    LogToConsole: false
+    Format: yyyy-MM-dd HH:mm:ss
+  Queue:
+    Enabled: true # Allows betterrtp to automatically queue up safe rtp locations prior to players executing `/rtp`
+  Respect:
+    MinePlots: false
+    FactionsBridge: false
+    CrashClaim: false
+    Pueblos: false
+    SaberFactions: false
+    HuskTowns: false
+    WorldGuard: true
+    GriefPrevention: false
+    Towny: false
+    RedProtect: false
+    FactionsUUID: false
+    Lands: false
+    Residence: false
+    KingdomsX: false
+    hClaims: false
+    GriefDefender: false
+    UltimateClaims: true
+  Debugger: false
+  PreloadRadius: 5
+  MaxAttempts: 3
+  RtpOnFirstJoin:
+    Enabled: false
+    World: world
+    SetAsRespawn: false
+  Cooldown:
+    PerWorld: false
+    Enabled: true
+    LockAfter: 0
+    Time: 600
+  Delay:
+    Enabled: true
+    Time: 5
+    CancelOnMove: true
+  DisableUpdater: false
+Default:
+  RTPOnDeath: false
+  MaxY: 128
+  MinY: 50
+  UseWorldBorder: false
+  Biomes: []
+  MaxRadius: 3000
+  MinRadius: 300
+  CenterX: 0
+  CenterZ: 0
+  Shape: square
+BlacklistedBlocks:
+- stationary_water
+- stationary_lava
+- water
+- flowing_water
+- lava
+- flowing_lava
+- cactus
+- leaves
+- leaves_2
+- air
+- void_air
+- bedrock
+- oak_leaves
+- jungle_leaves
+DisabledWorlds:
+- example
+CustomWorlds:
+- playworld_nether:
+    UseWorldBorder: false
+    MaxRadius: 2000
+    MinRadius: 250
+    CenterX: 0
+    CenterZ: 0
+    Price: 750
+    Shape: square
+- playworld_the_end:
+    MaxRadius: 5000
+    MinRadius: 500
+    CenterX: 0
+    CenterZ: 0
+    Price: 2500
+    Shape: circle
+Overrides:
+- world: playworld
+WorldType:
+- playworld: NORMAL
+- playworld_nether: NETHER
+- playworld_the_end: NORMAL
+PermissionGroup:
+  Enabled: true
+  Groups:
+  - vip:
+    - playworld:
+        MaxRadius: 5000
+        MinRadius: 500
+    - playworld_nether:
+        MaxRadius: 4000
+        MinRadius: 750
+    - playworld_the_end:
+        MaxRadius: 7500
+        MinRadius: 1000

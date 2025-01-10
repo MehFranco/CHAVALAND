@@ -1,0 +1,50 @@
+ShopName: StoreSelect
+DisplayName: '&f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔'
+Command: store
+RemovePlayerInventory: true
+shop:
+  ranks:
+    MenuItem:
+    - 'lore1:&7ᴡᴀɴᴛ ꜱᴏᴍᴇ ᴇxᴛʀᴀ ʙᴇɴᴇꜰɪᴛs?#&7ʏᴏᴜ ᴄᴀɴ ʙᴜʏ ᴀ ʀᴀɴᴋ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Ranks
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  kits:
+    MenuItem:
+    - 'lore1:&7ᴠᴀʀɪᴏᴜs ᴘᴀᴄᴋᴀɢᴇs#&7ᴄᴏɴᴛᴀɪɴɪɴɢ ɪᴛᴇᴍs'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Kits
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  others:
+    MenuItem:
+    - 'lore1:&7ʙᴜʏᴀʙʟᴇꜱ ᴛʜᴀᴛ ᴅᴏ ɴᴏᴛ ꜰɪᴛ#&7ɪɴᴛᴏ ᴛʜᴇ ᴏᴛʜᴇʀ ᴄᴀᴛᴇɢᴏʀɪᴇꜱ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Others
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  InvItem:
+    MenuItem:
+    - name:&f
+    - type:stick
+    - custommodeldata:1
+    InventoryLocation: 54

@@ -1,0 +1,192 @@
+Brewer:
+  fullname: Brewer
+  shortname: Br
+  description: '&fEarn money brewing potions.'
+  ChatColour: LIGHT_PURPLE
+  chat-display: full
+  max-level: 75
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  maxDailyQuests: 1
+  Quests:
+    '1':
+      Name: Bewitcher
+      Objectives:
+      - Brew;nether_wart;1
+      - Brew;glowstone;1
+      - Brew;sugar;1
+      RewardCommands:
+      - eco give [playerName] 260
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBrew some stuff and get money'
+      - '&8 ▪ &fGet 260$ for this!'
+    '2':
+      Name: Bewitcher II
+      Objectives:
+      - Brew;nether_wart;1
+      - Brew;redstone;1
+      - Brew;sugar;1
+      RewardCommands:
+      - eco give [playerName] 260
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBrew some stuff and get money'
+      - '&8 ▪ &fGet 260$ for this!'
+    '3':
+      Name: Bewitcher III
+      Objectives:
+      - Brew;nether_wart;2
+      - Brew;blaze_powder;1
+      - Brew;gunpowder;1
+      RewardCommands:
+      - eco give [playerName] 280
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBrew some stuff and get money'
+      - '&8 ▪ &fGet 280$ for this!'
+    '4':
+      Name: Bewitcher IV
+      Objectives:
+      - Brew;nether_wart;2
+      - Brew;golden_carrot;1
+      - Brew;rabbit_foot;1
+      RewardCommands:
+      - eco give [playerName] 285
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBrew some stuff and get money'
+      - '&8 ▪ &fGet 285$ for this!'
+    '5':
+      Name: Bewitcher V
+      Objectives:
+      - Craft;glass_bottle;3
+      - Brew;redstone;1
+      - Brew;glowstone_dust;1
+      RewardCommands:
+      - eco give [playerName] 275
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBrew some stuff and get money'
+      - '&8 ▪ &fGet 275$ for this!'
+    '6':
+      Name: Bewitcher VI
+      Objectives:
+      - Brew;nether_wart;3
+      - Brew;sugar;1
+      - Brew;ghast_tear;1
+      - Brew;magma_cream;1
+      RewardCommands:
+      - eco give [playerName] 320
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBrew some stuff and get money'
+      - '&8 ▪ &fGet 320$ for this!'
+    '7':
+      Name: Bewitcher VII
+      Objectives:
+      - Brew;nether_wart;3
+      - Brew;sugar;1
+      - Brew;ghast_tear;1
+      - Brew;magma_cream;1
+      RewardCommands:
+      - eco give [playerName] 400
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBrew some stuff and get money'
+      - '&8 ▪ &fGet 400$ for this!'
+    '8':
+      Name: Bewitcher VIII
+      Objectives:
+      - Brew;nether_wart;3
+      - Craft;glass_bottle;9
+      - Brew;redstone;2
+      - Brew;pufferfish;1
+      RewardCommands:
+      - eco give [playerName] 350
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBrew some stuff and get money'
+      - '&8 ▪ &fGet 350$ for this!'
+  Gui:
+    Id: 379
+    Data: 0
+  Craft:
+    glass_bottle:
+      income: 1.0
+      points: 1.0
+      experience: 2.0
+  Brew:
+    nether_wart:
+      income: 2.2
+      points: 2.2
+      experience: 2.2
+    redstone:
+      income: 2.0
+      points: 2.0
+      experience: 2.0
+    glowstone_dust:
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+    gunpowder:
+      income: 3.0
+      points: 3.0
+      experience: 3.0
+    fermented_spider_eye:
+      income: 3.0
+      points: 3.0
+      experience: 3.0
+    dragon_breath:
+      income: 6.0
+      points: 6.0
+      experience: 6.0
+    sugar:
+      income: 3.5
+      points: 3.5
+      experience: 3.5
+    rabbit_foot:
+      income: 4.2
+      points: 4.2
+      experience: 4.2
+    blaze_powder:
+      income: 3.5
+      points: 3.5
+      experience: 3.5
+    glistering_melon_slice:
+      income: 4.5
+      points: 4.5
+      experience: 4.5
+    spider_eye:
+      income: 4.0
+      points: 4.0
+      experience: 4.0
+    ghast_tear:
+      income: 6.0
+      points: 6.0
+      experience: 6.0
+    magma_cream:
+      income: 4.5
+      points: 4.5
+      experience: 4.5
+    pufferfish:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    golden_carrot:
+      income: 4.5
+      points: 4.5
+      experience: 4.5
+    turtle_helmet:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    phantom_membrane:
+      income: 6.0
+      points: 6.0
+      experience: 6.0

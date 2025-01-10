@@ -1,0 +1,107 @@
+use-bin-timer: true
+use-buy-it-now: true
+#This will make the buy-it-now auction to be the default one
+#in the create auction menu (use-buy-it-now needs to be enabled)
+use-buy-it-now-as-default: false
+#This will disable normal auctions
+use-only-buy-it-now: false
+
+buy-it-now-select-price:
+  item-id: 'STICK#1'
+  #Use %price% for the item price
+  name: '&aɪᴛᴇᴍ ᴘʀɪᴄᴇ'
+  lore:
+    - '&f・&6%price%&f'
+    - ''
+    - '&7ᴛʜᴇ ᴘʀɪᴄᴇ ᴀᴛ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴᴛ'
+    - '&7ᴛᴏ ꜱᴇʟʟ ᴛʜɪꜱ ɪᴛᴇᴍ.'
+    - ''
+    - '&fᴇxᴛʀᴀ ꜰᴇᴇ: &6+%fee%&f &e(1%)'
+    - ''
+    - '&f &eᴄʟɪᴄᴋ ᴛᴏ ᴇᴅɪᴛ'
+
+#Use percents from 1 to 100
+buy-it-now-fee: 2
+
+switch-button:
+  switch-to-auction:
+    material: 'STICK#1'
+    name: '&aꜱᴡɪᴛᴄʜ ᴛᴏ ᴀᴜᴄᴛɪᴏɴ'
+    lore:
+      - '&7ᴡɪᴛʜ ᴛʀᴀᴅɪᴛɪᴏɴᴀʟ ᴀᴜᴄᴛɪᴏɴꜱ,'
+      - '&7ᴍᴜʟᴛɪᴘʟᴇ ʙᴜʏᴇʀꜱ ᴄᴏᴍᴘᴇᴛᴇ ꜰᴏʀ ᴛʜᴇ'
+      - '&7ɪᴛᴇᴍ ʙʏ ʙɪᴅᴅɪɴɢ ᴛᴜʀɴ ʙʏ ᴛᴜʀɴ.'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ sᴡɪᴛᴄʜ'
+  switch-to-bin:
+    material: 'STICK#1'
+    name: '&aꜱᴡɪᴛᴄʜ ᴛᴏ ʙɪɴ'
+    lore:
+      - '&8ʙɪɴ ᴍᴇᴀɴꜱ ʙᴜʏ ɪᴛ ɴᴏᴡ'
+      - ''
+      - '&7ꜱᴇᴛ ᴀ ᴘʀɪᴄᴇ, ᴛʜᴇɴ ᴏɴᴇ ᴘʟᴀʏᴇʀ ᴍᴀʏ'
+      - '&7ʙᴜʏ ᴛʜᴇ ɪᴛᴇᴍ ᴀᴛ ᴛʜᴀᴛ ᴘʀɪᴄᴇ'
+      - ''
+      - '&f &eᴄʟɪᴄᴋ ᴛᴏ sᴡɪᴛᴄʜ'
+
+buy-it-now-lore:
+  on-going:
+    - '&cᴇɴᴅꜱ ɪɴ %duration%'
+    - ''
+    - '&f▪ ꜱᴇʟʟᴇʀ: &7%display-name-seller%'
+    - '&f▪ ʙᴜʏ ɪᴛ ɴᴏᴡ: &6%starting-bid%&f'
+    - ''
+    - '&f &eᴄʟɪᴄᴋ ᴛᴏ ɪɴsᴘᴇᴄᴛ'
+  expired:
+    - ''
+    - '&f▪ ꜱᴇʟʟᴇʀ: &7%display-name-seller%'
+    - '&f▪ ʙᴜʏ ɪᴛ ɴᴏᴡ: &6%price%&f'
+    - ''
+    - '&fꜱᴛᴀᴛᴜꜱ: &cᴇxᴘɪʀᴇᴅ!'
+    - ''
+    - '&f &eᴄʟɪᴄᴋ ᴛᴏ ɪɴsᴘᴇᴄᴛ'
+  #Use %buyer-display-name% for buyer's display name
+  #Use %buyer-name% for buyer's username
+  bought:
+    - ''
+    - '&f▪ ꜱᴇʟʟᴇʀ: &7%display-name-seller%'
+    - '&f▪ Price: &6%price%&f'
+    - ''
+    - '&f &a%buyer-display-name%'
+    - ''
+    - '&f &eᴄʟɪᴄᴋ ᴛᴏ ɪɴsᴘᴇᴄᴛ'
+
+#Use %item% for item's display name
+#Use %seller-display-name% for seller display's name
+#Use %seller-name% for seller's name
+#Use %coins% for the amount of coins the item was bought for
+bought-item-message: '&f &fYou purchased &e%item% &ffrom %seller-display-name% &ffor &e%coins% coins&f!'
+
+#Seller notification for bought item
+bought-seller-notification: '&f &e%bidder-display-name% &fhas bought your &e%item%&f for &e%price% coins&f!'
+
+sort-item:
+  material: 'STICK#1'
+  name: '&aʙɪɴ ꜰɪʟᴛᴇʀ'
+  show-all: '&fꜱʜᴏᴡ ᴀʟʟ'
+  bin-only: '&fʙɪɴ ᴏɴʟʏ'
+  auctions-only: '&fᴀᴜᴄᴛɪᴏɴꜱ ᴏɴʟʏ'
+  click-to-switch: '&f &eᴄʟɪᴄᴋ ᴛᴏ sᴡɪᴛᴄʜ'
+
+view-auction-buy-now-button:
+  name: '&aʙᴜʏ ɪᴛᴇᴍ ʀɪɢʜᴛ ɴᴏᴡ'
+  click-to-buy:
+    material: '371'
+    lore:
+      - ''
+      - '&fᴀᴜᴄᴛɪᴏɴ ᴘʀɪᴄᴇ'
+      -  '&6▪ %price% ᴄᴏɪɴꜱ'
+      - ''
+      - '&f &aᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+  cannot-afford:
+    material: '394'
+    lore:
+      - ''
+      - '&f▪ ᴘʀɪᴄᴇ: &6%price%&f'
+      - ''
+      - '&cᴄᴀɴɴᴏᴛ ᴀꜰꜰᴏʀᴅ ʙɪᴅ!'

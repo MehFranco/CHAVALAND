@@ -1,0 +1,76 @@
+furnaces:
+  a428c3b5-8bef-4343-8fb1-a39587132dcc:
+    
+    name: Furnace
+    uuid: a428c3b5-8bef-4343-8fb1-a39587132dcc
+    properties:
+      
+      key: portablecraftinginvs:properties_furnace
+      cookX: 1.0
+      fuelX: 1.0
+    cookTime: 0
+    fuelTime: 0
+    xp: 0.0
+    fuel: null
+    input: null
+    output: null
+  4075384b-a82f-425f-bf70-bccc4a621728:
+    
+    name: Blast Furnace
+    uuid: 4075384b-a82f-425f-bf70-bccc4a621728
+    properties:
+      
+      key: portablecraftinginvs:properties_blast_furnace
+      cookX: 2.0
+      fuelX: 2.0
+    cookTime: 0
+    fuelTime: 0
+    xp: 0.0
+    fuel: null
+    input: null
+    output: null
+  53155328-e7bc-4ef1-a374-b0c2b56e30e4:
+    
+    name: Smoker
+    uuid: 53155328-e7bc-4ef1-a374-b0c2b56e30e4
+    properties:
+      
+      key: portablecraftinginvs:properties_smoker
+      cookX: 2.0
+      fuelX: 2.0
+    cookTime: 0
+    fuelTime: 0
+    xp: 0.0
+    fuel: null
+    input: null
+    output: null
+  1a1cc213-44d0-443b-8e91-02f7b1de164e:
+    
+    name: Furnace
+    uuid: 1a1cc213-44d0-443b-8e91-02f7b1de164e
+    properties:
+      
+      key: portablecraftinginvs:properties_furnace
+      cookX: 1.0
+      fuelX: 1.0
+    cookTime: 0
+    fuelTime: 0
+    xp: 0.0
+    fuel: null
+    input: null
+    output: null
+  751cb6be-038d-44fc-8695-292561808e6a:
+    
+    name: Furnace
+    uuid: 751cb6be-038d-44fc-8695-292561808e6a
+    properties:
+      
+      key: portablecraftinginvs:properties_furnace
+      cookX: 1.0
+      fuelX: 1.0
+    cookTime: 0
+    fuelTime: 0
+    xp: 0.0
+    fuel: null
+    input: null
+    output: null

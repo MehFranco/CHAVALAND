@@ -1,0 +1,781 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 25
+npc:
+  '14':
+    metadata:
+      cached-skin-uuid-name: rule
+      cached-skin-uuid: 6f987185-f03e-4780-9259-1eb9299fab4a
+      nameplate-visible: 'false'
+    name: Mines2
+    uuid: 54780ab0-055b-4ce0-aae0-1ba568a9c220
+    traits:
+      lookclose:
+        range: 5.0
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      owner:
+        uuid: a690f470-5ddd-4af8-a24e-265f91a6c597
+      skintrait:
+        signature: c24mZtHyGLJ1tMa5jAz2BZC30AWCVTTzkQgm3I8QRwPwj1TSOih2+vSl6zOGFWXT/sQqJeBxibFs3av6rZML0AIsZ9qJ/pxb4TkGAG8rvmq94+fv1W67zukNcJt7aQJSidRvND/hS7DrX0XiuoaOszdW+nZGRf7h6NY7B6K5YkB2VAmtMGTmNJX6JjVlIivhLH53DaKex9Y3tY/zDnFUyuFnbPk3qFe0nYCQ/2LBC3aORbrVZgKboLthwcIvfa9H30QIViJt9TYlWpUI8zo5XmDp7k8s6bU6HBWigSRugqYClRhf/A4OyGhybwwyrVFyL+n0WBShDvbVWNQBJaR1yjBEOiUPMWQI3AhFD9CwTjPj+34gIvj9pINn5t5q/kdkogOL+7QG4zo2a2wRJwMgn+Fn6fZuJcF6rzLdccMq/ihHeC3zVQc/Hu3uXZH0mRDQCLqFdS0cM4pmDmC9GzKhfzXdUn/ASoFRGSNTDO0A2TBSLUNeIjXiC+4bkhMe9DhUc38bBPdG2HfNHXALt2NQWRloYbLqS0k1bVi8kdkOIhE7S2Yrqg/eytkyxqQ1HElIu8/bSqyfTs07EiFksShH7HTfFHgeyYMgb/1z60rEbZD1bZk/1jstvUgWMHfaoOSDr3SXmNaQLVeZ9BqS+JNz2F4UqkRfRGTUlt2Teq1Kcg8=
+        skinName: rule
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY2NzU5MjY2MjExMiwKICAicHJvZmlsZUlkIiA6ICI2Zjk4NzE4NWYwM2U0NzgwOTI1OTFlYjkyOTlmYWI0YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSdWxlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJhZTEwN2JjZjQyZjcyMWU4NTFhODJiMmZjNTRkOTI5ZTNiMTVmMGU5OWIxODYzNWFkMjRlZjA1NzYzZTBlYTkiCiAgICB9CiAgfQp9
+      location:
+        bodyYaw: 73.9494
+        world: world
+        x: -79.5
+        y: 69.0
+        z: 109.5
+        yaw: 73.9494
+        pitch: 0.0
+      sneak: {}
+      commandtrait:
+        commands:
+          '0':
+            command: miner
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      type: PLAYER
+      inventory:
+        '39':
+          type: iron_helmet
+          amount: 1
+        '0':
+          type: stone_pickaxe
+          amount: 1
+      equipment:
+        hand:
+          type_key: stone_pickaxe
+          amount: 1
+          type_namespace: minecraft
+          type: stone_pickaxe
+        helmet:
+          type_key: iron_helmet
+          amount: 1
+          type_namespace: minecraft
+          type: iron_helmet
+    traitnames: commandtrait,skintrait,spawned,lookclose,scoreboardtrait,mounttrait,equipment,inventory,location,owner,sneak,type
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '0':
+    name: '&f'
+    uuid: bf5046fe-4b4f-4f60-99f3-9fbb5a87fd8b
+    traits:
+      skintrait:
+        signature: vadJYdl2DxW9s8RZbnqyfBOtLKtWfM0Dyg7iyfCMP6des/eU3wgFayOfaEVYm24Isd8qqolHBkjSRjyjAFzfRzUGcJTSBX8YOS6Z/ouD02Ymb9UZQZ+dauqhzheus2Dmv6HPYSIfiGhDQ9sBBYwGqQmpR+XIPEz92E++64bdq9i/vDbXXtzwWcGeipJE8iPAxEJn+Z4Yz5TDjHBQUGC0T2OyNpgilT1rY6Af5QJ0d7NOE9CO82emQS5lnn2AfoN5/VhEpIf7ZtKZI4FY9/09K/C3TwRQL7LBWJtGIH0sszsLE0nOw2JUgx2gInjFu+ai3ijSNt2LD1ZDbvwJBO4phQG6Niu86B3pYePvDXzzIGMsh0Qzm8GYfmpCL2N2F0F4898mcebHEggqnq1tTNDo+z5W8fp66Ieii0v/QfUT3mX9ovwciPL4NfvIPoInbPaE6H8+AsecPcl2t6b295vA+F8hptnmsDxpPnX0c5bBKzFasoxFzOpQV9r6G2kdUrp8FJ2w2qfldgrJ1TWlr4nnKZMp+2Q6AlEkGeNf92QvK9YCGUOjVAVLuhECEM3ggmOzYJ9aN2+oFSXctorwZS01Cetwnly9sDhF2kgi3e1VOC35pX6X7PSGTiet/04xbMlSpEL/he2mcgQjMH7h8hS//wkcYpYQHQgUKyjLNf6cXiE=
+        skinName: elohhh
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5NzQwNjkzNjA4OCwKICAicHJvZmlsZUlkIiA6ICIxZmU5YzQ5MDE0MzQ0NjBmYmU1OTVkYjkzMmM1OTdmYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbG9oaGgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzUwOTdmYzgyMzQ2YTUxZjZhYmJlZTc3MTlhOGQzYzY3OWQyNWYwMDVhNmE0NDQxYzQzYmRmZTI0OTJiMTAzNiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+      type: PLAYER
+      location:
+        bodyYaw: -89.15682
+        world: world
+        x: -27.5076
+        y: 66.0
+        z: -68.4959
+        yaw: -89.1568
+        pitch: 0.0
+      owner:
+        uuid: ab46740c-4fbe-3a5f-8501-55eb17529ff4
+      spawned: true
+      commandtrait:
+        commands:
+          '0':
+            command: jb sksylvia \\ forms open sylvia
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      profession: NONE
+      villagertrait:
+        type: minecraft:jungle
+      lookclose:
+        range: 5.0
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      inventory:
+        '0':
+          type: stick
+          amount: 1
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAo=
+      equipment:
+        hand:
+          type_key: stick
+          amount: 1
+          type_namespace: minecraft
+          type: stick
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAo=
+        helmet:
+          type_key: leather_horse_armor
+          amount: 1
+          type_namespace: minecraft
+          type: leather_horse_armor
+          displayname: §8▪ §fHomburg
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAAEdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9SdADDeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiLilqogIiwib2JmdXNjYXRlZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwiY29sb3IiOiJkYXJrX2dyYXkiLCJib2xkIjpmYWxzZX0seyJ0ZXh0IjoiSG9tYnVyZyIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoid2hpdGUifV19c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAs=
+    traitnames: skintrait,profession,lookclose,scoreboardtrait,mounttrait,equipment,villagertrait,commandtrait,spawned,rotationtrait,inventory,location,owner,type
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+    metadata:
+      nameplate-visible: 'false'
+      cached-skin-uuid: 1fe9c490-1434-460f-be59-5db932c597fa
+      cached-skin-uuid-name: elohhh
+  '3':
+    metadata:
+      nameplate-visible: 'false'
+      cached-skin-uuid: 97c91019-b094-44d8-b4d7-c3e0ba7ff5e9
+      cached-skin-uuid-name: cyberio
+    name: '&f'
+    uuid: 62cb96b6-2430-46c9-b648-31a42aa281f5
+    traits:
+      location:
+        bodyYaw: -6.3530273
+        world: world
+        x: -40.5252
+        y: 68.0
+        z: -89.3857
+        yaw: -6.353
+        pitch: 0.0
+      commandtrait:
+        commands:
+          '0':
+            command: jb skaugust \\ forms open august_1
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      type: PLAYER
+      age: {}
+      owner:
+        uuid: a596f507-2d85-379d-9bde-09e2c3d6e039
+      skintrait:
+        signature: mNc/5FGqMZFw50/BapENPuvlDnBKk41Qk/pQC7KkZHOUC9ZXGxd0K9886jorpfOSR2lOL6uK+iv7NOnXGL+T+98Jcse7K41oCE4VGw8opex7WacRVne7KyRS/lJp2/OnF7cLh7Dp9xj57aqlRYdoAg5BC0VvXAc3fTbHJ22Qjd7oNBPsC7DVuysCzx8Jy1M1umSuFuqveLnWbA4nxM8b4RPDkvMcxernpxkpVSF/VNN7+xb2pEv1OIQMtZ/O/FCZFvh16JHJNMizQvtnHNRuV4fk4Gnvu4y3YzDbKWX2hHxPWZDZuaMT9S8z7kXoGyWoj/avvEJHBOAectC79kUFq/84tWwOwkiEhFsUimg/MfKnbt7c+KYLP5B6xfOPvEt9DyO9pM7vCvyzm219M3lvWkTjhnA9ggTdCcMVXUU0qPdFS6afq/kxe5P9wqyjJbn0MKpRpQrOuKg7R72T9sjzrDb185p93ysZVLa0sIMI+VwaZlbt762gZDGVgdZESsJjwf2GFet+/87EOIRQzaKesHblQVnR5KXk4LuT+atJJPr/G5t84tnYZ3YUULr+V/Wl4KgRQ8Q6Y6IN0k4Ag7ym14CshNTta+ozaVZyy7a7Ni0LgBxjWXc8Us7JUS376MgFCuFBCCAsGZ3jaTn/pvuMXYcIHSbnJKNslrf3LX+Kdfs=
+        skinName: cyberio
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5NzczODgwODA5MCwKICAicHJvZmlsZUlkIiA6ICI5N2M5MTAxOWIwOTQ0NGQ4YjRkN2MzZTBiYTdmZjVlOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJjeWJlcmlvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E3ZWQ1ZGUzZmRjMzI0NzQyOTMyYWNmNTg1NzUyNzdkMmEwYWMwNThlYzdmNmM4YzE0YzYwZThjM2M0ODNhNWIiCiAgICB9CiAgfQp9
+      spawned: true
+      lookclose:
+        range: 5.0
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      equipment:
+        hand:
+          type_key: iron_hoe
+          amount: 1
+          type_namespace: minecraft
+          type: iron_hoe
+        helmet:
+          type_key: leather_horse_armor
+          amount: 1
+          type_namespace: minecraft
+          type: leather_horse_armor
+          displayname: §8▪ §fStraw hat
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAAEdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9SdADFeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiLilqogIiwib2JmdXNjYXRlZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwiY29sb3IiOiJkYXJrX2dyYXkiLCJib2xkIjpmYWxzZX0seyJ0ZXh0IjoiU3RyYXcgaGF0IiwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSJ9XX1zcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAADw==
+      inventory:
+        '39':
+          type: leather_horse_armor
+          amount: 1
+          displayname: §8▪ §fStraw hat
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAAEdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9SdADFeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiLilqogIiwib2JmdXNjYXRlZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwiY29sb3IiOiJkYXJrX2dyYXkiLCJib2xkIjpmYWxzZX0seyJ0ZXh0IjoiU3RyYXcgaGF0IiwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSJ9XX1zcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAADw==
+        '0':
+          type: iron_hoe
+          amount: 1
+    traitnames: commandtrait,skintrait,spawned,lookclose,scoreboardtrait,mounttrait,equipment,inventory,location,owner,age,type
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '16':
+    metadata:
+      cached-skin-uuid: 54371be2-2ab5-4bb1-9915-7a190a9e4bce
+      cached-skin-uuid-name: charliedp2
+      nameplate-visible: 'false'
+    name: '&f'
+    uuid: 4032a845-5897-44fd-b7cc-7ebebf0d7fdb
+    traits:
+      age: {}
+      lookclose:
+        range: 5.0
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        uuid: ab46740c-4fbe-3a5f-8501-55eb17529ff4
+      skintrait:
+        signature: ayEOaxMakkGy/nrYcrZ5NzdZARqUoPOvVLhQN/Wb+azmk4GF/0JYDqO6emhBNGhf6DVBsP1Eop2SBeRFRN0RhHdHsDkhmGz1yu+lCwTqVM98X9QXUZ5oiH1kGxnLBJR0JCmgOZFz5FEngb46MIoCw0z1+pDEDO9yZDnjelsCr/MLbFl2VUqFybehLqWuoGsg7fRBAaVFt8s/3bmx6qR+6fTCKMLdz4KedPAFyrlJCOdY+MVEOpNu27AKMiD49BqeaHfziti88R+4Av/ScqF06gLUe5yHKh8iYCEfzcU0DP6MSt0eTppERyCz4LBxyl6aJwTsvQYM/53EohCSHn0+yeHyvtz18JI2DQ9T3xLgZ5biSTSoTTVucSSTWn85HuyY7ELzhLaS4EpV7UaEuUA0Gx9xYtR3ilYRhzsU3RLM2M999kGazzyQjG74Mdd6vWCRZdX1pPPez7/lCsYpWjs3WHoMkhKUj9VlXYPW47xwGNTvyele0fZzj5lJR12nA90czwMBKsZLZfLXoOzfVObdBdPpdK2saCqPVXYyTuZouk2w6DqyKyy+P1+8yp4AxjyDMoSEkYy5kBMgzDVTROeO58dGEDO5Yv1XKYtbm9Q/AiKyeETTaF9gMr2+TbEZmyZE+P00jkIw4OowJBN9zlwosBqP1PcTPzgkbF68RxE1CBQ=
+        skinName: CharlieDP2
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwNzQxNzExNDI3MSwKICAicHJvZmlsZUlkIiA6ICI1NDM3MWJlMjJhYjU0YmIxOTkxNTdhMTkwYTllNGJjZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDaGFybGllRFAyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzlhYWUzMDZiYTFhN2UyMGY0NWYwODQ0YTE5ZGU5NmE0ZTlkM2YyZTc5YjhjNjk4ZmE3NzIxZTMyZDliZDM0NTkiCiAgICB9CiAgfQp9
+      spawned: true
+      type: PLAYER
+      location:
+        bodyYaw: -62.514587
+        world: world
+        x: -119.588
+        y: 67.0
+        z: 13.4324
+        yaw: -62.5146
+        pitch: 1.817
+      commandtrait:
+        commands:
+          '0':
+            command: ferma %player%
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+          '1':
+            command: openfarm2 %player%
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+          '2':
+            command: ferma %player%
+            hand: LEFT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+          '3':
+            command: openfarm2 %player%
+            hand: LEFT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      inventory:
+        '39':
+          type_key: leather_horse_armor
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAAEdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9SdABRW3sidGV4dCI6InPhtJvKgOG0gOG0oSDKnOG0gOG0myIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiwqd4wqdGwqdGwqdFwqdDwqcxwqc1In1dc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAA8=
+          type_namespace: minecraft
+      equipment:
+        helmet:
+          type_key: leather_horse_armor
+          amount: 1
+          type_namespace: minecraft
+          type: leather_horse_armor
+          displayname: '[{"text":"sᴛʀᴀᴡ ʜᴀᴛ","italic":false,"color":"§x§F§F§E§C§1§5"}]'
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAAEdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9SdADUeyJ0ZXh0IjoiIiwiZXh0cmEiOlsiW3tcInRleHRcIjpcInPhtJvKgOG0gOG0oSDKnOG0gOG0m1wiLFwiaXRhbGljXCI6ZmFsc2UsXCJjb2xvclwiOlwiIix7InRleHQiOiJcIn1dIiwib2JmdXNjYXRlZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwiY29sb3IiOiIjRkZFQzE1IiwiYm9sZCI6ZmFsc2V9XX1zcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAADw==
+    traitnames: skintrait,lookclose,scoreboardtrait,mounttrait,equipment,age,commandtrait,spawned,rotationtrait,inventory,location,owner,type
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '15':
+    metadata:
+      cached-skin-uuid: e873b40b-2fd5-43f2-82c3-99d54f61dab1
+      cached-skin-uuid-name: switton
+      nameplate-visible: 'false'
+    name: §f
+    uuid: 07ea29f2-9034-4359-b4f9-033453c57004
+    traits:
+      age: {}
+      lookclose:
+        range: 5.0
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        uuid: ab46740c-4fbe-3a5f-8501-55eb17529ff4
+      skintrait:
+        signature: AhtWBKVYmkLU/N9B15k5rMCQCpuAKuuehwfoSf45oAXJSveD4KqAX3RiAnhT9ZmhNgqK7Cyj/KpnwOvvdmfwfAnYGlEPiYyh8KtXNtuccoIhyUvQ5VkVmigVjSPkAtCQxxEIQpR2Ey64vu18IQ2rRGudfNYjq3on3dkXzEifiB4EREQYheQQPIVEvF20WsHMJmI6LLzoUDN4UG9F6U//nDkeeUD6GEa7YBkoP68o8Yz7dIlBZDFNqD0EpxTAsrboCYQM7BHhpPHOGcbXPpPHQE/z4Ws2HVmeNu4sHpsJvUGuVh+XEKK0Coa1f3WA9yQQMnHFRCicapGZx6SpU02PqfvxpS/HX+Yn6E95+2Qo1MQ0yG9jC0nrUv5uoUks0j7Zls07cTZvcajpKaa/1/qqHzKtskb2ul4r2SBlK8bYBk8LYkZ7Vg9JfrtXNKV0lD0BMSnluXeW/FDOecR0x8nE3tUwdcbNqbmbfGQ9swtPLp5UejWp8dqfBbtPW7/TgXEwmBAvsXHwEWeloHsain99JN98AK7NSfNXI+i7g6U2RR6uZGr5sIGCVmyTzd8OzO7Wc9zDn/REpqFmHS3B8iQQPM32uWHqTvw6ezGI+/Lj5w+q5Vknygb2nkNGbbU76w0lXOaW6aF8YxtzVpT1d9TmCD4ui2/g0N9cRzsYYSXQ2Ys=
+        skinName: switton
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5Nzc0NTk0OTY1MSwKICAicHJvZmlsZUlkIiA6ICJlODczYjQwYjJmZDU0M2YyODJjMzk5ZDU0ZjYxZGFiMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJzd2l0dG9uIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JkYWZiOTU0YWI1YjA5ZTlmYzg0N2JlMjU1M2IzMmZkNjQxM2JjYTZlODU1NTE4OTllYTZlYTI0N2E2Nzc2OWYiCiAgICB9CiAgfQp9
+      spawned: true
+      type: PLAYER
+      location:
+        bodyYaw: 87.227585
+        world: world
+        x: -111.5539
+        y: 64.0
+        z: 3.5829
+        yaw: 112.6535
+        pitch: 0.0
+      commandtrait:
+        commands:
+          '0':
+            command: jb skmarcus \\ forms open marcus
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      inventory:
+        '39':
+          type_key: leather_horse_armor
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAAEdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9SdAAvW3sidGV4dCI6IsKnOOKWqiDCp2ZTdHJhdyBoYXQiLCJpdGFsaWMiOmZhbHNlfV1zcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAADw==
+          type_namespace: minecraft
+        '0':
+          type: wheat
+          amount: 1
+      equipment:
+        helmet:
+          type_key: leather_horse_armor
+          amount: 1
+          type_namespace: minecraft
+          type: leather_horse_armor
+          displayname: §8▪ §fStraw hat
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAAEdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9SdADFeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiLilqogIiwib2JmdXNjYXRlZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwiY29sb3IiOiJkYXJrX2dyYXkiLCJib2xkIjpmYWxzZX0seyJ0ZXh0IjoiU3RyYXcgaGF0IiwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSJ9XX1zcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAADw==
+        hand:
+          type_key: wheat
+          amount: 1
+          type_namespace: minecraft
+          type: wheat
+    traitnames: skintrait,lookclose,scoreboardtrait,mounttrait,equipment,age,commandtrait,spawned,rotationtrait,inventory,location,owner,type
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '20':
+    metadata:
+      cached-skin-uuid: 2103db74-ae68-44a5-b1f1-df9ec4868ff8
+      cached-skin-uuid-name: venimomoni
+      nameplate-visible: 'false'
+    name: '&f'
+    uuid: 415a7be7-802d-45c7-9cc5-8eb0c8f4caa2
+    traits:
+      owner:
+        uuid: a330250f-0159-4f49-929d-d59e2b883264
+      location:
+        bodyYaw: 90.44716
+        world: world
+        x: -86.5228
+        y: 66.0
+        z: -21.5035
+        yaw: 90.4472
+        pitch: 1.0279
+      equipment:
+        hand:
+          type_key: flower_banner_pattern
+          amount: 1
+          type_namespace: minecraft
+          type: flower_banner_pattern
+        helmet:
+          type_key: leather_horse_armor
+          amount: 1
+          type_namespace: minecraft
+          type: leather_horse_armor
+          displayname: §8▪ §fHoly circle
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAAEdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9SdADHeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiLilqogIiwib2JmdXNjYXRlZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwiY29sb3IiOiJkYXJrX2dyYXkiLCJib2xkIjpmYWxzZX0seyJ0ZXh0IjoiSG9seSBjaXJjbGUiLCJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIn1dfXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAR
+      skintrait:
+        signature: Is7UgKy/n6Lai/be/Ao2uFNV0W9GSnax8buEdXlbD8rBAg2dmt6i9OuK/Zv32Jk4ejTovc2Pl/x8Db0l90taYgEjidpjAFbp3yGBCjskIsP5AudvKtrUxGVCyDs96CXscyNHSkDQ8WhvaRAEXYnFXhlstw/cEoq3KOMb9YmBJmL2dVB3tSNsDeHl+2WzJzpiQ+g+Wl/WUbqUE3mlByFUDWp89dlygBIT6IBoVDN7E0Bl6Pk2OCAZ36elgvrnv83YkJsrqWGxSGTSZfcTKqH5HaAc7kpwEOWU4JwY63kiY0M/SlFFncgp71oHqV4u1wSV7hrLrZ4cQvTyGMzWlyqAprnfszFfn2yjcbDvqTffkCqSlnV6Z7ObR94AsZBchRB0NMVmic7PKxXNgiTUdOvzk5Fq/OkDUD5nZUTHE78vK84G7Ger6GxU6q5Nb3FcdrO+tN0JKYDRm4qwQtuRuoNNBisBK2Cm4OjkPxIeiGZERC5QSgpT7a3XSwuf0/IDitf+DT80Su+fFrtOSq2UZLQNO4jtj/zhA+jRn4mTTG43dF/Dc1+77guMZ2SvVQr08Aw/Iv/w12ZzYAelLYpprZnPFNUOl8b75MvdGVHURG4a92TVthOgeUgUuVWsb6U4jpJlotguZEbh7JL+CIwCu5CBLaq1w/FkKRvtetzmD3WXjB0=
+        skinName: venimomoni
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5Nzc0NDgxMzM5NiwKICAicHJvZmlsZUlkIiA6ICIyMTAzZGI3NGFlNjg0NGE1YjFmMWRmOWVjNDg2OGZmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJWZW5pbW9tb25pIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RkZGE2MGE5ZTVjZTc3YTZiZTQ2OWJiNzNhZmFjYjg3MTg2NGQ4MTI4NDFiYWRmYWFjOWJlZWEzOWRmMGZhMGEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+      inventory:
+        '39':
+          type_key: leather_horse_armor
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAAEdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9SdAAxW3sidGV4dCI6IsKnOOKWqiDCp2ZIb2x5IGNpcmNsZSIsIml0YWxpYyI6ZmFsc2V9XXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAR
+          type_namespace: minecraft
+        '0':
+          type: flower_banner_pattern
+          amount: 1
+      type: PLAYER
+      spawned: true
+      commandtrait:
+        commands:
+          '0':
+            command: jb skpetra \\ forms open petra_1
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+    traitnames: commandtrait,skintrait,spawned,scoreboardtrait,mounttrait,equipment,inventory,location,owner,type
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '19':
+    metadata:
+      cached-skin-uuid: 610a409f-e590-40d5-98e5-aa1d1f84f645
+      cached-skin-uuid-name: uhsid
+    name: '&f'
+    uuid: e6569f5a-1e5e-40b3-889e-937db87ff836
+    traits:
+      owner:
+        uuid: a330250f-0159-4f49-929d-d59e2b883264
+      location:
+        bodyYaw: -89.8277
+        world: world
+        x: -45.5115
+        y: 66.0
+        z: -65.5339
+        yaw: -89.8277
+        pitch: -1.5001
+      equipment:
+        helmet:
+          type_key: leather_horse_armor
+          amount: 1
+          type_namespace: minecraft
+          type: leather_horse_armor
+          displayname: §8▪ §fWitch Hat
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAAEdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9SdADFeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiLilqogIiwib2JmdXNjYXRlZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwiY29sb3IiOiJkYXJrX2dyYXkiLCJib2xkIjpmYWxzZX0seyJ0ZXh0IjoiV2l0Y2ggSGF0IiwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSJ9XX1zcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAAg==
+      skintrait:
+        signature: nIOFY3v04LRGciet3PhA4FQ1ASmbyU5aLYQDzSFfK5FX4vbaMrs913bh/LBIXeK7Pha+4X62g1+PWrjKnhY4VsoFc4p/eVf//ayJHds1Ciovc1Lry+8RNo2DCDFhOK8wAWkNnhVJ9usEF7NmIxGJHAE7v3BMt4tj8gmqJsXnC/gg2P9hROU9LOtXL/R72IL2aSxba+JMmCdZyVny0ArZtRaryuBzTy9LqLq3mclZbncO81wzvMrveQjj4VdJXgAs+DfpSsy/tjnTv/Aw7v3xVSKt2rUFIlEt5vbDBv5BOVruLjyPZUgT2XwNzCnH1Wu8vbcpzR8f7SCdizmCkXaGSpdXkRHaJjiYwzT57zRlvJ35Etz8hn/RYP0cjeV2fHPyNq/j1Aqq9yIBqACXm7MdL8Db+D2+9omYY3CjDBp72z1bs3x89GjJscOOdc/nbyPwCuAw6Q62F7RPqYvFOBdUZMirajnKd8szkFWo3kxOYp5xFngqROejDyDOVpmteVTXCjvX220tcZu8ijiUAbei2kcFWlGhv/DijY/HSNcAwkBX0d0H1SGMjwzs6yQ//ddrrL5O7VuwvxOZ5nrM8v9+lH3rYfpC3oh4rYRiSqJylE+ardUf8onF1/+RqwA5ZZ6KqXPvYitio1HR4KqG5Mg68gHcc1oHhpiu7VK/4ukNrQw=
+        skinName: uhsid
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5Nzc0NDM2NjExOCwKICAicHJvZmlsZUlkIiA6ICI2MTBhNDA5ZmU1OTA0MGQ1OThlNWFhMWQxZjg0ZjY0NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJVaFNpZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mMDEzZjljZTZhMzE3OTExZjIxOWJkYTVjNTY3Y2Q1Y2UzMzQyZjE0MWFkNmNmMzA1NWIzYTJlZjFlZjBjZGEiCiAgICB9CiAgfQp9
+      inventory:
+        '39':
+          type: leather_horse_armor
+          amount: 1
+          displayname: §8▪ §fWitch Hat
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAAEdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9SdADFeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiLilqogIiwib2JmdXNjYXRlZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwiY29sb3IiOiJkYXJrX2dyYXkiLCJib2xkIjpmYWxzZX0seyJ0ZXh0IjoiV2l0Y2ggSGF0IiwiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSJ9XX1zcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAAg==
+      type: PLAYER
+      spawned: true
+      commandtrait:
+        commands:
+          '0':
+            command: jb skgandalf \\ forms open wizard
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+    traitnames: commandtrait,skintrait,spawned,scoreboardtrait,mounttrait,equipment,inventory,location,owner,type
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '22':
+    metadata:
+      cached-skin-uuid: 38f52b55-0851-4476-a04d-1f349b8f0b1b
+      cached-skin-uuid-name: artemis54
+    name: '&f'
+    uuid: 1bc53968-c6ce-47c7-93d4-9ea4515a14f1
+    traits:
+      owner:
+        uuid: a330250f-0159-4f49-929d-d59e2b883264
+      location:
+        bodyYaw: -91.47632
+        world: world
+        x: -132.0805
+        y: 67.0
+        z: -1.8845
+        yaw: -91.4763
+        pitch: 1.4056
+      equipment:
+        hand:
+          type_key: golden_apple
+          amount: 1
+          type_namespace: minecraft
+          type: golden_apple
+        helmet:
+          type_key: leather_horse_armor
+          amount: 1
+          type_namespace: minecraft
+          type: leather_horse_armor
+          displayname: §8▪ §fViking Horns Hat
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAAEdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9SdADMeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiLilqogIiwib2JmdXNjYXRlZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwiY29sb3IiOiJkYXJrX2dyYXkiLCJib2xkIjpmYWxzZX0seyJ0ZXh0IjoiVmlraW5nIEhvcm5zIEhhdCIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoid2hpdGUifV19c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAU=
+      skintrait:
+        signature: AU7O0U1p8XDP5xoUhiXBpAe0rCAAI04x4fh4WLPqNB0m/ee1YNbTqW8QkXEWhy8yI1y1oE/PbVxfHm+2aDV4tCWiVl+Cvi33P0TOHOlIxf5HYLmGOhHKsfyS3G+MEvUEJ6bypBXR5uktHNj+ezsWTBEp3lvyAl759Hh6J/A9xvtreQR+GfRMr3v+zc+3l7wfS6cr8q/JxopUyvpWa5L/vLAFfarRBXjdI4G/2xFwaf//AZ0jmT7QXwIBie+PEDHyREARh0zxoyRKwFKjqUAIpqNAfp8qwvbuNERr7jGZZs6BWGksr0+hUEjnZXCzxpB4i9QrnR/d7CGQUrJTMnxKzAJzFp8Kl0ykg08jnWheA59EEIyQqV8s0xxWIFthRX0f5aPzOpQBJSQbekFhBIoraQZouY9HjFMrwqwzlEYpJp2JeKE8W5MzUT9JreHArBbYlQLf8h3Yyk15FF19oraidn21983aQm4xBHxFbD5NX7mqevpTGvkcKtwcSTg0JFXc+THWKjlgEzEjSzTtUYt5vUACvy+LV9pBtswLZ5ReI6eL/BnZ6UDFehii9eGVepetaAbCW+P+zE4Hx4lE9o3rw8BVvDqsgEvN/+Y3o8rwyvJQmC68Byz2HFTUX/MA7AUvpa5iduioqM8DjRqOUOcuAj7puxnDHlKtZ5GUE9oxyrM=
+        skinName: artemis54
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5Nzc0NzUxMzY4OSwKICAicHJvZmlsZUlkIiA6ICIzOGY1MmI1NTA4NTE0NDc2YTA0ZDFmMzQ5YjhmMGIxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcnRlbWlzNTQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjYwOWNmZGE4YzcwNzdhODBmYmZmMDgxNGFkMzk4M2Y0NDNlMWVhYjVlNDA2Zjc1MGNmNTk4MDJhMGJlZTExYiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+      inventory:
+        '39':
+          type: leather_horse_armor
+          amount: 1
+          displayname: §8▪ §fViking Horns Hat
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAAEdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9SdADMeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiLilqogIiwib2JmdXNjYXRlZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwiY29sb3IiOiJkYXJrX2dyYXkiLCJib2xkIjpmYWxzZX0seyJ0ZXh0IjoiVmlraW5nIEhvcm5zIEhhdCIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoid2hpdGUifV19c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAU=
+        '0':
+          type: golden_apple
+          amount: 1
+      type: PLAYER
+      spawned: true
+      commandtrait:
+        commands:
+          '0':
+            command: jb skmark \\ forms open mark
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+    traitnames: commandtrait,skintrait,spawned,scoreboardtrait,mounttrait,equipment,inventory,location,owner,type
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '21':
+    metadata:
+      cached-skin-uuid: eeeab583-1417-4f3e-9f33-8c788164510d
+      cached-skin-uuid-name: ghoulli
+    name: '&f'
+    uuid: af0520ae-9194-4ad6-b3ba-32a61f7e8f0b
+    traits:
+      owner:
+        uuid: a330250f-0159-4f49-929d-d59e2b883264
+      location:
+        bodyYaw: -96.73757
+        world: world
+        x: -85.3358
+        y: 69.0
+        z: 95.1018
+        yaw: -96.7376
+        pitch: 0.75
+      equipment:
+        hand:
+          type_key: stone_pickaxe
+          amount: 1
+          type_namespace: minecraft
+          type: stone_pickaxe
+        helmet:
+          type_key: leather_horse_armor
+          amount: 1
+          type_namespace: minecraft
+          type: leather_horse_armor
+          displayname: §8▪ §fHard hat
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAAEdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9SdADEeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiLilqogIiwib2JmdXNjYXRlZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwiY29sb3IiOiJkYXJrX2dyYXkiLCJib2xkIjpmYWxzZX0seyJ0ZXh0IjoiSGFyZCBoYXQiLCJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIn1dfXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAQ
+      skintrait:
+        signature: Y2+vHIlrPIURujHZ4GFFqR4M1IzhbqfipO6jvvCGpv8SS51eBk7FFSDsnRIpni4GOSphtIsQ4juRmveCjWb/2ENloscmMnS7Bhgk3oGAeSClVUO35FGcXucqS+Xr3V12l5zIByfSWOdJe4/ppwPvwSxnG3gaeYh7UFsEIoC5Ze0bY/SZJO3z5lIigNrerYtkyCfPV4cOU4LMsOQHt4Qqx1VLZcHQJ0ujGoOEmZeSEXYzahkbCVd6uawLwXJGEnviuK9RVWxfII5cFZE3gcKW0h1D0684l9Ms7t5yLPEZkLEpxW8BdDTgybfjORMDgY/743vIsCYdC0q0FLrw/FhkdVaVovyP83lYjh1Mc4pK1zWHcoRDjPec3QXUQz+G1+Ncgk6FSjqMIZ0IJelNe00j2HhoY99tHo3TSMZGMzL08kZGFjnE9cXOykjc6QUv7TiUmkN8KXMUqAjVL6rTnAhPApODi/27jGZFZQsEdei6lmZo+XE7x2jvW7r3HD/Q8YvNs5n1BVFtASFsWCkTfs9L82Td9FJqGx23QWtoEuUoiAjnm5F6FSFRfqWIy26W0sez3y+KEZXQoQqNJvpOpSBEJ70bXi1/J9XbmNaVnOFi76l2G6zOTtA2VJkXgdPNwTf7VYnvXANpzx20GLzfU+G7DOq7CSm/Q2Lc9Eo3eiRNnYs=
+        skinName: ghoulli
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5Nzc0NjUyODk4NCwKICAicHJvZmlsZUlkIiA6ICJlZWVhYjU4MzE0MTc0ZjNlOWYzMzhjNzg4MTY0NTEwZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJHaG91bGxpIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M0NmU2NGUwMTE3MGI2YzkyNjY5MzY0ZTUyZjA0ODg2YzA3MDllNGVhMDJmNDM3NjYzNDRhYjAwNTA2MTM1MjIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==
+      inventory:
+        '39':
+          type: leather_horse_armor
+          amount: 1
+          displayname: §8▪ §fHard hat
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAAEdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9SdADEeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiLilqogIiwib2JmdXNjYXRlZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwiY29sb3IiOiJkYXJrX2dyYXkiLCJib2xkIjpmYWxzZX0seyJ0ZXh0IjoiSGFyZCBoYXQiLCJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIn1dfXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAQ
+        '0':
+          type: stone_pickaxe
+          amount: 1
+      type: PLAYER
+      spawned: true
+      commandtrait:
+        commands:
+          '0':
+            command: jb sknoah \\ forms open noah
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+    traitnames: commandtrait,skintrait,spawned,scoreboardtrait,mounttrait,equipment,inventory,location,owner,type
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '24':
+    metadata:
+      cached-skin-uuid: c4b37d6b-bea7-4887-85d4-505a03dac69c
+      cached-skin-uuid-name: annualer
+      nameplate-visible: 'true'
+    name: '&f'
+    uuid: 37c595ab-f9e7-4acb-a5fd-3f1fe6258382
+    traits:
+      owner:
+        uuid: a330250f-0159-4f49-929d-d59e2b883264
+      lookclose:
+        range: 5.0
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        bodyYaw: -178.74107
+        world: world
+        x: -26.4941
+        y: 77.0
+        z: 91.5361
+        yaw: -178.7411
+        pitch: 0.0
+      equipment:
+        helmet:
+          type_key: leather_horse_armor
+          amount: 1
+          type_namespace: minecraft
+          type: leather_horse_armor
+          displayname: §8▪ §fViking Hat
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAAEdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9SdADGeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiLilqogIiwib2JmdXNjYXRlZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwiY29sb3IiOiJkYXJrX2dyYXkiLCJib2xkIjpmYWxzZX0seyJ0ZXh0IjoiVmlraW5nIEhhdCIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoid2hpdGUifV19c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAM=
+      skintrait:
+        signature: I5uYWmf2cQu+8TJbqne7VNPmDv1p+4nRq5LPk9y46echWoobcpjKzWQbBC+7PQtQTQv3JGcOdhVd7VOK0QcSponlEgZf1NGYb6kpstD8aeDUheAJRv/CexYWlkhHh0LEF/JKX6IIZ0/jKmRKn77wu/osnvvUMr80u+7ihtLglAVGzhGSrMkSdlCbZCd6ZO6rRzhVgIdaQnTEJYL/oasdDDUWnmLEicZcnVltiyuUPRHMMlDWbPu3CJ6wkyRyFBjAA7ltvt+ryzBSi2WnZFu7vmyS1/YRfNucAT7GzXu0P9EgHweqGD5qY7E8vSO2wIoq0+sah1KA67WQ2VDJ69bxooM5Ux5HOEhCjJk1tXuf/fGVejeB3Z8k6XQy+X0vTm2NSuCxGCvNd/DI8r3O8AwYCC/t1d5aGO8huEIYSleGyKcDfvh8GmTIHD/h2F1T9epduh1ICpaouHnpofo4KszTYlJTE/iotrpq6FKOYBUYQv0Ggs4pnvtY0GxHvgF/3SmgmwtoBtux5ZH2iXiCrw07awcKuKFaF0kupZw8Br5vbTS54Xw4ZVcs+aBud13MwRtuhMM4GpjEmfJOctbRJCzt/lDBXZF8XKAXNDEc2RXm0Zn2FeOrUDK8F+dFDb/8A8WyaB7CHEoPPspiDcn+dnbEb8TtR6GzkBSfXtZxcEJIIj0=
+        skinName: annualer
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5Nzc0ODA5MTY5NSwKICAicHJvZmlsZUlkIiA6ICJjNGIzN2Q2YmJlYTc0ODg3ODVkNDUwNWEwM2RhYzY5YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbm51YWxlciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80NzlkZGU0NTNlMGE0YjdmNjM4M2RlNDM0NjA3YWVlOWFjMWM5NWM0YjFjYzgxMWM1YmZlYjI3Nzc1MDI5NDk2IgogICAgfQogIH0KfQ==
+      inventory:
+        '39':
+          type: leather_horse_armor
+          amount: 1
+          displayname: §8▪ §fViking Hat
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAAEdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9SdADGeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiLilqogIiwib2JmdXNjYXRlZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwiY29sb3IiOiJkYXJrX2dyYXkiLCJib2xkIjpmYWxzZX0seyJ0ZXh0IjoiVmlraW5nIEhhdCIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoid2hpdGUifV19c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAM=
+      type: PLAYER
+      spawned: true
+      commandtrait:
+        commands:
+          '0':
+            command: jb skthyra \\ forms open Thyra
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+    traitnames: commandtrait,skintrait,spawned,lookclose,scoreboardtrait,mounttrait,equipment,rotationtrait,inventory,location,owner,type
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '23':
+    metadata:
+      cached-skin-uuid: 058dd10a-ceb6-41d8-a94c-8f739c22212a
+      cached-skin-uuid-name: niko06
+    name: '&f'
+    uuid: 9333eb0f-a976-4c8f-a87e-931995808d53
+    traits:
+      owner:
+        uuid: a330250f-0159-4f49-929d-d59e2b883264
+      location:
+        bodyYaw: -89.684135
+        world: world
+        x: -100.4447
+        y: 65.0
+        z: -1.442
+        yaw: -89.6841
+        pitch: -3.1499
+      equipment:
+        hand:
+          type_key: stick
+          amount: 1
+          type_namespace: minecraft
+          type: stick
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAI=
+        helmet:
+          type_key: leather_horse_armor
+          amount: 1
+          type_namespace: minecraft
+          type: leather_horse_armor
+          displayname: §8▪ §fCrown
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAAEdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9SdADBeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiLilqogIiwib2JmdXNjYXRlZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwiY29sb3IiOiJkYXJrX2dyYXkiLCJib2xkIjpmYWxzZX0seyJ0ZXh0IjoiQ3Jvd24iLCJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIn1dfXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAT
+      skintrait:
+        signature: gT9tjLK2eqVPC3eDh8vjywbSn8EQkzss737sm8lVzn0RIhWgQ/kSf0JqX4MdP6ce/gdyh66ONGQxpJj9+mGxYjNtmOXOuTzlmU9/+vOgVF/HOK2DeiO4TpHJKT/OJpYgWpcTC/2g9Nao02ev5oeCw3XbepHuBq6ACarFYwSve4YpslDSKc5p4W+QG5xfiEGRJj7shWWpwMXaUgjzh8dBHAFSSykSq+IN608q4ke5j/u6uf3qPVfPsdf+kCrfJd8S6DPNbp4BQp04etSSZw3x137K5g3auHVmy2rRku5f79fnf57fItx1hfofxpjqovvozNRPxmNopZLNHAcn/PNe7AKlklL4EQYMuJtC6wQGf5RwkiubOnXog2x7smMUi7aRn7ZHYU9EAP5L58OnsWgqBlUsTFsCNC7HMI5KcMhMCYJQUWD4xuszURClkYos9/W3gJRzp81IxkCRTeHw7jDfrKYQgS9hCRn8t3bnku0CQN3RpZAYgrXLrb+qqaBQIIf1h6mMa9hXynxedXam6Z61SgY9KofY49N8mewhf4W2+FlGspf8D1uwCRXfLKhu18XIaZ96Kjz5gYLnBKtJ4Kvb78daQQ/Fpf1HEv4hDmzuf9LSYtNzeuKBTZpniiKxChGJttRCxHw0cZUNJp3ahhsXz7fKokZCKHvFrR5UZlE23PY=
+        skinName: niko06
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5Nzc0Mzg2OTExNywKICAicHJvZmlsZUlkIiA6ICIwNThkZDEwYWNlYjY0MWQ4YTk0YzhmNzM5YzIyMjEyYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJuaWtvMDYiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNThkNGYzOTMwYjIwMDY3ZjljMjY3YzY4OWY3ODMzOGMxYjNmZmRjMzFhMGIzMTMzZDIyMmQ5NWRhYzUyZGFiOSIKICAgIH0KICB9Cn0=
+      inventory:
+        '39':
+          type_key: leather_horse_armor
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAAEdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9SdAArW3sidGV4dCI6IsKnOOKWqiDCp2ZDcm93biIsIml0YWxpYyI6ZmFsc2V9XXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAT
+          type_namespace: minecraft
+        '0':
+          type: stick
+          amount: 1
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAI=
+      type: PLAYER
+      spawned: true
+      commandtrait:
+        commands:
+          '0':
+            command: jb skcassian \\ forms open cassian
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+    traitnames: commandtrait,skintrait,spawned,scoreboardtrait,mounttrait,equipment,inventory,location,owner,type
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false

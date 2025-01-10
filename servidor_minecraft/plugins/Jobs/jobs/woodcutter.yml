@@ -1,0 +1,416 @@
+Woodcutter:
+  fullname: Woodcutter
+  shortname: W
+  description: '&fEarn money felling and planting trees.'
+  ChatColour: GREEN
+  chat-display: full
+  max-level: 100
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  maxDailyQuests: 1
+  Quests:
+    '1':
+      Name: Lumberjack
+      Objectives:
+      - Break;oak_log;24
+      - Break;oak_leaves;32
+      - Place;oak_sapling;4
+      RewardCommands:
+      - eco give [playerName] 350
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBreak logs and get money'
+      - '&8 ▪ &fGet 350$ for this!'
+    '2':
+      Name: Lumberjack II
+      Objectives:
+      - Break;oak_log;24
+      - Break;birch_log;24
+      RewardCommands:
+      - eco give [playerName] 220
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBreak logs and get money'
+      - '&8 ▪ &fGet 220$ for this!'
+    '3':
+      Name: Lumberjack III
+      Objectives:
+      - Break;oak_log;5
+      - Break;birch_log;5
+      - Break;spruce_log;5
+      - Break;acacia_log;5
+      - Break;jungle_log;5
+      - Break;dark_oak_log;5
+      RewardCommands:
+      - eco give [playerName] 400
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBreak logs and get money Vlad3'
+      - '&8 ▪ &fGet 400$ for this!'
+    '4':
+      Name: Birch Cruiser
+      Objectives:
+      - Break;birch_log;24
+      - Break;birch_leaves;32
+      - Place;birch_sapling;4
+      RewardCommands:
+      - eco give [playerName] 350
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBreak trees and place saplings to get money'
+      - '&8 ▪ &fGet 350$ for this!'
+    '5':
+      Name: Spruce Cruiser
+      Objectives:
+      - Break;spruce_log;24
+      - Break;spruce_leaves;32
+      - Place;spruce_sapling;4
+      RewardCommands:
+      - eco give [playerName] 350
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBreak trees and place saplings to get money'
+      - '&8 ▪ &fGet 350$ for this!'
+    '6':
+      Name: Acacia Cruiser
+      Objectives:
+      - Break;acacia_log;24
+      - Break;acacia_leaves;32
+      - Place;acacia_sapling;4
+      RewardCommands:
+      - eco give [playerName] 350
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBreak trees and place saplings to get money'
+      - '&8 ▪ &fGet 350$ for this!'
+    '7':
+      Name: Jungle Cruiser
+      Objectives:
+      - Break;jungle_log;128
+      - Break;jungle_leaves;32
+      - Place;jungle_sapling;8
+      RewardCommands:
+      - eco give [playerName] 450
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBreak trees and place saplings to get money'
+      - '&8 ▪ &fGet 450$ for this!'
+    '8':
+      Name: Dark Oak Cruiser
+      Objectives:
+      - Break;dark_oak_log;128
+      - Break;dark_oak_leaves;32
+      - Place;dark_oak_sapling;8
+      RewardCommands:
+      - eco give [playerName] 450
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBreak trees and place saplings to get money'
+      - '&8 ▪ &fGet 450$ for this!'
+    '9':
+      Name: Lumberjack IV
+      Objectives:
+      - Break;birch_log;24
+      - Break;spruce_log;24
+      RewardCommands:
+      - eco give [playerName] 250
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBreak logs and get money'
+      - '&8 ▪ &fGet 250$ for this!'
+    '10':
+      Name: Lumberjack V
+      Objectives:
+      - Break;oak_log;24
+      - Break;spruce_log;24
+      RewardCommands:
+      - eco give [playerName] 240
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBreak logs and get money'
+      - '&8 ▪ &fGet 240$ for this!'
+    '11':
+      Name: Landscaper
+      Objectives:
+      - Break;oak_leaves;64
+      RewardCommands:
+      - eco give [playerName] 160
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBreak leaves to get money'
+      - '&8 ▪ &fGet 160$ for this!'
+    '12':
+      Name: Landscaper II
+      Objectives:
+      - Break;birch_leaves;64
+      RewardCommands:
+      - eco give [playerName] 180
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBreak leaves to get money'
+      - '&8 ▪ &fGet 180$ for this!'
+    '13':
+      Name: Landscaper III
+      Objectives:
+      - Break;spruce_leaves;64
+      RewardCommands:
+      - eco give [playerName] 200
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fBreak leaves to get money'
+      - '&8 ▪ &fGet 200$ for this!'
+    '14':
+      Name: Ecologist
+      Objectives:
+      - Place;oak_sapling;12
+      RewardCommands:
+      - eco give [playerName] 250
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fPlace saplings to get money'
+      - '&8 ▪ &fGet 250$ for this!'
+    '15':
+      Name: Ecologist II
+      Objectives:
+      - Place;spruce_sapling;8
+      RewardCommands:
+      - eco give [playerName] 250
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fPlace saplings to get money'
+      - '&8 ▪ &fGet 250$ for this!'
+    '16':
+      Name: Ecologist III
+      Objectives:
+      - Place;birch_sapling;10
+      RewardCommands:
+      - eco give [playerName] 250
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fPlace saplings to get money'
+      - '&8 ▪ &fGet 250$ for this!'
+    '17':
+      Name: Ecologist IV
+      Objectives:
+      - Place;oak_sapling;4
+      - Place;birch_sapling;2
+      - Place;spruce_sapling;3
+      - Place;acacia_sapling;2
+      - Place;jungle_sapling;4
+      - Place;dark_oak_sapling;4
+      RewardCommands:
+      - eco give [playerName] 500
+      - questdone [playerName]
+      RewardDesc:
+      - '&8 ▪ &fPlace saplings to get money'
+      - '&8 ▪ &fGet 500$ for this!'
+  Gui:
+    Id: 275
+    Data: 0
+  Break:
+    oak_wood:
+      income: 1.25
+      points: 1.25
+      experience: 1.25
+    spruce_wood:
+      income: 1.3
+      points: 1.3
+      experience: 1.3
+    birch_wood:
+      income: 1.35
+      points: 1.35
+      experience: 1.35
+    jungle_wood:
+      income: 1.25
+      points: 1.25
+      experience: 1.25
+    acacia_wood:
+      income: 1.4
+      points: 1.4
+      experience: 1.4
+    dark_oak_wood:
+      income: 1.3
+      points: 1.3
+      experience: 1.3
+    crimson_hyphae:
+      income: 1.25
+      points: 1.25
+      experience: 1.25
+    warped_hyphae:
+      income: 1.45
+      points: 1.45
+      experience: 1.45
+    oak_log:
+      income: 0.95
+      points: 0.95
+      experience: 0.95
+    spruce_log:
+      income: 1.0
+      points: 1.0
+      experience: 1.0
+    birch_log:
+      income: 1.05
+      points: 1.05
+      experience: 1.55
+    jungle_log:
+      income: 0.95
+      points: 0.95
+      experience: 0.95
+    acacia_log:
+      income: 1.1
+      points: 1.1
+      experience: 1.1
+    dark_oak_log:
+      income: 1.1
+      points: 1.1
+      experience: 1.1
+    crimson_stem:
+      income: 1.1
+      points: 1.1
+      experience: 1.1
+    warped_stem:
+      income: 1.2
+      points: 1.2
+      experience: 1.2
+    stripped_oak_wood:
+      income: 0.7
+      points: 0.7
+      experience: 0.5
+    stripped_spruce_wood:
+      income: 0.75
+      points: 0.75
+      experience: 0.55
+    stripped_birch_wood:
+      income: 0.8
+      points: 0.8
+      experience: 0.6
+    stripped_jungle_wood:
+      income: 0.7
+      points: 0.7
+      experience: 0.5
+    stripped_acacia_wood:
+      income: 0.85
+      points: 0.85
+      experience: 0.65
+    stripped_dark_oak_wood:
+      income: 0.75
+      points: 0.75
+      experience: 0.55
+    stripped_crimson_hyphae:
+      income: 0.75
+      points: 0.75
+      experience: 0.55
+    stripped_warped_hyphae:
+      income: 0.85
+      points: 0.85
+      experience: 0.55
+    stripped_oak_log:
+      income: 0.7
+      points: 0.7
+      experience: 0.5
+    stripped_spruce_log:
+      income: 0.75
+      points: 0.75
+      experience: 0.55
+    stripped_birch_log:
+      income: 0.8
+      points: 0.8
+      experience: 0.6
+    stripped_jungle_log:
+      income: 0.7
+      points: 0.7
+      experience: 0.5
+    stripped_acacia_log:
+      income: 0.85
+      points: 0.85
+      experience: 0.65
+    stripped_dark_oak_log:
+      income: 0.75
+      points: 0.75
+      experience: 0.55
+    stripped_crimson_stem:
+      income: 0.75
+      points: 0.75
+      experience: 0.55
+    stripped_warped_stem:
+      income: 0.75
+      points: 0.75
+      experience: 0.55
+    oak_sapling:
+      income: -2.0
+      points: -2.0
+      experience: -2.0
+    spruce_sapling:
+      income: -2.1
+      points: -2.1
+      experience: -2.1
+    birch_sapling:
+      income: -2.2
+      points: -2.2
+      experience: -2.2
+    jungle_sapling:
+      income: -2.1
+      points: -2.1
+      experience: -2.1
+    acacia_sapling:
+      income: -2.3
+      points: -2.3
+      experience: -2.3
+    dark_oak_sapling:
+      income: -2.3
+      points: -2.3
+      experience: -2.3
+    oak_leaves:
+      income: 0.25
+      points: 0.25
+      experience: 0.25
+    spruce_leaves:
+      income: 0.3
+      points: 0.3
+      experience: 0.3
+    birch_leaves:
+      income: 0.25
+      points: 0.25
+      experience: 0.25
+    jungle_leaves:
+      income: 0.3
+      points: 0.3
+      experience: 0.3
+    acacia_leaves:
+      income: 0.3
+      points: 0.3
+      experience: 0.3
+    dark_oak_leaves:
+      income: 0.25
+      points: 0.25
+      experience: 0.25
+  Place:
+    oak_sapling:
+      income: 2.0
+      points: 2.0
+      experience: 2.0
+    spruce_sapling:
+      income: 2.1
+      points: 2.1
+      experience: 2.1
+    birch_sapling:
+      income: 2.2
+      points: 2.2
+      experience: 2.2
+    jungle_sapling:
+      income: 2.1
+      points: 2.1
+      experience: 2.1
+    acacia_sapling:
+      income: 2.3
+      points: 2.3
+      experience: 2.3
+    dark_oak_sapling:
+      income: 2.3
+      points: 2.3
+      experience: 2.3

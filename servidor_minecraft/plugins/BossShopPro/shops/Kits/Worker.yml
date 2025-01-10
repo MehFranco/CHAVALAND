@@ -1,0 +1,265 @@
+ShopName: Worker
+DisplayName: '&f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔'
+Command: KitsWorker:KitWorker
+RemovePlayerInventory: true
+shop:
+  Worker:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:402
+    - 'lore1:&7sᴏᴍᴇ ᴛᴏᴏʟs ᴛᴏ ʜᴇʟᴘ'
+    - 'lore2:&7ʏᴏᴜ ɪɴ ʏᴏᴜʀ ᴡᴏʀᴋ!'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 20
+################################################################################################
+  Redeem_Available:
+    MenuItem:
+    - name:&f
+    - 'lore1:&7ᴛʜɪꜱ ᴋɪᴛ ɪꜱ ᴀᴛ ʏᴏᴜʀ#&7ᴅɪꜱᴘᴏꜱᴀʟ ᴛʜʀᴏᴜɢʜ#&7ᴀ ꜱɪᴍᴘʟᴇ ᴄʟɪᴄᴋ.' 
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ɢᴇᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: PlayerCommand
+    Reward:
+    - kit worker
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 49
+    Condition:
+    - type:placeholdermatch
+    - '%essentials_kit_is_available_Worker%:match:yes'
+    - type:permission
+    - match:essentials.kits.worker
+  Redeem_Available_2:
+    MenuItem:
+    - name:&f
+    - 'lore1:&7ᴛʜɪꜱ ᴋɪᴛ ɪꜱ ᴀᴛ ʏᴏᴜʀ#&7ᴅɪꜱᴘᴏꜱᴀʟ ᴛʜʀᴏᴜɢʜ#&7ᴀ ꜱɪᴍᴘʟᴇ ᴄʟɪᴄᴋ.' 
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ɢᴇᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: PlayerCommand
+    Reward:
+    - kit worker
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 50
+    Condition:
+    - type:placeholdermatch
+    - '%essentials_kit_is_available_Worker%:match:yes'
+    - type:permission
+    - match:essentials.kits.worker
+  Redeem_Available_3:
+    MenuItem:
+    - name:&f
+    - 'lore1:&7ᴛʜɪꜱ ᴋɪᴛ ɪꜱ ᴀᴛ ʏᴏᴜʀ#&7ᴅɪꜱᴘᴏꜱᴀʟ ᴛʜʀᴏᴜɢʜ#&7ᴀ ꜱɪᴍᴘʟᴇ ᴄʟɪᴄᴋ.' 
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ɢᴇᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: PlayerCommand
+    Reward:
+    - kit worker
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 51
+    Condition:
+    - type:placeholdermatch
+    - '%essentials_kit_is_available_Worker%:match:yes'
+    - type:permission
+    - match:essentials.kits.worker
+  Redeem_Cooldown:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴡᴀɪᴛ ᴛᴏ'
+    - 'lore2:&7ɢᴇᴛ ᴛʜɪs ᴋɪᴛ ᴀɢᴀɪɴ'
+    - 'lore4:&f &eᴏɴ ᴄᴏᴏʟᴅᴏᴡɴ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 49
+    Condition:
+    - type:permission
+    - match:essentials.kits.worker
+  Redeem_Cooldown_2:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴡᴀɪᴛ ᴛᴏ'
+    - 'lore2:&7ɢᴇᴛ ᴛʜɪs ᴋɪᴛ ᴀɢᴀɪɴ'
+    - 'lore4:&f &eᴏɴ ᴄᴏᴏʟᴅᴏᴡɴ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 50
+    Condition:
+    - type:permission
+    - match:essentials.kits.worker
+  Redeem_Cooldown_3:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴡᴀɪᴛ ᴛᴏ'
+    - 'lore2:&7ɢᴇᴛ ᴛʜɪs ᴋɪᴛ ᴀɢᴀɪɴ'
+    - 'lore4:&f &eᴏɴ ᴄᴏᴏʟᴅᴏᴡɴ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 51
+    Condition:
+    - type:permission
+    - match:essentials.kits.worker
+  Redeem_Locked:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+    - 'lore2:&7ᴋɪᴛ ꜰʀᴏᴍ /ʀᴇᴡᴀʀᴅs'
+    - 'lore4:&f &cᴜɴᴀᴠᴀɪʟᴀʙʟᴇ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 49
+  Redeem_Locked_2:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+    - 'lore2:&7ᴋɪᴛ ꜰʀᴏᴍ /ʀᴇᴡᴀʀᴅs'
+    - 'lore4:&f &cᴜɴᴀᴠᴀɪʟᴀʙʟᴇ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 50
+  Redeem_Locked_3:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴜɴʟᴏᴄᴋ'
+    - 'lore2:&7ᴋɪᴛ ꜰʀᴏᴍ /ʀᴇᴡᴀʀᴅs'
+    - 'lore4:&f &cᴜɴᴀᴠᴀɪʟᴀʙʟᴇ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 51
+################################################################################################
+  Next_Page:
+    MenuItem:
+    - name:&8ɴᴇxᴛ ᴘᴀɢᴇ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: Shop
+    Reward: Vip
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 21
+  Previous_Page:
+    MenuItem:
+    - name:&8ᴘʀᴇᴠɪᴏᴜs ᴘᴀɢᴇ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: Shop
+    Reward: Fighter
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 19
+################################################################################################
+  Item1:
+    MenuItem:
+    - name:&fɴᴇᴛʜᴇʀɪᴛᴇ ᴘɪᴄᴋᴀxᴇ
+    - amount:1
+    - type:netherite_pickaxe
+    - 'lore1:&7ᴇꜰꜰɪᴄɪᴇɴᴄʏ ɪ'
+    - enchantment:UNBREAKING#1
+    - hideflags:all
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+  Item2:
+    MenuItem:
+    - name:&fɪʀᴏɴ ᴀxᴇ
+    - amount:1
+    - type:iron_axe
+    - 'lore1:&7ᴇꜰꜰɪᴄɪᴇɴᴄʏ ɪ#&7ᴜɴʙʀᴇᴀᴋɪɴɢ ɪɪɪ'
+    - enchantment:UNBREAKING#1
+    - hideflags:all
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15
+  Item3:
+    MenuItem:
+    - name:&fᴅɪᴀᴍᴏɴᴅ sʜᴏᴠᴇʟ
+    - amount:1
+    - type:diamond_shovel
+    - 'lore1:&7ᴇꜰꜰɪᴄɪᴇɴᴄʏ ɪɪ#&7ᴜɴʙʀᴇᴀᴋɪɴɢ ɪ'
+    - enchantment:UNBREAKING#1
+    - hideflags:all
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+  Item4:
+    MenuItem:
+    - name:&fɪʀᴏɴ ʜᴏᴇ
+    - amount:1
+    - type:iron_hoe
+    - 'lore1:&7ᴜɴʙʀᴇᴀᴋɪɴɢ ɪɪɪ'
+    - enchantment:UNBREAKING#1
+    - hideflags:all
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 17
+  Item5:
+    MenuItem:
+    - name:&fꜰɪꜱʜɪɴɢ ʀᴏᴅ
+    - amount:1
+    - type:fishing_rod
+    - 'lore1:&7ʟᴜᴄᴋ ᴏꜰ ᴛʜᴇ ꜱᴇᴀ ɪ#&7ᴜɴʙʀᴇᴀᴋɪɴɢ ɪɪ'
+    - enchantment:UNBREAKING#1
+    - hideflags:all
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+  Item6:
+    MenuItem:
+    - name:&fsʜᴇᴀʀs
+    - amount:1
+    - type:shears
+    - 'lore1:&7ᴜɴʙʀᴇᴀᴋɪɴɢ ɪɪ'
+    - enchantment:UNBREAKING#1
+    - hideflags:all
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 24
+  Item7:
+    MenuItem:
+    - name:&fꜰʟɪɴᴛ ᴀɴᴅ sᴛᴇᴇʟ
+    - amount:1
+    - type:flint_and_steel
+    - hideflags:all
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 25
+  Item8:
+    MenuItem:
+    - name:&fᴄʜɪᴄᴋᴇɴ
+    - amount:48
+    - type:cooked_chicken
+    - hideflags:all
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 26

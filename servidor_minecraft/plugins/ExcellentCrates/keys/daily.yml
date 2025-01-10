@@ -1,0 +1,15 @@
+Name: §f §6Daily Key
+Virtual: false
+Item:
+  Material: STICK
+  Custom_Model_Data: 141
+  Amount: 1
+  Durability: 0
+  Name: '&f'
+  Lore:
+  - '&7ᴜsᴇ ᴛʜɪs ᴋᴇʏ ᴀᴛ'
+  - '&7/ᴡᴀʀᴘ ᴄʀᴀᴛᴇs'
+  - ''
+  - '&8ᴅᴀɪʟʏ ᴄʀᴀᴛᴇ'
+  Item_Flags: []
+  Unbreakable: false

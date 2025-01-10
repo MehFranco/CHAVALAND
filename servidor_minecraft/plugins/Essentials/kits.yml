@@ -1,0 +1,96 @@
+# EssentialsX kit configuration.
+# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
+
+# Note: All items MUST be followed by a quantity!
+# All kit names should be lower case, and will be treated as lower in permissions/costs.
+# Syntax: - name[:durability] amount [enchantment:level]... [itemmeta:value]...
+# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
+# To make the kit execute a command, add /<command> to the items list. Use {USERNAME} to specify the player receiving the kit.
+# {PLAYER} will show the player's displayname instead of username.
+# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
+# Set delay to -1 for a one time kit.
+# For more information, visit http://wiki.ess3.net/wiki/Kits
+kits:
+  Adventurer:
+    delay: 259200
+    items:
+      - golden_sword 1 sharpness:1 name:&f
+      - iron_pickaxe 1 efficiency:1 name:&f
+      - stone_axe 1 efficiency:1 name:&f
+      - iron_shovel 1 efficiency:1 name:&f
+      - golden_hoe 1 name:&f
+      - bow 1 name:&f
+      - bread 12 name:&f
+      - arrow 24 name:&f
+      - iron_helmet 1 unbreaking:1 name:&f
+      - chainmail_chestplate 1 unbreaking:1 name:&f
+      - chainmail_leggings 1 unbreaking:1 name:&f
+      - golden_boots 1 unbreaking:1 name:&f
+  VIP:
+    delay: 259200
+    items:
+      - Golden_sword 1 sharpness:2 unbreaking:2 name:&f
+      - Diamond_pickaxe 1 efficiency:1 unbreaking:1 name:&f
+      - iron_axe 1 efficiency:2 unbreaking:2 name:&f
+      - golden_shovel 1 efficiency:1 unbreaking:2 name:&f
+      - bow 1 power:2 unbreaking:1 flame:1 name:&f
+      - shield 1 unbreaking:2 name:&f
+      - cooked_mutton 32 name:&f
+      - arrow 56 name:&f
+      - diamond_helmet 1 protection:1 unbreaking:2 name:&f
+      - iron_chestplate 1 protection:1 unbreaking:2 name:&f
+      - golden_leggings 1 protection:1 unbreaking:2 name:&f
+      - diamond_boots 1 protection:1 unbreaking:2 name:&f
+  MVP:
+    delay: 259200
+    items:
+      - diamond_sword 1 sharpness:1 unbreaking:1 name:&f
+      - diamond_pickaxe 1 efficiency:1 unbreaking:1 name:&f
+      - iron_axe 1 efficiency:3 unbreaking:2 name:&f
+      - diamond_shovel 1 efficiency:1 unbreaking:1 name:&f
+      - fishing_rod 1 unbreaking:2 name:&f
+      - shears 1 unbreaking:2 name:&f
+      - cooked_porkchop 48 name:&f
+      - arrow 64 name:&f
+      - netherite_helmet 1 protection:1 unbreaking:1 name:&f
+      - diamond_chestplate 1 protection:2 unbreaking:1 name:&f
+      - diamond_leggings 1 protection:2 unbreaking:1 name:&f
+      - diamond_boots 1 protection:2 unbreaking:2 feather_falling:2 name:&f
+  Pro:
+    delay: 259200
+    items:
+      - netherite_sword 1 sharpness:1 unbreaking:1 name:&f
+      - netherite_pickaxe 1 efficiency:1 unbreaking:1 name:&f
+      - diamond_axe 1 efficiency:3 unbreaking:1 name:&f
+      - diamond_shovel 1 efficiency:3 unbreaking:2 name:&f
+      - netherite_hoe 1 unbreaking:1 name:&f
+      - crossbow 1 quick_charge:1 unbreaking:1 name:&f
+      - golden_apple 8 name:&f
+      - spectral_arrow 48 name:&f
+      - diamond_helmet 1 protection:3 unbreaking:2 name:&f
+      - netherite_chestplate 1 protection:1 unbreaking:1 name:&f
+      - diamond_leggings 1 protection:3 unbreaking:2 name:&f
+      - netherite_boots 1 protection:1 unbreaking:1 name:&f
+  Worker:
+    delay: 259200
+    items:
+      - netherite_pickaxe 1 efficiency:1 name:&f
+      - iron_axe 1 efficiency:1 unbreaking:3 name:&f
+      - diamond_shovel 1 efficiency:2 unbreaking:1 name:&f
+      - iron_hoe 1 unbreaking:3 name:&f
+      - fishing_rod 1 luck:1 unbreaking:2 name:&f
+      - shears 1 unbreaking:2 name:&f
+      - cooked_chicken 48 name:&f
+      - flint_and_steel 1 name:&f
+  Fighter:
+    delay: 259200
+    items:
+      - diamond_sword 1 sharpness:2 unbreaking:1 fire_aspect:1 looting:1 name:&f
+      - bow 1 power:2 unbreaking:2 flame:1 name:&f
+      - diamond_helmet 1 protection:2 unbreaking:2 projectile_protection:1 name:&f
+      - iron_chestplate 1 protection:2 unbreaking:2 projectile_protection:1 name:&f
+      - diamond_leggings 1 protection:2 unbreaking:2 projectile_protection:1 name:&f
+      - diamond_boots 1 protection:2 unbreaking:2 projectile_protection:1 name:&f
+      - shield 1 unbreaking:2 name:&f
+      - spectral_arrow 32 name:&f
+    

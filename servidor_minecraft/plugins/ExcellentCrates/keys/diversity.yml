@@ -1,0 +1,15 @@
+Name: §f §cDiversity Key
+Virtual: false
+Item:
+  Material: STICK
+  Custom_Model_Data: 143
+  Amount: 1
+  Durability: 0
+  Name: '&f'
+  Lore:
+  - '&7ᴜsᴇ ᴛʜɪs ᴋᴇʏ ᴀᴛ'
+  - '&7/ᴡᴀʀᴘ ᴄʀᴀᴛᴇs'
+  - ''
+  - '&8ᴅɪᴠᴇʀsɪᴛʏ ᴄʀᴀᴛᴇ'
+  Item_Flags: []
+  Unbreakable: false

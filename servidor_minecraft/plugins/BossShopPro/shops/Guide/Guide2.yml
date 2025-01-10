@@ -1,0 +1,114 @@
+ShopName: Guide2
+DisplayName: '&f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔'
+Command: Guide2
+RemovePlayerInventory: true
+signs:
+  text: '[Help]'
+  NeedPermissionToCreateSign: true
+shop:
+  PreviousPage:
+    MenuItem:
+    - name:&8ᴘʀᴇᴠɪᴏᴜꜱ ᴘᴀɢᴇ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Guide
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 19
+  InvisibleSlot:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    InventoryLocation: 45
+  1:
+    MenuItem:
+    - name:&aꜱᴏꜰᴛ ᴅᴏᴏʀꜱ
+    - amount:1
+    - type:player_head
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzhkYTZmY2M1Y2YzMWM2ZjcyYTAzNGI2MjBhODM3ZjlkMWM5ZWVkMzY3MTE4MmI2OTQ4OTY4N2FkYmNkOGZiIn19fQ==
+    - 'lore1:&7ᴅᴏᴜʙʟᴇ ᴅᴏᴏʀꜱ ᴄᴀɴ ɴᴏᴡ ᴄʟᴏꜱᴇ ꜱɪᴍᴜʟᴛᴀɴᴇᴏᴜꜱʟʏ#&7ᴀɴᴅ ʏᴏᴜ ᴄᴀɴ ʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴋɴᴏᴄᴋ ᴏɴ ᴅᴏᴏʀꜱ'
+    - 'lore2:#&c&l| &cʏᴏᴜ ᴄᴀɴ ᴅɪꜱᴀʙʟᴇ ɪᴛ ꜰʀᴏᴍ ꜱᴇᴛᴛɪɴɢꜱ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  2:
+    MenuItem:
+    - name:&aꜱᴘᴀᴡɴᴇʀꜱ
+    - amount:1
+    - type:player_head
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdiMjE4OTMwMGYzMzliYTA1MGUwMWFlMmE1NDBiN2U4OWVmODk2YTU1Yzc5MTZkY2M5ZTU4NTFhZjg2NDExZSJ9fX0=
+    - 'lore1:&7ᴛʜᴇʏ ᴄᴀɴ ɴᴏᴡ ʙᴇ ᴘɪᴄᴋᴇᴅ ᴜᴘ ʙʏ ʙʀᴇᴀᴋɪɴɢ#&7ᴛʜᴇᴍ ᴡɪᴛʜ ꜱɪʟᴋ-ᴛᴏᴜᴄʜ ᴘɪᴄᴋᴀxᴇꜱ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  3:
+    MenuItem:
+    - name:&aᴛʜᴇ ʀɪꜰᴛ
+    - amount:1
+    - type:player_head
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjZmYxYWNjMTJmMTZkNDRhZWUxZjdlODQ0MTRjYjJlOGVhN2ViNDY0MmU3ZDI5MmQ3NmYxYzE3YjRiNDM0YSJ9fX0=
+    - 'lore1:&7ᴀ ɴᴇᴡ ꜱʏꜱᴛᴇᴍ ᴏꜰ qᴜᴇꜱᴛꜱ! ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴅᴏ ᴛʜᴇᴍ#&7ᴘʀᴏɢʀᴇꜱꜱɪᴠᴇʟʏ, ʀᴇquɪʀɪɴɢ ʏᴏᴜ ᴛᴏ ꜱᴛᴀʀᴛ ꜰʀᴏᴍ#&7ᴛʜᴇ ʟᴇꜰᴛ ꜱɪᴅᴇ ᴀɴᴅ ʀᴇᴀᴄʜ ᴛʜᴇ ʀɪɢʜᴛ ꜱɪᴅᴇ.#&7ᴀꜰᴛᴇʀ ʏᴏᴜ ᴜɴʟᴏᴄᴋ ᴛʜᴇ ʟᴀꜱᴛ ʀᴇᴡᴀʀᴅ ʏᴏᴜ ᴄᴀɴ#&7ᴀᴄᴄᴇꜱꜱ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ.'
+    - 'lore2:#&c&l| &cᴛʜᴇʀᴇ ᴀʀᴇ 2 ʀᴏᴜᴛᴇꜱ ᴛᴏ ꜱᴛᴀʀᴛ ᴛʜᴇ#&c&l|&c qᴜᴇꜱᴛꜱ. ʏᴏᴜ ᴍᴀʏ ᴏɴʟʏ ꜱᴛᴀʀᴛ 1!'
+    - 'lore4:&eIs found in &e&lBattlepass Menu'
+    RewardType: playercommand
+    Reward:
+    - therift
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  4:
+    MenuItem:
+    - name:&aᴛʀᴀᴅᴇꜱ
+    - amount:1
+    - type:player_head
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2IxNTU3YjcwMGRmNTI0ZTA3ODYwYzc0NjNlYWNhOTQ1MTViYWI3ZTRiMWQzM2UzOWJkMjg5NmFkY2IwZWQ5MCJ9fX0=
+    - 'lore1:&7ᴛʜɪꜱ ᴘʀᴏᴠɪᴅᴇꜱ ᴘʟᴀʏᴇʀꜱ ᴀ ꜱᴀꜰᴇ ᴡᴀʏ ᴛᴏ ᴛʀᴀᴅᴇ#&7ɪᴛᴇᴍꜱ. ʙᴏᴛʜ ᴏꜰ ʏᴏᴜ ᴍᴜꜱᴛ ᴀᴄᴄᴇᴘᴛ ᴛʜᴇ ᴛʀᴀᴅᴇ ᴛᴏ#&7ɢᴇᴛ ᴛʜᴇ ɪᴛᴇᴍꜱ ꜰʀᴏᴍ ᴇᴀᴄʜ ᴏᴛʜᴇʀ.'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+  5:
+    MenuItem:
+    - name:&aᴛʀᴇᴇ ɢʀᴀᴠɪᴛʏ
+    - amount:1
+    - type:player_head
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzJiYTAyY2QzZmFjYmZhMzgwYTNjZmJkNGQ5YTU1MWQ0ZmQ3NTBkMTljYTQ5ZDNlNWE0ZTRjMTFhNGM2ZGVlYSJ9fX0=
+    - 'lore1:&7ᴡʜᴇɴ ᴄᴜᴛᴛɪɴɢ ᴀ ᴛʀᴇᴇ, ɢʀᴀᴠɪᴛʏ ᴡɪʟʟ ᴘᴜʟʟ#&7ᴛʜᴇ ʀᴇꜱᴛ ᴏꜰ ɪᴛ ᴅᴏᴡɴ. ᴛʜɪꜱ ꜰᴇᴀᴛᴜʀᴇ ɪꜱ#&7ɪɴᴄᴏᴍᴘᴀᴛɪʙʟᴇ ᴡɪᴛʜ ᴛʜᴇ ᴡᴏᴏᴅᴄᴜᴛᴛᴇʀ ꜱᴋɪʟʟ'
+    - 'lore2:#&c&l| &cʏᴏᴜ ᴄᴀɴ ᴅɪꜱᴀʙʟᴇ ɪᴛ ꜰʀᴏᴍ ꜱᴇᴛᴛɪɴɢꜱ'
+    - 'lore3:&c&l| &cᴛʜɪꜱ ꜱʏꜱᴛᴇᴍ ʀᴇqᴜɪʀᴇꜱ ᴘᴇʀᴍɪꜱꜱɪᴏɴ ᴛᴏ ᴜꜱᴇ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+  6:
+    MenuItem:
+    - name:&aᴜᴘɢʀᴀᴅᴇꜱ
+    - amount:1
+    - type:player_head
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTczMTFiMWZjNzdmM2I3ZWQxYmNlNjVlM2ZiMjRkNzI2YTgzY2EyMTIzZGI0MzNiZWMxYzNmMzBhZTdmMThjNiJ9fX0=
+    - 'lore1:&7ᴀ ꜱʏꜱᴛᴇᴍ ᴛʜᴀᴛ ᴀʟʟᴏᴡꜱ ᴘʟᴀʏᴇʀꜱ ᴛᴏ ᴜɴʟᴏᴄᴋ ᴄᴇʀᴛᴀɪɴ#&7ᴀᴄᴄᴇꜱᴇꜱꜱ ꜱᴜᴄʜ ᴀꜱ ᴍᴏʀᴇ ᴄʟᴀɪᴍ ʟɪᴍɪᴛꜱ & ᴍᴏʀᴇ ʜᴏᴍᴇꜱ'
+    - 'lore3:&7ᴀᴅᴠᴀɴᴄɪɴɢ ᴛᴏ ᴛʜᴇ ɴᴇxᴛ ʟᴇᴠᴇʟ ᴄᴏꜱᴛꜱ ᴍᴏɴᴇʏ ᴀɴᴅ#&7ᴇᴠᴇʀʏ ʟᴇᴠᴇʟ ᴜɴʟᴏᴄᴋꜱ ꜱᴏᴍᴇᴛʜɪɴɢ ᴅɪꜰꜰᴇʀᴇɴᴛ ɪɴ ᴀ#&7ᴘʀᴏɢʀᴇꜱꜱɪᴠᴇ ᴏʀᴅᴇʀ.'
+    - 'lore5:&eIs found in &e&lSurvival Menu'
+    RewardType: playercommand
+    Reward:
+    - upgrades
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+  7:
+    MenuItem:
+    - name:&aᴡᴀʟʟ ᴊᴜᴍᴘɪɴɢ
+    - amount:1
+    - type:player_head
+    - 'lore1:&7ᴀ ɴᴇᴡ ᴀᴅᴠᴀɴᴄᴇᴅ ᴄʟɪᴍʙɪɴɢ ꜱʏꜱᴛᴇᴍ. ᴊᴜᴍᴘ ᴀɴᴅ ᴘʀᴇꜱꜱ ꜱʜɪꜰᴛ ᴛᴏ ꜱᴛᴀʏ ᴏɴ ᴛʜᴇ ᴡᴀʟʟ ꜰᴏʀ ᴀ ꜱʜᴏʀᴛ ᴘᴇʀɪᴏᴅ ᴏꜰ ᴛɪᴍᴇ. ᴡʜᴇɴ ʏᴏᴜ ʀᴇʟᴇᴀꜱᴇ ᴛʜᴇ ᴋᴇʏ ʏᴏᴜ ɢᴇᴛ ᴀ ʙᴏᴜɴᴄɪɴɢ ᴇꜰꜰᴇᴄᴛ. ᴀʟꜱᴏ, ᴛʜɪꜱ ᴡᴏʀᴋꜱ ᴛᴏ ᴄʟɪᴍʙ ʙᴇᴛᴡᴇᴇɴ 2 ᴡᴀʟʟꜱ ʙʏ ᴊᴜᴍᴘɪɴɢ ꜰʀᴏᴍ ᴏɴᴇ ᴛᴏ ᴏᴛʜᴇʀ.' 
+    - 'lore3:&c&l| &cᴛʜɪꜱ ꜱʏꜱᴛᴇᴍ ʀᴇqᴜɪʀᴇꜱ ᴘᴇʀᴍɪꜱꜱɪᴏɴ ᴛᴏ ᴜꜱᴇ'
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2MzNzNiNjBjNDgwNGU4Zjg1MWJhODgyOWJjMDI1MGYyZGIwM2Q1ZDllOWEwMTBjYzAzYTJkMjU1YWQ3ZmMxNSJ9fX0=
+    RewardType: playercommand
+    Reward:
+    - upgrades
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 8

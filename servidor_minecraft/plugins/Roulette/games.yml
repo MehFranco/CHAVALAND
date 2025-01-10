@@ -1,0 +1,69 @@
+games:
+  European:
+    model:
+      id: 9318a37b-ca9e-4cbe-9b67-395ac08fc1a9
+      type: EUROPEAN
+      wool-type: BROWN_CARPET
+      customization-group: SMOOTH_QUARTZ
+      pattern-index: 5
+    location:
+      world: world
+      x: 0.5
+      y: 73.0
+      z: -94.5
+      yaw: 180.0
+      pitch: 0.0
+    rules:
+      la-partage: false
+      en-prison: false
+      surrender: false
+    settings:
+      bet-all: true
+      start-time: 30
+      min-players: 1
+      max-players: 10
+      chips-disabled: []
+      invite: false
+    npc:
+      name: Ben
+      parrot:
+        enabled: false
+        sounds: false
+        variant: GREEN
+        shoulder: LEFT
+    other:
+      owner-id: a690f470-5ddd-4af8-a24e-265f91a6c597
+  American:
+    model:
+      id: f844719b-5aab-4db8-a500-9e582e6867b5
+      type: AMERICAN
+      wool-type: BROWN_CARPET
+      customization-group: QUARTZ_BLOCK
+      pattern-index: 3
+    location:
+      world: world
+      x: 1.5
+      y: 73.0
+      z: -78.5
+      yaw: 180.0
+      pitch: 0.0
+    rules:
+      la-partage: false
+      en-prison: false
+      surrender: false
+    settings:
+      bet-all: true
+      start-time: 30
+      min-players: 1
+      max-players: 10
+      chips-disabled: []
+      invite: false
+    npc:
+      name: Raul
+      parrot:
+        enabled: false
+        sounds: false
+        variant: RED
+        shoulder: RIGHT
+    other:
+      owner-id: a690f470-5ddd-4af8-a24e-265f91a6c597
