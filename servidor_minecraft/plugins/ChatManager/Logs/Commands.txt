@@ -4733,3 +4733,9 @@
 [Fri Jan 10 18:20:19 UTC 2025] MehFranco: /gandalf
 [Fri Jan 10 18:20:22 UTC 2025] MehFranco: /gandalf3
 [Fri Jan 10 18:20:28 UTC 2025] MehFranco: /rtp
+[Fri Jan 10 19:03:26 UTC 2025] MehFranco: /menu
+[Fri Jan 10 19:03:48 UTC 2025] MehFranco: /jb welcome \\ forms open welcome
+[Fri Jan 10 19:04:04 UTC 2025] MehFranco: /menu
+[Fri Jan 10 19:04:07 UTC 2025] MehFranco: /menu
+[Fri Jan 10 19:04:16 UTC 2025] MehFranco: /payconfirmtoggle
+[Fri Jan 10 19:04:28 UTC 2025] MehFranco: /lumberjack

@@ -874,3 +874,9 @@ https://www.spigotmc.org/resources/58434/update?update=560677
 
 [18:38:09] [Craft Scheduler Thread - 129 - TradeSystem/INFO]: ------------------------
 [18:50:50] [luckperms-command-executor/INFO]: [LP] Set reward.ready.15 to true for MehFranco in context global.
+[19:03:26] [Server thread/INFO]: MehFranco issued server command: /menu
+[19:03:30] [Server thread/INFO]: MehFranco lost connection: ᴋɪᴄᴋᴇᴅ ғᴏʀ ᴄʟɪᴄᴋsᴘᴀᴍ.
+[19:03:40] [User Authenticator #2/INFO]: UUID of player MehFranco is e3eeea41-37de-3b7b-9e79-29f5ab622f41
+[19:03:46] [Server thread/INFO]: MehFranco[/127.178.39.100:56163] logged in with entity id 153007 at ([playworld]-461.1778391488579, 63.0, -1082.699999988079)
+[19:04:04] [Server thread/INFO]: MehFranco issued server command: /menu
+[19:04:07] [Server thread/INFO]: MehFranco issued server command: /menu
