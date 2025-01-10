@@ -67,7 +67,7 @@ npc:
           amount: 1
           type_namespace: minecraft
           type: iron_helmet
-    traitnames: commandtrait,skintrait,spawned,lookclose,scoreboardtrait,mounttrait,equipment,inventory,location,owner,sneak,type
+    traitnames: inventory,type,scoreboardtrait,commandtrait,owner,lookclose,sneak,location,spawned,equipment,mounttrait,skintrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -136,7 +136,7 @@ npc:
           type: leather_horse_armor
           displayname: §8▪ §fHomburg
           meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAAEdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9SdADDeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiLilqogIiwib2JmdXNjYXRlZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwiY29sb3IiOiJkYXJrX2dyYXkiLCJib2xkIjpmYWxzZX0seyJ0ZXh0IjoiSG9tYnVyZyIsIml0YWxpYyI6ZmFsc2UsImNvbG9yIjoid2hpdGUifV19c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAs=
-    traitnames: skintrait,profession,lookclose,scoreboardtrait,mounttrait,equipment,villagertrait,commandtrait,spawned,rotationtrait,inventory,location,owner,type
+    traitnames: inventory,rotationtrait,villagertrait,location,equipment,skintrait,type,scoreboardtrait,commandtrait,owner,lookclose,profession,spawned,mounttrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -214,7 +214,7 @@ npc:
         '0':
           type: iron_hoe
           amount: 1
-    traitnames: commandtrait,skintrait,spawned,lookclose,scoreboardtrait,mounttrait,equipment,inventory,location,owner,age,type
+    traitnames: inventory,type,scoreboardtrait,commandtrait,owner,lookclose,location,spawned,equipment,mounttrait,skintrait,age
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -317,7 +317,7 @@ npc:
           type: leather_horse_armor
           displayname: '[{"text":"sᴛʀᴀᴡ ʜᴀᴛ","italic":false,"color":"§x§F§F§E§C§1§5"}]'
           meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF1cQB+AAYAAAAEdAAISXRlbU1ldGF0AA1MRUFUSEVSX0FSTU9SdADUeyJ0ZXh0IjoiIiwiZXh0cmEiOlsiW3tcInRleHRcIjpcInPhtJvKgOG0gOG0oSDKnOG0gOG0m1wiLFwiaXRhbGljXCI6ZmFsc2UsXCJjb2xvclwiOlwiIix7InRleHQiOiJcIn1dIiwib2JmdXNjYXRlZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwiY29sb3IiOiIjRkZFQzE1IiwiYm9sZCI6ZmFsc2V9XX1zcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAADw==
-    traitnames: skintrait,lookclose,scoreboardtrait,mounttrait,equipment,age,commandtrait,spawned,rotationtrait,inventory,location,owner,type
+    traitnames: inventory,rotationtrait,location,equipment,skintrait,age,type,scoreboardtrait,commandtrait,owner,lookclose,spawned,mounttrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -392,7 +392,7 @@ npc:
           amount: 1
           type_namespace: minecraft
           type: wheat
-    traitnames: skintrait,lookclose,scoreboardtrait,mounttrait,equipment,age,commandtrait,spawned,rotationtrait,inventory,location,owner,type
+    traitnames: inventory,rotationtrait,location,equipment,skintrait,age,type,scoreboardtrait,commandtrait,owner,lookclose,spawned,mounttrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -458,7 +458,7 @@ npc:
             delay: 0
             cost: -1.0
             experienceCost: -1
-    traitnames: commandtrait,skintrait,spawned,scoreboardtrait,mounttrait,equipment,inventory,location,owner,type
+    traitnames: inventory,type,scoreboardtrait,commandtrait,owner,location,spawned,equipment,mounttrait,skintrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -514,7 +514,7 @@ npc:
             delay: 0
             cost: -1.0
             experienceCost: -1
-    traitnames: commandtrait,skintrait,spawned,scoreboardtrait,mounttrait,equipment,inventory,location,owner,type
+    traitnames: inventory,type,scoreboardtrait,commandtrait,owner,location,spawned,equipment,mounttrait,skintrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -578,7 +578,7 @@ npc:
             delay: 0
             cost: -1.0
             experienceCost: -1
-    traitnames: commandtrait,skintrait,spawned,scoreboardtrait,mounttrait,equipment,inventory,location,owner,type
+    traitnames: inventory,type,scoreboardtrait,commandtrait,owner,location,spawned,equipment,mounttrait,skintrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -642,7 +642,7 @@ npc:
             delay: 0
             cost: -1.0
             experienceCost: -1
-    traitnames: commandtrait,skintrait,spawned,scoreboardtrait,mounttrait,equipment,inventory,location,owner,type
+    traitnames: inventory,type,scoreboardtrait,commandtrait,owner,location,spawned,equipment,mounttrait,skintrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -707,7 +707,7 @@ npc:
             delay: 0
             cost: -1.0
             experienceCost: -1
-    traitnames: commandtrait,skintrait,spawned,lookclose,scoreboardtrait,mounttrait,equipment,rotationtrait,inventory,location,owner,type
+    traitnames: inventory,type,scoreboardtrait,commandtrait,rotationtrait,owner,lookclose,location,spawned,equipment,mounttrait,skintrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -774,7 +774,7 @@ npc:
             delay: 0
             cost: -1.0
             experienceCost: -1
-    traitnames: commandtrait,skintrait,spawned,scoreboardtrait,mounttrait,equipment,inventory,location,owner,type
+    traitnames: inventory,type,scoreboardtrait,commandtrait,owner,location,spawned,equipment,mounttrait,skintrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false

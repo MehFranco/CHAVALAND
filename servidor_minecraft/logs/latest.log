@@ -864,3 +864,12 @@ questdone MehFranco<--[HERE]
 [18:20:43] [Server thread/INFO]:  MehFranco has been tp'd to x=-474 y=63 z=-1087 in 1 attempts!
 [18:20:50] [luckperms-command-executor/INFO]: [LP] Set reward.ready.14 to true for MehFranco in context global.
 [18:24:11] [Server thread/INFO]: [CombatLogX] Using non-NMS Paper EntityHandler
+[18:38:09] [Craft Scheduler Thread - 153 - PortableCraftingInvs/INFO]: [PortableCraftingInvs] Checking for update...
+[18:38:09] [Craft Scheduler Thread - 129 - TradeSystem/INFO]: -----< TradeSystem >-----
+[18:38:09] [Craft Scheduler Thread - 129 - TradeSystem/INFO]: New update available [ Minecraft Compatibility Update].
+[18:38:09] [Craft Scheduler Thread - 129 - TradeSystem/INFO]: You are 29+ release(s) behind.
+[18:38:09] [Craft Scheduler Thread - 129 - TradeSystem/INFO]: Download it on
+
+https://www.spigotmc.org/resources/58434/update?update=560677
+
+[18:38:09] [Craft Scheduler Thread - 129 - TradeSystem/INFO]: ------------------------
