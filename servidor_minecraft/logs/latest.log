@@ -778,3 +778,13 @@ ferma MehFranco<--[HERE]
 [17:53:08] [Server thread/INFO]: MehFranco issued mycmd (Noah) command /noah
 [17:53:10] [Server thread/INFO]: MehFranco issued server command: /noah1
 [17:53:10] [Server thread/INFO]: MehFranco issued mycmd (Noah1) command /noah1
+[17:57:51] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /eco give MehFranco 320
+[17:57:51] [Server thread/INFO]:  320 added to MehFranco account. New balance: 3,150.25
+[17:57:51] [Server thread/INFO]: Unknown or incomplete command, see below for error
+questdone MehFranco<--[HERE]
+[17:58:48] [luckperms-command-executor/INFO]: [LP] Set reward.ready.12 to true for MehFranco in context global.
+[18:02:28] [Server thread/INFO]: MehFranco issued server command: /miner
+[18:02:28] [Server thread/INFO]: MehFranco issued mycmd (Miner) command /miner
+[18:04:05] [Server thread/INFO]: MehFranco lost connection: Disconnected
+[18:06:01] [User Authenticator #1/INFO]: UUID of player MehFranco is e3eeea41-37de-3b7b-9e79-29f5ab622f41
+[18:06:06] [Server thread/INFO]: MehFranco[/127.178.39.100:42365] logged in with entity id 90836 at ([world]-64.94018498681771, 64.0, -6.079544296537108)

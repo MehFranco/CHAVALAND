@@ -16,11 +16,11 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1736495565578
-  login: 1736530698697
+  logout: 1736532245574
+  login: 1736532366771
   kits:
     adventurer: 1736466908606
-money: '2785.7995000000000130'
+money: '3182.0835000000000160'
 last-account-name: MehFranco
 lastlocation:
   world: 5691d948-7217-48a4-8edb-69b52cf7f281
@@ -33,8 +33,8 @@ lastlocation:
 logoutlocation:
   world: 65687d50-08cd-45f0-88e6-1c9a9b15d682
   world-name: world
-  x: -26.92412425341217
-  y: 66.0
-  z: -67.85027701143791
-  yaw: 142.61204528808594
-  pitch: 11.768074989318848
+  x: -64.94018498681771
+  y: 64.0
+  z: -6.079544296537108
+  yaw: 80.11669921875
+  pitch: 8.550148963928223

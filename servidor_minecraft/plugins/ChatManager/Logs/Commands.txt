@@ -4710,3 +4710,5 @@
 [Fri Jan 10 17:53:08 UTC 2025] MehFranco: /jb sknoah \\ forms open noah
 [Fri Jan 10 17:53:08 UTC 2025] MehFranco: /noah
 [Fri Jan 10 17:53:10 UTC 2025] MehFranco: /noah1
+[Fri Jan 10 18:02:28 UTC 2025] MehFranco: /miner
+[Fri Jan 10 18:06:08 UTC 2025] MehFranco: /jb welcome \\ forms open welcome

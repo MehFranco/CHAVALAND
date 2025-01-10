@@ -1,6 +1,6 @@
 afkTime: 0
 lastKnownName: MehFranco
-playtime: 77437
+playtime: 90390
 rewards:
   6ec8b853-5fe8-441c-9efa-1171a6b57776:
     redeemed: 1
@@ -13,7 +13,7 @@ rewards:
     pending: 0
     active: true
     countedPrevious: true
-    timeLeft: 1218620
+    timeLeft: 1205680
   a871b9db-821a-45b0-a2b5-f37ac46c57f0:
     redeemed: 1
     pending: 0
@@ -25,13 +25,13 @@ rewards:
     pending: 0
     active: true
     countedPrevious: true
-    timeLeft: 570620
+    timeLeft: 557680
   948b6447-141b-456a-a9c1-a2939694fd3a:
     redeemed: 0
     pending: 0
     active: true
     countedPrevious: true
-    timeLeft: 1938620
+    timeLeft: 1925680
   7aa107f5-0b92-42fe-9f2a-9726f6f54fb4:
     redeemed: 1
     pending: 0
@@ -43,13 +43,13 @@ rewards:
     pending: 0
     active: true
     countedPrevious: true
-    timeLeft: 1002620
+    timeLeft: 989680
   1f15bb6e-420d-4ff0-bf27-70221afcee1e:
     redeemed: 0
     pending: 0
     active: true
     countedPrevious: true
-    timeLeft: 3378620
+    timeLeft: 3365680
   6535cb6f-36df-4675-b374-0f7eee4ffa71:
     redeemed: 1
     pending: 0
@@ -73,19 +73,19 @@ rewards:
     pending: 0
     active: true
     countedPrevious: true
-    timeLeft: 3090620
+    timeLeft: 3077680
   6b803dbf-66e9-43c7-a59d-d37159df4559:
     redeemed: 0
     pending: 0
     active: true
     countedPrevious: true
-    timeLeft: 786620
+    timeLeft: 773680
   79b6ae93-61cd-434c-9bed-5d7c23592f44:
     redeemed: 0
     pending: 0
     active: true
     countedPrevious: true
-    timeLeft: 138620
+    timeLeft: 125680
   bcef1a85-1309-4859-b575-27bfa19486d6:
     redeemed: 1
     pending: 0
@@ -97,43 +97,43 @@ rewards:
     pending: 0
     active: true
     countedPrevious: true
-    timeLeft: 210620
+    timeLeft: 197680
   cc0b9248-42b3-43fd-937f-cf46f4880651:
     redeemed: 0
     pending: 0
     active: true
     countedPrevious: true
-    timeLeft: 2514620
+    timeLeft: 2501680
   701da0e4-b8a3-4246-bdd6-4a83e72c7b80:
     redeemed: 0
     pending: 0
     active: true
     countedPrevious: true
-    timeLeft: 354620
+    timeLeft: 341680
   9b787f19-c0df-48c1-b7eb-15d3c4a6266e:
     redeemed: 0
     pending: 0
     active: true
     countedPrevious: true
-    timeLeft: 102620
+    timeLeft: 89680
   db3218ca-ba7f-4fba-8de9-d5b1a3ff761b:
     redeemed: 0
     pending: 0
     active: true
     countedPrevious: true
-    timeLeft: 282620
+    timeLeft: 269680
   2f6ca457-8d8b-46e4-8c42-17e25a79d1aa:
     redeemed: 0
     pending: 0
     active: true
     countedPrevious: true
-    timeLeft: 426620
+    timeLeft: 413680
   22bc458e-4ac8-4cdc-b3fe-20bc65df08d6:
     redeemed: 0
     pending: 0
     active: true
     countedPrevious: true
-    timeLeft: 498620
+    timeLeft: 485680
   0d5b6409-d666-4e81-994d-dcd2ea0f31e4:
     redeemed: 1
     pending: 0
@@ -145,13 +145,13 @@ rewards:
     pending: 0
     active: true
     countedPrevious: true
-    timeLeft: 2802620
+    timeLeft: 2789680
   ee3b1999-c208-403c-83f8-cbbf7c186765:
     redeemed: 0
     pending: 0
     active: true
     countedPrevious: true
-    timeLeft: 138620
+    timeLeft: 125680
   8e5b256c-2e04-4fc2-8398-94e339a305b3:
     redeemed: 1
     pending: 0
@@ -163,25 +163,25 @@ rewards:
     pending: 0
     active: true
     countedPrevious: true
-    timeLeft: 18620
+    timeLeft: 5680
   e8627d49-f228-40a3-b148-7db55f35d708:
     redeemed: 0
     pending: 0
     active: true
     countedPrevious: true
-    timeLeft: 1434620
+    timeLeft: 1421680
   498d7cac-e5e3-4992-9484-05256759af79:
     redeemed: 0
     pending: 0
     active: true
     countedPrevious: true
-    timeLeft: 642620
+    timeLeft: 629680
   26eddba9-ec18-4da2-a294-1b1faadb1200:
     redeemed: 0
     pending: 0
     active: true
     countedPrevious: true
-    timeLeft: 1650620
+    timeLeft: 1637680
   7f8540e5-a7ad-49b3-b053-4fb54c3e8cbe:
     redeemed: 1
     pending: 0
@@ -189,23 +189,23 @@ rewards:
     countedPrevious: true
     timeLeft: 6000
   46aec8ea-719d-41a1-b478-22b1787d465f:
-    redeemed: 0
+    redeemed: 1
     pending: 0
-    active: true
+    active: false
     countedPrevious: true
-    timeLeft: 6620
+    timeLeft: 84000
   933ffaea-f450-428c-82df-868c1a6bed52:
     redeemed: 0
     pending: 0
     active: true
     countedPrevious: true
-    timeLeft: 30620
+    timeLeft: 17680
   0ec2d562-50f7-4d11-8304-938e8fa9e1c2:
     redeemed: 0
     pending: 0
     active: true
     countedPrevious: true
-    timeLeft: 66620
+    timeLeft: 53680
   a63ba2ec-41df-4d94-ac28-d30f78e300b9:
     redeemed: 1
     pending: 0
@@ -217,10 +217,10 @@ rewards:
     pending: 0
     active: true
     countedPrevious: true
-    timeLeft: 174620
+    timeLeft: 161680
   ffe5526b-783c-482f-b217-e03833cb9655:
     redeemed: 0
     pending: 0
     active: true
     countedPrevious: true
-    timeLeft: 2226620
+    timeLeft: 2213680
