@@ -4660,3 +4660,49 @@
 [Fri Jan 10 07:52:42 UTC 2025] MehFranco: /sylvia
 [Fri Jan 10 07:52:44 UTC 2025] MehFranco: /jb sksylvia \\ forms open sylvia
 [Fri Jan 10 07:52:44 UTC 2025] MehFranco: /sylvia
+[Fri Jan 10 17:38:19 UTC 2025] MehFranco: /jb welcome \\ forms open welcome
+[Fri Jan 10 17:38:25 UTC 2025] MehFranco: /jb sksylvia \\ forms open sylvia
+[Fri Jan 10 17:38:25 UTC 2025] MehFranco: /sylvia
+[Fri Jan 10 17:38:29 UTC 2025] MehFranco: /jb sksylvia \\ forms open sylvia
+[Fri Jan 10 17:38:29 UTC 2025] MehFranco: /sylvia
+[Fri Jan 10 17:38:30 UTC 2025] MehFranco: /jb sksylvia \\ forms open sylvia
+[Fri Jan 10 17:38:30 UTC 2025] MehFranco: /sylvia
+[Fri Jan 10 17:38:31 UTC 2025] MehFranco: /jb sksylvia \\ forms open sylvia
+[Fri Jan 10 17:38:31 UTC 2025] MehFranco: /sylvia
+[Fri Jan 10 17:38:32 UTC 2025] MehFranco: /jb sksylvia \\ forms open sylvia
+[Fri Jan 10 17:38:32 UTC 2025] MehFranco: /sylvia
+[Fri Jan 10 17:39:16 UTC 2025] MehFranco: /lp user MehFranco parent set
+[Fri Jan 10 17:39:54 UTC 2025] MehFranco: /lp user MehFranco parent set mvp
+[Fri Jan 10 17:39:57 UTC 2025] MehFranco: /jb sksylvia \\ forms open sylvia
+[Fri Jan 10 17:39:57 UTC 2025] MehFranco: /sylvia
+[Fri Jan 10 17:40:01 UTC 2025] MehFranco: /jb sksylvia \\ forms open sylvia
+[Fri Jan 10 17:40:01 UTC 2025] MehFranco: /sylvia
+[Fri Jan 10 17:40:17 UTC 2025] MehFranco: /jb skgandalf \\ forms open wizard
+[Fri Jan 10 17:40:17 UTC 2025] MehFranco: /gandalf
+[Fri Jan 10 17:40:30 UTC 2025] MehFranco: /lp user MehFranco parent set pro
+[Fri Jan 10 17:40:36 UTC 2025] MehFranco: /menu
+[Fri Jan 10 17:42:06 UTC 2025] MehFranco: /jb sksylvia \\ forms open sylvia
+[Fri Jan 10 17:42:06 UTC 2025] MehFranco: /sylvia
+[Fri Jan 10 17:42:07 UTC 2025] MehFranco: /jb sksylvia \\ forms open sylvia
+[Fri Jan 10 17:42:07 UTC 2025] MehFranco: /sylvia
+[Fri Jan 10 17:42:12 UTC 2025] MehFranco: /jb skaugust \\ forms open august_1
+[Fri Jan 10 17:42:12 UTC 2025] MehFranco: /august
+[Fri Jan 10 17:42:20 UTC 2025] MehFranco: /august2
+[Fri Jan 10 17:42:25 UTC 2025] MehFranco: /jobs
+[Fri Jan 10 17:42:38 UTC 2025] MehFranco: /jobs join Miner
+[Fri Jan 10 17:42:40 UTC 2025] MehFranco: /jobs join hunter
+[Fri Jan 10 17:42:59 UTC 2025] MehFranco: /jobs join explorer
+[Fri Jan 10 17:43:08 UTC 2025] MehFranco: /jobs leave explorer
+[Fri Jan 10 17:43:14 UTC 2025] MehFranco: /jobs join crafter
+[Fri Jan 10 17:43:17 UTC 2025] MehFranco: /jobs leave crafter
+[Fri Jan 10 17:43:18 UTC 2025] MehFranco: /jobs join explorer
+[Fri Jan 10 17:43:21 UTC 2025] MehFranco: /jobs leave explorer
+[Fri Jan 10 17:43:24 UTC 2025] MehFranco: /jobs join digger
+[Fri Jan 10 17:43:32 UTC 2025] MehFranco: /jb skgandalf \\ forms open wizard
+[Fri Jan 10 17:43:32 UTC 2025] MehFranco: /gandalf
+[Fri Jan 10 17:45:49 UTC 2025] MehFranco: /jb skmarcus \\ forms open marcus
+[Fri Jan 10 17:45:49 UTC 2025] MehFranco: /marcus
+[Fri Jan 10 17:45:51 UTC 2025] MehFranco: /marcus1
+[Fri Jan 10 17:46:08 UTC 2025] MehFranco: /jb skmarcus \\ forms open marcus
+[Fri Jan 10 17:46:08 UTC 2025] MehFranco: /marcus
+[Fri Jan 10 17:46:10 UTC 2025] MehFranco: /marcus1
