@@ -6,6 +6,7 @@ permissions:
 - reward.ready.10
 - reward.ready.11
 - reward.ready.12
+- reward.ready.13
 - reward.ready.2
 - reward.ready.3
 - reward.ready.4
@@ -14,5 +15,18 @@ permissions:
 - reward.ready.7
 - reward.ready.8
 - reward.ready.9
+- reward.take.1
+- reward.take.10
+- reward.take.11
+- reward.take.12
+- reward.take.13
+- reward.take.2
+- reward.take.3
+- reward.take.4
+- reward.take.5
+- reward.take.6
+- reward.take.7
+- reward.take.8
+- reward.take.9
 parents:
 - pro

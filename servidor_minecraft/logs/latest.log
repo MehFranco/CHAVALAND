@@ -788,3 +788,62 @@ questdone MehFranco<--[HERE]
 [18:04:05] [Server thread/INFO]: MehFranco lost connection: Disconnected
 [18:06:01] [User Authenticator #1/INFO]: UUID of player MehFranco is e3eeea41-37de-3b7b-9e79-29f5ab622f41
 [18:06:06] [Server thread/INFO]: MehFranco[/127.178.39.100:42365] logged in with entity id 90836 at ([world]-64.94018498681771, 64.0, -6.079544296537108)
+[18:08:06] [Server thread/INFO]: MehFranco issued server command: /menu
+[18:08:09] [Craft Scheduler Thread - 94 - PortableCraftingInvs/INFO]: [PortableCraftingInvs] Checking for update...
+[18:08:14] [Server thread/INFO]: MehFranco issued server command: /menu
+[18:08:17] [Server thread/INFO]: MehFranco issued server command: /menu
+[18:10:29] [Server thread/INFO]: MehFranco issued server command: /jb skcassian \\ forms open cassian
+[18:10:29] [Server thread/INFO]: MehFranco issued mycmd (Cassian) command /cassian
+[18:10:32] [Server thread/INFO]: MehFranco issued server command: /cassian2
+[18:10:32] [Server thread/INFO]: MehFranco issued mycmd (Cassian2) command /cassian2
+[18:10:36] [Server thread/INFO]: MehFranco issued server command: /rewards
+[18:10:50] [luckperms-command-executor/INFO]: [LP] Set reward.ready.13 to true for MehFranco in context global.
+[18:10:54] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give MehFranco white_bed 1
+[18:10:54] [luckperms-command-executor/INFO]: [LP] Set reward.take.1 to true for MehFranco in context global.
+[18:10:54] [Server thread/INFO]:  Giving 1 of white bed to MehFranco.
+[18:10:55] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give MehFranco torch 18
+[18:10:55] [Server thread/INFO]:  Giving 18 of torch to MehFranco.
+[18:10:55] [luckperms-command-executor/INFO]: [LP] Set reward.take.2 to true for MehFranco in context global.
+[18:10:56] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give MehFranco birch_log 12
+[18:10:56] [Server thread/INFO]:  Giving 12 of birch log to MehFranco.
+[18:10:56] [luckperms-command-executor/INFO]: [LP] Set reward.take.3 to true for MehFranco in context global.
+[18:10:57] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give MehFranco carrot 14
+[18:10:57] [Server thread/INFO]:  Giving 14 of carrot to MehFranco.
+[18:10:57] [luckperms-command-executor/INFO]: [LP] Set reward.take.4 to true for MehFranco in context global.
+[18:10:58] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give MehFranco spruce_sapling 4
+[18:10:58] [Server thread/INFO]:  Giving 4 of spruce sapling to MehFranco.
+[18:10:58] [luckperms-command-executor/INFO]: [LP] Set reward.take.5 to true for MehFranco in context global.
+[18:10:58] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give MehFranco gold_ingot 3
+[18:10:58] [Server thread/INFO]:  Giving 3 of gold ingot to MehFranco.
+[18:10:58] [luckperms-command-executor/INFO]: [LP] Set reward.take.6 to true for MehFranco in context global.
+[18:11:00] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give MehFranco stonecutter 1
+[18:11:00] [Server thread/INFO]:  Giving 1 of stonecutter to MehFranco.
+[18:11:00] [luckperms-command-executor/INFO]: [LP] Set reward.take.7 to true for MehFranco in context global.
+[18:11:00] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give MehFranco glass 24
+[18:11:00] [Server thread/INFO]:  Giving 24 of glass to MehFranco.
+[18:11:00] [luckperms-command-executor/INFO]: [LP] Set reward.take.8 to true for MehFranco in context global.
+[18:11:01] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give MehFranco white_tulip 3
+[18:11:01] [Server thread/INFO]:  Giving 3 of white tulip to MehFranco.
+[18:11:01] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give MehFranco pink_tulip 3
+[18:11:01] [luckperms-command-executor/INFO]: [LP] Set reward.take.9 to true for MehFranco in context global.
+[18:11:01] [Server thread/INFO]:  Giving 3 of pink tulip to MehFranco.
+[18:11:01] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give MehFranco cornflower 3
+[18:11:01] [Server thread/INFO]:  Giving 3 of cornflower to MehFranco.
+[18:11:02] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give MehFranco shield 1
+[18:11:02] [Server thread/INFO]:  Giving 1 of shield to MehFranco.
+[18:11:02] [luckperms-command-executor/INFO]: [LP] Set reward.take.10 to true for MehFranco in context global.
+[18:11:02] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give MehFranco wolf_spawn_egg 1
+[18:11:02] [luckperms-command-executor/INFO]: [LP] Set reward.take.11 to true for MehFranco in context global.
+[18:11:02] [Server thread/INFO]:  Giving 1 of wolf spawn egg to MehFranco.
+[18:11:02] [Server thread/INFO]:  Not enough space, 1 wolf spawn egg was lost.
+[18:11:03] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give MehFranco cactus 16
+[18:11:03] [Server thread/INFO]:  Giving 16 of cactus to MehFranco.
+[18:11:03] [luckperms-command-executor/INFO]: [LP] Set reward.take.12 to true for MehFranco in context global.
+[18:11:03] [Server thread/INFO]:  Not enough space, 16 cactus was lost.
+[18:11:04] [Server thread/INFO]:  Given x1 of  Diversity Key key(s) to MehFranco.
+[18:11:04] [luckperms-command-executor/INFO]: [LP] Set reward.take.13 to true for MehFranco in context global.
+[18:11:49] [Server thread/INFO]: MehFranco issued server command: /jb skcassian \\ forms open cassian
+[18:11:49] [Server thread/INFO]: MehFranco issued mycmd (Cassian) command /cassian
+[18:11:53] [Server thread/INFO]: MehFranco issued server command: /cassian2
+[18:11:53] [Server thread/INFO]: MehFranco issued mycmd (Cassian2) command /cassian2
+[18:11:57] [Server thread/INFO]: MehFranco issued server command: /rewards
