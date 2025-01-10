@@ -15,6 +15,7 @@ permissions:
 - reward.ready.18
 - reward.ready.19
 - reward.ready.2
+- reward.ready.20
 - reward.ready.3
 - reward.ready.4
 - reward.ready.5
@@ -38,5 +39,9 @@ permissions:
 - reward.take.8
 - reward.take.9
 - rift.take.1
+- unlock.farm:
+    value: false
+- unlock.mine:
+    value: false
 parents:
 - pro
