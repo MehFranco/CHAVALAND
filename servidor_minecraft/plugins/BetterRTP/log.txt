@@ -1,44 +1,43 @@
-2025-01-10 00:13:36 [INFO]: Loading Overrides...
-2025-01-10 00:13:36 [INFO]: Loading World Types...
-2025-01-10 00:13:36 [INFO]: - World Type for 'playworld' set to 'NORMAL'
-2025-01-10 00:13:36 [INFO]: - World Type for 'playworld_nether' set to 'NETHER'
-2025-01-10 00:13:36 [INFO]: - World Type for 'playworld_the_end' set to 'NORMAL'
-2025-01-10 00:13:36 [INFO]: Loading Defaults...
-2025-01-10 00:13:36 [WARNING]: Warning! Default MinY value is solely for 1.17+ support, and can only be negative!
-2025-01-10 00:13:36 [INFO]: Loading Custom Worlds...
-2025-01-10 00:13:36 [INFO]: Custom World 'playworld_nether' registered:
-2025-01-10 00:13:36 [INFO]: - UseWorldBorder: false
-2025-01-10 00:13:36 [INFO]: - CenterX: 0
-2025-01-10 00:13:36 [INFO]: - CenterZ: 0
-2025-01-10 00:13:36 [INFO]: - MaxRadius: 2000
-2025-01-10 00:13:36 [INFO]: - MinRadius: 250
-2025-01-10 00:13:36 [INFO]: - Price: 750
-2025-01-10 00:13:36 [INFO]: - Shape: SQUARE
-2025-01-10 00:13:36 [INFO]: Custom World 'playworld_the_end' registered:
-2025-01-10 00:13:36 [INFO]: - CenterX: 0
-2025-01-10 00:13:36 [INFO]: - CenterZ: 0
-2025-01-10 00:13:36 [INFO]: - MaxRadius: 5000
-2025-01-10 00:13:36 [INFO]: - MinRadius: 500
-2025-01-10 00:13:36 [INFO]: - Price: 2500
-2025-01-10 00:13:36 [INFO]: - Shape: CIRCLE
-2025-01-10 00:13:36 [INFO]: Loading Permission Groups...
-2025-01-10 00:13:36 [INFO]: - Permission Group: vip
-2025-01-10 00:13:36 [INFO]: - -- World: playworld
-2025-01-10 00:13:36 [INFO]: - - MaxRadius: 5000
-2025-01-10 00:13:36 [INFO]: - - MinRadius: 500
-2025-01-10 00:13:36 [INFO]: - -- World: playworld_nether
-2025-01-10 00:13:36 [INFO]: - - MaxRadius: 4000
-2025-01-10 00:13:36 [INFO]: - - MinRadius: 750
-2025-01-10 00:13:36 [INFO]: - -- World: playworld_the_end
-2025-01-10 00:13:36 [INFO]: - - MaxRadius: 7500
-2025-01-10 00:13:36 [INFO]: - - MinRadius: 1000
-2025-01-10 00:13:44 [INFO]: Database PLAYERS:Players configured and loaded!
-2025-01-10 00:13:44 [INFO]: Database COOLDOWN:playworld configured and loaded!
-2025-01-10 00:13:44 [INFO]: Database COOLDOWN:playworld_nether configured and loaded!
-2025-01-10 00:13:44 [INFO]: Database QUEUE:Queue configured and loaded!
-2025-01-10 00:13:44 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
-2025-01-10 00:13:44 [INFO]: Database COOLDOWN:playworld_the_end configured and loaded!
-2025-01-10 00:13:44 [INFO]: Database COOLDOWN:world configured and loaded!
-2025-01-10 00:13:50 [INFO]: Attempting to queue up some more safe locations...
-2025-01-10 00:13:51 [INFO]: Queueing paused, max queue limit reached!
-2025-01-10 07:13:37 [INFO]: Disabling BetterRTP v3.6.13
+2025-01-10 07:35:06 [INFO]: Loading Overrides...
+2025-01-10 07:35:06 [INFO]: Loading World Types...
+2025-01-10 07:35:06 [INFO]: - World Type for 'playworld' set to 'NORMAL'
+2025-01-10 07:35:06 [INFO]: - World Type for 'playworld_nether' set to 'NETHER'
+2025-01-10 07:35:06 [INFO]: - World Type for 'playworld_the_end' set to 'NORMAL'
+2025-01-10 07:35:06 [INFO]: Loading Defaults...
+2025-01-10 07:35:06 [WARNING]: Warning! Default MinY value is solely for 1.17+ support, and can only be negative!
+2025-01-10 07:35:06 [INFO]: Loading Custom Worlds...
+2025-01-10 07:35:06 [INFO]: Custom World 'playworld_nether' registered:
+2025-01-10 07:35:06 [INFO]: - UseWorldBorder: false
+2025-01-10 07:35:06 [INFO]: - CenterX: 0
+2025-01-10 07:35:06 [INFO]: - CenterZ: 0
+2025-01-10 07:35:06 [INFO]: - MaxRadius: 2000
+2025-01-10 07:35:06 [INFO]: - MinRadius: 250
+2025-01-10 07:35:06 [INFO]: - Price: 750
+2025-01-10 07:35:06 [INFO]: - Shape: SQUARE
+2025-01-10 07:35:06 [INFO]: Custom World 'playworld_the_end' registered:
+2025-01-10 07:35:06 [INFO]: - CenterX: 0
+2025-01-10 07:35:06 [INFO]: - CenterZ: 0
+2025-01-10 07:35:06 [INFO]: - MaxRadius: 5000
+2025-01-10 07:35:06 [INFO]: - MinRadius: 500
+2025-01-10 07:35:06 [INFO]: - Price: 2500
+2025-01-10 07:35:06 [INFO]: - Shape: CIRCLE
+2025-01-10 07:35:06 [INFO]: Loading Permission Groups...
+2025-01-10 07:35:06 [INFO]: - Permission Group: vip
+2025-01-10 07:35:06 [INFO]: - -- World: playworld
+2025-01-10 07:35:06 [INFO]: - - MaxRadius: 5000
+2025-01-10 07:35:06 [INFO]: - - MinRadius: 500
+2025-01-10 07:35:06 [INFO]: - -- World: playworld_nether
+2025-01-10 07:35:06 [INFO]: - - MaxRadius: 4000
+2025-01-10 07:35:06 [INFO]: - - MinRadius: 750
+2025-01-10 07:35:06 [INFO]: - -- World: playworld_the_end
+2025-01-10 07:35:06 [INFO]: - - MaxRadius: 7500
+2025-01-10 07:35:06 [INFO]: - - MinRadius: 1000
+2025-01-10 07:35:15 [INFO]: Database COOLDOWN:playworld configured and loaded!
+2025-01-10 07:35:15 [INFO]: Database PLAYERS:Players configured and loaded!
+2025-01-10 07:35:15 [INFO]: Database QUEUE:Queue configured and loaded!
+2025-01-10 07:35:15 [INFO]: Database COOLDOWN:playworld_nether configured and loaded!
+2025-01-10 07:35:15 [INFO]: Database COOLDOWN:playworld_the_end configured and loaded!
+2025-01-10 07:35:15 [INFO]: Database COOLDOWN:world configured and loaded!
+2025-01-10 07:35:15 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
+2025-01-10 07:35:22 [INFO]: Attempting to queue up some more safe locations...
+2025-01-10 07:35:23 [INFO]: Queueing paused, max queue limit reached!

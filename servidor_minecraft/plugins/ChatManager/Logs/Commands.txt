@@ -4644,3 +4644,5 @@
 [Fri Jan 10 00:54:48 UTC 2025] MehFranco: /give MehFranco minecraft:cooked_beef 64
 [Fri Jan 10 00:54:49 UTC 2025] MehFranco: /give MehFranco minecraft:cooked_beef 64
 [Fri Jan 10 00:54:50 UTC 2025] MehFranco: /give MehFranco minecraft:cooked_beef 64
+[Fri Jan 10 07:36:13 UTC 2025] MehFranco: /jb welcome \\ forms open welcome
+[Fri Jan 10 07:37:05 UTC 2025] MehFranco: /give MehFranco minecraft:cooked_beef 64

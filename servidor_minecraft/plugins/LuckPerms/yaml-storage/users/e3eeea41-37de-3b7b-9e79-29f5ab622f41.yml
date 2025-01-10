@@ -10,5 +10,6 @@ permissions:
 - reward.ready.6
 - reward.ready.7
 - reward.ready.8
+- reward.ready.9
 parents:
 - admin
