@@ -4646,3 +4646,17 @@
 [Fri Jan 10 00:54:50 UTC 2025] MehFranco: /give MehFranco minecraft:cooked_beef 64
 [Fri Jan 10 07:36:13 UTC 2025] MehFranco: /jb welcome \\ forms open welcome
 [Fri Jan 10 07:37:05 UTC 2025] MehFranco: /give MehFranco minecraft:cooked_beef 64
+[Fri Jan 10 07:52:23 UTC 2025] MehFranco: /jb skgandalf \\ forms open wizard
+[Fri Jan 10 07:52:23 UTC 2025] MehFranco: /gandalf
+[Fri Jan 10 07:52:25 UTC 2025] MehFranco: /jb skgandalf \\ forms open wizard
+[Fri Jan 10 07:52:25 UTC 2025] MehFranco: /gandalf
+[Fri Jan 10 07:52:31 UTC 2025] MehFranco: /jb skgandalf \\ forms open wizard
+[Fri Jan 10 07:52:31 UTC 2025] MehFranco: /gandalf
+[Fri Jan 10 07:52:32 UTC 2025] MehFranco: /jb skgandalf \\ forms open wizard
+[Fri Jan 10 07:52:32 UTC 2025] MehFranco: /gandalf
+[Fri Jan 10 07:52:36 UTC 2025] MehFranco: /jb skgandalf \\ forms open wizard
+[Fri Jan 10 07:52:36 UTC 2025] MehFranco: /gandalf
+[Fri Jan 10 07:52:42 UTC 2025] MehFranco: /jb sksylvia \\ forms open sylvia
+[Fri Jan 10 07:52:42 UTC 2025] MehFranco: /sylvia
+[Fri Jan 10 07:52:44 UTC 2025] MehFranco: /jb sksylvia \\ forms open sylvia
+[Fri Jan 10 07:52:44 UTC 2025] MehFranco: /sylvia

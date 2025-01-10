@@ -719,3 +719,19 @@ Latest version: v2.3.2
 [07:37:05] [Server thread/INFO]: MehFranco issued server command: /give MehFranco minecraft:cooked_beef 64
 [07:37:05] [Server thread/INFO]: [Essentials]  MehFranco was denied access to command.
 [07:43:16] [luckperms-command-executor/INFO]: [LP] Set reward.ready.9 to true for MehFranco in context global.
+[07:52:23] [Server thread/INFO]: MehFranco issued server command: /jb skgandalf \\ forms open wizard
+[07:52:23] [Server thread/INFO]: MehFranco issued mycmd (Gandalf) command /gandalf
+[07:52:25] [Server thread/INFO]: MehFranco issued server command: /jb skgandalf \\ forms open wizard
+[07:52:25] [Server thread/INFO]: MehFranco issued mycmd (Gandalf) command /gandalf
+[07:52:30] [Server thread/INFO]: [Essentials] Created a User for  (e6569f5a-1e5e-20b3-889e-937db87ff836) for non Bukkit type: net.citizensnpcs.nms.v1_21_R2.entity.EntityHumanNPC$PlayerNPC
+[07:52:31] [Server thread/INFO]: MehFranco issued server command: /jb skgandalf \\ forms open wizard
+[07:52:31] [Server thread/INFO]: MehFranco issued mycmd (Gandalf) command /gandalf
+[07:52:32] [Server thread/INFO]: MehFranco issued server command: /jb skgandalf \\ forms open wizard
+[07:52:32] [Server thread/INFO]: MehFranco issued mycmd (Gandalf) command /gandalf
+[07:52:36] [Server thread/INFO]: MehFranco issued server command: /jb skgandalf \\ forms open wizard
+[07:52:36] [Server thread/INFO]: MehFranco issued mycmd (Gandalf) command /gandalf
+[07:52:42] [Server thread/INFO]: MehFranco issued server command: /jb sksylvia \\ forms open sylvia
+[07:52:42] [Server thread/INFO]: MehFranco issued mycmd (Sylvia) command /sylvia
+[07:52:44] [Server thread/INFO]: MehFranco issued server command: /jb sksylvia \\ forms open sylvia
+[07:52:44] [Server thread/INFO]: MehFranco issued mycmd (Sylvia) command /sylvia
+[07:52:45] [Server thread/INFO]: MehFranco lost connection: Disconnected
