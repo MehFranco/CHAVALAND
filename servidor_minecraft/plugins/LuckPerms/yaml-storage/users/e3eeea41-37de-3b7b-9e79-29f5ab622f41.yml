@@ -2,11 +2,13 @@ uuid: e3eeea41-37de-3b7b-9e79-29f5ab622f41
 name: MehFranco
 primary-group: pro
 permissions:
+- challenge.p.7
 - reward.ready.1
 - reward.ready.10
 - reward.ready.11
 - reward.ready.12
 - reward.ready.13
+- reward.ready.14
 - reward.ready.2
 - reward.ready.3
 - reward.ready.4
@@ -28,5 +30,6 @@ permissions:
 - reward.take.7
 - reward.take.8
 - reward.take.9
+- rift.take.1
 parents:
 - pro

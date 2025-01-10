@@ -847,3 +847,20 @@ questdone MehFranco<--[HERE]
 [18:11:53] [Server thread/INFO]: MehFranco issued server command: /cassian2
 [18:11:53] [Server thread/INFO]: MehFranco issued mycmd (Cassian2) command /cassian2
 [18:11:57] [Server thread/INFO]: MehFranco issued server command: /rewards
+[18:18:15] [Server thread/INFO]: MehFranco issued server command: /menu
+[18:18:48] [Server thread/INFO]: MehFranco issued server command: /menu
+[18:18:55] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give MehFranco acacia_sapling 4
+[18:18:55] [Server thread/INFO]:  Giving 4 of acacia sapling to MehFranco.
+[18:18:55] [luckperms-command-executor/INFO]: [LP] Set rift.take.1 to true for MehFranco in context global.
+[18:19:06] [Server thread/INFO]: MehFranco issued server command: /menu
+[18:19:28] [luckperms-command-executor/INFO]: [LP] Set challenge.p.7 to true for MehFranco in context global.
+[18:19:49] [Server thread/INFO]: MehFranco issued server command: /menu
+[18:20:19] [Server thread/INFO]: MehFranco issued server command: /jb skgandalf \\ forms open wizard
+[18:20:19] [Server thread/INFO]: MehFranco issued mycmd (Gandalf) command /gandalf
+[18:20:22] [Server thread/INFO]: MehFranco issued server command: /gandalf3
+[18:20:22] [Server thread/INFO]: MehFranco issued mycmd (Gandalf3) command /gandalf3
+[18:20:28] [Server thread/INFO]: MehFranco issued server command: /rtp
+[18:20:41] [Server thread/INFO]:  Teleporting... please wait while we find a safe location!
+[18:20:43] [Server thread/INFO]:  MehFranco has been tp'd to x=-474 y=63 z=-1087 in 1 attempts!
+[18:20:50] [luckperms-command-executor/INFO]: [LP] Set reward.ready.14 to true for MehFranco in context global.
+[18:24:11] [Server thread/INFO]: [CombatLogX] Using non-NMS Paper EntityHandler

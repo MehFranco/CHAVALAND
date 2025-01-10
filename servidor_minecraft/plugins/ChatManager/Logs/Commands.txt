@@ -4723,3 +4723,13 @@
 [Fri Jan 10 18:11:49 UTC 2025] MehFranco: /cassian
 [Fri Jan 10 18:11:53 UTC 2025] MehFranco: /cassian2
 [Fri Jan 10 18:11:57 UTC 2025] MehFranco: /rewards
+[Fri Jan 10 18:18:15 UTC 2025] MehFranco: /menu
+[Fri Jan 10 18:18:39 UTC 2025] MehFranco: /upgrades
+[Fri Jan 10 18:18:48 UTC 2025] MehFranco: /menu
+[Fri Jan 10 18:19:06 UTC 2025] MehFranco: /menu
+[Fri Jan 10 18:19:49 UTC 2025] MehFranco: /menu
+[Fri Jan 10 18:20:08 UTC 2025] MehFranco: /warp casino
+[Fri Jan 10 18:20:19 UTC 2025] MehFranco: /jb skgandalf \\ forms open wizard
+[Fri Jan 10 18:20:19 UTC 2025] MehFranco: /gandalf
+[Fri Jan 10 18:20:22 UTC 2025] MehFranco: /gandalf3
+[Fri Jan 10 18:20:28 UTC 2025] MehFranco: /rtp

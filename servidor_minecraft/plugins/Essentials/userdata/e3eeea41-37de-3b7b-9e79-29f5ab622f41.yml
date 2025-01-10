@@ -11,7 +11,7 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1736533212355
   lastheal: 0
   mute: 0
   jail: 0
@@ -20,16 +20,16 @@ timestamps:
   login: 1736532366771
   kits:
     adventurer: 1736466908606
-money: '3182.0835000000000160'
+money: '2685.2335000000000160'
 last-account-name: MehFranco
 lastlocation:
-  world: 5691d948-7217-48a4-8edb-69b52cf7f281
-  world-name: playworld
-  x: 112.0
-  y: 63.0
-  z: 178.0
-  yaw: 0.0
-  pitch: 0.0
+  world: 65687d50-08cd-45f0-88e6-1c9a9b15d682
+  world-name: world
+  x: -43.04355874934391
+  y: 66.0
+  z: -65.52573096180407
+  yaw: 92.41324615478516
+  pitch: 19.49989891052246
 logoutlocation:
   world: 65687d50-08cd-45f0-88e6-1c9a9b15d682
   world-name: world
