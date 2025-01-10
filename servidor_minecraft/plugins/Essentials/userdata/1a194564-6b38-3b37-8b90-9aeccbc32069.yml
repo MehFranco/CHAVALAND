@@ -1,0 +1,32 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.229.108.20
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1736536644605
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 0
+  login: 1736536529469
+  kits:
+    adventurer: 1736536532419
+money: '2500'
+last-account-name: TonyTonyyy
+lastlocation:
+  world: 65687d50-08cd-45f0-88e6-1c9a9b15d682
+  world-name: world
+  x: -93.5
+  y: 64.0
+  z: -20.5
+  yaw: 57.60997772216797
+  pitch: 10.799903869628906

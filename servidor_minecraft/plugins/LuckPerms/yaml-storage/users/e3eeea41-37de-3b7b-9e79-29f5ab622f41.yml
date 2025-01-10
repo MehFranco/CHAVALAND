@@ -23,6 +23,8 @@ permissions:
 - reward.take.11
 - reward.take.12
 - reward.take.13
+- reward.take.14
+- reward.take.15
 - reward.take.2
 - reward.take.3
 - reward.take.4

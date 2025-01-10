@@ -880,3 +880,47 @@ https://www.spigotmc.org/resources/58434/update?update=560677
 [19:03:46] [Server thread/INFO]: MehFranco[/127.178.39.100:56163] logged in with entity id 153007 at ([playworld]-461.1778391488579, 63.0, -1082.699999988079)
 [19:04:04] [Server thread/INFO]: MehFranco issued server command: /menu
 [19:04:07] [Server thread/INFO]: MehFranco issued server command: /menu
+[19:08:09] [Craft Scheduler Thread - 235 - PortableCraftingInvs/INFO]: [PortableCraftingInvs] Checking for update...
+[19:09:11] [Server thread/INFO]: MehFranco issued server command: /menu
+[19:10:02] [Server thread/INFO]: MehFranco issued server command: /menu
+[19:10:11] [Server thread/INFO]: MehFranco issued server command: /spawn
+[19:10:20] [Server thread/INFO]: MehFranco issued server command: /menu
+[19:10:35] [Server thread/INFO]: MehFranco issued server command: /menu
+[19:10:56] [Server thread/INFO]: MehFranco issued server command: /jb skcassian \\ forms open cassian
+[19:10:56] [Server thread/INFO]: MehFranco issued mycmd (Cassian) command /cassian
+[19:10:57] [Server thread/INFO]: MehFranco issued server command: /jb skcassian \\ forms open cassian
+[19:10:57] [Server thread/INFO]: MehFranco issued mycmd (Cassian) command /cassian
+[19:10:59] [Server thread/INFO]: MehFranco issued server command: /cassian2
+[19:10:59] [Server thread/INFO]: MehFranco issued mycmd (Cassian2) command /cassian2
+[19:11:03] [Server thread/INFO]: MehFranco issued server command: /rewards
+[19:11:10] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give MehFranco diamond_shovel 1 efficiency:1
+[19:11:10] [luckperms-command-executor/INFO]: [LP] Set reward.take.14 to true for MehFranco in context global.
+[19:11:10] [Server thread/INFO]:  Giving 1 of diamond shovel to MehFranco.
+[19:11:11] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give MehFranco pumpkin_pie 26
+[19:11:11] [Server thread/INFO]:  Giving 26 of pumpkin pie to MehFranco.
+[19:11:11] [Server thread/INFO]:  Given x1 of  Balanced Key key(s) to MehFranco.
+[19:11:11] [luckperms-command-executor/INFO]: [LP] Set reward.take.15 to true for MehFranco in context global.
+[19:15:21] [User Authenticator #3/INFO]: [ExcellentCrates] Created new data for: '1a194564-6b38-3b37-8b90-9aeccbc32069'
+[19:15:21] [User Authenticator #3/INFO]: UUID of player TonyTonyyy is 1a194564-6b38-3b37-8b90-9aeccbc32069
+[19:15:29] [Server thread/INFO]: TonyTonyyy[/127.229.108.20:57939] logged in with entity id 167624 at ([playworld]3.5, 68.0, 6.5)
+[19:15:50] [Server thread/INFO]: TonyTonyyy issued server command: /jb skgandalf \\ forms open wizard
+[19:15:50] [Server thread/INFO]: TonyTonyyy issued mycmd (Gandalf) command /gandalf
+[19:15:59] [Server thread/INFO]: TonyTonyyy issued server command: /menu
+[19:16:16] [Server thread/INFO]: TonyTonyyy issued server command: /gandalf2
+[19:16:16] [Server thread/INFO]: TonyTonyyy issued mycmd (Gandalf2) command /gandalf2
+[19:16:21] [Server thread/INFO]: TonyTonyyy issued server command: /warps
+[19:16:29] [luckperms-command-executor/INFO]: [LP] Set reward.ready.1 to true for TonyTonyyy in context global.
+[19:16:37] [Server thread/INFO]: TonyTonyyy issued server command: /gandalf2
+[19:16:37] [Server thread/INFO]: TonyTonyyy issued mycmd (Gandalf2) command /gandalf2
+[19:16:43] [Server thread/INFO]: TonyTonyyy issued server command: /menu
+[19:16:47] [Server thread/INFO]: TonyTonyyy issued server command: /menu
+[19:17:02] [Server thread/INFO]: TonyTonyyy issued server command: /menu
+[19:17:17] [Server thread/INFO]: TonyTonyyy issued server command: /menu
+[19:17:28] [Server thread/INFO]: TonyTonyyy issued server command: /menu
+[19:17:37] [Server thread/INFO]: TonyTonyyy issued server command: /menu
+[19:17:41] [Server thread/INFO]: TonyTonyyy issued server command: /menu
+[19:17:45] [Server thread/INFO]: TonyTonyyy issued server command: /menu
+[19:17:55] [Server thread/INFO]: TonyTonyyy issued server command: /menu
+[19:18:00] [Server thread/INFO]: TonyTonyyy issued server command: /menu
+[19:18:08] [Server thread/INFO]: TonyTonyyy issued server command: /gandalf2
+[19:18:08] [Server thread/INFO]: TonyTonyyy issued mycmd (Gandalf2) command /gandalf2

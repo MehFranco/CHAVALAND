@@ -11,7 +11,7 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1736533212355
+  lastteleport: 1736536243755
   lastheal: 0
   mute: 0
   jail: 0
@@ -25,11 +25,11 @@ last-account-name: MehFranco
 lastlocation:
   world: 65687d50-08cd-45f0-88e6-1c9a9b15d682
   world-name: world
-  x: -43.04355874934391
+  x: -38.329465163831685
   y: 66.0
-  z: -65.52573096180407
-  yaw: 92.41324615478516
-  pitch: 19.49989891052246
+  z: -63.56634244322849
+  yaw: 42.31587219238281
+  pitch: 20.399917602539062
 logoutlocation:
   world: 5691d948-7217-48a4-8edb-69b52cf7f281
   world-name: playworld
