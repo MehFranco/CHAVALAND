@@ -762,3 +762,19 @@ Latest version: v2.3.2
 [17:46:08] [Server thread/INFO]: MehFranco issued mycmd (Marcus) command /marcus
 [17:46:10] [Server thread/INFO]: MehFranco issued server command: /marcus1
 [17:46:10] [Server thread/INFO]: MehFranco issued mycmd (Marcus1) command /marcus1
+[17:47:15] [Server thread/INFO]: Incorrect argument for command
+...p Mehdeop MehFranco<--[HERE]
+[17:47:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /s 
+[17:47:18] [Server thread/INFO]:  Only in-game players can use s.
+[17:47:24] [Server thread/INFO]: Made MehFranco no longer a server operator
+[17:47:46] [Server thread/INFO]: Made MehFranco a server operator
+[17:48:14] [Server thread/INFO]: Made MehFranco no longer a server operator
+[17:48:48] [luckperms-command-executor/INFO]: [LP] Set reward.ready.11 to true for MehFranco in context global.
+[17:49:13] [Server thread/INFO]: Unknown or incomplete command, see below for error
+ferma MehFranco<--[HERE]
+[17:49:58] [Server thread/INFO]: MehFranco issued server command: /daily
+[17:49:58] [Server thread/INFO]:  Given x1 of  Daily Key key(s) to MehFranco.
+[17:53:08] [Server thread/INFO]: MehFranco issued server command: /jb sknoah \\ forms open noah
+[17:53:08] [Server thread/INFO]: MehFranco issued mycmd (Noah) command /noah
+[17:53:10] [Server thread/INFO]: MehFranco issued server command: /noah1
+[17:53:10] [Server thread/INFO]: MehFranco issued mycmd (Noah1) command /noah1

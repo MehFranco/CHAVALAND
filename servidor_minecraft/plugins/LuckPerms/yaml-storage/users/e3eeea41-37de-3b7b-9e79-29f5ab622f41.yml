@@ -4,6 +4,7 @@ primary-group: pro
 permissions:
 - reward.ready.1
 - reward.ready.10
+- reward.ready.11
 - reward.ready.2
 - reward.ready.3
 - reward.ready.4
